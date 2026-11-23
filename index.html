@@ -55,10 +55,10 @@ input[type=range]{accent-color:var(--ink)}
 .star.on{color:#E8402B}
 .empty{padding:80px 0;text-align:center;color:var(--mut)}
 /* страница шрифта */
-.cover{position:relative;height:min(78vh,720px);min-height:480px;container-type:size;overflow:hidden}
+.cover{position:relative;height:min(72vh,660px);min-height:440px;container-type:size;overflow:hidden;border-radius:calc(var(--rk,1)*24px);margin-bottom:28px}
 .cover .art{position:absolute;inset:0}
 .cover .art [style*="right:3cqw;bottom:3cqw"]{display:none}
-.cover .ov{position:absolute;left:32px;right:32px;bottom:24px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;z-index:2}
+.cover .ov{position:absolute;left:20px;right:20px;bottom:18px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;z-index:2}
 .cover .nm{background:rgba(241,239,234,.94);backdrop-filter:blur(10px);border-radius:calc(var(--rk,1)*20px);padding:14px 18px}
 .cover .nm h1{margin:0;font-weight:400;font-size:40px;line-height:1;letter-spacing:-1px}
 .cover .nm div{font-size:12px;color:var(--mut);margin-top:6px}
@@ -202,7 +202,7 @@ sup{font-size:.42em;vertical-align:.95em;margin-left:.03em}
 .h3c h1{margin:0;font-weight:400;font-size:clamp(40px,6vw,72px);line-height:1;letter-spacing:-2px}
 .h3c p{margin:0;color:#A5A09B!important;font-size:16px}
 .h3c input{color:#F1EFEA;border-bottom-color:rgba(241,239,234,.3)}
-.hsw{position:fixed;left:16px;bottom:62px;z-index:40;display:flex;gap:4px;background:rgba(12,11,13,.88);padding:5px;border-radius:999px}
+.hsw{position:fixed;right:16px;bottom:62px;z-index:40;display:flex;gap:4px;background:rgba(12,11,13,.88);padding:5px;border-radius:999px}
 .hsw button{border:0;background:transparent;color:#F1EFEA;font:500 12px 'Golos Text';padding:7px 12px;border-radius:999px}.hsw button.on{background:#FF7122;color:#0C0B0D}
 @media(max-width:900px){.h2wall{grid-template-columns:1fr 1fr}.h2t0,.h2t5{grid-column:span 2}.h2card{position:relative;left:auto;top:auto;transform:none;margin:-60px auto 0;width:auto}.h2x{padding:12px 16px 0}.star3{display:none}}
 /* ===== варианты ===== */
@@ -211,7 +211,7 @@ body{background-color:var(--pap)}
 .stars p{color:#A5A09B!important}
 .stars .pill.dark{background:#F1EFEA;color:#0C0B0D}.stars .pill.soft{background:rgba(241,239,234,.12);color:#F1EFEA}
 .plq{background:#FF7122;color:#0C0B0D;padding:0 .14em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.vsw{position:fixed;left:16px;bottom:16px;z-index:40;display:flex;gap:4px;background:rgba(12,11,13,.88);padding:5px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.vsw{position:fixed;right:16px;bottom:16px;z-index:40;display:flex;gap:4px;background:rgba(12,11,13,.88);padding:5px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.2)}
 .vsw button{border:0;background:transparent;color:#F1EFEA;font:500 12px 'Golos Text';padding:7px 12px;border-radius:999px}
 .vsw button.on{background:#F1EFEA;color:#0C0B0D}
 .binfo{margin:16px 0 0;border-radius:calc(var(--rk,1)*22px);background:var(--bg);color:var(--fg);padding:22px 24px;display:grid;grid-template-columns:1.4fr 1fr;gap:10px 28px}.binfo .mono{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.06em;opacity:.75}.binfo .bi-h{grid-column:1/-1}.binfo .bi-t{font-size:19px;line-height:1.4;margin:0}.binfo .bi-c{display:grid;gap:12px}.binfo .bi-c p{margin:4px 0 0;font-size:15px;line-height:1.4}@media(max-width:900px){.binfo{grid-template-columns:1fr}}
@@ -708,14 +708,14 @@ function pairFor(f){ // подсказки пар по логике; реаль�
 function similarFor(f){const pf=prof(f);if(pf){const r=FONTS.filter(x=>x!==f&&prof(x)).map(x=>{const q=prof(x);return [x,AX.reduce((s,[k])=>s+Math.pow(q[k]-pf[k],2),0)+(x[1]===f[1]?0:900)]}).sort((a,b)=>a[1]-b[1]).slice(0,3).map(a=>a[0]);if(r.length===3)return r}const same=FONTS.filter(x=>x!==f&&x[1]===f[1]);const s=[...same].sort((a,b)=>Math.abs(a[5]-f[5])-Math.abs(b[5]-f[5]));return s.slice(0,6).sort(()=>Math.random()-.5).slice(0,3)}
 function fontPage(f){
  F=f;const ws=weightsOf(f),vf=f[2]&&f[3]<f[4];const gl=f[7]?`${REPO}#/font/${f[7]}`:`https://fonts.google.com/specimen/${f[0].replace(/ /g,'+')}`;
- app.innerHTML=`<section class="cover" id="cover"><div class="art"></div>
- <div class="ov"><div class="nm crop"><h1 style="font-family:${fam(f)}">${esc(f[0])}</h1><div>${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${vf?' · вариативный':''} · можно для клиента</div></div>
- <div class="act"><button class="pill" type="button" id="cv">↻ Другая обложка</button><button class="pill ${isFav(f[0])?'dark':''}" type="button" id="fv">${isFav(f[0])?'★ В журнале':'☆ В журнал'}</button><button class="pill" type="button" data-tg="1">✈ В Telegram</button><a class="pill dark" href="${gl}" target="_blank" rel="noopener">Скачать</a></div></div></section>
- <div class="wrap"><div class="fp">
+ app.innerHTML=`<div class="wrap"><div class="fp">
  <aside class="side"><div class="box"><div class="n" style="font-family:${fam(f)}">${esc(f[0])}</div><small>${CAT[f[1]]} · ${f[5]} ${plural(f[5])}</small><div class="lic">● Можно для клиента · ${esc(f[10]||"OFL")}</div><a class="pill lt" href="${gl}" target="_blank" rel="noopener">Скачать</a><button class="pill" type="button" data-tg="1" style="background:rgba(241,239,234,.14);color:var(--pap)">✈ Отправить в Telegram</button></div>
  <div class="sphr"><label for="sph">СВОЙ ТЕКСТ — МЕНЯЕТ ВСЮ СТРАНИЦУ</label><textarea id="sph" rows="2">${esc(PHRASE||DEF)}</textarea><div class="q">${phraseSelect("sps")}<button type="button" id="srnd">🎲 Случайная</button></div></div>
  <nav class="toc" aria-label="Разделы страницы">${SECS.map(([n,t])=>`<a href="#s${n}" data-s="${n}"><span>${n}</span>${t}</a>`).join('')}</nav></aside>
  <div>
+ <section class="cover" id="cover"><div class="art"></div>
+ <div class="ov"><div class="nm crop"><h1 style="font-family:${fam(f)}">${esc(f[0])}</h1><div>${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${vf?' · вариативный':''} · можно для клиента</div></div>
+ <div class="act"><button class="pill" type="button" id="cv">↻ Другая обложка</button><button class="pill ${isFav(f[0])?'dark':''}" type="button" id="fv">${isFav(f[0])?'★ В журнале':'☆ В журнал'}</button><button class="pill" type="button" data-tg="1">✈ В Telegram</button><a class="pill dark" href="${gl}" target="_blank" rel="noopener">Скачать</a></div></div></section>
  <section class="reveal" aria-label="Фраза шрифтом"><div class="rw" id="rw" style="font-family:${fam(f)};font-weight:${baseW(f)}"></div></section>
  <section class="sec" id="s01"><div class="sh"><h2><span>01</span>Знакомство · <span class="plq" style="font:inherit;letter-spacing:inherit;vertical-align:baseline;margin:0;color:#0C0B0D">можно для клиента</span></h2><small>печать фразы</small></div>
  <div class="tags" style="margin-bottom:22px"><span class="tag ok">● Можно для клиента</span>${vf?'<span class="tag">Вариативный</span>':''}${f[6]?'<span class="tag">Есть курсив</span>':''}<span class="tag">${f[5]} ${plural(f[5])}</span><span class="tag">Кириллица</span></div>
