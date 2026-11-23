@@ -104,5 +104,5 @@ function page(c){
 function route(){const h=location.hash;if(h.startsWith('#/font/')){const c=CAT.find(x=>x.slug===h.slice(7));if(c)return page(c)}document.title='Шрифты Perasperadastra: бесплатные, с кириллицей';list()}
 addEventListener('scroll',()=>{if(!location.hash.startsWith('#/font/'))sessionStorage.setItem('pa_y',scrollY)});
 addEventListener('hashchange',route);
-fetch('catalog.json').then(r=>r.json()).then(j=>{CAT=j;ORDER=j.slice().sort(()=>Math.random()-.5);route()});
+fetch('catalog.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>{CAT=j;ORDER=j.slice().sort(()=>Math.random()-.5);route()});
 </script></body></html>
