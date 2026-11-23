@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 141 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 149 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -42,8 +42,10 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Benori | GGBot | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/benori-font) |
 | Better VCR | artdzyk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/better-vcr.font) |
 | Bewlay BR1 | JORN.SB; JORN.SB, Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/bewlay-br1-cyrillic.otf) |
+| Bezmiar Cyrillic | Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/bezmiar-cyrillic.otf) |
 | Blackcraft | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Bondi | Alejo Bergmann, Denis Ignatov; Hubert & Fischer | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/bondi.otf) |
+| Caesar Dressing Cyrillic | Open Window, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/caesar-dressing-cyrillic.otf) |
 | Cairopixel | GGBot | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/cairopixel-font) |
 | Caskaydia Cove | Eli Heuer | SIL OFL 1.1 | 7 | [github.com](https://github.com/eliheuer/caskaydia-cove) |
 | CAT DyFa | Peter Wiegel | SIL OFL 1.1 | 3 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/CATDyFa.zip) |
@@ -74,12 +76,16 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Futurespore | Andrew Young | CC BY-SA | 1 | [mutno.me](https://mutno.me/fonts/files/futurespore-cyrillic.otf) |
 | Garamond Libre | Daniel Benjamin Miller | MIT / X11 | 4 | [github.com](https://github.com/dbenjaminmiller/garamond-libre) |
 | Gerhaus | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Gochi Hand Cyrillic | Huerta Tipografica, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gochi-hand-cyrillic.otf) |
 | Gogono Cocoa Mochi | Goma Shin, Denis Ignatov; https://scripts.sil.org/OFL | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gogono-cocoa-mochi-cyrillic.otf) |
 | Googee | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/googee.zip) |
+| Gugi Cyrillic | TAE System &amp; Typefaces Co., Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gugi-cyrillic.otf) |
 | Guidy | Матвей Малкин aka nicl4m | SIL OFL 1.1 | 1 | [github.com](https://github.com/collectivetypeworks/Guidy/releases/download/Typeface/Guidy-1.1.zip) |
 | Hack | Source Foundry; Source Foundry Authors | CC0 / Public Domain | 4 | [github.com](https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip) |
+| Harpseal | David Jonathan Ross, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/harpseal.otf) |
 | Helvetia Verbundene | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/Helvetia.zip) |
 | HG2G | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/HG2G/HG2G.otf) |
+| Hi Melody Cyrillic | YoonDesign Inc., Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/hi-melody-cyrillic.otf) |
 | Home Video | GGBot | CC0 / Public Domain | 2 | [ggbot.itch.io](https://ggbot.itch.io/home-video-font) |
 | Hooskai Chamfered Square | 胡斯凯 | SIL OFL 1.1 | 1 | [github.com](https://github.com/SiberiaHusky/Hooskai-Chamfered-Square) |
 | Horta | Tim Larson | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/horta) |
@@ -90,6 +96,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Jolly Lodger | Font Diner, Inc; Stuart Sandler | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/jolly-lodger-cyrillic.otf) |
 | Jupiteroid | GGBot | CC0 / Public Domain | 6 | [ggbot.itch.io](https://ggbot.itch.io/jupiteroid-font) |
 | Just Breathe | Cannot Into Space Fonts | SIL OFL 1.1 | 10 | [www.dafont.com](https://www.dafont.com/just-breathe.font) |
+| Kaiju Monster G Cyrillic | Goma Shin, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/kaiju-monster-g-cyrillic.otf) |
 | Kelvinch | Paul Miller | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/en/font/kelvinch) |
 | KJV1611 | Fredrick R. Brennan | SIL OFL 1.1 | 1 | [github.com](https://github.com/ctrlcctrlv/kjv1611/releases/download/v3.6.1/KJV1611.otf) |
 | Kom-post | @guaschetti; guaschetti | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/kom-post.ttf) |
@@ -119,6 +126,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Osterbar | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/Osterbar.zip) |
 | overdoze sans | IsamiRi | SIL OFL 1.1 | 1 | [github.com](https://github.com/isamirivers/overdoze-sans) |
 | Paperfiller | Denis Ignatov; Pablo Cosgaya & Dani Raskovsky | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/paperfiller.otf) |
+| Passero One Cyrillic | Viktoriya Grabowska, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/passero-one-cyrillic.ttf) |
 | Pecita | Phillipe Cochy | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/pecita.font) |
 | Peter Ivanowitsch | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/Peter_Ivanovitsch.zip) |
 | Pinzelan | GGBot | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/pinzelan-cyrillic.otf) |

@@ -291,6 +291,29 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Bezmiar Cyrillic",
+  "slug": "bezmiar-cyrillic",
+  "author": "Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "bezmiar-cyrillic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/bezmiar-cyrillic.otf",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2025, Adam Falkowski OHWOW Design Co. (halo@ohwow.pl), (c) 2025 Cyrillic set by Denis Ignatov.",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
   "name": "Blackcraft",
   "slug": "blackcraft",
   "author": "GGBotNet",
@@ -334,6 +357,29 @@
   "source": "https://mutno.me/fonts/files/bondi.otf",
   "cyrillic": "ru",
   "copyright": "Copyright © 2018 by Alejo Bergmann, Copyright © 2019 Cyrillic set by Denis Ignatov",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Caesar Dressing Cyrillic",
+  "slug": "caesar-dressing-cyrillic",
+  "author": "Open Window, Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "caesar-dressing-cyrillic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/caesar-dressing-cyrillic.otf",
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Caesar Dressing\", (c) 2020 by Denis",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
@@ -1103,6 +1149,29 @@
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Gochi Hand Cyrillic",
+  "slug": "gochi-hand-cyrillic",
+  "author": "Huerta Tipografica, Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "gochi-hand-cyrillic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/gochi-hand-cyrillic.otf",
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar); (c) 2018, Denis Ignatov (mutno.me/fonts)",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
   "name": "Gogono Cocoa Mochi",
   "slug": "gogono-cocoa-mochi",
   "author": "Goma Shin, Denis Ignatov; https://scripts.sil.org/OFL",
@@ -1147,6 +1216,29 @@
   "source": "https://www.peter-wiegel.de/Fonts/googee.zip",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2018 by CATFonts Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "Gugi Cyrillic",
+  "slug": "gugi-cyrillic",
+  "author": "TAE System &amp; Typefaces Co., Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "gugi-cyrillic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/gugi-cyrillic.otf",
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2017 by TAE System & Typefaces Co.. All rights reserved. Copyright (c) 2020, Cyrillic set by Denis Ignatov",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Guidy",
@@ -1198,6 +1290,29 @@
   "copyright": "Copyright (c) 2018 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved."
  },
  {
+  "name": "Harpseal",
+  "slug": "harpseal",
+  "author": "David Jonathan Ross, Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "harpseal.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/harpseal.otf",
+  "cyrillic": "ru",
+  "copyright": "(c) 2018 Denis Ignatov (https://mutno.me/fonts)",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
   "name": "Helvetia Verbundene",
   "slug": "helvetia-verbundene",
   "author": "Peter Wiegel",
@@ -1241,6 +1356,29 @@
   "source": "https://dimka.com/fonts/HG2G/HG2G.otf",
   "cyrillic": "ru+ua",
   "copyright": "Dmitri Zdorov",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Hi Melody Cyrillic",
+  "slug": "hi-melody-cyrillic",
+  "author": "YoonDesign Inc., Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "hi-melody-cyrillic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/hi-melody-cyrillic.otf",
+  "cyrillic": "ru",
+  "copyright": "YoonDesign Inc., Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
@@ -1496,6 +1634,29 @@
   "source": "https://www.dafont.com/just-breathe.font",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2015, Cannot Into Space Fonts, All Rights Reserved."
+ },
+ {
+  "name": "Kaiju Monster G Cyrillic",
+  "slug": "kaiju-monster-g-cyrillic",
+  "author": "Goma Shin, Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "kaiju-monster-g-cyrillic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/kaiju-monster-g-cyrillic.otf",
+  "cyrillic": "ru+ua",
+  "copyright": "Goma Shin, Denis Ignatov",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Kelvinch",
@@ -2276,6 +2437,29 @@
   "source": "https://mutno.me/fonts/files/paperfiller.otf",
   "cyrillic": "ru",
   "copyright": "Copyright 2016 The Bahiana Project Authors, Copyright 2018 Denis Ignatov (http://mutno.me/font)",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Passero One Cyrillic",
+  "slug": "passero-one-cyrillic",
+  "author": "Viktoriya Grabowska, Денис Игнатов",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "passero-one-cyrillic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/passero-one-cyrillic.ttf",
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names \"Passero\". Copyright (c) 2019, Denis Ig",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
