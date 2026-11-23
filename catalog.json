@@ -1,5 +1,56 @@
 [
  {
+  "name": "3D Isometric",
+  "slug": "3d-isometric",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700,
+   900
+  ],
+  "files": [
+   "3DIsometric-Black.ttf",
+   "3DIsometric-Bold.ttf",
+   "3DIsometric-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2020-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "5by7",
+  "slug": "5by7",
+  "author": "Peter Wiegel",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "5by7.ttf",
+   "5by7_b.ttf"
+  ],
+  "license_files": [
+   "OFL-FAQ.txt",
+   "Open Font License.txt"
+  ],
+  "source": "https://www.dafont.com/5by7.font",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2013 by Peter Wiegel. All rights reserved."
+ },
+ {
   "name": "Acari Sans",
   "slug": "acari-sans",
   "author": "Alfredo Marco Pradil (initial realese as HK Grotesk, Latin version), Stefan Peev",
@@ -155,6 +206,29 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Arrose",
+  "slug": "arrose",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Arrose-Italic.ttf",
+   "Arrose-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
+ },
+ {
   "name": "Arturito Slab",
   "slug": "arturito-slab",
   "author": "Cristian Tournier",
@@ -176,6 +250,74 @@
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2019, Cristian Tournier \n(cristiantournier@gmail.com)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Audex",
+  "slug": "audex",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Audex-Italic.ttf",
+   "Audex-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "AVA",
+  "slug": "ava",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "AVA.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Bad Comic",
+  "slug": "bad-comic",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "BadComic-Italic.ttf",
+   "BadComic-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2020-2025 GGBotNet. All Rights Reserved."
  },
  {
   "name": "Balhattan",
@@ -221,6 +363,28 @@
   "source": "https://fontlibrary.org/font/banana-brick",
   "cyrillic": "ru",
   "copyright": "Banana Brick. Copyright (c) 2011 by artmaker. All rights reserved."
+ },
+ {
+  "name": "Basis33",
+  "slug": "basis33",
+  "author": "Manchson",
+  "class": "Декоративный",
+  "license": "MIT / X11",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "basis33.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://www.dafont.com/basis33.font",
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2004, 2005 Tristan Grimmer\nCopyright (c) 2014 Manchson\n \nPermission is hereby granted, free of charge, to "
  },
  {
   "name": "Benori",
@@ -337,6 +501,52 @@
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Blaec",
+  "slug": "blaec",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "CC0 / Public Domain",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Blaec-Italic.ttf",
+   "Blaec-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Blazma",
+  "slug": "blazma",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Blazma-Italic.ttf",
+   "Blazma-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
+ },
+ {
   "name": "Bondi",
   "slug": "bondi",
   "author": "Alejo Bergmann, Denis Ignatov; Hubert & Fischer",
@@ -358,6 +568,29 @@
   "cyrillic": "ru",
   "copyright": "Copyright © 2018 by Alejo Bergmann, Copyright © 2019 Cyrillic set by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Bubblez Graffiti",
+  "slug": "bubblez-graffiti",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "BubblezGraffiti-Italic.ttf",
+   "BubblezGraffiti-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
  {
   "name": "Caesar Dressing Cyrillic",
@@ -462,6 +695,29 @@
   "source": "https://www.peter-wiegel.de/Fonts/CATDyFa.zip",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2016 by Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "CAT Hohenzollern",
+  "slug": "cat-hohenzollern",
+  "author": "Peter Wiegel",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "CAT Hohenzollern.ttf"
+  ],
+  "license_files": [
+   "OFL-FAQ.txt",
+   "OFL.txt"
+  ],
+  "source": "https://www.dafont.com/cat-hohenzollern.font",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2014 by Peter Wiegel. All rights reserved."
  },
  {
   "name": "CAT Linz",
@@ -1218,6 +1474,28 @@
   "copyright": "Copyright (c) 2018 by CATFonts Peter Wiegel. All rights reserved."
  },
  {
+  "name": "Gridtile",
+  "slug": "gridtile",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Gridtile.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "Gugi Cyrillic",
   "slug": "gugi-cyrillic",
   "author": "TAE System &amp; Typefaces Co., Денис Игнатов",
@@ -1334,6 +1612,33 @@
   "source": "https://www.peter-wiegel.de/Fonts/Helvetia.zip",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2010 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
+  "name": "Heuristica",
+  "slug": "heuristica",
+  "author": "Andrej Panov",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Heuristica-Bold.otf",
+   "Heuristica-BoldItalic.otf",
+   "Heuristica-Italic.otf",
+   "Heuristica-Regular.otf"
+  ],
+  "license_files": [
+   "OFL-FAQ.txt",
+   "OFL.txt"
+  ],
+  "source": "https://ctan.org/pkg/heuristica",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 1989, 1991 Adobe Systems Incorporated.  All Rights Reserved. Utopia is either a registered trademark or tr"
  },
  {
   "name": "HG2G",
@@ -1576,6 +1881,32 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Jolly Sweater",
+  "slug": "jolly-sweater",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "JollySweater-Bold.ttf",
+   "JollySweater-Light.ttf",
+   "JollySweater-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
   "name": "Jupiteroid",
   "slug": "jupiteroid",
   "author": "GGBot",
@@ -1657,6 +1988,52 @@
   "cyrillic": "ru+ua",
   "copyright": "Goma Shin, Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Kanalisirung",
+  "slug": "kanalisirung",
+  "author": "Peter Wiegel",
+  "class": "Декоративный, Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "Kanalisirung.otf"
+  ],
+  "license_files": [
+   "OFL-FAQ.txt",
+   "OFL.txt"
+  ],
+  "source": "https://www.dafont.com/kanalisirung.font",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2014 by Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "Kaph",
+  "slug": "kaph",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Kaph-Italic.ttf",
+   "Kaph-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
  {
   "name": "Kelvinch",
@@ -1751,6 +2128,29 @@
   "source": "https://ggbot.itch.io/",
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2026 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Lambda",
+  "slug": "lambda",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Lambda-Italic.ttf",
+   "Lambda-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2021-2025 GGBotNet. All Rights Reserved."
  },
  {
   "name": "Lanze",
@@ -1850,6 +2250,52 @@
   "source": "https://ggbot.itch.io/",
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Liber Struct",
+  "slug": "liber-struct",
+  "author": "GGBotNet; https://fontstruct.com",
+  "class": "",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Liber-Struct.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright GGBotNet 2025"
+ },
+ {
+  "name": "Linerama",
+  "slug": "linerama",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Linerama-Bold.ttf",
+   "Linerama-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
  {
   "name": "Lorenzo Sans",
@@ -1977,6 +2423,30 @@
   "source": "https://typodermicfonts.com/public-domain/",
   "cyrillic": "ru",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Mavoble",
+  "slug": "mavoble",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Mavoble-Bold.ttf",
+   "Mavoble-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
  {
   "name": "Metal Lord",
@@ -2654,6 +3124,28 @@
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
  {
+  "name": "Public Pixel",
+  "slug": "public-pixel",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "PublicPixel.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "Pulstar",
   "slug": "pulstar",
   "author": "GGBotNet",
@@ -3149,6 +3641,30 @@
   "copyright": "Copyright (c) Alexey Kryukov, 2007-2010. All rights reserved."
  },
  {
+  "name": "Trigram",
+  "slug": "trigram",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400
+  ],
+  "files": [
+   "Trigram-Light.ttf",
+   "Trigram-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
+ },
+ {
   "name": "TT2020 Style E",
   "slug": "tt2020-style-e",
   "author": "Fredrick Brennan",
@@ -3382,6 +3898,29 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "X Company",
+  "slug": "x-company",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "XCompany-Italic.ttf",
+   "XCompany-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
   "name": "X Typewriter",
   "slug": "x-typewriter",
   "author": "GGBot",
@@ -3404,6 +3943,29 @@
   "source": "https://ggbot.itch.io/x-typewriter-font",
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2026 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Xanmono",
+  "slug": "xanmono",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Xanmono-Italic.ttf",
+   "Xanmono-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
  {
   "name": "Xiaolai SC",
@@ -3495,6 +4057,29 @@
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge"
  },
  {
+  "name": "Yulong",
+  "slug": "yulong",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Yulong-Italic.ttf",
+   "Yulong-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
+ },
+ {
   "name": "Zantroke",
   "slug": "zantroke",
   "author": "gluk",
@@ -3564,6 +4149,28 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Zector",
+  "slug": "zector",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Zector.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2020-2023 GGBotNet. All Rights Reserved."
+ },
+ {
   "name": "Zeitmax",
   "slug": "zeitmax",
   "author": "GGBotNet",
@@ -3610,6 +4217,28 @@
   "source": "https://typodermicfonts.com/public-domain/",
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Zero Cool",
+  "slug": "zero-cool",
+  "author": "GGBotNet",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "ZeroCool.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/",
+  "cyrillic": "ru+ua",
+  "copyright": "© 2023 GGBotNet"
  },
  {
   "name": "Znikomit",
@@ -3677,6 +4306,29 @@
   "source": "https://dimka.com/fonts/Xarrovv/Xarrovv.otf",
   "cyrillic": "ru+ua",
   "copyright": "Dmitri Zdorov",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Крамола (Kramola)",
+  "slug": "kramola",
+  "author": "Алексей Меднов",
+  "class": "",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Kramola.otf"
+  ],
+  "license_files": [
+   "LICENSE-CC0.txt"
+  ],
+  "source": "https://www.dafont.com/kramola.font",
+  "cyrillic": "ru+ua",
+  "copyright": "",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
