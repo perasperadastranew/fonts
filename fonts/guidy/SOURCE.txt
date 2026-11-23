@@ -1,0 +1,3 @@
+Шрифт: Guidy
+Скачано: 2026-11-23 с https://github.com/collectivetypeworks/Guidy/releases/download/Typeface/Guidy-1.1.zip
+Репозиторий: https://github.com/collectivetypeworks/Guidy

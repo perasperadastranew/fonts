@@ -1,0 +1,3 @@
+Шрифт: Vollda Bold
+Скачано: 2026-11-23 с https://github.com/alexburba/vollda-typeface
+Репозиторий: https://github.com/alexburba/vollda-typeface

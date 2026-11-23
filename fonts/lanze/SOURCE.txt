@@ -1,0 +1,3 @@
+Шрифт: Lanze
+Скачано: 2026-11-23 с https://github.com/dimgrenev/lanze/releases/download/v0.1/Lanze-v0.1.zip
+Репозиторий: https://github.com/dimgrenev/lanze

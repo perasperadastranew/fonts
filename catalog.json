@@ -41,6 +41,29 @@
   "copyright": "Copyright (c) 2015, HK Grotesk Latin by Alfredo Marco Pradil (ammpradil@gmail.com) and HK Grotesk Cyrillic by Stefan Pee"
  },
  {
+  "name": "Ambidexter Regular",
+  "slug": "ambidexter-regular",
+  "author": "Егор Белозёров",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Ambidexter_Regular.otf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "OFL.txt"
+  ],
+  "source": "https://github.com/egaindahouse/Ambidexter",
+  "cyrillic": "ru",
+  "copyright": "Copyright © 2021, Egor Belozerov. All rights reserved."
+ },
+ {
   "name": "Amstelvar",
   "slug": "amstelvar",
   "author": "David Berlow",
@@ -64,6 +87,28 @@
   "copyright": ""
  },
  {
+  "name": "Anticva Regular",
+  "slug": "anticva-regular",
+  "author": "Константин Крастев",
+  "class": "Декоративный, Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Anticva-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/KonstatinKrastev/Anticva-Font",
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2021, Konstantin Krastev"
+ },
+ {
   "name": "Aoudax",
   "slug": "aoudax",
   "author": "William Zhang",
@@ -84,7 +129,7 @@
   "source": "https://mutno.me/fonts/files/aoudax-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "Copyright © 2020 William Zhang, © 2021 Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "ARCO",
@@ -107,7 +152,7 @@
   "source": "https://mutno.me/fonts/files/arco-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "© 2019, Rafael Olivo Díaz, Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Arturito Slab",
@@ -130,7 +175,7 @@
   "source": "https://mutno.me/fonts/files/arturito.ttf",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2019, Cristian Tournier \n(cristiantournier@gmail.com)",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Balhattan",
@@ -220,7 +265,7 @@
   "source": "https://www.dafont.com/better-vcr.font",
   "cyrillic": "ru+ua",
   "copyright": "(c) artdzyk 2022-2025, Kanji from PAWFONT by Pau (Yasuaki Ohno)",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Bewlay BR1",
@@ -243,7 +288,7 @@
   "source": "https://mutno.me/fonts/files/bewlay-br1-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "Copyright © 2019 by JORN.SB, Copyright © 2019 Cyrillic set by Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Blackcraft",
@@ -289,7 +334,7 @@
   "source": "https://mutno.me/fonts/files/bondi.otf",
   "cyrillic": "ru",
   "copyright": "Copyright © 2018 by Alejo Bergmann, Copyright © 2019 Cyrillic set by Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Cairopixel",
@@ -312,6 +357,40 @@
   "source": "https://ggbot.itch.io/cairopixel-font",
   "cyrillic": "ru+ua",
   "copyright": "© 2025 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Caskaydia Cove",
+  "slug": "caskaydia-cove",
+  "author": "Eli Heuer",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 7,
+  "variable": true,
+  "italic": false,
+  "weights": [
+   200,
+   300,
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "CaskaydiaCove-Bold.ttf",
+   "CaskaydiaCove-ExtraLight.ttf",
+   "CaskaydiaCove-Light.ttf",
+   "CaskaydiaCove-Medium.ttf",
+   "CaskaydiaCove-Regular.ttf",
+   "CaskaydiaCove-SemiBold.ttf",
+   "CaskaydiaCove[wght].ttf"
+  ],
+  "license_files": [
+   "OFL-FAQ.txt",
+   "OFL.txt"
+  ],
+  "source": "https://github.com/eliheuer/caskaydia-cove",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Caskaydia Cove Project Authors (https://github.com/eliheuer/caskaydia-cove)"
  },
  {
   "name": "CAT DyFa",
@@ -360,6 +439,29 @@
   "source": "https://www.dafont.com/cat-linz.font",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
+  "name": "Classic Console Neue",
+  "slug": "classic-console-neue",
+  "author": "DeeJayy",
+  "class": "Декоративный",
+  "license": "MIT / X11",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "clacon2.ttf"
+  ],
+  "license_files": [
+   "LICENSE-MIT.txt"
+  ],
+  "source": "https://github.com/em-777/classic-console-neue",
+  "cyrillic": "ru+ua",
+  "copyright": "Classic Console Neue © DeeJayy. 2011-2021. All Rights Reserved.",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Clear Sans",
@@ -440,7 +542,7 @@
   "source": "https://www.dafont.com/code-new-roman.font",
   "cyrillic": "ru+ua",
   "copyright": "© 2014 Sam Radian. All Rights Reserved.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Colatemta",
@@ -553,7 +655,7 @@
   "source": "https://mutno.me/fonts/files/creepster-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011, Font Diner, Inc (diner@fontdiner.com), with Reserved Font Names \"Creepster\". (c) 2022, Cyrillic set ",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Crosterian",
@@ -660,6 +762,29 @@
   "source": "https://ggbot.itch.io/digit-tech-font",
   "cyrillic": "ru+ua",
   "copyright": ""
+ },
+ {
+  "name": "Dimica",
+  "slug": "dimica",
+  "author": "Дмитрий Здоров",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Dimica-Light.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://dimka.com/fonts/Dimica/Dimica-Light.otf",
+  "cyrillic": "ru+ua",
+  "copyright": "Dimka Fonts",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Divagon",
@@ -815,7 +940,7 @@
   "source": "https://mutno.me/fonts/files/fascinate-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "(c) 2011 by Brian J. Bonislawsky. (c) 2018 by Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "First Time Writing",
@@ -863,7 +988,7 @@
   "source": "https://typodermicfonts.com/public-domain/",
   "cyrillic": "ru",
   "copyright": "Released in 2024 under CC0 license. No rights reserved.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Funever Sans Display",
@@ -924,7 +1049,7 @@
   "source": "https://mutno.me/fonts/files/futurespore-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "© 2004 Andrew Young, disasterfonts.co.uk; © 2020 Denis Ignatov, https://mutno.me/fonts",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Garamond Libre",
@@ -998,7 +1123,7 @@
   "source": "https://mutno.me/fonts/files/gogono-cocoa-mochi-cyrillic.otf",
   "cyrillic": "ru+ua",
   "copyright": "Goma Shin, Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Googee",
@@ -1022,6 +1147,29 @@
   "source": "https://www.peter-wiegel.de/Fonts/googee.zip",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2018 by CATFonts Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "Guidy",
+  "slug": "guidy",
+  "author": "Матвей Малкин aka nicl4m",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Guidy.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/collectivetypeworks/Guidy/releases/download/Typeface/Guidy-1.1.zip",
+  "cyrillic": "ru+ua",
+  "copyright": "made by @CollectiveTypeworks",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Hack",
@@ -1071,6 +1219,29 @@
   "source": "https://www.peter-wiegel.de/Fonts/Helvetia.zip",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2010 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
+  "name": "HG2G",
+  "slug": "hg2g",
+  "author": "Дмитрий Здоров",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "HG2G.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://dimka.com/fonts/HG2G/HG2G.otf",
+  "cyrillic": "ru+ua",
+  "copyright": "Dmitri Zdorov",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Home Video",
@@ -1139,7 +1310,7 @@
   "source": "https://fontlibrary.org/font/horta",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2016, Tim Larson.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "InkVerse",
@@ -1264,7 +1435,7 @@
   "source": "https://mutno.me/fonts/files/jolly-lodger-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2012 by Font Diner, Inc (diner@fontdiner.com) with Reseved Font Name \"Jolly Lodger\". Copyright (c) 2021 Cy",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Jupiteroid",
@@ -1347,7 +1518,7 @@
   "source": "https://fontlibrary.org/en/font/kelvinch",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Paul James Miller, 2015.  All rights reserved.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "KJV1611",
@@ -1370,7 +1541,7 @@
   "source": "https://github.com/ctrlcctrlv/kjv1611/releases/download/v3.6.1/KJV1611.otf",
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2018–2021 Fredrick R. Brennan <copypaste@kittens.ph>",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Kom-post",
@@ -1393,7 +1564,7 @@
   "source": "https://mutno.me/fonts/files/kom-post.ttf",
   "cyrillic": "ru+ua",
   "copyright": "Copyright © 2021 guaschetti, © 2021 Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Kurland",
@@ -1419,6 +1590,33 @@
   "source": "https://ggbot.itch.io/",
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2026 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Lanze",
+  "slug": "lanze",
+  "author": "Дима Гренев, Родион Илюхин",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "variable": true,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Lanze-Halberd.ttf",
+   "Lanze-Pike.ttf",
+   "Lanze-Scythe.ttf",
+   "Lanze-Spear.ttf",
+   "Lanze-Variable.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/dimgrenev/lanze/releases/download/v0.1/Lanze-v0.1.zip",
+  "cyrillic": "ru",
+  "copyright": "Dmitry Grenev, Rodion Ilyukhin",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Lato",
@@ -1520,7 +1718,7 @@
   "source": "https://fontlibrary.org/en/font/lorenzo-sans",
   "cyrillic": "ru+ua",
   "copyright": "Font software Copyright © 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "LT Superior",
@@ -1594,7 +1792,7 @@
   "source": "https://fontlibrary.org/en/font/luculent",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2014-2015, Andrew Kensler (http://eastfarthing.com/luculent), with Reserved Font Name 'Luculent'.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Mail Ray Stuff",
@@ -1640,7 +1838,7 @@
   "source": "https://typodermicfonts.com/public-domain/",
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Miama Nueva",
@@ -1734,6 +1932,28 @@
   "source": "https://github.com/larsenwork/monoid",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015, Andreas Larsen"
+ },
+ {
+  "name": "Morana",
+  "slug": "morana",
+  "author": "Vesko Radic",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "morana.otf"
+  ],
+  "license_files": [
+   "COPYING.md"
+  ],
+  "source": "https://github.com/VeskoRadic/morana-font",
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2021. Vesko Radic <radic.vesko@gmail.com>"
  },
  {
   "name": "Natural Mono",
@@ -2014,6 +2234,28 @@
   "copyright": "Copyright (c) 2018 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
  {
+  "name": "overdoze sans",
+  "slug": "overdoze-sans",
+  "author": "IsamiRi",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "overdozesans.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/isamirivers/overdoze-sans",
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "Paperfiller",
   "slug": "paperfiller",
   "author": "Denis Ignatov; Pablo Cosgaya & Dani Raskovsky",
@@ -2034,7 +2276,7 @@
   "source": "https://mutno.me/fonts/files/paperfiller.otf",
   "cyrillic": "ru",
   "copyright": "Copyright 2016 The Bahiana Project Authors, Copyright 2018 Denis Ignatov (http://mutno.me/font)",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Pecita",
@@ -2057,7 +2299,7 @@
   "source": "https://www.dafont.com/pecita.font",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2009-2015, Philippe Cochy,,,(http://pecita.eu),\nwith Reserved Font Name Pecita.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Peter Ivanowitsch",
@@ -2104,7 +2346,7 @@
   "source": "https://mutno.me/fonts/files/pinzelan-cyrillic.otf",
   "cyrillic": "ru+ua",
   "copyright": "© 2021, GGBot. Cyrillic set by Denis Ignatov.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Pixeloid Sans",
@@ -2299,6 +2541,28 @@
   "copyright": "Released in 2022 under CC0 license. No rights reserved."
  },
  {
+  "name": "Risha Neo",
+  "slug": "risha-neo",
+  "author": "Isami Risha",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "RishaNeo.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/isamirivers/Risha-Neo",
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "Robtronika",
   "slug": "robtronika",
   "author": "GGBotNet",
@@ -2344,7 +2608,7 @@
   "source": "https://mutno.me/fonts/files/rum-raisin-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "(c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), (c) 2018 Denis Ignatov (https://mutno.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Ruthless Sketch",
@@ -2438,7 +2702,7 @@
   "source": "https://mutno.me/fonts/files/saniretro-cyrillic.ttf",
   "cyrillic": "ru",
   "copyright": "© 2009, 2010, 2011, 2012, 2013 Grand Chaos Productions. Some Rights Reserved. © 2009, Denis Ignatov (https://mutno.me/fo",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Selena",
@@ -2507,7 +2771,7 @@
   "source": "https://typodermicfonts.com/public-domain/",
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Solid Soldier",
@@ -2530,7 +2794,7 @@
   "source": "https://mutno.me/fonts/files/solid-soldier-cyrillic.otf",
   "cyrillic": "ru+ua",
   "copyright": "Copyright © 2021 Goma Shin, © 2021 Cyrillic set by Denis Ignatov",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Spectrashell",
@@ -2576,7 +2840,7 @@
   "source": "https://mutno.me/fonts/files/swanky-and-moo-moo-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com); (c) 2018, Denis Ignatov (mutno.me/fonts)",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Swanston",
@@ -2601,7 +2865,7 @@
   "source": "https://github.com/lwhitelaw/Swanston",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2023 Liam Whitelaw",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Terminalia",
@@ -2629,7 +2893,7 @@
   "source": "https://github.com/StefanPeev/Terminalia",
   "cyrillic": "ru+ua",
   "copyright": "Copyright [C] 2025 Stefan Peev under the terms of the SIL OPEN FONT LICENSE Version 1.1",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Theano Didot",
@@ -2770,6 +3034,29 @@
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Vollda Bold",
+  "slug": "vollda-bold",
+  "author": "Алексей Бурба",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "Vollda-Bold.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexburba/vollda-typeface",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2023 Vollda (https://github.com/alexburba/vollda)",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
   "name": "Vyaz Pixel",
   "slug": "vyaz-pixel",
   "author": "GGBot",
@@ -2790,6 +3077,32 @@
   "source": "https://ggbot.itch.io/vyaz-pixel-font",
   "cyrillic": "ru+ua",
   "copyright": "Copyright GGBotNet 2020"
+ },
+ {
+  "name": "Walleye",
+  "slug": "walleye",
+  "author": "Nathanael Bonnell",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Walleye-Bold.otf",
+   "Walleye-BoldItalic.otf",
+   "Walleye-Italic.otf",
+   "Walleye.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/chuckmasterson/walleye",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2013 by Nathanael Bonnell. All rights reserved."
  },
  {
   "name": "Wes",
@@ -2859,7 +3172,30 @@
   "source": "https://mutno.me/fonts/files/wetware-cyrillic.otf",
   "cyrillic": "ru",
   "copyright": "© 2006-20 Andrew Young, disasterfonts.co.uk. © 2021 Denis Ignatov, https://mutno.me/fonts",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Wimzik",
+  "slug": "wimzik",
+  "author": "Дмитрий Здоров",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "Wimzik.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://dimka.com/fonts/wimzik/Wimzik.otf",
+  "cyrillic": "ru+ua",
+  "copyright": "Dmitri Zdorov Dimka Fonts",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "X Typewriter",
@@ -3041,7 +3377,7 @@
   "source": "https://fontlibrary.org/font/zapus-sans",
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015-2019 Belleve Invis.",
-  "license_note": "текст лицензии добавлен нами по данным из файла шрифта"
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
   "name": "Zeitmax",
@@ -3135,5 +3471,54 @@
   "source": "https://www.dafont.com/znikomitno25.font",
   "cyrillic": "ru+ua",
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge."
+ },
+ {
+  "name": "Зарровв (Xarrovv)",
+  "slug": "xarrovv",
+  "author": "Дмитрий Здоров",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Xarrovv.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://dimka.com/fonts/Xarrovv/Xarrovv.otf",
+  "cyrillic": "ru+ua",
+  "copyright": "Dmitri Zdorov",
+  "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Сёнэн (Shonen)",
+  "slug": "shonen",
+  "author": "Намик Мардахаев aka Намикус",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Shonen (Namikus).otf",
+   "Shonen Bold  (Namikus).otf",
+   "Shonen Bold Italic (Namikus).otf",
+   "Shonen Italic (Namikus).otf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://disk.yandex.ru/d/kXQNv8W06rYbJQ",
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright © 2025 by Namikus"
  }
 ]
