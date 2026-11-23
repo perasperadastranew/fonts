@@ -3,8 +3,8 @@
   "name": "3270",
   "slug": "3270",
   "author": "Ricardo Bánffy",
-  "class": "Декоративный",
-  "license": "CC BY-SA",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
    [
@@ -2583,7 +2583,7 @@
   "name": "Flexi IBM VGA False",
   "slug": "flexi-ibm-vga-false",
   "author": "VileR",
-  "class": "Декоративный",
+  "class": "Моноширинный",
   "license": "CC BY-SA",
   "styles": 1,
   "faces": [
@@ -2615,7 +2615,7 @@
   "name": "Flexi IBM VGA True",
   "slug": "flexi-ibm-vga-true",
   "author": "VileR",
-  "class": "Декоративный",
+  "class": "Моноширинный",
   "license": "CC BY-SA",
   "styles": 1,
   "faces": [

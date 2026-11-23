@@ -30,7 +30,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 
 | Шрифт | Автор | Лицензия | Файлов | Источник |
 |---|---|---|---|---|
-| 3270 | Ricardo Bánffy | CC BY-SA | 3 | [github.com](https://github.com/rbanffy/3270font) |
+| 3270 | Ricardo Bánffy | SIL OFL 1.1 | 3 | [github.com](https://github.com/rbanffy/3270font) |
 | 3D Isometric | GGBotNet | SIL OFL 1.1 | 3 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | 5by7 | Peter Wiegel | SIL OFL 1.1 | 2 | [www.dafont.com](https://www.dafont.com/5by7.font) |
 | Acari Sans | Alfredo Marco Pradil (initial realese as HK Grotesk, Latin version), Stefan Peev | SIL OFL 1.1 | 14 | [github.com](https://github.com/StefanPeev/acari-sans/releases/download/AcariSans_v.1.078/AcariSans_v.1.078.zip) |
