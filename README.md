@@ -10,17 +10,17 @@
 
 Каталог: `catalog.json`, массив объектов с полями `name, slug, author, class, license, styles, variable, italic, weights, files, license_files, source`.
 
-Файлы через CDN jsDelivr:
+Витрина и файлы на GitHub Pages: https://perasperadastranew.github.io/fonts/
 
 ```
-https://cdn.jsdelivr.net/gh/perasperadastranew/fonts@main/catalog.json
-https://cdn.jsdelivr.net/gh/perasperadastranew/fonts@main/fonts/<slug>/<file>
+https://perasperadastranew.github.io/fonts/catalog.json
+https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 ```
 
 ```css
 @font-face {
   font-family: "Involve";
-  src: url("https://cdn.jsdelivr.net/gh/perasperadastranew/fonts@main/fonts/involve/Involve-Regular.ttf");
+  src: url("https://perasperadastranew.github.io/fonts/fonts/involve/Involve-Regular.ttf");
 }
 ```
 
