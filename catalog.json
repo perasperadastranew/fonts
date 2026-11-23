@@ -48,7 +48,7 @@
   "name": "3D Isometric",
   "slug": "3d-isometric",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -333,7 +333,7 @@
   "name": "Amstelvar",
   "slug": "amstelvar",
   "author": "David Berlow",
-  "class": "",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -402,7 +402,7 @@
   "name": "Aoudax",
   "slug": "aoudax",
   "author": "William Zhang",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -434,7 +434,7 @@
   "name": "ARCO",
   "slug": "arco",
   "author": "Rafael Olivo Díaz; Rafael Olivo Díaz, Denis Ignatov",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -466,7 +466,7 @@
   "name": "Arrose",
   "slug": "arrose",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -536,7 +536,7 @@
   "name": "Audex",
   "slug": "audex",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -574,7 +574,7 @@
   "name": "AVA",
   "slug": "ava",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -605,7 +605,7 @@
   "name": "Bad Comic",
   "slug": "bad-comic",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -643,7 +643,7 @@
   "name": "Balhattan",
   "slug": "balhattan",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -743,7 +743,7 @@
   "name": "Benori",
   "slug": "benori",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -806,7 +806,7 @@
   "name": "Bewlay BR1",
   "slug": "bewlay-br1",
   "author": "JORN.SB; JORN.SB, Denis Ignatov",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -838,7 +838,7 @@
   "name": "Bezmiar Cyrillic",
   "slug": "bezmiar-cyrillic",
   "author": "Денис Игнатов",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -908,7 +908,7 @@
   "name": "Blaec",
   "slug": "blaec",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 2,
   "faces": [
@@ -946,7 +946,7 @@
   "name": "Blazma",
   "slug": "blazma",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -1047,7 +1047,7 @@
   "name": "Bubblez Graffiti",
   "slug": "bubblez-graffiti",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -1085,7 +1085,7 @@
   "name": "Caesar Dressing Cyrillic",
   "slug": "caesar-dressing-cyrillic",
   "author": "Open Window, Денис Игнатов",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -1117,7 +1117,7 @@
   "name": "Cairopixel",
   "slug": "cairopixel",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -1224,7 +1224,7 @@
   "name": "Caskaydia Cove",
   "slug": "caskaydia-cove",
   "author": "Eli Heuer",
-  "class": "",
+  "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 7,
   "faces": [
@@ -1303,7 +1303,7 @@
   "name": "CAT DyFa",
   "slug": "cat-dyfa",
   "author": "Peter Wiegel",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -1381,7 +1381,7 @@
   "name": "CAT Kakographie",
   "slug": "cat-kakographie",
   "author": "Peter Wiegel",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -1819,7 +1819,7 @@
   "name": "Creepster",
   "slug": "creepster",
   "author": "Font Diner, Inc",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -2025,90 +2025,10 @@
   "copyright": "Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad. All rights reserved."
  },
  {
-  "name": "Digit Tech",
-  "slug": "digit-tech",
-  "author": "GGBot",
-  "class": "",
-  "license": "CC0 / Public Domain",
-  "styles": 8,
-  "faces": [
-   [
-    "DigitTech14-Italic.ttf",
-    400,
-    400,
-    true
-   ],
-   [
-    "DigitTech14-Regular.ttf",
-    400,
-    400,
-    false
-   ],
-   [
-    "DigitTech16-Italic.ttf",
-    400,
-    400,
-    true
-   ],
-   [
-    "DigitTech16-Regular.ttf",
-    400,
-    400,
-    false
-   ],
-   [
-    "DigitTech7-Italic.ttf",
-    400,
-    400,
-    true
-   ],
-   [
-    "DigitTech7-Regular.ttf",
-    400,
-    400,
-    false
-   ],
-   [
-    "DigitTech9-Italic.ttf",
-    400,
-    400,
-    true
-   ],
-   [
-    "DigitTech9-Regular.ttf",
-    400,
-    400,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": true,
-  "weights": [
-   400
-  ],
-  "files": [
-   "DigitTech14-Italic.ttf",
-   "DigitTech14-Regular.ttf",
-   "DigitTech16-Italic.ttf",
-   "DigitTech16-Regular.ttf",
-   "DigitTech7-Italic.ttf",
-   "DigitTech7-Regular.ttf",
-   "DigitTech9-Italic.ttf",
-   "DigitTech9-Regular.ttf"
-  ],
-  "license_files": [
-   "License.txt"
-  ],
-  "source": "https://ggbot.itch.io/digit-tech-font",
-  "expert": null,
-  "cyrillic": "ru+ua",
-  "copyright": ""
- },
- {
   "name": "Dimica",
   "slug": "dimica",
   "author": "Дмитрий Здоров",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -2210,7 +2130,7 @@
   "name": "Droid 1997",
   "slug": "droid-1997",
   "author": "Ray Larabie, Typodermic Fonts",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -2242,7 +2162,7 @@
   "name": "EuroScript",
   "slug": "euroscript",
   "author": "Peter Wiegel",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -2499,7 +2419,7 @@
   "name": "Fascinate",
   "slug": "fascinate",
   "author": "Astigmatic (AOETI); Denis Ignatov",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -2899,7 +2819,7 @@
   "name": "Futurespore",
   "slug": "futurespore",
   "author": "Andrew Young",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC BY-SA",
   "styles": 1,
   "faces": [
@@ -2931,7 +2851,7 @@
   "name": "Garamond Libre",
   "slug": "garamond-libre",
   "author": "Daniel Benjamin Miller",
-  "class": "",
+  "class": "Антиква",
   "license": "MIT / X11",
   "styles": 4,
   "faces": [
@@ -3036,7 +2956,7 @@
   "name": "Gochi Hand Cyrillic",
   "slug": "gochi-hand-cyrillic",
   "author": "Huerta Tipografica, Денис Игнатов",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3068,7 +2988,7 @@
   "name": "Gogono Cocoa Mochi",
   "slug": "gogono-cocoa-mochi",
   "author": "Goma Shin, Denis Ignatov; https://scripts.sil.org/OFL",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3100,7 +3020,7 @@
   "name": "Googee",
   "slug": "googee",
   "author": "Peter Wiegel",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3132,7 +3052,7 @@
   "name": "Gridtile",
   "slug": "gridtile",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -3163,7 +3083,7 @@
   "name": "Gugi Cyrillic",
   "slug": "gugi-cyrillic",
   "author": "TAE System &amp; Typefaces Co., Денис Игнатов",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3280,7 +3200,7 @@
   "name": "Harpseal",
   "slug": "harpseal",
   "author": "David Jonathan Ross, Денис Игнатов",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3312,7 +3232,7 @@
   "name": "Helvetia Verbundene",
   "slug": "helvetia-verbundene",
   "author": "Peter Wiegel",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3398,7 +3318,7 @@
   "name": "HG2G",
   "slug": "hg2g",
   "author": "Дмитрий Здоров",
-  "class": "",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3430,7 +3350,7 @@
   "name": "Hi Melody Cyrillic",
   "slug": "hi-melody-cyrillic",
   "author": "YoonDesign Inc., Денис Игнатов",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3462,7 +3382,7 @@
   "name": "Home Video",
   "slug": "home-video",
   "author": "GGBot",
-  "class": "",
+  "class": "Моноширинный",
   "license": "CC0 / Public Domain",
   "styles": 2,
   "faces": [
@@ -3641,7 +3561,7 @@
   "name": "Involve",
   "slug": "involve",
   "author": "Стефан Пеев",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 10,
   "faces": [
@@ -3770,7 +3690,7 @@
   "name": "Ithaca",
   "slug": "ithaca",
   "author": "GGBot",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3801,7 +3721,7 @@
   "name": "Jolly Lodger",
   "slug": "jolly-lodger",
   "author": "Font Diner, Inc; Stuart Sandler",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -3833,7 +3753,7 @@
   "name": "Jolly Sweater",
   "slug": "jolly-sweater",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -3880,7 +3800,7 @@
   "name": "Jupiteroid",
   "slug": "jupiteroid",
   "author": "GGBot",
-  "class": "",
+  "class": "Гротеск",
   "license": "CC0 / Public Domain",
   "styles": 6,
   "faces": [
@@ -4076,7 +3996,7 @@
   "name": "Kaiju Monster G Cyrillic",
   "slug": "kaiju-monster-g-cyrillic",
   "author": "Goma Shin, Денис Игнатов",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -4140,7 +4060,7 @@
   "name": "Kaph",
   "slug": "kaph",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -4359,7 +4279,7 @@
   "name": "Lambda",
   "slug": "lambda",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -4397,7 +4317,7 @@
   "name": "Lanze",
   "slug": "lanze",
   "author": "Дима Гренев, Родион Илюхин",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 5,
   "faces": [
@@ -4719,7 +4639,7 @@
   "name": "Liber Struct",
   "slug": "liber-struct",
   "author": "GGBotNet; https://fontstruct.com",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -4808,7 +4728,7 @@
   "name": "Linerama",
   "slug": "linerama",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -5128,7 +5048,7 @@
   "name": "Mail Ray Stuff",
   "slug": "mail-ray-stuff",
   "author": "Ray Larabie, Typodermic Fonts",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -5191,7 +5111,7 @@
   "name": "Mavoble",
   "slug": "mavoble",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -5474,7 +5394,7 @@
   "name": "Monoid 2.0",
   "slug": "monoid-2-0",
   "author": "Andreas Larsen",
-  "class": "",
+  "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -5583,7 +5503,7 @@
   "name": "Natural Mono",
   "slug": "natural-mono",
   "author": "Vasily Draigo",
-  "class": "",
+  "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -5654,7 +5574,7 @@
   "name": "Neuropol",
   "slug": "neuropol",
   "author": "Ray Larabie, Typodermic Fonts",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -5858,7 +5778,7 @@
   "name": "NeverMind Slab",
   "slug": "nevermind-slab",
   "author": "Xmind Designer Team",
-  "class": "",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 10,
   "faces": [
@@ -6241,7 +6161,7 @@
   "name": "overdoze sans",
   "slug": "overdoze-sans",
   "author": "IsamiRi",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -6379,7 +6299,7 @@
   "name": "Passero One Cyrillic",
   "slug": "passero-one-cyrillic",
   "author": "Viktoriya Grabowska, Денис Игнатов",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -6508,7 +6428,7 @@
   "name": "Pinzelan",
   "slug": "pinzelan",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -6607,7 +6527,7 @@
   "name": "Pixelzone",
   "slug": "pixelzone",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -6714,7 +6634,7 @@
   "name": "PostBus",
   "slug": "postbus",
   "author": "Peter Wiegel",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -6786,7 +6706,7 @@
   "name": "Propaniac",
   "slug": "propaniac",
   "author": "Ray Larabie, Typodermic Fonts",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -6849,7 +6769,7 @@
   "name": "Public Pixel",
   "slug": "public-pixel",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Моноширинный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -6970,7 +6890,7 @@
   "name": "Renju",
   "slug": "renju",
   "author": "Ray Larabie, Typodermic Fonts",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -7002,7 +6922,7 @@
   "name": "Risha Neo",
   "slug": "risha-neo",
   "author": "Isami Risha",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8003,7 +7923,7 @@
   "name": "Rum Raisin",
   "slug": "rum-raisin",
   "author": "Astigmatic (AOETI); Denis Ignatov",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8118,7 +8038,7 @@
   "name": "Sagewold",
   "slug": "sagewold",
   "author": "GGBot",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -8156,7 +8076,7 @@
   "name": "Sangyo",
   "slug": "sangyo",
   "author": "GGBot",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -8194,7 +8114,7 @@
   "name": "Saniretro",
   "slug": "saniretro",
   "author": "Jayvee D. Enaguas (Grand Chaos)",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8332,7 +8252,7 @@
   "name": "Serati",
   "slug": "serati",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -8510,7 +8430,7 @@
   "name": "Solid Soldier",
   "slug": "solid-soldier",
   "author": "Goma Shin; Goma Shin, Denis Ignatov",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8542,7 +8462,7 @@
   "name": "Spectrashell",
   "slug": "spectrashell",
   "author": "Ray Larabie, Typodermic Fonts",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -8574,7 +8494,7 @@
   "name": "Swanky and Moo Moo",
   "slug": "swanky-and-moo-moo",
   "author": "Kimberly Geswein; Denis Ignatov",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8646,7 +8566,7 @@
   "name": "Terminalia",
   "slug": "terminalia",
   "author": "Стефан Пеев",
-  "class": "",
+  "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -8838,7 +8758,7 @@
   "name": "Trigram",
   "slug": "trigram",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -8940,7 +8860,7 @@
   "name": "Unsightly",
   "slug": "unsightly",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -9023,7 +8943,7 @@
   "name": "Vollda Bold",
   "slug": "vollda-bold",
   "author": "Алексей Бурба",
-  "class": "",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -9055,7 +8975,7 @@
   "name": "Vyaz Pixel",
   "slug": "vyaz-pixel",
   "author": "GGBot",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -9222,7 +9142,7 @@
   "name": "Wetware",
   "slug": "wetware",
   "author": "Andrew Young",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC BY-SA",
   "styles": 1,
   "faces": [
@@ -9254,7 +9174,7 @@
   "name": "Wimzik",
   "slug": "wimzik",
   "author": "Дмитрий Здоров",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -9286,7 +9206,7 @@
   "name": "X Company",
   "slug": "x-company",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -9324,7 +9244,7 @@
   "name": "X Typewriter",
   "slug": "x-typewriter",
   "author": "GGBot",
-  "class": "",
+  "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -9363,7 +9283,7 @@
   "name": "Xanmono",
   "slug": "xanmono",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -9401,7 +9321,7 @@
   "name": "Xiaolai SC",
   "slug": "xiaolai-sc",
   "author": "Nozomi Seto",
-  "class": "",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -9510,7 +9430,7 @@
   "name": "Y224",
   "slug": "y224",
   "author": "GGBot",
-  "class": "",
+  "class": "Моноширинный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -9651,7 +9571,7 @@
   "name": "Yulong",
   "slug": "yulong",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -9878,7 +9798,7 @@
   "name": "Zector",
   "slug": "zector",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -9961,7 +9881,7 @@
   "name": "Zelega Zenega",
   "slug": "zelega-zenega",
   "author": "Ray Larabie, Typodermic Fonts",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -9993,7 +9913,7 @@
   "name": "Zero Cool",
   "slug": "zero-cool",
   "author": "GGBotNet",
-  "class": "",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -10093,7 +10013,7 @@
   "name": "Зарровв (Xarrovv)",
   "slug": "xarrovv",
   "author": "Дмитрий Здоров",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -10125,7 +10045,7 @@
   "name": "Крамола (Kramola)",
   "slug": "kramola",
   "author": "Алексей Меднов",
-  "class": "",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -10157,7 +10077,7 @@
   "name": "Сёнэн (Shonen)",
   "slug": "shonen",
   "author": "Намик Мардахаев aka Намикус",
-  "class": "",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [

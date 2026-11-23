@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 245 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 244 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -81,7 +81,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | DatCub | GGBot | SIL OFL 1.1 | 3 | [ggbot.itch.io](https://ggbot.itch.io/datcub-font) |
 | DatDot | GGBotNet | SIL OFL 1.1 | 6 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Days One | Alexander Kalachev, Alexey Maslov, Jovanny Lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/daysone) |
-| Digit Tech | GGBot | CC0 / Public Domain | 8 | [ggbot.itch.io](https://ggbot.itch.io/digit-tech-font) |
 | Dimica | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Dimica/Dimica-Light.otf) |
 | Divagon | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Doulos SIL | SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne | SIL OFL 1.1 | 1 | [github.com](https://github.com/silnrsi/font-doulos) |
