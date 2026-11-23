@@ -385,6 +385,17 @@ body.v-b .lic2 .a{color:var(--ink)}
 .pp b{display:block;font-weight:500;font-size:18px;margin:6px 0 8px}.pp i{display:block;height:4px;border-radius:4px;background:linear-gradient(90deg,#FF7122 var(--p),rgba(12,11,13,.1) var(--p))}.pp small{display:block;margin-top:8px;font-size:12px;line-height:1.35;color:var(--mut)}
 @media(max-width:900px){.fam{grid-template-columns:1fr}.pps{grid-template-columns:1fr 1fr}}
 .h4bar{justify-content:flex-start}
+/* поджатый верх каталога */
+#hero .wrap{position:relative}
+.h4x{padding:10px 0 0}
+.h4cards{height:min(30vh,300px);min-height:220px;gap:8px}
+.h4cap{padding:10px 2px 0;font-size:13px;padding-right:48px}
+.h4rnd{position:absolute;right:0;bottom:-6px;width:34px;height:34px;padding:0;display:grid;place-items:center}
+.cfp{padding-top:14px}
+.cside{top:76px;gap:8px}
+.cside h4{margin-top:2px}
+.bays .bh{margin-bottom:8px}
+.bays .bh h2{font-size:clamp(22px,2.2vw,30px)}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
@@ -867,7 +878,7 @@ function heroHTML(df){const P=esc(PHRASE||DEF);
  if(HERO===1)return `<section class="h4x" id="hero"><div class="wrap">
  <div class="h4cards">${[0,1,2].map(i=>`<a class="h4c" href="#/" data-i="${i}"><div class="tile h4l a"><div class="art"></div></div><div class="tile h4l b"><div class="art"></div></div></a>`).join('')}</div>
  <div class="h4cap">${[0,1,2].map(i=>`<span class="h4n" data-i="${i}">…</span>`).join('')}</div>
- <div class="h4bar"><div class="h1ctl"><input id="hph" type="text" value="${P}" aria-label="Свой текст"><a class="pill dark" href="#/brief">Подобрать по задаче</a><button class="pill soft" type="button" id="rnd">↻</button></div></div></div></section>`;
+ <button class="pill soft h4rnd" type="button" id="rnd" aria-label="Другие шрифты" title="Другие шрифты">↻</button></div></section>`;
  if(HERO===2)return `<section class="h2x" id="hero"><div class="h2wall" id="hwall">${[...Array(8)].map((_,i)=>`<a class="tile h2t h2t${i}" href="#/"><div class="art"></div></a>`).join('')}</div>
  <div class="h2card crop"><div class="mono" style="font-size:11px;color:var(--mut)">★ БОРТОВАЯ БИБЛИОТЕКА · ${FONTS.length} ШРИФТОВ</div><h1>Бесплатные шрифты <span class="plq">с кириллицей</span></h1><p>Каждый показан в работе: образцы собираются под твою фразу. Все можно брать в заказ для клиента.</p>
  <div class="h1ctl"><input id="hph" type="text" value="${P}" aria-label="Свой текст"><button class="pill dark" type="button" id="rnd">↻ Другие</button></div></div></section>`;
@@ -940,7 +951,7 @@ function baysInit(){clearInterval(BAYT);const els=[...document.querySelectorAll(
 const CDOT={'Гротеск':'#2B3BE5','Антиква':'#C9A227','Акцидентный':'#FF7122','Моно':'#0C0B0D','Рукописный':'#E86FB0'};
 function cShown(){return FONTS.filter(f=>(CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase()))).length}
 function csideHTML(cats){const favs=FONTS.filter(f=>isFav(f[0])).length;
- return `<aside class="cside" aria-label="Навигация по каталогу"><div class="box"><small>В КАТАЛОГЕ СЕЙЧАС</small><b id="cN">${cShown()}</b><small>из ${FONTS.length} шрифтов</small><div class="bar"><i id="cBar" style="width:${cShown()/FONTS.length*100}%"></i></div></div>
+ return `<aside class="cside" aria-label="Навигация по каталогу">
  <h4>РАЗДЕЛЫ</h4><nav class="cnav sec2" id="cSec"><a href="#" data-go="top"><span>01</span>Звезда дня</a><a href="#" data-go="c-bays"><span>02</span>Отсеки</a><a href="#" data-go="grid"><span>03</span>Все шрифты</a></nav>
  <h4>КЛАССЫ</h4><nav class="cnav"><button type="button" data-c="all" class="${CATSEL==='all'?'on':''}"><span class="dot" style="background:conic-gradient(#2B3BE5 0 25%,#C9A227 0 50%,#FF7122 0 75%,#E86FB0 0)"></span>Все<i>${FONTS.length}</i></button>${cats.map(c=>`<button type="button" data-c="${c}" class="${CATSEL===c?'on':''}"><span class="dot" style="background:${CDOT[c]}"></span>${c}<i>${FONTS.filter(f=>f[1]===c).length}</i></button>`).join('')}</nav>
  <h4>СВОЙСТВА</h4><nav class="cnav"><button type="button" class="tg ${FLT.vf?'on':''}" data-f="vf">Вариативные<i>${FONTS.filter(f=>f[2]&&f[3]<f[4]).length}</i></button><button type="button" class="tg ${FLT.it?'on':''}" data-f="it">С курсивом<i>${FONTS.filter(f=>f[6]).length}</i></button></nav>
