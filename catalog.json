@@ -10299,6 +10299,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Кафизма (Cathisma)",
+  "slug": "cathisma",
+  "author": "Ponomar Project",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Cathisma-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Cathisma-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/slavonic/Cathisma",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2025 The Cathisma Project Authors (https://github.com/slavonic/Cathisma.git)"
+ },
+ {
   "name": "Крамола (Kramola)",
   "slug": "kramola",
   "author": "Алексей Меднов",
@@ -10360,6 +10391,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2016 Aleksandr Andreev.\n\nThis font is part of the Ponomar Project Slavonic Computing Initiative. See http://ww"
+ },
+ {
+  "name": "Оглавие (Oglavie)",
+  "slug": "oglavie",
+  "author": "Ponomar Project",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Oglavie-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Oglavie-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/slavonic/Oglavie",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2025 The Oglavie Project Authors (https://github.com/slavonic/Oglavie.git)"
  },
  {
   "name": "Пономарь (Ponomar Unicode)",

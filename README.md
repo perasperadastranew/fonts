@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 252 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 254 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -278,7 +278,9 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Znikomit | gluk | SIL OFL 1.1 | 2 | [www.dafont.com](https://www.dafont.com/znikomit.font) |
 | ZnikomitNo25 | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/znikomitno25.font) |
 | Зарровв (Xarrovv) | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Xarrovv/Xarrovv.otf) |
+| Кафизма (Cathisma) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Cathisma) |
 | Крамола (Kramola) | Алексей Меднов | CC0 / Public Domain | 1 | [www.dafont.com](https://www.dafont.com/kramola.font) |
 | Мономах (Monomakh Unicode) | Александр Андреев, Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/fonts-cu-legacy) |
+| Оглавие (Oglavie) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Oglavie) |
 | Пономарь (Ponomar Unicode) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Ponomar) |
 | Сёнэн (Shonen) | Намик Мардахаев aka Намикус | SIL OFL 1.1 | 4 | [disk.yandex.ru](https://disk.yandex.ru/d/kXQNv8W06rYbJQ) |
