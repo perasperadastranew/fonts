@@ -432,6 +432,10 @@ body.v-b .lic2 .a{color:var(--ink)}
 .card.cv-poster{padding:8px 8px 14px;gap:12px}.cv-poster .ctile{position:relative;aspect-ratio:4/5;border-radius:calc(var(--rk,1)*18px);overflow:hidden;container-type:size}.cv-poster .ctile .art{position:absolute;inset:0}.cv-poster .pv.hid{display:none}.cv-poster .ft{padding:12px 10px 0}
 .vsw{margin-left:6px}
 .grid.v-poster{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}.grid.v-glyph{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.cv-poster .ft small{display:none}
+.qp .qcov{position:relative;aspect-ratio:16/10;border-radius:18px;overflow:hidden;container-type:size;flex:none}.qp .qcov .art,.qp .qmore .art{position:absolute;inset:0}
+.qp .qmore{display:grid;grid-template-columns:1fr 1fr;gap:8px}.qp .qmore .tile{position:relative;aspect-ratio:4/5;border-radius:16px;overflow:hidden;container-type:size}
+.qp .fam{grid-template-columns:1fr;margin-top:0}.qp .pps{grid-template-columns:1fr 1fr}.qp .famc{padding:16px 18px}.qp .famc p{font-size:14px}
+.swc [data-ed]{outline:none!important}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
@@ -785,7 +789,7 @@ subcinema(p){const ws=words();const ch=chunks(ws,Math.max(3,Math.ceil(ws.length/
 });
 Object.assign(TPL_NAME,{subkaraoke:'Караоке',subpop:'По слову',subplate:'Плашки',subkinetic:'Кинетика',suboutline:'Контур',subcinema:'Кино'});
 // правка любой надписи по клику
-function markEd(root){root.querySelectorAll('.art *').forEach(n=>{if(n.closest('svg,.sub'))return;if([...n.childNodes].some(c=>c.nodeType===3&&c.textContent.trim()))n.setAttribute('data-ed','')})}
+function markEd(root){if(root.closest&&root.closest('.swc,.ctile,.h4c,.bay,.bcard'))return;root.querySelectorAll('.art *').forEach(n=>{if(n.closest('svg,.sub'))return;if([...n.childNodes].some(c=>c.nodeType===3&&c.textContent.trim()))n.setAttribute('data-ed','')})}
 function edInit(root,onEdit){if(!root||root._ed)return;root._ed=1;root.addEventListener('click',e=>{const n=e.target.closest('[data-ed]');if(!n||n.isContentEditable)return;e.preventDefault();n.contentEditable='true';n.spellcheck=false;n.focus();const r=document.createRange();r.selectNodeContents(n);const s=getSelection();s.removeAllRanges();s.addRange(r);
  let tm;n.oninput=()=>{clearTimeout(tm);tm=setTimeout(()=>{const t=n.closest('.tile');if(n.hasAttribute('data-fit')&&t)fitAll(t);onEdit&&onEdit(n)},150)};
  n.onkeydown=ev=>{if(ev.key==='Escape'||(ev.key==='Enter'&&!ev.shiftKey)){ev.preventDefault();n.blur()}};
@@ -982,6 +986,9 @@ function quick(f){let d=document.getElementById('qv');if(!d){d=document.createEl
   <div class="qh"><div><div class="mono">${f[1].toUpperCase()} · ${f[5]} ${plural(f[5]).toUpperCase()}${vf?' · VF':''}</div><div class="qn" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${esc(f[0])}</div></div><button type="button" class="qx" data-close aria-label="Закрыть">×</button></div>
   <div class="qa"><button type="button" class="pill dark" id="qdl">Скачать</button><button type="button" class="pill soft ${CMP.includes(f[0])?'on':''}" data-cmp="${esc(f[0])}" id="qcmp">⇆ Сравнить</button><button type="button" class="pill soft" id="qfav">${isFav(f[0])?'★ В журнале':'☆ В журнал'}</button></div>
   <div class="mono qlic">● можно для клиента · ${esc(lic)}</div>
+  <div class="qcov tile" id="qcov"><div class="art"></div></div>
+  <div class="qhist">${typeof histHTML==='function'?histHTML(f):''}</div>
+  <div class="qmore"><div class="tile qs1" id="qs1"><div class="art"></div></div><div class="tile qs2" id="qs2"><div class="art"></div></div></div>
   <textarea id="qt" rows="2" spellcheck="false" style="font-family:${fam(f)};font-weight:${baseW(f)}">${esc(PHRASE||DEF)}</textarea>
   <div class="qc"><label class="mono">РАЗМЕР <input id="qs" type="range" min="16" max="120" value="48"></label>${vf?`<label class="mono">ВЕС <input id="qw" type="range" min="${f[3]}" max="${f[4]}" value="${baseW(f)}"></label>`:''}</div>
   <div class="qws">${ws.map(w=>`<div><span class="mono">${w[0]} · ${w[1]}</span><b style="font-family:${fam(f)};font-weight:${w[0]}">${esc(PHRASE||DEF)}</b></div>`).join('')}</div>
@@ -994,7 +1001,8 @@ function quick(f){let d=document.getElementById('qv');if(!d){d=document.createEl
  t.oninput=()=>{setPhrase(t.value);d.querySelectorAll('.qws b').forEach(b=>b.textContent=t.value||DEF)};
  $('#qdl').onclick=e=>dlFont(f,e.currentTarget);$('#qcmp').onclick=()=>{cmpToggle(f[0]);$('#qcmp').classList.toggle('on',CMP.includes(f[0]))};
  $('#qfav').onclick=()=>{toggleFav(f[0]);$('#qfav').textContent=isFav(f[0])?'★ В журнале':'☆ В журнал';document.querySelectorAll(`[data-fav="${CSS.escape(f[0])}"]`).forEach(b=>{b.classList.toggle('on',isFav(f[0]));b.textContent=isFav(f[0])?'★':'☆'})};
- loadFont(f).catch(()=>{})}
+ const drawQ=()=>{const k=F;F=f;const d=dirOf(f);const len=(PHRASE||DEF).length;const c=R(d.cover);compose($('#qcov'),f,c,dirPal(false,[]));const u=[c];['qs1','qs2'].forEach((id,i)=>{const t=dirPick('r45',i===1,u,len);u.push(t);compose($('#'+id),f,t,dirPal(i===1,[]))});F=k};
+ loadFont(f).then(drawQ).catch(drawQ)}
 
 // ---------- полезные композиции: размерный ряд, трудные буквы, пара
 Object.assign(T,{
