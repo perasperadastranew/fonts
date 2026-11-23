@@ -2953,6 +2953,37 @@
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Gewtymol",
+  "slug": "gewtymol",
+  "author": "Bryndan Meyerholt",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Gewtymol.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Gewtymol.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Bry10022/Gewtymol",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright Bryndan W Meyerholt 2021"
+ },
+ {
   "name": "Gochi Hand Cyrillic",
   "slug": "gochi-hand-cyrillic",
   "author": "Huerta Tipografica, Денис Игнатов",
@@ -4093,6 +4124,53 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Kazuki Reiwa",
+  "slug": "kazuki-reiwa",
+  "author": "Kazuki Kimura",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "faces": [
+   [
+    "KazukiReiwa-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "KazukiReiwa-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "KazukiReiwa-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "KazukiReiwa-Bold.ttf",
+   "KazukiReiwa-Light.ttf",
+   "KazukiReiwa-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/KazukiKimuraJP/KazukiReiwa",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2022 Kazuki Kimura"
  },
  {
   "name": "Kelvinch",
@@ -5569,6 +5647,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Typeface © Viktar Palstsiuk, 2002. All Rights Reserved."
+ },
+ {
+  "name": "Neue Soviet",
+  "slug": "neue-soviet",
+  "author": "Борис Журавлев",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "PTFNeueSoviet-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "PTFNeueSoviet-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/zhuravlevb/neuesoviet",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
  },
  {
   "name": "Neuropol",
@@ -8712,6 +8821,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Alexey Kryukov, 2007-2010. All rights reserved."
+ },
+ {
+  "name": "Tihana",
+  "slug": "tihana",
+  "author": "Vesko Radić",
+  "class": "Декоративный, Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "tihana.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "tihana.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/VeskoRadic/tihana-font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2020. Vesko Radic"
  },
  {
   "name": "Tiny5 Duo",

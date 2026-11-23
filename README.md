@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 244 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 248 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -102,6 +102,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Futurespore | Andrew Young | CC BY-SA | 1 | [mutno.me](https://mutno.me/fonts/files/futurespore-cyrillic.otf) |
 | Garamond Libre | Daniel Benjamin Miller | MIT / X11 | 4 | [github.com](https://github.com/dbenjaminmiller/garamond-libre) |
 | Gerhaus | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Gewtymol | Bryndan Meyerholt | SIL OFL 1.1 | 1 | [github.com](https://github.com/Bry10022/Gewtymol) |
 | Gochi Hand Cyrillic | Huerta Tipografica, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gochi-hand-cyrillic.otf) |
 | Gogono Cocoa Mochi | Goma Shin, Denis Ignatov; https://scripts.sil.org/OFL | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gogono-cocoa-mochi-cyrillic.otf) |
 | Googee | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/googee.zip) |
@@ -130,6 +131,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Kaiju Monster G Cyrillic | Goma Shin, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/kaiju-monster-g-cyrillic.otf) |
 | Kanalisirung | Peter Wiegel | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/kanalisirung.font) |
 | Kaph | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Kazuki Reiwa | Kazuki Kimura | SIL OFL 1.1 | 3 | [github.com](https://github.com/KazukiKimuraJP/KazukiReiwa) |
 | Kelvinch | Paul Miller | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/en/font/kelvinch) |
 | Ketwurst | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](http://www.peter-wiegel.de/Ketwurst.html) |
 | KJV1611 | Fredrick R. Brennan | SIL OFL 1.1 | 1 | [github.com](https://github.com/ctrlcctrlv/kjv1611/releases/download/v3.6.1/KJV1611.otf) |
@@ -159,6 +161,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Murs Gothic Wide Dark | Максим Кобузан | SIL OFL 1.1 | 1 | [www.behance.net](https://www.behance.net/gallery/200845737/MURS-GOTHIC-Free-Font-Latin-Cyrillic) |
 | Natural Mono | Vasily Draigo | SIL OFL 1.1 | 2 | [fontlibrary.org](https://fontlibrary.org/font/natural-mono) |
 | Neocyr | Viktar Palstsiuk <vipals@gmail.com> | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/neocyr) |
+| Neue Soviet | Борис Журавлев | SIL OFL 1.1 | 1 | [github.com](https://github.com/zhuravlevb/neuesoviet) |
 | Neuropol | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | NeverMind Compact | XMind; lan | SIL OFL 1.1 | 20 | [github.com](https://github.com/xmindltd/nevermind) |
 | NeverMind Slab | Xmind Designer Team | SIL OFL 1.1 | 10 | [github.com](https://github.com/xmindltd/nevermind) |
@@ -239,6 +242,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Theano Didot | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
 | Theano Modern | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
 | Theano Old Style | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
+| Tihana | Vesko Radić | SIL OFL 1.1 | 1 | [github.com](https://github.com/VeskoRadic/tihana-font) |
 | Tiny5 Duo | Stefan Schmidt; Stefan Schmidt Art | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/tiny5duo) |
 | Trigram | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | TriodPostnaja | Daniel Johnson | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/ru/font/triod-postnaja) |
