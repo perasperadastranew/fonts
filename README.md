@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 243 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 245 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -84,6 +84,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Digit Tech | GGBot | CC0 / Public Domain | 8 | [ggbot.itch.io](https://ggbot.itch.io/digit-tech-font) |
 | Dimica | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Dimica/Dimica-Light.otf) |
 | Divagon | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Doulos SIL | SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne | SIL OFL 1.1 | 1 | [github.com](https://github.com/silnrsi/font-doulos) |
 | Droid 1997 | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | EuroScript | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/EuroScript.zip) |
 | Exo 2 | Natanael Gama | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/exo2) |
@@ -229,6 +230,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Serati | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/serati-font) |
 | Sexsmith | Ray Larabie | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Seymour One | Vernon Adams | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/seymourone) |
+| Shobhika | Manish Khatri | SIL OFL 1.1 | 2 | [github.com](https://github.com/Sandhi-IITBombay/Shobhika) |
 | SN Pro | Supernotes; Tobias Whetton | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/snpro) |
 | Solid Soldier | Goma Shin; Goma Shin, Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/solid-soldier-cyrillic.otf) |
 | Spectrashell | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |

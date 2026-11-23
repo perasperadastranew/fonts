@@ -2175,6 +2175,38 @@
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Doulos SIL",
+  "slug": "doulos-sil",
+  "author": "SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "DoulosSIL-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "DoulosSIL-Regular.ttf"
+  ],
+  "license_files": [
+   "FONTLOG.txt",
+   "OFL.txt"
+  ],
+  "source": "https://github.com/silnrsi/font-doulos",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 1994-2025 SIL Global"
+ },
+ {
   "name": "Droid 1997",
   "slug": "droid-1997",
   "author": "Ray Larabie, Typodermic Fonts",
@@ -8396,6 +8428,45 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2011 The Seymour One Project Authors (https://github.com/googlefonts/seymourFont)"
+ },
+ {
+  "name": "Shobhika",
+  "slug": "shobhika",
+  "author": "Manish Khatri",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "Shobhika-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Shobhika-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Shobhika-Bold.otf",
+   "Shobhika-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Sandhi-IITBombay/Shobhika",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2016, Indian Institute of Technology Bombay. All rights reserved."
  },
  {
   "name": "SN Pro",
