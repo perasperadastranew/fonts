@@ -397,6 +397,12 @@ body.v-b .lic2 .a{color:var(--ink)}
 .bays .bh{margin-bottom:8px}
 .bays .bh h2{font-size:clamp(22px,2.2vw,30px)}
 .dirn{margin:-6px 0 16px;font-size:15px;line-height:1.45;color:var(--mut);max-width:760px}.dirn .mono{font:10.5px 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.08em;color:#FF7122;margin-right:8px}
+.bay .gl{transition:none!important}.bay.vf .gl{animation:none!important}.bay .ghost{display:none}.bay.inv{background:var(--fg);color:var(--bg)}.bay.inv .cnt{background:var(--bg);color:var(--fg)}.bay.inv .ar{background:var(--bg);color:var(--fg)}.bay.inv .ln{background:var(--bg)}
+.card{position:relative;overflow:hidden;transition:none}.card:hover{transform:none}
+.card .cmeta{display:flex;justify-content:space-between;gap:8px;font:10.5px 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.06em;color:var(--mut);margin:-4px 0 -6px}
+.card .cg{position:absolute;right:16px;top:30px;font-size:64px;line-height:1;opacity:0;pointer-events:none}
+.card.hot{background:var(--cbg);color:var(--cfg);box-shadow:none}.card.hot .cmeta,.card.hot .ft small{color:var(--cfg);opacity:.75}.card.hot .ft{border-color:currentColor}
+.card.hot .cg{opacity:1;color:var(--cfg)}.card.hot .pv{padding-right:60px}.card.hot .star{color:var(--cfg)}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
@@ -984,20 +990,29 @@ const BAYINFO={
 function bayInfoHTML(){return '';const k=FLT.vf?'vf':FLT.it?'it':CATSEL;const x=BAYINFO[k];if(!x)return'';const b=BAYS.find(b=>b.k===k);
  return `<div class="binfo" style="--bg:${b.bg};--fg:${b.fg}"><div class="bi-h"><span class="mono">СПРАВКА · ОТСЕК «${b.n.toUpperCase()}»</span></div><p class="bi-t">${x[0]}</p><div class="bi-c"><div><span class="mono">ПОДХОДИТ</span><p>${x[1]}</p></div><div><span class="mono">СЛОЖНО</span><p>${x[2]}</p></div></div></div>`}
 function baysInit(){clearInterval(BAYT);const els=[...document.querySelectorAll('.bay')];if(!els.length)return;
- const st=els.map((el,i)=>({el,b:BAYS[+el.dataset.bay],pool:bayPool(BAYS[+el.dataset.bay]),i:Math.floor(dayRand('bay'+i)*5),hov:false,t:0}));
- const RCH='ЖДФЯЫЮЪЙЩ&?№Ё';
- const show=s=>{const f=s.pool[s.i%s.pool.length];if(!f)return;loadFont(f).then(()=>{const g=s.el.querySelector('.gl'),gh=s.el.querySelector('.ghost'),fn=s.el.querySelector('.fn');g.classList.add('sw');setTimeout(()=>{
-   const prev=g.style.fontFamily;g.style.fontFamily=fam(f);gh.style.fontFamily=prev||fam(f);
-   if(s.b.k==='vf'){g.style.setProperty('--w0',f[3]);g.style.setProperty('--w1',f[4]);g.style.fontWeight='';}else g.style.fontWeight=f[1]==='Рукописный'?baseW(f):Math.min(f[4],Math.max(f[3],700));
-   if(s.b.k==='it'){g.style.fontStyle=s.i%2?'italic':'normal';}
-   if(s.b.k==='rnd')g.textContent=RCH[Math.floor(Math.random()*RCH.length)];
-   fn.textContent=f[0];g.classList.remove('sw')},200)}).catch(()=>{s.i++})};
- st.forEach(s=>{show(s);s.el.onmouseenter=()=>{s.hov=true;s.i++;show(s)};s.el.onmouseleave=()=>{s.hov=false};
+ const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;const RCH='ЖДФЯЫЮЪЙЩ&?№Ё';
+ const st=els.map((el,i)=>{const b=BAYS[+el.dataset.bay];const pool=bayPool(b);const s={el,b,pool,ready:[],i:0,hov:false,burst:0,hold:8+Math.floor(Math.random()*20),g:el.querySelector('.gl'),fn:el.querySelector('.fn')};
+  pool.forEach(f=>loadFont(f).then(()=>{s.ready.push(f);if(s.ready.length===1)frame(s,false)}).catch(()=>{}));return s});
+ // кадр: мгновенная смена, без плавности; во время «рывка» — сдвиг, масштаб и инверсия
+ function frame(s,glitch){if(!s.ready.length)return;s.i=(s.i+1+Math.floor(Math.random()*2))%s.ready.length;const f=s.ready[s.i],g=s.g;
+  g.style.fontFamily=fam(f);g.style.fontStyle='normal';
+  if(s.b.k==='vf'){const lo=Math.ceil(f[3]/100)*100,hi=Math.floor(f[4]/100)*100;const wv=lo+100*Math.floor(Math.random()*((hi-lo)/100+1));g.style.fontWeight=wv;g.style.fontVariationSettings=`'wght' ${wv}`}
+  else g.style.fontWeight=f[1]==='Рукописный'?baseW(f):Math.min(f[4],Math.max(f[3],700));
+  if(s.b.k==='it')g.style.fontStyle=Math.random()<.6?'italic':'normal';
+  if(s.b.k==='rnd')g.textContent=RCH[Math.floor(Math.random()*RCH.length)];
+  if(glitch&&!RM){const r=Math.random();g.style.transform=`translate(${(Math.random()*16-8).toFixed(1)}%,${-56+(Math.random()*8-4)}%) scale(${(.85+Math.random()*.4).toFixed(2)})`;s.el.classList.toggle('inv',r<.18)}
+  else{g.style.transform='';s.el.classList.remove('inv')}
+  s.fn.textContent=f[0]}
+ st.forEach(s=>{s.el.onmouseenter=()=>{s.hov=true};s.el.onmouseleave=()=>{s.hov=false;s.burst=0;frame(s,false)};
   s.el.onclick=()=>{const b=s.b;if(b.k==='rnd'){location.hash='#/font/'+slug(R(FONTS)[0]);return}
    if(b.k==='vf'||b.k==='it'){FLT[b.k]=!FLT[b.k]}else{CATSEL=CATSEL===b.k?'all':b.k}
    refreshCat(true)}});
+ // общий такт 90 мс: наведённый отсек перебирает без остановки, остальные изредка дают короткий рывок
  let tick=0;BAYT=setInterval(()=>{if(!document.querySelector('.bay')){clearInterval(BAYT);return}tick++;
-  st.forEach((s,j)=>{if(s.hov){s.i++;show(s)}else if(tick%6===j%6){s.i++;show(s)}})},650)}
+  st.forEach(s=>{if(s.hov){frame(s,tick%3===0);return}
+   if(RM){if(tick%14===0)frame(s,false);return}
+   if(s.burst>0){s.burst--;frame(s,s.burst>0);return}
+   if(--s.hold<=0){s.burst=3+Math.floor(Math.random()*6);s.hold=14+Math.floor(Math.random()*30)}})},90)}
 const CDOT={'Гротеск':'#2B3BE5','Антиква':'#C9A227','Акцидентный':'#FF7122','Моно':'#0C0B0D','Рукописный':'#E86FB0'};
 function cShown(){return FONTS.filter(f=>(CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase()))).length}
 function csideHTML(cats){const favs=FONTS.filter(f=>isFav(f[0])).length;
@@ -1045,11 +1060,22 @@ function catalog(){
  document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>{const r=ROUTES[+b.dataset.route];CATSEL=r[2];FLT={vf:r[2]==='Гротеск',it:false};refreshCat(true)});
  $('#rnd').onclick=()=>{location.hash='#/font/'+slug(R(FONTS)[0])};
 }
+// карточка шрифта в каталоге: при наведении — резкая смена цвета, рывки начертаний и бегущая буква
+function cardHover(g){if(g._ch)return;g._ch=1;let cur=null,t=null;const CH='АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ&№?';
+ const stop=()=>{clearInterval(t);t=null;if(cur){const pv=cur.querySelector('.pv');const f=FONTS.find(x=>x[0]===cur.dataset.n);if(pv&&f){pv.style.fontWeight=baseW(f);pv.style.fontVariationSettings='';pv.style.fontStyle='';pv.style.textTransform='';pv.style.letterSpacing=''}cur.classList.remove('hot')}cur=null};
+ g.addEventListener('mouseover',e=>{const c=e.target.closest('.card');if(!c||c===cur)return;stop();cur=c;const f=FONTS.find(x=>x[0]===c.dataset.n);if(!f)return;c.classList.add('hot');
+  const pv=c.querySelector('.pv'),cg=c.querySelector('.cg');const vf=f[2]&&f[3]<f[4];const ws=vf?weightsOf(f).map(w=>w[0]):[baseW(f)];let k=0;
+  const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const step=()=>{k++;cg.textContent=CH[Math.floor(Math.random()*CH.length)];
+   if(vf){const w=ws[k%ws.length];pv.style.fontWeight=w;pv.style.fontVariationSettings=`'wght' ${w}`}
+   else{const m=k%6;pv.style.textTransform=m===2||m===3?'uppercase':'';pv.style.letterSpacing=m===3?'.06em':'';if(f[6])pv.style.fontStyle=m===4?'italic':''}};
+  step();if(!RM)t=setInterval(step,vf?130:220)});
+ g.addEventListener('mouseleave',stop);g.addEventListener('mouseout',e=>{if(cur&&!cur.contains(e.relatedTarget))stop()})}
 function renderGrid(list){
  let a=list||FONTS.filter(f=>(CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase())));
  if(!list){if(SORT==='fresh')a.sort((x,y)=>freshScore(y)-freshScore(x));if(SORT==='az')a.sort((x,y)=>x[0].localeCompare(y[0]));if(SORT==='w')a.sort((x,y)=>y[5]-x[5]);if(SORT==='cat')a.sort((x,y)=>x[1].localeCompare(y[1]))}
  const g=$('#grid');if(!a.length){g.innerHTML='<div class="empty">На этом участке неба пока пусто</div>';return}
- g.innerHTML=a.map(f=>`<a class="card" href="#/font/${slug(f[0])}"><div class="pv" data-n="${esc(f[0])}" style="font-family:${fam(f)};font-weight:${baseW(f)}">${esc(PHRASE||DEF)}</div><div class="ft"><span>${esc(f[0])} <small>· ${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${isStd(f)?' · классика':''}</small></span><button class="star ${isFav(f[0])?'on':''}" type="button" data-fav="${esc(f[0])}" aria-label="В бортовой журнал">${isFav(f[0])?'★':'☆'}</button></div></a>`).join('');
+ g.innerHTML=a.map(f=>{const bb=BAYS.find(b=>b.k===f[1])||BAYS[0];const vf=f[2]&&f[3]<f[4];return `<a class="card" href="#/font/${slug(f[0])}" data-n="${esc(f[0])}" style="--cbg:${bb.bg};--cfg:${bb.fg}"><div class="cmeta"><span>№ ${String(FONTS.indexOf(f)+1).padStart(3,'0')} · ${f[1].toUpperCase()}</span><span>${f[5]} НАЧ.${vf?' · VF':''}${f[6]?' · ITAL':''}</span></div><div class="cg" aria-hidden="true" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${bb.g[0]}</div><div class="pv" data-n="${esc(f[0])}" style="font-family:${fam(f)};font-weight:${baseW(f)}">${esc(PHRASE||DEF)}</div><div class="ft"><span>${esc(f[0])} <small>· ${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${isStd(f)?' · классика':''}</small></span><button class="star ${isFav(f[0])?'on':''}" type="button" data-fav="${esc(f[0])}" aria-label="В бортовой журнал">${isFav(f[0])?'★':'☆'}</button></div></a>`}).join('');cardHover(g);
  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);const f=FONTS.find(x=>x[0]===e.target.dataset.n);loadFont(f).then(()=>e.target.classList.add('ld')).catch(()=>{e.target.classList.add('ld')})}),{rootMargin:'300px'});
  g.querySelectorAll('.pv').forEach(x=>io.observe(x));
  g.onclick=e=>{const b=e.target.closest('[data-fav]');if(!b)return;e.preventDefault();toggleFav(b.dataset.fav);b.classList.toggle('on');b.textContent=isFav(b.dataset.fav)?'★':'☆'};
