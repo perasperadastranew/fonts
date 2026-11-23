@@ -6,6 +6,26 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 3,
+  "faces": [
+   [
+    "3DIsometric-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "3DIsometric-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "3DIsometric-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -33,6 +53,20 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "5by7.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "5by7_b.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -59,6 +93,92 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 14,
+  "faces": [
+   [
+    "AcariSans-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "AcariSans-BlackItalic.otf",
+    900,
+    900,
+    true
+   ],
+   [
+    "AcariSans-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "AcariSans-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "AcariSans-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "AcariSans-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "AcariSans-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "AcariSans-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "AcariSans-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "AcariSans-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AcariSans-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "AcariSans-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AcariSans-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "AcariSans-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -101,6 +221,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "AdventPro-Italic[wdth,wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "AdventPro[wdth,wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -125,6 +259,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Ambidexter_Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -149,6 +291,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Amstelvar-Italic.ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "Amstelvar-Roman.ttf",
+    100,
+    1000,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -173,6 +329,14 @@
   "class": "Декоративный, Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Anticva-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -196,6 +360,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "aoudax-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -220,6 +392,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "arco-cyrillic.otf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -244,6 +424,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Arrose-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Arrose-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -268,6 +462,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "arturito.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -292,6 +494,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Audex-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Audex-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -316,6 +532,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "AVA.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -339,6 +563,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "BadComic-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "BadComic-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -363,6 +601,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Balhattan-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Balhattan-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -387,6 +639,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "BBrick.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -410,6 +670,14 @@
   "class": "Декоративный",
   "license": "MIT / X11",
   "styles": 1,
+  "faces": [
+   [
+    "basis33.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -433,6 +701,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Benori.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -456,6 +732,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "BetterVCR 25.09.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -480,6 +764,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "bewlay-br1-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -504,6 +796,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "bezmiar-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -528,6 +828,20 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Blackcraft.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Blackcraft.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -552,6 +866,20 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 2,
+  "faces": [
+   [
+    "Blaec-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Blaec-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -576,6 +904,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Blazma-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Blazma-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -600,6 +942,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "bondi.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -624,6 +974,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "BubblezGraffiti-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "BubblezGraffiti-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -648,6 +1012,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "caesar-dressing-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -672,6 +1044,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Cairopixel.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -695,6 +1075,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "CascadiaCode-Italic[wght].ttf",
+    200,
+    700,
+    true
+   ],
+   [
+    "CascadiaCode[wght].ttf",
+    200,
+    700,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -719,6 +1113,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "CascadiaMono-Italic[wght].ttf",
+    200,
+    700,
+    true
+   ],
+   [
+    "CascadiaMono[wght].ttf",
+    200,
+    700,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -743,6 +1151,50 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 7,
+  "faces": [
+   [
+    "CaskaydiaCove-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "CaskaydiaCove-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "CaskaydiaCove-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "CaskaydiaCove-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "CaskaydiaCove-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CaskaydiaCove-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "CaskaydiaCove[wght].ttf",
+    200,
+    700,
+    false
+   ]
+  ],
   "variable": true,
   "italic": false,
   "weights": [
@@ -778,6 +1230,26 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 3,
+  "faces": [
+   [
+    "CAT_DyFa.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CAT_DyFa_invers.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CAT_DyFa_tanned.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -804,6 +1276,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "CAT Hohenzollern.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -828,6 +1308,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "CATLinz_1.8.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -852,6 +1340,14 @@
   "class": "Декоративный",
   "license": "MIT / X11",
   "styles": 1,
+  "faces": [
+   [
+    "clacon2.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -876,6 +1372,56 @@
   "class": "Гротеск",
   "license": "Apache 2.0",
   "styles": 8,
+  "faces": [
+   [
+    "ClearSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ClearSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "ClearSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "ClearSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "ClearSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ClearSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "ClearSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ClearSans-Thin.ttf",
+    250,
+    250,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -910,6 +1456,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Clickuper.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -933,6 +1487,26 @@
   "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 3,
+  "faces": [
+   [
+    "Code New Roman b.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Code New Roman i.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Code New Roman.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -960,6 +1534,14 @@
   "class": "Декоративный, Брусковый",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Colatemta.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -983,6 +1565,14 @@
   "class": "Декоративный, Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Constantine.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1006,6 +1596,20 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "CormorantInfant-Italic[wght].ttf",
+    300,
+    700,
+    true
+   ],
+   [
+    "CormorantInfant[wght].ttf",
+    300,
+    700,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -1033,6 +1637,20 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "CorrectionBrush.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CorrectionBrush.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1057,6 +1675,20 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "CorrectionTape.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CorrectionTape.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1081,6 +1713,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "creepster-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1105,6 +1745,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Crosterian.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1128,6 +1776,26 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 3,
+  "faces": [
+   [
+    "DatCub-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "DatCub-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "DatCub-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1155,6 +1823,44 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 6,
+  "faces": [
+   [
+    "DatDot-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "DatDot-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "DatDot-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "DatDot-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "DatDot-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "DatDot-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1185,6 +1891,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "DaysOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1208,6 +1922,56 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 8,
+  "faces": [
+   [
+    "DigitTech14-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DigitTech14-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "DigitTech16-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DigitTech16-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "DigitTech7-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DigitTech7-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "DigitTech9-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DigitTech9-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -1238,6 +2002,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Dimica-Light.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1262,6 +2034,20 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Divagon.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Divagon.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1286,6 +2072,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Droid 1997.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1310,6 +2104,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "EuroScript.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "EuroScriptBold.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1336,6 +2144,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Exo2-Italic[wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "Exo2[wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -1363,6 +2185,92 @@
   "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 14,
+  "faces": [
+   [
+    "Fairfax.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FairfaxBold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "FairfaxHax.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FairfaxHaxBold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "FairfaxHaxItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "FairfaxItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "FairfaxPona.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FairfaxPula.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FairfaxSM.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FairfaxSMBold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "FairfaxSMItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "FairfaxSerif.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FairfaxSerifHax.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FairfaxSerifSM.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -1400,6 +2308,32 @@
   "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "FantasqueSansMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "FantasqueSansMono-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "FantasqueSansMono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "FantasqueSansMono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -1427,6 +2361,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "fascinate-cyrillic.otf",
+    900,
+    900,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1451,6 +2393,32 @@
   "class": "Рукописный, Декоративный",
   "license": "CC0 / Public Domain",
   "styles": 4,
+  "faces": [
+   [
+    "FirstTimeWriting!.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "FirstTimeWriting!.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "FirstTimeWriting.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "FirstTimeWriting.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1477,6 +2445,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "FlowBlock-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1500,6 +2476,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "FlowCircular-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1523,6 +2507,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "FlowRounded-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1546,6 +2538,14 @@
   "class": "Декоративный",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Foo.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1570,6 +2570,62 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 9,
+  "faces": [
+   [
+    "FuneverSansDisplay-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "FuneverSansDisplay-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "FuneverSansDisplay-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "FuneverSansDisplay-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "FuneverSansDisplay-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "FuneverSansDisplay-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FuneverSansDisplay-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "FuneverSansDisplay-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "FuneverSansDisplay-Thin.otf",
+    100,
+    100,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1609,6 +2665,14 @@
   "class": "",
   "license": "CC BY-SA",
   "styles": 1,
+  "faces": [
+   [
+    "futurespore-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1633,6 +2697,32 @@
   "class": "",
   "license": "MIT / X11",
   "styles": 4,
+  "faces": [
+   [
+    "GaramondLibre-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "GaramondLibre-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "GaramondLibre-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "GaramondLibre-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -1660,6 +2750,32 @@
   "class": "Декоративный, Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Gerhaus-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Gerhaus-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Gerhaus-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Gerhaus-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -1686,6 +2802,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "gochi-hand-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1710,6 +2834,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "gogono-cocoa-mochi-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1734,6 +2866,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "googee.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1758,6 +2898,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Gridtile.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1781,6 +2929,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "gugi-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1805,6 +2961,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Guidy.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1829,6 +2993,32 @@
   "class": "Моноширинный",
   "license": "CC0 / Public Domain",
   "styles": 4,
+  "faces": [
+   [
+    "Hack-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Hack-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Hack-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Hack-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -1856,6 +3046,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "harpseal.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1880,6 +3078,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Helvetica Verbundene.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1904,6 +3110,32 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Heuristica-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Heuristica-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Heuristica-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Heuristica-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -1932,6 +3164,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "HG2G.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1956,6 +3196,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "hi-melody-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -1980,6 +3228,20 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 2,
+  "faces": [
+   [
+    "HomeVideo-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "HomeVideo-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2005,6 +3267,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "HooskaiChamferedSquare-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2028,6 +3298,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Horta demo.otf",
+    600,
+    600,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2052,6 +3330,20 @@
   "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "InkVerse.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "InkVerse.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2076,6 +3368,68 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 10,
+  "faces": [
+   [
+    "Involve-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Involve-BoldOblique.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Involve-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Involve-MediumOblique.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Involve-Oblique-VF.ttf",
+    400,
+    700,
+    true
+   ],
+   [
+    "Involve-Oblique.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Involve-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Involve-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Involve-SemiBoldOblique.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "Involve-VF.ttf",
+    400,
+    700,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -2111,6 +3465,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "IsarCAT.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2135,6 +3497,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Ithaca.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2158,6 +3528,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "jolly-lodger-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2182,6 +3560,26 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 3,
+  "faces": [
+   [
+    "JollySweater-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "JollySweater-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "JollySweater-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2209,6 +3607,44 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 6,
+  "faces": [
+   [
+    "Jupiteroid-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Jupiteroid-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Jupiteroid-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Jupiteroid-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Jupiteroid-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Jupiteroid-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2239,6 +3675,68 @@
   "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 10,
+  "faces": [
+   [
+    "JustBreathe.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheBd.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheBdObl3.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheBdObl7.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheObl1.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheObl2.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheObl3.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheObl4.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheObl5.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "JustBreatheObl7.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2271,6 +3769,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Kablammo[MORF].ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": true,
   "italic": false,
   "weights": [
@@ -2297,6 +3803,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "kaiju-monster-g-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2321,6 +3835,14 @@
   "class": "Декоративный, Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Kanalisirung.otf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2345,6 +3867,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Kaph-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Kaph-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2369,6 +3905,14 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "16655.otf",
+    400,
+    400,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2393,6 +3937,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "KJV1611.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2417,6 +3969,14 @@
   "class": "Декоративный, Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "kom-post.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2441,6 +4001,32 @@
   "class": "Рукописный, Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Kurland-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Kurland-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Kurland-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Kurland-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2467,6 +4053,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Lambda-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Lambda-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2491,6 +4091,38 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 5,
+  "faces": [
+   [
+    "Lanze-Halberd.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Lanze-Pike.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Lanze-Scythe.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Lanze-Spear.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Lanze-Variable.ttf",
+    0,
+    1000,
+    false
+   ]
+  ],
   "variable": true,
   "italic": false,
   "weights": [
@@ -2519,6 +4151,116 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 18,
+  "faces": [
+   [
+    "Lato-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Lato-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "Lato-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Lato-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Lato-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Lato-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "Lato-ExtraLight.ttf",
+    275,
+    275,
+    false
+   ],
+   [
+    "Lato-ExtraLightItalic.ttf",
+    275,
+    275,
+    true
+   ],
+   [
+    "Lato-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Lato-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Lato-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Lato-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Lato-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Lato-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Lato-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Lato-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "Lato-Thin.ttf",
+    250,
+    250,
+    false
+   ],
+   [
+    "Lato-ThinItalic.ttf",
+    250,
+    250,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2567,6 +4309,32 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Leporid-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Leporid-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Leporid-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Leporid-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2593,6 +4361,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Liber-Struct.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2616,6 +4392,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Linerama-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Linerama-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2641,6 +4431,44 @@
   "class": "Гротеск",
   "license": "Apache 2.0",
   "styles": 6,
+  "faces": [
+   [
+    "Lorenzo Sans Bold Italic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Lorenzo Sans Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Lorenzo Sans Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Lorenzo Sans Medium Italic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Lorenzo Sans Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Lorenzo Sans Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2672,6 +4500,116 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 18,
+  "faces": [
+   [
+    "LTSuperior-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "LTSuperior-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "LTSuperior-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "LTSuperior-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "LTSuperior-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "LTSuperior-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "LTSuperior-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "LTSuperior-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "LTSuperior-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "LTSuperior-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "LTSuperior-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "LTSuperior-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "LTSuperior-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "LTSuperior-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "LTSuperior-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "LTSuperior-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "LTSuperior-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "LTSuperior-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2720,6 +4658,32 @@
   "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "luculent.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "luculentb.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "luculentbi.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "luculenti.ttf",
+    400,
+    400,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2748,6 +4712,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Mail Ray Stuff.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2772,6 +4744,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Marmelad-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2795,6 +4775,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Mavoble-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Mavoble-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2820,6 +4814,14 @@
   "class": "Декоративный",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Metal Lord.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2844,8 +4846,16 @@
   "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "miamanueva.otf",
+    400,
+    400,
+    true
+   ]
+  ],
   "variable": false,
-  "italic": false,
+  "italic": true,
   "weights": [
    400
   ],
@@ -2867,6 +4877,14 @@
   "class": "Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Miracode.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2890,6 +4908,20 @@
   "class": "Рукописный, Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "MisterBrush.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MisterBrush.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2914,6 +4946,26 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 3,
+  "faces": [
+   [
+    "Monoid-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Monoid-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Monoid-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -2941,6 +4993,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "morana.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2964,6 +5024,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Natural Mono Alt-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Natural Mono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -2988,6 +5062,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Neocyr.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3013,6 +5095,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Neuropol.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3037,6 +5127,128 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 20,
+  "faces": [
+   [
+    "NeverMindCompact-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NeverMindCompact-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "NeverMindCompact-Book.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "NeverMindCompact-BookItalic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "NeverMindCompact-DemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "NeverMindCompact-DemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "NeverMindCompact-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "NeverMindCompact-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "NeverMindCompact-Extrabold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "NeverMindCompact-ExtraboldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "NeverMindCompact-Heavy.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "NeverMindCompact-HeavyItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "NeverMindCompact-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "NeverMindCompact-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "NeverMindCompact-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "NeverMindCompact-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "NeverMindCompact-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "NeverMindCompact-RegularItalic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "NeverMindCompact-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "NeverMindCompact-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -3087,6 +5299,68 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 10,
+  "faces": [
+   [
+    "NeverMindSlab-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NeverMindSlab-Book.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "NeverMindSlab-DemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "NeverMindSlab-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "NeverMindSlab-Extrabold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "NeverMindSlab-Heavy.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "NeverMindSlab-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "NeverMindSlab-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "NeverMindSlab-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "NeverMindSlab-Thin.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3127,6 +5401,44 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 6,
+  "faces": [
+   [
+    "Nobile-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Nobile-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Nobile-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Nobile-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Nobile-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Nobile-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -3157,6 +5469,20 @@
   "class": "Декоративный",
   "license": "CC0 / Public Domain",
   "styles": 2,
+  "faces": [
+   [
+    "Novem.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Novem.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3181,6 +5507,32 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Oldtimer-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Oldtimer-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Oldtimer-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Oldtimer-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -3207,6 +5559,20 @@
   "class": "Декоративный",
   "license": "CC0 / Public Domain",
   "styles": 2,
+  "faces": [
+   [
+    "OperationNapalm-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "OperationNapalm-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -3231,6 +5597,32 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Opsilon-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Opsilon-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Opsilon-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Opsilon-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -3257,6 +5649,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Osterbar.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3282,6 +5682,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "overdozesans.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3305,6 +5713,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Overpass-Italic[wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "Overpass[wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -3332,6 +5754,14 @@
   "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "OverpassMono[wght].ttf",
+    300,
+    700,
+    false
+   ]
+  ],
   "variable": true,
   "italic": false,
   "weights": [
@@ -3358,6 +5788,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "paperfiller.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3382,6 +5820,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "passero-one-cyrillic.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3406,6 +5852,14 @@
   "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Pecita.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3430,6 +5884,14 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Peter_Ivanovitsch.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3455,6 +5917,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "pinzelan-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3479,6 +5949,44 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 6,
+  "faces": [
+   [
+    "PixeloidMono.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "PixeloidMono.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "PixeloidSans-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "PixeloidSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "PixeloidSans.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "PixeloidSans.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3508,6 +6016,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Pixelzone.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3531,6 +6047,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Play-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Play-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3559,6 +6089,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "PoiretOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3585,6 +6123,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "LichtePostBusPro.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "PostBusPro.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3611,6 +6163,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Proletarsk.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3635,6 +6195,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Propaniac.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3659,6 +6227,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "ProstoOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3682,6 +6258,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "PublicPixel.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3705,6 +6289,32 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Pulstar-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Pulstar-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Pulstar-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Pulstar-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -3731,6 +6341,20 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "QuinqueFive.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "QuinqueFive.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3755,6 +6379,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Renju.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3779,6 +6411,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RishaNeo.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3802,6 +6442,32 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Robtronika-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Robtronika-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Robtronika-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Robtronika-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -3828,6 +6494,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Rubik80sFade-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3854,6 +6528,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikBeastly-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3880,6 +6562,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikBrokenFax-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3906,6 +6596,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikBubbles-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3932,6 +6630,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikBurned-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3958,6 +6664,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikDirt-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -3984,6 +6698,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikDistressed-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4010,6 +6732,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikDoodleShadow-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4036,6 +6766,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikDoodleTriangles-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4062,6 +6800,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikGemstones-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4088,6 +6834,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikGlitch-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4114,6 +6868,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikGlitchPop-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4140,6 +6902,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikIso-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4166,6 +6936,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikLines-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4192,6 +6970,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikMaps-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4218,6 +7004,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikMarkerHatch-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4244,6 +7038,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikMaze-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4270,6 +7072,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikMicrobe-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4296,6 +7106,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikMonoOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4322,6 +7140,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikMoonrocks-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4348,6 +7174,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikPixels-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4374,6 +7208,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikPuddles-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4400,6 +7242,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikScribble-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4426,6 +7276,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikSprayPaint-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4452,6 +7310,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikStorm-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4478,6 +7344,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikVinyl-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4504,6 +7378,14 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RubikWetPaint-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4530,6 +7412,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "rum-raisin-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4554,6 +7444,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "RussoOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4577,6 +7475,32 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "RuthlessSketch-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "RuthlessSketch-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "RuthlessSketch-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "RuthlessSketch-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -4603,6 +7527,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Sagewold-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Sagewold-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -4627,6 +7565,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Sangyo-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Sangyo-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -4651,6 +7603,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "saniretro-cyrillic.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4675,6 +7635,44 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 6,
+  "faces": [
+   [
+    "Sansation-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Sansation-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Sansation-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Sansation-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Sansation-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Sansation-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -4705,6 +7703,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Selena-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Selena.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -4729,6 +7741,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Serati-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Serati-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -4753,6 +7779,14 @@
   "class": "Антиква, Декоративный",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Sexsmith.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4777,6 +7811,14 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "SeymourOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4800,6 +7842,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "SNPro-Italic[wght].ttf",
+    200,
+    900,
+    true
+   ],
+   [
+    "SNPro[wght].ttf",
+    200,
+    900,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -4824,6 +7880,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "solid-soldier-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4848,6 +7912,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Spectrashell.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4872,6 +7944,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "swanky-and-moo-moo-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4896,6 +7976,20 @@
   "class": "Декоративный, Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Swanston-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Swanston.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4922,6 +8016,32 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Terminalia-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Terminalia-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Terminalia-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Terminalia-VF.ttf",
+    300,
+    700,
+    false
+   ]
+  ],
   "variable": true,
   "italic": false,
   "weights": [
@@ -4951,6 +8071,14 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "TheanoDidot-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4975,6 +8103,14 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "TheanoModern-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -4999,6 +8135,14 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "TheanoOldStyle-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5023,6 +8167,20 @@
   "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Tiny5Duo-Italic[BLED,JITT,ROND,wdth,wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -5050,6 +8208,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Trigram-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Trigram-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5075,6 +8247,14 @@
   "class": "Декоративный, Моноширинный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "TT_E.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5098,6 +8278,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Unsightly.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5121,6 +8309,32 @@
   "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Unutterable-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Unutterable-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Unutterable-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Unutterable-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5147,6 +8361,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Vollda-Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5171,6 +8393,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Vyaz Pixel.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5194,6 +8424,32 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Walleye-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Walleye-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Walleye-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Walleye.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5221,6 +8477,14 @@
   "class": "Антиква, Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Wes.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5244,6 +8508,32 @@
   "class": "Брусковый, Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Westhorn-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Westhorn-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Westhorn-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Westhorn-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5270,6 +8560,14 @@
   "class": "",
   "license": "CC BY-SA",
   "styles": 1,
+  "faces": [
+   [
+    "wetware-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5294,6 +8592,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Wimzik.otf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5318,6 +8624,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "XCompany-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "XCompany-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5342,6 +8662,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "XTypewriter-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "XTypewriter-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5367,6 +8701,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Xanmono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Xanmono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5391,6 +8739,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Xiaolai-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5414,6 +8770,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Xmind-Italic[wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "Xmind[wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -5438,6 +8808,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Y224.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5461,6 +8839,20 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Yazo.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Yazo.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5485,6 +8877,14 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Yokawerad.otf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5508,6 +8908,20 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "YsabeauInfant-Italic[wght].ttf",
+    1,
+    1000,
+    true
+   ],
+   [
+    "YsabeauInfant[wght].ttf",
+    1,
+    1000,
+    false
+   ]
+  ],
   "variable": true,
   "italic": true,
   "weights": [
@@ -5535,6 +8949,20 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Yulong-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Yulong-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5559,6 +8987,14 @@
   "class": "Антиква, Брусковый, Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Zantroke.otf",
+    500,
+    500,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5582,6 +9018,116 @@
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 18,
+  "faces": [
+   [
+    "ZapusSans-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "ZapusSans-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "ZapusSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ZapusSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "ZapusSans-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "ZapusSans-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "ZapusSans-ExtraLight.ttf",
+    250,
+    250,
+    false
+   ],
+   [
+    "ZapusSans-ExtraLightItalic.ttf",
+    250,
+    250,
+    true
+   ],
+   [
+    "ZapusSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "ZapusSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "ZapusSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "ZapusSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ZapusSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "ZapusSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ZapusSans-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "ZapusSans-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "ZapusSans-Thin.ttf",
+    250,
+    250,
+    false
+   ],
+   [
+    "ZapusSans-ThinItalic.ttf",
+    250,
+    250,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5630,6 +9176,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Zector.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5653,6 +9207,32 @@
   "class": "Декоративный",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Zeitmax-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Zeitmax-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Zeitmax-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Zeitmax-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
@@ -5679,6 +9259,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Zelega Zenega.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5703,6 +9291,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "ZeroCool.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5726,6 +9322,20 @@
   "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 2,
+  "faces": [
+   [
+    "Znikomit.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "ZnikomitSC.otf",
+    100,
+    100,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5750,6 +9360,14 @@
   "class": "Декоративный, Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "ZnikomitNo25.otf",
+    100,
+    100,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5773,6 +9391,14 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 1,
+  "faces": [
+   [
+    "Xarrovv.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5797,6 +9423,14 @@
   "class": "",
   "license": "CC0 / Public Domain",
   "styles": 1,
+  "faces": [
+   [
+    "Kramola.otf",
+    400,
+    400,
+    false
+   ]
+  ],
   "variable": false,
   "italic": false,
   "weights": [
@@ -5821,6 +9455,32 @@
   "class": "",
   "license": "SIL OFL 1.1",
   "styles": 4,
+  "faces": [
+   [
+    "Shonen (Namikus).otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Shonen Bold  (Namikus).otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Shonen Bold Italic (Namikus).otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Shonen Italic (Namikus).otf",
+    400,
+    400,
+    true
+   ]
+  ],
   "variable": false,
   "italic": true,
   "weights": [
