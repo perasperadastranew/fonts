@@ -1,5 +1,50 @@
 [
  {
+  "name": "3270",
+  "slug": "3270",
+  "author": "Ricardo Bánffy",
+  "class": "Декоративный",
+  "license": "CC BY-SA",
+  "styles": 3,
+  "faces": [
+   [
+    "3270-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "3270Condensed-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "3270SemiCondensed-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "3270-Regular.otf",
+   "3270Condensed-Regular.otf",
+   "3270SemiCondensed-Regular.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/rbanffy/3270font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2011-2021 The 3270font Project Authors (https://github.com/rbanffy/3270font)"
+ },
+ {
   "name": "3D Isometric",
   "slug": "3d-isometric",
   "author": "GGBotNet",
@@ -968,6 +1013,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Bristol",
+  "slug": "bristol",
+  "author": "Jovanny Lemonad",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Bristol.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Bristol.otf"
+  ],
+  "license_files": [
+   "FREE FONT LICENSE.txt"
+  ],
+  "source": "https://www.dafont.com/bristol.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2016 by Jovanny Lemonad. All rights reserved."
+ },
+ {
   "name": "Bubblez Graffiti",
   "slug": "bubblez-graffiti",
   "author": "GGBotNet",
@@ -1300,6 +1376,39 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2014 by Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "CAT Kakographie",
+  "slug": "cat-kakographie",
+  "author": "Peter Wiegel",
+  "class": "",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "CAT-Kakografie.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "CAT-Kakografie.ttf"
+  ],
+  "license_files": [
+   "OFL-Deutsch.txt",
+   "OFL-FAQ.txt",
+   "Open Font License.txt"
+  ],
+  "source": "http://www.peter-wiegel.de/CATKakografie.html",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2017 by  CAT-Fonts . All rights reserved."
  },
  {
   "name": "CAT Linz",
@@ -2387,6 +2496,38 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Fette Bauersche Antiqua",
+  "slug": "fette-bauersche-antiqua",
+  "author": "Peter Wiegel",
+  "class": "Антиква, Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Fette Bauersche Antiqua UNZ1.ttf",
+    900,
+    900,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   900
+  ],
+  "files": [
+   "Fette Bauersche Antiqua UNZ1.ttf"
+  ],
+  "license_files": [
+   "OFL-FAQ.txt",
+   "Open Font License.txt"
+  ],
+  "source": "http://www.peter-wiegel.de/FetteBauer.html",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2013 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
   "name": "First Time Writing",
   "slug": "first-time-writing",
   "author": "GGBotNet",
@@ -2437,6 +2578,70 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
+ },
+ {
+  "name": "Flexi IBM VGA False",
+  "slug": "flexi-ibm-vga-false",
+  "author": "VileR",
+  "class": "Декоративный",
+  "license": "CC BY-SA",
+  "styles": 1,
+  "faces": [
+   [
+    "Flexi_IBM_VGA_False.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Flexi_IBM_VGA_False.ttf"
+  ],
+  "license_files": [
+   "LICENSE.TXT",
+   "README.TXT"
+  ],
+  "source": "https://www.dafont.com/flexi-ibm-vga-false.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "(c) 2020 VileR"
+ },
+ {
+  "name": "Flexi IBM VGA True",
+  "slug": "flexi-ibm-vga-true",
+  "author": "VileR",
+  "class": "Декоративный",
+  "license": "CC BY-SA",
+  "styles": 1,
+  "faces": [
+   [
+    "Flexi_IBM_VGA_True.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Flexi_IBM_VGA_True.ttf"
+  ],
+  "license_files": [
+   "LICENSE.TXT",
+   "README.TXT"
+  ],
+  "source": "https://www.dafont.com/flexi-ibm-vga-true.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "(c) 2020 VileR"
  },
  {
   "name": "Flow Block",
@@ -3324,6 +3529,45 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Hussar Szturm",
+  "slug": "hussar-szturm",
+  "author": "Robert Jablonski",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "HussarSzturm.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "HussarSzturmObl.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "HussarSzturm.otf",
+   "HussarSzturmObl.otf"
+  ],
+  "license_files": [
+   "OFL-FAQ.txt",
+   "SIL Open Font License.txt"
+  ],
+  "source": "https://fontlibrary.org/ru/font/hussar-szturm",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "(c) 2014-2015, Robert Jablonski/Cannot Into Space Fonts, all rights reserved."
+ },
+ {
   "name": "InkVerse",
   "slug": "inkverse",
   "author": "GGBotNet",
@@ -3929,6 +4173,39 @@
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Paul James Miller, 2015.  All rights reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Ketwurst",
+  "slug": "ketwurst",
+  "author": "Peter Wiegel",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Ketwurst.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Ketwurst.ttf"
+  ],
+  "license_files": [
+   "OFL-Deutsch.txt",
+   "OFL-FAQ (DE, EN).txt",
+   "Open Font License.txt"
+  ],
+  "source": "http://www.peter-wiegel.de/Ketwurst.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2020 by CAT-Fonts Peter Wiegel. All rights reserved.under SIL OFL"
  },
  {
   "name": "KJV1611",
@@ -5018,6 +5295,37 @@
   "copyright": "Copyright (c) 2021. Vesko Radic <radic.vesko@gmail.com>"
  },
  {
+  "name": "Murs Gothic Wide Dark",
+  "slug": "murs-gothic-wide-dark",
+  "author": "Максим Кобузан",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "MursGothic-WideDark.otf",
+    800,
+    800,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   800
+  ],
+  "files": [
+   "MursGothic-WideDark.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://www.behance.net/gallery/200845737/MURS-GOTHIC-Free-Font-Latin-Cyrillic",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Maksym Kobuzan"
+ },
+ {
   "name": "Natural Mono",
   "slug": "natural-mono",
   "author": "Vasily Draigo",
@@ -5909,6 +6217,38 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2018 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
+  "name": "Phlatt Grotesk",
+  "slug": "phlatt-grotesk",
+  "author": "RandomMaerks",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "PhlattGrotesk.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "PhlattGrotesk.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt",
+   "README.md"
+  ],
+  "source": "https://github.com/RandomMaerks/Phlatt-Grotesk",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2023, RandomMaerks (Bao Nguyen). All rights reserved."
  },
  {
   "name": "Pinzelan",
@@ -8241,6 +8581,38 @@
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "TriodPostnaja",
+  "slug": "triodpostnaja",
+  "author": "Daniel Johnson",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "TriodPostnaja.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "TriodPostnaja.ttf"
+  ],
+  "license_files": [
+   "FONTLOG.txt",
+   "LICENSE.txt"
+  ],
+  "source": "https://fontlibrary.org/ru/font/triod-postnaja",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2010, 2011, 2013 by Daniel Johnson. Licensed under the terms of the SIL Open Font License."
+ },
+ {
   "name": "TT2020 Style E",
   "slug": "tt2020-style-e",
   "author": "Fredrick Brennan",
@@ -8800,6 +9172,46 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2025 The Xmind Project Authors (https://github.com/lamzhonghang/xmind)"
+ },
+ {
+  "name": "Xolonium",
+  "slug": "xolonium",
+  "author": "Severin Meyer",
+  "class": "Декоративный, Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "Xolonium-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Xolonium-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Xolonium-Bold.otf",
+   "Xolonium-Regular.otf"
+  ],
+  "license_files": [
+   "FONTLOG.txt",
+   "LICENSE.txt"
+  ],
+  "source": "https://fontlibrary.org/font/xolonium",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2011-2016 Severin Meyer"
  },
  {
   "name": "Y224",
