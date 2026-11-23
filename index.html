@@ -352,6 +352,28 @@ body.v-b .lic2 .a{color:var(--ink)}
 .bars i{position:absolute;left:0;top:0;bottom:0;border-radius:9px;background:var(--ink)}.bars u{position:absolute;top:-3px;width:2px;height:12px;background:#FF7122;transform:translateX(-1px)}
 .bl{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.bl small{font:10px 'JetBrains Mono';color:var(--mut)}
 @media(max-width:900px){.axes{grid-template-columns:1fr 1fr}.shres{grid-template-columns:1fr}}
+
+/* компактная главная: галерея ниже, отсеки в одну строку */
+.h4x{padding:14px 0 4px}
+.h4cards{height:min(40vh,380px);min-height:280px}
+.h4c:nth-child(2){transform:translateY(12px)}
+.h4cap{padding:22px 2px 0;font-size:13px}
+.h4bar{margin-top:12px;padding-top:12px}
+.h4bar h1{font-size:clamp(28px,3.2vw,44px)}
+.bays .bh{margin-bottom:10px}
+.bays .bh h2{font-size:clamp(24px,2.6vw,34px)}
+.bgrid{grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}
+.bay{aspect-ratio:3/4.1;padding:11px 12px;border-radius:calc(var(--rk,1)*18px)}
+.bay .top{gap:6px;font-size:9.5px}
+.bay .cnt{font-size:11px;padding:2px 7px;flex:none}
+.bay .gl,.bay .ghost{font-size:clamp(46px,4.6vw,74px);transform:translateY(-62%)}
+.bay .ln{left:12px;right:12px;top:44%}
+.bay .nm{font-size:15px;line-height:1.1}
+.bay .fn{font-size:9.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.bay .bt>div{min-width:0}
+.bay .ar{width:24px;height:24px;font-size:12px;flex:none}
+@media(max-width:1250px){.bgrid{grid-template-columns:repeat(4,minmax(0,1fr))}.bay{aspect-ratio:1/.9}}
+@media(max-width:900px){.bgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:8px;padding-bottom:4px;scrollbar-width:none}.bgrid::-webkit-scrollbar{display:none}.bay{flex:0 0 38%;scroll-snap-align:start;aspect-ratio:3/4}.bay .nm{font-size:15px}.h4cards{height:auto}}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
