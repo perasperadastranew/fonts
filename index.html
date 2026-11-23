@@ -848,24 +848,24 @@ function histHTML(f){const h=HIST[f[0]]||HIST[f[0].replace(/ (Text|Display|Capti
 // ---------- режиссура по классу: свои композиции для класса + две карточки-контраста
 Object.assign(T,{
 editorial(p){const ph=phrase();const w=baseW(F),hw=heavyW(F);const it=F[6]?'italic':'normal';const cov=window.COVER;const b=BODY;const L=b[0];
- return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:4cqw 4.5cqw ${cov?'16cqh':'4cqw'};display:flex;flex-direction:column;gap:2cqw;overflow:hidden">
- <div style="display:flex;justify-content:space-between;font:600 1.3cqw 'JetBrains Mono',monospace;letter-spacing:.1em;border-bottom:1px solid currentColor;padding-bottom:1cqw;opacity:.85"><span>ЖУРНАЛ «БОРТ» · ВЫПУСК ${String(Math.floor(Math.random()*40)+1).padStart(2,'0')}</span><span>${esc(F[0].toUpperCase())}</span></div>
- <div style="font-family:${ff()};font-weight:${hw};font-size:6.4cqw;line-height:1.02;letter-spacing:-.01em;text-wrap:balance;max-width:88%">${esc(ph)}</div>
- <div style="display:grid;grid-template-columns:${cov?'1fr 1fr 1fr':'1fr 1fr'};gap:2.4cqw;font-family:${ff()};font-weight:${w};font-size:1.55cqw;line-height:1.45;flex:1;min-height:0;overflow:hidden">
-  <p style="margin:0"><span style="float:left;font-weight:${hw};font-size:6.2cqw;line-height:.82;margin:.3cqw 1cqw 0 0;color:${p[3]}">${L}</span>${esc(b.slice(1))}</p>
-  <div><p style="margin:0 0 1.6cqw;font-style:${it};font-size:2.6cqw;line-height:1.2;border-left:.4cqw solid ${p[3]};padding-left:1.6cqw">«${esc(words().slice(0,4).join(' '))}»</p><p style="margin:0;opacity:.85">${esc(b)}</p></div>
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:7.0cqmin 7.88cqmin ${cov?'16cqh':'7.0cqmin'};display:flex;flex-direction:column;gap:3.5cqmin;overflow:hidden">
+ <div style="display:flex;justify-content:space-between;font:600 2.27cqmin 'JetBrains Mono',monospace;letter-spacing:.1em;border-bottom:1px solid currentColor;padding-bottom:1.75cqmin;opacity:.85"><span>ЖУРНАЛ «БОРТ» · ВЫПУСК ${String(Math.floor(Math.random()*40)+1).padStart(2,'0')}</span><span>${esc(F[0].toUpperCase())}</span></div>
+ <div style="font-family:${ff()};font-weight:${hw};font-size:11.2cqmin;line-height:1.02;letter-spacing:-.01em;text-wrap:balance;max-width:88%">${esc(ph)}</div>
+ <div style="display:grid;grid-template-columns:${cov?'1fr 1fr 1fr':'1fr 1fr'};gap:4.2cqmin;font-family:${ff()};font-weight:${w};font-size:2.71cqmin;line-height:1.45;flex:1;min-height:0;overflow:hidden">
+  <p style="margin:0"><span style="float:left;font-weight:${hw};font-size:10.85cqmin;line-height:.82;margin:.5.25cqmin 1.75cqmin 0 0;color:${p[3]}">${L}</span>${esc(b.slice(1))}</p>
+  <div><p style="margin:0 0 2.8cqmin;font-style:${it};font-size:4.55cqmin;line-height:1.2;border-left:.7.0cqmin solid ${p[3]};padding-left:2.8cqmin">«${esc(words().slice(0,4).join(' '))}»</p><p style="margin:0;opacity:.85">${esc(b)}</p></div>
   ${cov?`<p style="margin:0;opacity:.85">${esc(b)}</p>`:''}
  </div>
- <div style="display:flex;justify-content:space-between;font:1.2cqw 'JetBrains Mono',monospace;opacity:.6"><span>${esc(CAT[F[1]])} · ${weightsOf(F).length} ${plural(weightsOf(F).length)}</span><span>с. ${Math.floor(Math.random()*90)+10}</span></div></div>`}},
+ <div style="display:flex;justify-content:space-between;font:2.1cqmin 'JetBrains Mono',monospace;opacity:.6"><span>${esc(CAT[F[1]])} · ${weightsOf(F).length} ${plural(weightsOf(F).length)}</span><span>с. ${Math.floor(Math.random()*90)+10}</span></div></div>`}},
 terminal(p){const ph=phrase();const w=baseW(F),hw=heavyW(F);const cov=window.COVER;const n=weightsOf(F).length;
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};overflow:hidden">
- <div style="position:absolute;inset:4cqw 4cqw ${cov?'16cqh':'4cqw'};border:1px solid ${p[2]}40;border-radius:1.6cqw;background:rgba(0,0,0,.14);display:flex;flex-direction:column;overflow:hidden">
-  <div style="display:flex;gap:.9cqw;align-items:center;padding:1.3cqw 1.8cqw;border-bottom:1px solid ${p[2]}30"><i style="width:1.3cqw;height:1.3cqw;border-radius:50%;background:${p[3]}"></i><i style="width:1.3cqw;height:1.3cqw;border-radius:50%;background:${p[2]};opacity:.35"></i><i style="width:1.3cqw;height:1.3cqw;border-radius:50%;background:${p[2]};opacity:.35"></i><span style="margin-left:auto;font-family:${ff()};font-size:1.5cqw;opacity:.6">борт:~/шрифты</span></div>
-  <div style="padding:2.2cqw 2.4cqw;font-family:${ff()};font-weight:${w};font-size:1.9cqw;line-height:1.55;display:flex;flex-direction:column;gap:.4cqw;flex:1;min-height:0">
+ <div style="position:absolute;inset:7.0cqmin 7.0cqmin ${cov?'16cqh':'7.0cqmin'};border:1px solid ${p[2]}40;border-radius:2.8cqmin;background:rgba(0,0,0,.14);display:flex;flex-direction:column;overflow:hidden">
+  <div style="display:flex;gap:.15.75cqmin;align-items:center;padding:2.27cqmin 3.15cqmin;border-bottom:1px solid ${p[2]}30"><i style="width:2.27cqmin;height:2.27cqmin;border-radius:50%;background:${p[3]}"></i><i style="width:2.27cqmin;height:2.27cqmin;border-radius:50%;background:${p[2]};opacity:.35"></i><i style="width:2.27cqmin;height:2.27cqmin;border-radius:50%;background:${p[2]};opacity:.35"></i><span style="margin-left:auto;font-family:${ff()};font-size:2.62cqmin;opacity:.6">борт:~/шрифты</span></div>
+  <div style="padding:3.85cqmin 4.2cqmin;font-family:${ff()};font-weight:${w};font-size:3.32cqmin;line-height:1.55;display:flex;flex-direction:column;gap:.7.0cqmin;flex:1;min-height:0">
    <div><span style="color:${p[3]}">$</span> экипаж --шрифт "${esc(F[0])}"</div>
    <div style="opacity:.6">кириллица ......... 66/66 ✓<br>начертаний ........ ${n}<br>лицензия .......... можно для клиента</div>
    <div><span style="color:${p[3]}">$</span> печать</div>
-   <div class="tty" style="font-weight:${hw};font-size:5.4cqw;line-height:1.08;margin-top:1cqw;text-wrap:balance"></div></div></div></div>`,
+   <div class="tty" style="font-weight:${hw};font-size:9.45cqmin;line-height:1.08;margin-top:1.75cqmin;text-wrap:balance"></div></div></div></div>`,
  after(el){const box=el.querySelector('.tty');if(!box)return;let i=0;const full=ph;const cur=`<span style="display:inline-block;width:.55em;height:.95em;vertical-align:-.12em;background:${p[3]};margin-left:.05em"></span>`;
   loopT(box,90,()=>{i=i>full.length+18?0:i+1;box.innerHTML=esc(full.slice(0,Math.min(i,full.length)))+(i%6<4||i<full.length?cur:'')})}}},
 note(p){const ph=phrase();const w=heavyW(F);const cov=window.COVER;const ink=['#1C2A6B','#7A1F1F','#16302A'][Math.floor(Math.random()*3)];
