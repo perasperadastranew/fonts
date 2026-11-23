@@ -403,6 +403,25 @@ body.v-b .lic2 .a{color:var(--ink)}
 .card .cg{position:absolute;right:16px;top:30px;font-size:64px;line-height:1;opacity:0;pointer-events:none}
 .card.hot{background:var(--cbg);color:var(--cfg);box-shadow:none}.card.hot .cmeta,.card.hot .ft small{color:var(--cfg);opacity:.75}.card.hot .ft{border-color:currentColor}
 .card.hot .cg{opacity:1;color:var(--cfg)}.card.hot .pv{padding-right:60px}.card.hot .star{color:var(--cfg)}
+/* удобство: фильтр «для чего», сравнение, быстрый просмотр */
+.chip.pu{border:1px dashed var(--ln)}
+.card .cbt{display:flex;gap:2px;align-items:center}.card .cmpb{border:0;background:none;font-size:16px;padding:4px 6px;border-radius:8px;color:inherit;opacity:.55;cursor:pointer}.card .cmpb:hover{opacity:1}.card .cmpb.on{opacity:1;background:#FF7122;color:#0C0B0D}
+#cmpTray{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:60;display:flex;gap:6px;align-items:center;background:var(--ink);color:var(--pap);padding:8px 8px 8px 16px;border-radius:999px;box-shadow:0 14px 40px rgba(0,0,0,.28);max-width:calc(100vw - 24px);overflow-x:auto}
+#cmpTray .mono{font:10.5px 'JetBrains Mono',monospace;letter-spacing:.08em;color:#A5A09B;margin-right:4px}#cmpTray .ct{border:0;background:rgba(241,239,234,.12);color:var(--pap);border-radius:999px;padding:7px 12px;font-size:14px;white-space:nowrap;cursor:pointer}#cmpTray .pill.dark{background:#FF7122;color:#0C0B0D;white-space:nowrap}
+.cmpw{padding-top:28px;padding-bottom:64px}.cmph{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:18px}.cmph h1{margin:6px 0 0;font-weight:400;font-size:clamp(34px,4vw,52px);letter-spacing:-1.5px}
+.cmpc{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.cmpc input[type=text]{font:inherit;font-size:16px;border:0;border-bottom:1px solid var(--ln);background:none;padding:8px 2px;min-width:260px}
+.seg{display:flex;background:var(--wh);border-radius:999px;padding:3px}.seg button{border:0;background:none;padding:7px 12px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}.seg button.on{background:var(--ink);color:var(--pap)}
+.cmpg{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:10px}.cmpcol{background:var(--wh);border-radius:calc(var(--rk,1)*22px);padding:18px 20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.cmpt{display:flex;justify-content:space-between;align-items:center;font-size:18px}.cmpt .x{border:0;background:none;font-size:20px;cursor:pointer;opacity:.5}.cmpi,.cmpw2{font:11px 'JetBrains Mono',monospace;color:var(--mut)}.cmpw2 input{width:100%}
+.cmpv{overflow-wrap:anywhere;min-height:3em;padding:6px 0}.cmpm{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;border-top:1px solid var(--ln);padding-top:10px;margin-top:auto}.cmpm span{font:10px 'JetBrains Mono',monospace;color:var(--mut)}.cmpm i{display:block;height:4px;border-radius:4px;margin-top:4px;background:linear-gradient(90deg,#FF7122 var(--p),rgba(12,11,13,.1) var(--p))}
+@media(max-width:900px){.cmpg{grid-template-columns:1fr}}
+#qv .qbg{position:fixed;inset:0;background:rgba(12,11,13,.35);opacity:0;transition:opacity .15s;z-index:70}#qv .qp{position:fixed;top:0;right:0;bottom:0;width:min(560px,100vw);background:var(--pap);z-index:71;transform:translateX(100%);transition:transform .18s cubic-bezier(.2,.9,.3,1);overflow:auto;padding:22px 24px 28px;display:flex;flex-direction:column;gap:14px;box-shadow:-20px 0 60px rgba(0,0,0,.2)}
+#qv.on .qbg{opacity:1}#qv.on .qp{transform:none}#qv:empty{display:none}
+.qp .qh{display:flex;justify-content:space-between;gap:12px;background:var(--cbg);color:var(--cfg);margin:-22px -24px 0;padding:22px 24px}.qp .qh .mono{font:10.5px 'JetBrains Mono',monospace;letter-spacing:.08em;opacity:.75}.qp .qn{font-size:44px;line-height:1.05;margin-top:6px;overflow-wrap:anywhere}.qp .qx{border:0;background:none;color:inherit;font-size:28px;cursor:pointer;align-self:flex-start}
+.qp .qa{display:flex;gap:6px;flex-wrap:wrap}.qp .pill.on{background:#FF7122;color:#0C0B0D}.qp .qlic{font:11px 'JetBrains Mono',monospace;color:#2F8F5B}
+.qp textarea{font-size:48px;line-height:1.1;border:0;background:var(--wh);border-radius:16px;padding:14px 16px;resize:vertical;min-height:120px}.qp .qc{display:flex;gap:16px;flex-wrap:wrap}.qp .qc label{font:11px 'JetBrains Mono',monospace;color:var(--mut);display:flex;gap:8px;align-items:center}
+.qp .qws{display:flex;flex-direction:column;gap:8px}.qp .qws div{border-top:1px solid var(--ln);padding-top:6px}.qp .qws span{font:10.5px 'JetBrains Mono',monospace;color:var(--mut)}.qp .qws b{display:block;font-size:22px;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qp .qabc{font-size:22px;line-height:1.45;background:var(--wh);border-radius:16px;padding:14px 16px;overflow-wrap:anywhere}.qp .qgo{text-align:center;margin-top:4px}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
@@ -897,8 +916,102 @@ const DIR={
  'Рукописный':{fit:['note','use','plaque','lockup','glyph','wave','massive'],tw:['science','catalogcard','terminal','swiss'],pal:[6,10,7,9,14,5],cover:['note','glyph','massive'],
   how:'записки, открытки и вывески — и для контраста рукопись в строгой анкете, бортовом отчёте или терминале.'}};
 function dirOf(f){return DIR[f[1]]||DIR['Гротеск']}
-function dirPick(slot,tw,used){const d=dirOf(F);const sp=TPL_BY_SLOT[slot];let pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x)&&!used.includes(x));if(!pool.length)pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x));if(!pool.length)pool=sp.filter(x=>!used.includes(x));return R(pool.length?pool:sp)}
+function dirPick(slot,tw,used,len){const d=dirOf(F);const sp=TPL_BY_SLOT[slot];const ok=x=>typeof ruleOk!=='function'||ruleOk(x,len||0);let pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x)&&!used.includes(x)&&ok(x));if(!pool.length)pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x)&&ok(x));if(!pool.length)pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x));if(!pool.length)pool=sp.filter(x=>!used.includes(x));return R(pool.length?pool:sp)}
 function dirPal(tw,usedP){const d=dirOf(F);let pool=(tw?(d.twpal||PAL.map((_,i)=>i)):d.pal).filter(i=>!usedP.includes(i));if(!pool.length)pool=PAL.map((_,i)=>i).filter(i=>!usedP.includes(i));return R(pool)}
+
+// ---------- удобство каталога: состояние в ссылке, «для чего», сравнение, быстрый просмотр
+let PUR='',CATY=null,LASTH=location.hash||'#/';
+const PURS=[['text','Текст','статьи, книги, длинное чтение'],['head','Заголовок','крупно, афиши, обложки'],['ui','Интерфейс','сайты, приложения, кнопки'],['logo','Логотип','знаки, бренды, вывески'],['code','Код и цифры','таблицы, код, данные']];
+function pq(f,k){const m=MET[f[0]];return m?PCT[k](m[k]):50}
+function purOk(f,p){if(!p)return true;const vf=f[2]&&f[3]<f[4],n=f[5];
+ if(p==='text')return (f[1]==='Антиква'||f[1]==='Гротеск')&&(vf||n>=3)&&pq(f,'con')<85;
+ if(p==='head')return f[1]==='Акцидентный'||f[4]>=700;
+ if(p==='ui')return f[1]==='Гротеск'&&(vf||n>=4)&&pq(f,'con')<60&&pq(f,'xH')>=35;
+ if(p==='logo')return f[1]==='Акцидентный'||f[1]==='Рукописный'||(f[1]==='Антиква'&&pq(f,'con')>60);
+ if(p==='code')return f[1]==='Моно';return true}
+function catFilter(f){return (CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&purOk(f,PUR)&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase()))}
+function catHash(){const p=new URLSearchParams();if(CATSEL!=='all')p.set('c',CATSEL);if(FLT.vf)p.set('vf','1');if(FLT.it)p.set('it','1');if(PUR)p.set('p',PUR);if(Q)p.set('q',Q);if(SORT!=='fresh')p.set('s',SORT);const q=p.toString();return '#/'+(q?'?'+q:'')}
+function catSync(){const h=catHash();if(location.hash!==h)history.replaceState(null,'',h);LASTH=h}
+function catRead(h){const i=h.indexOf('?');const p=new URLSearchParams(i>=0?h.slice(i+1):'');CATSEL=p.get('c')||'all';FLT={vf:p.get('vf')==='1',it:p.get('it')==='1'};PUR=p.get('p')||'';Q=p.get('q')||'';SORT=p.get('s')||'fresh'}
+const isCat=h=>h===''||h==='#/'||h.startsWith('#/?');
+
+// сравнение
+let CMP=(()=>{try{return JSON.parse(localStorage.getItem('pada_cmp')||'[]')}catch(e){return []}})();
+function cmpSave(){try{localStorage.setItem('pada_cmp',JSON.stringify(CMP))}catch(e){}cmpTray()}
+function cmpToggle(n){const i=CMP.indexOf(n);if(i>=0)CMP.splice(i,1);else{if(CMP.length>=4){toast('В сравнении уже 4 шрифта — убери один');return}CMP.push(n)}cmpSave();document.querySelectorAll(`[data-cmp="${CSS.escape(n)}"]`).forEach(b=>b.classList.toggle('on',CMP.includes(n)))}
+function cmpTray(){let t=document.getElementById('cmpTray');if(!CMP.length||location.hash==='#/compare'){t&&t.remove();return}
+ if(!t){t=document.createElement('div');t.id='cmpTray';document.body.appendChild(t)}
+ t.innerHTML=`<span class="mono">СРАВНЕНИЕ</span>${CMP.map(n=>{const f=FONTS.find(x=>x[0]===n);return `<button type="button" class="ct" data-x="${esc(n)}" title="Убрать" style="font-family:${f?fam(f):'inherit'}">${esc(n)} ×</button>`}).join('')}<a class="pill dark" href="#/compare">Сравнить${CMP.length>1?' '+CMP.length:''} →</a>`;
+ t.onclick=e=>{const b=e.target.closest('[data-x]');if(b)cmpToggle(b.dataset.x)}}
+function compare(){const fs=CMP.map(n=>FONTS.find(x=>x[0]===n)).filter(Boolean);document.title='Сравнение шрифтов';
+ if(!fs.length){app.innerHTML=`<div class="wrap"><div class="empty" style="padding:80px 0">Отметь шрифты кнопкой ⇆ на карточках каталога — до четырёх.<br><br><a class="pill dark" href="${LASTH}">← В каталог</a></div></div>`;return}
+ const st=(()=>{try{return JSON.parse(localStorage.getItem('pada_cmpst')||'{}')}catch(e){return {}}})();let sz=st.sz||56,mode=st.mode||'phrase';
+ app.innerHTML=`<div class="wrap cmpw"><div class="cmph"><div><a href="${LASTH}" class="mono" style="color:var(--mut)">← КАТАЛОГ</a><h1>Сравнение</h1></div>
+ <div class="cmpc"><input id="cmpt" type="text" value="${esc(PHRASE||DEF)}" aria-label="Текст для сравнения"><div class="seg" id="cmpm">${[['phrase','Фраза'],['para','Абзац'],['abc','Алфавит'],['hard','Трудные буквы']].map(([k,n])=>`<button type="button" data-m="${k}" class="${k===mode?'on':''}">${n}</button>`).join('')}</div><label class="mono">РАЗМЕР <input id="cmps" type="range" min="16" max="140" value="${sz}"></label></div></div>
+ <div class="cmpg" style="--n:${fs.length}">${fs.map(f=>{const ws=weightsOf(f);const vf=f[2]&&f[3]<f[4];return `<div class="cmpcol" data-n="${esc(f[0])}">
+  <div class="cmpt"><a href="#/font/${slug(f[0])}">${esc(f[0])} →</a><button type="button" class="x" data-x="${esc(f[0])}" aria-label="Убрать из сравнения">×</button></div>
+  <div class="mono cmpi">${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${vf?' · вариативный':''}</div>
+  ${vf?`<label class="mono cmpw2">ВЕС <b>${baseW(f)}</b><input type="range" min="${f[3]}" max="${f[4]}" value="${baseW(f)}" data-w></label>`:ws.length>1?`<select data-ws class="sel">${ws.map(w=>`<option value="${w[0]}">${w[1]}</option>`).join('')}</select>`:'<div class="cmpw2 mono" style="opacity:.5">одно начертание</div>'}
+  <div class="cmpv" style="font-family:${fam(f)};font-weight:${baseW(f)}"></div>
+  ${MET[f[0]]?`<div class="cmpm">${AX.map(([k,n])=>`<div><span class="mono">${n}</span><i style="--p:${pq(f,k)}%"></i></div>`).join('')}</div>`:''}</div>`}).join('')}</div></div>`;
+ const fill=()=>{const txt=$('#cmpt').value||DEF;document.querySelectorAll('.cmpv').forEach(v=>{v.style.fontSize=(mode==='para'?Math.max(14,sz/3.2):mode==='abc'?sz/1.6:sz)+'px';v.style.lineHeight=mode==='para'?1.5:1.08;
+  v.textContent=mode==='para'?BODY:mode==='abc'?'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ абвгдеёжзийклмнопрстуфхцчшщъыьэюя 0123456789':mode==='hard'?'Ж Д Л Ы Щ Й Ё Ф Ъ Ю Я жд лы щй ёф ъю я':txt});
+  try{localStorage.setItem('pada_cmpst',JSON.stringify({sz,mode}))}catch(e){}};
+ fs.forEach(f=>loadFont(f).catch(()=>{}));fill();
+ $('#cmpt').oninput=e=>{setPhrase(e.target.value);fill()};$('#cmps').oninput=e=>{sz=+e.target.value;fill()};
+ $('#cmpm').onclick=e=>{const b=e.target.closest('[data-m]');if(!b)return;mode=b.dataset.m;document.querySelectorAll('#cmpm button').forEach(x=>x.classList.toggle('on',x===b));fill()};
+ document.querySelectorAll('.cmpcol').forEach(c=>{const v=c.querySelector('.cmpv');const w=c.querySelector('[data-w]'),s=c.querySelector('[data-ws]');
+  if(w)w.oninput=()=>{v.style.fontWeight=w.value;v.style.fontVariationSettings=`'wght' ${w.value}`;w.previousElementSibling.textContent=w.value};if(s)s.onchange=()=>v.style.fontWeight=s.value;
+  c.querySelector('.x').onclick=()=>{cmpToggle(c.dataset.n);compare()}})}
+
+// быстрый просмотр: панель сбоку, не уходя из каталога
+function dlFont(f,btn){if(f[7]&&typeof dlRepo==='function')return dlRepo(f,btn);window.open(`https://fonts.google.com/specimen/${f[0].replace(/ /g,'+')}`,'_blank','noopener')}
+function quick(f){let d=document.getElementById('qv');if(!d){d=document.createElement('div');d.id='qv';document.body.appendChild(d)}
+ const vf=f[2]&&f[3]<f[4],ws=weightsOf(f),bb=BAYS.find(b=>b.k===f[1])||BAYS[0];const lic=f[10]||'SIL OFL 1.1';
+ d.innerHTML=`<div class="qbg" data-close></div><aside class="qp" role="dialog" aria-label="${esc(f[0])}" style="--cbg:${bb.bg};--cfg:${bb.fg}">
+  <div class="qh"><div><div class="mono">${f[1].toUpperCase()} · ${f[5]} ${plural(f[5]).toUpperCase()}${vf?' · VF':''}</div><div class="qn" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${esc(f[0])}</div></div><button type="button" class="qx" data-close aria-label="Закрыть">×</button></div>
+  <div class="qa"><button type="button" class="pill dark" id="qdl">Скачать</button><button type="button" class="pill soft ${CMP.includes(f[0])?'on':''}" data-cmp="${esc(f[0])}" id="qcmp">⇆ Сравнить</button><button type="button" class="pill soft" id="qfav">${isFav(f[0])?'★ В журнале':'☆ В журнал'}</button></div>
+  <div class="mono qlic">● можно для клиента · ${esc(lic)}</div>
+  <textarea id="qt" rows="2" spellcheck="false" style="font-family:${fam(f)};font-weight:${baseW(f)}">${esc(PHRASE||DEF)}</textarea>
+  <div class="qc"><label class="mono">РАЗМЕР <input id="qs" type="range" min="16" max="120" value="48"></label>${vf?`<label class="mono">ВЕС <input id="qw" type="range" min="${f[3]}" max="${f[4]}" value="${baseW(f)}"></label>`:''}</div>
+  <div class="qws">${ws.map(w=>`<div><span class="mono">${w[0]} · ${w[1]}</span><b style="font-family:${fam(f)};font-weight:${w[0]}">${esc(PHRASE||DEF)}</b></div>`).join('')}</div>
+  <div class="qabc" style="font-family:${fam(f)}">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ<br>абвгдеёжзийклмнопрстуфхцчшщъыьэюя<br>0123456789 ₽ № « » — ! ?</div>
+  <a class="pill qgo" href="#/font/${slug(f[0])}">Открыть страницу шрифта →</a></aside>`;
+ requestAnimationFrame(()=>d.classList.add('on'));document.body.style.overflow='hidden';
+ const close=()=>{d.classList.remove('on');document.body.style.overflow='';setTimeout(()=>{if(!d.classList.contains('on'))d.innerHTML=''},200);removeEventListener('keydown',esc2)};const esc2=e=>{if(e.key==='Escape')close()};addEventListener('keydown',esc2);
+ d.onclick=e=>{if(e.target.closest('[data-close]'))close();if(e.target.closest('.qgo'))close()};
+ const t=$('#qt');$('#qs').oninput=e=>t.style.fontSize=e.target.value+'px';t.style.fontSize='48px';if($('#qw'))$('#qw').oninput=e=>{t.style.fontWeight=e.target.value;t.style.fontVariationSettings=`'wght' ${e.target.value}`};
+ t.oninput=()=>{setPhrase(t.value);d.querySelectorAll('.qws b').forEach(b=>b.textContent=t.value||DEF)};
+ $('#qdl').onclick=e=>dlFont(f,e.currentTarget);$('#qcmp').onclick=()=>{cmpToggle(f[0]);$('#qcmp').classList.toggle('on',CMP.includes(f[0]))};
+ $('#qfav').onclick=()=>{toggleFav(f[0]);$('#qfav').textContent=isFav(f[0])?'★ В журнале':'☆ В журнал';document.querySelectorAll(`[data-fav="${CSS.escape(f[0])}"]`).forEach(b=>{b.classList.toggle('on',isFav(f[0]));b.textContent=isFav(f[0])?'★':'☆'})};
+ loadFont(f).catch(()=>{})}
+
+// ---------- полезные композиции: размерный ряд, трудные буквы, пара
+Object.assign(T,{
+sizes(p){const ph=phrase();const w=baseW(F);const S=[[1.4,'9'],[1.9,'12'],[2.6,'16'],[3.6,'24'],[5.4,'36'],[8,'54'],[12,'80']];
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:3.4cqmin 4cqmin;display:flex;flex-direction:column;gap:1.4cqmin;overflow:hidden">
+ <div style="display:flex;justify-content:space-between;font:600 2.2cqmin 'JetBrains Mono',monospace;letter-spacing:.08em;opacity:.8"><span>РАЗМЕРНЫЙ РЯД · ${esc(F[0].toUpperCase())}</span><span style="color:${p[3]}">ЧИТАЕТСЯ?</span></div>
+ ${S.map(([z,l])=>`<div style="display:grid;grid-template-columns:7cqmin 1fr;align-items:baseline;gap:2cqmin;border-top:1px solid ${p[2]}26;padding-top:.8cqmin"><span style="font:2cqmin 'JetBrains Mono',monospace;opacity:.55">${l} pt</span><span style="font-family:${ff()};font-weight:${w};font-size:${z}cqmin;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:clip">${esc(ph)}</span></div>`).join('')}</div>`}},
+hardletters(p){const hw=heavyW(F);const L=['Ж','Д','Л','Ы','Щ','Й','Ф','Ю','Я','Ё','Ъ','Ц'];
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:3.6cqmin;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:auto repeat(3,1fr);gap:1.2cqmin;overflow:hidden">
+ <div style="grid-column:1/-1;display:flex;justify-content:space-between;font:600 2.2cqmin 'JetBrains Mono',monospace;letter-spacing:.08em;opacity:.8"><span>ТРУДНЫЕ БУКВЫ КИРИЛЛИЦЫ</span><span>${esc(F[0].toUpperCase())}</span></div>
+ ${L.map((c,i)=>`<div style="position:relative;border:1px solid ${p[2]}30;border-radius:1.6cqmin;display:grid;place-items:center;${i===0?`background:${p[3]};color:${p[1]};border-color:transparent`:''}"><span style="font-family:${ff()};font-weight:${hw};font-size:11cqmin;line-height:1">${c}</span><span style="position:absolute;left:1.2cqmin;bottom:.9cqmin;right:1cqmin;font:1.55cqmin 'JetBrains Mono',monospace;opacity:.65;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc((NOTES[c]||'').replace(/^[^:]*:\s*/,''))}</span></div>`).join('')}</div>`}},
+pairing(p){const ph=phrase();const hw=heavyW(F);const pr=(typeof pairFor==='function'?pairFor(F):[]).find(x=>x[2]&&x[2]!==F);const b=pr?pr[2]:F;if(b!==F)loadFont(b).catch(()=>{});
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:5cqmin;display:flex;flex-direction:column;gap:2.4cqmin;overflow:hidden">
+ <div style="font:600 2.2cqmin 'JetBrains Mono',monospace;letter-spacing:.08em;opacity:.8">ПАРА · ${esc(F[0].toUpperCase())} + ${esc(b[0].toUpperCase())}</div>
+ <div style="font-family:${ff()};font-weight:${hw};font-size:9cqmin;line-height:1.02;text-wrap:balance">${esc(ph)}</div>
+ <div style="font-family:'${b[0]}',sans-serif;font-weight:${baseW(b)};font-size:2.9cqmin;line-height:1.5;max-width:92%;opacity:.88">${esc(BODY)}</div>
+ <div style="margin-top:auto;display:flex;gap:1.4cqmin;font:1.9cqmin 'JetBrains Mono',monospace"><span style="background:${p[3]};color:${p[1]};padding:.5cqmin 1.4cqmin;border-radius:99px">ЗАГОЛОВОК · ${esc(F[0])}</span><span style="border:1px solid currentColor;padding:.5cqmin 1.4cqmin;border-radius:99px">ТЕКСТ · ${esc(b[0])}</span></div></div>`}}
+});
+Object.assign(TPL_NAME,{sizes:'Размерный ряд',hardletters:'Трудные буквы',pairing:'Пара'});
+TPL_BY_SLOT.r169.push('sizes','hardletters','pairing');TPL_BY_SLOT.r45.push('sizes','pairing');TPL_BY_SLOT.r11.push('hardletters');TPL_BY_SLOT.r21.push('sizes','pairing');
+DIR['Гротеск'].fit.push('sizes','hardletters','pairing');DIR['Антиква'].fit.push('sizes','hardletters','pairing');DIR['Моно'].fit.push('sizes','hardletters');DIR['Акцидентный'].fit.push('hardletters');DIR['Рукописный'].fit.push('hardletters','pairing');
+
+// ---------- регламент композиций: длина фразы и запреты по классу
+const RULES={massive:{max:34},bleed:{max:26},rocketposter:{max:32},lockup:{max:28},marking:{max:30},rhythm:{max:26},scale:{},wallpaper:{},layers:{},micro:{},glyph:{},halftone:{},letterfield:{},
+ wave:{max:44},orbit:{max:46},plaque:{max:40},use:{max:44},catalogcard:{max:44},science:{max:52},blueprint:{max:32},anatomy:{max:48},swiss:{max:40},index:{max:60},spread:{max:70},
+ editorial:{max:60},terminal:{max:48},note:{max:52},sizes:{max:40},hardletters:{},pairing:{max:46}};
+function ruleOk(tpl,len){const r=RULES[tpl];if(!r)return true;return !(r.max&&len>r.max)}
 
 const app=document.getElementById('app');
 const slug=n=>n.toLowerCase().replace(/\s+/g,'-');
@@ -1014,20 +1127,21 @@ function baysInit(){clearInterval(BAYT);const els=[...document.querySelectorAll(
    if(s.burst>0){s.burst--;frame(s,s.burst>0);return}
    if(--s.hold<=0){s.burst=3+Math.floor(Math.random()*6);s.hold=14+Math.floor(Math.random()*30)}})},90)}
 const CDOT={'Гротеск':'#2B3BE5','Антиква':'#C9A227','Акцидентный':'#FF7122','Моно':'#0C0B0D','Рукописный':'#E86FB0'};
-function cShown(){return FONTS.filter(f=>(CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase()))).length}
+function cShown(){return FONTS.filter(catFilter).length}
 function csideHTML(cats){const favs=FONTS.filter(f=>isFav(f[0])).length;
  return `<aside class="cside" aria-label="Навигация по каталогу">
  <h4>РАЗДЕЛЫ</h4><nav class="cnav sec2" id="cSec"><a href="#" data-go="top"><span>01</span>Звезда дня</a><a href="#" data-go="c-bays"><span>02</span>Отсеки</a><a href="#" data-go="grid"><span>03</span>Все шрифты</a></nav>
  <h4>КЛАССЫ</h4><nav class="cnav"><button type="button" data-c="all" class="${CATSEL==='all'?'on':''}"><span class="dot" style="background:conic-gradient(#2B3BE5 0 25%,#C9A227 0 50%,#FF7122 0 75%,#E86FB0 0)"></span>Все<i>${FONTS.length}</i></button>${cats.map(c=>`<button type="button" data-c="${c}" class="${CATSEL===c?'on':''}"><span class="dot" style="background:${CDOT[c]}"></span>${c}<i>${FONTS.filter(f=>f[1]===c).length}</i></button>`).join('')}</nav>
+ <h4>ДЛЯ ЧЕГО</h4><nav class="cnav">${PURS.map(([k,n,d])=>`<button type="button" data-pu="${k}" class="${PUR===k?'on':''}" title="${d}">${n}<i>${FONTS.filter(f=>purOk(f,k)).length}</i></button>`).join('')}</nav>
  <h4>СВОЙСТВА</h4><nav class="cnav"><button type="button" class="tg ${FLT.vf?'on':''}" data-f="vf">Вариативные<i>${FONTS.filter(f=>f[2]&&f[3]<f[4]).length}</i></button><button type="button" class="tg ${FLT.it?'on':''}" data-f="it">С курсивом<i>${FONTS.filter(f=>f[6]).length}</i></button></nav>
  <h4>ИНСТРУМЕНТЫ</h4><nav class="cnav sec2"><a href="#/brief">Подбор по задаче</a><a href="#/swipe">Свайп шрифтов</a><a href="#/shape">Пропорции</a><a href="#" id="cRnd">Случайный шрифт</a><a href="#/journal">★ Бортовой журнал<i>${favs||''}</i></a></nav></aside>`}
 function cCount(){const n=cShown();const a=$('#cN'),b=$('#cBar');if(a)a.textContent=n;if(b)b.style.width=n/FONTS.length*100+'%'}
 function refreshCat(fromSide){
  document.querySelectorAll('[data-c]').forEach(b=>b.classList.toggle('on',b.dataset.c===CATSEL));
- document.querySelectorAll('[data-f]').forEach(b=>b.classList.toggle('on',!!FLT[b.dataset.f]));
+ document.querySelectorAll('[data-f]').forEach(b=>b.classList.toggle('on',!!FLT[b.dataset.f]));document.querySelectorAll('[data-pu]').forEach(b=>b.classList.toggle('on',b.dataset.pu===PUR));
  document.querySelectorAll('.bay').forEach(el=>el.classList.toggle('on',baySel(BAYS[+el.dataset.bay])));
  const bi=document.querySelector('.binfo'),nh=bayInfoHTML();if(bi){if(nh)bi.outerHTML=nh;else bi.remove()}else if(nh){const bg=document.querySelector('.bgrid');bg&&bg.insertAdjacentHTML('afterend',nh)}
- renderGrid();cCount();
+ renderGrid();cCount();catSync();
  if(fromSide){const g=$('#grid');const y=g.getBoundingClientRect().top+scrollY-160;if(scrollY<y-40||scrollY>y+400)scrollTo({top:y,behavior:'smooth'})}}
 function csideInit(){
  document.querySelectorAll('[data-go]').forEach(a=>a.onclick=e=>{e.preventDefault();if(a.dataset.go==='top'){scrollTo({top:0,behavior:'smooth'});return}const t=$('#'+a.dataset.go);t&&scrollTo({top:t.getBoundingClientRect().top+scrollY-96,behavior:'smooth'})});
@@ -1042,7 +1156,7 @@ function catalog(){
  ${baysHTML()}
  <div class="phr"><label for="ph">СВОЙ ТЕКСТ</label><input id="ph" type="text" value="${esc(PHRASE)}" aria-label="Свой текст для всех образцов">${phraseSelect("cps")}<button type="button" class="pill soft" id="crnd">🎲</button><div class="sz">Размер<input id="csz" type="range" min="24" max="96" value="${lsGet('pada_csz',40)}" aria-label="Размер образцов"></div></div>
  <div class="filters"><button class="chip ${CATSEL==='all'?'on':''}" data-c="all" type="button">Все<i>${FONTS.length}</i></button>${cats.map(c=>`<button class="chip ${CATSEL===c?'on':''}" data-c="${c}" type="button">${c}<i>${FONTS.filter(f=>f[1]===c).length}</i></button>`).join('')}
- <span style="width:10px"></span><button class="chip ${FLT.vf?'on':''}" data-f="vf" type="button">Вариативные</button><button class="chip ${FLT.it?'on':''}" data-f="it" type="button">С курсивом</button>
+ <span style="width:10px"></span>${PURS.map(([k,n,d])=>`<button class="chip pu ${PUR===k?'on':''}" data-pu="${k}" type="button" title="${d}">${n}</button>`).join('')}<span style="width:10px"></span><button class="chip ${FLT.vf?'on':''}" data-f="vf" type="button">Вариативные</button><button class="chip ${FLT.it?'on':''}" data-f="it" type="button">С курсивом</button>
  <span style="flex:1"></span><input class="search" id="q" type="search" placeholder="Найти шрифт" value="${esc(Q)}" aria-label="Найти шрифт"><select class="sel" id="so" aria-label="Сортировка"><option value="fresh">Сначала необычные</option><option value="az">А–Я</option><option value="w">Больше начертаний</option><option value="cat">По типу</option></select></div>
  <div class="grid" id="grid"></div></div></div></div>`;
  $('#so').value=SORT;document.documentElement.style.setProperty('--csz',lsGet('pada_csz',40)+'px');
@@ -1055,8 +1169,9 @@ function catalog(){
  $('#csz').oninput=e=>{lsSet('pada_csz',+e.target.value);document.documentElement.style.setProperty('--csz',e.target.value+'px')};
  document.querySelectorAll('.chip[data-c],.cnav [data-c]').forEach(b=>b.onclick=()=>{CATSEL=b.dataset.c;refreshCat(b.closest('.cnav'))});
  document.querySelectorAll('.chip[data-f],.cnav [data-f]').forEach(b=>b.onclick=()=>{FLT[b.dataset.f]=!FLT[b.dataset.f];refreshCat(b.closest('.cnav'))});
+ document.querySelectorAll('[data-pu]').forEach(b=>b.onclick=()=>{PUR=PUR===b.dataset.pu?'':b.dataset.pu;refreshCat(b.closest('.cnav'))});
  csideInit();
- $('#q').oninput=e=>{Q=e.target.value;renderGrid();cCount()};$('#so').onchange=e=>{SORT=e.target.value;renderGrid()};
+ $('#q').oninput=e=>{Q=e.target.value;renderGrid();cCount();catSync()};$('#so').onchange=e=>{SORT=e.target.value;renderGrid();catSync()};
  document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>{const r=ROUTES[+b.dataset.route];CATSEL=r[2];FLT={vf:r[2]==='Гротеск',it:false};refreshCat(true)});
  $('#rnd').onclick=()=>{location.hash='#/font/'+slug(R(FONTS)[0])};
 }
@@ -1072,13 +1187,13 @@ function cardHover(g){if(g._ch)return;g._ch=1;let cur=null,t=null;const CH='АБ
   step();if(!RM)t=setInterval(step,vf?130:220)});
  g.addEventListener('mouseleave',stop);g.addEventListener('mouseout',e=>{if(cur&&!cur.contains(e.relatedTarget))stop()})}
 function renderGrid(list){
- let a=list||FONTS.filter(f=>(CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase())));
+ let a=list||FONTS.filter(catFilter);
  if(!list){if(SORT==='fresh')a.sort((x,y)=>freshScore(y)-freshScore(x));if(SORT==='az')a.sort((x,y)=>x[0].localeCompare(y[0]));if(SORT==='w')a.sort((x,y)=>y[5]-x[5]);if(SORT==='cat')a.sort((x,y)=>x[1].localeCompare(y[1]))}
  const g=$('#grid');if(!a.length){g.innerHTML='<div class="empty">На этом участке неба пока пусто</div>';return}
- g.innerHTML=a.map(f=>{const bb=BAYS.find(b=>b.k===f[1])||BAYS[0];const vf=f[2]&&f[3]<f[4];return `<a class="card" href="#/font/${slug(f[0])}" data-n="${esc(f[0])}" style="--cbg:${bb.bg};--cfg:${bb.fg}"><div class="cmeta"><span>№ ${String(FONTS.indexOf(f)+1).padStart(3,'0')} · ${f[1].toUpperCase()}</span><span>${f[5]} НАЧ.${vf?' · VF':''}${f[6]?' · ITAL':''}</span></div><div class="cg" aria-hidden="true" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${bb.g[0]}</div><div class="pv" data-n="${esc(f[0])}" style="font-family:${fam(f)};font-weight:${baseW(f)}">${esc(PHRASE||DEF)}</div><div class="ft"><span>${esc(f[0])} <small>· ${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${isStd(f)?' · классика':''}</small></span><button class="star ${isFav(f[0])?'on':''}" type="button" data-fav="${esc(f[0])}" aria-label="В бортовой журнал">${isFav(f[0])?'★':'☆'}</button></div></a>`}).join('');cardHover(g);
+ g.innerHTML=a.map(f=>{const bb=BAYS.find(b=>b.k===f[1])||BAYS[0];const vf=f[2]&&f[3]<f[4];return `<a class="card" href="#/font/${slug(f[0])}" data-n="${esc(f[0])}" style="--cbg:${bb.bg};--cfg:${bb.fg}"><div class="cmeta"><span>№ ${String(FONTS.indexOf(f)+1).padStart(3,'0')} · ${f[1].toUpperCase()}</span><span>${f[5]} НАЧ.${vf?' · VF':''}${f[6]?' · ITAL':''}</span></div><div class="cg" aria-hidden="true" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${bb.g[0]}</div><div class="pv" data-n="${esc(f[0])}" style="font-family:${fam(f)};font-weight:${baseW(f)}">${esc(PHRASE||DEF)}</div><div class="ft"><span>${esc(f[0])} <small>· ${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${isStd(f)?' · классика':''}</small></span><span class="cbt"><button class="cmpb ${CMP.includes(f[0])?'on':''}" type="button" data-cmp="${esc(f[0])}" aria-label="Сравнить" title="Сравнить">⇆</button><button class="star ${isFav(f[0])?'on':''}" type="button" data-fav="${esc(f[0])}" aria-label="В бортовой журнал">${isFav(f[0])?'★':'☆'}</button></span></div></a>`}).join('');cardHover(g);
  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);const f=FONTS.find(x=>x[0]===e.target.dataset.n);loadFont(f).then(()=>e.target.classList.add('ld')).catch(()=>{e.target.classList.add('ld')})}),{rootMargin:'300px'});
  g.querySelectorAll('.pv').forEach(x=>io.observe(x));
- g.onclick=e=>{const b=e.target.closest('[data-fav]');if(!b)return;e.preventDefault();toggleFav(b.dataset.fav);b.classList.toggle('on');b.textContent=isFav(b.dataset.fav)?'★':'☆'};
+ g.onclick=e=>{const cb=e.target.closest('[data-cmp]');if(cb){e.preventDefault();cmpToggle(cb.dataset.cmp);return}const b=e.target.closest('[data-fav]');if(!b){const c=e.target.closest('.card');if(c&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey){e.preventDefault();const f=FONTS.find(x=>x[0]===c.dataset.n);if(f)quick(f)}return}e.preventDefault();toggleFav(b.dataset.fav);b.classList.toggle('on');b.textContent=isFav(b.dataset.fav)?'★':'☆'};
 }
 function journal(){
  app.innerHTML=`<div class="wrap"><div style="padding:40px 0 12px"><div class="mono" style="font-size:11px;color:var(--mut)">★ БОРТОВОЙ ЖУРНАЛ</div><h1 style="margin:10px 0 0;font-weight:400;font-size:52px;letter-spacing:-2px">Сохранённые шрифты</h1><p style="color:var(--mut);margin:10px 0 0">Хранятся в этом браузере. В приложении журнал можно отправить себе в бота.</p></div><div class="grid" id="grid"></div></div>`;
@@ -1183,13 +1298,14 @@ function fontPage(f){
  document.querySelectorAll('.toc a,.mbar a[href^="#s"]').forEach(a=>a.onclick=e=>{e.preventDefault();$(a.getAttribute('href')).scrollIntoView({behavior:'smooth'})});
 }
 function shuffle2(what){const used=[],usedP=[];
- if(what!=='pal'){const free=tiles.map((t,i)=>i).filter(i=>i>0&&!tiles[i].lock);const tw=free.sort(()=>Math.random()-.5).slice(0,2);tiles.forEach((t,i)=>{if(!t.lock)t.tw=tw.includes(i)})}
+ if(what!=='pal'){const free=tiles.map((t,i)=>i).filter(i=>i>0&&!tiles[i].lock);const tw=free.sort(()=>Math.random()-.5).slice(0,2);tiles.forEach((t,i)=>{if(!t.lock)t.tw=tw.includes(i)});
+  const uc=tiles.filter(t=>t.lock&&t.cat).map(t=>t.cat);tiles.forEach(t=>{if(t.lock)return;const m=mixPick(t.slot[1],uc);t.cat=m[0];t.ph=m[1];uc.push(m[0])})}
  tiles.forEach(t=>{if(t.lock){used.push(t.tpl);usedP.push(t.pal);return}
- if(what!=='pal'||!t.tpl){t.tpl=dirPick(t.slot[1],t.tw,used)}used.push(t.tpl);
- const p=dirPal(t.tw,usedP);t.pal=p;usedP.push(p)});
- if(what!=='pal'){const uc=tiles.filter(t=>t.lock&&t.cat).map(t=>t.cat);tiles.forEach(t=>{if(t.lock)return;const m=mixPick(t.slot[1],uc);t.cat=m[0];t.ph=m[1];uc.push(m[0])})}}
+  const len=(PHM==='mix'&&t.ph?t.ph:(PHRASE||DEF)).length;
+  if(what!=='pal'||!t.tpl){t.tpl=dirPick(t.slot[1],t.tw,used,len)}used.push(t.tpl);
+  const p=dirPal(t.tw,usedP);t.pal=p;usedP.push(p)})}
 function drawTiles(){const g=$('#smp');g.innerHTML='';tiles.forEach((t,i)=>{const d=document.createElement('div');d.className=`tile ${t.slot[0]} ${t.slot[1]}`;d.dataset.ti=i;if(t.ph)d.dataset.ph=t.ph;d.innerHTML=`<div class="art"></div><div class="bar"><span>${t.tw?'✦ Контраст · ':''}${TPL_NAME[t.tpl]} · ${PHM==='mix'&&t.cat?t.cat:PAL[t.pal][0]}</span><span style="background:none;padding:0;display:flex;gap:4px">${PHM==='mix'?`<button type="button" data-i="${i}" data-a2="ph" aria-label="Другая фраза" title="Другая фраза">Аа</button>`:''}<button type="button" data-i="${i}" data-a2="re" aria-label="Другая композиция">↻</button><button type="button" data-i="${i}" data-a2="pal" aria-label="Другие цвета">◐</button><button type="button" data-i="${i}" data-a2="lock" aria-pressed="${t.lock}">${t.lock?'Закреплено':'Закрепить'}</button></span></div>`;g.appendChild(d);if(t.lock&&t.html){d.querySelector('.art').innerHTML=t.html;markEd(d)}else compose(d,F,t.tpl,t.pal)});
- g.onclick=e=>{const b=e.target.closest('button[data-a2]');if(!b)return;const t=tiles[+b.dataset.i];if(b.dataset.a2==='lock'){t.lock=!t.lock;if(!t.lock)t.html=null}if(b.dataset.a2==='ph'){const m=mixPick(t.slot[1],tiles.filter(x=>x!==t).map(x=>x.cat));t.cat=m[0];t.ph=m[1];t.html=null}if(b.dataset.a2==='re'||b.dataset.a2==='pal')t.html=null;if(b.dataset.a2==='re'){t.tpl=dirPick(t.slot[1],t.tw,[t.tpl,...tiles.filter(x=>x!==t).map(x=>x.tpl)])}if(b.dataset.a2==='pal'){let p;do{p=Math.floor(Math.random()*PAL.length)}while(p===t.pal);t.pal=p}drawTiles()}}
+ g.onclick=e=>{const b=e.target.closest('button[data-a2]');if(!b)return;const t=tiles[+b.dataset.i];if(b.dataset.a2==='lock'){t.lock=!t.lock;if(!t.lock)t.html=null}if(b.dataset.a2==='ph'){const m=mixPick(t.slot[1],tiles.filter(x=>x!==t).map(x=>x.cat));t.cat=m[0];t.ph=m[1];t.html=null}if(b.dataset.a2==='re'||b.dataset.a2==='pal')t.html=null;if(b.dataset.a2==='re'){t.tpl=dirPick(t.slot[1],t.tw,[t.tpl,...tiles.filter(x=>x!==t).map(x=>x.tpl)],(PHM==='mix'&&t.ph?t.ph:(PHRASE||DEF)).length)}if(b.dataset.a2==='pal'){let p;do{p=Math.floor(Math.random()*PAL.length)}while(p===t.pal);t.pal=p}drawTiles()}}
 
 function revealTick(){const rw=document.getElementById('rw');if(!rw)return;const r=rw.getBoundingClientRect();const vh=innerHeight;const p=Math.min(1,Math.max(0,(vh*0.9-r.top)/(r.height+vh*0.5)));const sp=rw.querySelectorAll('span');const n=Math.round(p*sp.length*1.1);sp.forEach((s,i)=>s.style.opacity=i<n?1:.18)}
 addEventListener('scroll',revealTick,{passive:true});
@@ -1288,14 +1404,15 @@ function swTaste(){const el=$('#taste');if(!el)return;const n=Object.keys(SW.see
 function plural2(n){return n===1?'шрифт':n<5?'шрифта':'шрифтов'}
 addEventListener('keydown',e=>{if(location.hash!=='#/swipe'||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;if(e.key==='ArrowRight'){e.preventDefault();swVote(1)}if(e.key==='ArrowLeft'){e.preventDefault();swVote(-1)}if(e.key==='ArrowDown'){e.preventDefault();swVote(0)}});
 // ---------- роутер
-async function route(){clearInterval(heroTimer);clearInterval(BAYT);const h=location.hash||'#/';window.scrollTo(0,0);
- $('#nCat').classList.toggle('on',h==='#/'||h==='');$('#nJ').classList.toggle('on',h==='#/journal');$('#nBr').classList.toggle('on',h==='#/brief');$('#nSw').classList.toggle('on',h==='#/swipe');$('#nSh').classList.toggle('on',h==='#/shape');
+let RH=null;async function route(){clearInterval(heroTimer);clearInterval(BAYT);const h=location.hash||'#/';if(RH!==null&&isCat(RH)&&!isCat(h))CATY=scrollY;const back=RH!==null&&!isCat(RH);RH=h;const qv=document.getElementById('qv');if(qv){qv.classList.remove('on');qv.innerHTML='';document.body.style.overflow=''}window.scrollTo(0,0);setTimeout(cmpTray,0);
+ $('#nCat').classList.toggle('on',isCat(h));$('#nJ').classList.toggle('on',h==='#/journal');$('#nBr').classList.toggle('on',h==='#/brief');$('#nSw').classList.toggle('on',h==='#/swipe');$('#nSh').classList.toggle('on',h==='#/shape');
  if(h.startsWith('#/font/')){const f=bySlug(h.slice(7));if(!f){location.hash='#/';return}app.innerHTML='<div class="empty">Загружаю шрифт…</div>';try{await Promise.race([loadFont(f),new Promise(r=>setTimeout(r,2500))])}catch(e){}fontPage(f);if(f[7])loadFont(f).then(()=>{if(location.hash.slice(7)===slug(f[0]))document.querySelectorAll('[style*="'+f[0]+'"]').forEach(e=>{e.style.fontFamily=e.style.fontFamily});window._redrawAll&&window._redrawAll()}).catch(()=>{});document.title=f[0]+' — библиотека шрифтов Perasperadastra';return}
  if(h==='#/journal'){journal();return}
+ if(h==='#/compare'){compare();return}
  if(h==='#/shape'){document.title='Поиск шрифта по пропорциям';shape();return}
  if(h==='#/swipe'){document.title='Свайп шрифтов';swipe();return}
  if(h==='#/brief'){$('#nBr').classList.add('on');document.title='Подбор шрифта по задаче';brief();return}
- document.title='Библиотека шрифтов Perasperadastra';catalog()}
+ document.title='Библиотека шрифтов Perasperadastra';catRead(h);LASTH=h;catalog();if(back&&CATY!=null){const y=CATY;CATY=null;const go=()=>scrollTo({top:y,behavior:'instant'});requestAnimationFrame(go);setTimeout(go,250);setTimeout(go,700)}}
 addEventListener('hashchange',route);
 $('#sBtn').onclick=()=>{if(!(location.hash==='#/'||!location.hash)){location.hash='#/';setTimeout(()=>$('#q')&&$('#q').focus(),60)}else $('#q').focus()};
 let rz;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(()=>{if(location.hash.startsWith('#/font/')){drawTiles();compose($('#cover'),F,coverT.tpl,coverT.pal);compose($('#geo'),F,'blueprint',0)}},250)});
