@@ -1,0 +1,4 @@
+Шрифт: Theano Modern
+Скачано: 2026-11-23 с https://github.com/akryukov/theano
+Copyright: Copyright (c) Alexey Kryukov, 2007-2008. All rights reserved.
+Лицензия из файла: Copyright (c) 2007-2008, Alexey Kryukov (alexios@thessalonica.org.ru),

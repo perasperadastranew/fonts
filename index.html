@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Шрифты Perasperadastra: бесплатные, с кириллицей</title>
+<style>
+:root{--ink:#0C0B0D;--pap:#F1EFEA;--mut:#6E6A66;--ln:rgba(12,11,13,.12);--or:#FF7122}
+*{box-sizing:border-box}body{margin:0;background:var(--pap);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+h1{font-size:clamp(36px,6vw,72px);line-height:1;letter-spacing:-.03em;font-weight:600;margin:10px 0 14px}h1 span{background:var(--or);padding:0 .12em}
+.mono{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:22px 0 18px;position:sticky;top:0;background:var(--pap);padding:10px 0;z-index:2}
+input,select{font:inherit;border:1px solid var(--ln);border-radius:999px;padding:9px 14px;background:#fff}
+#ph{flex:1;min-width:220px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.c{background:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:14px;min-height:220px}
+.pv{font-size:var(--sz,38px);line-height:1.08;overflow-wrap:anywhere;flex:1}
+.meta{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;border-top:1px solid var(--ln);padding-top:10px}
+.meta b{font-weight:600}.meta small{display:block;color:var(--mut)}
+.dl{font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--ln);border-radius:999px;padding:6px 12px;white-space:nowrap}.dl:hover{background:var(--ink);color:var(--pap)}
+.tag{display:inline-block;font-size:11px;border-radius:999px;padding:2px 8px;background:#DFF3E4;margin-top:4px}
+footer{margin-top:40px;color:var(--mut);font-size:13px}a{color:inherit}
+</style></head><body><div class="wrap">
+<div class="mono">Perasperadastra · бортовая библиотека</div>
+<h1>Бесплатные шрифты <span>с кириллицей</span></h1>
+<p id="lead" style="max-width:640px;color:var(--mut)">Файлы взяты у авторов, лицензии проверены. Все шрифты можно использовать в проектах для клиентов.</p>
+<div class="bar"><input id="ph" value="Курс проложен, экипаж на борту" aria-label="Свой текст"><input id="q" type="search" placeholder="Найти шрифт" aria-label="Найти шрифт"><select id="lic" aria-label="Лицензия"><option value="">Все лицензии</option></select><input id="sz" type="range" min="20" max="90" value="38" aria-label="Размер"></div>
+<div class="grid" id="g"></div>
+<footer>Шрифты распространяются на условиях авторов: текст лицензии лежит в папке каждого шрифта. Исходники: <a href="https://github.com/perasperadastranew/fonts">github.com/perasperadastranew/fonts</a>. Если вы автор и хотите что-то исправить, напишите в Telegram <a href="https://t.me/perasperaschool">@perasperaschool</a>.</footer>
+</div>
+<script>
+const $=s=>document.querySelector(s);let CAT=[];
+const pick=c=>c.files.find(f=>/regular|book|normal/i.test(f)&&!/italic/i.test(f))||c.files.find(f=>!/italic|oblique/i.test(f))||c.files[0];
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);const c=CAT[+el.dataset.i];const f=new FontFace('pa_'+c.slug,`url("fonts/${c.slug}/${encodeURIComponent(pick(c))}")`);f.load().then(ff=>{document.fonts.add(ff);el.style.fontFamily=`'pa_${c.slug}',serif`}).catch(()=>{})}),{rootMargin:'300px'});
+function draw(){const q=$('#q').value.toLowerCase(),l=$('#lic').value,ph=$('#ph').value||'Курс проложен';
+ const g=$('#g');g.innerHTML='';CAT.forEach((c,i)=>{if(q&&!c.name.toLowerCase().includes(q))return;if(l&&c.license!==l)return;
+  const d=document.createElement('div');d.className='c';d.innerHTML=`<div class="pv" data-i="${i}">${esc(ph)}</div><div class="meta"><div><b>${esc(c.name)}</b><small>${esc(c.author||'')}</small><span class="tag">${esc(c.license)}</span></div><a class="dl" href="https://github.com/perasperadastranew/fonts/tree/main/fonts/${c.slug}">Файлы →</a></div>`;g.appendChild(d);io.observe(d.querySelector('.pv'))})}
+fetch('catalog.json').then(r=>r.json()).then(j=>{CAT=j.sort(()=>Math.random()-.5);$('#lead').textContent=`${j.length} шрифтов. Файлы взяты у авторов, лицензии проверены. Все шрифты можно использовать в проектах для клиентов.`;
+ [...new Set(j.map(c=>c.license))].forEach(x=>{const o=document.createElement('option');o.value=o.textContent=x;$('#lic').appendChild(o)});draw()});
+$('#q').oninput=draw;$('#lic').onchange=draw;$('#ph').oninput=()=>document.querySelectorAll('.pv').forEach(e=>e.textContent=$('#ph').value);
+$('#sz').oninput=e=>document.documentElement.style.setProperty('--sz',e.target.value+'px');
+</script></body></html>

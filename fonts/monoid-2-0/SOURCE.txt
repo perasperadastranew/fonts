@@ -1,0 +1,4 @@
+Шрифт: Monoid 2.0
+Скачано: 2026-11-23 с https://github.com/larsenwork/monoid
+Copyright: Copyright (c) 2015, Andreas Larsen
+Лицензия из файла: Monoid is dual licensed with MIT and OFL licenses. Pick one:)

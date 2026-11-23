@@ -1,0 +1,4 @@
+Шрифт: Fairfax
+Скачано: 2026-11-23 с https://github.com/kreativekorp/open-relay/releases/download/2026-09-21/Fairfax.zip
+Страница: https://github.com/kreativekorp/open-relay
+Лицензия из файла: 

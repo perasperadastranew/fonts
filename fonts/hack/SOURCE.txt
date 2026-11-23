@@ -1,0 +1,4 @@
+Шрифт: Hack
+Скачано: 2026-11-23 с https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
+Страница: https://github.com/source-foundry/Hack
+Лицензия из файла: The work in the Hack project is Copyright 2018 Source Foundr

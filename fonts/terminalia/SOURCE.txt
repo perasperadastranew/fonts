@@ -1,0 +1,4 @@
+Шрифт: Terminalia
+Скачано: 2026-11-23 с https://github.com/StefanPeev/Terminalia
+Copyright: Copyright [C] 2025 Stefan Peev under the terms of the SIL OPEN FONT LICENSE Version 1.1
+Лицензия из файла: SIL OPEN FONT LICENSE Version 1.1

@@ -1,0 +1,3 @@
+Шрифт: Funever Sans Display
+Скачано: 2026-11-23 с https://github.com/AlloyDome/Funever-Sans (font/otf/FuneverSansDisplay)
+Лицензия из файла: SIL Open Font License (OFL), v1.1.

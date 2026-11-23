@@ -1,0 +1,4 @@
+Шрифт: Garamond Libre
+Скачано: 2026-11-23 с https://github.com/dbenjaminmiller/garamond-libre
+Copyright: (c) 2019 D. Benjamin Miller; available under the X11 license Based on Unicode Fonts for Ancient Scripts; Georg
+Лицензия из файла: 
