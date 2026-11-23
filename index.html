@@ -422,6 +422,15 @@ body.v-b .lic2 .a{color:var(--ink)}
 .qp textarea{font-size:48px;line-height:1.1;border:0;background:var(--wh);border-radius:16px;padding:14px 16px;resize:vertical;min-height:120px}.qp .qc{display:flex;gap:16px;flex-wrap:wrap}.qp .qc label{font:11px 'JetBrains Mono',monospace;color:var(--mut);display:flex;gap:8px;align-items:center}
 .qp .qws{display:flex;flex-direction:column;gap:8px}.qp .qws div{border-top:1px solid var(--ln);padding-top:6px}.qp .qws span{font:10.5px 'JetBrains Mono',monospace;color:var(--mut)}.qp .qws b{display:block;font-size:22px;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .qp .qabc{font-size:22px;line-height:1.45;background:var(--wh);border-radius:16px;padding:14px 16px;overflow-wrap:anywhere}.qp .qgo{text-align:center;margin-top:4px}
+/* виды карточек */
+.grid.v-list{grid-template-columns:1fr;gap:4px}
+.card.cv-list{flex-direction:row;align-items:center;min-height:0;padding:14px 20px;gap:20px}.cv-list .ln{width:220px;flex:none;font-size:15px;display:flex;flex-direction:column;gap:3px}.cv-list .ln small{font:10.5px 'JetBrains Mono',monospace;color:var(--mut)}.cv-list .pv{font-size:var(--csz,40px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}.cv-list .cg{display:none}
+.card.cv-list.hot .ln small{color:var(--cfg);opacity:.75}
+.cv-glyph .gbig{font-size:clamp(90px,9vw,150px);line-height:.95;letter-spacing:-.02em;white-space:nowrap;overflow:hidden}.cv-glyph .pv.small{font-size:18px;flex:0;line-height:1.3}.cv-glyph .cg{display:none}
+.cv-passport .pw{display:flex;gap:10px;flex-wrap:wrap;font-size:22px;border-top:1px dashed var(--ln);padding-top:10px}.cv-passport .pm{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.cv-passport .pm span{font:9.5px 'JetBrains Mono',monospace;color:var(--mut);white-space:nowrap}.cv-passport .pm i{display:block;height:3px;border-radius:3px;margin-top:4px;background:linear-gradient(90deg,#FF7122 var(--p),rgba(12,11,13,.12) var(--p))}
+.card.hot .pm span{color:var(--cfg)}.card.hot .pm i{background:linear-gradient(90deg,var(--cfg) var(--p),rgba(0,0,0,.15) var(--p))}.card.hot .pw{border-color:currentColor}
+.card.cv-poster{padding:8px 8px 14px;gap:12px}.cv-poster .ctile{position:relative;aspect-ratio:4/5;border-radius:calc(var(--rk,1)*18px);overflow:hidden;container-type:size}.cv-poster .ctile .art{position:absolute;inset:0}.cv-poster .pv.hid{display:none}.cv-poster .ft{padding:12px 10px 0}
+.vsw{margin-left:6px}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
@@ -925,9 +934,9 @@ const PURS=[['text','Текст','статьи, книги, длинное чт�
 function pq(f,k){const m=MET[f[0]];return m?PCT[k](m[k]):50}
 function purOk(f,p){if(!p)return true;const vf=f[2]&&f[3]<f[4],n=f[5];
  if(p==='text')return (f[1]==='Антиква'||f[1]==='Гротеск')&&(vf||n>=3)&&pq(f,'con')<85;
- if(p==='head')return f[1]==='Акцидентный'||f[4]>=700;
+ if(p==='head')return (f[1]==='Акцидентный'&&pq(f,'dens')>=40)||((f[1]==='Гротеск'||f[1]==='Антиква')&&f[4]>=800&&(f[2]&&f[3]<f[4]||f[5]>=6));
  if(p==='ui')return f[1]==='Гротеск'&&(vf||n>=4)&&pq(f,'con')<60&&pq(f,'xH')>=35;
- if(p==='logo')return f[1]==='Акцидентный'||f[1]==='Рукописный'||(f[1]==='Антиква'&&pq(f,'con')>60);
+ if(p==='logo')return f[1]==='Рукописный'||(f[1]==='Акцидентный'&&f[5]<=2&&pq(f,'wid')>=30)||(f[1]==='Антиква'&&pq(f,'con')>75);
  if(p==='code')return f[1]==='Моно';return true}
 function catFilter(f){return (CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&purOk(f,PUR)&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase()))}
 function catHash(){const p=new URLSearchParams();if(CATSEL!=='all')p.set('c',CATSEL);if(FLT.vf)p.set('vf','1');if(FLT.it)p.set('it','1');if(PUR)p.set('p',PUR);if(Q)p.set('q',Q);if(SORT!=='fresh')p.set('s',SORT);const q=p.toString();return '#/'+(q?'?'+q:'')}
@@ -1012,6 +1021,25 @@ const RULES={massive:{max:34},bleed:{max:26},rocketposter:{max:32},lockup:{max:2
  wave:{max:44},orbit:{max:46},plaque:{max:40},use:{max:44},catalogcard:{max:44},science:{max:52},blueprint:{max:32},anatomy:{max:48},swiss:{max:40},index:{max:60},spread:{max:70},
  editorial:{max:60},terminal:{max:48},note:{max:52},sizes:{max:40},hardletters:{},pairing:{max:46}};
 function ruleOk(tpl,len){const r=RULES[tpl];if(!r)return true;return !(r.max&&len>r.max)}
+
+// ---------- виды карточек в каталоге
+let VIEW=(()=>{try{return localStorage.getItem('pada_view')||'phrase'}catch(e){return 'phrase'}})();
+const VIEWS=[['phrase','Фраза'],['glyph','Буква'],['passport','Паспорт'],['poster','Плакат'],['list','Список']];
+function cardHTML(f){const bb=BAYS.find(b=>b.k===f[1])||BAYS[0];const vf=f[2]&&f[3]<f[4];const P=esc(PHRASE||DEF);const no=String(FONTS.indexOf(f)+1).padStart(3,'0');
+ const meta=`<div class="cmeta"><span>№ ${no} · ${f[1].toUpperCase()}</span><span>${f[5]} НАЧ.${vf?' · VF':''}${f[6]?' · ITAL':''}</span></div>`;
+ const cg=`<div class="cg" aria-hidden="true" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${bb.g[0]}</div>`;
+ const pv=(cls='')=>`<div class="pv ${cls}" data-n="${esc(f[0])}" style="font-family:${fam(f)};font-weight:${baseW(f)}">${P}</div>`;
+ const btn=`<span class="cbt"><button class="cmpb ${CMP.includes(f[0])?'on':''}" type="button" data-cmp="${esc(f[0])}" aria-label="Сравнить" title="Сравнить">⇆</button><button class="star ${isFav(f[0])?'on':''}" type="button" data-fav="${esc(f[0])}" aria-label="В бортовой журнал">${isFav(f[0])?'★':'☆'}</button></span>`;
+ const ft=`<div class="ft"><span>${esc(f[0])} <small>· ${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${isStd(f)?' · классика':''}</small></span>${btn}</div>`;
+ const open=`<a class="card cv-${VIEW}" href="#/font/${slug(f[0])}" data-n="${esc(f[0])}" style="--cbg:${bb.bg};--cfg:${bb.fg}">`;
+ if(VIEW==='glyph')return open+meta+`<div class="gbig" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${bb.g}</div>`+pv('small')+ft+'</a>';
+ if(VIEW==='passport'){const ws=weightsOf(f).slice(0,9);const m=MET[f[0]];
+  return open+meta+cg+pv()+`<div class="pw">${ws.map(w=>`<span style="font-family:${fam(f)};font-weight:${w[0]}" title="${w[1]}">Аа</span>`).join('')}</div>${m?`<div class="pm">${AX.map(([k,n])=>`<div><span>${n}</span><i style="--p:${pq(f,k)}%"></i></div>`).join('')}</div>`:''}`+ft+'</a>'}
+ if(VIEW==='poster')return open+`<div class="ctile tile r45"><div class="art"></div></div>`+pv('hid')+ft+'</a>';
+ if(VIEW==='list')return open+`<span class="ln">${esc(f[0])}<small>№ ${no} · ${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${vf?' · VF':''}</small></span>`+pv()+btn+'</a>';
+ return open+meta+cg+pv()+ft+'</a>'}
+function viewSwitch(){return `<div class="seg vsw" id="vsw" aria-label="Вид карточек">${VIEWS.map(([k,n])=>`<button type="button" data-v="${k}" class="${k===VIEW?'on':''}">${n}</button>`).join('')}</div>`}
+function viewInit(){const v=$('#vsw');if(!v)return;v.onclick=e=>{const b=e.target.closest('[data-v]');if(!b)return;VIEW=b.dataset.v;try{localStorage.setItem('pada_view',VIEW)}catch(e){}v.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderGrid()}}
 
 const app=document.getElementById('app');
 const slug=n=>n.toLowerCase().replace(/\s+/g,'-');
@@ -1157,7 +1185,7 @@ function catalog(){
  <div class="phr"><label for="ph">СВОЙ ТЕКСТ</label><input id="ph" type="text" value="${esc(PHRASE)}" aria-label="Свой текст для всех образцов">${phraseSelect("cps")}<button type="button" class="pill soft" id="crnd">🎲</button><div class="sz">Размер<input id="csz" type="range" min="24" max="96" value="${lsGet('pada_csz',40)}" aria-label="Размер образцов"></div></div>
  <div class="filters"><button class="chip ${CATSEL==='all'?'on':''}" data-c="all" type="button">Все<i>${FONTS.length}</i></button>${cats.map(c=>`<button class="chip ${CATSEL===c?'on':''}" data-c="${c}" type="button">${c}<i>${FONTS.filter(f=>f[1]===c).length}</i></button>`).join('')}
  <span style="width:10px"></span>${PURS.map(([k,n,d])=>`<button class="chip pu ${PUR===k?'on':''}" data-pu="${k}" type="button" title="${d}">${n}</button>`).join('')}<span style="width:10px"></span><button class="chip ${FLT.vf?'on':''}" data-f="vf" type="button">Вариативные</button><button class="chip ${FLT.it?'on':''}" data-f="it" type="button">С курсивом</button>
- <span style="flex:1"></span><input class="search" id="q" type="search" placeholder="Найти шрифт" value="${esc(Q)}" aria-label="Найти шрифт"><select class="sel" id="so" aria-label="Сортировка"><option value="fresh">Сначала необычные</option><option value="az">А–Я</option><option value="w">Больше начертаний</option><option value="cat">По типу</option></select></div>
+ <span style="flex:1"></span><input class="search" id="q" type="search" placeholder="Найти шрифт" value="${esc(Q)}" aria-label="Найти шрифт">${viewSwitch()}<select class="sel" id="so" aria-label="Сортировка"><option value="fresh">Сначала необычные</option><option value="az">А–Я</option><option value="w">Больше начертаний</option><option value="cat">По типу</option></select></div>
  <div class="grid" id="grid"></div></div></div></div>`;
  $('#so').value=SORT;document.documentElement.style.setProperty('--csz',lsGet('pada_csz',40)+'px');
  heroInit(df);
@@ -1170,7 +1198,7 @@ function catalog(){
  document.querySelectorAll('.chip[data-c],.cnav [data-c]').forEach(b=>b.onclick=()=>{CATSEL=b.dataset.c;refreshCat(b.closest('.cnav'))});
  document.querySelectorAll('.chip[data-f],.cnav [data-f]').forEach(b=>b.onclick=()=>{FLT[b.dataset.f]=!FLT[b.dataset.f];refreshCat(b.closest('.cnav'))});
  document.querySelectorAll('[data-pu]').forEach(b=>b.onclick=()=>{PUR=PUR===b.dataset.pu?'':b.dataset.pu;refreshCat(b.closest('.cnav'))});
- csideInit();
+ viewInit();csideInit();
  $('#q').oninput=e=>{Q=e.target.value;renderGrid();cCount();catSync()};$('#so').onchange=e=>{SORT=e.target.value;renderGrid();catSync()};
  document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>{const r=ROUTES[+b.dataset.route];CATSEL=r[2];FLT={vf:r[2]==='Гротеск',it:false};refreshCat(true)});
  $('#rnd').onclick=()=>{location.hash='#/font/'+slug(R(FONTS)[0])};
@@ -1190,8 +1218,8 @@ function renderGrid(list){
  let a=list||FONTS.filter(catFilter);
  if(!list){if(SORT==='fresh')a.sort((x,y)=>freshScore(y)-freshScore(x));if(SORT==='az')a.sort((x,y)=>x[0].localeCompare(y[0]));if(SORT==='w')a.sort((x,y)=>y[5]-x[5]);if(SORT==='cat')a.sort((x,y)=>x[1].localeCompare(y[1]))}
  const g=$('#grid');if(!a.length){g.innerHTML='<div class="empty">На этом участке неба пока пусто</div>';return}
- g.innerHTML=a.map(f=>{const bb=BAYS.find(b=>b.k===f[1])||BAYS[0];const vf=f[2]&&f[3]<f[4];return `<a class="card" href="#/font/${slug(f[0])}" data-n="${esc(f[0])}" style="--cbg:${bb.bg};--cfg:${bb.fg}"><div class="cmeta"><span>№ ${String(FONTS.indexOf(f)+1).padStart(3,'0')} · ${f[1].toUpperCase()}</span><span>${f[5]} НАЧ.${vf?' · VF':''}${f[6]?' · ITAL':''}</span></div><div class="cg" aria-hidden="true" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${bb.g[0]}</div><div class="pv" data-n="${esc(f[0])}" style="font-family:${fam(f)};font-weight:${baseW(f)}">${esc(PHRASE||DEF)}</div><div class="ft"><span>${esc(f[0])} <small>· ${CAT[f[1]]} · ${f[5]} ${plural(f[5])}${isStd(f)?' · классика':''}</small></span><span class="cbt"><button class="cmpb ${CMP.includes(f[0])?'on':''}" type="button" data-cmp="${esc(f[0])}" aria-label="Сравнить" title="Сравнить">⇆</button><button class="star ${isFav(f[0])?'on':''}" type="button" data-fav="${esc(f[0])}" aria-label="В бортовой журнал">${isFav(f[0])?'★':'☆'}</button></span></div></a>`}).join('');cardHover(g);
- const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);const f=FONTS.find(x=>x[0]===e.target.dataset.n);loadFont(f).then(()=>e.target.classList.add('ld')).catch(()=>{e.target.classList.add('ld')})}),{rootMargin:'300px'});
+ g.className='grid v-'+VIEW;g.innerHTML=a.map(cardHTML).join('');cardHover(g);
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);const f=FONTS.find(x=>x[0]===e.target.dataset.n);const poster=()=>{const t=e.target.closest('.card')?.querySelector('.ctile');if(t&&!t._d){t._d=1;const k=F;F=f;const tp=R(dirOf(f).fit.filter(x=>TPL_BY_SLOT.r45.includes(x)&&ruleOk(x,(PHRASE||DEF).length)))||'glyph';compose(t,f,tp,dirPal(false,[]));F=k}};loadFont(f).then(()=>{e.target.classList.add('ld');poster()}).catch(()=>{e.target.classList.add('ld');poster()})}),{rootMargin:'300px'});
  g.querySelectorAll('.pv').forEach(x=>io.observe(x));
  g.onclick=e=>{const cb=e.target.closest('[data-cmp]');if(cb){e.preventDefault();cmpToggle(cb.dataset.cmp);return}const b=e.target.closest('[data-fav]');if(!b){const c=e.target.closest('.card');if(c&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey){e.preventDefault();const f=FONTS.find(x=>x[0]===c.dataset.n);if(f)quick(f)}return}e.preventDefault();toggleFav(b.dataset.fav);b.classList.toggle('on');b.textContent=isFav(b.dataset.fav)?'★':'☆'};
 }
