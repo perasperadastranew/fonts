@@ -2,40 +2,92 @@
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Шрифты Perasperadastra: бесплатные, с кириллицей</title>
 <style>
-:root{--ink:#0C0B0D;--pap:#F1EFEA;--mut:#6E6A66;--ln:rgba(12,11,13,.12);--or:#FF7122}
+:root{--ink:#0C0B0D;--pap:#F1EFEA;--mut:#6E6A66;--ln:rgba(12,11,13,.12);--or:#FF7122;--ok:#DFF3E4}
 *{box-sizing:border-box}body{margin:0;background:var(--pap);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+a{color:inherit}.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
 h1{font-size:clamp(36px,6vw,72px);line-height:1;letter-spacing:-.03em;font-weight:600;margin:10px 0 14px}h1 span{background:var(--or);padding:0 .12em}
 .mono{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
 .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:22px 0 18px;position:sticky;top:0;background:var(--pap);padding:10px 0;z-index:2}
-input,select{font:inherit;border:1px solid var(--ln);border-radius:999px;padding:9px 14px;background:#fff}
+input,select,textarea{font:inherit;border:1px solid var(--ln);border-radius:999px;padding:9px 14px;background:#fff}
 #ph{flex:1;min-width:220px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
-.c{background:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:14px;min-height:220px}
+.c{background:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:14px;min-height:220px;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.c:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.08)}
 .pv{font-size:var(--sz,38px);line-height:1.08;overflow-wrap:anywhere;flex:1}
 .meta{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;border-top:1px solid var(--ln);padding-top:10px}
 .meta b{font-weight:600}.meta small{display:block;color:var(--mut)}
-.dl{font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--ln);border-radius:999px;padding:6px 12px;white-space:nowrap}.dl:hover{background:var(--ink);color:var(--pap)}
-.tag{display:inline-block;font-size:11px;border-radius:999px;padding:2px 8px;background:#DFF3E4;margin-top:4px}
-footer{margin-top:40px;color:var(--mut);font-size:13px}a{color:inherit}
-</style></head><body><div class="wrap">
-<div class="mono">Perasperadastra · бортовая библиотека</div>
-<h1>Бесплатные шрифты <span>с кириллицей</span></h1>
-<p id="lead" style="max-width:640px;color:var(--mut)">Файлы взяты у авторов, лицензии проверены. Все шрифты можно использовать в проектах для клиентов.</p>
-<div class="bar"><input id="ph" value="Курс проложен, экипаж на борту" aria-label="Свой текст"><input id="q" type="search" placeholder="Найти шрифт" aria-label="Найти шрифт"><select id="lic" aria-label="Лицензия"><option value="">Все лицензии</option></select><input id="sz" type="range" min="20" max="90" value="38" aria-label="Размер"></div>
-<div class="grid" id="g"></div>
-<footer>Шрифты распространяются на условиях авторов: текст лицензии лежит в папке каждого шрифта. Исходники: <a href="https://github.com/perasperadastranew/fonts">github.com/perasperadastranew/fonts</a>. Если вы автор и хотите что-то исправить, напишите в Telegram <a href="https://t.me/perasperaschool">@perasperaschool</a>.</footer>
-</div>
+.btn{display:inline-block;font-size:13px;text-decoration:none;border:1px solid var(--ln);border-radius:999px;padding:6px 12px;white-space:nowrap;background:#fff;cursor:pointer}.btn:hover{background:var(--ink);color:var(--pap)}
+.btn.dark{background:var(--ink);color:var(--pap)}
+.tag{display:inline-block;font-size:11px;border-radius:999px;padding:2px 8px;background:var(--ok);margin:4px 4px 0 0}.tag.g{background:#EDEAE6}
+footer{margin-top:40px;color:var(--mut);font-size:13px}
+/* страница шрифта */
+.back{display:inline-block;margin-bottom:18px;text-decoration:none;font-size:14px}
+.fhead{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:end;margin-bottom:24px}
+.fname{font-size:clamp(48px,9vw,128px);line-height:.95;letter-spacing:-.01em;margin:0;overflow-wrap:anywhere}
+.facts{background:#fff;border-radius:18px;padding:18px;display:grid;gap:10px}
+.facts .row{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--ln);padding-bottom:8px}.facts .row:last-child{border:0;padding:0}
+.facts .row span:first-child{color:var(--mut)}
+.sec{margin:34px 0 12px;display:flex;align-items:baseline;gap:12px}.sec h2{margin:0;font-size:26px;font-weight:500;letter-spacing:-.01em}
+.panel{background:#fff;border-radius:18px;padding:20px}
+.tester textarea{width:100%;border-radius:14px;min-height:150px;resize:vertical;font-size:var(--tsz,64px);line-height:1.1;padding:14px}
+.tctl{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+.style{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;border-bottom:1px solid var(--ln);padding:14px 0}.style:last-child{border:0}
+.style .s{font-size:36px;line-height:1.1;overflow-wrap:anywhere}.style small{display:block;color:var(--mut);font-size:12px;margin-top:4px}
+.abc{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px}
+.abc div{background:var(--pap);border-radius:10px;aspect-ratio:1;display:grid;place-items:center;font-size:34px}
+.lic{display:grid;grid-template-columns:1fr 1fr;gap:10px}.lic .panel p{margin:6px 0}
+@media(max-width:820px){.fhead,.lic{grid-template-columns:1fr}.style{grid-template-columns:1fr}}
+</style></head><body><div class="wrap" id="app"></div>
 <script>
-const $=s=>document.querySelector(s);let CAT=[];
-const pick=c=>c.files.find(f=>/regular|book|normal/i.test(f)&&!/italic/i.test(f))||c.files.find(f=>!/italic|oblique/i.test(f))||c.files[0];
-const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);const c=CAT[+el.dataset.i];const f=new FontFace('pa_'+c.slug,`url("fonts/${c.slug}/${encodeURIComponent(pick(c))}")`);f.load().then(ff=>{document.fonts.add(ff);el.style.fontFamily=`'pa_${c.slug}',serif`}).catch(()=>{})}),{rootMargin:'300px'});
-function draw(){const q=$('#q').value.toLowerCase(),l=$('#lic').value,ph=$('#ph').value||'Курс проложен';
- const g=$('#g');g.innerHTML='';CAT.forEach((c,i)=>{if(q&&!c.name.toLowerCase().includes(q))return;if(l&&c.license!==l)return;
-  const d=document.createElement('div');d.className='c';d.innerHTML=`<div class="pv" data-i="${i}">${esc(ph)}</div><div class="meta"><div><b>${esc(c.name)}</b><small>${esc(c.author||'')}</small><span class="tag">${esc(c.license)}</span></div><a class="dl" href="https://github.com/perasperadastranew/fonts/tree/main/fonts/${c.slug}">Файлы →</a></div>`;g.appendChild(d);io.observe(d.querySelector('.pv'))})}
-fetch('catalog.json').then(r=>r.json()).then(j=>{CAT=j.sort(()=>Math.random()-.5);$('#lead').textContent=`${j.length} шрифтов. Файлы взяты у авторов, лицензии проверены. Все шрифты можно использовать в проектах для клиентов.`;
- [...new Set(j.map(c=>c.license))].forEach(x=>{const o=document.createElement('option');o.value=o.textContent=x;$('#lic').appendChild(o)});draw()});
-$('#q').oninput=draw;$('#lic').onchange=draw;$('#ph').oninput=()=>document.querySelectorAll('.pv').forEach(e=>e.textContent=$('#ph').value);
-$('#sz').oninput=e=>document.documentElement.style.setProperty('--sz',e.target.value+'px');
+const $=s=>document.querySelector(s);const app=$('#app');let CAT=[],ORDER=[];
+const RAW='https://raw.githubusercontent.com/perasperadastranew/fonts/main/';
+const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const pick=c=>c.files.find(f=>/regular|book|normal/i.test(f)&&!/italic|oblique/i.test(f))||c.files.find(f=>!/italic|oblique/i.test(f))||c.files[0];
+const url=(c,f)=>`fonts/${c.slug}/${encodeURIComponent(f)}`;
+const loaded={};function face(c,f){const k=c.slug+'/'+f;if(!loaded[k]){const n='pa'+Object.keys(loaded).length;const ff=new FontFace(n,`url("${url(c,f)}")`);loaded[k]=ff.load().then(x=>{document.fonts.add(x);return n})}return loaded[k]}
+let PH=localStorage.getItem('pa_ph')||'Курс проложен, экипаж на борту';
+const styleName=f=>f.replace(/\.(ttf|otf)$/i,'').replace(/[-_]/g,' ').replace(/\s+/g,' ').trim();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);const c=CAT.find(x=>x.slug===el.dataset.s);face(c,el.dataset.f||pick(c)).then(n=>el.style.fontFamily=`'${n}',serif`).catch(()=>{})}),{rootMargin:'300px'});
+function list(){
+ app.innerHTML=`<div class="mono">Perasperadastra · бортовая библиотека</div><h1>Бесплатные шрифты <span>с кириллицей</span></h1>
+ <p style="max-width:640px;color:var(--mut)">${CAT.length} шрифтов. Файлы взяты у авторов, лицензии проверены. Все шрифты можно использовать в проектах для клиентов.</p>
+ <div class="bar"><input id="ph" value="${esc(PH)}" aria-label="Свой текст"><input id="q" type="search" placeholder="Найти шрифт" aria-label="Найти шрифт"><select id="lic" aria-label="Лицензия"><option value="">Все лицензии</option>${[...new Set(CAT.map(c=>c.license))].map(x=>`<option>${esc(x)}</option>`).join('')}</select><input id="sz" type="range" min="20" max="90" value="38" aria-label="Размер"></div>
+ <div class="grid" id="g"></div>
+ <footer>Шрифты распространяются на условиях авторов: текст лицензии лежит в папке каждого шрифта. Исходники: <a href="https://github.com/perasperadastranew/fonts">github.com/perasperadastranew/fonts</a>. Если вы автор и хотите что-то исправить, напишите в Telegram <a href="https://t.me/perasperaschool">@perasperaschool</a>.</footer>`;
+ const draw=()=>{const q=$('#q').value.toLowerCase(),l=$('#lic').value;const g=$('#g');g.innerHTML='';
+  ORDER.forEach(c=>{if(q&&!c.name.toLowerCase().includes(q))return;if(l&&c.license!==l)return;
+   const a=document.createElement('a');a.className='c';a.href='#/font/'+c.slug;a.innerHTML=`<div class="pv" data-s="${c.slug}">${esc(PH)}</div><div class="meta"><div><b>${esc(c.name)}</b><small>${esc(c.author)}</small><span class="tag">${esc(c.license)}</span></div><span class="btn">Открыть →</span></div>`;g.appendChild(a);io.observe(a.querySelector('.pv'))})};
+ draw();$('#q').oninput=draw;$('#lic').onchange=draw;
+ $('#ph').oninput=e=>{PH=e.target.value||'Курс проложен';localStorage.setItem('pa_ph',PH);document.querySelectorAll('.pv').forEach(x=>x.textContent=PH)};
+ $('#sz').oninput=e=>document.documentElement.style.setProperty('--sz',e.target.value+'px');
+ const y=+sessionStorage.getItem('pa_y')||0;if(y)setTimeout(()=>scrollTo(0,y),50);
+}
+function page(c){
+ const files=c.files.slice().sort((a,b)=>(/italic|oblique/i.test(a)-/italic|oblique/i.test(b))||a.localeCompare(b));
+ const ABC='АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789«»—–!?№₽&@'.split('');
+ const sim=CAT.filter(x=>x!==c&&(c.class?x.class===c.class:x.license===c.license)).sort(()=>Math.random()-.5).slice(0,4);
+ app.innerHTML=`<a class="back" href="#/">← Все шрифты</a>
+ <div class="fhead"><div><div class="mono">${esc(c.class||'шрифт')} · ${c.styles} ${c.styles===1?'начертание':'начертаний'}${c.variable?' · вариативный':''}</div><h1 class="fname" data-s="${c.slug}">${esc(c.name)}</h1></div>
+ <div class="facts"><div class="row"><span>Автор</span><span>${esc(c.author||'—')}</span></div><div class="row"><span>Лицензия</span><span>${esc(c.license)}</span></div><div class="row"><span>Кириллица</span><span>${c.cyrillic.includes('ua')?'русский и украинский':'русский'}</span></div><div class="row"><span>Источник</span><span>${c.source&&c.source.startsWith('http')?`<a href="${esc(c.source)}" target="_blank" rel="noopener">${esc(c.source.split('/')[2])}</a>`:'—'}</span></div>
+ <div style="display:flex;gap:6px;flex-wrap:wrap"><a class="btn" href="https://github.com/perasperadastranew/fonts/tree/main/fonts/${c.slug}" target="_blank" rel="noopener">Файлы на GitHub</a></div></div></div>
+ <div class="sec"><span class="mono">01</span><h2>Тестер</h2></div>
+ <div class="panel tester"><div class="tctl"><select id="tf" aria-label="Начертание">${files.map(f=>`<option value="${esc(f)}">${esc(styleName(f))}</option>`).join('')}</select><label class="mono">Размер <input id="ts" type="range" min="16" max="160" value="64" aria-label="Размер"></label></div><textarea id="tt" aria-label="Текст">${esc(PH)}</textarea></div>
+ <div class="sec"><span class="mono">02</span><h2>Начертания</h2></div>
+ <div class="panel">${files.map(f=>`<div class="style"><div><div class="s" data-s="${c.slug}" data-f="${esc(f)}">${esc(PH)}</div><small>${esc(styleName(f))}</small></div><a class="btn" href="${RAW}fonts/${c.slug}/${encodeURIComponent(f)}" download>Скачать ${esc(f.split('.').pop().toUpperCase())}</a></div>`).join('')}</div>
+ <div class="sec"><span class="mono">03</span><h2>Алфавит</h2></div>
+ <div class="panel"><div class="abc" data-s="${c.slug}">${ABC.map(ch=>`<div>${esc(ch)}</div>`).join('')}</div></div>
+ <div class="sec"><span class="mono">04</span><h2>Лицензия и установка</h2></div>
+ <div class="lic"><div class="panel"><span class="tag">${esc(c.license)}</span>${/OFL|Apache|MIT|CC0/.test(c.license)?'<p><b>Можно в любых проектах</b>, в том числе для клиентов и в коммерции. Нельзя продавать сам шрифт.</p>':'<p><b>Можно в проектах</b> с указанием автора и лицензии.</p>'}${c.copyright?`<p class="mono" style="text-transform:none">${esc(c.copyright)}</p>`:''}<p>${c.license_files.map(f=>`<a href="fonts/${c.slug}/${encodeURIComponent(f)}" target="_blank">${esc(f)}</a>`).join(' · ')}</p></div>
+ <div class="panel"><p><b>Mac:</b> открой файл .ttf или .otf и нажми «Установить».</p><p><b>Windows:</b> правый клик по файлу → «Установить для всех пользователей».</p><p><b>Figma:</b> после установки перезапусти приложение.</p></div></div>
+ ${sim.length?`<div class="sec"><span class="mono">05</span><h2>Ещё посмотреть</h2></div><div class="grid">${sim.map(x=>`<a class="c" href="#/font/${x.slug}"><div class="pv" data-s="${x.slug}">${esc(PH)}</div><div class="meta"><div><b>${esc(x.name)}</b><small>${esc(x.author)}</small></div><span class="btn">→</span></div></a>`).join('')}</div>`:''}`;
+ document.title=c.name+' — шрифты Perasperadastra';scrollTo(0,0);
+ face(c,pick(c)).then(n=>{document.querySelectorAll(`.fname,.abc`).forEach(e=>e.style.fontFamily=`'${n}',serif`)});
+ document.querySelectorAll('.style .s,.grid .pv').forEach(e=>io.observe(e));
+ const tt=$('#tt'),tf=$('#tf'),ts=$('#ts');const ap=()=>face(c,tf.value).then(n=>tt.style.fontFamily=`'${n}',serif`);ap();tf.onchange=ap;
+ ts.oninput=()=>document.documentElement.style.setProperty('--tsz',ts.value+'px');
+}
+function route(){const h=location.hash;if(h.startsWith('#/font/')){const c=CAT.find(x=>x.slug===h.slice(7));if(c)return page(c)}document.title='Шрифты Perasperadastra: бесплатные, с кириллицей';list()}
+addEventListener('scroll',()=>{if(!location.hash.startsWith('#/font/'))sessionStorage.setItem('pa_y',scrollY)});
+addEventListener('hashchange',route);
+fetch('catalog.json').then(r=>r.json()).then(j=>{CAT=j;ORDER=j.slice().sort(()=>Math.random()-.5);route()});
 </script></body></html>
