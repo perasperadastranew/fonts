@@ -356,7 +356,7 @@ body.v-b .lic2 .a{color:var(--ink)}
 /* компактная главная: галерея ниже, отсеки в одну строку */
 .h4x{padding:14px 0 4px}
 .h4cards{height:min(34vh,340px);min-height:240px}
-.h4c:nth-child(2){transform:translateY(12px)}
+.h4c:nth-child(2){transform:none}
 .h4cap{padding:18px 2px 0;font-size:13px}
 .h4bar{margin-top:12px;padding-top:12px}
 .h4bar h1{font-size:clamp(28px,3.2vw,44px)}
@@ -374,6 +374,17 @@ body.v-b .lic2 .a{color:var(--ink)}
 .bay .ar{width:24px;height:24px;font-size:12px;flex:none}
 @media(max-width:1250px){.bgrid{grid-template-columns:repeat(4,minmax(0,1fr))}.bay{aspect-ratio:1/.9}}
 @media(max-width:900px){.bgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:8px;padding-bottom:4px;scrollbar-width:none}.bgrid::-webkit-scrollbar{display:none}.bay{flex:0 0 38%;scroll-snap-align:start;aspect-ratio:3/4}.bay .nm{font-size:15px}.h4cards{height:auto}}
+.fam{display:grid;grid-template-columns:1.25fr 1fr;gap:10px;margin-top:28px}
+.famc{border-radius:calc(var(--rk,1)*22px);padding:22px 24px;background:var(--wh)}
+.famc .mono{font:10.5px 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.08em;color:var(--mut)}
+.famc p{margin:10px 0 0;font-size:16px;line-height:1.5}.famc .mut{color:var(--mut)}
+.famc .who{margin-top:10px;font-size:20px;letter-spacing:-.01em}
+.famc .src{display:inline-block;margin-top:14px;font-size:13px;color:var(--mut);text-decoration:underline;text-underline-offset:3px}
+.fk{background:var(--ink);color:var(--pap)}.fk .mono{color:#A5A09B}.fk p{font-size:15px}.fk .kk{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.fk .kk p{margin-top:4px;font-size:14px;color:#D9D5CF}
+.fp2{grid-column:1/-1}.pps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:14px}
+.pp b{display:block;font-weight:500;font-size:18px;margin:6px 0 8px}.pp i{display:block;height:4px;border-radius:4px;background:linear-gradient(90deg,#FF7122 var(--p),rgba(12,11,13,.1) var(--p))}.pp small{display:block;margin-top:8px;font-size:12px;line-height:1.35;color:var(--mut)}
+@media(max-width:900px){.fam{grid-template-columns:1fr}.pps{grid-template-columns:1fr 1fr}}
+.h4bar{justify-content:flex-start}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
@@ -733,6 +744,95 @@ function edInit(root,onEdit){if(!root||root._ed)return;root._ed=1;root.addEventL
  n.onkeydown=ev=>{if(ev.key==='Escape'||(ev.key==='Enter'&&!ev.shiftKey)){ev.preventDefault();n.blur()}};
  n.onblur=()=>{n.removeAttribute('contenteditable');onEdit&&onEdit(n)}})}
 
+// ---------- справка о семействе: история известных шрифтов (пересказ описаний авторов на Google Fonts) и паспорт по замерам
+const HIST={
+'PT Sans':['ПараТайп, 2009','Сделан для проекта «Общедоступные шрифты народов России» к 300-летию гражданского шрифта Петра I. Задача — дать всем народам России возможность читать и писать на родных языках, поэтому в шрифте есть знаки всех титульных языков страны. Опирается на советские гротески второй половины XX века.'],
+'PT Serif':['ПараТайп, 2010','Вторая семья проекта «Общедоступные шрифты народов России», парная к PT Sans. Переходная антиква с гуманистическими окончаниями: спокойная для текста и узнаваемая в заголовках.'],
+'PT Mono':['ПараТайп, Александра Королькова','Моноширинная пара к PT Sans и PT Serif. Создавался для форм, таблиц и анкет, особенно на государственных сайтах: при равной ширине знаков легко рассчитать поля и колонки.'],
+'Literata':['TypeTogether','Появилась как фирменный шрифт Google Play Книг, а в третьей версии стала вариативной семьёй для любого экрана. Кириллицу рисовали Вера Евстафьева и Елена Новосёлова; шрифт получил премию Modern Cyrillic 2021.'],
+'JetBrains Mono':['JetBrains, Филипп Нуруллин и Константин Буленков','Моноширинный шрифт, сделанный под нужды программистов компанией — автором сред разработки: высокие строчные, различимые похожие знаки, лигатуры для кода.'],
+'Inter':['Расмус Андерссон','Вариативный шрифт, задуманный специально для экранов: высокие строчные, контекстная пунктуация, ноль с чертой и табличные цифры.'],
+'Golos Text':['ПараТайп, 2019','Заказан для сайтов государственных и социальных сервисов. Авторы — Александра Королькова и Виталий Кузьмин. Версия Text рассчитана на долгое чтение с экрана.'],
+'Manrope':['Михаил Шаранда, 2018','Современный открытый гротеск. В 2019 году вместе с Мирко Велимировичем стал вариативным.'],
+'Lora':['Cyreal','Антиква с каллиграфическими корнями и умеренным контрастом: мягкие кисти в изгибах и упругие засечки. Рассчитана на текст, хорошо выглядит и на экране, и в печати.'],
+'Playfair Display':['Клаус Эггерс Сёренсен, 2011','Переходная антиква для крупных размеров. Отсылает к эпохе Просвещения, когда стальное перо и новая печать дали тонкие волосяные штрихи, — к Баскервилю и «шотландским» антиквам, но не копирует их.'],
+'Oswald':['Вернон Адамс, 2011','Переработка классических узких гротесков Alternate Gothic, перерисованная под пиксельную сетку экранов. Автор развивал шрифт до 2014 года, позже его доделывали другие дизайнеры.'],
+'Raleway':['Мэтт Макинерни; Пабло Импаллари и Родриго Фуэнсалида','Сначала был одним тонким начертанием, в 2012 году вырос до девяти. Акцидентный гротеск с элегантным характером и старостильными цифрами.'],
+'Jost':['Оуэн Эрл, indestructible type*','Вдохновлён немецкими геометрическими гротесками 1920-х. В 2020 году стал вариативным.'],
+'EB Garamond':['Георг Дуффнер, общественный проект','Возрождение гарамонов XVI века по образцу 1592 года из типографии Эгенольфа (отсюда буквы EB — Egenolff-Berner). Гарамон — один из ключевых шрифтов в истории книги.'],
+'Old Standard TT':['Алексей Крюков','Воспроизводит антикву, которой набирали книги конца XIX — начала XX века, — прямо противопоставлена советской «Обыкновенной новой». Хорошо передаёт атмосферу старой научной книги.'],
+'Alegreya':['Хуан Пабло дель Пераль, Huerta Tipográfica','Шрифт для литературы с живым каллиграфическим ритмом. В 2011 году вошёл в число «шрифтов десятилетия» конкурса ATypI Letter2.'],
+'Fira Sans':['Carrois, Эрик Шпикерман','Сделан для мобильной системы Mozilla Firefox OS: должен был хорошо читаться на телефонах с разными экранами. Есть три ширины и моноширинный вариант.'],
+'Open Sans':['Стив Маттесон, Ascender','Гуманистический гротеск с открытыми формами и нейтральным, дружелюбным характером, рассчитанный на печать, веб и мобильные интерфейсы.'],
+'Merriweather':['Sorkin Type','Антиква для чтения с экрана: очень высокие строчные, слегка сжатые пропорции, крепкие засечки. Есть парный гротеск Merriweather Sans.'],
+'Cormorant':['Кристиан Тальман, Catharsis Fonts','Акцидентная семья, вдохновлённая наследием Клода Гарамона, но нарисованная с нуля. Девять стилей, от прямого и курсива до «младенческого» Infant и Unicase.'],
+'Roboto':['Кристиан Робертсон, Google','Шрифт «двойной природы»: механический каркас и дружелюбные открытые изгибы. Стал системным шрифтом Android и одной из самых распространённых гарнитур в мире.'],
+'Roboto Flex':['Font Bureau для Google','Переосмысление Roboto с огромным диапазоном осей: вес, ширина, оптический размер и тонкие параметрические настройки.'],
+'IBM Plex Sans':['Майк Эббинк (IBM) и Bold Monday','Фирменная семья IBM, которая выражает отношения человека и машины. Существует в вариантах Sans, Serif и Mono, которые хорошо сочетаются.'],
+'Source Serif 4':['Франк Грисхаммер, Adobe','Переходная антиква, пара к Source Sans. Свободно опирается на работы Пьера Симона Фурнье XVIII века и сохраняет его характерные детали.'],
+'Source Code Pro':['Пол Хант, Adobe','Моноширинная версия Source Sans для кода с теми же пропорциями.'],
+'Unbounded':['Studio Koto и NaN для Polkadot','Пожалуй, первый открытый шрифт, профинансированный из блокчейн-казны. Восемь широких акцидентных начертаний, латиница и кириллица, своя система цифр.'],
+'Bitter':['Соль Матас','Брусковая антиква для чтения с экрана, выросшая из строгости пиксельной сетки: крупные строчные и почти ровный штрих.'],
+'Brygada 1918':['Возрождение к 100-летию независимости Польши','Восстановлена по каталогу Национальной словолитни 1954 года и матрицам, найденным в музее книжного искусства в 2016 году.'],
+'Caveat':['Пабло Импаллари','Рукописный шрифт для заметок и текста: буквы слегка меняются в зависимости от места в слове. Расширенную кириллицу сделала московская словолитня Cyreal.'],
+'Lato':['Лукаш Дзедзиц, 2010','«Лето» по-польски. Задумывался для фирменного стиля клиента, а когда тот выбрал другое направление, был опубликован свободно. Автор описывал его как «серьёзный, но дружелюбный, с ощущением лета».'],
+'Exo 2':['Натанаэль Гама','Полная перерисовка геометрического Exo с технологичным, футуристическим характером. Вторая версия органичнее и лучше читается в мелком тексте.'],
+'Arsenal':['Андрей Шевченко, 2011','Победитель украинского конкурса шрифтового дизайна «Мистецький Арсенал». Полугротеск с традиционными формами и узкими пропорциями для экономного набора.'],
+'Days One':['Александр Калачёв, Иван Гладких, Алексей Маслов, 2008','Экспериментальный широкий шрифт с толстым штрихом — для заголовков.'],
+'Prata':['Иван Петров, Cyreal','Элегантная дидона с острыми засечками и каплевидными окончаниями. Контраст высокий, поэтому лучше работает крупно.'],
+'Podkova':['Илья Юдин, 2010; Алексей Ванягин','«Подкова» — монолинейная брусковая антиква с диагональными окончаниями. Широкие пропорции помогают в мелком размере, необычные формы — в заголовках.'],
+'Ruslan Display':['Денис Машаров по шрифту Олега Снарского','Основан на шрифте 1970-х, который отсылает к уставу и полууставу XI–XVI веков; его можно увидеть на станции киевского метро «Теремки». Оцифрован в 2011 году.'],
+'Monomakh':['Проект Slavonic','Кириллица в смешанном стиле устава и полуустава для исследователей славянской истории и филологии.'],
+'Ponomar':['Проект Slavonic','Церковнославянский шрифт по образцу изданий Синодальной типографии начала XX века. Им до сих пор набирают богослужебные книги.'],
+'Triodion':['Проект Slavonic','Воспроизводит шрифт церковных книг Петербурга и Москвы конца XIX — начала XX века.'],
+'Pochaevsk':['Проект Slavonic','Повторяет шрифт изданий Почаевской лавры конца XIX века. Низкие вертикальные метрики удобны для двуязычных изданий.'],
+'Shafarik':['Проект Slavonic','Назван в честь Павла Йозефа Шафарика, одного из основателей славянской филологии. Нужен для научной публикации старославянских текстов кириллицей и глаголицей.'],
+'Underdog':['Сергей Стеблина, Jovanny Lemonad','Неформальный шрифт с «рваными» углами, вдохновлённый уличными самодельными вывесками и музыкальным леттерингом. Меняет настроение в зависимости от контекста.'],
+'Handjet':['Давид Бржезина, Rosetta','Модульный вариативный шрифт: каждый знак собран из одинаковых элементов, которые плавно превращаются в одну из 23 форм.'],
+'Vollkorn':['Фридрих Альтхаузен, 2005','Первая работа автора. Название по-немецки значит «цельнозерновой» и отсылает к старому термину «хлебный шрифт» — так называли шрифты для каждодневного набора.'],
+'Yanone Kaffeesatz':['Yanone, 2004','Жирное начертание напоминает типографику кофеен 1920-х. Первый законченный шрифт автора, ставший очень популярным на упаковке и в кафе по всему миру.'],
+'Press Start 2P':['Коди Бойслер','Пиксельный шрифт по мотивам аркадных игр Namco 1980-х. Лучше всего выглядит в размерах, кратных 8 пикселям.'],
+'Sofia Sans':['Lettersoup','Задумывался как шрифт столицы Болгарии. Вдохновлён «техническими» гротесками начала XX века, четыре ширины.'],
+'Ysabeau':['Кристиан Тальман, Catharsis Fonts','Соединяет гарамоновские пропорции и выносные элементы с чистотой малоконтрастного гротеска — для долгого чтения.'],
+'Oranienbaum':['Олег Поспелов, Jovanny Lemonad','Контрастная антиква в духе Бодони и шрифтов первой четверти XX века: выраженные засечки, игра прямых углов и плавных линий.'],
+'Kelly Slab':['','Геометрическая брусковая антиква под влиянием шрифтов 1930-х, например City Георга Трумпа. Для рекламы, заголовков и логотипов.'],
+'Pacifico':['Вернон Адамс, 2011','Кистевой рукописный шрифт, вдохновлённый сёрф-культурой Америки 1950-х. Кириллицу в 2017 году добавила студия Lettersoup.'],
+'Mulish':['Вернон Адамс, 2011–2014','Минималистичный гротеск. После смерти автора работу завершил Жак Ле Байи.'],
+'Piazzolla':['Хуан Пабло дель Пераль, HT Fonts','Компактная система для прессы: позволяет мелкий кегль и плотный интерлиньяж без потери читаемости.'],
+'Neucha':['','Автор пишет, что придумал шрифт ради одной фразы — «Я тебя люблю» — в 2005 году, а первая версия заняла восемь часов. Название шутливо расшифровывает как «не умеющий делать шрифты правильно».'],
+'Philosopher':['Jovanny Lemonad, 2008','Вдохновлён Agfa Rotis и ITC Binary. Автор признаётся, что первую версию специально выпустил с ошибками, чтобы расшевелить дизайнеров.'],
+'Russo One':['Jovanny Lemonad','Шрифт для заголовков и логотипов. Автор хотел показать, что русская культура разнообразна и современна, — «без снега, водки и медведей».'],
+'Stalinist One':['Алексей Маслов и Jovanny Lemonad','Задуман как шрифт для постапокалиптического мира: простой, утилитарный и сильный.'],
+'Martian Mono':['Evil Martians','Моноширинная версия Martian Grotesk с брутальной эстетикой. Вариативный по весу и ширине, кириллица добавлена в 2023 году.'],
+'STIX Two Text':['Консорциум научных издательств','Шрифты STIX создавались для научных, медицинских и технических публикаций по инициативе AMS, AIP, APS, ACS, IEEE и Elsevier.'],
+'Victor Mono':['Rubjo','Узкий моноширинный шрифт для кода с полусвязным рукописным курсивом и лигатурами.'],
+'Istok Web':['Андрей Панов, с 2008','Сначала некоторые буквы строились на исходниках METAFONT из семьи CM Bright сообщества TeX, теперь шрифт сильно от них ушёл. Сделан в свободном редакторе FontForge.'],
+'Commissioner':['Костас Бартзокас','Вариативный малоконтрастный гуманистический гротеск с тремя «голосами»: по оси flair прямые окончания превращаются почти в засечки.'],
+'Geologica':['Monokrom','Гуманистический шрифт с опорой на геометрию. Ось «остроты» добавляет рациональное прочтение каллиграфического пера.'],
+'Comfortaa':['Йохан Акерлунд','Округлый геометрический гротеск для крупных размеров.'],
+'Scada':['Scada.lv, 2005','Корпоративный шрифт латвийской дизайн-студии, в 2011 году открытый и расширенный до семьи.'],
+'Play':['Йонас Хексер, Playtype','Все буквы выведены из «О» — одновременно квадратной и круглой.'],
+'Jura':['Дэниел Джонсон','Гротеск в духе Eurostile, выросший из работы над письменностью каяхли для проекта FreeFont.'],
+'Cuprum':['Jovanny Lemonad, 2006','Узкий гротеск. Название — «медь»: не золото и не серебро, из неё делают не медали, а кастрюли.'],
+'Tenor Sans':['Денис Машаров','Гуманистический гротеск для текста и заголовков с расширенной кириллицей.'],
+'Poiret One':['Денис Машаров','Декоративный геометрический гротеск с нотами ар-деко и конструктивизма.'],
+'Wix Madefor Text':['Wix','Фирменная семья Wix: компактные начертания для интерфейсов и курсив с рукописными корнями.'],
+'Yeseva One':['Jovanny Lemonad','Акцидентная антиква, посвящённая жене автора; название — от фразы «Yes, Eva».'],
+'Bad Script':['','Вырос из логотипа в шесть букв. Нарисован на планшете по почерку автора.'],
+'Marck Script':['','Основан на рукописи фломастером Марка Фогеля. Буквы не соединяются, поэтому межбуквенный интервал можно менять свободно.'],
+'Gentium Plus':['SIL International','Полная версия Gentium с латиницей, греческим и кириллицей для лингвистов и многоязычных изданий.'],
+'El Messiri':['Мохамед Габер','Арабская семья, выросшая из латиницы и кириллицы шрифта Philosopher.'],
+'Ledger':['Денис Машаров','Антиква для неблагоприятной печати и экранов низкого разрешения: газеты, лазерная печать. Высокие строчные, клиновидные засечки.']
+};
+function histHTML(f){const h=HIST[f[0]]||HIST[f[0].replace(/ (Text|Display|Caption|Narrow|Condensed|Extra Condensed|Semi Condensed|Mono|Serif|Sans)$/,'')];
+ const src=f[7]?null:`https://fonts.google.com/specimen/${f[0].replace(/ /g,'+')}/about`;
+ const cls=BAYINFO[BAYS.find(b=>b.k===f[1])?.k]||null;const m=MET[f[0]];
+ const ch=m?AX.map(([k,n,lo,hi])=>{const p=PCT[k](m[k]);const w=p<25?lo:p>75?hi:'средний';return `<div class="pp"><span class="mono">${n.toUpperCase()}</span><b>${w}</b><i style="--p:${p}%"></i><small>${p<50?({wid:'уже',xH:'строчные ниже, чем у',dens:'светлее',con:'спокойнее'})[k]+' '+(100-p):({wid:'шире',xH:'строчные выше, чем у',dens:'плотнее',con:'контрастнее'})[k]+' '+p}% шрифтов базы</small></div>`}).join(''):'';
+ return `<div class="fam">
+ <div class="famc fh"><span class="mono">ОБ ЭТОМ ШРИФТЕ</span>${h?`${h[0]?`<div class="who">${esc(h[0])}</div>`:''}<p>${esc(h[1])}</p>${src?`<a class="src" href="${src}" target="_blank" rel="noopener">Источник: описание авторов на Google Fonts ↗</a>`:''}`:`<p class="mut">Историю этого шрифта ещё собираем. Пока — что говорят класс и замеры.</p>`}</div>
+ ${cls?`<div class="famc fk"><span class="mono">КЛАСС · ${f[1].toUpperCase()}</span><p>${cls[0]}</p><div class="kk"><div><span class="mono">ПОДХОДИТ</span><p>${cls[1]}</p></div><div><span class="mono">СЛОЖНО</span><p>${cls[2]}</p></div></div></div>`:''}
+ ${ch?`<div class="famc fp2"><span class="mono">ХАРАКТЕР ПО ЗАМЕРАМ</span><div class="pps">${ch}</div></div>`:''}</div>`}
+
 const app=document.getElementById('app');
 const slug=n=>n.toLowerCase().replace(/\s+/g,'-');
 const bySlug=s=>FONTS.find(f=>slug(f[0])===s);
@@ -767,7 +867,7 @@ function heroHTML(df){const P=esc(PHRASE||DEF);
  if(HERO===1)return `<section class="h4x" id="hero"><div class="wrap">
  <div class="h4cards">${[0,1,2].map(i=>`<a class="h4c" href="#/" data-i="${i}"><div class="tile h4l a"><div class="art"></div></div><div class="tile h4l b"><div class="art"></div></div></a>`).join('')}</div>
  <div class="h4cap">${[0,1,2].map(i=>`<span class="h4n" data-i="${i}">…</span>`).join('')}</div>
- <div class="h4bar"><h1>Бесплатные шрифты <span class="plq">с кириллицей</span></h1><div class="h1ctl"><input id="hph" type="text" value="${P}" aria-label="Свой текст"><a class="pill dark" href="#/brief">Подобрать по задаче</a><button class="pill soft" type="button" id="rnd">↻</button></div></div></div></section>`;
+ <div class="h4bar"><div class="h1ctl"><input id="hph" type="text" value="${P}" aria-label="Свой текст"><a class="pill dark" href="#/brief">Подобрать по задаче</a><button class="pill soft" type="button" id="rnd">↻</button></div></div></div></section>`;
  if(HERO===2)return `<section class="h2x" id="hero"><div class="h2wall" id="hwall">${[...Array(8)].map((_,i)=>`<a class="tile h2t h2t${i}" href="#/"><div class="art"></div></a>`).join('')}</div>
  <div class="h2card crop"><div class="mono" style="font-size:11px;color:var(--mut)">★ БОРТОВАЯ БИБЛИОТЕКА · ${FONTS.length} ШРИФТОВ</div><h1>Бесплатные шрифты <span class="plq">с кириллицей</span></h1><p>Каждый показан в работе: образцы собираются под твою фразу. Все можно брать в заказ для клиента.</p>
  <div class="h1ctl"><input id="hph" type="text" value="${P}" aria-label="Свой текст"><button class="pill dark" type="button" id="rnd">↻ Другие</button></div></div></section>`;
@@ -820,7 +920,7 @@ const BAYINFO={
  'Моно':['Все знаки одной ширины. Пошли от пишущих машинок конца XIX века и компьютерных терминалов. Courier нарисовал Говард Кеттлер для IBM в 1955 году.','Код, таблицы с цифрами, технический и «бортовой» стиль, подписи.','Длинный текст: строка получается неровной по плотности, узкие и широкие буквы занимают одинаковое место.'],
  'vf':['Технологию вариативных шрифтов (OpenType Font Variations) представили в 2016 году Adobe, Apple, Google и Microsoft. Один файл содержит любую толщину, а иногда и ширину с наклоном.','Сайты, анимация, адаптивные макеты, моушн с плавной сменой толщины.','Старые версии программ и некоторые конструкторы сайтов оси не понимают.'],
  'it':['Курсив придумали в Венеции: в 1501 году печатник Альд Мануций и резчик Франческо Гриффо выпустили книгу, набранную наклонным шрифтом, чтобы уместить больше текста. Позже курсив стал способом выделения.','Выделения в тексте, цитаты, подписи, элегантные заголовки.','Целые абзацы курсивом читать труднее, чем прямым.']};
-function bayInfoHTML(){const k=FLT.vf?'vf':FLT.it?'it':CATSEL;const x=BAYINFO[k];if(!x)return'';const b=BAYS.find(b=>b.k===k);
+function bayInfoHTML(){return '';const k=FLT.vf?'vf':FLT.it?'it':CATSEL;const x=BAYINFO[k];if(!x)return'';const b=BAYS.find(b=>b.k===k);
  return `<div class="binfo" style="--bg:${b.bg};--fg:${b.fg}"><div class="bi-h"><span class="mono">СПРАВКА · ОТСЕК «${b.n.toUpperCase()}»</span></div><p class="bi-t">${x[0]}</p><div class="bi-c"><div><span class="mono">ПОДХОДИТ</span><p>${x[1]}</p></div><div><span class="mono">СЛОЖНО</span><p>${x[2]}</p></div></div></div>`}
 function baysInit(){clearInterval(BAYT);const els=[...document.querySelectorAll('.bay')];if(!els.length)return;
  const st=els.map((el,i)=>({el,b:BAYS[+el.dataset.bay],pool:bayPool(BAYS[+el.dataset.bay]),i:Math.floor(dayRand('bay'+i)*5),hov:false,t:0}));
@@ -927,7 +1027,8 @@ function fontPage(f){
  <div class="tags" style="margin-bottom:22px"><span class="tag ok">● Можно для клиента</span>${vf?'<span class="tag">Вариативный</span>':''}${f[6]?'<span class="tag">Есть курсив</span>':''}<span class="tag">${f[5]} ${plural(f[5])}</span><span class="tag">Кириллица</span></div>
  <div class="two"><div><div style="font-family:${fam(f)};font-weight:${baseW(f)};font-size:44px;line-height:1.15"><span class="typing" style="--n:${(PHRASE||DEF).length}">${esc(PHRASE||DEF)}</span></div>
  <div class="cur crop"><div class="av" aria-hidden="true">АС</div><div><div class="who">Выбор куратора · Александр Сучков, основатель школы</div><div class="tx">[Заметка куратора: зачем этот шрифт в базе и как его не испортить. 1–2 фразы.]</div></div></div></div>
- <table class="spec"><tr><td>Тип</td><td>${f[1]}</td></tr><tr><td>Начертания</td><td>${f[5]}${vf?`, ${f[3]}–${f[4]}`:''}</td></tr><tr><td>Вариативный</td><td>${vf?'да, ось веса':'нет'}</td></tr><tr><td>Курсив</td><td>${f[6]?'есть':'нет'}</td></tr><tr><td>Кириллица</td><td>есть</td></tr><tr><td>Лицензия</td><td>SIL OFL 1.1</td></tr><tr><td>Источник</td><td><a href="${gl}" target="_blank" rel="noopener" style="text-decoration:underline">Google Fonts</a></td></tr></table></div></section>
+ <table class="spec"><tr><td>Тип</td><td>${f[1]}</td></tr><tr><td>Начертания</td><td>${f[5]}${vf?`, ${f[3]}–${f[4]}`:''}</td></tr><tr><td>Вариативный</td><td>${vf?'да, ось веса':'нет'}</td></tr><tr><td>Курсив</td><td>${f[6]?'есть':'нет'}</td></tr><tr><td>Кириллица</td><td>есть</td></tr><tr><td>Лицензия</td><td>SIL OFL 1.1</td></tr><tr><td>Источник</td><td><a href="${gl}" target="_blank" rel="noopener" style="text-decoration:underline">Google Fonts</a></td></tr></table></div>
+ ${histHTML(f)}</section>
  <section class="sec" id="s02"><div class="sh"><h2><span>02</span>Начертания</h2><small>строки можно править</small></div>
  <div class="wgrid" ${vf?'':'style="grid-template-columns:1fr"'}><div>${ws.map(w=>`<div class="wl"><span>${w[0]} · ${w[1]}</span><div contenteditable="true" spellcheck="false" style="font-family:${fam(f)};font-weight:${w[0]}">${esc(PHRASE||DEF)}</div></div>`).join('')}</div>
  ${vf?`<div class="live"><div style="display:flex;justify-content:space-between" class="mono"><small style="color:#A5A09B">живой вес</small><small style="color:#A5A09B">${f[3]} ↔ ${f[4]}</small></div><div class="w" style="font-family:${fam(f)};--lo:${f[3]};--hi:${f[4]}">${[...'Борт'].map((c,i)=>`<span class="wv" style="animation-delay:${(i*.12).toFixed(2)}s">${c}</span>`).join('')}</div></div>`:''}</div></section>
