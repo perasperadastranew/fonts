@@ -48,6 +48,19 @@ const loaded={};function face(c,f){const k=c.slug+'/'+f;if(!loaded[k]){const n='
 let PH=localStorage.getItem('pa_ph')||'Курс проложен, экипаж на борту';
 const styleName=f=>f.replace(/\.(ttf|otf)$/i,'').replace(/[-_]/g,' ').replace(/\s+/g,' ').trim();
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);const c=CAT.find(x=>x.slug===el.dataset.s);face(c,el.dataset.f||pick(c)).then(n=>el.style.fontFamily=`'${n}',serif`).catch(()=>{})}),{rootMargin:'300px'});
+const CRC=(()=>{const t=new Uint32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return b=>{let c=0xFFFFFFFF;for(let i=0;i<b.length;i++)c=t[(c^b[i])&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0}})();
+function zip(files){const enc=new TextEncoder();const parts=[],cd=[];let off=0;
+ for(const [name,data] of files){const nb=enc.encode(name),crc=CRC(data),sz=data.length;
+  const h=new DataView(new ArrayBuffer(30));h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,0x0800,true);h.setUint32(14,crc,true);h.setUint32(18,sz,true);h.setUint32(22,sz,true);h.setUint16(26,nb.length,true);
+  parts.push(new Uint8Array(h.buffer),nb,data);
+  const c=new DataView(new ArrayBuffer(46));c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);c.setUint16(6,20,true);c.setUint16(8,0x0800,true);c.setUint32(16,crc,true);c.setUint32(20,sz,true);c.setUint32(24,sz,true);c.setUint16(28,nb.length,true);c.setUint32(42,off,true);
+  cd.push(new Uint8Array(c.buffer),nb);off+=30+nb.length+sz}
+ const cdl=cd.reduce((s,x)=>s+x.length,0);const e=new DataView(new ArrayBuffer(22));e.setUint32(0,0x06054b50,true);e.setUint16(8,files.length,true);e.setUint16(10,files.length,true);e.setUint32(12,cdl,true);e.setUint32(16,off,true);
+ return new Blob([...parts,...cd,new Uint8Array(e.buffer)],{type:'application/zip'})}
+async function dlFont(c,btn){const old=btn.textContent;btn.textContent='Собираю…';try{
+ const names=[...c.files,...c.license_files,'SOURCE.txt'];const out=[];
+ for(const f of names){const r=await fetch(url(c,f));if(r.ok)out.push([c.slug+'/'+f,new Uint8Array(await r.arrayBuffer())])}
+ const a=document.createElement('a');a.href=URL.createObjectURL(zip(out));a.download=c.slug+'.zip';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},4000);btn.textContent='Готово ✓'}catch(e){btn.textContent='Не вышло, попробуйте ещё'}setTimeout(()=>btn.textContent=old,2500)}
 function list(){
  app.innerHTML=`<div class="mono">Perasperadastra · бортовая библиотека</div><h1>Бесплатные шрифты <span>с кириллицей</span></h1>
  <p style="max-width:640px;color:var(--mut)">${CAT.length} шрифтов. Файлы взяты у авторов, лицензии проверены. Все шрифты можно использовать в проектах для клиентов.</p>
@@ -69,7 +82,7 @@ function page(c){
  app.innerHTML=`<a class="back" href="#/">← Все шрифты</a>
  <div class="fhead"><div><div class="mono">${esc(c.class||'шрифт')} · ${c.styles} ${c.styles===1?'начертание':'начертаний'}${c.variable?' · вариативный':''}</div><h1 class="fname" data-s="${c.slug}">${esc(c.name)}</h1></div>
  <div class="facts"><div class="row"><span>Автор</span><span>${esc(c.author||'—')}</span></div><div class="row"><span>Лицензия</span><span>${esc(c.license)}</span></div><div class="row"><span>Кириллица</span><span>${c.cyrillic.includes('ua')?'русский и украинский':'русский'}</span></div><div class="row"><span>Источник</span><span>${c.source&&c.source.startsWith('http')?`<a href="${esc(c.source)}" target="_blank" rel="noopener">${esc(c.source.split('/')[2])}</a>`:'—'}</span></div>
- <div style="display:flex;gap:6px;flex-wrap:wrap"><a class="btn" href="https://github.com/perasperadastranew/fonts/tree/main/fonts/${c.slug}" target="_blank" rel="noopener">Файлы на GitHub</a></div></div></div>
+ <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn dark" id="dlz" type="button">Скачать шрифт (.zip)</button><a class="btn" href="https://github.com/perasperadastranew/fonts/tree/main/fonts/${c.slug}" target="_blank" rel="noopener">Файлы на GitHub</a></div></div></div>
  <div class="sec"><span class="mono">01</span><h2>Тестер</h2></div>
  <div class="panel tester"><div class="tctl"><select id="tf" aria-label="Начертание">${files.map(f=>`<option value="${esc(f)}">${esc(styleName(f))}</option>`).join('')}</select><label class="mono">Размер <input id="ts" type="range" min="16" max="160" value="64" aria-label="Размер"></label></div><textarea id="tt" aria-label="Текст">${esc(PH)}</textarea></div>
  <div class="sec"><span class="mono">02</span><h2>Начертания</h2></div>
@@ -80,7 +93,7 @@ function page(c){
  <div class="lic"><div class="panel"><span class="tag">${esc(c.license)}</span>${/OFL|Apache|MIT|CC0/.test(c.license)?'<p><b>Можно в любых проектах</b>, в том числе для клиентов и в коммерции. Нельзя продавать сам шрифт.</p>':'<p><b>Можно в проектах</b> с указанием автора и лицензии.</p>'}${c.copyright?`<p class="mono" style="text-transform:none">${esc(c.copyright)}</p>`:''}<p>${c.license_files.map(f=>`<a href="fonts/${c.slug}/${encodeURIComponent(f)}" target="_blank">${esc(f)}</a>`).join(' · ')}</p></div>
  <div class="panel"><p><b>Mac:</b> открой файл .ttf или .otf и нажми «Установить».</p><p><b>Windows:</b> правый клик по файлу → «Установить для всех пользователей».</p><p><b>Figma:</b> после установки перезапусти приложение.</p></div></div>
  ${sim.length?`<div class="sec"><span class="mono">05</span><h2>Ещё посмотреть</h2></div><div class="grid">${sim.map(x=>`<a class="c" href="#/font/${x.slug}"><div class="pv" data-s="${x.slug}">${esc(PH)}</div><div class="meta"><div><b>${esc(x.name)}</b><small>${esc(x.author)}</small></div><span class="btn">→</span></div></a>`).join('')}</div>`:''}`;
- document.title=c.name+' — шрифты Perasperadastra';scrollTo(0,0);
+ document.title=c.name+' — шрифты Perasperadastra';$('#dlz').onclick=e=>dlFont(c,e.target);scrollTo(0,0);
  face(c,pick(c)).then(n=>{document.querySelectorAll(`.fname,.abc`).forEach(e=>e.style.fontFamily=`'${n}',serif`)});
  document.querySelectorAll('.style .s,.grid .pv').forEach(e=>io.observe(e));
  const tt=$('#tt'),tf=$('#tf'),ts=$('#ts');const ap=()=>face(c,tf.value).then(n=>tt.style.fontFamily=`'${n}',serif`);ap();tf.onchange=ap;
