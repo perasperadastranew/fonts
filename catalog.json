@@ -8854,6 +8854,85 @@
   "copyright": "Copyright (c) 2020. Vesko Radic"
  },
  {
+  "name": "Tilda Sans",
+  "slug": "tilda-sans",
+  "author": "ParaType для Tilda Publishing",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 7,
+  "faces": [
+   [
+    "TildaSans-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "TildaSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "TildaSans-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "TildaSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "TildaSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "TildaSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "TildaSans-Semibold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "TildaSans-Black.ttf",
+   "TildaSans-Bold.ttf",
+   "TildaSans-ExtraBold.ttf",
+   "TildaSans-Light.ttf",
+   "TildaSans-Medium.ttf",
+   "TildaSans-Regular.ttf",
+   "TildaSans-Semibold.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://static.tildacdn.com/downloads/TildaSans/TildaSans.07TTF.zip",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2021 ParaType Ltd. All rights reserved."
+ },
+ {
   "name": "Tiny5 Duo",
   "slug": "tiny5-duo",
   "author": "Stefan Schmidt; Stefan Schmidt Art",
