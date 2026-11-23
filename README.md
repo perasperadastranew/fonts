@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 249 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 252 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -247,6 +247,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Tiny5 Duo | Stefan Schmidt; Stefan Schmidt Art | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/tiny5duo) |
 | Trigram | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | TriodPostnaja | Daniel Johnson | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/ru/font/triod-postnaja) |
+| TT2020 Base | Fredrick Brennan | SIL OFL 1.1 | 2 | [github.com](https://github.com/ctrlcctrlv/TT2020) |
 | TT2020 Style E | Fredrick Brennan | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/tt2020-style-e) |
 | Unsightly | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/unsightly-font) |
 | Unutterable | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -278,4 +279,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | ZnikomitNo25 | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/znikomitno25.font) |
 | Зарровв (Xarrovv) | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Xarrovv/Xarrovv.otf) |
 | Крамола (Kramola) | Алексей Меднов | CC0 / Public Domain | 1 | [www.dafont.com](https://www.dafont.com/kramola.font) |
+| Мономах (Monomakh Unicode) | Александр Андреев, Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/fonts-cu-legacy) |
+| Пономарь (Ponomar Unicode) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Ponomar) |
 | Сёнэн (Shonen) | Намик Мардахаев aka Намикус | SIL OFL 1.1 | 4 | [disk.yandex.ru](https://disk.yandex.ru/d/kXQNv8W06rYbJQ) |

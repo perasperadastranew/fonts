@@ -9045,6 +9045,44 @@
   "copyright": "Copyright (c) 2010, 2011, 2013 by Daniel Johnson. Licensed under the terms of the SIL Open Font License."
  },
  {
+  "name": "TT2020 Base",
+  "slug": "tt2020-base",
+  "author": "Fredrick Brennan",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "TT2020Base-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "TT2020Base-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TT2020Base-Italic.ttf",
+   "TT2020Base-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/ctrlcctrlv/TT2020",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2019-2020, Fredrick R. Brennan, <copypaste@kittens.ph>\n\nThis Font Software is licensed under the SIL Open "
+ },
+ {
   "name": "TT2020 Style E",
   "slug": "tt2020-style-e",
   "author": "Fredrick Brennan",
@@ -10291,6 +10329,68 @@
   "cyrillic": "ru+ua",
   "copyright": "",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Мономах (Monomakh Unicode)",
+  "slug": "monomakh-unicode",
+  "author": "Александр Андреев, Ponomar Project",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "MonomakhUnicode.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "MonomakhUnicode.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/slavonic/fonts-cu-legacy",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2016 Aleksandr Andreev.\n\nThis font is part of the Ponomar Project Slavonic Computing Initiative. See http://ww"
+ },
+ {
+  "name": "Пономарь (Ponomar Unicode)",
+  "slug": "ponomar-unicode",
+  "author": "Ponomar Project",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Ponomar-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Ponomar-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/slavonic/Ponomar",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2025 The Ponomar Project Authors (https://github.com/slavonic/ponomar)"
  },
  {
   "name": "Сёнэн (Shonen)",
