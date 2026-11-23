@@ -740,6 +740,45 @@
   "copyright": "Copyright (c) 2004, 2005 Tristan Grimmer\nCopyright (c) 2014 Manchson\n \nPermission is hereby granted, free of charge, to "
  },
  {
+  "name": "Bedstead",
+  "slug": "bedstead",
+  "author": "Ben Harris",
+  "class": "Моноширинный",
+  "license": "CC0 / Public Domain",
+  "styles": 2,
+  "faces": [
+   [
+    "bedstead-bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "bedstead.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500,
+   700
+  ],
+  "files": [
+   "bedstead-bold.otf",
+   "bedstead.otf"
+  ],
+  "license_files": [
+   "LICENSE-CC0.txt"
+  ],
+  "source": "https://bjh21.me.uk/bedstead/",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "Benori",
   "slug": "benori",
   "author": "GGBot",

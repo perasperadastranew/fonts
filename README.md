@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 255 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 256 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -48,6 +48,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Balhattan | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/balhattan-font) |
 | Banana Brick | artmaker | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/banana-brick) |
 | Basis33 | Manchson | MIT / X11 | 1 | [www.dafont.com](https://www.dafont.com/basis33.font) |
+| Bedstead | Ben Harris | CC0 / Public Domain | 2 | [bjh21.me.uk](https://bjh21.me.uk/bedstead/) |
 | Benori | GGBot | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/benori-font) |
 | Better VCR | artdzyk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/better-vcr.font) |
 | Bewlay BR1 | JORN.SB; JORN.SB, Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/bewlay-br1-cyrillic.otf) |
