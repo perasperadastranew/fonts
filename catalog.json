@@ -9197,6 +9197,45 @@
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Vis-A-Vis",
+  "slug": "vis-a-vis",
+  "author": "Peter Wiegel",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "Vis-A-Vis-bold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Vis-A-Vis.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   800
+  ],
+  "files": [
+   "Vis-A-Vis-bold.ttf",
+   "Vis-A-Vis.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "http://www.peter-wiegel.de/Vis-A-Vis.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2010 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
   "name": "Vollda Bold",
   "slug": "vollda-bold",
   "author": "Алексей Бурба",
