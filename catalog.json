@@ -4580,6 +4580,58 @@
   "copyright": "Copyright (c) 2011-2015 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Lato\". Licensed "
  },
  {
+  "name": "LCD 14",
+  "slug": "lcd-14",
+  "author": "Fredrick Brennan",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "LCD14.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "LCD14Condensed.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "LCD14Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "LCD14ItalicCondensed.otf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "LCD14.otf",
+   "LCD14Condensed.otf",
+   "LCD14Italic.otf",
+   "LCD14ItalicCondensed.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/ctrlcctrlv/lcd-font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2015 Fredrick Brennan <copypaste@kittens.ph>\n\nLicensed under the SIL OFL 1.1 <http://scripts.sil.org/OFL>"
+ },
+ {
   "name": "Leporid",
   "slug": "leporid",
   "author": "GGBotNet",
@@ -4661,6 +4713,64 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright GGBotNet 2025"
+ },
+ {
+  "name": "LINE Seed JP",
+  "slug": "line-seed-jp",
+  "author": "LY Corporation & Fontrix & Fontworks",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "LINESeedJP-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "LINESeedJP-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "LINESeedJP-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "LINESeedJP-Thin.otf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   400,
+   700,
+   800
+  ],
+  "files": [
+   "LINESeedJP-Bold.otf",
+   "LINESeedJP-ExtraBold.otf",
+   "LINESeedJP-Regular.otf",
+   "LINESeedJP-Thin.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/line/seed",
+  "expert": {
+   "v": "avoid",
+   "url": "https://type.today/ru/journal/geo2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "© LY Corporation"
  },
  {
   "name": "Linerama",
@@ -5215,6 +5325,118 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Monocraft",
+  "slug": "monocraft",
+  "author": "Idrees Hassan",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 12,
+  "faces": [
+   [
+    "Monocraft-Black-Italic.otf",
+    900,
+    900,
+    true
+   ],
+   [
+    "Monocraft-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Monocraft-Bold-Italic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Monocraft-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Monocraft-ExtraLight-Italic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "Monocraft-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Monocraft-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Monocraft-Light-Italic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "Monocraft-Light.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Monocraft-SemiBold-Italic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "Monocraft-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Monocraft.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   200,
+   400,
+   600,
+   700,
+   900
+  ],
+  "files": [
+   "Monocraft-Black-Italic.otf",
+   "Monocraft-Black.otf",
+   "Monocraft-Bold-Italic.otf",
+   "Monocraft-Bold.otf",
+   "Monocraft-ExtraLight-Italic.otf",
+   "Monocraft-ExtraLight.otf",
+   "Monocraft-Italic.otf",
+   "Monocraft-Light-Italic.otf",
+   "Monocraft-Light.otf",
+   "Monocraft-SemiBold-Italic.otf",
+   "Monocraft-SemiBold.otf",
+   "Monocraft.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/IdreesInc/Monocraft",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Idrees Hassan, https://github.com/IdreesInc/Monocraft"
  },
  {
   "name": "Monoid 2.0",

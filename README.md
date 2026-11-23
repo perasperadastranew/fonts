@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 240 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 243 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -138,8 +138,10 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Lambda | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Lanze | Дима Гренев, Родион Илюхин | SIL OFL 1.1 | 5 | [github.com](https://github.com/dimgrenev/lanze/releases/download/v0.1/Lanze-v0.1.zip) |
 | Lato | Łukasz Dziedzic | SIL OFL 1.1 | 18 | [github.com](https://github.com/google/fonts/tree/main/ofl/lato) |
+| LCD 14 | Fredrick Brennan | SIL OFL 1.1 | 4 | [github.com](https://github.com/ctrlcctrlv/lcd-font) |
 | Leporid | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Liber Struct | GGBotNet; https://fontstruct.com | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| LINE Seed JP | LY Corporation & Fontrix & Fontworks | SIL OFL 1.1 | 4 | [github.com](https://github.com/line/seed) |
 | Linerama | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Lorenzo Sans | Intel Corp. | Apache 2.0 | 6 | [fontlibrary.org](https://fontlibrary.org/en/font/lorenzo-sans) |
 | LT Superior | Daniel Lyons; LyonsType | SIL OFL 1.1 | 18 | [www.dafont.com](https://www.dafont.com/lt-superior.font) |
@@ -151,6 +153,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Miama Nueva | Linus Romer | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/miama-nueva) |
 | Miracode | Idrees Hassan | SIL OFL 1.1 | 1 | — |
 | Mister Brush | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Monocraft | Idrees Hassan | SIL OFL 1.1 | 12 | [github.com](https://github.com/IdreesInc/Monocraft) |
 | Monoid 2.0 | Andreas Larsen | SIL OFL 1.1 | 3 | [github.com](https://github.com/larsenwork/monoid) |
 | Morana | Vesko Radic | SIL OFL 1.1 | 1 | [github.com](https://github.com/VeskoRadic/morana-font) |
 | Murs Gothic Wide Dark | Максим Кобузан | SIL OFL 1.1 | 1 | [www.behance.net](https://www.behance.net/gallery/200845737/MURS-GOTHIC-Free-Font-Latin-Cyrillic) |
