@@ -1,0 +1,4 @@
+Шрифт: Marmelad
+Скачано: 2026-11-23 с https://github.com/google/fonts/tree/main/ofl/marmelad (официальная раздача Google Fonts)
+Автор: Cyreal, Manvel Shmavonyan
+Лицензия: SIL OFL 1.1

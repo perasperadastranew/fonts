@@ -1,0 +1,4 @@
+Шрифт: Overpass Mono
+Скачано: 2026-11-23 с https://github.com/google/fonts/tree/main/ofl/overpassmono (официальная раздача Google Fonts)
+Автор: Delve Withrington, Dave Bailey, Thomas Jockin
+Лицензия: SIL OFL 1.1

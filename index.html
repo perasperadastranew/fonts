@@ -43,6 +43,8 @@ const $=s=>document.querySelector(s);const app=$('#app');let CAT=[],ORDER=[];
 const RAW='https://raw.githubusercontent.com/perasperadastranew/fonts/main/';
 const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
 const pick=c=>c.files.find(f=>/regular|book|normal/i.test(f)&&!/italic|oblique/i.test(f))||c.files.find(f=>!/italic|oblique/i.test(f))||c.files[0];
+const EXV={ok:['Эксперты рекомендуют','#DFF3E4'],caution:['Эксперты: с оговорками','#FFF1D6'],avoid:['Эксперты: кириллица слабая','#FBE0DC']};
+const exTag=c=>c.expert?`<span class="tag" style="background:${EXV[c.expert.v][1]}">${EXV[c.expert.v][0]}</span>`:'';
 const url=(c,f)=>`fonts/${c.slug}/${encodeURIComponent(f)}`;
 const loaded={};function face(c,f){const k=c.slug+'/'+f;if(!loaded[k]){const n='pa'+Object.keys(loaded).length;const ff=new FontFace(n,`url("${url(c,f)}")`);loaded[k]=ff.load().then(x=>{document.fonts.add(x);return n})}return loaded[k]}
 let PH=localStorage.getItem('pa_ph')||'Курс проложен, экипаж на борту';
@@ -69,7 +71,7 @@ function list(){
  <footer>Шрифты распространяются на условиях авторов: текст лицензии лежит в папке каждого шрифта. Исходники: <a href="https://github.com/perasperadastranew/fonts">github.com/perasperadastranew/fonts</a>. Если вы автор и хотите что-то исправить, напишите в Telegram <a href="https://t.me/perasperaschool">@perasperaschool</a>.</footer>`;
  const draw=()=>{const q=$('#q').value.toLowerCase(),l=$('#lic').value;const g=$('#g');g.innerHTML='';
   ORDER.forEach(c=>{if(q&&!c.name.toLowerCase().includes(q))return;if(l&&c.license!==l)return;
-   const a=document.createElement('a');a.className='c';a.href='#/font/'+c.slug;a.innerHTML=`<div class="pv" data-s="${c.slug}">${esc(PH)}</div><div class="meta"><div><b>${esc(c.name)}</b><small>${esc(c.author)}</small><span class="tag">${esc(c.license)}</span></div><span class="btn">Открыть →</span></div>`;g.appendChild(a);io.observe(a.querySelector('.pv'))})};
+   const a=document.createElement('a');a.className='c';a.href='#/font/'+c.slug;a.innerHTML=`<div class="pv" data-s="${c.slug}">${esc(PH)}</div><div class="meta"><div><b>${esc(c.name)}</b><small>${esc(c.author)}</small><span class="tag">${esc(c.license)}</span>${exTag(c)}</div><span class="btn">Открыть →</span></div>`;g.appendChild(a);io.observe(a.querySelector('.pv'))})};
  draw();$('#q').oninput=draw;$('#lic').onchange=draw;
  $('#ph').oninput=e=>{PH=e.target.value||'Курс проложен';localStorage.setItem('pa_ph',PH);document.querySelectorAll('.pv').forEach(x=>x.textContent=PH)};
  $('#sz').oninput=e=>document.documentElement.style.setProperty('--sz',e.target.value+'px');
@@ -81,7 +83,7 @@ function page(c){
  const sim=CAT.filter(x=>x!==c&&(c.class?x.class===c.class:x.license===c.license)).sort(()=>Math.random()-.5).slice(0,4);
  app.innerHTML=`<a class="back" href="#/">← Все шрифты</a>
  <div class="fhead"><div><div class="mono">${esc(c.class||'шрифт')} · ${c.styles} ${c.styles===1?'начертание':'начертаний'}${c.variable?' · вариативный':''}</div><h1 class="fname" data-s="${c.slug}">${esc(c.name)}</h1></div>
- <div class="facts"><div class="row"><span>Автор</span><span>${esc(c.author||'—')}</span></div><div class="row"><span>Лицензия</span><span>${esc(c.license)}</span></div><div class="row"><span>Кириллица</span><span>${c.cyrillic.includes('ua')?'русский и украинский':'русский'}</span></div><div class="row"><span>Источник</span><span>${c.source&&c.source.startsWith('http')?`<a href="${esc(c.source)}" target="_blank" rel="noopener">${esc(c.source.split('/')[2])}</a>`:'—'}</span></div>
+ <div class="facts"><div class="row"><span>Автор</span><span>${esc(c.author||'—')}</span></div><div class="row"><span>Лицензия</span><span>${esc(c.license)}</span></div>${c.expert?`<div class="row"><span>Оценка кириллицы</span><span><a href="${esc(c.expert.url)}" target="_blank" rel="noopener">${EXV[c.expert.v][0].replace('Эксперты: ','').replace('Эксперты ','')} · type.today</a></span></div>`:''}<div class="row"><span>Кириллица</span><span>${c.cyrillic.includes('ua')?'русский и украинский':'русский'}</span></div><div class="row"><span>Источник</span><span>${c.source&&c.source.startsWith('http')?`<a href="${esc(c.source)}" target="_blank" rel="noopener">${esc(c.source.split('/')[2])}</a>`:'—'}</span></div>
  <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn dark" id="dlz" type="button">Скачать шрифт (.zip)</button><a class="btn" href="https://github.com/perasperadastranew/fonts/tree/main/fonts/${c.slug}" target="_blank" rel="noopener">Файлы на GitHub</a></div></div></div>
  <div class="sec"><span class="mono">01</span><h2>Тестер</h2></div>
  <div class="panel tester"><div class="tctl"><select id="tf" aria-label="Начертание">${files.map(f=>`<option value="${esc(f)}">${esc(styleName(f))}</option>`).join('')}</select><label class="mono">Размер <input id="ts" type="range" min="16" max="160" value="64" aria-label="Размер"></label></div><textarea id="tt" aria-label="Текст">${esc(PH)}</textarea></div>

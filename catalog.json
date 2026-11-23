@@ -22,6 +22,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2024 GGBotNet. All Rights Reserved."
  },
@@ -47,6 +48,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.dafont.com/5by7.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2013 by Peter Wiegel. All rights reserved."
  },
@@ -88,8 +90,33 @@
    "OFL.TXT"
   ],
   "source": "https://github.com/StefanPeev/acari-sans/releases/download/AcariSans_v.1.078/AcariSans_v.1.078.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015, HK Grotesk Latin by Alfredo Marco Pradil (ammpradil@gmail.com) and HK Grotesk Cyrillic by Stefan Pee"
+ },
+ {
+  "name": "Advent Pro",
+  "slug": "advent-pro",
+  "author": "VivaRado, Andreas Kalpakidis",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "AdventPro-Italic[wdth,wght].ttf",
+   "AdventPro[wdth,wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/adventpro",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2018 The Advent Pro Project Authors (https://github.com/googlefonts/Advent)"
  },
  {
   "name": "Ambidexter Regular",
@@ -111,6 +138,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/egaindahouse/Ambidexter",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright © 2021, Egor Belozerov. All rights reserved."
  },
@@ -134,6 +162,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/googlefonts/amstelvar-beta",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -156,6 +185,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/KonstatinKrastev/Anticva-Font",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2021, Konstantin Krastev"
  },
@@ -178,6 +208,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/aoudax-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright © 2020 William Zhang, © 2021 Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -201,6 +232,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/arco-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "© 2019, Rafael Olivo Díaz, Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -225,6 +257,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
@@ -247,6 +280,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/arturito.ttf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2019, Cristian Tournier \n(cristiantournier@gmail.com)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -271,6 +305,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -293,6 +328,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -316,6 +352,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2025 GGBotNet. All Rights Reserved."
  },
@@ -339,6 +376,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/balhattan-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -361,6 +399,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/font/banana-brick",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Banana Brick. Copyright (c) 2011 by artmaker. All rights reserved."
  },
@@ -383,6 +422,7 @@
    "LICENSE.txt"
   ],
   "source": "https://www.dafont.com/basis33.font",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2004, 2005 Tristan Grimmer\nCopyright (c) 2014 Manchson\n \nPermission is hereby granted, free of charge, to "
  },
@@ -405,6 +445,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/benori-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -427,6 +468,7 @@
    "OFL.txt"
   ],
   "source": "https://www.dafont.com/better-vcr.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "(c) artdzyk 2022-2025, Kanji from PAWFONT by Pau (Yasuaki Ohno)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -450,6 +492,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/bewlay-br1-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright © 2019 by JORN.SB, Copyright © 2019 Cyrillic set by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -473,6 +516,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/bezmiar-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2025, Adam Falkowski OHWOW Design Co. (halo@ohwow.pl), (c) 2025 Cyrillic set by Denis Ignatov.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -497,6 +541,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -520,6 +565,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -543,6 +589,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
@@ -565,6 +612,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/bondi.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright © 2018 by Alejo Bergmann, Copyright © 2019 Cyrillic set by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -589,6 +637,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -611,6 +660,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/caesar-dressing-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Caesar Dressing\", (c) 2020 by Denis",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -634,8 +684,57 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/cairopixel-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2025 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Cascadia Code",
+  "slug": "cascadia-code",
+  "author": "Aaron Bell; Saja Typeworks",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "CascadiaCode-Italic[wght].ttf",
+   "CascadiaCode[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/cascadiacode",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "© 2021 Microsoft Corporation. All Rights Reserved."
+ },
+ {
+  "name": "Cascadia Mono",
+  "slug": "cascadia-mono",
+  "author": "Aaron Bell; Saja Typeworks",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "CascadiaMono-Italic[wght].ttf",
+   "CascadiaMono[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/cascadiamono",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "© 2021 Microsoft Corporation. All Rights Reserved."
  },
  {
   "name": "Caskaydia Cove",
@@ -668,6 +767,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/eliheuer/caskaydia-cove",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2020 The Caskaydia Cove Project Authors (https://github.com/eliheuer/caskaydia-cove)"
  },
@@ -693,6 +793,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/CATDyFa.zip",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2016 by Peter Wiegel. All rights reserved."
  },
@@ -716,6 +817,7 @@
    "OFL.txt"
   ],
   "source": "https://www.dafont.com/cat-hohenzollern.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2014 by Peter Wiegel. All rights reserved."
  },
@@ -739,6 +841,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.dafont.com/cat-linz.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
@@ -761,6 +864,7 @@
    "LICENSE-MIT.txt"
   ],
   "source": "https://github.com/em-777/classic-console-neue",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Classic Console Neue © DeeJayy. 2011-2021. All Rights Reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -795,6 +899,7 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/intel/clear-sans",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Font software Copyright © 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org"
  },
@@ -817,6 +922,7 @@
    "SIL-OFL-Clickuper.pdf"
   ],
   "source": "https://mutno.me/fonts/files/clickuper.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2020, Denis Ignatov \n(denis@mutno.me)"
  },
@@ -842,6 +948,7 @@
    "OFL.txt"
   ],
   "source": "https://www.dafont.com/code-new-roman.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2014 Sam Radian. All Rights Reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -865,6 +972,7 @@
    "SIL-OFL-Colatemta.pdf"
   ],
   "source": "https://mutno.me/fonts/files/colatemta.zip",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2020, Denis Ignatov (denis@mutno.me)"
  },
@@ -887,8 +995,36 @@
    "SIL Open Font License.txt"
   ],
   "source": "https://www.dafont.com/constantine.font",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright © 2014 Dukom Design (www.dukom.org), with Reserved Font Name “Constantine”"
+ },
+ {
+  "name": "Cormorant Infant",
+  "slug": "cormorant-infant",
+  "author": "Catharsis Fonts; Christian Thalmann (Catharsis Fonts)",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   300
+  ],
+  "files": [
+   "CormorantInfant-Italic[wght].ttf",
+   "CormorantInfant[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/cormorantinfant",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/old-style"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2015 The Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)"
  },
  {
   "name": "Correction Brush",
@@ -910,6 +1046,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -933,6 +1070,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -955,6 +1093,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/creepster-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011, Font Diner, Inc (diner@fontdiner.com), with Reserved Font Names \"Creepster\". (c) 2022, Cyrillic set ",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -978,6 +1117,7 @@
    "SIL-OFL-Crosterian.pdf"
   ],
   "source": "https://mutno.me/fonts/files/crosterian.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2020, Denis Ignatov \n(denis@mutno.me)"
  },
@@ -1004,6 +1144,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/datcub-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
@@ -1033,8 +1174,32 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Days One",
+  "slug": "days-one",
+  "author": "Alexander Kalachev, Alexey Maslov, Jovanny Lemonad",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "DaysOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/daysone",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad. All rights reserved."
  },
  {
   "name": "Digit Tech",
@@ -1062,6 +1227,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/digit-tech-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -1084,6 +1250,7 @@
    "OFL.txt"
   ],
   "source": "https://dimka.com/fonts/Dimica/Dimica-Light.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Dimka Fonts",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1108,6 +1275,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -1131,6 +1299,7 @@
    "License.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
@@ -1156,8 +1325,36 @@
    "OFL.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/EuroScript.zip",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2017 by Catfonts, Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "Exo 2",
+  "slug": "exo-2",
+  "author": "Natanael Gama",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Exo2-Italic[wght].ttf",
+   "Exo2[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/exo2",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/humanist"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2013 The Exo 2 Project Authors (https://github.com/googlefonts/Exo-2.0)"
  },
  {
   "name": "Fairfax",
@@ -1192,6 +1389,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/kreativekorp/open-relay/releases/download/2026-09-21/Fairfax.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2008-2026 Kreative Software"
  },
@@ -1218,6 +1416,7 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/belluzj/fantasque-sans",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)"
  },
@@ -1240,6 +1439,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/fascinate-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "(c) 2011 by Brian J. Bonislawsky. (c) 2018 by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1266,8 +1466,78 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
+ },
+ {
+  "name": "Flow Block",
+  "slug": "flow-block",
+  "author": "Dan Ross",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "FlowBlock-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/flowblock",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)"
+ },
+ {
+  "name": "Flow Circular",
+  "slug": "flow-circular",
+  "author": "Dan Ross",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "FlowCircular-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/flowcircular",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)"
+ },
+ {
+  "name": "Flow Rounded",
+  "slug": "flow-rounded",
+  "author": "Dan Ross",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "FlowRounded-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/flowrounded",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)"
  },
  {
   "name": "Foo",
@@ -1288,6 +1558,7 @@
    "LICENSE-CC0.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Released in 2024 under CC0 license. No rights reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1327,6 +1598,7 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/AlloyDome/Funever-Sans",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright © AlloyDome. 2023. All Rights Reserved"
  },
@@ -1349,6 +1621,7 @@
    "LICENSE-CC-BY-SA.txt"
   ],
   "source": "https://mutno.me/fonts/files/futurespore-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "© 2004 Andrew Young, disasterfonts.co.uk; © 2020 Denis Ignatov, https://mutno.me/fonts",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1376,6 +1649,7 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/dbenjaminmiller/garamond-libre",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "(c) 2019 D. Benjamin Miller; available under the X11 license\nBased on Unicode Fonts for Ancient Scripts; George Douros; "
  },
@@ -1401,6 +1675,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -1423,6 +1698,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/gochi-hand-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar); (c) 2018, Denis Ignatov (mutno.me/fonts)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1446,6 +1722,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/gogono-cocoa-mochi-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Goma Shin, Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1470,6 +1747,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/googee.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2018 by CATFonts Peter Wiegel. All rights reserved."
  },
@@ -1492,6 +1770,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -1514,6 +1793,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/gugi-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2017 by TAE System & Typefaces Co.. All rights reserved. Copyright (c) 2020, Cyrillic set by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1537,6 +1817,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/collectivetypeworks/Guidy/releases/download/Typeface/Guidy-1.1.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "made by @CollectiveTypeworks",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1564,6 +1845,7 @@
    "LICENSE.md"
   ],
   "source": "https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2018 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved."
  },
@@ -1586,6 +1868,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/harpseal.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "(c) 2018 Denis Ignatov (https://mutno.me/fonts)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1610,6 +1893,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/Helvetia.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2010 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
@@ -1637,6 +1921,7 @@
    "OFL.txt"
   ],
   "source": "https://ctan.org/pkg/heuristica",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 1989, 1991 Adobe Systems Incorporated.  All Rights Reserved. Utopia is either a registered trademark or tr"
  },
@@ -1659,6 +1944,7 @@
    "OFL.txt"
   ],
   "source": "https://dimka.com/fonts/HG2G/HG2G.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Dmitri Zdorov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1682,6 +1968,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/hi-melody-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "YoonDesign Inc., Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1707,6 +1994,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/home-video-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -1729,6 +2017,7 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/SiberiaHusky/Hooskai-Chamfered-Square",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Typeface © Fonttier. 2024. All Rights Reserved"
  },
@@ -1751,6 +2040,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/font/horta",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2016, Tim Larson.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1775,6 +2065,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -1809,6 +2100,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/StefanPeev/Involve",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Involve. Copyright (c) 2024 by Stefan Peev.\nEvolventa. Copyright (c) 2016 by Alex I. Kuznetsov.\nURW Gothic L. Copyright "
  },
@@ -1832,6 +2124,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/IsarCAT.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015 by CAT-Fonts, Peter Wiegel. All rights reserved."
  },
@@ -1854,6 +2147,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/ithaca-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "GGBotNet"
  },
@@ -1876,6 +2170,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/jolly-lodger-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2012 by Font Diner, Inc (diner@fontdiner.com) with Reseved Font Name \"Jolly Lodger\". Copyright (c) 2021 Cy",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -1903,6 +2198,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -1932,6 +2228,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/jupiteroid-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -1963,8 +2260,35 @@
    "SIL Open Font License.txt"
   ],
   "source": "https://www.dafont.com/just-breathe.font",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2015, Cannot Into Space Fonts, All Rights Reserved."
+ },
+ {
+  "name": "Kablammo",
+  "slug": "kablammo",
+  "author": "Travis Kochel, Lizy Gershenzon, Daria Petrova, Ethan Cohen; Vectro Type Foundry",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": true,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Kablammo[MORF].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/kablammo",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/display"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2023 The Kablammo Project Authors (https://github.com/Vectro-Type-Foundry/kablammo)"
  },
  {
   "name": "Kaiju Monster G Cyrillic",
@@ -1985,6 +2309,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/kaiju-monster-g-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Goma Shin, Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2009,6 +2334,7 @@
    "OFL.txt"
   ],
   "source": "https://www.dafont.com/kanalisirung.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2014 by Peter Wiegel. All rights reserved."
  },
@@ -2032,6 +2358,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
@@ -2054,6 +2381,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/en/font/kelvinch",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Paul James Miller, 2015.  All rights reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2077,6 +2405,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/ctrlcctrlv/kjv1611/releases/download/v3.6.1/KJV1611.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2018–2021 Fredrick R. Brennan <copypaste@kittens.ph>",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2100,6 +2429,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/kom-post.ttf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright © 2021 guaschetti, © 2021 Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2126,6 +2456,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2026 GGBotNet. All Rights Reserved."
  },
@@ -2149,6 +2480,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2025 GGBotNet. All Rights Reserved."
  },
@@ -2175,6 +2507,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/dimgrenev/lanze/releases/download/v0.1/Lanze-v0.1.zip",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Dmitry Grenev, Rodion Ilyukhin",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2223,6 +2556,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/lato",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2011-2015 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name \"Lato\". Licensed "
  },
@@ -2248,6 +2582,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -2270,6 +2605,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright GGBotNet 2025"
  },
@@ -2294,6 +2630,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
@@ -2323,6 +2660,7 @@
    "LICENSE-Apache-2.0.txt"
   ],
   "source": "https://fontlibrary.org/en/font/lorenzo-sans",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Font software Copyright © 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2371,6 +2709,7 @@
    "OFL.txt"
   ],
   "source": "https://www.dafont.com/lt-superior.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) LyonsType, 2023-2025. All rights reserved."
  },
@@ -2397,6 +2736,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/en/font/luculent",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2014-2015, Andrew Kensler (http://eastfarthing.com/luculent), with Reserved Font Name 'Luculent'.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2421,8 +2761,32 @@
    "License.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Marmelad",
+  "slug": "marmelad",
+  "author": "Cyreal; Manvel Shmavonyan",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Marmelad-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/marmelad",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2016 The Marmelad Project Authors (https://github.com/cyrealtype/Marmelad-Cyrillic)"
  },
  {
   "name": "Mavoble",
@@ -2445,6 +2809,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -2467,6 +2832,7 @@
    "LICENSE-CC0.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2490,6 +2856,7 @@
    "license.txt"
   ],
   "source": "https://fontlibrary.org/font/miama-nueva",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2014, Linus Romer, with Reserved Font Name Miama Nueva.\n\nThis Font Software is licensed under the SIL Open"
  },
@@ -2512,6 +2879,7 @@
    "LICENSE.txt"
   ],
   "source": "",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Idrees Hassan, https://github.com/IdreesInc/Miracode"
  },
@@ -2535,6 +2903,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -2561,6 +2930,7 @@
    "Readme+License.html"
   ],
   "source": "https://github.com/larsenwork/monoid",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015, Andreas Larsen"
  },
@@ -2583,6 +2953,7 @@
    "COPYING.md"
   ],
   "source": "https://github.com/VeskoRadic/morana-font",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2021. Vesko Radic <radic.vesko@gmail.com>"
  },
@@ -2606,6 +2977,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/font/natural-mono",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright © 2020 Vasily Draigo. All Rights Reserved."
  },
@@ -2630,6 +3002,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/font/neocyr",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Typeface © Viktar Palstsiuk, 2002. All Rights Reserved."
  },
@@ -2653,6 +3026,7 @@
    "License.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
@@ -2702,6 +3076,7 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/xmindltd/nevermind",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© XMind ltd. All Rights Reserved."
  },
@@ -2741,8 +3116,39 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/xmindltd/nevermind",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© XMind ltd. All Rights Reserved."
+ },
+ {
+  "name": "Nobile",
+  "slug": "nobile",
+  "author": "vernon adams",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 6,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   500,
+   700
+  ],
+  "files": [
+   "Nobile-Bold.ttf",
+   "Nobile-BoldItalic.ttf",
+   "Nobile-Italic.ttf",
+   "Nobile-Medium.ttf",
+   "Nobile-MediumItalic.ttf",
+   "Nobile-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/nobile",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
  },
  {
   "name": "Novem",
@@ -2764,6 +3170,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -2789,6 +3196,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023-2024 GGBotNet. All Rights Reserved."
  },
@@ -2812,6 +3220,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/operation-napalm-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "No Rights Reserved"
  },
@@ -2837,6 +3246,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -2861,6 +3271,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/Osterbar.zip",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2018 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
@@ -2883,8 +3294,62 @@
    "OFL.txt"
   ],
   "source": "https://github.com/isamirivers/overdoze-sans",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
+ },
+ {
+  "name": "Overpass",
+  "slug": "overpass",
+  "author": "Delve Fonts LLC; Delve Withrington, Dave Bailey, Thomas Jockin",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Overpass-Italic[wght].ttf",
+   "Overpass[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/overpass",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/neo"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)"
+ },
+ {
+  "name": "Overpass Mono",
+  "slug": "overpass-mono",
+  "author": "Delve Fonts LLC; Delve Withrington, Dave Bailey",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": true,
+  "italic": false,
+  "weights": [
+   300
+  ],
+  "files": [
+   "OverpassMono[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/overpassmono",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/neo"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)"
  },
  {
   "name": "Paperfiller",
@@ -2905,6 +3370,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/paperfiller.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright 2016 The Bahiana Project Authors, Copyright 2018 Denis Ignatov (http://mutno.me/font)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2928,6 +3394,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/passero-one-cyrillic.ttf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names \"Passero\". Copyright (c) 2019, Denis Ig",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2951,6 +3418,7 @@
    "OFL.txt"
   ],
   "source": "https://www.dafont.com/pecita.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2009-2015, Philippe Cochy,,,(http://pecita.eu),\nwith Reserved Font Name Pecita.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -2976,6 +3444,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/Peter_Ivanovitsch.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2018 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
@@ -2998,6 +3467,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/pinzelan-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021, GGBot. Cyrillic set by Denis Ignatov.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3027,6 +3497,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2025 GGBotNet. All Rights Reserved."
  },
@@ -3049,8 +3520,63 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/pixelzone-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "GGBotNet"
+ },
+ {
+  "name": "Play",
+  "slug": "play",
+  "author": "Jonas Hecksher (Cyrillic expansion: Cyreal); Jonas Hecksher, Playtype, e-types A",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Play-Bold.ttf",
+   "Play-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/play",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/geo"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com), with Reserved Font Name 'Play', 'Playtype"
+ },
+ {
+  "name": "Poiret One",
+  "slug": "poiret-one",
+  "author": "Denis Masharov; Denis Masharov (denis.masharov@gmail.com), Cyreal (Charset Expan",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "PoiretOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/poiretone",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/display"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)"
  },
  {
   "name": "PostBus",
@@ -3074,6 +3600,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.peter-wiegel.de/Fonts/PostBusPro.zip",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -3097,6 +3624,7 @@
    "Open Font License.txt"
   ],
   "source": "https://www.dafont.com/proletarsk.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2010 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
@@ -3120,8 +3648,32 @@
    "License.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Prosto One",
+  "slug": "prosto-one",
+  "author": "Pavel Emelyanov and Jovanny Lemonad; Pavel Emelyanov and Jovanny lemonad",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "ProstoOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/prostoone",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2012, Jovanny Lemonad (http://www.jovanny.ru), Copyright (c) 2012, Pavel Emelyanov (zakachka2006@mail.ru),"
  },
  {
   "name": "Public Pixel",
@@ -3142,6 +3694,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -3167,6 +3720,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2024 GGBotNet. All Rights Reserved."
  },
@@ -3190,6 +3744,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2019-2025 GGBotNet. All Rights Reserved."
  },
@@ -3213,6 +3768,7 @@
    "License.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Released in 2022 under CC0 license. No rights reserved."
  },
@@ -3235,6 +3791,7 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/isamirivers/Risha-Neo",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -3260,8 +3817,711 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Rubik 80s Fade",
+  "slug": "rubik-80s-fade",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Rubik80sFade-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubik80sfade",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Beastly",
+  "slug": "rubik-beastly",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikBeastly-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikbeastly",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Broken Fax",
+  "slug": "rubik-broken-fax",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikBrokenFax-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikbrokenfax",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Bubbles",
+  "slug": "rubik-bubbles",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikBubbles-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikbubbles",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Burned",
+  "slug": "rubik-burned",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikBurned-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikburned",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Dirt",
+  "slug": "rubik-dirt",
+  "author": "Hubert & Fischer, NaN; Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikDirt-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikdirt",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Distressed",
+  "slug": "rubik-distressed",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikDistressed-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikdistressed",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Doodle Shadow",
+  "slug": "rubik-doodle-shadow",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikDoodleShadow-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikdoodleshadow",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Doodle Triangles",
+  "slug": "rubik-doodle-triangles",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikDoodleTriangles-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikdoodletriangles",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Gemstones",
+  "slug": "rubik-gemstones",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikGemstones-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikgemstones",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Glitch",
+  "slug": "rubik-glitch",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikGlitch-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikglitch",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Glitch Pop",
+  "slug": "rubik-glitch-pop",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikGlitchPop-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikglitchpop",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Iso",
+  "slug": "rubik-iso",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikIso-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikiso",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Lines",
+  "slug": "rubik-lines",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikLines-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubiklines",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Maps",
+  "slug": "rubik-maps",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikMaps-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikmaps",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Marker Hatch",
+  "slug": "rubik-marker-hatch",
+  "author": "Hubert & Fischer, NaN; Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikMarkerHatch-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikmarkerhatch",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Maze",
+  "slug": "rubik-maze",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikMaze-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikmaze",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Microbe",
+  "slug": "rubik-microbe",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikMicrobe-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikmicrobe",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Mono One",
+  "slug": "rubik-mono-one",
+  "author": "Hubert and Fischer with Elvire Volk Leonovitch; Hubert and Fischer with Elvire V",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikMonoOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikmonoone",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/geo"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2015 The Rubik Project Authors (mail@hubertfischer.com)"
+ },
+ {
+  "name": "Rubik Moonrocks",
+  "slug": "rubik-moonrocks",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikMoonrocks-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikmoonrocks",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Pixels",
+  "slug": "rubik-pixels",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikPixels-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikpixels",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Puddles",
+  "slug": "rubik-puddles",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikPuddles-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikpuddles",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Scribble",
+  "slug": "rubik-scribble",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikScribble-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikscribble",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Spray Paint",
+  "slug": "rubik-spray-paint",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikSprayPaint-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikspraypaint",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Storm",
+  "slug": "rubik-storm",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikStorm-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikstorm",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Vinyl",
+  "slug": "rubik-vinyl",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikVinyl-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikvinyl",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
+ },
+ {
+  "name": "Rubik Wet Paint",
+  "slug": "rubik-wet-paint",
+  "author": "Hubert and Fischer, NaN",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RubikWetPaint-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rubikwetpaint",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)"
  },
  {
   "name": "Rum Raisin",
@@ -3282,9 +4542,33 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/rum-raisin-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "(c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), (c) 2018 Denis Ignatov (https://mutno.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Russo One",
+  "slug": "russo-one",
+  "author": "Jovanny Lemonad; Jovanny lemonad",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RussoOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/russoone",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name \"Russo\""
  },
  {
   "name": "Ruthless Sketch",
@@ -3308,6 +4592,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -3331,6 +4616,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/sagewold-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -3354,6 +4640,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/sangyo-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -3376,9 +4663,40 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/saniretro-cyrillic.ttf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "© 2009, 2010, 2011, 2012, 2013 Grand Chaos Productions. Some Rights Reserved. © 2009, Denis Ignatov (https://mutno.me/fo",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Sansation",
+  "slug": "sansation",
+  "author": "Bernd Montag",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 6,
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "Sansation-Bold.ttf",
+   "Sansation-BoldItalic.ttf",
+   "Sansation-Italic.ttf",
+   "Sansation-Light.ttf",
+   "Sansation-LightItalic.ttf",
+   "Sansation-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/sansation",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'"
  },
  {
   "name": "Selena",
@@ -3400,6 +4718,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/font/selena",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2014 by Context Ltd. All rights reserved."
  },
@@ -3423,6 +4742,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/serati-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -3445,9 +4765,57 @@
    "LICENSE-CC0.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Seymour One",
+  "slug": "seymour-one",
+  "author": "Vernon Adams",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "SeymourOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/seymourone",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2011 The Seymour One Project Authors (https://github.com/googlefonts/seymourFont)"
+ },
+ {
+  "name": "SN Pro",
+  "slug": "sn-pro",
+  "author": "Supernotes; Tobias Whetton",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   200
+  ],
+  "files": [
+   "SNPro-Italic[wght].ttf",
+   "SNPro[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/snpro",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2024 The SN Pro Project Authors (https://github.com/supernotes/sn-pro)"
  },
  {
   "name": "Solid Soldier",
@@ -3468,6 +4836,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/solid-soldier-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright © 2021 Goma Shin, © 2021 Cyrillic set by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3492,6 +4861,7 @@
    "License.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
@@ -3514,6 +4884,7 @@
    "OFL.txt"
   ],
   "source": "https://mutno.me/fonts/files/swanky-and-moo-moo-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com); (c) 2018, Denis Ignatov (mutno.me/fonts)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3539,6 +4910,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/lwhitelaw/Swanston",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2023 Liam Whitelaw",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3567,6 +4939,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/StefanPeev/Terminalia",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright [C] 2025 Stefan Peev under the terms of the SIL OPEN FONT LICENSE Version 1.1",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3591,6 +4964,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/akryukov/theano",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Alexey Kryukov, 2007-2011. All rights reserved."
  },
@@ -3614,6 +4988,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/akryukov/theano",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Alexey Kryukov, 2007-2008. All rights reserved."
  },
@@ -3637,8 +5012,36 @@
    "OFL.txt"
   ],
   "source": "https://github.com/akryukov/theano",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Alexey Kryukov, 2007-2010. All rights reserved."
+ },
+ {
+  "name": "Tiny5 Duo",
+  "slug": "tiny5-duo",
+  "author": "Stefan Schmidt; Stefan Schmidt Art",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Tiny5Duo-Italic[BLED,JITT,ROND,wdth,wght].ttf",
+   "Tiny5Duo[BLED,JITT,ROND,wdth,wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/tiny5duo",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
  },
  {
   "name": "Trigram",
@@ -3661,6 +5064,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
@@ -3683,6 +5087,7 @@
    "LICENSE.txt"
   ],
   "source": "https://fontlibrary.org/font/tt2020-style-e",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2019-2020, Fredrick Brennan (<copypaste@kittens.ph>), Licensed under SIL OFL 1.1"
  },
@@ -3705,6 +5110,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/unsightly-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
  },
@@ -3730,6 +5136,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
@@ -3752,6 +5159,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/alexburba/vollda-typeface",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2023 Vollda (https://github.com/alexburba/vollda)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3775,6 +5183,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/vyaz-pixel-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright GGBotNet 2020"
  },
@@ -3801,6 +5210,7 @@
    "OFL.txt"
   ],
   "source": "https://github.com/chuckmasterson/walleye",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2013 by Nathanael Bonnell. All rights reserved."
  },
@@ -3823,6 +5233,7 @@
    "FREE FONT LICENSE.txt"
   ],
   "source": "https://www.dafont.com/wes.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2016 by Yelena Madyankina & Jovanny Lemonad. All rights reserved."
  },
@@ -3848,6 +5259,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -3870,6 +5282,7 @@
    "LICENSE-CC-BY-SA.txt"
   ],
   "source": "https://mutno.me/fonts/files/wetware-cyrillic.otf",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": "© 2006-20 Andrew Young, disasterfonts.co.uk. © 2021 Denis Ignatov, https://mutno.me/fonts",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3893,6 +5306,7 @@
    "OFL.txt"
   ],
   "source": "https://dimka.com/fonts/wimzik/Wimzik.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Dmitri Zdorov Dimka Fonts",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -3917,6 +5331,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -3941,6 +5356,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/x-typewriter-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2026 GGBotNet. All Rights Reserved."
  },
@@ -3964,6 +5380,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -3986,8 +5403,33 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/lxgw/kose-font/releases",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2020-2024 LXGW (https://github.com/lxgw/kose-font)\r\nCopyright 2014 Nozomi Seto (https://ja.osdn.net/projects/s"
+ },
+ {
+  "name": "Xmind",
+  "slug": "xmind",
+  "author": "Xmind; lan",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Xmind-Italic[wght].ttf",
+   "Xmind[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/xmind",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2025 The Xmind Project Authors (https://github.com/lamzhonghang/xmind)"
  },
  {
   "name": "Y224",
@@ -4008,6 +5450,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/y224-font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Version 1.1 has been released under the CC0 license."
  },
@@ -4031,6 +5474,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
@@ -4053,8 +5497,36 @@
    "OFL_License.txt"
   ],
   "source": "https://www.dafont.com/yokawerad.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge"
+ },
+ {
+  "name": "Ysabeau Infant",
+  "slug": "ysabeau-infant",
+  "author": "Christian Thalmann (Catharsis Fonts)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "variable": true,
+  "italic": true,
+  "weights": [
+   700
+  ],
+  "files": [
+   "YsabeauInfant-Italic[wght].ttf",
+   "YsabeauInfant[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/ysabeauinfant",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/humanist"
+  },
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)"
  },
  {
   "name": "Yulong",
@@ -4076,6 +5548,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
@@ -4098,6 +5571,7 @@
    "OFL_License.txt"
   ],
   "source": "https://www.dafont.com/zantroke.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge."
  },
@@ -4144,6 +5618,7 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/font/zapus-sans",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015-2019 Belleve Invis.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -4167,6 +5642,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2023 GGBotNet. All Rights Reserved."
  },
@@ -4192,6 +5668,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
@@ -4215,6 +5692,7 @@
    "License.txt"
   ],
   "source": "https://typodermicfonts.com/public-domain/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
@@ -4237,6 +5715,7 @@
    "License.txt"
   ],
   "source": "https://ggbot.itch.io/",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet"
  },
@@ -4260,6 +5739,7 @@
    "OFL_License.txt"
   ],
   "source": "https://www.dafont.com/znikomit.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge."
  },
@@ -4282,6 +5762,7 @@
    "OFL_License.txt"
   ],
   "source": "https://www.dafont.com/znikomitno25.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge."
  },
@@ -4304,6 +5785,7 @@
    "OFL.txt"
   ],
   "source": "https://dimka.com/fonts/Xarrovv/Xarrovv.otf",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Dmitri Zdorov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -4327,6 +5809,7 @@
    "LICENSE-CC0.txt"
   ],
   "source": "https://www.dafont.com/kramola.font",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
@@ -4354,6 +5837,7 @@
    "License.txt"
   ],
   "source": "https://disk.yandex.ru/d/kXQNv8W06rYbJQ",
+  "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright © 2025 by Namikus"
  }

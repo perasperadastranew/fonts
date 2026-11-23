@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 177 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 228 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -33,6 +33,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | 3D Isometric | GGBotNet | SIL OFL 1.1 | 3 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | 5by7 | Peter Wiegel | SIL OFL 1.1 | 2 | [www.dafont.com](https://www.dafont.com/5by7.font) |
 | Acari Sans | Alfredo Marco Pradil (initial realese as HK Grotesk, Latin version), Stefan Peev | SIL OFL 1.1 | 14 | [github.com](https://github.com/StefanPeev/acari-sans/releases/download/AcariSans_v.1.078/AcariSans_v.1.078.zip) |
+| Advent Pro | VivaRado, Andreas Kalpakidis | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/adventpro) |
 | Ambidexter Regular | Егор Белозёров | SIL OFL 1.1 | 1 | [github.com](https://github.com/egaindahouse/Ambidexter) |
 | Amstelvar | David Berlow | SIL OFL 1.1 | 2 | [github.com](https://github.com/googlefonts/amstelvar-beta) |
 | Anticva Regular | Константин Крастев | SIL OFL 1.1 | 1 | [github.com](https://github.com/KonstatinKrastev/Anticva-Font) |
@@ -57,6 +58,8 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Bubblez Graffiti | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Caesar Dressing Cyrillic | Open Window, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/caesar-dressing-cyrillic.otf) |
 | Cairopixel | GGBot | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/cairopixel-font) |
+| Cascadia Code | Aaron Bell; Saja Typeworks | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cascadiacode) |
+| Cascadia Mono | Aaron Bell; Saja Typeworks | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cascadiamono) |
 | Caskaydia Cove | Eli Heuer | SIL OFL 1.1 | 7 | [github.com](https://github.com/eliheuer/caskaydia-cove) |
 | CAT DyFa | Peter Wiegel | SIL OFL 1.1 | 3 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/CATDyFa.zip) |
 | CAT Hohenzollern | Peter Wiegel | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/cat-hohenzollern.font) |
@@ -67,21 +70,27 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Code New Roman | Code New Roman; Sam Radian | SIL OFL 1.1 | 3 | [www.dafont.com](https://www.dafont.com/code-new-roman.font) |
 | Colatemta | Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/colatemta.zip) |
 | Constantine | Dukom Design | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/constantine.font) |
+| Cormorant Infant | Catharsis Fonts; Christian Thalmann (Catharsis Fonts) | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cormorantinfant) |
 | Correction Brush | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Correction Tape | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Creepster | Font Diner, Inc | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/creepster-cyrillic.otf) |
 | Crosterian | Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/crosterian.zip) |
 | DatCub | GGBot | SIL OFL 1.1 | 3 | [ggbot.itch.io](https://ggbot.itch.io/datcub-font) |
 | DatDot | GGBotNet | SIL OFL 1.1 | 6 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Days One | Alexander Kalachev, Alexey Maslov, Jovanny Lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/daysone) |
 | Digit Tech | GGBot | CC0 / Public Domain | 8 | [ggbot.itch.io](https://ggbot.itch.io/digit-tech-font) |
 | Dimica | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Dimica/Dimica-Light.otf) |
 | Divagon | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Droid 1997 | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | EuroScript | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/EuroScript.zip) |
+| Exo 2 | Natanael Gama | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/exo2) |
 | Fairfax | Made with Bits'n'Picas by Kreative Software | SIL OFL 1.1 | 14 | [github.com](https://github.com/kreativekorp/open-relay/releases/download/2026-09-21/Fairfax.zip) |
 | Fantasque Sans Mono | Джани Беллуз | SIL OFL 1.1 | 4 | [github.com](https://github.com/belluzj/fantasque-sans) |
 | Fascinate | Astigmatic (AOETI); Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/fascinate-cyrillic.otf) |
 | First Time Writing | GGBotNet | CC0 / Public Domain | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Flow Block | Dan Ross | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/flowblock) |
+| Flow Circular | Dan Ross | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/flowcircular) |
+| Flow Rounded | Dan Ross | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/flowrounded) |
 | Foo | Ray Larabie | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Funever Sans Display | AlloyDome | SIL OFL 1.1 | 9 | [github.com](https://github.com/AlloyDome/Funever-Sans) |
 | Futurespore | Andrew Young | CC BY-SA | 1 | [mutno.me](https://mutno.me/fonts/files/futurespore-cyrillic.otf) |
@@ -110,6 +119,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Jolly Sweater | GGBotNet | SIL OFL 1.1 | 3 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Jupiteroid | GGBot | CC0 / Public Domain | 6 | [ggbot.itch.io](https://ggbot.itch.io/jupiteroid-font) |
 | Just Breathe | Cannot Into Space Fonts | SIL OFL 1.1 | 10 | [www.dafont.com](https://www.dafont.com/just-breathe.font) |
+| Kablammo | Travis Kochel, Lizy Gershenzon, Daria Petrova, Ethan Cohen; Vectro Type Foundry | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/kablammo) |
 | Kaiju Monster G Cyrillic | Goma Shin, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/kaiju-monster-g-cyrillic.otf) |
 | Kanalisirung | Peter Wiegel | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/kanalisirung.font) |
 | Kaph | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -127,6 +137,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | LT Superior | Daniel Lyons; LyonsType | SIL OFL 1.1 | 18 | [www.dafont.com](https://www.dafont.com/lt-superior.font) |
 | Luculent | Andrew Kensler | SIL OFL 1.1 | 4 | [fontlibrary.org](https://fontlibrary.org/en/font/luculent) |
 | Mail Ray Stuff | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Marmelad | Cyreal; Manvel Shmavonyan | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/marmelad) |
 | Mavoble | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Metal Lord | Ray Larabie | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Miama Nueva | Linus Romer | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/miama-nueva) |
@@ -139,12 +150,15 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Neuropol | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | NeverMind Compact | XMind; lan | SIL OFL 1.1 | 20 | [github.com](https://github.com/xmindltd/nevermind) |
 | NeverMind Slab | Xmind Designer Team | SIL OFL 1.1 | 10 | [github.com](https://github.com/xmindltd/nevermind) |
+| Nobile | vernon adams | SIL OFL 1.1 | 6 | [github.com](https://github.com/google/fonts/tree/main/ofl/nobile) |
 | Novem | GGBotNet | CC0 / Public Domain | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Oldtimer | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Operation Napalm | GGBot | CC0 / Public Domain | 2 | [ggbot.itch.io](https://ggbot.itch.io/operation-napalm-font) |
 | Opsilon | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Osterbar | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/Osterbar.zip) |
 | overdoze sans | IsamiRi | SIL OFL 1.1 | 1 | [github.com](https://github.com/isamirivers/overdoze-sans) |
+| Overpass | Delve Fonts LLC; Delve Withrington, Dave Bailey, Thomas Jockin | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/overpass) |
+| Overpass Mono | Delve Fonts LLC; Delve Withrington, Dave Bailey | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/overpassmono) |
 | Paperfiller | Denis Ignatov; Pablo Cosgaya & Dani Raskovsky | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/paperfiller.otf) |
 | Passero One Cyrillic | Viktoriya Grabowska, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/passero-one-cyrillic.ttf) |
 | Pecita | Phillipe Cochy | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/pecita.font) |
@@ -152,23 +166,57 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Pinzelan | GGBot | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/pinzelan-cyrillic.otf) |
 | Pixeloid Sans | GGBotNet | SIL OFL 1.1 | 6 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Pixelzone | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/pixelzone-font) |
+| Play | Jonas Hecksher (Cyrillic expansion: Cyreal); Jonas Hecksher, Playtype, e-types A | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/play) |
+| Poiret One | Denis Masharov; Denis Masharov (denis.masharov@gmail.com), Cyreal (Charset Expan | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/poiretone) |
 | PostBus | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/PostBusPro.zip) |
 | Proletarsk | Peter Wiegel; Peter Wiegel, original typeface by Carl Albert Fahrenwaldt 1901 | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/proletarsk.font) |
 | Propaniac | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Prosto One | Pavel Emelyanov and Jovanny Lemonad; Pavel Emelyanov and Jovanny lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/prostoone) |
 | Public Pixel | GGBotNet | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Pulstar | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | QuinqueFive | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Renju | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Risha Neo | Isami Risha | SIL OFL 1.1 | 1 | [github.com](https://github.com/isamirivers/Risha-Neo) |
 | Robtronika | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Rubik 80s Fade | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubik80sfade) |
+| Rubik Beastly | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikbeastly) |
+| Rubik Broken Fax | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikbrokenfax) |
+| Rubik Bubbles | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikbubbles) |
+| Rubik Burned | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikburned) |
+| Rubik Dirt | Hubert & Fischer, NaN; Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikdirt) |
+| Rubik Distressed | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikdistressed) |
+| Rubik Doodle Shadow | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikdoodleshadow) |
+| Rubik Doodle Triangles | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikdoodletriangles) |
+| Rubik Gemstones | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikgemstones) |
+| Rubik Glitch | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikglitch) |
+| Rubik Glitch Pop | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikglitchpop) |
+| Rubik Iso | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikiso) |
+| Rubik Lines | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubiklines) |
+| Rubik Maps | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikmaps) |
+| Rubik Marker Hatch | Hubert & Fischer, NaN; Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikmarkerhatch) |
+| Rubik Maze | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikmaze) |
+| Rubik Microbe | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikmicrobe) |
+| Rubik Mono One | Hubert and Fischer with Elvire Volk Leonovitch; Hubert and Fischer with Elvire V | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikmonoone) |
+| Rubik Moonrocks | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikmoonrocks) |
+| Rubik Pixels | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikpixels) |
+| Rubik Puddles | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikpuddles) |
+| Rubik Scribble | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikscribble) |
+| Rubik Spray Paint | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikspraypaint) |
+| Rubik Storm | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikstorm) |
+| Rubik Vinyl | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikvinyl) |
+| Rubik Wet Paint | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikwetpaint) |
 | Rum Raisin | Astigmatic (AOETI); Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/rum-raisin-cyrillic.otf) |
+| Russo One | Jovanny Lemonad; Jovanny lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/russoone) |
 | Ruthless Sketch | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Sagewold | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/sagewold-font) |
 | Sangyo | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/sangyo-font) |
 | Saniretro | Jayvee D. Enaguas (Grand Chaos) | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/saniretro-cyrillic.ttf) |
+| Sansation | Bernd Montag | SIL OFL 1.1 | 6 | [github.com](https://github.com/google/fonts/tree/main/ofl/sansation) |
 | Selena | Context Ltd | SIL OFL 1.1 | 2 | [fontlibrary.org](https://fontlibrary.org/font/selena) |
 | Serati | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/serati-font) |
 | Sexsmith | Ray Larabie | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Seymour One | Vernon Adams | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/seymourone) |
+| SN Pro | Supernotes; Tobias Whetton | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/snpro) |
 | Solid Soldier | Goma Shin; Goma Shin, Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/solid-soldier-cyrillic.otf) |
 | Spectrashell | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Swanky and Moo Moo | Kimberly Geswein; Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/swanky-and-moo-moo-cyrillic.otf) |
@@ -177,6 +225,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Theano Didot | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
 | Theano Modern | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
 | Theano Old Style | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
+| Tiny5 Duo | Stefan Schmidt; Stefan Schmidt Art | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/tiny5duo) |
 | Trigram | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | TT2020 Style E | Fredrick Brennan | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/tt2020-style-e) |
 | Unsightly | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/unsightly-font) |
@@ -192,9 +241,11 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | X Typewriter | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/x-typewriter-font) |
 | Xanmono | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Xiaolai SC | Nozomi Seto | SIL OFL 1.1 | 1 | [github.com](https://github.com/lxgw/kose-font/releases) |
+| Xmind | Xmind; lan | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/xmind) |
 | Y224 | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/y224-font) |
 | Yazo | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Yokawerad | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/yokawerad.font) |
+| Ysabeau Infant | Christian Thalmann (Catharsis Fonts) | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ysabeauinfant) |
 | Yulong | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Zantroke | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/zantroke.font) |
 | Zapus Sans | Belleve Invis; Belleve Invis (font) & Cristiano Sobral (main changes) | SIL OFL 1.1 | 18 | [fontlibrary.org](https://fontlibrary.org/font/zapus-sans) |

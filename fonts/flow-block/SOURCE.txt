@@ -1,0 +1,4 @@
+Шрифт: Flow Block
+Скачано: 2026-11-23 с https://github.com/google/fonts/tree/main/ofl/flowblock (официальная раздача Google Fonts)
+Автор: Dan Ross
+Лицензия: SIL OFL 1.1
