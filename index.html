@@ -38,6 +38,24 @@ input[type=range]{accent-color:var(--ink)}
 .intro{background:var(--wh);border-radius:calc(var(--rk,1)*24px);padding:32px;display:flex;flex-direction:column;justify-content:space-between;gap:24px}
 .intro h1{margin:0;font-weight:400;font-size:52px;line-height:.98;letter-spacing:-2px}
 .intro p{margin:0;font-size:16px;line-height:1.55;color:var(--mut)}
+.cfp{display:grid;grid-template-columns:236px minmax(0,1fr);gap:36px;align-items:start;padding-top:24px}
+.cside{position:sticky;top:88px;display:flex;flex-direction:column;gap:14px;max-height:calc(100vh - 104px);overflow:auto;scrollbar-width:none}
+.cside::-webkit-scrollbar{display:none}
+.cside .box{background:var(--ink);color:var(--pap);border-radius:calc(var(--rk,1)*22px);padding:18px 20px}
+.cside .box b{display:block;font-size:40px;font-weight:400;letter-spacing:-1.5px;line-height:1}
+.cside .box small{color:#A5A09B;font-size:12px}
+.cside .box .bar{height:3px;border-radius:3px;background:rgba(241,239,234,.15);margin-top:12px;overflow:hidden}.cside .box .bar i{display:block;height:100%;background:#FF7122;transition:width .4s}
+.cside h4{font:10.5px 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.08em;color:var(--mut);margin:6px 12px 2px;font-weight:400}
+.cnav{display:flex;flex-direction:column;font-size:15px}
+.cnav a,.cnav button{all:unset;cursor:pointer;display:flex;gap:10px;align-items:baseline;padding:7px 12px;border-radius:calc(var(--rk,1)*12px);transition:background .2s}
+.cnav a:hover,.cnav button:hover{background:rgba(12,11,13,.05)}
+.cnav .on{background:var(--wh)}
+.cnav span{font:11px 'JetBrains Mono',ui-monospace,monospace;color:var(--mut)}
+.cnav i{margin-left:auto;font:normal 11px 'JetBrains Mono',ui-monospace,monospace;color:var(--mut)}
+.cnav .dot{width:8px;height:8px;border-radius:50%;align-self:center;flex:none}
+.cnav .tg::before{content:'';width:14px;height:14px;border-radius:4px;border:1.5px solid currentColor;align-self:center;flex:none;opacity:.5}
+.cnav .tg.on::before{background:#FF7122;border-color:#FF7122;opacity:1}
+@media(max-width:900px){.cfp{grid-template-columns:1fr;gap:0}.cside{position:sticky;top:56px;z-index:5;max-height:none;flex-direction:row;overflow-x:auto;background:var(--pap);padding:8px 0;gap:4px}.cside .box,.cside h4,.cside .cnav.sec2{display:none}.cnav{flex-direction:row;gap:4px}.cnav a,.cnav button{white-space:nowrap;background:var(--wh);padding:7px 12px}}
 .filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:20px 0 12px}
 .chip{padding:9px 14px;border-radius:999px;border:0;background:var(--soft);font-size:14px}
 .chip i{font-style:normal;color:var(--mut);margin-left:4px;font-size:12px}
@@ -715,7 +733,7 @@ function bayPool(b){let a=b.k==='vf'?FONTS.filter(f=>f[2]&&f[4]-f[3]>=300):b.k==
  const fr=a.filter(f=>!isStd(f)).sort((x,y)=>freshScore(y)-freshScore(x));return (fr.length>=4?fr:a).slice(0,b.k==='rnd'?40:12)}
 function bayCount(b){return b.k==='vf'?FONTS.filter(f=>f[2]&&f[3]<f[4]).length:b.k==='it'?FONTS.filter(f=>f[6]).length:b.k==='rnd'?FONTS.length:FONTS.filter(f=>f[1]===b.k).length}
 function baySel(b){return b.k==='vf'?FLT.vf:b.k==='it'?FLT.it:b.k!=='rnd'&&CATSEL===b.k}
-function baysHTML(){return `<section class="bays"><div class="bh"><h2>Отсеки библиотеки</h2><span class="mono">НАВЕДИ — ПЕРЕБЕРУ ШРИФТЫ · НАЖМИ — ОТКРОЮ ОТСЕК</span></div><div class="bgrid">${BAYS.map((b,i)=>`<button type="button" class="bay ${b.k==='vf'?'vf':''} ${baySel(b)?'on':''}" data-bay="${i}" style="--bg:${b.bg};--fg:${b.fg};--rot:${b.r}deg" aria-label="${b.n}"><div class="top"><span>ОТСЕК ${String(i+1).padStart(2,'0')}</span><span class="cnt">${bayCount(b)}</span></div><div class="ln"></div><div class="ghost">${b.g}</div><div class="gl">${b.g}</div><div class="bt"><div><div class="nm">${b.n}</div><div class="fn"></div></div><span class="ar">→</span></div></button>`).join('')}</div>${bayInfoHTML()}</section>`}
+function baysHTML(){return `<section class="bays" id="c-bays"><div class="bh"><h2>Отсеки библиотеки</h2><span class="mono">НАВЕДИ — ПЕРЕБЕРУ ШРИФТЫ · НАЖМИ — ОТКРОЮ ОТСЕК</span></div><div class="bgrid">${BAYS.map((b,i)=>`<button type="button" class="bay ${b.k==='vf'?'vf':''} ${baySel(b)?'on':''}" data-bay="${i}" style="--bg:${b.bg};--fg:${b.fg};--rot:${b.r}deg" aria-label="${b.n}"><div class="top"><span>ОТСЕК ${String(i+1).padStart(2,'0')}</span><span class="cnt">${bayCount(b)}</span></div><div class="ln"></div><div class="ghost">${b.g}</div><div class="gl">${b.g}</div><div class="bt"><div><div class="nm">${b.n}</div><div class="fn"></div></div><span class="ar">→</span></div></button>`).join('')}</div>${bayInfoHTML()}</section>`}
 const BAYINFO={
  'Гротеск':['Без засечек. Первый такой шрифт для печати выпустил Уильям Кэслон IV в Англии в 1816 году. Публика сочла его странным, «гротескным», отсюда и название. В XX веке появились Akzidenz-Grotesk, геометрическая Futura и Helvetica, и гротески стали голосом модернизма.','Интерфейсы, навигация, презентации, айдентика, инфографика.','Длинный книжный текст: без засечек глаз быстрее устаёт.'],
  'Антиква':['С засечками. Восходит к римским надписям и гуманистическому письму. Классический рисунок сложился в Венеции около 1470 года у Николя Жансона. Кириллица получила антиквенный рисунок при Петре I: гражданский шрифт 1708 года.','Книги, статьи, журналы, премиальные бренды, приглашения.','Мелкий текст в интерфейсах: тонкие засечки и контраст теряются.'],
@@ -738,21 +756,43 @@ function baysInit(){clearInterval(BAYT);const els=[...document.querySelectorAll(
  st.forEach(s=>{show(s);s.el.onmouseenter=()=>{s.hov=true;s.i++;show(s)};s.el.onmouseleave=()=>{s.hov=false};
   s.el.onclick=()=>{const b=s.b;if(b.k==='rnd'){location.hash='#/font/'+slug(R(FONTS)[0]);return}
    if(b.k==='vf'||b.k==='it'){FLT[b.k]=!FLT[b.k]}else{CATSEL=CATSEL===b.k?'all':b.k}
-   catalog();setTimeout(()=>$('#grid').scrollIntoView({behavior:'smooth'}),60)}});
+   refreshCat(true)}});
  let tick=0;BAYT=setInterval(()=>{if(!document.querySelector('.bay')){clearInterval(BAYT);return}tick++;
   st.forEach((s,j)=>{if(s.hov){s.i++;show(s)}else if(tick%6===j%6){s.i++;show(s)}})},650)}
+const CDOT={'Гротеск':'#2B3BE5','Антиква':'#C9A227','Акцидентный':'#FF7122','Моно':'#0C0B0D','Рукописный':'#E86FB0'};
+function cShown(){return FONTS.filter(f=>(CATSEL==='all'||f[1]===CATSEL)&&(!FLT.vf||(f[2]&&f[3]<f[4]))&&(!FLT.it||f[6])&&(!Q||f[0].toLowerCase().includes(Q.toLowerCase()))).length}
+function csideHTML(cats){const favs=FONTS.filter(f=>isFav(f[0])).length;
+ return `<aside class="cside" aria-label="Навигация по каталогу"><div class="box"><small>В КАТАЛОГЕ СЕЙЧАС</small><b id="cN">${cShown()}</b><small>из ${FONTS.length} шрифтов</small><div class="bar"><i id="cBar" style="width:${cShown()/FONTS.length*100}%"></i></div></div>
+ <h4>РАЗДЕЛЫ</h4><nav class="cnav sec2" id="cSec"><a href="#" data-go="c-top"><span>01</span>Обзор</a><a href="#" data-go="c-routes"><span>02</span>Маршруты</a><a href="#" data-go="c-bays"><span>03</span>Отсеки</a><a href="#" data-go="grid"><span>04</span>Все шрифты</a></nav>
+ <h4>КЛАССЫ</h4><nav class="cnav"><button type="button" data-c="all" class="${CATSEL==='all'?'on':''}"><span class="dot" style="background:conic-gradient(#2B3BE5 0 25%,#C9A227 0 50%,#FF7122 0 75%,#E86FB0 0)"></span>Все<i>${FONTS.length}</i></button>${cats.map(c=>`<button type="button" data-c="${c}" class="${CATSEL===c?'on':''}"><span class="dot" style="background:${CDOT[c]}"></span>${c}<i>${FONTS.filter(f=>f[1]===c).length}</i></button>`).join('')}</nav>
+ <h4>СВОЙСТВА</h4><nav class="cnav"><button type="button" class="tg ${FLT.vf?'on':''}" data-f="vf">Вариативные<i>${FONTS.filter(f=>f[2]&&f[3]<f[4]).length}</i></button><button type="button" class="tg ${FLT.it?'on':''}" data-f="it">С курсивом<i>${FONTS.filter(f=>f[6]).length}</i></button></nav>
+ <h4>ИНСТРУМЕНТЫ</h4><nav class="cnav sec2"><a href="#/brief">Подбор по задаче</a><a href="#/swipe">Свайп шрифтов</a><a href="#/shape">Пропорции</a><a href="#" id="cRnd">Случайный шрифт</a><a href="#/journal">★ Бортовой журнал<i>${favs||''}</i></a></nav></aside>`}
+function cCount(){const n=cShown();const a=$('#cN'),b=$('#cBar');if(a)a.textContent=n;if(b)b.style.width=n/FONTS.length*100+'%'}
+function refreshCat(fromSide){
+ document.querySelectorAll('[data-c]').forEach(b=>b.classList.toggle('on',b.dataset.c===CATSEL));
+ document.querySelectorAll('[data-f]').forEach(b=>b.classList.toggle('on',!!FLT[b.dataset.f]));
+ document.querySelectorAll('.bay').forEach(el=>el.classList.toggle('on',baySel(BAYS[+el.dataset.bay])));
+ const bi=document.querySelector('.binfo'),nh=bayInfoHTML();if(bi){if(nh)bi.outerHTML=nh;else bi.remove()}else if(nh){const bg=document.querySelector('.bgrid');bg&&bg.insertAdjacentHTML('afterend',nh)}
+ renderGrid();cCount();
+ if(fromSide){const g=$('#grid');const y=g.getBoundingClientRect().top+scrollY-160;if(scrollY<y-40||scrollY>y+400)scrollTo({top:y,behavior:'smooth'})}}
+function csideInit(){
+ document.querySelectorAll('[data-go]').forEach(a=>a.onclick=e=>{e.preventDefault();const t=$('#'+a.dataset.go);t&&scrollTo({top:t.getBoundingClientRect().top+scrollY-96,behavior:'smooth'})});
+ const r=$('#cRnd');if(r)r.onclick=e=>{e.preventDefault();location.hash='#/font/'+slug(R(FONTS)[0])};
+ const links=[...document.querySelectorAll('#cSec a')],ids=links.map(a=>a.dataset.go);
+ const upd=()=>{if(!$('#cSec')){removeEventListener('scroll',upd);return}let cur=ids[0];ids.forEach(id=>{const el=$('#'+id);if(el&&el.getBoundingClientRect().top<200)cur=id});links.forEach(l=>l.classList.toggle('on',l.dataset.go===cur))};
+ addEventListener('scroll',upd,{passive:true});upd()}
 function catalog(){
  const df=dayFont();
  const cats=['Гротеск','Антиква','Акцидентный','Моно','Рукописный'];
- app.innerHTML=`${heroHTML(df)}<div class="wrap">
- <div class="stats"><div class="stat"><b>${FONTS.length}</b><span>шрифтов отобрано вручную</span></div><div class="stat"><b style="color:#FF7122">100%</b><span>можно в работу для клиента</span></div><div class="stat"><b>${FONTS.filter(f=>f[2]&&f[3]<f[4]).length}</b><span>вариативных: любая толщина</span></div></div>
- <div class="routes" aria-label="Маршруты">${ROUTES.map((r,i)=>`<button type="button" class="route" data-route="${i}" style="left:${i*23}%;transform:rotate(${[-6,3,-3,5][i]}deg)"><div class="tg"><span>МАРШРУТ ${i+1}</span><span class="o">${r[3]}</span></div><div class="s" style="font-family:${fam(r[4])};font-weight:${baseW(r[4])}">${esc(r[0])}</div><div class="d">${esc(r[1])}</div></button>`).join('')}</div>
+ app.innerHTML=`${heroHTML(df)}<div class="wrap"><div class="cfp">${csideHTML(cats)}<div class="cmain">
+ <div class="stats" id="c-top"><div class="stat"><b>${FONTS.length}</b><span>шрифтов отобрано вручную</span></div><div class="stat"><b style="color:#FF7122">100%</b><span>можно в работу для клиента</span></div><div class="stat"><b>${FONTS.filter(f=>f[2]&&f[3]<f[4]).length}</b><span>вариативных: любая толщина</span></div></div>
+ <div class="routes" id="c-routes" aria-label="Маршруты">${ROUTES.map((r,i)=>`<button type="button" class="route" data-route="${i}" style="left:${i*23}%;transform:rotate(${[-6,3,-3,5][i]}deg)"><div class="tg"><span>МАРШРУТ ${i+1}</span><span class="o">${r[3]}</span></div><div class="s" style="font-family:${fam(r[4])};font-weight:${baseW(r[4])}">${esc(r[0])}</div><div class="d">${esc(r[1])}</div></button>`).join('')}</div>
  ${baysHTML()}
  <div class="phr"><label for="ph">СВОЙ ТЕКСТ</label><input id="ph" type="text" value="${esc(PHRASE)}" aria-label="Свой текст для всех образцов">${phraseSelect("cps")}<button type="button" class="pill soft" id="crnd">🎲</button><div class="sz">Размер<input id="csz" type="range" min="24" max="96" value="${lsGet('pada_csz',40)}" aria-label="Размер образцов"></div></div>
  <div class="filters"><button class="chip ${CATSEL==='all'?'on':''}" data-c="all" type="button">Все<i>${FONTS.length}</i></button>${cats.map(c=>`<button class="chip ${CATSEL===c?'on':''}" data-c="${c}" type="button">${c}<i>${FONTS.filter(f=>f[1]===c).length}</i></button>`).join('')}
  <span style="width:10px"></span><button class="chip ${FLT.vf?'on':''}" data-f="vf" type="button">Вариативные</button><button class="chip ${FLT.it?'on':''}" data-f="it" type="button">С курсивом</button>
  <span style="flex:1"></span><input class="search" id="q" type="search" placeholder="Найти шрифт" value="${esc(Q)}" aria-label="Найти шрифт"><select class="sel" id="so" aria-label="Сортировка"><option value="fresh">Сначала необычные</option><option value="az">А–Я</option><option value="w">Больше начертаний</option><option value="cat">По типу</option></select></div>
- <div class="grid" id="grid"></div></div>`;
+ <div class="grid" id="grid"></div></div></div></div>`;
  $('#so').value=SORT;document.documentElement.style.setProperty('--csz',lsGet('pada_csz',40)+'px');
  heroInit(df);
  baysInit();
@@ -761,10 +801,11 @@ function catalog(){
  const setC=x=>{setPhrase(x);$('#ph').value=x;document.querySelectorAll('.card .pv').forEach(e=>e.textContent=x);heroPhrase()};
  $('#cps').onchange=e=>{if(e.target.value){setC(e.target.value);e.target.value=''}};$('#crnd').onclick=()=>setC(R(ALLPH));
  $('#csz').oninput=e=>{lsSet('pada_csz',+e.target.value);document.documentElement.style.setProperty('--csz',e.target.value+'px')};
- document.querySelectorAll('.chip[data-c]').forEach(b=>b.onclick=()=>{CATSEL=b.dataset.c;catalog()});
- document.querySelectorAll('.chip[data-f]').forEach(b=>b.onclick=()=>{FLT[b.dataset.f]=!FLT[b.dataset.f];catalog()});
- $('#q').oninput=e=>{Q=e.target.value;renderGrid()};$('#so').onchange=e=>{SORT=e.target.value;renderGrid()};
- document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>{const r=ROUTES[+b.dataset.route];CATSEL=r[2];FLT={vf:r[2]==='Гротеск',it:false};catalog();setTimeout(()=>$('#grid').scrollIntoView({behavior:'smooth'}),50)});
+ document.querySelectorAll('.chip[data-c],.cnav [data-c]').forEach(b=>b.onclick=()=>{CATSEL=b.dataset.c;refreshCat(b.closest('.cnav'))});
+ document.querySelectorAll('.chip[data-f],.cnav [data-f]').forEach(b=>b.onclick=()=>{FLT[b.dataset.f]=!FLT[b.dataset.f];refreshCat(b.closest('.cnav'))});
+ csideInit();
+ $('#q').oninput=e=>{Q=e.target.value;renderGrid();cCount()};$('#so').onchange=e=>{SORT=e.target.value;renderGrid()};
+ document.querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>{const r=ROUTES[+b.dataset.route];CATSEL=r[2];FLT={vf:r[2]==='Гротеск',it:false};refreshCat(true)});
  ROUTES.forEach(r=>loadFont(r[4]).catch(()=>{}));
  $('#rnd').onclick=()=>{location.hash='#/font/'+slug(R(FONTS)[0])};
 }
