@@ -20,7 +20,7 @@ https://cdn.jsdelivr.net/gh/perasperadastranew/fonts@main/fonts/<slug>/<file>
 ```css
 @font-face {
   font-family: "Involve";
-  src: url("https://cdn.jsdelivr.net/gh/perasperadastranew/fonts@main/fonts/involve/Involve-Regular.otf");
+  src: url("https://cdn.jsdelivr.net/gh/perasperadastranew/fonts@main/fonts/involve/Involve-Regular.ttf");
 }
 ```
 
