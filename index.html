@@ -471,6 +471,9 @@ body.tg .tgact .pill{flex:1;text-align:center;justify-content:center;color:var(-
 .setc:hover{border-color:currentColor}.setc.on{background:#FF7122;color:#0C0B0D;border-color:#FF7122}.setc.on small,.setc.on .sfs,.setc.on i{opacity:.8}
 @media(max-width:1100px){.sets{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:700px){.sets{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.setc{flex:0 0 72%;scroll-snap-align:start}}
+.backb{display:inline-flex;align-items:center;gap:8px;margin:4px 0 14px;padding:9px 16px 9px 12px;border-radius:999px;background:rgba(12,11,13,.06);color:inherit;text-decoration:none;font-size:14px;min-height:40px}
+.backb span{font-size:18px;line-height:1}.backb:hover{background:rgba(12,11,13,.12)}
+body.tg .backb{display:none}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px">Perasperadastra<span>шрифты</span></a>
@@ -1579,7 +1582,7 @@ function pairFor(f){ // подсказки пар по логике; реаль�
 function similarFor(f){const pf=prof(f);if(pf){const r=FONTS.filter(x=>x!==f&&prof(x)).map(x=>{const q=prof(x);return [x,AX.reduce((s,[k])=>s+Math.pow(q[k]-pf[k],2),0)+(x[1]===f[1]?0:900)]}).sort((a,b)=>a[1]-b[1]).slice(0,3).map(a=>a[0]);if(r.length===3)return r}const same=FONTS.filter(x=>x!==f&&x[1]===f[1]);const s=[...same].sort((a,b)=>Math.abs(a[5]-f[5])-Math.abs(b[5]-f[5]));return s.slice(0,6).sort(()=>Math.random()-.5).slice(0,3)}
 function fontPage(f){
  F=f;const ws=weightsOf(f),vf=f[2]&&f[3]<f[4];const gl=f[7]?`${REPO}#/font/${f[7]}`:`https://fonts.google.com/specimen/${f[0].replace(/ /g,'+')}`;
- app.innerHTML=`<div class="wrap"><div class="fp">
+ app.innerHTML=`<div class="wrap"><a class="backb" href="${BACKH||'#/'}" id="backb"><span aria-hidden="true">←</span> ${backLbl(BACKH)}</a><div class="fp">
  <aside class="side"><div class="box"><div class="n" style="font-family:${fam(f)}">${esc(f[0])}</div><small>${CAT[f[1]]} · ${f[5]} ${plural(f[5])}</small><div class="lic">● Можно для клиента · ${esc(f[10]||"OFL")}</div><a class="pill lt" href="${gl}" target="_blank" rel="noopener">Скачать</a><button class="pill" type="button" data-tg="1" style="background:rgba(241,239,234,.14);color:var(--pap)">✈ Отправить в Telegram</button></div>
  <div class="sphr"><label for="sph">СВОЙ ТЕКСТ — МЕНЯЕТ ВСЮ СТРАНИЦУ</label><textarea id="sph" rows="2">${esc(PHRASE||DEF)}</textarea><div class="q">${phraseSelect("sps")}<button type="button" id="srnd">🎲 Случайная</button></div></div>
  <nav class="toc" aria-label="Разделы страницы">${SECS.map(([n,t])=>`<a href="#s${n}" data-s="${n}"><span>${n}</span>${t}</a>`).join('')}</nav></aside>
@@ -1770,7 +1773,8 @@ function swTaste(){const el=$('#taste');if(!el)return;const n=Object.keys(SW.see
 function plural2(n){return n===1?'шрифт':n<5?'шрифта':'шрифтов'}
 addEventListener('keydown',e=>{if(location.hash!=='#/swipe'||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;if(e.key==='ArrowRight'){e.preventDefault();swVote(1)}if(e.key==='ArrowLeft'){e.preventDefault();swVote(-1)}if(e.key==='ArrowDown'){e.preventDefault();swVote(0)}});
 // ---------- роутер
-let RH=null;async function route(){if(!window._tgi){window._tgi=1;tgInit()}clearInterval(heroTimer);clearInterval(BAYT);const h=location.hash||'#/';tgRoute(h);if(RH!==null&&isCat(RH)&&!isCat(h))CATY=scrollY;const back=RH!==null&&!isCat(RH);RH=h;const qv=document.getElementById('qv');if(qv){qv.classList.remove('on');qv.innerHTML='';document.body.style.overflow=''}window.scrollTo(0,0);setTimeout(cmpTray,0);
+let RH=null,BACKH=null;function backLbl(h){if(!h)return 'Все шрифты';if(/[?&]set=/.test(h))return 'К подборке';if(isCat(h))return /\?/.test(h)?'К поиску':'К каталогу';const m={'#/shape':'К пропорциям','#/swipe':'К свайпу','#/compare':'К сравнению','#/brief':'К подбору','#/journal':'К журналу'};return m[h.split('?')[0]]||'Назад'}
+async function route(){if(!window._tgi){window._tgi=1;tgInit()}clearInterval(heroTimer);clearInterval(BAYT);const h=location.hash||'#/';tgRoute(h);if(RH!==null&&isCat(RH)&&!isCat(h))CATY=scrollY;const back=RH!==null&&!isCat(RH);if(/^#\/font\//.test(h)){if(RH!==null&&!/^#\/font\//.test(RH))BACKH=RH}else BACKH=null;RH=h;const qv=document.getElementById('qv');if(qv){qv.classList.remove('on');qv.innerHTML='';document.body.style.overflow=''}window.scrollTo(0,0);setTimeout(cmpTray,0);
  $('#nCat').classList.toggle('on',isCat(h));$('#nJ').classList.toggle('on',h==='#/journal');$('#nBr').classList.toggle('on',h==='#/brief');$('#nSw').classList.toggle('on',h==='#/swipe');$('#nSh').classList.toggle('on',h==='#/shape');
  if(h.startsWith('#/font/')){const f=bySlug(h.slice(7));if(!f){location.hash='#/';return}app.innerHTML='<div class="empty">Загружаю шрифт…</div>';try{await Promise.race([loadFont(f),new Promise(r=>setTimeout(r,2500))])}catch(e){}fontPage(f);tgShut();if(f[7])loadFont(f).then(()=>{if(location.hash.slice(7)===slug(f[0]))document.querySelectorAll('[style*="'+f[0]+'"]').forEach(e=>{e.style.fontFamily=e.style.fontFamily});window._redrawAll&&window._redrawAll()}).catch(()=>{});document.title=f[0]+' — библиотека шрифтов Perasperadastra';return}
  if(h==='#/journal'){journal();return}
