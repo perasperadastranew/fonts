@@ -885,7 +885,7 @@ addEventListener('keydown',e=>{if(location.hash!=='#/swipe'||/INPUT|TEXTAREA|SEL
 // ---------- роутер
 async function route(){clearInterval(heroTimer);clearInterval(BAYT);const h=location.hash||'#/';window.scrollTo(0,0);
  $('#nCat').classList.toggle('on',h==='#/'||h==='');$('#nJ').classList.toggle('on',h==='#/journal');$('#nBr').classList.toggle('on',h==='#/brief');$('#nSw').classList.toggle('on',h==='#/swipe');$('#nSh').classList.toggle('on',h==='#/shape');
- if(h.startsWith('#/font/')){const f=bySlug(h.slice(7));if(!f){location.hash='#/';return}app.innerHTML='<div class="empty">Загружаю шрифт…</div>';try{await loadFont(f)}catch(e){}fontPage(f);document.title=f[0]+' — библиотека шрифтов Perasperadastra';return}
+ if(h.startsWith('#/font/')){const f=bySlug(h.slice(7));if(!f){location.hash='#/';return}app.innerHTML='<div class="empty">Загружаю шрифт…</div>';try{await Promise.race([loadFont(f),new Promise(r=>setTimeout(r,2500))])}catch(e){}fontPage(f);if(f[7])loadFont(f).then(()=>{if(location.hash.slice(7)===slug(f[0]))document.querySelectorAll('[style*="'+f[0]+'"]').forEach(e=>{e.style.fontFamily=e.style.fontFamily})}).catch(()=>{});document.title=f[0]+' — библиотека шрифтов Perasperadastra';return}
  if(h==='#/journal'){journal();return}
  if(h==='#/shape'){document.title='Поиск шрифта по пропорциям';shape();return}
  if(h==='#/swipe'){document.title='Свайп шрифтов';swipe();return}
