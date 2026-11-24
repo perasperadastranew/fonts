@@ -1551,6 +1551,7 @@ function tourInit(){const hr=document.querySelector('.hd .hr');if(hr&&!document.
 // Каждый приём — своя раскладка. Цвета: p[1] фон, p[2] текст, p[3] акцент.
 const RW=(n)=>words().slice(0,n).map(w=>w.replace(/[«»"]/g,''));
 const RS=(s)=>{let h=0;for(const c of (F[0]+s))h=(h*31+c.charCodeAt(0))%9973;return ()=>{h=(h*137+71)%9973;return h/9973}};
+const fitX=(el,frac=.86,maxH=.62)=>{const art=el.closest('.art');if(!art)return;el.querySelectorAll('.fx').forEach(n=>{const vert=n.dataset.v==='1';const W=(vert?art.clientHeight:art.clientWidth)*(+n.dataset.f||frac);const box=n.getBoundingClientRect();const cur=vert?box.height:box.width;if(!cur)return;const fs=parseFloat(getComputedStyle(n).fontSize);let nf=fs*W/cur;const lim=(vert?art.clientWidth:art.clientHeight)*maxH;nf=Math.min(nf,lim);n.style.fontSize=nf.toFixed(1)+'px'})};
 const PAPER='#F3EFE6',INK='#141414';
 Object.assign(T,{
 // 1. Полосы скотча: каждое слово на своей бумажной ленте, ленты чуть повёрнуты
@@ -1619,8 +1620,8 @@ glow(p){const ws=RW(6);const hw=heavyW(F);
 shatter(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F);
  const sh=[['0 0,55% 0,40% 100%,0 100%',[0,0]],['55% 0,100% 0,100% 45%,48% 60%',[1.2,-1.4]],['48% 60%,100% 45%,100% 100%,40% 100%',[-.8,1.6]]];
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">
- ${sh.map(([c,[dx,dy]],i)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;clip-path:polygon(${c});transform:translate(${dx}cqmin,${dy}cqmin) rotate(${i?(i===1?1.5:-1.2):0}deg)"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(26,120/Math.max(3,w.length))}cqmin;line-height:1;color:${p[2]};white-space:nowrap">${esc(w)}</span></div>`).join('')}
- <svg viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%"><path d="M55,0 L40,100 M48,60 L100,45 M48,60 L10,78 M48,60 L62,100 M30,30 L48,60" stroke="${p[3]}" stroke-width=".35" fill="none" vector-effect="non-scaling-stroke"/></svg></div>`}},
+ ${sh.map(([c,[dx,dy]],i)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;clip-path:polygon(${c});transform:translate(${dx}cqmin,${dy}cqmin) rotate(${i?(i===1?1.5:-1.2):0}deg)"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(26,120/Math.max(3,w.length))}cqmin;line-height:1;color:${p[2]};white-space:nowrap" class="fx">${esc(w)}</span></div>`).join('')}
+ <svg viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%"><path d="M55,0 L40,100 M48,60 L100,45 M48,60 L10,78 M48,60 L62,100 M30,30 L48,60" stroke="${p[3]}" stroke-width=".35" fill="none" vector-effect="non-scaling-stroke"/></svg></div>`,after(el){fitX(el,.84)}}},
 // 13. Стикер на мониторе
 sticky(p){const ws=RW(5);const hw=heavyW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:grid;place-items:center;overflow:hidden">
@@ -1671,9 +1672,9 @@ badge(p){const nm=RW(2).join(' ');const hw=heavyW(F),bw=baseW(F);const code=Stri
 movie(p){const t=RW(2).join(' ').toUpperCase();const hw=heavyW(F),bw=baseW(F);const names='Иван Петров · Анна Смирнова · Олег Ким · Мария Лебедева';
  return {html:`<div style="position:absolute;inset:0;background:linear-gradient(${p[1]},${INK});color:${p[2]};display:flex;flex-direction:column;justify-content:flex-end;padding:6cqmin;overflow:hidden;text-align:center">
  <div style="font:600 2.2cqmin 'Golos Text',sans-serif;letter-spacing:.2em;opacity:.8;margin-bottom:auto;padding-top:2cqmin">${names.split(' · ').slice(0,3).join('   ')}</div>
- <div style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(20,140/Math.max(4,t.length))}cqmin;line-height:.9;letter-spacing:-.01em">${esc(t)}</div>
+ <div style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(20,140/Math.max(4,t.length))}cqmin;line-height:.9;letter-spacing:-.01em;white-space:nowrap;align-self:center" class="fx">${esc(t)}</div>
  <div style="font-family:${ff()};font-weight:${bw};font-size:2.6cqmin;letter-spacing:.3em;margin:2cqmin 0 4cqmin;color:${p[3]}">СКОРО В КИНО</div>
- <div style="font-family:${ff()};font-weight:${bw};font-size:1.7cqmin;line-height:1.25;opacity:.75;transform:scaleY(1.6);transform-origin:bottom;text-transform:uppercase;letter-spacing:.02em">фильм экипажа ${esc(F[0])} в ролях ${names} оператор Ю. Гагарин художник по шрифтам ${esc(F[0])} монтаж и звук бортовой отдел продюсеры Perasperadastra</div></div>`}},
+ <div style="font-family:${ff()};font-weight:${bw};font-size:1.7cqmin;line-height:1.25;opacity:.75;transform:scaleY(1.6);transform-origin:bottom;text-transform:uppercase;letter-spacing:.02em">фильм экипажа ${esc(F[0])} в ролях ${names} оператор Ю. Гагарин художник по шрифтам ${esc(F[0])} монтаж и звук бортовой отдел продюсеры Perasperadastra</div></div>`,after(el){fitX(el,.88,.3)}}},
 // 20. Пилюли: текст с цветными капсулами и точками между словами
 pills(p){const ws=RW(8);const hw=heavyW(F);const r=RS('pl');
  return {html:`<div style="position:absolute;inset:0;background:${PAPER};padding:6cqmin;display:flex;flex-direction:column;justify-content:center;overflow:hidden;color:${INK}">
@@ -1695,14 +1696,14 @@ edges(p){const w=RW(1)[0];const hw=heavyW(F),bw=baseW(F);const ws=words();const 
  <div style="position:absolute;left:4cqmin;top:4cqmin;right:4cqmin;display:flex;justify-content:space-between">${s('ЛЕКЦИЯ')}${s(String(new Date().getDate()).padStart(2,'0')+'.'+String(new Date().getMonth()+1).padStart(2,'0'))}${s('19:30')}</div>
  <div style="position:absolute;left:4cqmin;top:50%;transform:translateY(-50%) rotate(180deg);writing-mode:vertical-rl">${s(ws.slice(1,4).join(' ').toUpperCase())}</div>
  <div style="position:absolute;right:4cqmin;top:50%;transform:translateY(-50%);writing-mode:vertical-rl">${s(F[0].toUpperCase()+' · '+CAT[F[1]])}</div>
- <div style="position:absolute;inset:0;display:grid;place-items:center"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(28,125/Math.max(3,w.length))}cqmin;line-height:1;color:${p[3]}">${esc(w)}</span></div>
- <div style="position:absolute;left:4cqmin;right:4cqmin;bottom:4cqmin;display:flex;justify-content:space-between">${s('ВХОД СВОБОДНЫЙ')}${s('БОЛЬШОЙ ЗАЛ')}</div></div>`}},
+ <div style="position:absolute;inset:0;display:grid;place-items:center"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(28,125/Math.max(3,w.length))}cqmin;line-height:1;color:${p[3]}" class="fx">${esc(w)}</span></div>
+ <div style="position:absolute;left:4cqmin;right:4cqmin;bottom:4cqmin;display:flex;justify-content:space-between">${s('ВХОД СВОБОДНЫЙ')}${s('БОЛЬШОЙ ЗАЛ')}</div></div>`,after(el){fitX(el,.74)}}},
 // 23. Огромное слово вертикально, поверх — подпись
 tower(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F),bw=baseW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">
- <div style="position:absolute;right:-2cqmin;top:50%;transform:translateY(-50%);writing-mode:vertical-rl;font-family:${ff()};font-weight:${hw};font-size:${Math.min(40,150/Math.max(3,w.length))}cqh;line-height:.82;color:${p[2]};white-space:nowrap">${esc(w)}</div>
+ <div style="position:absolute;right:-2cqmin;top:50%;transform:translateY(-50%);writing-mode:vertical-rl;font-family:${ff()};font-weight:${hw};font-size:${Math.min(40,150/Math.max(3,w.length))}cqh;line-height:.82;color:${p[2]};white-space:nowrap" class="fx" data-v="1" data-f=".94">${esc(w)}</div>
  <div style="position:absolute;left:6cqmin;bottom:6cqmin;max-width:45%;font-family:${ff()};font-weight:${bw};font-size:3.4cqmin;line-height:1.25;color:${p[3]}">${esc(words().slice(1,8).join(' '))}</div>
- <div style="position:absolute;left:6cqmin;top:6cqmin;font:600 2cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.7">${esc(F[0])}<br>3 НОМИНАЦИИ</div></div>`}},
+ <div style="position:absolute;left:6cqmin;top:6cqmin;font:600 2cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.7">${esc(F[0])}<br>3 НОМИНАЦИИ</div></div>`,after(el){fitX(el,.94,.55)}}},
 // 24. Ризография: два прогона краской со сдвигом
 riso(p){const ws=RW(4);const hw=heavyW(F);const a='#FF4E9B',b='#1E5BFF';const txt=ws.map(esc).join('<br>');
  const layer=(c,dx,dy)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;transform:translate(${dx}cqmin,${dy}cqmin)"><div style="font-family:${ff()};font-weight:${hw};font-size:13cqmin;line-height:.92;text-align:center;color:${c};mix-blend-mode:multiply;text-transform:uppercase">${txt}</div></div>`;
@@ -1719,16 +1720,16 @@ letter(p){const ph=phrase();const bw=baseW(F),hw=heavyW(F);const ws=words();cons
   <div style="font-family:${ff()};font-weight:${hw};font-size:3.6cqmin;color:#1C2A6B;transform:rotate(-3deg);align-self:flex-end">с уважением, ЦУП</div></div></div>`}},
 // 26. Стомп: слова по одному, во весь формат
 stomp(p){const ws=words().slice(0,10);const hw=heavyW(F);
- return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:grid;place-items:center;overflow:hidden"><div class="st" style="font-family:${ff()};font-weight:${hw};color:${p[2]};line-height:1;text-align:center;padding:0 6cqmin;transition:opacity .25s">${esc(ws[0])}</div>
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:grid;place-items:center;overflow:hidden"><div class="st fx" style="white-space:nowrap;"font-family:${ff()};font-weight:${hw};color:${p[2]};line-height:1;text-align:center;padding:0 6cqmin;transition:opacity .25s">${esc(ws[0])}</div>
  <div style="position:absolute;left:5cqmin;bottom:4cqmin;font:500 2cqmin 'JetBrains Mono',monospace;color:${p[3]}" class="sn">01/${String(ws.length).padStart(2,'0')}</div></div>`,
- after(el){const s=el.querySelector('.st'),n=el.querySelector('.sn');let i=0;const set=()=>{const w=ws[i];s.textContent=w;s.style.fontSize=Math.min(34,130/Math.max(2,w.length))+'cqmin';s.style.color=i%3===2?p[3]:p[2];n.textContent=String(i+1).padStart(2,'0')+'/'+String(ws.length).padStart(2,'0')};set();
+ after(el){const s=el.querySelector('.st'),n=el.querySelector('.sn');let i=0;const set=()=>{const w=ws[i];s.textContent=w;s.style.fontSize=Math.min(34,130/Math.max(2,w.length))+'cqmin';s.style.color=i%3===2?p[3]:p[2];n.textContent=String(i+1).padStart(2,'0')+'/'+String(ws.length).padStart(2,'0');fitX(el,.82,.5)};set();
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;loopT(el,1100,()=>{i=(i+1)%ws.length;set()})}}},
 // 27. Разрез: слово разрезано, половинки сдвинуты
 slice(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F);const fs=Math.min(30,125/Math.max(3,w.length));
- const half=(top,dx,c)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;clip-path:inset(${top?'0 0 50% 0':'50% 0 0 0'});transform:translateX(${dx}cqmin)"><span style="font-family:${ff()};font-weight:${hw};font-size:${fs}cqmin;line-height:1;color:${c};white-space:nowrap">${esc(w)}</span></div>`;
+ const half=(top,dx,c)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;clip-path:inset(${top?'0 0 50% 0':'50% 0 0 0'});transform:translateX(${dx}cqmin)"><span style="font-family:${ff()};font-weight:${hw};font-size:${fs}cqmin;line-height:1;color:${c};white-space:nowrap" class="fx">${esc(w)}</span></div>`;
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">${half(1,-3,p[2])}${half(0,3,p[3])}
  <div style="position:absolute;left:0;right:0;top:50%;height:1px;background:${p[2]};opacity:.4"></div>
- <div style="position:absolute;right:5cqmin;bottom:4cqmin;font:500 2cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.7">${esc(F[0])}</div></div>`}},
+ <div style="position:absolute;right:5cqmin;bottom:4cqmin;font:500 2cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.7">${esc(F[0])}</div></div>`,after(el){fitX(el,.8)}}},
 // 28. Полароиды: фраза подписана на карточках-снимках
 polaroid(p){const ws=RW(3);const bw=baseW(F),hw=heavyW(F);const r=RS('po');const sh=['ЖЁЛТЫЙ','ЛУНА','СТАРТ'];
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">
