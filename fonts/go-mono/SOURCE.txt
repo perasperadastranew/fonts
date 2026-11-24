@@ -1,0 +1,2 @@
+Шрифт: Go Mono
+Скачано: 2026-11-24 с https://github.com/golang/image (Bigelow & Holmes для проекта Go, BSD-3)

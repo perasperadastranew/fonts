@@ -3581,6 +3581,45 @@
   "copyright": ""
  },
  {
+  "name": "Go Mono",
+  "slug": "go-mono",
+  "author": "Bigelow & Holmes",
+  "class": "Моноширинный",
+  "license": "BSD 3-Clause",
+  "styles": 2,
+  "faces": [
+   [
+    "Go-Mono-Bold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Go-Mono.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   600
+  ],
+  "files": [
+   "Go-Mono-Bold.ttf",
+   "Go-Mono.ttf"
+  ],
+  "license_files": [
+   "LICENSE-BSD.txt"
+  ],
+  "source": "https://github.com/golang/image",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2016 by Bigelow & Holmes Inc.. All rights reserved."
+ },
+ {
   "name": "Gochi Hand Cyrillic",
   "slug": "gochi-hand-cyrillic",
   "author": "Huerta Tipografica, Денис Игнатов",
@@ -3675,6 +3714,59 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2018 by CATFonts Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "Greybeard",
+  "slug": "greybeard",
+  "author": "Andy Walker",
+  "class": "Моноширинный",
+  "license": "MIT / X11",
+  "styles": 4,
+  "faces": [
+   [
+    "Greybeard-16px-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Greybeard-16px-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Greybeard-16px-Italic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Greybeard-16px.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   500,
+   700
+  ],
+  "files": [
+   "Greybeard-16px-Bold.ttf",
+   "Greybeard-16px-BoldItalic.ttf",
+   "Greybeard-16px-Italic.ttf",
+   "Greybeard-16px.ttf"
+  ],
+  "license_files": [
+   "LICENSE-MIT.txt"
+  ],
+  "source": "https://github.com/flowchartsman/greybeard",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (C) 2012-2015 Uwe Waldmann, Modifications Copyright(c) 2018 Andy Walker"
  },
  {
   "name": "Gridtile",
@@ -3855,6 +3947,85 @@
   "cyrillic": "ru",
   "copyright": "(c) 2018 Denis Ignatov (https://mutno.me/fonts)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Hauora Sans",
+  "slug": "hauora-sans",
+  "author": "WCYS & Co.",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 7,
+  "faces": [
+   [
+    "Hauora-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Hauora-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Hauora-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Hauora-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Hauora-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Hauora-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Hauora-SemiBold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "Hauora-Bold.ttf",
+   "Hauora-ExtraBold.ttf",
+   "Hauora-ExtraLight.ttf",
+   "Hauora-Light.ttf",
+   "Hauora-Medium.ttf",
+   "Hauora-Regular.ttf",
+   "Hauora-SemiBold.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/WCYS-Co/Hauora-Sans",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2020 WCYS & Co. with Reserved Font Name \"Hauora\" and \"Hauora Sans\""
  },
  {
   "name": "Helvetia Verbundene",
@@ -7378,6 +7549,149 @@
   "cyrillic": "ru+ua",
   "copyright": "© 2021, GGBot. Cyrillic set by Denis Ignatov.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Pitagon Sans Mono",
+  "slug": "pitagon-sans-mono",
+  "author": "Travis Tran",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 16,
+  "faces": [
+   [
+    "PitagonSansMono-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "PitagonSansMono-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "PitagonSansMono-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "PitagonSansMono-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "PitagonSansMono-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "PitagonSansMono-ExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "PitagonSansMono-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "PitagonSansMono-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "PitagonSansMono-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "PitagonSansMono-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "PitagonSansMono-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "PitagonSansMono-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "PitagonSansMono-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "PitagonSansMono-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "PitagonSansMono-Thin.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "PitagonSansMono-ThinItalic.otf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "PitagonSansMono-Bold.otf",
+   "PitagonSansMono-BoldItalic.otf",
+   "PitagonSansMono-ExtraBold.otf",
+   "PitagonSansMono-ExtraBoldItalic.otf",
+   "PitagonSansMono-ExtraLight.otf",
+   "PitagonSansMono-ExtraLightItalic.otf",
+   "PitagonSansMono-Italic.otf",
+   "PitagonSansMono-Light.otf",
+   "PitagonSansMono-LightItalic.otf",
+   "PitagonSansMono-Medium.otf",
+   "PitagonSansMono-MediumItalic.otf",
+   "PitagonSansMono-Regular.otf",
+   "PitagonSansMono-SemiBold.otf",
+   "PitagonSansMono-SemiBoldItalic.otf",
+   "PitagonSansMono-Thin.otf",
+   "PitagonSansMono-ThinItalic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/ThePitagon/pitagon-sans-mono",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2023 The Pitagon Sans Mono Project Authors (https://github.com/ThePitagon/pitagon-sans-mono)"
  },
  {
   "name": "Pixeloid Sans",
@@ -11793,5 +12107,36 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright © 2025 by Namikus"
+ },
+ {
+  "name": "Федоровск (Fedorovsk Unicode)",
+  "slug": "fedorovsk-unicode",
+  "author": "Ponomar Project",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "FedorovskUnicode.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "FedorovskUnicode.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/typiconman/fonts-cu",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2013-2020 Aleksandr Andreev and Nikita Simmons (https://sci.ponomar.net/)."
  }
 ]

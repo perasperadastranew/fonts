@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 293 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 298 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -120,14 +120,17 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Gewtymol | Bryndan Meyerholt | SIL OFL 1.1 | 1 | [github.com](https://github.com/Bry10022/Gewtymol) |
 | GhostSigns | Мария Павлова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Gnezdo | Кристина Макарова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Go Mono | Bigelow & Holmes | BSD 3-Clause | 2 | [github.com](https://github.com/golang/image) |
 | Gochi Hand Cyrillic | Huerta Tipografica, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gochi-hand-cyrillic.otf) |
 | Gogono Cocoa Mochi | Goma Shin, Denis Ignatov; https://scripts.sil.org/OFL | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gogono-cocoa-mochi-cyrillic.otf) |
 | Googee | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/googee.zip) |
+| Greybeard | Andy Walker | MIT / X11 | 4 | [github.com](https://github.com/flowchartsman/greybeard) |
 | Gridtile | GGBotNet | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Gugi Cyrillic | TAE System &amp; Typefaces Co., Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gugi-cyrillic.otf) |
 | Guidy | Матвей Малкин aka nicl4m | SIL OFL 1.1 | 1 | [github.com](https://github.com/collectivetypeworks/Guidy/releases/download/Typeface/Guidy-1.1.zip) |
 | Hack | Source Foundry; Source Foundry Authors | Bitstream Vera (свободная) | 4 | [github.com](https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip) |
 | Harpseal | David Jonathan Ross, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/harpseal.otf) |
+| Hauora Sans | WCYS & Co. | SIL OFL 1.1 | 7 | [github.com](https://github.com/WCYS-Co/Hauora-Sans) |
 | Helvetia Verbundene | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/Helvetia.zip) |
 | Heuristica | Andrej Panov | SIL OFL 1.1 | 4 | [ctan.org](https://ctan.org/pkg/heuristica) |
 | HG2G | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/HG2G/HG2G.otf) |
@@ -204,6 +207,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Peter Ivanowitsch | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/Peter_Ivanovitsch.zip) |
 | Phlatt Grotesk | RandomMaerks | SIL OFL 1.1 | 1 | [github.com](https://github.com/RandomMaerks/Phlatt-Grotesk) |
 | Pinzelan | GGBot | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/pinzelan-cyrillic.otf) |
+| Pitagon Sans Mono | Travis Tran | SIL OFL 1.1 | 16 | [github.com](https://github.com/ThePitagon/pitagon-sans-mono) |
 | Pixeloid Sans | GGBotNet | SIL OFL 1.1 | 6 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Pixelzone | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/pixelzone-font) |
 | Play | Jonas Hecksher (Cyrillic expansion: Cyreal); Jonas Hecksher, Playtype, e-types A | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/play) |
@@ -323,3 +327,4 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Оглавие (Oglavie) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Oglavie) |
 | Степан (Stepan) | Валерия Жеребятьева (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Сёнэн (Shonen) | Намик Мардахаев aka Намикус | SIL OFL 1.1 | 4 | [disk.yandex.ru](https://disk.yandex.ru/d/kXQNv8W06rYbJQ) |
+| Федоровск (Fedorovsk Unicode) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/typiconman/fonts-cu) |
