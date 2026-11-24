@@ -1740,21 +1740,12 @@ polaroid(p){const ws=RW(3);const bw=baseW(F),hw=heavyW(F);const r=RS('po');const
   <div style="position:absolute;left:0;right:0;bottom:1.4cqmin;text-align:center;font-family:${ff()};font-weight:${bw};font-size:3.6cqmin;color:${INK}">${esc(w)}</div></div>`).join('')}</div>`}},
 });
 Object.assign(TPL_NAME,{tape:'Полосы скотча',brush:'Мазки кистью',graffiti:'Перечёркнуто',nametag:'Бейдж «Привет»',justify:'Строки в размер',repeat:'Повтор',tunnel:'Тоннель',ribbon:'Ленты',spiral:'Спираль',scatter:'Россыпь букв',glow:'Засвет',shatter:'Разбитое стекло',sticky:'Стикер',patch:'Вышитая нашивка',invite:'Приглашение',flyer:'Объявление',ransom:'Вырезки',badge:'Пропуск',movie:'Кинопостер',pills:'Капсулы',dialog:'Системное окно',edges:'Подписи по краям',tower:'Слово-башня',riso:'Ризография',letter:'Письмо с маркером',stomp:'Стомп',slice:'Разрез',polaroid:'Полароиды'});
-const REFS=['tape','brush','graffiti','nametag','justify','repeat','tunnel','ribbon','spiral','scatter','glow','shatter','sticky','patch','invite','flyer','ransom','badge','movie','pills','dialog','edges','tower','riso','letter','stomp','slice','polaroid'];
-// куда их пускать по слотам (r45 — карточки 4:5, r11 — квадрат, r169 — широкий, r21 — лента)
-TPL_BY_SLOT.r45.push('tape','brush','graffiti','nametag','justify','repeat','tunnel','spiral','scatter','glow','shatter','sticky','patch','invite','flyer','ransom','badge','movie','pills','dialog','edges','tower','riso','letter','stomp','slice');
-TPL_BY_SLOT.r11.push('tape','graffiti','nametag','repeat','tunnel','spiral','scatter','shatter','sticky','patch','ransom','dialog','edges','riso','stomp','slice','polaroid');
-TPL_BY_SLOT.r169.push('brush','ribbon','scatter','glow','shatter','ransom','edges','riso','stomp','slice','polaroid','pills');
-TPL_BY_SLOT.r21.push('ribbon','scatter','ransom','stomp','slice','pills');
+const REFS=['tape','brush','graffiti','nametag','justify','repeat','ribbon','spiral','shatter','sticky','patch','invite','ransom','badge','pills','dialog','edges','tower','riso','letter','stomp','slice'];
+// приёмы живут только в разделе «Приёмы с афиш»: в общие образцы и обложки не пускаем, пока не отполируем
 // длинные фразы плохо живут в «одном слове» — правила
 if(typeof RULES!=='undefined')Object.assign(RULES,{nametag:{max:60},badge:{max:80}});
-// направления по классам: какие приёмы родные, какие — контраст
-(()=>{const add=(c,fit,tw,cov)=>{const d=DIR[c];if(!d)return;d.fit.push(...fit);d.tw.push(...tw);if(cov)d.cover.push(...cov)};
- add('Гротеск',['justify','edges','repeat','pills','badge','dialog','tape','stomp'],['brush','patch','letter'],['justify','edges','repeat']);
- add('Антиква',['letter','movie','invite','edges','tunnel'],['ransom','riso','tape'],['movie','letter']);
- add('Акцидентный',['brush','graffiti','shatter','tunnel','ribbon','glow','scatter','tower','riso','slice','stomp','ransom','movie'],['sticky','flyer','badge'],['brush','graffiti','shatter','glow','tower','slice']);
- add('Моно',['dialog','badge','flyer','repeat','edges'],['riso','tape','glow'],['dialog','repeat']);
- add('Рукописный',['sticky','invite','patch','nametag','polaroid','letter'],['flyer','dialog','tape'],['sticky','nametag','invite']);})();
+// какие приёмы родные для класса (используется в разделе «Приёмы с афиш»)
+const REF_FIT={'Гротеск':['justify','edges','repeat','pills','badge','tape','stomp','ransom'],'Антиква':['letter','invite','edges','riso','tape'],'Акцидентный':['brush','graffiti','shatter','ribbon','tower','riso','slice','stomp','ransom'],'Моно':['dialog','badge','repeat','edges','tape'],'Рукописный':['sticky','invite','patch','nametag','letter']};
 
 // ---------- режим мини-аппа Telegram: ?tg=1, внутри Telegram WebApp или в iframe мини-аппа
 const TGQ=new URLSearchParams(location.search);
@@ -2084,7 +2075,7 @@ function fontPage(f){
  $('#vp').onclick=()=>{vpal=vpal.map(()=>Math.floor(Math.random()*PAL.length));document.querySelectorAll('.phone').forEach(e=>delete e.dataset.ph);drawPh()};
  $('#subch').onclick=e=>{const b=e.target.closest('[data-sub]');if(!b)return;SUBSEL=b.dataset.sub;lsSet('pada_sub',SUBSEL);document.querySelectorAll('[data-sub]').forEach(x=>x.classList.toggle('on',x===b));const ph=$('#vph0');ph.dataset.t=SUBSEL;$('#vpc0').textContent='Титры: '+b.textContent.toLowerCase();compose(ph,f,SUBSEL,vpal[0])};
  $('#phm').onclick=()=>{PHM=PHM==='mix'?'mine':'mix';lsSet('pada_phm',PHM);$('#phm').textContent=PHM==='mix'?'Фразы: разные':'Фразы: мои';drawTiles();drawPh();drawLife()};
- const refPick=()=>{const d=dirOf(f);const own=REFS.filter(x=>d.fit.includes(x)||d.tw.includes(x));const rest=REFS.filter(x=>!own.includes(x));const a=[...own].sort(()=>Math.random()-.5).slice(0,3);while(a.length<4){const x=R(rest);if(!a.includes(x))a.push(x)}return a.sort(()=>Math.random()-.5)};
+ const refPick=()=>{const own=REFS.filter(x=>(REF_FIT[f[1]]||[]).includes(x));const rest=REFS.filter(x=>!own.includes(x));const a=[...own].sort(()=>Math.random()-.5).slice(0,3);while(a.length<4){const x=R(rest);if(!a.includes(x))a.push(x)}return a.sort(()=>Math.random()-.5)};
  let RKS=null,RPS=null;const drawRefs=(nw)=>{const box=$('#refs');if(!box)return;if(nw||!RKS){RKS=refPick();RPS=RKS.map(()=>Math.floor(Math.random()*PAL.length))}const ks=RKS;box.innerHTML=ks.map((k,i)=>`<figure><div class="reft tile" id="rf${i}" data-t="${k}"><div class="art"></div></div><figcaption>${TPL_NAME[k]||k}</figcaption></figure>`).join('');ks.forEach((k,i)=>{try{compose($('#rf'+i),f,k,RPS[i])}catch(e){console.warn(k,e)}})};drawRefs();if($('#rfn'))$('#rfn').onclick=()=>drawRefs(true);
  window._redrawAll=()=>{drawTiles();drawCover();drawPh();drawLife();drawRefs();compose($('#geo'),f,'blueprint',0)};
  edInit($('#smp'),n=>{const t=tiles[+n.closest('.tile').dataset.ti];if(t){t.lock=true;const a=n.closest('.art').cloneNode(true);a.querySelectorAll('[contenteditable]').forEach(x=>x.removeAttribute('contenteditable'));t.html=a.innerHTML;const lb=n.closest('.tile').querySelector('[data-a2="lock"]');if(lb){lb.textContent='Закреплено';lb.setAttribute('aria-pressed','true')}}});
