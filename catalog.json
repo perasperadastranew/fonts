@@ -431,6 +431,53 @@
   "copyright": "Alco Sans copyright 2020-2026 Kreative Software under the Open Font License.\nBased on Noto Sans 2.003 copyright 2019 Goo"
  },
  {
+  "name": "Allo Cyr",
+  "slug": "allo-cyr",
+  "author": "Josh Puckett; кириллица — ynckz",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "faces": [
+   [
+    "AlloCyr-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "AlloCyr-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AlloCyr-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   700
+  ],
+  "files": [
+   "AlloCyr-Bold.ttf",
+   "AlloCyr-Medium.ttf",
+   "AlloCyr-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/ynckz/allo-cyr",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 Josh Puckett (https://joshpuckett.me). Portions Copyright (c) 2016 The Inter Project Authors (https://git"
+ },
+ {
   "name": "Ambidexter Regular",
   "slug": "ambidexter-regular",
   "author": "Егор Белозёров",
@@ -940,6 +987,89 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2004, 2005 Tristan Grimmer\nCopyright (c) 2014 Manchson\n \nPermission is hereby granted, free of charge, to "
+ },
+ {
+  "name": "Batumi Sans",
+  "slug": "batumi-sans",
+  "author": "Koba Jgenti, Borbalo",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "BatumiSans-Italic[wdth,wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "BatumiSansRounded-Italic[wdth,wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "BatumiSansRounded[wdth,wght].ttf",
+    100,
+    900,
+    false
+   ],
+   [
+    "BatumiSans[wdth,wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "BatumiSans-Italic[wdth,wght].ttf",
+   "BatumiSansRounded-Italic[wdth,wght].ttf",
+   "BatumiSansRounded[wdth,wght].ttf",
+   "BatumiSans[wdth,wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Borbalo/batumi-sans",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Batumi Sans Project Authors (https://github.com/Borbalo/batumi-sans), Borbalo (KJ Group) and Koba Jge"
+ },
+ {
+  "name": "Baumans Cyrillic",
+  "slug": "baumans-cyrillic",
+  "author": "Cyreal (Henadij Zarechnjuk)",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Baumans-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Baumans-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/cyrealtype/Baumans-Cyrillic",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org)\rwith Reserved Font Name \"Baumans\".\r\rThis Font Software is licensed under the"
  },
  {
   "name": "Baymax",
@@ -2359,6 +2489,52 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Crimson Pro Cyr",
+  "slug": "crimson-pro-cyr",
+  "author": "Jacques Le Bailly; кириллица — Алексей Бурба",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "faces": [
+   [
+    "CrimsonProCyr-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "CrimsonProCyr-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "CrimsonProCyr-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   800
+  ],
+  "files": [
+   "CrimsonProCyr-ExtraBold.otf",
+   "CrimsonProCyr-Italic.otf",
+   "CrimsonProCyr-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexburba/CrimsonPro-Cyr-Typeface",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro)"
+ },
+ {
   "name": "Crosspath Hand",
   "slug": "crosspath-hand",
   "author": "Victor Popov; crosspath.cv",
@@ -3299,6 +3475,134 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2013 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
+  "name": "Ficus",
+  "slug": "ficus",
+  "author": "Erik Kennedy (Figtree); кириллица — apshenichniy",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 14,
+  "faces": [
+   [
+    "Ficus-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Ficus-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "Ficus-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Ficus-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Ficus-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Ficus-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "Ficus-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Ficus-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Ficus-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Ficus-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Ficus-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Ficus-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Ficus-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Ficus-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "Ficus-Black.ttf",
+   "Ficus-BlackItalic.ttf",
+   "Ficus-Bold.ttf",
+   "Ficus-BoldItalic.ttf",
+   "Ficus-ExtraBold.ttf",
+   "Ficus-ExtraBoldItalic.ttf",
+   "Ficus-Italic.ttf",
+   "Ficus-Light.ttf",
+   "Ficus-LightItalic.ttf",
+   "Ficus-Medium.ttf",
+   "Ficus-MediumItalic.ttf",
+   "Ficus-Regular.ttf",
+   "Ficus-SemiBold.ttf",
+   "Ficus-SemiBoldItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/apshenichniy/ficus-font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree), with Cyrillic contributed by drawc"
  },
  {
   "name": "First Time Writing",
@@ -5872,6 +6176,53 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Lapidar Ewallee",
+  "slug": "lapidar-ewallee",
+  "author": "Ewallee",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "faces": [
+   [
+    "LapidarEwallee-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "LapidarEwallee-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "LapidarEwallee-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700,
+   900
+  ],
+  "files": [
+   "LapidarEwallee-Black.otf",
+   "LapidarEwallee-Bold.otf",
+   "LapidarEwallee-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Ewallee/lapidar-ewallee-font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2026 Ewallee"
+ },
+ {
   "name": "Lato",
   "slug": "lato",
   "author": "Łukasz Dziedzic",
@@ -6163,6 +6514,59 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright GGBotNet 2025"
+ },
+ {
+  "name": "Libre Caslon Cyrillic",
+  "slug": "libre-caslon-cyrillic",
+  "author": "Pablo Impallari, Rodrigo Fuenzalida; кириллица — Алексей Бурба",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "LibreCaslonCyrCondensed-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "LibreCaslonTextCyrillic-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "LibreCaslonTextCyrillic-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "LibreCaslonTextCyrillic-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "LibreCaslonCyrCondensed-Regular.otf",
+   "LibreCaslonTextCyrillic-Bold.otf",
+   "LibreCaslonTextCyrillic-Italic.otf",
+   "LibreCaslonTextCyrillic-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexburba/Libre-Caslon-Cyrillic",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)\nCopyright 2023 Ertek"
  },
  {
   "name": "LINE Seed JP",
@@ -6934,6 +7338,254 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2026 The Medeo Project Authors (https://github.com/DNFDEVS/medeo-font). Copyright 2024 The Geist Project Autho"
+ },
+ {
+  "name": "Medeo Pixel",
+  "slug": "medeo-pixel",
+  "author": "DNF Studio",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "MedeoPixel-Circle.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MedeoPixel-Grid.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MedeoPixel-Line.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MedeoPixel-Square.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MedeoPixel-Triangle.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "MedeoPixel-Circle.ttf",
+   "MedeoPixel-Grid.ttf",
+   "MedeoPixel-Line.ttf",
+   "MedeoPixel-Square.ttf",
+   "MedeoPixel-Triangle.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/DNFDEVS/medeo-font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Medeo Project Authors (https://github.com/DNFDEVS/medeo-font). Copyright 2026 The Geist Project Autho"
+ },
+ {
+  "name": "Medeo Sans",
+  "slug": "medeo-sans",
+  "author": "DNF Studio",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "MedeoSans-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "MedeoSans-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "MedeoSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MedeoSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MedeoSans-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MedeoSans-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MedeoSans-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MedeoSans-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "MedeoSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MedeoSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MedeoSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MedeoSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MedeoSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "MedeoSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MedeoSans-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MedeoSans-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "MedeoSans-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "MedeoSans-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "MedeoSans-Black.ttf",
+   "MedeoSans-BlackItalic.ttf",
+   "MedeoSans-Bold.ttf",
+   "MedeoSans-BoldItalic.ttf",
+   "MedeoSans-ExtraBold.ttf",
+   "MedeoSans-ExtraBoldItalic.ttf",
+   "MedeoSans-ExtraLight.ttf",
+   "MedeoSans-ExtraLightItalic.ttf",
+   "MedeoSans-Italic.ttf",
+   "MedeoSans-Light.ttf",
+   "MedeoSans-LightItalic.ttf",
+   "MedeoSans-Medium.ttf",
+   "MedeoSans-MediumItalic.ttf",
+   "MedeoSans-Regular.ttf",
+   "MedeoSans-SemiBold.ttf",
+   "MedeoSans-SemiBoldItalic.ttf",
+   "MedeoSans-Thin.ttf",
+   "MedeoSans-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/DNFDEVS/medeo-font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Medeo Project Authors (https://github.com/DNFDEVS/medeo-font). Copyright 2024 The Geist Project Autho"
+ },
+ {
+  "name": "Medeo Serif",
+  "slug": "medeo-serif",
+  "author": "DNF Studio",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "MedeoSerif-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "MedeoSerif-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/DNFDEVS/medeo-font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Medeo Project Authors (https://github.com/DNFDEVS/medeo-font). Copyright 2024-2026 The Geist Project "
  },
  {
   "name": "Melt",
@@ -7965,6 +8617,45 @@
   "copyright": "© XMind ltd. All Rights Reserved."
  },
  {
+  "name": "Newsreader Cyrillic",
+  "slug": "newsreader-cyrillic",
+  "author": "Production Type; кириллица — Алексей Бурба",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "NewsreaderCyr72pt-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "NewsreaderСyr72pt-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400
+  ],
+  "files": [
+   "NewsreaderCyr72pt-LightItalic.otf",
+   "NewsreaderСyr72pt-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexburba/Newsreader-Cyrillic-Typeface",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)"
+ },
+ {
   "name": "Nini Mono",
   "slug": "nini-mono",
   "author": "Niniglyphs; Sayantan Roy",
@@ -8296,6 +8987,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
+ },
+ {
+  "name": "Octahedron",
+  "slug": "octahedron",
+  "author": "Fox Novak",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Octahedron.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Octahedron.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Fox-Novak/octahedron",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2024-2026 The Octahedron Project Authors (https://github.com/Fox-Novak/octahedron)"
  },
  {
   "name": "Oldtimer",
@@ -8675,6 +9397,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Permanent Marker Cyrillic",
+  "slug": "permanent-marker-cyrillic",
+  "author": "Font Diner; кириллица — maukur",
+  "class": "Рукописный",
+  "license": "Apache 2.0",
+  "styles": 1,
+  "faces": [
+   [
+    "PermanentMarker-Regular.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "PermanentMarker-Regular.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/maukur/PermanentMarkerCyrillic",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved."
+ },
+ {
   "name": "Peter Ivanowitsch",
   "slug": "peter-ivanowitsch",
   "author": "Peter Wiegel",
@@ -8825,6 +9578,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Pirogov",
+  "slug": "pirogov",
+  "author": "AR (anovrus)",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Pirogov.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Pirogov.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/silentbay/Pirogov",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "AR"
+ },
+ {
   "name": "Pitagon Sans Mono",
   "slug": "pitagon-sans-mono",
   "author": "Travis Tran",
@@ -8966,6 +9750,44 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2023 The Pitagon Sans Mono Project Authors (https://github.com/ThePitagon/pitagon-sans-mono)"
+ },
+ {
+  "name": "Pix Cyrillic",
+  "slug": "pix-cyrillic",
+  "author": "zedseven, lotva (на основе Pixellari)",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "PixCyrillic-AShortHikeEdition.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "PixCyrillic.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "PixCyrillic-AShortHikeEdition.ttf",
+   "PixCyrillic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/lotva/pix-cyrillic",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "2023 zedseven, lotva"
  },
  {
   "name": "Pixeloid Sans",
@@ -9171,6 +9993,92 @@
   },
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)"
+ },
+ {
+  "name": "PoltarGeist",
+  "slug": "poltargeist",
+  "author": "Nazeonix (на основе Geist и Inter)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "PoltarGeist-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "PoltarGeist-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "PoltarGeist-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "PoltarGeist-SemiBold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "PoltarGeist-Bold.ttf",
+   "PoltarGeist-Medium.ttf",
+   "PoltarGeist-Regular.ttf",
+   "PoltarGeist-SemiBold.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Nazeonix/PoltarGeist",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font)"
+ },
+ {
+  "name": "Poppins Cyr",
+  "slug": "poppins-cyr",
+  "author": "Indian Type Foundry; кириллица — Алексей Бурба",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "PoppinsCyr-Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "PoppinsCyr-Bold.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexburba/poppins-cyrillic-typeface",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2026 Alexey Burba (alex@burba.pro)\nCopyright 2014-2019 Indian Type Foundry (info@indiantypefoundry.com)"
  },
  {
   "name": "PostBus",
@@ -9453,6 +10361,69 @@
   "copyright": "Copyright (c) 2020, la-ninpre"
  },
  {
+  "name": "Qazaq Grotesk",
+  "slug": "qazaq-grotesk",
+  "author": "Florian Karsten (Space Grotesk); казахская версия",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "QazaqGrotesk-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "QazaqGrotesk-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "QazaqGrotesk-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "QazaqGrotesk-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "QazaqGrotesk-SemiBold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "QazaqGrotesk-Bold.ttf",
+   "QazaqGrotesk-Light.ttf",
+   "QazaqGrotesk-Medium.ttf",
+   "QazaqGrotesk-Regular.ttf",
+   "QazaqGrotesk-SemiBold.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/mugid/qazaq-grotesk",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk). Cyrillic extension b"
+ },
+ {
   "name": "Qazaq Mono",
   "slug": "qazaq-mono",
   "author": "RZanbatyr (на основе Fira Mono)",
@@ -9726,6 +10697,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Roundo Cyr",
+  "slug": "roundo-cyr",
+  "author": "Indian Type Foundry; кириллица — Алексей Бурба",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "RoundoCyr-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RoundoCyr-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexburba/Roundo-Cyrillic",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2026 Alexey Burba, Copyright (c) 2015 Indian Type Foundry"
  },
  {
   "name": "Rubik 80s Fade",
@@ -10678,6 +11680,44 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Runicsly",
+  "slug": "runicsly",
+  "author": "MixelTe",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "Runicsly.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "RunicslyMono.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Runicsly.ttf",
+   "RunicslyMono.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/MixelTe/runicsly",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2025, Mixel Te"
+ },
+ {
   "name": "Russo One",
   "slug": "russo-one",
   "author": "Jovanny Lemonad; Jovanny lemonad",
@@ -11334,6 +12374,74 @@
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
  {
+  "name": "Splav",
+  "slug": "splav",
+  "author": "Игорь Купчиненко",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 6,
+  "faces": [
+   [
+    "Splav-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Splav-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Splav-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Splav-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Splav-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Splav-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "Splav-Bold.ttf",
+   "Splav-BoldItalic.ttf",
+   "Splav-Italic.ttf",
+   "Splav-Light.ttf",
+   "Splav-LightItalic.ttf",
+   "Splav-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/KidPudel/splav",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2026 Igor Kupchinenko. Cyrillic averaged from 18 SIL OFL serif families (see OFL.txt). Latin, figures, punctua"
+ },
+ {
   "name": "St.Sign",
   "slug": "st-sign",
   "author": "Анастасия Погорелова (Школа дизайна НИУ ВШЭ)",
@@ -11394,6 +12502,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
+ },
+ {
+  "name": "Stykhiia Text",
+  "slug": "stykhiia-text",
+  "author": "TheTurkeyProgramist",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "StykhiiaText-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "StykhiiaText-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/TheTurkeyProgramist/stykhiia-fonts",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Stykhiia Project Authors (https://github.com/TheTurkeyProgramist/stykhiia-fonts)"
  },
  {
   "name": "Swanky and Moo Moo",
@@ -11497,6 +12636,68 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": ""
+ },
+ {
+  "name": "Talyn Brush",
+  "slug": "talyn-brush",
+  "author": "на основе Nanum Brush Script (NHN)",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "TalynBrush-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TalynBrush-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/christophbuehler/talyn-brush",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc.\nCyrillic and German "
+ },
+ {
+  "name": "Tedeev",
+  "slug": "tedeev",
+  "author": "AR (anovrus)",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Tedeev.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Tedeev.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/silentbay/Tedeev",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "AR"
  },
  {
   "name": "Terminalia",
@@ -12646,6 +13847,45 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Work Sans Cyr",
+  "slug": "work-sans-cyr",
+  "author": "Wei Huang; кириллица — Алексей Бурба",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "WorkSansCyr-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "WorkSansCyr-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "WorkSansCyr-Bold.otf",
+   "WorkSansCyr-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexburba/Work-Sans-Cyr-Typeface",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans)"
+ },
+ {
   "name": "X Company",
   "slug": "x-company",
   "author": "GGBotNet",
@@ -12930,6 +14170,74 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Version 1.1 has been released under the CC0 license."
+ },
+ {
+  "name": "Yantar",
+  "slug": "yantar",
+  "author": "Alexander Pronin",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 6,
+  "faces": [
+   [
+    "YantarDash-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "YantarDash-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "YantarDash-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "YantarDot-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "YantarDot-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "YantarDot-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "YantarDash-Bold.ttf",
+   "YantarDash-Light.ttf",
+   "YantarDash-Regular.ttf",
+   "YantarDot-Bold.ttf",
+   "YantarDot-Light.ttf",
+   "YantarDot-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Goryuchnick/yantar",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Yantar Project Authors (https://github.com/Goryuchnick/yantar)"
  },
  {
   "name": "Yazo",
