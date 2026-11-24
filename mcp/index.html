@@ -44,6 +44,7 @@ h1 span{color:var(--fnt)}
 /* секции */
 .sec{display:grid;grid-template-columns:240px minmax(0,1fr);gap:48px;padding:64px 0;border-top:1px solid var(--ln)}
 .sec>header h2{margin:0;font-size:26px;font-weight:600;letter-spacing:-.03em;line-height:1.15}
+.sec>*{min-width:0}
 .sec>header p{margin:10px 0 0;font-size:15px;color:var(--mut)}
 
 /* табы */
@@ -86,7 +87,7 @@ ol.steps p b{color:var(--ink);font-weight:500}
 .ft{border-top:1px solid var(--ln);padding:32px 0 48px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--mut)}
 .ft a{color:var(--ink);text-decoration:none}
 
-@media(max-width:900px){.hero{grid-template-columns:1fr;gap:40px;padding:64px 0 56px}.sec{grid-template-columns:1fr;gap:24px;padding:48px 0}}
+@media(max-width:900px){.hero{grid-template-columns:minmax(0,1fr);gap:40px;padding:64px 0 56px}.sec{grid-template-columns:minmax(0,1fr);gap:24px;padding:48px 0}}
 @media(max-width:600px){.wrap{padding:0 18px}.row{grid-template-columns:1fr;gap:4px;padding:18px 20px}.prompts{grid-template-columns:1fr}.brand span,.lnk .lg{display:none}.lnk .sm{display:inline}.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;max-width:100%}.tabs::-webkit-scrollbar{display:none}.tab{white-space:nowrap;flex:none}ol.steps li{padding:20px;gap:12px}.lead{font-size:17px}.hero{padding-top:44px}}
 </style></head>
 <body>
