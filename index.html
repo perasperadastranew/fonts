@@ -1556,7 +1556,7 @@ Object.assign(T,{
 // 1. Полосы скотча: каждое слово на своей бумажной ленте, ленты чуть повёрнуты
 tape(p){const ws=RW(5);const r=RS('tape');const hw=heavyW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1.6cqmin;overflow:hidden;padding:6cqmin">
- ${ws.map((w,i)=>`<div style="background:${PAPER};color:${INK};font-family:${ff()};font-weight:${hw};font-size:${11-ws.length}cqmin;line-height:1;padding:1.6cqmin 3.4cqmin;transform:rotate(${(r()*6-3).toFixed(1)}deg) translateX(${(r()*10-5).toFixed(1)}cqmin);box-shadow:0 .8cqmin 1.6cqmin rgba(0,0,0,.25);clip-path:polygon(0 4%,3% 0,97% 6%,100% 0,99% 96%,96% 100%,2% 95%,0 100%);white-space:nowrap">${esc(w)}</div>`).join('')}
+ ${ws.map((w,i)=>`<div style="background:${PAPER};color:${INK};font-family:${ff()};font-weight:${hw};font-size:${17-ws.length*1.4}cqmin;line-height:1;padding:1.6cqmin 3.4cqmin;transform:rotate(${(r()*6-3).toFixed(1)}deg) translateX(${(r()*10-5).toFixed(1)}cqmin);box-shadow:0 .8cqmin 1.6cqmin rgba(0,0,0,.25);clip-path:polygon(0 4%,3% 0,97% 6%,100% 0,99% 96%,96% 100%,2% 95%,0 100%);white-space:nowrap">${esc(w)}</div>`).join('')}
  <div style="position:absolute;right:5cqmin;top:4cqmin;font:600 2.2cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.7">${esc(F[0].toUpperCase())} · ${new Date().getFullYear()}</div></div>`}},
 // 2. Мазки кистью за каждой строкой
 brush(p){const ws=RW(5);const r=RS('brush');const hw=heavyW(F);
@@ -1587,9 +1587,9 @@ repeat(p){const w=RW(1)[0];const hw=heavyW(F);const n=7;
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:flex;flex-direction:column;justify-content:center;padding:4cqmin 7cqmin;overflow:hidden">
  ${Array.from({length:n},(_,i)=>`<div style="font-family:${ff()};font-weight:${hw};font-size:12.5cqmin;line-height:.95;color:${i===n-1?p[3]:p[2]};opacity:${i===n-1?1:(.18+i*.11).toFixed(2)};white-space:nowrap">${esc(w)}</div>`).join('')}</div>`}},
 // 7. Тоннель: слово рамками уходит вглубь
-tunnel(p){const w=RW(2).join(' ').toUpperCase();const hw=heavyW(F);const n=7;
+tunnel(p){const w=RW(2).join(' ').toUpperCase();const hw=heavyW(F);const n=6;
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">
- ${Array.from({length:n},(_,i)=>{const s=100-i*13;return `<div style="position:absolute;left:50%;top:50%;width:${s}%;height:${s}%;transform:translate(-50%,-50%);border:${(1.6-i*.15).toFixed(2)}cqmin solid ${i%2?p[3]:p[2]};opacity:${(1-i*.11).toFixed(2)};display:grid;place-items:start center;overflow:hidden"><span style="font-family:${ff()};font-weight:${hw};font-size:${(5.4-i*.6).toFixed(2)}cqmin;line-height:1.1;color:${i%2?p[3]:p[2]};white-space:nowrap">${esc(w)} · ${esc(w)} · ${esc(w)}</span></div>`}).join('')}
+ ${Array.from({length:n},(_,i)=>{const s=100-i*15;return `<div style="position:absolute;left:50%;top:50%;width:${s}%;height:${s}%;transform:translate(-50%,-50%);border:${(1.6-i*.15).toFixed(2)}cqmin solid ${i%2?p[3]:p[2]};opacity:${(1-i*.11).toFixed(2)};display:grid;place-items:start center;overflow:hidden"><span style="font-family:${ff()};font-weight:${hw};font-size:${(7.4-i*.9).toFixed(2)}cqmin;line-height:1.1;color:${i%2?p[3]:p[2]};white-space:nowrap">${esc(w)} · ${esc(w)} · ${esc(w)}</span></div>`}).join('')}
  <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:${ff()};font-weight:${hw};font-size:5cqmin;color:${p[2]};white-space:nowrap">${esc(F[0])}</div></div>`}},
 // 8. Ленты: три полосы с бегущим текстом через весь формат
 ribbon(p){const t=(phrase()+' · ').repeat(6);const hw=heavyW(F);const L=[[-18,32,p[3],p[1]],[12,52,p[2],p[1]],[-6,74,PAPER,INK]];
@@ -1619,14 +1619,14 @@ glow(p){const ws=RW(6);const hw=heavyW(F);
 shatter(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F);
  const sh=[['0 0,55% 0,40% 100%,0 100%',[0,0]],['55% 0,100% 0,100% 45%,48% 60%',[1.2,-1.4]],['48% 60%,100% 45%,100% 100%,40% 100%',[-.8,1.6]]];
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">
- ${sh.map(([c,[dx,dy]],i)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;clip-path:polygon(${c});transform:translate(${dx}cqmin,${dy}cqmin) rotate(${i?(i===1?1.5:-1.2):0}deg)"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(26,150/Math.max(3,w.length))}cqmin;line-height:1;color:${p[2]};white-space:nowrap">${esc(w)}</span></div>`).join('')}
+ ${sh.map(([c,[dx,dy]],i)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;clip-path:polygon(${c});transform:translate(${dx}cqmin,${dy}cqmin) rotate(${i?(i===1?1.5:-1.2):0}deg)"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(26,120/Math.max(3,w.length))}cqmin;line-height:1;color:${p[2]};white-space:nowrap">${esc(w)}</span></div>`).join('')}
  <svg viewBox="0 0 100 100" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%"><path d="M55,0 L40,100 M48,60 L100,45 M48,60 L10,78 M48,60 L62,100 M30,30 L48,60" stroke="${p[3]}" stroke-width=".35" fill="none" vector-effect="non-scaling-stroke"/></svg></div>`}},
 // 13. Стикер на мониторе
 sticky(p){const ws=RW(5);const hw=heavyW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:grid;place-items:center;overflow:hidden">
  <div style="width:62cqmin;height:62cqmin;background:#FBE98A;transform:rotate(2.5deg);box-shadow:0 2.4cqmin 3cqmin -1cqmin rgba(0,0,0,.35);padding:6cqmin 5cqmin;display:flex;flex-direction:column;justify-content:center;gap:1cqmin;position:relative">
   <div style="position:absolute;left:0;right:0;top:0;height:9cqmin;background:linear-gradient(#F3DC6F,#FBE98A)"></div>
-  ${ws.map((w,i)=>`<div style="position:relative;font-family:${ff()};font-weight:${hw};font-size:${ws.length>3?7:9}cqmin;line-height:1;color:#2A2A2A;transform:translateX(${i%2?4:0}cqmin)">${esc(w)}</div>`).join('')}</div></div>`}},
+  ${ws.map((w,i)=>`<div style="position:relative;font-family:${ff()};font-weight:${hw};font-size:${ws.length>3?9:12}cqmin;line-height:1;color:#2A2A2A;transform:translateX(${i%2?4:0}cqmin)">${esc(w)}</div>`).join('')}</div></div>`}},
 // 14. Вышитая нашивка-облачко
 patch(p){const w=RW(2).join(' ');const hw=heavyW(F);
  return {html:`<div style="position:absolute;inset:0;background:${PAPER};display:grid;place-items:center;overflow:hidden">
@@ -1695,12 +1695,12 @@ edges(p){const w=RW(1)[0];const hw=heavyW(F),bw=baseW(F);const ws=words();const 
  <div style="position:absolute;left:4cqmin;top:4cqmin;right:4cqmin;display:flex;justify-content:space-between">${s('ЛЕКЦИЯ')}${s(String(new Date().getDate()).padStart(2,'0')+'.'+String(new Date().getMonth()+1).padStart(2,'0'))}${s('19:30')}</div>
  <div style="position:absolute;left:4cqmin;top:50%;transform:translateY(-50%) rotate(180deg);writing-mode:vertical-rl">${s(ws.slice(1,4).join(' ').toUpperCase())}</div>
  <div style="position:absolute;right:4cqmin;top:50%;transform:translateY(-50%);writing-mode:vertical-rl">${s(F[0].toUpperCase()+' · '+CAT[F[1]])}</div>
- <div style="position:absolute;inset:0;display:grid;place-items:center"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(28,170/Math.max(3,w.length))}cqmin;line-height:1;color:${p[3]}">${esc(w)}</span></div>
+ <div style="position:absolute;inset:0;display:grid;place-items:center"><span style="font-family:${ff()};font-weight:${hw};font-size:${Math.min(28,125/Math.max(3,w.length))}cqmin;line-height:1;color:${p[3]}">${esc(w)}</span></div>
  <div style="position:absolute;left:4cqmin;right:4cqmin;bottom:4cqmin;display:flex;justify-content:space-between">${s('ВХОД СВОБОДНЫЙ')}${s('БОЛЬШОЙ ЗАЛ')}</div></div>`}},
 // 23. Огромное слово вертикально, поверх — подпись
 tower(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F),bw=baseW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">
- <div style="position:absolute;right:-2cqmin;top:50%;transform:translateY(-50%);writing-mode:vertical-rl;font-family:${ff()};font-weight:${hw};font-size:${Math.min(44,190/Math.max(3,w.length))}cqmin;line-height:.82;color:${p[2]};white-space:nowrap">${esc(w)}</div>
+ <div style="position:absolute;right:-2cqmin;top:50%;transform:translateY(-50%);writing-mode:vertical-rl;font-family:${ff()};font-weight:${hw};font-size:${Math.min(40,150/Math.max(3,w.length))}cqh;line-height:.82;color:${p[2]};white-space:nowrap">${esc(w)}</div>
  <div style="position:absolute;left:6cqmin;bottom:6cqmin;max-width:45%;font-family:${ff()};font-weight:${bw};font-size:3.4cqmin;line-height:1.25;color:${p[3]}">${esc(words().slice(1,8).join(' '))}</div>
  <div style="position:absolute;left:6cqmin;top:6cqmin;font:600 2cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.7">${esc(F[0])}<br>3 НОМИНАЦИИ</div></div>`}},
 // 24. Ризография: два прогона краской со сдвигом
@@ -1721,10 +1721,10 @@ letter(p){const ph=phrase();const bw=baseW(F),hw=heavyW(F);const ws=words();cons
 stomp(p){const ws=words().slice(0,10);const hw=heavyW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:grid;place-items:center;overflow:hidden"><div class="st" style="font-family:${ff()};font-weight:${hw};color:${p[2]};line-height:1;text-align:center;padding:0 6cqmin;transition:opacity .25s">${esc(ws[0])}</div>
  <div style="position:absolute;left:5cqmin;bottom:4cqmin;font:500 2cqmin 'JetBrains Mono',monospace;color:${p[3]}" class="sn">01/${String(ws.length).padStart(2,'0')}</div></div>`,
- after(el){const s=el.querySelector('.st'),n=el.querySelector('.sn');let i=0;const set=()=>{const w=ws[i];s.textContent=w;s.style.fontSize=Math.min(34,170/Math.max(2,w.length))+'cqmin';s.style.color=i%3===2?p[3]:p[2];n.textContent=String(i+1).padStart(2,'0')+'/'+String(ws.length).padStart(2,'0')};set();
+ after(el){const s=el.querySelector('.st'),n=el.querySelector('.sn');let i=0;const set=()=>{const w=ws[i];s.textContent=w;s.style.fontSize=Math.min(34,130/Math.max(2,w.length))+'cqmin';s.style.color=i%3===2?p[3]:p[2];n.textContent=String(i+1).padStart(2,'0')+'/'+String(ws.length).padStart(2,'0')};set();
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;loopT(el,1100,()=>{i=(i+1)%ws.length;set()})}}},
 // 27. Разрез: слово разрезано, половинки сдвинуты
-slice(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F);const fs=Math.min(30,170/Math.max(3,w.length));
+slice(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F);const fs=Math.min(30,125/Math.max(3,w.length));
  const half=(top,dx,c)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;clip-path:inset(${top?'0 0 50% 0':'50% 0 0 0'});transform:translateX(${dx}cqmin)"><span style="font-family:${ff()};font-weight:${hw};font-size:${fs}cqmin;line-height:1;color:${c};white-space:nowrap">${esc(w)}</span></div>`;
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">${half(1,-3,p[2])}${half(0,3,p[3])}
  <div style="position:absolute;left:0;right:0;top:50%;height:1px;background:${p[2]};opacity:.4"></div>
@@ -1732,7 +1732,7 @@ slice(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F)
 // 28. Полароиды: фраза подписана на карточках-снимках
 polaroid(p){const ws=RW(3);const bw=baseW(F),hw=heavyW(F);const r=RS('po');const sh=['ЖЁЛТЫЙ','ЛУНА','СТАРТ'];
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};overflow:hidden">
- ${ws.map((w,i)=>`<div style="position:absolute;left:${10+i*26}%;top:${16+(i%2)*18}%;width:34%;background:#FBFAF6;padding:1.6cqmin 1.6cqmin 6cqmin;transform:rotate(${(r()*14-7).toFixed(1)}deg);box-shadow:0 1.4cqmin 2.4cqmin rgba(0,0,0,.3)">
+ ${ws.map((w,i)=>`<div style="position:absolute;left:${6+i*27}%;top:${14+(i%2)*22}%;width:36%;background:#FBFAF6;padding:1.6cqmin 1.6cqmin 6cqmin;transform:rotate(${(r()*14-7).toFixed(1)}deg);box-shadow:0 1.4cqmin 2.4cqmin rgba(0,0,0,.3)">
   <div style="aspect-ratio:1;background:${[p[3],p[2],INK][i%3]};display:grid;place-items:center;color:${i%3===1?p[1]:PAPER};font-family:${ff()};font-weight:${hw};font-size:9cqmin">${esc(F[0][i]||'Ж')}</div>
   <div style="position:absolute;left:0;right:0;bottom:1.4cqmin;text-align:center;font-family:${ff()};font-weight:${bw};font-size:3.6cqmin;color:${INK}">${esc(w)}</div></div>`).join('')}</div>`}},
 });
