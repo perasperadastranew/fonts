@@ -3900,6 +3900,37 @@
   "copyright": ""
  },
  {
+  "name": "BoldPixels",
+  "slug": "boldpixels",
+  "author": "Yūki (YukiPixels)",
+  "class": "Акцидентный",
+  "license": "CC BY-SA",
+  "styles": 1,
+  "faces": [
+   [
+    "BoldPixels.otf",
+    800,
+    800,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   800
+  ],
+  "files": [
+   "BoldPixels.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://yukipixels.itch.io/boldpixels",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Bona Nova",
   "slug": "bona-nova",
   "author": "Mateusz Machalski",
@@ -7171,6 +7202,44 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/delagothicone",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Delta Block",
+  "slug": "delta-block",
+  "author": "GGBotNet",
+  "class": "Акцидентный",
+  "license": "CC0 / Public Domain",
+  "styles": 2,
+  "faces": [
+   [
+    "DeltaBlock-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DeltaBlock-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "DeltaBlock-Italic.ttf",
+   "DeltaBlock-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/delta-block-font",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -16946,6 +17015,44 @@
   "copyright": "Copyright (c) 2014, Linus Romer, with Reserved Font Name Miama Nueva.\n\nThis Font Software is licensed under the SIL Open"
  },
  {
+  "name": "Midnight Letters",
+  "slug": "midnight-letters",
+  "author": "GGBotNet",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "MidnightLetters-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MidnightLetters-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "MidnightLetters-Italic.ttf",
+   "MidnightLetters-Regular.ttf"
+  ],
+  "license_files": [
+   "License.txt"
+  ],
+  "source": "https://ggbot.itch.io/midnight-letters-font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Miracode",
   "slug": "miracode",
   "author": "Idrees Hassan",
@@ -17928,6 +18035,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2026 The Nambli Project Authors (https://github.com/Tor-Production/nambli-font)"
+ },
+ {
+  "name": "NarrowPixel",
+  "slug": "narrowpixel",
+  "author": "SpicyGame Studios",
+  "class": "Акцидентный",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "faces": [
+   [
+    "NarrowPixel.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "NarrowPixel.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://spicygame.itch.io/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Nata Sans",
@@ -22425,6 +22563,37 @@
   "copyright": "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
  },
  {
+  "name": "QuestSquare",
+  "slug": "questsquare",
+  "author": "SpicyGame Studios",
+  "class": "Акцидентный",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "faces": [
+   [
+    "QuestSquare.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "QuestSquare.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://spicygame.itch.io/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "QuinqueFive",
   "slug": "quinquefive",
   "author": "GGBotNet",
@@ -23486,6 +23655,37 @@
   "copyright": "Copyright (c) 2026 Alexey Burba, Copyright (c) 2015 Indian Type Foundry"
  },
  {
+  "name": "RoyaltyMono",
+  "slug": "royaltymono",
+  "author": "SpicyGame Studios",
+  "class": "Моно",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "faces": [
+   [
+    "RoyaltyMono.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RoyaltyMono.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://spicygame.itch.io/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Rubik",
   "slug": "rubik",
   "author": "Hubert and Fischer",
@@ -24509,6 +24709,37 @@
   "cyrillic": "ru",
   "copyright": "(c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), (c) 2018 Denis Ignatov (https://mutno.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "RuneMono",
+  "slug": "runemono",
+  "author": "SpicyGame Studios",
+  "class": "Моно",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "faces": [
+   [
+    "RuneMono.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RuneMono.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://spicygame.itch.io/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Runicsly",
@@ -27033,6 +27264,246 @@
    "GUST e-foundry License.txt"
   ],
   "source": "https://fontlibrary.org/font/tex-gyre-adventor",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TeX Gyre Bonum",
+  "slug": "tex-gyre-bonum",
+  "author": "GUST e-foundry",
+  "class": "Антиква",
+  "license": "GUST Font License",
+  "styles": 4,
+  "faces": [
+   [
+    "texgyrebonum-bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "texgyrebonum-bolditalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "texgyrebonum-italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "texgyrebonum-regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "texgyrebonum-bold.otf",
+   "texgyrebonum-bolditalic.otf",
+   "texgyrebonum-italic.otf",
+   "texgyrebonum-regular.otf"
+  ],
+  "license_files": [
+   "GUST e-foundry License.txt"
+  ],
+  "source": "https://www.fontsquirrel.com/fonts/tex-gyre-bonum",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TeX Gyre Cursor",
+  "slug": "tex-gyre-cursor",
+  "author": "GUST e-foundry",
+  "class": "Моно",
+  "license": "GUST Font License",
+  "styles": 4,
+  "faces": [
+   [
+    "texgyrecursor-bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "texgyrecursor-bolditalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "texgyrecursor-italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "texgyrecursor-regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "texgyrecursor-bold.otf",
+   "texgyrecursor-bolditalic.otf",
+   "texgyrecursor-italic.otf",
+   "texgyrecursor-regular.otf"
+  ],
+  "license_files": [
+   "GUST e-foundry License.txt"
+  ],
+  "source": "https://www.fontsquirrel.com/fonts/tex-gyre-cursor",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TeX Gyre Heros",
+  "slug": "tex-gyre-heros",
+  "author": "GUST e-foundry",
+  "class": "Гротеск",
+  "license": "GUST Font License",
+  "styles": 8,
+  "faces": [
+   [
+    "texgyreheros-bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "texgyreheros-bolditalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "texgyreheros-italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "texgyreheros-regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "texgyreheroscn-bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "texgyreheroscn-bolditalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "texgyreheroscn-italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "texgyreheroscn-regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "texgyreheros-bold.otf",
+   "texgyreheros-bolditalic.otf",
+   "texgyreheros-italic.otf",
+   "texgyreheros-regular.otf",
+   "texgyreheroscn-bold.otf",
+   "texgyreheroscn-bolditalic.otf",
+   "texgyreheroscn-italic.otf",
+   "texgyreheroscn-regular.otf"
+  ],
+  "license_files": [
+   "GUST e-foundry License.txt"
+  ],
+  "source": "https://www.fontsquirrel.com/fonts/tex-gyre-heros",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TeX Gyre Schola",
+  "slug": "tex-gyre-schola",
+  "author": "GUST e-foundry",
+  "class": "Антиква",
+  "license": "GUST Font License",
+  "styles": 4,
+  "faces": [
+   [
+    "texgyreschola-bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "texgyreschola-bolditalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "texgyreschola-italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "texgyreschola-regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "texgyreschola-bold.otf",
+   "texgyreschola-bolditalic.otf",
+   "texgyreschola-italic.otf",
+   "texgyreschola-regular.otf"
+  ],
+  "license_files": [
+   "GUST e-foundry License.txt"
+  ],
+  "source": "https://www.fontsquirrel.com/fonts/tex-gyre-schola",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""

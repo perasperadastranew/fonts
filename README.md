@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 707 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 718 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -111,6 +111,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Blazma | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Blogger Sans | Sergiy Tkachenko | CC BY | 8 | [fontlibrary.org](https://fontlibrary.org/font/blogger-sans) |
 | Blup | Александра Арсентьева (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| BoldPixels | Yūki (YukiPixels) | CC BY-SA | 1 | [yukipixels.itch.io](https://yukipixels.itch.io/boldpixels) |
 | Bona Nova | Mateusz Machalski | SIL OFL 1.1 | 3 | [github.com](https://github.com/google/fonts/tree/main/ofl/bonanova) |
 | Bondi | Alejo Bergmann, Denis Ignatov; Hubert & Fischer | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/bondi.otf) |
 | Brigadier | Василий Шишкин | Бесплатно (условия автора) | 3 | [shishkin.ru](https://shishkin.ru/) |
@@ -187,6 +188,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Defectica | Алина Молчанова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | DejaVu Serif | DejaVu (на основе Bitstream Vera) | Bitstream Vera (свободная) | 4 | [github.com](https://github.com/dejavu-fonts/dejavu-fonts) |
 | Dela Gothic One | artakana | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/delagothicone) |
+| Delta Block | GGBotNet | CC0 / Public Domain | 2 | [ggbot.itch.io](https://ggbot.itch.io/delta-block-font) |
 | Denistina | Анастасия Ларина | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/denistina.font) |
 | Departure Mono | Helena Zhang | MIT / X11 | 3 | [github.com](https://github.com/rektdeckard/departure-mono) |
 | Didact Gothic | Daniel Johnson | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/didactgothic) |
@@ -381,6 +383,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Metabola (Жук) | Полина Симонова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Metal Lord | Ray Larabie | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Miama Nueva | Linus Romer | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/miama-nueva) |
+| Midnight Letters | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/midnight-letters-font) |
 | Miracode | Idrees Hassan | SIL OFL 1.1 | 1 | — |
 | Mirror 82 | Игорь Косинский | Бесплатно (условия автора) | 1 | [www.1001fonts.com](https://www.1001fonts.com/mirror-82-font.html) |
 | Mister Brush | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -401,6 +404,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Mulish | Vernon Adams | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/mulish) |
 | Murs Gothic Wide Dark | Максим Кобузан | SIL OFL 1.1 | 1 | [www.behance.net](https://www.behance.net/gallery/200845737/MURS-GOTHIC-Free-Font-Latin-Cyrillic) |
 | Nambli | Yurii Tor | SIL OFL 1.1 | 12 | [github.com](https://github.com/Tor-Production/nambli-font) |
+| NarrowPixel | SpicyGame Studios | CC0 / Public Domain | 1 | [spicygame.itch.io](https://spicygame.itch.io/fonts) |
 | Nata Sans | Daniel Uzquiano Cruz | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/natasans) |
 | Natural Mono | Vasily Draigo | SIL OFL 1.1 | 2 | [fontlibrary.org](https://fontlibrary.org/font/natural-mono) |
 | Neocyr | Viktar Palstsiuk <vipals@gmail.com> | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/neocyr) |
@@ -505,6 +509,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Putnik | la-ninpre | SIL OFL 1.1 | 1 | [github.com](https://github.com/la-ninpre/Putnik) |
 | Qazaq Grotesk | Florian Karsten (Space Grotesk); казахская версия | SIL OFL 1.1 | 5 | [github.com](https://github.com/mugid/qazaq-grotesk) |
 | Qazaq Mono | RZanbatyr (на основе Fira Mono) | SIL OFL 1.1 | 2 | [github.com](https://github.com/RZanbatyr/qazaq-mono) |
+| QuestSquare | SpicyGame Studios | CC0 / Public Domain | 1 | [spicygame.itch.io](https://spicygame.itch.io/fonts) |
 | QuinqueFive | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Qyrandar | romaagadill (на основе Montserrat) | SIL OFL 1.1 | 18 | [github.com](https://github.com/romaagadill-a11y/Qyrandar) |
 | Raleway | Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/raleway) |
@@ -527,6 +532,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Roboto Slab | Google | Apache 2.0 | 1 | [github.com](https://github.com/google/fonts/tree/main/apache/robotoslab) |
 | Robtronika | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Roundo Cyr | Indian Type Foundry; кириллица — Алексей Бурба | SIL OFL 1.1 | 1 | [github.com](https://github.com/alexburba/Roundo-Cyrillic) |
+| RoyaltyMono | SpicyGame Studios | CC0 / Public Domain | 1 | [spicygame.itch.io](https://spicygame.itch.io/fonts) |
 | Rubik | Hubert and Fischer | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubik) |
 | Rubik 80s Fade | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubik80sfade) |
 | Rubik Beastly | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikbeastly) |
@@ -557,6 +563,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Rubik Wet Paint | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikwetpaint) |
 | Ruda | Mariela Monsalve and Angelina Sanchez | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/ruda) |
 | Rum Raisin | Astigmatic (AOETI); Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/rum-raisin-cyrillic.otf) |
+| RuneMono | SpicyGame Studios | CC0 / Public Domain | 1 | [spicygame.itch.io](https://spicygame.itch.io/fonts) |
 | Runicsly | MixelTe | SIL OFL 1.1 | 2 | [github.com](https://github.com/MixelTe/runicsly) |
 | Ruslan Display | Oleg Snarsky, Denis Masharov, Vladimir Rabdu | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/ruslandisplay) |
 | Russkopis | MihailJP (на основе Symbola и CMU) | MIT / X11 | 2 | [github.com](https://github.com/MihailJP/Russkopis) |
@@ -620,6 +627,10 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Tenor Sans | Denis Masharov | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/tenorsans) |
 | Terminalia | Стефан Пеев | SIL OFL 1.1 | 4 | [github.com](https://github.com/StefanPeev/Terminalia) |
 | TeX Gyre Adventor | GUST e-foundry | GUST Font License | 4 | [fontlibrary.org](https://fontlibrary.org/font/tex-gyre-adventor) |
+| TeX Gyre Bonum | GUST e-foundry | GUST Font License | 4 | [www.fontsquirrel.com](https://www.fontsquirrel.com/fonts/tex-gyre-bonum) |
+| TeX Gyre Cursor | GUST e-foundry | GUST Font License | 4 | [www.fontsquirrel.com](https://www.fontsquirrel.com/fonts/tex-gyre-cursor) |
+| TeX Gyre Heros | GUST e-foundry | GUST Font License | 8 | [www.fontsquirrel.com](https://www.fontsquirrel.com/fonts/tex-gyre-heros) |
+| TeX Gyre Schola | GUST e-foundry | GUST Font License | 4 | [www.fontsquirrel.com](https://www.fontsquirrel.com/fonts/tex-gyre-schola) |
 | Theano Didot | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
 | Theano Modern | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
 | Theano Old Style | Alexey Kryukov | SIL OFL 1.1 | 1 | [github.com](https://github.com/akryukov/theano) |
