@@ -1,4 +1,0 @@
-Шрифт: Advent Pro
-Скачано: 2026-11-23 с https://github.com/google/fonts/tree/main/ofl/adventpro (официальная раздача Google Fonts)
-Автор: VivaRado
-Лицензия: SIL OFL 1.1

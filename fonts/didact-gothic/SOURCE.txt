@@ -1,3 +1,0 @@
-Шрифт: Didact Gothic
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/didactgothic (Google Fonts, https://fonts.google.com/specimen/Didact+Gothic)
-Лицензия: OFL

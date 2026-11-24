@@ -1,4 +1,0 @@
-Шрифт: Xmind
-Скачано: 2026-11-23 с https://github.com/google/fonts/tree/main/ofl/xmind (официальная раздача Google Fonts)
-Автор: lan
-Лицензия: SIL OFL 1.1

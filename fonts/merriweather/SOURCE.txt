@@ -1,3 +1,0 @@
-Шрифт: Merriweather
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/merriweather (Google Fonts, https://fonts.google.com/specimen/Merriweather)
-Лицензия: OFL

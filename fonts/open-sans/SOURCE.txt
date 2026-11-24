@@ -1,3 +1,0 @@
-Шрифт: Open Sans
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/opensans (Google Fonts, https://fonts.google.com/specimen/Open+Sans)
-Лицензия: OFL

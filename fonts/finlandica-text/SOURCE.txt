@@ -1,3 +1,0 @@
-Шрифт: Finlandica Text
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/finlandicatext (Google Fonts, https://fonts.google.com/specimen/Finlandica+Text)
-Лицензия: OFL

@@ -1,3 +1,0 @@
-Шрифт: Ubuntu Condensed
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ufl/ubuntucondensed (Google Fonts, https://fonts.google.com/specimen/Ubuntu+Condensed)
-Лицензия: UFL

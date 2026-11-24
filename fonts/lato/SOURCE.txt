@@ -1,3 +1,0 @@
-Шрифт: Lato
-Скачано: 2026-11-23 с https://github.com/google/fonts/tree/main/ofl/lato (официальная раздача Google Fonts; автор Łukasz Dziedzic, latofonts.com)
-Лицензия: SIL OFL 1.1

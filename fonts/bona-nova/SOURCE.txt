@@ -1,3 +1,0 @@
-Шрифт: Bona Nova
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/bonanova (Google Fonts, https://fonts.google.com/specimen/Bona+Nova)
-Лицензия: OFL

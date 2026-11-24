@@ -1,3 +1,0 @@
-Шрифт: Noto Serif Display
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/notoserifdisplay (Google Fonts, https://fonts.google.com/specimen/Noto+Serif+Display)
-Лицензия: OFL

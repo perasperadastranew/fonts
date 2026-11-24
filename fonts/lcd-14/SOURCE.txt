@@ -1,2 +1,0 @@
-Шрифт: LCD 14
-Скачано: 2026-11-24 с https://github.com/ctrlcctrlv/lcd-font (Fredrick Brennan)

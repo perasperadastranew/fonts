@@ -1,3 +1,0 @@
-Шрифт: Libertinus Serif Display
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/libertinusserifdisplay (Google Fonts, https://fonts.google.com/specimen/Libertinus+Serif+Display)
-Лицензия: OFL

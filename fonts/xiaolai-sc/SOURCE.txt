@@ -1,4 +1,0 @@
-Шрифт: Xiaolai SC (小赖字体)
-Скачано: 2026-11-23 с https://github.com/lxgw/kose-font/releases (v3.126)
-Автор: LXGW, на основе SetoFont
-Лицензия: SIL OFL 1.1

@@ -1,2 +1,0 @@
-Шрифт: Alco Sans
-Скачано: 2026-11-24 с https://github.com/kreativekorp/open-relay (Kreative Software, Rebecca Bettencourt)

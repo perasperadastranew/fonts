@@ -1,4 +1,0 @@
-Шрифт: Isar CAT
-Скачано: 2026-11-23 с https://www.peter-wiegel.de/Fonts/IsarCAT.zip
-Copyright: Copyright (c) 2015 by CAT-Fonts, Peter Wiegel. All rights reserved.
-Лицензия из файла: GPL- General Public License AND OFL-Open Font License

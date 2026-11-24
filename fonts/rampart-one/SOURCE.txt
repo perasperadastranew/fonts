@@ -1,3 +1,0 @@
-Шрифт: Rampart One
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/rampartone (Google Fonts, https://fonts.google.com/specimen/Rampart+One)
-Лицензия: OFL

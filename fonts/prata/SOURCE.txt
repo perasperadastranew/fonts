@@ -1,3 +1,0 @@
-Шрифт: Prata
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/prata (Google Fonts, https://fonts.google.com/specimen/Prata)
-Лицензия: OFL

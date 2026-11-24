@@ -1,4 +1,0 @@
-Шрифт: Fantasque Sans Mono
-Скачано: 2026-11-23 с https://github.com/belluzj/fantasque-sans
-Copyright: Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)
-Лицензия из файла: Copyright (c) 2013-2017, Jany Belluz (<jany.belluz@hotmail.fr>)  This 

@@ -1,4 +1,0 @@
-Шрифт: Rubik Iso
-Скачано: 2026-11-23 с https://github.com/google/fonts/tree/main/ofl/rubikiso (официальная раздача Google Fonts)
-Автор: NaN, Luke Prowse
-Лицензия: SIL OFL 1.1

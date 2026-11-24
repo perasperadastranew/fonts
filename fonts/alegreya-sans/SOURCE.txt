@@ -1,3 +1,0 @@
-Шрифт: Alegreya Sans
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/alegreyasans (Google Fonts, https://fonts.google.com/specimen/Alegreya+Sans)
-Лицензия: OFL

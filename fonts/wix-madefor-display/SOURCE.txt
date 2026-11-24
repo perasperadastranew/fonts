@@ -1,3 +1,0 @@
-Шрифт: Wix Madefor Display
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/wixmadefordisplay (Google Fonts, https://fonts.google.com/specimen/Wix+Madefor+Display)
-Лицензия: OFL

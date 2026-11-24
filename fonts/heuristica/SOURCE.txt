@@ -1,4 +1,0 @@
-Шрифт: Heuristica
-Скачано: 2026-11-23 с https://ctan.org/pkg/heuristica
-Copyright: Copyright (c) 1989, 1991 Adobe Systems Incorporated.  All Rights Reserved. Utopia is either a registered trade
-Лицензия из файла: Copyright 1989, 1991 Adobe Systems Incorporated. All rights reserved. 

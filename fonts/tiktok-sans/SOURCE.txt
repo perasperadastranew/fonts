@@ -1,3 +1,0 @@
-Шрифт: TikTok Sans
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/tiktoksans (Google Fonts, https://fonts.google.com/specimen/TikTok+Sans)
-Лицензия: OFL

@@ -1,3 +1,0 @@
-Шрифт: Source Sans 3
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/sourcesans3 (Google Fonts, https://fonts.google.com/specimen/Source+Sans+3)
-Лицензия: OFL

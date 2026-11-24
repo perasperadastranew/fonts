@@ -1,3 +1,0 @@
-Шрифт: IBM Plex Serif
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/ibmplexserif (Google Fonts, https://fonts.google.com/specimen/IBM+Plex+Serif)
-Лицензия: OFL

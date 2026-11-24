@@ -1,3 +1,0 @@
-Шрифт: El Messiri
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/elmessiri (Google Fonts, https://fonts.google.com/specimen/El+Messiri)
-Лицензия: OFL

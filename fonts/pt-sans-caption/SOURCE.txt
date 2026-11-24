@@ -1,3 +1,0 @@
-Шрифт: PT Sans Caption
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/ptsanscaption (Google Fonts, https://fonts.google.com/specimen/PT+Sans+Caption)
-Лицензия: OFL

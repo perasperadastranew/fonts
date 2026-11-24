@@ -1,3 +1,0 @@
-Шрифт: Orelega One
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/orelegaone (Google Fonts, https://fonts.google.com/specimen/Orelega+One)
-Лицензия: OFL

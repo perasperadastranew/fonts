@@ -1,3 +1,0 @@
-Шрифт: Science Gothic
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/sciencegothic (Google Fonts, https://fonts.google.com/specimen/Science+Gothic)
-Лицензия: OFL

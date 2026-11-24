@@ -1,3 +1,0 @@
-Шрифт: Playpen Sans
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/playpensans (Google Fonts, https://fonts.google.com/specimen/Playpen+Sans)
-Лицензия: OFL

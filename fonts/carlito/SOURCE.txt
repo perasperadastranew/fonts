@@ -1,3 +1,0 @@
-Шрифт: Carlito
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/carlito (Google Fonts, https://fonts.google.com/specimen/Carlito)
-Лицензия: OFL

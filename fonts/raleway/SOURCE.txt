@@ -1,3 +1,0 @@
-Шрифт: Raleway
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/raleway (Google Fonts, https://fonts.google.com/specimen/Raleway)
-Лицензия: OFL

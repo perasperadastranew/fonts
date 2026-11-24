@@ -1,3 +1,0 @@
-Шрифт: Cousine
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/cousine (Google Fonts, https://fonts.google.com/specimen/Cousine)
-Лицензия: OFL

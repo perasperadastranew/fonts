@@ -1,3 +1,0 @@
-Шрифт: Balsamiq Sans
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/balsamiqsans (Google Fonts, https://fonts.google.com/specimen/Balsamiq+Sans)
-Лицензия: OFL

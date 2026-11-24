@@ -1,3 +1,0 @@
-Шрифт: Roboto Condensed
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/robotocondensed (Google Fonts, https://fonts.google.com/specimen/Roboto+Condensed)
-Лицензия: OFL

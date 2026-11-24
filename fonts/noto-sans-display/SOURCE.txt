@@ -1,3 +1,0 @@
-Шрифт: Noto Sans Display
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/notosansdisplay (Google Fonts, https://fonts.google.com/specimen/Noto+Sans+Display)
-Лицензия: OFL

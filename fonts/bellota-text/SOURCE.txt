@@ -1,3 +1,0 @@
-Шрифт: Bellota Text
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/bellotatext (Google Fonts, https://fonts.google.com/specimen/Bellota+Text)
-Лицензия: OFL

@@ -1,2 +1,0 @@
-Шрифт: Wumpus Mono
-Скачано: 2026-11-24 с https://github.com/vaughantype/wumpus-mono

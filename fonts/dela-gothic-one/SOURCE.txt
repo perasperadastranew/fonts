@@ -1,3 +1,0 @@
-Шрифт: Dela Gothic One
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/delagothicone (Google Fonts, https://fonts.google.com/specimen/Dela+Gothic+One)
-Лицензия: OFL

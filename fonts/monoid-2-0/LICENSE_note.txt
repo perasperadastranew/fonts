@@ -1,1 +1,0 @@
-Monoid: двойная лицензия MIT и SIL OFL (по README автора, раздел License: https://github.com/larsenwork/monoid#license)

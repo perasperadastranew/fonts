@@ -1,3 +1,0 @@
-Шрифт: Comfortaa
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/comfortaa (Google Fonts, https://fonts.google.com/specimen/Comfortaa)
-Лицензия: OFL

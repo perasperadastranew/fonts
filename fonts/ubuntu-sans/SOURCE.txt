@@ -1,3 +1,0 @@
-Шрифт: Ubuntu Sans
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ufl/ubuntusans (Google Fonts, https://fonts.google.com/specimen/Ubuntu+Sans)
-Лицензия: UFL

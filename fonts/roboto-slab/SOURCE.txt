@@ -1,3 +1,0 @@
-Шрифт: Roboto Slab
-Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/apache/robotoslab (Google Fonts, https://fonts.google.com/specimen/Roboto+Slab)
-Лицензия: APACHE2
