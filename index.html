@@ -1552,6 +1552,7 @@ function tourInit(){const hr=document.querySelector('.hd .hr');if(hr&&!document.
 const RW=(n)=>words().slice(0,n).map(w=>w.replace(/[«»"]/g,''));
 const RS=(s)=>{let h=0;for(const c of (F[0]+s))h=(h*31+c.charCodeAt(0))%9973;return ()=>{h=(h*137+71)%9973;return h/9973}};
 const fitX=(el,frac=.86,maxH=.62)=>{const art=el.querySelector('.art')||el.closest('.art');if(!art)return;el.querySelectorAll('.fx').forEach(n=>{const vert=n.dataset.v==='1';const W=(vert?art.clientHeight:art.clientWidth)*(+n.dataset.f||frac);const box=n.getBoundingClientRect();const cur=vert?box.height:box.width;if(!cur)return;const fs=parseFloat(getComputedStyle(n).fontSize);let nf=fs*W/cur;const lim=(vert?art.clientWidth:art.clientHeight)*maxH;nf=Math.min(nf,lim);n.style.fontSize=nf.toFixed(1)+'px'})};
+const shrinkW=(el,frac=.9)=>{const art=el.querySelector('.art')||el.closest('.art');if(!art)return;el.querySelectorAll('.sw').forEach(n=>{const lim=art.clientWidth*frac,limH=art.clientHeight*.92;for(let i=0;i<14;i++){const r=n.getBoundingClientRect();const w=Math.max(n.scrollWidth,r.width);if(w<=lim&&r.height<=limH)break;n.style.fontSize=(parseFloat(getComputedStyle(n).fontSize)*.9).toFixed(1)+'px'}})};
 const PAPER='#F3EFE6',INK='#141414';
 Object.assign(T,{
 // 1. Полосы скотча: каждое слово на своей бумажной ленте, ленты чуть повёрнуты
@@ -1563,13 +1564,13 @@ tape(p){const ws=RW(5);const r=RS('tape');const hw=heavyW(F);
 brush(p){const ws=RW(5);const r=RS('brush');const hw=heavyW(F);
  const bar=()=>{const a=[];for(let i=0;i<=10;i++)a.push(`${i*10}% ${(r()*18).toFixed(0)}%`);for(let i=10;i>=0;i--)a.push(`${i*10}% ${(82+r()*18).toFixed(0)}%`);return a.join(',')};
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:flex;flex-direction:column;justify-content:center;padding:6cqmin 7cqmin;gap:.6cqmin;overflow:hidden">
- ${ws.map((w,i)=>`<div style="position:relative;align-self:${i%2?'flex-end':'flex-start'};padding:.4cqmin 3cqmin"><i style="position:absolute;inset:0 -2cqmin;background:${p[3]};clip-path:polygon(${bar()})"></i><span style="position:relative;font-family:${ff()};font-weight:${hw};font-size:13cqmin;line-height:.95;color:${p[1]};text-transform:uppercase;white-space:nowrap">${esc(w)}</span></div>`).join('')}
- <div style="display:flex;justify-content:space-between;margin-top:3cqmin;font:500 1.9cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.75"><span>ПЛАСТИНКА</span><span>${esc(F[0])}</span><span>СТОРОНА А</span></div></div>`}},
+ ${ws.map((w,i)=>`<div style="position:relative;align-self:${i%2?'flex-end':'flex-start'};padding:.4cqmin 3cqmin"><i style="position:absolute;inset:0 -2cqmin;background:${p[3]};clip-path:polygon(${bar()})"></i><span class="sw" style="position:relative;display:inline-block;font-family:${ff()};font-weight:${hw};font-size:13cqmin;line-height:.95;color:${p[1]};text-transform:uppercase;white-space:nowrap">${esc(w)}</span></div>`).join('')}
+ <div style="display:flex;justify-content:space-between;margin-top:3cqmin;font:500 1.9cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.75"><span>ПЛАСТИНКА</span><span>${esc(F[0])}</span><span>СТОРОНА А</span></div></div>`,after(el){shrinkW(el,.78)}}},
 // 3. Перечёркнуто: плотный блок + слово-граффити поверх
 graffiti(p){const ws=RW(4);const hw=heavyW(F);const tag=(words().slice(-1)[0]||'ДА').replace(/[,.!?]/g,'');
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:grid;place-items:center;overflow:hidden">
- <div style="font-family:${ff()};font-weight:${hw};color:${p[2]};font-size:15cqmin;line-height:.86;text-align:center;text-transform:uppercase;letter-spacing:-.02em">${ws.map(esc).join('<br>')}</div>
- <div style="position:absolute;left:8%;right:8%;top:50%;transform:translateY(-50%) rotate(-14deg);font-family:${ff()};font-weight:${hw};font-style:${F[6]?'italic':'normal'};font-size:22cqmin;line-height:1;color:${p[3]};text-align:center;mix-blend-mode:${p[1]<'#8'?'screen':'multiply'};opacity:.92;filter:blur(.15cqmin)">${esc(tag)}</div></div>`}},
+ <div class="sw" style="width:max-content;font-family:${ff()};font-weight:${hw};color:${p[2]};font-size:15cqmin;line-height:.86;text-align:center;text-transform:uppercase;letter-spacing:-.02em">${ws.map(esc).join('<br>')}</div>
+ <div style="position:absolute;left:8%;right:8%;top:50%;transform:translateY(-50%) rotate(-14deg);font-family:${ff()};font-weight:${hw};font-style:${F[6]?'italic':'normal'};font-size:22cqmin;line-height:1;color:${p[3]};text-align:center;mix-blend-mode:${p[1]<'#8'?'screen':'multiply'};opacity:.92;filter:blur(.15cqmin)">${esc(tag)}</div></div>`,after(el){shrinkW(el,.88)}}},
 // 4. Бейдж «Привет, меня зовут»
 nametag(p){const w=RW(2).join(' ');const hw=heavyW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:grid;place-items:center;overflow:hidden">
@@ -1650,9 +1651,9 @@ flyer(p){const ws=RW(3);const hw=heavyW(F),bw=baseW(F);
  <div style="width:66cqmin;background:#F6F3EC;transform:rotate(-1.5deg);box-shadow:0 1.6cqmin 3cqmin rgba(0,0,0,.3);display:flex;flex-direction:column">
   <div style="padding:5cqmin 5cqmin 3cqmin;text-align:center;color:${INK}">
    <div style="font:700 2.6cqmin 'Golos Text',sans-serif;letter-spacing:.12em">ВНИМАНИЕ</div>
-   <div style="font-family:${ff()};font-weight:${hw};font-size:11cqmin;line-height:.95;margin:2cqmin 0;text-transform:uppercase">${ws.map(esc).join('<br>')}</div>
+   <div class="sw" style="font-family:${ff()};font-weight:${hw};font-size:11cqmin;line-height:.95;margin:2cqmin auto;text-transform:uppercase;width:max-content">${ws.map(esc).join('<br>')}</div>
    <div style="font-family:${ff()};font-weight:${bw};font-size:2.8cqmin;line-height:1.35">Ищем в экипаж людей, которые не боятся длинных строк и кавычек «ёлочек».</div></div>
-  <div style="display:flex;border-top:.3cqmin dashed #999">${Array.from({length:7},()=>`<div style="flex:1;height:14cqmin;border-right:.3cqmin dashed #999;writing-mode:vertical-rl;transform:rotate(180deg);font:500 1.9cqmin 'JetBrains Mono',monospace;display:grid;place-items:center;color:#333">${esc(F[0].slice(0,14))}</div>`).join('')}</div></div></div>`}},
+  <div style="display:flex;border-top:.3cqmin dashed #999">${Array.from({length:7},()=>`<div style="flex:1;height:14cqmin;border-right:.3cqmin dashed #999;writing-mode:vertical-rl;transform:rotate(180deg);font:500 1.9cqmin 'JetBrains Mono',monospace;display:grid;place-items:center;color:#333">${esc(F[0].slice(0,14))}</div>`).join('')}</div></div></div>`,after(el){shrinkW(el,.56)}}},
 // 17. Вырезки: каждое слово — свой клочок
 ransom(p){const ws=RW(7);const r=RS('rn');const hw=heavyW(F),bw=baseW(F);const bg=[INK,PAPER,p[3],'#fff'];
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:1.2cqmin;padding:7cqmin;overflow:hidden">
@@ -1706,9 +1707,9 @@ tower(p){const w=RW(1)[0].toUpperCase().replace(/[,.!?]/g,'');const hw=heavyW(F)
  <div style="position:absolute;left:6cqmin;top:6cqmin;font:600 2cqmin 'JetBrains Mono',monospace;color:${p[2]};opacity:.7">${esc(F[0])}<br>3 НОМИНАЦИИ</div></div>`,after(el){fitX(el,.94,.55)}}},
 // 24. Ризография: два прогона краской со сдвигом
 riso(p){const ws=RW(4);const hw=heavyW(F);const a='#FF4E9B',b='#1E5BFF';const txt=ws.map(esc).join('<br>');
- const layer=(c,dx,dy)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;transform:translate(${dx}cqmin,${dy}cqmin)"><div style="font-family:${ff()};font-weight:${hw};font-size:13cqmin;line-height:.92;text-align:center;color:${c};mix-blend-mode:multiply;text-transform:uppercase">${txt}</div></div>`;
+ const layer=(c,dx,dy)=>`<div style="position:absolute;inset:0;display:grid;place-items:center;transform:translate(${dx}cqmin,${dy}cqmin)"><div class="sw" style="font-family:${ff()};font-weight:${hw};font-size:13cqmin;line-height:.92;text-align:center;color:${c};mix-blend-mode:multiply;text-transform:uppercase;width:max-content">${txt}</div></div>`;
  return {html:`<div style="position:absolute;inset:0;background:#F4EFE3;overflow:hidden">${layer(b,-.6,-.4)}${layer(a,.7,.5)}
- <div style="position:absolute;inset:0;background-image:radial-gradient(rgba(0,0,0,.16) .5px,transparent .6px);background-size:1.2cqmin 1.2cqmin;mix-blend-mode:multiply"></div></div>`}},
+ <div style="position:absolute;inset:0;background-image:radial-gradient(rgba(0,0,0,.16) .5px,transparent .6px);background-size:1.2cqmin 1.2cqmin;mix-blend-mode:multiply"></div></div>`,after(el){shrinkW(el,.88)}}},
 // 25. Письмо с маркером
 letter(p){const ph=phrase();const bw=baseW(F),hw=heavyW(F);const ws=words();const r=RS('lt');
  const body=(ph+' '+BODY).split(/\s+/).slice(0,42).map(w=>r()<.16?`<mark style="background:#F7E35B;color:inherit;padding:0 .15em">${esc(w)}</mark>`:esc(w)).join(' ');
