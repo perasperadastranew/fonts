@@ -15196,37 +15196,6 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
-  "name": "Metro",
-  "slug": "metro",
-  "author": "TypeType Free Fonts",
-  "class": "Акцидентный",
-  "license": "Бесплатно (условия автора)",
-  "styles": 1,
-  "faces": [
-   [
-    "Metro-1.otf",
-    400,
-    400,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   400
-  ],
-  "files": [
-   "Metro-1.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://typetype.org/freefonts/",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
- },
- {
   "name": "Miama Nueva",
   "slug": "miama-nueva",
   "author": "Linus Romer",
