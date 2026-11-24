@@ -1,5 +1,36 @@
 [
  {
+  "name": "20 dB",
+  "slug": "20-db",
+  "author": "Jovanny Lemonad",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "20db.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "20db.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/20-db.font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2008 by Jovanny Lemonad. All rights reserved."
+ },
+ {
   "name": "3270",
   "slug": "3270",
   "author": "Ricardo Bánffy",
@@ -258,6 +289,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015, HK Grotesk Latin by Alfredo Marco Pradil (ammpradil@gmail.com) and HK Grotesk Cyrillic by Stefan Pee"
+ },
+ {
+  "name": "Accuratist",
+  "slug": "accuratist",
+  "author": "Елена Шкердина, Jovanny Lemonad",
+  "class": "Гротеск, Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Accuratist.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Accuratist.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/accuratist.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2015 by Elena Shkerdina. Art-director Jovanny Lemonad. All rights reserved."
  },
  {
   "name": "Achieve",
@@ -877,6 +939,131 @@
   "copyright": ""
  },
  {
+  "name": "AmazDoom",
+  "slug": "amazdoom",
+  "author": "ParaGraph",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 6,
+  "faces": [
+   [
+    "AmazDooMLeft.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazDooMLeft2.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazDooMLeftOutline.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazDooMRight.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazDooMRight2.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazDooMRightOutline.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "AmazDooMLeft.ttf",
+   "AmazDooMLeft2.ttf",
+   "AmazDooMLeftOutline.ttf",
+   "AmazDooMRight.ttf",
+   "AmazDooMRight2.ttf",
+   "AmazDooMRightOutline.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/amazdoom.font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 1990-1996 ParaGraph"
+ },
+ {
+  "name": "AmazHand First",
+  "slug": "amazhand-first",
+  "author": "Amazingmax",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 5,
+  "faces": [
+   [
+    "AmazHand_First.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazHand_First_Alt.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazHand_First_Alt_X.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazHand_First_Hard.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AmazHand_First_Smooth.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "AmazHand_First.ttf",
+   "AmazHand_First_Alt.ttf",
+   "AmazHand_First_Alt_X.ttf",
+   "AmazHand_First_Hard.ttf",
+   "AmazHand_First_Smooth.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/amazhand-first.font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Amazingmax"
+ },
+ {
   "name": "Ambidexter Regular",
   "slug": "ambidexter-regular",
   "author": "Егор Белозёров",
@@ -1149,6 +1336,244 @@
   "cyrillic": "ru",
   "copyright": "© 2019, Rafael Olivo Díaz, Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Ardeco",
+  "slug": "ardeco",
+  "author": "Ирина Чукина, Jovanny Lemonad",
+  "class": "Декоративный, Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Ardeco-webfont.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Ardeco.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Ardeco-webfont.ttf",
+   "Ardeco.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/ardeco.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2015 by Irina Chukina, Jovanny Lemonad. All rights reserved."
+ },
+ {
+  "name": "Argentum Sans",
+  "slug": "argentum-sans",
+  "author": "Julieta Ulanovsky и др. (на основе Montserrat)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 24,
+  "faces": [
+   [
+    "ArgentumSans-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "ArgentumSans-BlackItalic.otf",
+    900,
+    900,
+    true
+   ],
+   [
+    "ArgentumSans-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ArgentumSans-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "ArgentumSans-Condensed.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedBlack.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedBlackItalic.otf",
+    900,
+    900,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedBold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedBoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedItalic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedLightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedMedium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedMediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedSemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedSemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "ArgentumSans-CondensedThin.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "ArgentumSans-CondensedThinItalic.otf",
+    100,
+    100,
+    true
+   ],
+   [
+    "ArgentumSans-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "ArgentumSans-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "ArgentumSans-Black.otf",
+   "ArgentumSans-BlackItalic.otf",
+   "ArgentumSans-Bold.otf",
+   "ArgentumSans-BoldItalic.otf",
+   "ArgentumSans-Condensed.otf",
+   "ArgentumSans-CondensedBlack.otf",
+   "ArgentumSans-CondensedBlackItalic.otf",
+   "ArgentumSans-CondensedBold.otf",
+   "ArgentumSans-CondensedBoldItalic.otf",
+   "ArgentumSans-CondensedExtraBold.otf",
+   "ArgentumSans-CondensedExtraBoldItalic.otf",
+   "ArgentumSans-CondensedExtraLight.otf",
+   "ArgentumSans-CondensedExtraLightItalic.otf",
+   "ArgentumSans-CondensedItalic.otf",
+   "ArgentumSans-CondensedLight.otf",
+   "ArgentumSans-CondensedLightItalic.otf",
+   "ArgentumSans-CondensedMedium.otf",
+   "ArgentumSans-CondensedMediumItalic.otf",
+   "ArgentumSans-CondensedSemiBold.otf",
+   "ArgentumSans-CondensedSemiBoldItalic.otf",
+   "ArgentumSans-CondensedThin.otf",
+   "ArgentumSans-CondensedThinItalic.otf",
+   "ArgentumSans-ExtraBold.otf",
+   "ArgentumSans-ExtraBoldItalic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/cssobral2013/Argentum-Sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Arimo",
@@ -1834,6 +2259,37 @@
   "copyright": ""
  },
  {
+  "name": "Begit",
+  "slug": "begit",
+  "author": "Владимир Журавлёв",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Begit-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Begit-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/private-face/begit",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Bellota",
   "slug": "bellota",
   "author": "Kemie Guaida",
@@ -2471,6 +2927,68 @@
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Bully",
+  "slug": "bully",
+  "author": "Айгуль Гильмутдинова, Jovanny Lemonad",
+  "class": "Декоративный, Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Bully.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Bully.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/bully.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2016 by Aigul Gilmutdinova & Jovanny Lemonad. All rights reserved."
+ },
+ {
+  "name": "Buran USSR",
+  "slug": "buran-ussr",
+  "author": "Денис Щербак",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Buran USSR.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Buran USSR.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/buran-ussr.font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2014 by Denis Sherbak. eto@yavlenie.com"
+ },
+ {
   "name": "Bushbaby",
   "slug": "bushbaby",
   "author": "Иван Воронцов (Школа дизайна НИУ ВШЭ)",
@@ -2534,6 +3052,134 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Caesium",
+  "slug": "caesium",
+  "author": "Alpha Argon",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 14,
+  "faces": [
+   [
+    "Caesium-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Caesium-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Caesium-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Caesium-Light.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Caesium-LightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "Caesium-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Caesium-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Caesium-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Caesium-Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Caesium-SemiboldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "Caesium-Semilight.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Caesium-SemilightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Caesium-Thin.ttf",
+    150,
+    150,
+    false
+   ],
+   [
+    "Caesium-ThinItalic.ttf",
+    150,
+    150,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   150,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "Caesium-Bold.ttf",
+   "Caesium-BoldItalic.ttf",
+   "Caesium-Italic.ttf",
+   "Caesium-Light.ttf",
+   "Caesium-LightItalic.ttf",
+   "Caesium-Medium.ttf",
+   "Caesium-MediumItalic.ttf",
+   "Caesium-Regular.ttf",
+   "Caesium-Semibold.ttf",
+   "Caesium-SemiboldItalic.ttf",
+   "Caesium-Semilight.ttf",
+   "Caesium-SemilightItalic.ttf",
+   "Caesium-Thin.ttf",
+   "Caesium-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alphaArgon/Caesium",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Cairopixel",
   "slug": "cairopixel",
   "author": "GGBot",
@@ -2563,6 +3209,45 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2025 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Capture Smallz",
+  "slug": "capture-smallz",
+  "author": "MagiqueFonts",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Capsmall.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Capsmall_clean.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Capsmall.ttf",
+   "Capsmall_clean.ttf"
+  ],
+  "license_files": [
+   "license1.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/capture-smallz.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Typeface © MagiqueFonts 2014. All Rights Reserved"
  },
  {
   "name": "Carlito",
@@ -2916,6 +3601,68 @@
   "copyright": "Copyright (c) 2015 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
  {
+  "name": "Catacombs",
+  "slug": "catacombs",
+  "author": "ToughCrest Studio",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Catacombs V1-0.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "Catacombs V1-0.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/catacombs.font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Catallina",
+  "slug": "catallina",
+  "author": "Mariano Diez; кириллица — Денис Игнатов",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Catallina.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Catallina.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/catallina-rostype.zip",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2019 by Mariano Diez. All rights reserved."
+ },
+ {
   "name": "Caveat",
   "slug": "caveat",
   "author": "Pablo Impallari",
@@ -2946,6 +3693,59 @@
    "v": "ok",
    "url": "https://type.today/ru/journal/scripts"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Caviar Dreams",
+  "slug": "caviar-dreams",
+  "author": "Lauren Thompson (Nymphont)",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 4,
+  "faces": [
+   [
+    "CaviarDreams.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CaviarDreams_Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "CaviarDreams_BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "CaviarDreams_Italic.ttf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "CaviarDreams.ttf",
+   "CaviarDreams_Bold.ttf",
+   "CaviarDreams_BoldItalic.ttf",
+   "CaviarDreams_Italic.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/caviar-dreams.font",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -3001,6 +3801,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
+ },
+ {
+  "name": "ChunkFive Ex",
+  "slug": "chunkfive-ex",
+  "author": "Peter Wiegel",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Chunkfive Ex.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Chunkfive Ex.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/chunkfive-ex.font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Generated in 2009 by FontLab Studio. Copyright info pending."
  },
  {
   "name": "Classic Console Neue",
@@ -4038,6 +4869,164 @@
   "copyright": "Copyright 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro)"
  },
  {
+  "name": "Crooli Sans",
+  "slug": "crooli-sans",
+  "author": "Crooli (на основе Geist)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "CrooliSans-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "CrooliSans-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "CrooliSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "CrooliSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "CrooliSans-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "CrooliSans-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "CrooliSans-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "CrooliSans-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "CrooliSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "CrooliSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "CrooliSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "CrooliSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "CrooliSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "CrooliSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CrooliSans-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "CrooliSans-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "CrooliSans-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "CrooliSans-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "CrooliSans-Black.ttf",
+   "CrooliSans-BlackItalic.ttf",
+   "CrooliSans-Bold.ttf",
+   "CrooliSans-BoldItalic.ttf",
+   "CrooliSans-ExtraBold.ttf",
+   "CrooliSans-ExtraBoldItalic.ttf",
+   "CrooliSans-ExtraLight.ttf",
+   "CrooliSans-ExtraLightItalic.ttf",
+   "CrooliSans-Italic.ttf",
+   "CrooliSans-Light.ttf",
+   "CrooliSans-LightItalic.ttf",
+   "CrooliSans-Medium.ttf",
+   "CrooliSans-MediumItalic.ttf",
+   "CrooliSans-Regular.ttf",
+   "CrooliSans-SemiBold.ttf",
+   "CrooliSans-SemiBoldItalic.ttf",
+   "CrooliSans-Thin.ttf",
+   "CrooliSans-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/xandertaylorx/crooli-sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Crosspath Hand",
   "slug": "crosspath-hand",
   "author": "Victor Popov; crosspath.cv",
@@ -4197,6 +5186,37 @@
   "source": "https://design.hse.ru/lab/hsefonts",
   "expert": null,
   "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Data Twenty Cyrillic",
+  "slug": "data-twenty-cyrillic",
+  "author": "кириллица — Денис Игнатов",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "data-twenty-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "data-twenty-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts/files/data-twenty-cyrillic.otf",
+  "expert": null,
+  "cyrillic": "ru",
   "copyright": ""
  },
  {
@@ -4456,6 +5476,82 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/delagothicone",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Denistina",
+  "slug": "denistina",
+  "author": "Анастасия Ларина",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "denistina_en.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "denistina_en.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/denistina.font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Departure Mono",
+  "slug": "departure-mono",
+  "author": "Helena Zhang",
+  "class": "Моноширинный",
+  "license": "MIT / X11",
+  "styles": 3,
+  "faces": [
+   [
+    "DepartureMono-1.500.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "DepartureMono-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "dm.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "DepartureMono-1.500.otf",
+   "DepartureMono-Regular.otf",
+   "dm.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/rektdeckard/departure-mono",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -6050,6 +7146,207 @@
    "v": "ok",
    "url": "https://type.today/ru/journal/humanist"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "FiraGO",
+  "slug": "firago",
+  "author": "bBox Type",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 24,
+  "faces": [
+   [
+    "FiraGO-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "FiraGO-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "FiraGO-Book.otf",
+    350,
+    350,
+    false
+   ],
+   [
+    "FiraGO-BookItalic.otf",
+    350,
+    350,
+    true
+   ],
+   [
+    "FiraGO-Eight.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "FiraGO-EightItalic.otf",
+    100,
+    100,
+    true
+   ],
+   [
+    "FiraGO-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "FiraGO-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "FiraGO-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "FiraGO-ExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "FiraGO-Four.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "FiraGO-FourItalic.otf",
+    100,
+    100,
+    true
+   ],
+   [
+    "FiraGO-Hair.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "FiraGO-HairItalic.otf",
+    100,
+    100,
+    true
+   ],
+   [
+    "FiraGO-Heavy.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "FiraGO-HeavyItalic.otf",
+    900,
+    900,
+    true
+   ],
+   [
+    "FiraGO-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "FiraGO-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "FiraGO-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "FiraGO-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "FiraGO-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "FiraGO-ThinItalic.otf",
+    100,
+    100,
+    true
+   ],
+   [
+    "FiraGO-TwoItalic.otf",
+    100,
+    100,
+    true
+   ],
+   [
+    "FiraGO-UltraLightItalic.otf",
+    200,
+    200,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   350,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "FiraGO-Bold.otf",
+   "FiraGO-BoldItalic.otf",
+   "FiraGO-Book.otf",
+   "FiraGO-BookItalic.otf",
+   "FiraGO-Eight.otf",
+   "FiraGO-EightItalic.otf",
+   "FiraGO-ExtraBold.otf",
+   "FiraGO-ExtraBoldItalic.otf",
+   "FiraGO-ExtraLight.otf",
+   "FiraGO-ExtraLightItalic.otf",
+   "FiraGO-Four.otf",
+   "FiraGO-FourItalic.otf",
+   "FiraGO-Hair.otf",
+   "FiraGO-HairItalic.otf",
+   "FiraGO-Heavy.otf",
+   "FiraGO-HeavyItalic.otf",
+   "FiraGO-Italic.otf",
+   "FiraGO-Light.otf",
+   "FiraGO-LightItalic.otf",
+   "FiraGO-MediumItalic.otf",
+   "FiraGO-SemiBoldItalic.otf",
+   "FiraGO-ThinItalic.otf",
+   "FiraGO-TwoItalic.otf",
+   "FiraGO-UltraLightItalic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/bBoxType/FiraGO",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -8170,6 +9467,115 @@
   "copyright": "(c) 2014-2015, Robert Jablonski/Cannot Into Space Fonts, all rights reserved."
  },
  {
+  "name": "iA Writer",
+  "slug": "ia-writer",
+  "author": "iA (на основе IBM Plex)",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 12,
+  "faces": [
+   [
+    "iAWriterDuoS-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "iAWriterDuoS-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "iAWriterDuoS-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "iAWriterDuoS-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "iAWriterMonoS-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "iAWriterMonoS-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "iAWriterMonoS-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "iAWriterMonoS-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "iAWriterQuattroS-Bold.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "iAWriterQuattroS-BoldItalic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "iAWriterQuattroS-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "iAWriterQuattroS-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "iAWriterDuoS-Bold.ttf",
+   "iAWriterDuoS-BoldItalic.ttf",
+   "iAWriterDuoS-Italic.ttf",
+   "iAWriterDuoS-Regular.ttf",
+   "iAWriterMonoS-Bold.ttf",
+   "iAWriterMonoS-BoldItalic.ttf",
+   "iAWriterMonoS-Italic.ttf",
+   "iAWriterMonoS-Regular.ttf",
+   "iAWriterQuattroS-Bold.ttf",
+   "iAWriterQuattroS-BoldItalic.ttf",
+   "iAWriterQuattroS-Italic.ttf",
+   "iAWriterQuattroS-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/iaolo/iA-Fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "IBM Plex Mono",
   "slug": "ibm-plex-mono",
   "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
@@ -9606,6 +11012,205 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2020 by CAT-Fonts Peter Wiegel. All rights reserved.under SIL OFL"
+ },
+ {
+  "name": "Kirk Mono",
+  "slug": "kirk-mono",
+  "author": "kirklin (на основе JetBrains Mono)",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 24,
+  "faces": [
+   [
+    "KirkMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "KirkMono-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "KirkMono-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "KirkMono-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "KirkMono-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "KirkMono-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "KirkMono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "KirkMono-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "KirkMono-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "KirkMono-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "KirkMono-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "KirkMono-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "KirkMono-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "KirkMono-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "KirkMono-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "KirkMono-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ],
+   [
+    "KirkMonoNL-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "KirkMonoNL-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "KirkMonoNL-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "KirkMonoNL-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "KirkMonoNL-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "KirkMonoNL-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "KirkMonoNL-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "KirkMonoNL-Light.ttf",
+    300,
+    300,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "KirkMono-Bold.ttf",
+   "KirkMono-BoldItalic.ttf",
+   "KirkMono-ExtraBold.ttf",
+   "KirkMono-ExtraBoldItalic.ttf",
+   "KirkMono-ExtraLight.ttf",
+   "KirkMono-ExtraLightItalic.ttf",
+   "KirkMono-Italic.ttf",
+   "KirkMono-Light.ttf",
+   "KirkMono-LightItalic.ttf",
+   "KirkMono-Medium.ttf",
+   "KirkMono-MediumItalic.ttf",
+   "KirkMono-Regular.ttf",
+   "KirkMono-SemiBold.ttf",
+   "KirkMono-SemiBoldItalic.ttf",
+   "KirkMono-Thin.ttf",
+   "KirkMono-ThinItalic.ttf",
+   "KirkMonoNL-Bold.ttf",
+   "KirkMonoNL-BoldItalic.ttf",
+   "KirkMonoNL-ExtraBold.ttf",
+   "KirkMonoNL-ExtraBoldItalic.ttf",
+   "KirkMonoNL-ExtraLight.ttf",
+   "KirkMonoNL-ExtraLightItalic.ttf",
+   "KirkMonoNL-Italic.ttf",
+   "KirkMonoNL-Light.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/kirklin/kirk-mono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "KJV1611",
@@ -11201,6 +12806,205 @@
   "copyright": "Copyright (c) 2026 by Collective Typeworks. All rights reserved."
  },
  {
+  "name": "machine-made Sans",
+  "slug": "machine-made-sans",
+  "author": "machine-made (на основе Plus Jakarta Sans)",
+  "class": "Гротеск",
+  "license": "Apache 2.0",
+  "styles": 24,
+  "faces": [
+   [
+    "MachineMadeSans-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MachineMadeSans-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MachineMadeSans-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MachineMadeSans-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MachineMadeSans-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MachineMadeSans-ExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "MachineMadeSans-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MachineMadeSans-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MachineMadeSans-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MachineMadeSans-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MachineMadeSans-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "MachineMadeSans-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MachineMadeSans-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MachineMadeSans-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "MachineMadeWarp-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MachineMadeWarp-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MachineMadeWarp-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MachineMadeWarp-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MachineMadeWarpDisplay-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MachineMadeWarpDisplay-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MachineMadeWeft-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "MachineMadeWeft-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MachineMadeWeft-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MachineMadeWeft-ExtraLight.otf",
+    200,
+    200,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "MachineMadeSans-Bold.otf",
+   "MachineMadeSans-BoldItalic.otf",
+   "MachineMadeSans-ExtraBold.otf",
+   "MachineMadeSans-ExtraBoldItalic.otf",
+   "MachineMadeSans-ExtraLight.otf",
+   "MachineMadeSans-ExtraLightItalic.otf",
+   "MachineMadeSans-Italic.otf",
+   "MachineMadeSans-Light.otf",
+   "MachineMadeSans-LightItalic.otf",
+   "MachineMadeSans-Medium.otf",
+   "MachineMadeSans-MediumItalic.otf",
+   "MachineMadeSans-Regular.otf",
+   "MachineMadeSans-SemiBold.otf",
+   "MachineMadeSans-SemiBoldItalic.otf",
+   "MachineMadeWarp-Bold.otf",
+   "MachineMadeWarp-BoldItalic.otf",
+   "MachineMadeWarp-Italic.otf",
+   "MachineMadeWarp-Regular.otf",
+   "MachineMadeWarpDisplay-Italic.otf",
+   "MachineMadeWarpDisplay-Regular.otf",
+   "MachineMadeWeft-Black.otf",
+   "MachineMadeWeft-Bold.otf",
+   "MachineMadeWeft-ExtraBold.otf",
+   "MachineMadeWeft-ExtraLight.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/machine-made/type",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Mail Ray Stuff",
   "slug": "mail-ray-stuff",
   "author": "Ray Larabie, Typodermic Fonts",
@@ -12284,6 +14088,59 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/monomakh",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "mononoki",
+  "slug": "mononoki",
+  "author": "Matthias Tellen",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "mononoki-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "mononoki-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "mononoki-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "mononoki-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "mononoki-Bold.otf",
+   "mononoki-BoldItalic.otf",
+   "mononoki-Italic.otf",
+   "mononoki-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/madmalik/mononoki",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -14185,6 +16042,80 @@
   "copyright": ""
  },
  {
+  "name": "OpenDyslexic",
+  "slug": "opendyslexic",
+  "author": "Abbie Gonzalez",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 7,
+  "faces": [
+   [
+    "OpenDyslexic-Bold-Italic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "OpenDyslexic-Bold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "OpenDyslexic-BoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "OpenDyslexic-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "OpenDyslexic-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "nostalgiaelements-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "opendyslexic.otf",
+    800,
+    800,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   800
+  ],
+  "files": [
+   "OpenDyslexic-Bold-Italic.otf",
+   "OpenDyslexic-Bold.otf",
+   "OpenDyslexic-BoldItalic.otf",
+   "OpenDyslexic-Italic.otf",
+   "OpenDyslexic-Regular.otf",
+   "nostalgiaelements-Regular.otf",
+   "opendyslexic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/antijingoist/opendyslexic",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Operation Napalm",
   "slug": "operation-napalm",
   "author": "GGBot",
@@ -14508,6 +16439,101 @@
   },
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2021 The Overpass Project Authors (https://github.com/RedHatOfficial/Overpass)"
+ },
+ {
+  "name": "Overused Grotesk",
+  "slug": "overused-grotesk",
+  "author": "Bao Nguyen (RandomMaerks)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 9,
+  "faces": [
+   [
+    "OverusedGrotesk-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "OverusedGrotesk-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "OverusedGrotesk-Book.otf",
+    350,
+    350,
+    false
+   ],
+   [
+    "OverusedGrotesk-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "OverusedGrotesk-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "OverusedGrotesk-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "OverusedGrotesk-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "OverusedGrotesk-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "OverusedGrotesk-SemiBold.otf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   200,
+   300,
+   350,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "OverusedGrotesk-Black.otf",
+   "OverusedGrotesk-Bold.otf",
+   "OverusedGrotesk-Book.otf",
+   "OverusedGrotesk-ExtraBold.otf",
+   "OverusedGrotesk-ExtraLight.otf",
+   "OverusedGrotesk-Light.otf",
+   "OverusedGrotesk-Medium.otf",
+   "OverusedGrotesk-Regular.otf",
+   "OverusedGrotesk-SemiBold.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/RandomMaerks/Overused-Grotesk",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Pacifico",
@@ -19057,6 +21083,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Some Time Later",
+  "slug": "some-time-later",
+  "author": "Fredrick Brennan",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Some Time Later.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Some Time Later.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/ctrlcctrlv/some-time-later",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Source Code Pro",
   "slug": "source-code-pro",
   "author": "Paul D. Hunt, Teo Tuominen",
@@ -19568,6 +21625,44 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2026 The Stykhiia Project Authors (https://github.com/TheTurkeyProgramist/stykhiia-fonts)"
+ },
+ {
+  "name": "Sun Serif",
+  "slug": "sun-serif",
+  "author": "на основе Amstelvar (Font Bureau)",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "SunSerif-Italic[opsz,wght].ttf",
+    400,
+    700,
+    true
+   ],
+   [
+    "SunSerif[opsz,wght].ttf",
+    400,
+    700,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "SunSerif-Italic[opsz,wght].ttf",
+   "SunSerif[opsz,wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/sypsyp97/sun-serif",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Swanky and Moo Moo",
@@ -21766,6 +23861,44 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans)"
+ },
+ {
+  "name": "Wumpus Mono",
+  "slug": "wumpus-mono",
+  "author": "T. E. Vaughan",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "WumpusMonoDemo-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "WumpusMonoNerdFontMono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "WumpusMonoDemo-Regular.ttf",
+   "WumpusMonoNerdFontMono-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/vaughantype/wumpus-mono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "X Company",

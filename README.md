@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 529 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 558 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -30,10 +30,12 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 
 | Шрифт | Автор | Лицензия | Файлов | Источник |
 |---|---|---|---|---|
+| 20 dB | Jovanny Lemonad | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/20-db.font) |
 | 3270 | Ricardo Bánffy | SIL OFL 1.1 | 3 | [github.com](https://github.com/rbanffy/3270font) |
 | 3D Isometric | GGBotNet | SIL OFL 1.1 | 3 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | 5by7 | Peter Wiegel | SIL OFL 1.1 | 2 | [www.dafont.com](https://www.dafont.com/5by7.font) |
 | Acari Sans | Alfredo Marco Pradil (initial realese as HK Grotesk, Latin version), Stefan Peev | SIL OFL 1.1 | 14 | [github.com](https://github.com/StefanPeev/acari-sans/releases/download/AcariSans_v.1.078/AcariSans_v.1.078.zip) |
+| Accuratist | Елена Шкердина, Jovanny Lemonad | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/accuratist.font) |
 | Achieve | Lauren Herda | SIL OFL 1.1 | 6 | [github.com](https://github.com/Isosceles/Achieve) |
 | Advent Pro | VivaRado, Andreas Kalpakidis | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/adventpro) |
 | Aero | Анастасия Врублевская (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
@@ -47,6 +49,8 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Alumni Sans Collegiate One | Robert E. Leuschke | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/alumnisanscollegiateone) |
 | Alumni Sans Pinstripe | Robert E. Leuschke | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/alumnisanspinstripe) |
 | Amatic SC | Multiple Designers | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/amaticsc) |
+| AmazDoom | ParaGraph | Бесплатно (условия автора) | 6 | [www.dafont.com](https://www.dafont.com/amazdoom.font) |
+| AmazHand First | Amazingmax | Бесплатно (условия автора) | 5 | [www.dafont.com](https://www.dafont.com/amazhand-first.font) |
 | Ambidexter Regular | Егор Белозёров | SIL OFL 1.1 | 1 | [github.com](https://github.com/egaindahouse/Ambidexter) |
 | Amstelvar | David Berlow | SIL OFL 1.1 | 2 | [github.com](https://github.com/googlefonts/amstelvar-beta) |
 | Andika | Victor Gaultney, Annie Olsen, Julie Remington, Don Collingsworth, Eric Hays, Becca Hirsbrunner | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/andika) |
@@ -54,6 +58,8 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Anticva Regular | Константин Крастев | SIL OFL 1.1 | 1 | [github.com](https://github.com/KonstatinKrastev/Anticva-Font) |
 | Aoudax | William Zhang | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/aoudax-cyrillic.otf) |
 | ARCO | Rafael Olivo Díaz; Rafael Olivo Díaz, Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/arco-cyrillic.otf) |
+| Ardeco | Ирина Чукина, Jovanny Lemonad | Бесплатно (условия автора) | 2 | [www.dafont.com](https://www.dafont.com/ardeco.font) |
+| Argentum Sans | Julieta Ulanovsky и др. (на основе Montserrat) | SIL OFL 1.1 | 24 | [github.com](https://github.com/cssobral2013/Argentum-Sans) |
 | Arimo | Steve Matteson | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/arimo) |
 | Arrose | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Arsenal | Andrij Shevchenko | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/arsenal) |
@@ -72,6 +78,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Baumans Cyrillic | Cyreal (Henadij Zarechnjuk) | SIL OFL 1.1 | 1 | [github.com](https://github.com/cyrealtype/Baumans-Cyrillic) |
 | Baymax | Илона Кузина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Bedstead | Ben Harris | CC0 / Public Domain | 2 | [bjh21.me.uk](https://bjh21.me.uk/bedstead/) |
+| Begit | Владимир Журавлёв | SIL OFL 1.1 | 1 | [github.com](https://github.com/private-face/begit) |
 | Bellota | Kemie Guaida | SIL OFL 1.1 | 6 | [github.com](https://github.com/google/fonts/tree/main/ofl/bellota) |
 | Bellota Text | Kemie Guaida | SIL OFL 1.1 | 6 | [github.com](https://github.com/google/fonts/tree/main/ofl/bellotatext) |
 | Benori | GGBot | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/benori-font) |
@@ -88,9 +95,13 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Bristol | Jovanny Lemonad | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/bristol.font) |
 | Brygada 1918 | Mateusz Machalski | Borys Kosmynka | Przemek Hoffer | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/brygada1918) |
 | Bubblez Graffiti | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Bully | Айгуль Гильмутдинова, Jovanny Lemonad | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/bully.font) |
+| Buran USSR | Денис Щербак | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/buran-ussr.font) |
 | Bushbaby | Иван Воронцов (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Caesar Dressing Cyrillic | Open Window, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/caesar-dressing-cyrillic.otf) |
+| Caesium | Alpha Argon | SIL OFL 1.1 | 14 | [github.com](https://github.com/alphaArgon/Caesium) |
 | Cairopixel | GGBot | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/cairopixel-font) |
+| Capture Smallz | MagiqueFonts | Бесплатно (условия автора) | 2 | [www.dafont.com](https://www.dafont.com/capture-smallz.font) |
 | Carlito | Lukasz Dziedzic | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/carlito) |
 | Cascadia Code | Aaron Bell; Saja Typeworks | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cascadiacode) |
 | Cascadia Mono | Aaron Bell; Saja Typeworks | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cascadiamono) |
@@ -99,8 +110,12 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | CAT Hohenzollern | Peter Wiegel | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/cat-hohenzollern.font) |
 | CAT Kakographie | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](http://www.peter-wiegel.de/CATKakografie.html) |
 | CAT Linz | Peter Wiegel | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/cat-linz.font) |
+| Catacombs | ToughCrest Studio | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/catacombs.font) |
+| Catallina | Mariano Diez; кириллица — Денис Игнатов | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts/files/catallina-rostype.zip) |
 | Caveat | Pablo Impallari | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/caveat) |
+| Caviar Dreams | Lauren Thompson (Nymphont) | Бесплатно (условия автора) | 4 | [www.dafont.com](https://www.dafont.com/caviar-dreams.font) |
 | Charis SIL | Walt Agee, Miriam Martin, Annie Olsen, Victor Gaultney, Lorna Priest, Alan Ward, Bob Hallissy, Martin Hosken, Sharon Correll, Jon Coblentz, Jonathan Kew, David Raymond | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/charissil) |
+| ChunkFive Ex | Peter Wiegel | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/chunkfive-ex.font) |
 | Classic Console Neue | DeeJayy | MIT / X11 | 1 | [github.com](https://github.com/em-777/classic-console-neue) |
 | Clear Sans | Intel Corporation | Apache 2.0 | 8 | [github.com](https://github.com/intel/clear-sans) |
 | Clickuper | Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/clickuper.zip) |
@@ -125,17 +140,21 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Cousine | Steve Matteson | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/cousine) |
 | Creepster | Font Diner, Inc | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/creepster-cyrillic.otf) |
 | Crimson Pro Cyr | Jacques Le Bailly; кириллица — Алексей Бурба | SIL OFL 1.1 | 3 | [github.com](https://github.com/alexburba/CrimsonPro-Cyr-Typeface) |
+| Crooli Sans | Crooli (на основе Geist) | SIL OFL 1.1 | 18 | [github.com](https://github.com/xandertaylorx/crooli-sans) |
 | Crosspath Hand | Victor Popov; crosspath.cv | SIL OFL 1.1 | 1 | [github.com](https://github.com/victorpapou/crosspath-hand) |
 | Crosterian | Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/crosterian.zip) |
 | Cuprum | Jovanny Lemonad | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cuprum) |
 | Cyrabika | Фионола Овчаренко (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Damn | Дарья Фисько (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Data Twenty Cyrillic | кириллица — Денис Игнатов | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts/files/data-twenty-cyrillic.otf) |
 | DatCub | GGBot | SIL OFL 1.1 | 3 | [ggbot.itch.io](https://ggbot.itch.io/datcub-font) |
 | DatDot | GGBotNet | SIL OFL 1.1 | 6 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Days One | Alexander Kalachev, Alexey Maslov, Jovanny Lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/daysone) |
 | Defectica | Алина Молчанова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | DejaVu Serif | DejaVu (на основе Bitstream Vera) | Bitstream Vera (свободная) | 4 | [github.com](https://github.com/dejavu-fonts/dejavu-fonts) |
 | Dela Gothic One | artakana | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/delagothicone) |
+| Denistina | Анастасия Ларина | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/denistina.font) |
+| Departure Mono | Helena Zhang | MIT / X11 | 3 | [github.com](https://github.com/rektdeckard/departure-mono) |
 | Didact Gothic | Daniel Johnson | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/didactgothic) |
 | Dimica | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Dimica/Dimica-Light.otf) |
 | Divagon | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -162,6 +181,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Fira Sans | Carrois Corporate & Edenspiekermann AG | SIL OFL 1.1 | 18 | [github.com](https://github.com/google/fonts/tree/main/ofl/firasans) |
 | Fira Sans Condensed | Carrois Corporate & Edenspiekermann AG | SIL OFL 1.1 | 18 | [github.com](https://github.com/google/fonts/tree/main/ofl/firasanscondensed) |
 | Fira Sans Extra Condensed | Carrois Corporate & Edenspiekermann AG | SIL OFL 1.1 | 18 | [github.com](https://github.com/google/fonts/tree/main/ofl/firasansextracondensed) |
+| FiraGO | bBox Type | SIL OFL 1.1 | 24 | [github.com](https://github.com/bBoxType/FiraGO) |
 | First Time Writing | GGBotNet | CC0 / Public Domain | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Flexi IBM VGA False | VileR | CC BY-SA | 1 | [www.dafont.com](https://www.dafont.com/flexi-ibm-vga-false.font) |
 | Flexi IBM VGA True | VileR | CC BY-SA | 1 | [www.dafont.com](https://www.dafont.com/flexi-ibm-vga-true.font) |
@@ -212,6 +232,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Hooskai Chamfered Square | 胡斯凯 | SIL OFL 1.1 | 1 | [github.com](https://github.com/SiberiaHusky/Hooskai-Chamfered-Square) |
 | Horta | Tim Larson | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/horta) |
 | Hussar Szturm | Robert Jablonski | SIL OFL 1.1 | 2 | [fontlibrary.org](https://fontlibrary.org/ru/font/hussar-szturm) |
+| iA Writer | iA (на основе IBM Plex) | SIL OFL 1.1 | 12 | [github.com](https://github.com/iaolo/iA-Fonts) |
 | IBM Plex Mono | Mike Abbink, Paul van der Laan, Pieter van Rosmalen | SIL OFL 1.1 | 14 | [github.com](https://github.com/google/fonts/tree/main/ofl/ibmplexmono) |
 | IBM Plex Sans | Mike Abbink, Paul van der Laan, Pieter van Rosmalen | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ibmplexsans) |
 | IBM Plex Serif | Mike Abbink, Paul van der Laan, Pieter van Rosmalen | SIL OFL 1.1 | 14 | [github.com](https://github.com/google/fonts/tree/main/ofl/ibmplexserif) |
@@ -239,6 +260,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Kelly Slab | Denis Masharov | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/kellyslab) |
 | Kelvinch | Paul Miller | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/en/font/kelvinch) |
 | Ketwurst | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](http://www.peter-wiegel.de/Ketwurst.html) |
+| Kirk Mono | kirklin (на основе JetBrains Mono) | SIL OFL 1.1 | 24 | [github.com](https://github.com/kirklin/kirk-mono) |
 | KJV1611 | Fredrick R. Brennan | SIL OFL 1.1 | 1 | [github.com](https://github.com/ctrlcctrlv/kjv1611/releases/download/v3.6.1/KJV1611.otf) |
 | Kom-post | @guaschetti; guaschetti | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/kom-post.ttf) |
 | Kurale | Eduardo Rodriguez Tunni | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/kurale) |
@@ -270,6 +292,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Luculent | Andrew Kensler | SIL OFL 1.1 | 4 | [fontlibrary.org](https://fontlibrary.org/en/font/luculent) |
 | Lunasima | The DocRepair Project, Monotype Design Team | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/lunasima) |
 | Lytkin | Danilo Borovinić, Antonina Samokhina | SIL OFL 1.1 | 6 | [github.com](https://github.com/collectivetypeworks/Lytkin) |
+| machine-made Sans | machine-made (на основе Plus Jakarta Sans) | Apache 2.0 | 24 | [github.com](https://github.com/machine-made/type) |
 | Mail Ray Stuff | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Manrope | Mikhail Sharanda | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/manrope) |
 | Marck Script | Denis Masharov, Marck Fogel | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/marckscript) |
@@ -292,6 +315,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Monocraft | Idrees Hassan | SIL OFL 1.1 | 12 | [github.com](https://github.com/IdreesInc/Monocraft) |
 | Monoid 2.0 | Andreas Larsen | SIL OFL 1.1 | 3 | [github.com](https://github.com/larsenwork/monoid) |
 | Monomakh | — | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/monomakh) |
+| mononoki | Matthias Tellen | SIL OFL 1.1 | 4 | [github.com](https://github.com/madmalik/mononoki) |
 | Montserrat | Julieta Ulanovsky | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserrat) |
 | Montserrat Alternates | Julieta Ulanovsky | SIL OFL 1.1 | 18 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserratalternates) |
 | Montserrat Underline | Julieta Ulanovsky | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserratunderline) |
@@ -329,6 +353,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Oldtimer | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Onest | Dmitri Voloshin, Andrey Kudryavtsev | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/onest) |
 | Open Sans | Monotype Design Team | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/opensans) |
+| OpenDyslexic | Abbie Gonzalez | SIL OFL 1.1 | 7 | [github.com](https://github.com/antijingoist/opendyslexic) |
 | Operation Napalm | GGBot | CC0 / Public Domain | 2 | [ggbot.itch.io](https://ggbot.itch.io/operation-napalm-font) |
 | Opsilon | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Oranienbaum | Oleg Pospelov and Jovanny Lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/oranienbaum) |
@@ -338,6 +363,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | overdoze sans | IsamiRi | SIL OFL 1.1 | 1 | [github.com](https://github.com/isamirivers/overdoze-sans) |
 | Overpass | Delve Fonts LLC; Delve Withrington, Dave Bailey, Thomas Jockin | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/overpass) |
 | Overpass Mono | Delve Fonts LLC; Delve Withrington, Dave Bailey | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/overpassmono) |
+| Overused Grotesk | Bao Nguyen (RandomMaerks) | SIL OFL 1.1 | 9 | [github.com](https://github.com/RandomMaerks/Overused-Grotesk) |
 | Pacifico | Vernon Adams | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/pacifico) |
 | Pangolin | Kevin Burke | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/pangolin) |
 | Paperfiller | Denis Ignatov; Pablo Cosgaya & Dani Raskovsky | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/paperfiller.otf) |
@@ -457,6 +483,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Sofia Sans Extra Condensed | Botio Nikoltchev, Ani Petrova | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/sofiasansextracondensed) |
 | Sofia Sans Semi Condensed | Botio Nikoltchev, Ani Petrova | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/sofiasanssemicondensed) |
 | Solid Soldier | Goma Shin; Goma Shin, Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/solid-soldier-cyrillic.otf) |
+| Some Time Later | Fredrick Brennan | SIL OFL 1.1 | 1 | [github.com](https://github.com/ctrlcctrlv/some-time-later) |
 | Source Code Pro | Paul D. Hunt, Teo Tuominen | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/sourcecodepro) |
 | Source Sans 3 | Paul D. Hunt | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/sourcesans3) |
 | Source Serif 4 | Frank Grießhammer | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/sourceserif4) |
@@ -468,6 +495,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Steedle | Валерия Куття (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | STIX Two Text | Ross Mills, John Hudson & Paul Hanslow, Tiro Typeworks Ltd; with prior portions MicroPress Inc. and Coen Hoffman, Elsevier (retired). | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/stixtwotext) |
 | Stykhiia Text | TheTurkeyProgramist | SIL OFL 1.1 | 1 | [github.com](https://github.com/TheTurkeyProgramist/stykhiia-fonts) |
+| Sun Serif | на основе Amstelvar (Font Bureau) | SIL OFL 1.1 | 2 | [github.com](https://github.com/sypsyp97/sun-serif) |
 | Swanky and Moo Moo | Kimberly Geswein; Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/swanky-and-moo-moo-cyrillic.otf) |
 | Swanston | Liam Whitelaw | SIL OFL 1.1 | 2 | [github.com](https://github.com/lwhitelaw/Swanston) |
 | Synthax | sevavar | CC0 / Public Domain | 1 | [github.com](https://github.com/sevavar/synthax) |
@@ -520,6 +548,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Wix Madefor Display | Dalton Maag Ltd | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/wixmadefordisplay) |
 | Wix Madefor Text | Dalton Maag Ltd | SIL OFL 1.1 | 12 | [github.com](https://github.com/google/fonts/tree/main/ofl/wixmadefortext) |
 | Work Sans Cyr | Wei Huang; кириллица — Алексей Бурба | SIL OFL 1.1 | 2 | [github.com](https://github.com/alexburba/Work-Sans-Cyr-Typeface) |
+| Wumpus Mono | T. E. Vaughan | SIL OFL 1.1 | 2 | [github.com](https://github.com/vaughantype/wumpus-mono) |
 | X Company | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | X Typewriter | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/x-typewriter-font) |
 | Xanmono | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
