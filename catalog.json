@@ -10395,6 +10395,45 @@
   "copyright": "Copyright (c) 1994-2025 SIL Global"
  },
  {
+  "name": "Drabina",
+  "slug": "drabina",
+  "author": "markblondie",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "Drabina-Outline.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Drabina-Solid.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Drabina-Outline.ttf",
+   "Drabina-Solid.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/markblondie/Drabina",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Droid 1997",
   "slug": "droid-1997",
   "author": "Ray Larabie, Typodermic Fonts",

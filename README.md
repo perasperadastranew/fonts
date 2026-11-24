@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 984 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 985 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -265,6 +265,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | DotMatrix Mono | Stefan Schmidt | SIL OFL 1.1 | 4 | [github.com](https://github.com/Gissio/font_DotMatrix) |
 | DotMatrix Sans | Stefan Schmidt | SIL OFL 1.1 | 4 | [github.com](https://github.com/Gissio/font_DotMatrix) |
 | Doulos SIL | SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne | SIL OFL 1.1 | 1 | [github.com](https://github.com/silnrsi/font-doulos) |
+| Drabina | markblondie | SIL OFL 1.1 | 2 | [github.com](https://github.com/markblondie/Drabina) |
 | Droid 1997 | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Dudka | Дмитрий Антонов | Бесплатно (условия автора) | 6 | [t.me](https://t.me/fontdisk/382) |
 | EB Garamond | Georg Duffner and Octavio Pardo | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ebgaramond) |
