@@ -1927,59 +1927,6 @@
   "copyright": ""
  },
  {
-  "name": "Arian",
-  "slug": "arian",
-  "author": "Василий Шишкин",
-  "class": "Гротеск",
-  "license": "Бесплатно (условия автора)",
-  "styles": 4,
-  "faces": [
-   [
-    "Arian_bold.otf",
-    700,
-    700,
-    false
-   ],
-   [
-    "Arian_bold_italic.otf",
-    700,
-    700,
-    true
-   ],
-   [
-    "Arian_normal.otf",
-    400,
-    400,
-    false
-   ],
-   [
-    "Arian_normal_italic_0.otf",
-    400,
-    400,
-    true
-   ]
-  ],
-  "variable": false,
-  "italic": true,
-  "weights": [
-   400,
-   700
-  ],
-  "files": [
-   "Arian_bold.otf",
-   "Arian_bold_italic.otf",
-   "Arian_normal.otf",
-   "Arian_normal_italic_0.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://shishkin.ru/",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
- },
- {
   "name": "Arimo",
   "slug": "arimo",
   "author": "Steve Matteson",
@@ -5195,37 +5142,6 @@
   "copyright": "Gentium copyright (c) SIL International 2003-2005 under the Open Font License.\nConstructium copyright (c) Kreative Softw"
  },
  {
-  "name": "Content",
-  "slug": "content",
-  "author": "Василий Шишкин",
-  "class": "Акцидентный",
-  "license": "Бесплатно (условия автора)",
-  "styles": 1,
-  "faces": [
-   [
-    "content.otf",
-    400,
-    400,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   400
-  ],
-  "files": [
-   "content.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://shishkin.ru/",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
- },
- {
   "name": "Cormorant",
   "slug": "cormorant",
   "author": "Christian Thalmann (Catharsis Fonts)",
@@ -7203,37 +7119,6 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2013 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
- },
- {
-  "name": "FFU SuwiKisu",
-  "slug": "ffu-suwikisu",
-  "author": "TypeType Free Fonts",
-  "class": "Рукописный",
-  "license": "Бесплатно (условия автора)",
-  "styles": 1,
-  "faces": [
-   [
-    "suwikisu-1.otf",
-    400,
-    400,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   400
-  ],
-  "files": [
-   "suwikisu-1.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://typetype.org/freefonts/",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
  },
  {
   "name": "Ficus",
@@ -16181,37 +16066,6 @@
   "copyright": "Typeface © Viktar Palstsiuk, 2002. All Rights Reserved."
  },
  {
-  "name": "Neonic",
-  "slug": "neonic",
-  "author": "Василий Шишкин",
-  "class": "Акцидентный",
-  "license": "Бесплатно (условия автора)",
-  "styles": 1,
-  "faces": [
-   [
-    "neonic.otf",
-    400,
-    400,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   400
-  ],
-  "files": [
-   "neonic.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://shishkin.ru/",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
- },
- {
   "name": "Neucha",
   "slug": "neucha",
   "author": "Jovanny Lemonad",
@@ -24121,37 +23975,6 @@
   "copyright": "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc.\nCyrillic and German "
  },
  {
-  "name": "Team",
-  "slug": "team",
-  "author": "Василий Шишкин",
-  "class": "Акцидентный",
-  "license": "Бесплатно (условия автора)",
-  "styles": 1,
-  "faces": [
-   [
-    "team.otf",
-    400,
-    400,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   400
-  ],
-  "files": [
-   "team.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://shishkin.ru/",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
- },
- {
   "name": "Tecla",
   "slug": "tecla",
   "author": "Василий Шишкин",
@@ -26010,37 +25833,6 @@
   "copyright": ""
  },
  {
-  "name": "Voltaire",
-  "slug": "voltaire",
-  "author": "Василий Шишкин",
-  "class": "Антиква",
-  "license": "Бесплатно (условия автора)",
-  "styles": 1,
-  "faces": [
-   [
-    "Voltaire.otf",
-    400,
-    400,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   400
-  ],
-  "files": [
-   "Voltaire.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://shishkin.ru/",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
- },
- {
   "name": "VPCH_2",
   "slug": "vpch-2",
   "author": "Александра Ботвинова (Школа дизайна НИУ ВШЭ)",
@@ -27700,6 +27492,37 @@
   "copyright": ""
  },
  {
+  "name": "Добрый Устав (TD Dobrui Ystav 24)",
+  "slug": "td-dobrui-ystav-24",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "TDDobruiYstav24.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TDDobruiYstav24.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://tektovdmitry.ru/shrifty",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Дружок (Druzhok)",
   "slug": "druzhok",
   "author": "Влада Олейник (Школа дизайна НИУ ВШЭ)",
@@ -27815,6 +27638,37 @@
   ],
   "files": [
    "TDIzbushka.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://tektovdmitry.ru/shrifty",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Извод (TD Izvod)",
+  "slug": "td-izvod",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Izvod.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Izvod.otf"
   ],
   "license_files": [
    "УСЛОВИЯ.txt"

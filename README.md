@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 627 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 623 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -67,7 +67,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Ardeco | Ирина Чукина, Jovanny Lemonad | Бесплатно (условия автора) | 2 | [www.dafont.com](https://www.dafont.com/ardeco.font) |
 | Argentum Sans | Julieta Ulanovsky и др. (на основе Montserrat) | SIL OFL 1.1 | 24 | [github.com](https://github.com/cssobral2013/Argentum-Sans) |
 | Ariall | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
-| Arian | Василий Шишкин | Бесплатно (условия автора) | 4 | [shishkin.ru](https://shishkin.ru/) |
 | Arimo | Steve Matteson | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/arimo) |
 | Arrose | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Arsenal | Andrij Shevchenko | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/arsenal) |
@@ -145,7 +144,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Common Serif | Philipp H. Poll, Khaled Hosny; Stefan Peev, Context Ltd. | SIL OFL 1.1 | 8 | [github.com](https://github.com/StefanPeev/Common-Serif) |
 | Constantine | Dukom Design | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/constantine.font) |
 | Constructium | Rebecca Bettencourt (Kreative Software), на основе Gentium | SIL OFL 1.1 | 1 | [github.com](https://github.com/kreativekorp/open-relay) |
-| Content | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
 | Cormorant | Christian Thalmann (Catharsis Fonts) | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cormorant) |
 | Cormorant Garamond | Christian Thalmann (Catharsis Fonts) | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cormorantgaramond) |
 | Cormorant Infant | Catharsis Fonts; Christian Thalmann (Catharsis Fonts) | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/cormorantinfant) |
@@ -190,7 +188,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Felidae | Дарья Казакова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Femme Fatale | Екатерина Вахрушева (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Fette Bauersche Antiqua | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](http://www.peter-wiegel.de/FetteBauer.html) |
-| FFU SuwiKisu | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Ficus | Erik Kennedy (Figtree); кириллица — apshenichniy | SIL OFL 1.1 | 14 | [github.com](https://github.com/apshenichniy/ficus-font) |
 | Finlandica | Niklas Ekholm, Juho Hiilivirta, Jaakko Suomalainen | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/finlandica) |
 | Finlandica Headline | Niklas Ekholm, Juho Hiilivirta, Jaakko Suomalainen | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/finlandicaheadline) |
@@ -360,7 +357,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Nata Sans | Daniel Uzquiano Cruz | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/natasans) |
 | Natural Mono | Vasily Draigo | SIL OFL 1.1 | 2 | [fontlibrary.org](https://fontlibrary.org/font/natural-mono) |
 | Neocyr | Viktar Palstsiuk <vipals@gmail.com> | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/neocyr) |
-| Neonic | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
 | Neucha | Jovanny Lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/neucha) |
 | Neue Glagolitic | Лада Собченко (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Neue Soviet | Борис Журавлев | SIL OFL 1.1 | 1 | [github.com](https://github.com/zhuravlevb/neuesoviet) |
@@ -552,7 +548,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Swanston | Liam Whitelaw | SIL OFL 1.1 | 2 | [github.com](https://github.com/lwhitelaw/Swanston) |
 | Synthax | sevavar | CC0 / Public Domain | 1 | [github.com](https://github.com/sevavar/synthax) |
 | Talyn Brush | на основе Nanum Brush Script (NHN) | SIL OFL 1.1 | 1 | [github.com](https://github.com/christophbuehler/talyn-brush) |
-| Team | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
 | Tecla | Василий Шишкин | Бесплатно (условия автора) | 9 | [shishkin.ru](https://shishkin.ru/) |
 | Tedeev | AR (anovrus) | SIL OFL 1.1 | 1 | [github.com](https://github.com/silentbay/Tedeev) |
 | Tektur | Adam Jagosz | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/tektur) |
@@ -596,7 +591,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Vis-A-Vis | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](http://www.peter-wiegel.de/Vis-A-Vis.html) |
 | Vollda Bold | Алексей Бурба | SIL OFL 1.1 | 1 | [github.com](https://github.com/alexburba/vollda-typeface) |
 | Vollkorn | Friedrich Althausen | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/vollkorn) |
-| Voltaire | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
 | VPCH_2 | Александра Ботвинова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Vyaz Pixel | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/vyaz-pixel-font) |
 | Walleye | Nathanael Bonnell | SIL OFL 1.1 | 4 | [github.com](https://github.com/chuckmasterson/walleye) |
@@ -637,10 +631,12 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Борис (Boris) | Ксения Герник (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Во Благо Дарю (TD Vo Blago Daryu) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Греча (Grecha) | Валерий Черевков (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Добрый Устав (TD Dobrui Ystav 24) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Дружок (Druzhok) | Влада Олейник (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Дурик (Durik) | Надежда Найдёнкина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Зарровв (Xarrovv) | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Xarrovv/Xarrovv.otf) |
 | Избушка (TD Izbushka) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
+| Извод (TD Izvod) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Калуга (Kaluga) | Дмитрий Тектов, Юрий Бучарский | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Кафизма (Cathisma) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Cathisma) |
 | Корнилов (Kornilow) | Marath Salychow | CC BY | 1 | [fontlibrary.org](https://fontlibrary.org/font/kornilow) |
