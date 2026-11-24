@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 662 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 668 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -177,6 +177,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Dimica | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Dimica/Dimica-Light.otf) |
 | Dita Sweet | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Divagon | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| DotGothic16 | Fontworks | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/dotgothic16) |
 | Doulos SIL | SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne | SIL OFL 1.1 | 1 | [github.com](https://github.com/silnrsi/font-doulos) |
 | Droid 1997 | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | EB Garamond | Georg Duffner and Octavio Pardo | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ebgaramond) |
@@ -253,6 +254,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Gugi Cyrillic | TAE System &amp; Typefaces Co., Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gugi-cyrillic.otf) |
 | Guidy | Матвей Малкин aka nicl4m | SIL OFL 1.1 | 1 | [github.com](https://github.com/collectivetypeworks/Guidy/releases/download/Typeface/Guidy-1.1.zip) |
 | Gypsystyle Art | Vsevolod Belikov (на основе Exo 2) | SIL OFL 1.1 | 5 | [github.com](https://github.com/gypsystyle-dev/gypsystyle-art-font) |
+| Hachi Maru Pop | Nonty | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/hachimarupop) |
 | Hack | Source Foundry; Source Foundry Authors | Bitstream Vera (свободная) | 4 | [github.com](https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip) |
 | Handjet | David Brezina | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/handjet) |
 | Harpseal | David Jonathan Ross, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/harpseal.otf) |
@@ -478,7 +480,9 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | QuinqueFive | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Qyrandar | romaagadill (на основе Montserrat) | SIL OFL 1.1 | 18 | [github.com](https://github.com/romaagadill-a11y/Qyrandar) |
 | Raleway | Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/raleway) |
+| Rampart One | Fontworks | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rampartone) |
 | Raznochin | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
+| Reggae One | Fontworks | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/reggaeone) |
 | Renaissance | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
 | Renju | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Retni Sans | Vitaly Kuzmin | SIL OFL 1.1 | 8 | [fontlibrary.org](https://fontlibrary.org/font/retni-sans) |
@@ -565,6 +569,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Stalinist One | Jovanny Lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/stalinistone) |
 | Steam | Stan Partalev, Mirela Belova (Typeforward) | Бесплатно (условия автора) | 1 | [www.1001fonts.com](https://www.1001fonts.com/steam-font.html) |
 | Steedle | Валерия Куття (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Stick | Fontworks | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/stick) |
 | Stig | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | STIX Two Text | Ross Mills, John Hudson & Paul Hanslow, Tiro Typeworks Ltd; with prior portions MicroPress Inc. and Coen Hoffman, Elsevier (retired). | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/stixtwotext) |
 | Structura | Василий Шишкин | Бесплатно (условия автора) | 2 | [shishkin.ru](https://shishkin.ru/) |
@@ -592,6 +597,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Tiny5 | Stefan Schmidt | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/tiny5) |
 | Tiny5 Duo | Stefan Schmidt; Stefan Schmidt Art | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/tiny5duo) |
 | Tonky | Полина Залевская (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Train One | Fontworks | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/trainone) |
 | Trigram | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Triodion | — | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/triodion) |
 | TriodPostnaja | Daniel Johnson | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/ru/font/triod-postnaja) |

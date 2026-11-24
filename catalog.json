@@ -6549,6 +6549,37 @@
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "DotGothic16",
+  "slug": "dotgothic16",
+  "author": "Fontworks",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "DotGothic16-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "DotGothic16-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/dotgothic16",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Doulos SIL",
   "slug": "doulos-sil",
   "author": "SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne",
@@ -10452,6 +10483,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright 2013 The Exo 2 Project Authors (https://github.com/googlefonts/Exo-2.0). Copyright 2026 Vsevolod Belikov (Gyps"
+ },
+ {
+  "name": "Hachi Maru Pop",
+  "slug": "hachi-maru-pop",
+  "author": "Nonty",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "HachiMaruPop-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "HachiMaruPop-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/hachimarupop",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Hack",
@@ -21300,6 +21362,40 @@
   "copyright": ""
  },
  {
+  "name": "Rampart One",
+  "slug": "rampart-one",
+  "author": "Fontworks",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "RampartOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "RampartOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/rampartone",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/display"
+  },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Raznochin",
   "slug": "raznochin",
   "author": "Василий Шишкин",
@@ -21327,6 +21423,40 @@
   ],
   "source": "https://shishkin.ru/",
   "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Reggae One",
+  "slug": "reggae-one",
+  "author": "Fontworks",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "ReggaeOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "ReggaeOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/reggaeone",
+  "expert": {
+   "v": "avoid",
+   "url": "https://type.today/ru/journal/display"
+  },
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -24738,6 +24868,40 @@
   "copyright": ""
  },
  {
+  "name": "Stick",
+  "slug": "stick",
+  "author": "Fontworks",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Stick-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Stick-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/stick",
+  "expert": {
+   "v": "avoid",
+   "url": "https://type.today/ru/journal/display"
+  },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Stig",
   "slug": "stig",
   "author": "TypeType Free Fonts",
@@ -25805,6 +25969,40 @@
   ],
   "source": "https://design.hse.ru/lab/hsefonts",
   "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Train One",
+  "slug": "train-one",
+  "author": "Fontworks",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "TrainOne-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TrainOne-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/trainone",
+  "expert": {
+   "v": "avoid",
+   "url": "https://type.today/ru/journal/display"
+  },
   "cyrillic": "ru",
   "copyright": ""
  },
