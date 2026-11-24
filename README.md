@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 985 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 989 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -78,6 +78,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Ampero | Niklas Johnson | Бесплатно (условия автора) | 8 | [www.dafont.com](https://www.dafont.com/ampero.font) |
 | Amstelvar | David Berlow | SIL OFL 1.1 | 2 | [github.com](https://github.com/googlefonts/amstelvar-beta) |
 | Andika | Victor Gaultney, Annie Olsen, Julie Remington, Don Collingsworth, Eric Hays, Becca Hirsbrunner | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/andika) |
+| Angeme | Нурбек Нас | Бесплатно (условия автора) | 2 | [nurbeknas.gumroad.com](https://nurbeknas.gumroad.com/l/angeme) |
 | Angst | Misha Ivanov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/282) |
 | Anjhay | syaf rizal | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/221) |
 | Anonymous Pro | Mark Simonson | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/anonymouspro) |
@@ -192,6 +193,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Catherine | Василий Шишкин | Бесплатно (условия автора) | 2 | [shishkin.ru](https://shishkin.ru/) |
 | Caveat | Pablo Impallari | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/caveat) |
 | Caviar Dreams | Lauren Thompson (Nymphont) | Бесплатно (условия автора) | 4 | [www.dafont.com](https://www.dafont.com/caviar-dreams.font) |
+| CDX Starstreak | Codecy | SIL OFL 1.1 | 4 | [codecy.gumroad.com](https://codecy.gumroad.com/l/starstreak) |
 | Charis SIL | Walt Agee, Miriam Martin, Annie Olsen, Victor Gaultney, Lorna Priest, Alan Ward, Bob Hallissy, Martin Hosken, Sharon Correll, Jon Coblentz, Jonathan Kew, David Raymond | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/charissil) |
 | Charming | Anastasia Dimitriadi | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/285) |
 | Chava | bunin. | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/222) |
@@ -282,6 +284,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Exo 2 | Natanael Gama | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/exo2) |
 | Fabergé | Василий Шишкин, Владимир Аносов | Бесплатно (условия автора) | 4 | [shishkin.ru](https://shishkin.ru/faberge) |
 | Fairfax | Made with Bits'n'Picas by Kreative Software | SIL OFL 1.1 | 14 | [github.com](https://github.com/kreativekorp/open-relay/releases/download/2026-09-21/Fairfax.zip) |
+| Fairwall Sans | Pavel Bruev | SIL OFL 1.1 | 1 | [pbruev.gumroad.com](https://pbruev.gumroad.com/l/YLEWN) |
 | Fantasque Sans Mono | Джани Беллуз | SIL OFL 1.1 | 4 | [github.com](https://github.com/belluzj/fantasque-sans) |
 | Farabee Straight | Dimitri Antonov | Бесплатно (условия автора) | 14 | [t.me](https://t.me/fontdisk/518) |
 | Fascinate | Astigmatic (AOETI); Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/fascinate-cyrillic.otf) |
@@ -973,6 +976,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Zen Maru Gothic | Yoshimichi Ohira | SIL OFL 1.1 | 5 | [fonts.google.com](https://fonts.google.com/specimen/Zen+Maru+Gothic) |
 | Zen Old Mincho | Yoshimichi Ohira | SIL OFL 1.1 | 5 | [fonts.google.com](https://fonts.google.com/specimen/Zen+Old+Mincho) |
 | Zero Cool | GGBotNet | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Zhirok | OMG SSG Studio | Бесплатно (условия автора) | 1 | [omgssgstudio.gumroad.com](https://omgssgstudio.gumroad.com/l/zhirok-typeface) |
 | Znikomit | gluk | SIL OFL 1.1 | 2 | [www.dafont.com](https://www.dafont.com/znikomit.font) |
 | ZnikomitNo25 | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/znikomitno25.font) |
 | ZT Neue Ralewe | ZELOW | Бесплатно (условия автора) | 10 | [t.me](https://t.me/fontdisk/394) |

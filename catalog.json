@@ -2311,6 +2311,45 @@
   "copyright": ""
  },
  {
+  "name": "Angeme",
+  "slug": "angeme",
+  "author": "Нурбек Нас",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Angeme-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Angeme-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Angeme-Bold.ttf",
+   "Angeme-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://nurbeknas.gumroad.com/l/angeme",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Angst",
   "slug": "angst",
   "author": "Misha Ivanov",
@@ -7272,6 +7311,60 @@
   "copyright": ""
  },
  {
+  "name": "CDX Starstreak",
+  "slug": "cdx-starstreak",
+  "author": "Codecy",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "CDXStarstreak-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "CDXStarstreak-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "CDXStarstreak-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "CDXStarstreak-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "CDXStarstreak-Bold.ttf",
+   "CDXStarstreak-BoldItalic.ttf",
+   "CDXStarstreak-Italic.ttf",
+   "CDXStarstreak-Regular.ttf"
+  ],
+  "license_files": [
+   "ReadMe.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://codecy.gumroad.com/l/starstreak",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Charis SIL",
   "slug": "charis-sil",
   "author": "Walt Agee, Miriam Martin, Annie Olsen, Victor Gaultney, Lorna Priest, Alan Ward, Bob Hallissy, Martin Hosken, Sharon Correll, Jon Coblentz, Jonathan Kew, David Raymond",
@@ -11186,6 +11279,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2008-2026 Kreative Software"
+ },
+ {
+  "name": "Fairwall Sans",
+  "slug": "fairwall-sans",
+  "author": "Pavel Bruev",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "FairwallSans-Regular.otf",
+    300,
+    300,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300
+  ],
+  "files": [
+   "FairwallSans-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://pbruev.gumroad.com/l/YLEWN",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Fantasque Sans Mono",
@@ -41329,6 +41453,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet"
+ },
+ {
+  "name": "Zhirok",
+  "slug": "zhirok",
+  "author": "OMG SSG Studio",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "ZHIROK TYPEFACE.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "ZHIROK TYPEFACE.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://omgssgstudio.gumroad.com/l/zhirok-typeface",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Znikomit",
