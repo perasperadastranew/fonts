@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 298 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 303 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -46,6 +46,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Atonic | Антонина Самохина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Audex | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | AVA | GGBotNet | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Avdira | George Douros | Свободная (любое использование) | 2 | [fontlibrary.org](https://fontlibrary.org/font/avdira-textfonts) |
 | Bad Comic | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Balhattan | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/balhattan-font) |
 | Banana Brick | artmaker | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/banana-brick) |
@@ -205,6 +206,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Passero One Cyrillic | Viktoriya Grabowska, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/passero-one-cyrillic.ttf) |
 | Pecita | Phillipe Cochy | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/pecita.font) |
 | Peter Ivanowitsch | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/Peter_Ivanovitsch.zip) |
+| Pfennig | Daniel Johnson | SIL OFL 1.1 | 4 | [fontlibrary.org](https://fontlibrary.org/font/pfennig) |
 | Phlatt Grotesk | RandomMaerks | SIL OFL 1.1 | 1 | [github.com](https://github.com/RandomMaerks/Phlatt-Grotesk) |
 | Pinzelan | GGBot | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/pinzelan-cyrillic.otf) |
 | Pitagon Sans Mono | Travis Tran | SIL OFL 1.1 | 16 | [github.com](https://github.com/ThePitagon/pitagon-sans-mono) |
@@ -221,6 +223,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Pulstar | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | QuinqueFive | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Renju | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Retni Sans | Vitaly Kuzmin | SIL OFL 1.1 | 8 | [fontlibrary.org](https://fontlibrary.org/font/retni-sans) |
 | Risha Neo | Isami Risha | SIL OFL 1.1 | 1 | [github.com](https://github.com/isamirivers/Risha-Neo) |
 | Robtronika | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Rubik 80s Fade | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubik80sfade) |
@@ -287,6 +290,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Umnaya Masha | Ксения Бурланкова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Unsightly | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/unsightly-font) |
 | Unutterable | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Venryn Sans | Owen Earl, Cristiano Sobral | SIL OFL 1.1 | 18 | [fontlibrary.org](https://fontlibrary.org/font/venryn-sans) |
 | Vis-A-Vis | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](http://www.peter-wiegel.de/Vis-A-Vis.html) |
 | Vollda Bold | Алексей Бурба | SIL OFL 1.1 | 1 | [github.com](https://github.com/alexburba/vollda-typeface) |
 | VPCH_2 | Александра Ботвинова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
@@ -322,6 +326,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Дурик (Durik) | Надежда Найдёнкина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Зарровв (Xarrovv) | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Xarrovv/Xarrovv.otf) |
 | Кафизма (Cathisma) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Cathisma) |
+| Корнилов (Kornilow) | Marath Salychow | CC BY | 1 | [fontlibrary.org](https://fontlibrary.org/font/kornilow) |
 | Крамола (Kramola) | Алексей Меднов | CC0 / Public Domain | 1 | [www.dafont.com](https://www.dafont.com/kramola.font) |
 | Курочка (Curochka) | Валерий Черевков (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Оглавие (Oglavie) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Oglavie) |

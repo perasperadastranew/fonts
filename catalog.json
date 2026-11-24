@@ -664,6 +664,44 @@
   "copyright": ""
  },
  {
+  "name": "Avdira",
+  "slug": "avdira",
+  "author": "George Douros",
+  "class": "Антиква",
+  "license": "Свободная (любое использование)",
+  "styles": 2,
+  "faces": [
+   [
+    "Avdira.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Avdira_hint.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Avdira.ttf",
+   "Avdira_hint.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://fontlibrary.org/font/avdira-textfonts",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Unicode Fonts for Ancient Scripts; George Douros; 2016"
+ },
+ {
   "name": "Bad Comic",
   "slug": "bad-comic",
   "author": "GGBotNet",
@@ -7487,6 +7525,59 @@
   "copyright": "Copyright (c) 2018 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
  },
  {
+  "name": "Pfennig",
+  "slug": "pfennig",
+  "author": "Daniel Johnson",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "Pfennig.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "PfennigBold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "PfennigBoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "PfennigItalic.ttf",
+    500,
+    500,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   500,
+   700
+  ],
+  "files": [
+   "Pfennig.ttf",
+   "PfennigBold.ttf",
+   "PfennigBoldItalic.ttf",
+   "PfennigItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fontlibrary.org/font/pfennig",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2009-2012 by Daniel Johnson. Released under the terms of the SIL Open Font License."
+ },
+ {
   "name": "Phlatt Grotesk",
   "slug": "phlatt-grotesk",
   "author": "RandomMaerks",
@@ -8185,6 +8276,89 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Released in 2022 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Retni Sans",
+  "slug": "retni-sans",
+  "author": "Vitaly Kuzmin",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 8,
+  "faces": [
+   [
+    "RetniSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "RetniSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "RetniSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "RetniSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "RetniSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "RetniSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "RetniSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "RetniSans-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400,
+   500,
+   700
+  ],
+  "files": [
+   "RetniSans-Bold.ttf",
+   "RetniSans-BoldItalic.ttf",
+   "RetniSans-Italic.ttf",
+   "RetniSans-Light.ttf",
+   "RetniSans-LightItalic.ttf",
+   "RetniSans-Medium.ttf",
+   "RetniSans-MediumItalic.ttf",
+   "RetniSans-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fontlibrary.org/font/retni-sans",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2018 ParaType Inc., ParaType Ltd. All rights reserved."
  },
  {
   "name": "Risha Neo",
@@ -10573,6 +10747,164 @@
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Venryn Sans",
+  "slug": "venryn-sans",
+  "author": "Owen Earl, Cristiano Sobral",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "VenrynSans-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "VenrynSans-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "VenrynSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "VenrynSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "VenrynSans-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "VenrynSans-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "VenrynSans-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "VenrynSans-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "VenrynSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "VenrynSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "VenrynSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "VenrynSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "VenrynSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "VenrynSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "VenrynSans-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "VenrynSans-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "VenrynSans-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "VenrynSans-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "VenrynSans-Black.ttf",
+   "VenrynSans-BlackItalic.ttf",
+   "VenrynSans-Bold.ttf",
+   "VenrynSans-BoldItalic.ttf",
+   "VenrynSans-ExtraBold.ttf",
+   "VenrynSans-ExtraBoldItalic.ttf",
+   "VenrynSans-ExtraLight.ttf",
+   "VenrynSans-ExtraLightItalic.ttf",
+   "VenrynSans-Italic.ttf",
+   "VenrynSans-Light.ttf",
+   "VenrynSans-LightItalic.ttf",
+   "VenrynSans-Medium.ttf",
+   "VenrynSans-MediumItalic.ttf",
+   "VenrynSans-Regular.ttf",
+   "VenrynSans-SemiBold.ttf",
+   "VenrynSans-SemiBoldItalic.ttf",
+   "VenrynSans-Thin.ttf",
+   "VenrynSans-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fontlibrary.org/font/venryn-sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type)"
+ },
+ {
   "name": "Vis-A-Vis",
   "slug": "vis-a-vis",
   "author": "Peter Wiegel",
@@ -11929,6 +12261,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright 2025 The Cathisma Project Authors (https://github.com/slavonic/Cathisma.git)"
+ },
+ {
+  "name": "Корнилов (Kornilow)",
+  "slug": "kornilow",
+  "author": "Marath Salychow",
+  "class": "Антиква",
+  "license": "CC BY",
+  "styles": 1,
+  "faces": [
+   [
+    "Kornilow.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Kornilow.ttf"
+  ],
+  "license_files": [
+   "LICENSE-CC-BY.txt"
+  ],
+  "source": "https://fontlibrary.org/font/kornilow",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "© 2019 Marath Salychow (cemohopuce@ya.ru)."
  },
  {
   "name": "Крамола (Kramola)",
