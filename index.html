@@ -394,7 +394,7 @@ body.v-b .lic2 .a{color:var(--ink)}
 .famc .who{margin-top:10px;font-size:20px;letter-spacing:-.01em}
 .famc .src{display:inline-block;margin-top:14px;font-size:13px;color:var(--mut);text-decoration:underline;text-underline-offset:3px}
 .fk{background:var(--ink);color:var(--pap)}.fk .mono{color:#A5A09B}.fk p{font-size:15px}.fk .kk{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.fk .kk p{margin-top:4px;font-size:14px;color:#D9D5CF}
-.fp2{grid-column:auto}.fam>.famc:only-child{grid-column:1/-1}.pps{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin-top:14px}.fk .who{color:var(--pap)}.fk .src{color:#A5A09B}.fk p.cl{color:#A5A09B;font-size:14px;margin-top:14px}
+.fp2{grid-column:auto}.pp .bp{aspect-ratio:220/96;margin-bottom:10px;border-radius:10px;background:#F6F4EE;overflow:hidden}.pp .bp svg{display:block;width:100%;height:100%}.fam>.famc:only-child{grid-column:1/-1}.pps{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin-top:14px}.fk .who{color:var(--pap)}.fk .src{color:#A5A09B}.fk p.cl{color:#A5A09B;font-size:14px;margin-top:14px}
 .pp b{display:block;font-weight:500;font-size:18px;margin:6px 0 8px}.pp i{display:block;height:4px;border-radius:4px;background:linear-gradient(90deg,#FF7122 var(--p),rgba(12,11,13,.1) var(--p))}.pp small{display:block;margin-top:8px;font-size:12px;line-height:1.35;color:var(--mut)}
 @media(max-width:900px){.fam{grid-template-columns:1fr}.pps{grid-template-columns:1fr 1fr}}
 .h4bar{justify-content:flex-start}
@@ -1147,11 +1147,33 @@ const HIST={
 function histHTML(f){const h=HIST[f[0]]||HIST[f[0].replace(/ (Text|Display|Caption|Narrow|Condensed|Extra Condensed|Semi Condensed|Mono|Serif|Sans)$/,'')];
  const src=(h&&h[2]&&/^https:\/\//.test(h[2]))?h[2]:((f[7]&&!/google\/fonts/.test(f[12]||''))?null:`https://fonts.google.com/specimen/${f[0].replace(/ /g,'+')}/about`);const srcT=(h&&h[2])?'Источник: '+h[2].replace(/^https:\/\/(www\.)?/,'').split('/')[0]+' ↗':'Источник: описание авторов на Google Fonts ↗';
  const cls=BAYINFO[BAYS.find(b=>b.k===f[1])?.k]||null;const m=MET[f[0]];
- const ch=m?AX.map(([k,n,lo,hi])=>{const p=PCT[k](m[k]);const w=p<25?lo:p>75?hi:'средний';return `<div class="pp"><span class="mono">${n.toUpperCase()}</span><b>${w}</b><i style="--p:${p}%"></i><small>${p<50?({wid:'уже',xH:'строчные ниже, чем у',dens:'светлее',con:'спокойнее'})[k]+' '+(100-p):({wid:'шире',xH:'строчные выше, чем у',dens:'плотнее',con:'контрастнее'})[k]+' '+p}% шрифтов базы</small></div>`}).join(''):'';
- const about=h?`${h[0]?`<div class="who">${esc(h[0])}</div>`:''}<p>${esc(h[1])}</p>${src?`<a class="src" href="${src}" target="_blank" rel="noopener">${srcT}</a>`:''}`:'';
+ const ch=m?AX.map(([k,n,lo,hi])=>{const p=PCT[k](m[k]);const w=p<25?lo:p>75?hi:'средний';return `<div class="pp"><div class="bp" data-k="${k}"></div><span class="mono">${n.toUpperCase()}</span><b>${w}</b><i style="--p:${p}%"></i><small>${p<50?({wid:'уже',xH:'строчные ниже, чем у',dens:'светлее',con:'спокойнее'})[k]+' '+(100-p):({wid:'шире',xH:'строчные выше, чем у',dens:'плотнее',con:'контрастнее'})[k]+' '+p}% шрифтов базы</small></div>`}).join(''):'';
+ if(ch)setTimeout(()=>loadFont(f).catch(()=>{}).then(()=>{try{bpDraw(f)}catch(e){}}),80);const about=h?`${h[0]?`<div class="who">${esc(h[0])}</div>`:''}<p>${esc(h[1])}</p>${src?`<a class="src" href="${src}" target="_blank" rel="noopener">${srcT}</a>`:''}`:'';
  return `<div class="fam">
  <div class="famc fk"><span class="mono">${h?'ОБ ЭТОМ ШРИФТЕ':'КЛАСС · '+f[1].toUpperCase()}</span>${about}${cls?`${h?`<p class="cl">${f[1]}: ${cls[0]}</p>`:`<p>${cls[0]}</p>`}<div class="kk"><div><span class="mono">ПОДХОДИТ</span><p>${cls[1]}</p></div><div><span class="mono">СЛОЖНО</span><p>${cls[2]}</p></div></div>`:''}</div>
  ${ch?`<div class="famc fp2"><span class="mono">ХАРАКТЕР ПО ЗАМЕРАМ</span><div class="pps">${ch}</div></div>`:''}</div>`}
+
+// ---------- чертёж замеров: буквы контуром + размерные линии (по пикселям, в самом шрифте)
+function bpScan(fam,w,txt,px){const c=document.createElement('canvas');c.width=px*txt.length*1.6+40;c.height=px*1.8;const g=c.getContext('2d');g.font=`${w} ${px}px ${fam}`;g.textBaseline='alphabetic';const bx=20,by=Math.round(px*1.35);g.fillStyle='#000';g.fillText(txt,bx,by);
+ const d=g.getImageData(0,0,c.width,c.height).data,W=c.width,H=c.height;const ink=(x,y)=>d[(y*W+x)*4+3]>110;
+ let x0=W,x1=0,y0=H,y1=0;for(let y=0;y<H;y++)for(let x=0;x<W;x++)if(ink(x,y)){if(x<x0)x0=x;if(x>x1)x1=x;if(y<y0)y0=y;if(y>y1)y1=y}
+ return {ink,W,H,bx,by,x0,x1,y0,y1,adv:g.measureText(txt).width}}
+function bpDraw(f){const box=document.querySelectorAll('.pp .bp');if(!box.length)return;const fam=`'${f[0]}', serif`,w=baseW(f);const S=100;
+ const ln='rgba(12,11,13,.35)',ac='#FF7122';const T=(s,x,y,a='start')=>`<text x="${x}" y="${y}" text-anchor="${a}" font-family="JetBrains Mono,monospace" font-size="7" fill="${ln}" letter-spacing=".5">${s}</text>`;
+ const glyph=(t,x,y,fs,fill)=>`<text x="${x}" y="${y}" font-family="${esc(fam)}" font-weight="${w}" font-size="${fs}" ${fill?`fill="rgba(12,11,13,.85)"`:`fill="none" stroke="#0C0B0D" stroke-width=".6"`}>${esc(t)}</text>`;
+ const arrow=(xa,ya,xb,yb)=>`<line x1="${xa}" y1="${ya}" x2="${xb}" y2="${yb}" stroke="${ac}" stroke-width=".8" marker-start="url(#bpa)" marker-end="url(#bpa)"/>`;
+ const defs=`<defs><marker id="bpa" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L6 3L0 6z" fill="${ac}"/></marker><pattern id="bpg" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M8 0H0V8" fill="none" stroke="rgba(30,60,160,.07)" stroke-width=".5"/></pattern></defs>`;
+ box.forEach(el=>{const k=el.dataset.k;let svg='';try{
+  if(k==='wid'){const s=bpScan(fam,w,'НОМЕР',S);const sc=150/Math.max(1,(s.x1-s.x0));const fs=S*sc;const ox=20-(s.x0-s.bx)*sc,base=12+(s.by-s.y0)*sc;const right=20+(s.x1-s.x0)*sc,yb=base+10;
+   svg=glyph('НОМЕР',ox,base,fs)+`<line x1="20" y1="${base-(s.by-s.y0)*sc-4}" x2="20" y2="${yb+4}" stroke="${ln}" stroke-dasharray="2 2"/><line x1="${right}" y1="${base-(s.by-s.y0)*sc-4}" x2="${right}" y2="${yb+4}" stroke="${ln}" stroke-dasharray="2 2"/>`+arrow(21,yb,right-1,yb)+T('ШИРИНА НОМЕР',(20+right)/2,yb+11,'middle')}
+  if(k==='xH'){const h=bpScan(fam,w,'Н',S),x=bpScan(fam,w,'х',S);const cap=h.by-h.y0,xh=x.by-x.y0;const sc=62/Math.max(1,cap);const base=80,yC=base-cap*sc,yX=base-xh*sc;
+   svg=`<line x1="10" x2="190" y1="${base}" y2="${base}" stroke="${ln}"/><line x1="10" x2="190" y1="${yC}" y2="${yC}" stroke="${ln}" stroke-dasharray="2 2"/><line x1="10" x2="190" y1="${yX}" y2="${yX}" stroke="${ac}" stroke-width=".8"/>`+glyph('Нх',40,base,S*sc)+T('ПРОПИСНЫЕ',192,yC+2.5)+T('СТРОЧНЫЕ '+Math.round(xh/cap*100)+'%',192,yX+2.5)+T('БАЗОВАЯ',192,base+2.5)}
+  if(k==='dens'){const s=bpScan(fam,heavyW(f)>w?w:w,'Ж',S);const sc=70/Math.max(1,s.y1-s.y0);const ox=24-(s.x0-s.bx)*sc,base=10+(s.by-s.y0)*sc;let a=0,t=0;for(let y=s.y0;y<=s.y1;y++)for(let xx=s.x0;xx<=s.x1;xx++){t++;if(s.ink(xx,y))a++}
+   const gw=(s.x1-s.x0)*sc;svg=`<rect x="24" y="10" width="${gw}" height="70" fill="url(#bpg)" stroke="${ln}" stroke-dasharray="2 2"/>`+glyph('Ж',ox,base,S*sc,1)+T('ЧЕРНОТА '+Math.round(a/t*100)+'%',30+gw,48)+T('ОТ РАМКИ',30+gw,57)}
+  if(k==='con'){const s=bpScan(fam,w,'О',S);const my=Math.round((s.y0+s.y1)/2),mx=Math.round((s.x0+s.x1)/2);let a=s.x0;while(a<s.x1&&s.ink(a,my))a++;const thick=a-s.x0;let b=s.y0;while(b<s.y1&&s.ink(mx,b))b++;const thin=b-s.y0;const sc=70/Math.max(1,s.y1-s.y0);const ox=40-(s.x0-s.bx)*sc,base=10+(s.by-s.y0)*sc;const L=40,Tp=10,Mx=40+(mx-s.x0)*sc,My=10+(my-s.y0)*sc;
+   svg=glyph('О',ox,base,S*sc)+arrow(L,My,L+thick*sc,My)+arrow(Mx,Tp,Mx,Tp+Math.max(2,thin*sc))+`<line x1="${Mx}" y1="${Tp}" x2="150" y2="${Tp}" stroke="${ln}" stroke-dasharray="2 2"/>`+T('ТОНКИЙ',152,Tp+2.5)+`<line x1="${L}" y1="${My}" x2="${L-6}" y2="${My+18}" stroke="${ln}" stroke-dasharray="2 2"/>`+T('ТОЛСТЫЙ',L-30,My+26)+T('× '+(thin?(thick/thin).toFixed(1):'—'),152,My+2.5)}
+ }catch(e){}
+ el.innerHTML=`<svg viewBox="0 0 220 96" aria-hidden="true">${defs}<rect width="220" height="96" fill="url(#bpg)"/>${svg}</svg>`})}
 
 // ---------- режиссура по классу: свои композиции для класса + две карточки-контраста
 Object.assign(T,{
@@ -1515,7 +1537,7 @@ function featHTML(f){const e=FEAT[f[0]];if(!e)return '';const rd=e.rd;const rl=r
 /* Онбординг-тур: 4 коротких шага. Лёгкий: затемнение из 4 полос, двигаем transform, пересчёт раз в кадр */
 const TOUR=[
  {t:'Привет, экипаж!',d:'Это бесплатная библиотека кириллических шрифтов школы Perasperadastra. Покажу главное за 4 шага.'},
- {s:'.cside',t:'Фильтры',d:'Слева классы, пропорции, подборки, «Для чего» и настроение. Нажимай — каталог сразу подстроится.'},
+ {s:'.cside',t:'Фильтры',d:'Классы, пропорции, подборки, «Для чего» и настроение. Нажимай — каталог сразу подстроится.'},
  {s:'.phr',t:'Свой текст',d:'Впиши слово или фразу — она появится на всех образцах. Кнопка 🎲 придумает случайную.'},
  {s:'#grid .card',t:'Карточка шрифта',d:'Нажми на карточку — откроется страница с образцами, лицензией и кнопкой «Скачать». Звезда сохраняет шрифт в «Бортовой журнал».',last:1}
 ];
