@@ -1,5 +1,36 @@
 [
  {
+  "name": "129 Kosmos",
+  "slug": "129-kosmos",
+  "author": "Vadim Bashlakov",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "530__129_Kosmos.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "530__129_Kosmos.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/530",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "20 dB",
   "slug": "20-db",
   "author": "Jovanny Lemonad",
@@ -161,6 +192,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2013 by Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "AA Lumos",
+  "slug": "aa-lumos",
+  "author": "Carpe Saponem",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "348__AA-Lumos-Caps.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "348__AA-Lumos-Caps.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/348",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "AA Ordinar I",
@@ -421,6 +483,37 @@
   "copyright": ""
  },
  {
+  "name": "AC Line",
+  "slug": "ac-line",
+  "author": "Анна Чуркина",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "452__AC Line.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "452__AC Line.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/452",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Acari Sans",
   "slug": "acari-sans",
   "author": "Alfredo Marco Pradil (initial realese as HK Grotesk, Latin version), Stefan Peev",
@@ -651,6 +744,136 @@
   "copyright": "(c) 2022 Lauren Herda"
  },
  {
+  "name": "Actay Condensed",
+  "slug": "actay-condensed",
+  "author": "Serdar Öztürk",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 6,
+  "faces": [
+   [
+    "Actay-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Actay-RegularItalic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "ActayCondensed-Thin.otf",
+    250,
+    250,
+    false
+   ],
+   [
+    "ActayCondensed-ThinItalic.otf",
+    250,
+    250,
+    true
+   ],
+   [
+    "ActayWide-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ActayWide-BoldItalic.otf",
+    700,
+    700,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   250,
+   400,
+   700
+  ],
+  "files": [
+   "Actay-Regular.otf",
+   "Actay-RegularItalic.otf",
+   "ActayCondensed-Thin.otf",
+   "ActayCondensed-ThinItalic.otf",
+   "ActayWide-Bold.otf",
+   "ActayWide-BoldItalic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/361",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "activistka!!",
+  "slug": "activistka",
+  "author": "Alima Sibgatulina",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "454__activistka_regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "454__activistka_regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/454",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Adana script",
+  "slug": "adana-script",
+  "author": "Andreas Seidel (latin) A.Gophman (cyr)",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "299__Adana_script.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "299__Adana_script.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/299",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Advent Pro",
   "slug": "advent-pro",
   "author": "VivaRado, Andreas Kalpakidis",
@@ -751,6 +974,61 @@
   "copyright": ""
  },
  {
+  "name": "Agave",
+  "slug": "agave",
+  "author": "type agaric",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "Agave-Regular-parenbulged.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Agave-Regular-zeroslashed-parenbulged.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Agave-Regular-zeroslashed.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Agave-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Agave-Regular-parenbulged.ttf",
+   "Agave-Regular-zeroslashed-parenbulged.ttf",
+   "Agave-Regular-zeroslashed.ttf",
+   "Agave-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt",
+   "LICENSE_MIT",
+   "LICENSE_MIT.txt"
+  ],
+  "source": "https://github.com/blobject/agave",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Ahellya",
   "slug": "ahellya",
   "author": "Дмитро Барсуков",
@@ -784,6 +1062,283 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://www.dafont.com/ahellya.font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Ahmi Pixel",
+  "slug": "ahmi-pixel",
+  "author": "Ahmi Darrow",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "AhmiPixel-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "AhmiPixel-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "AhmiPixel-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AhmiPixel-Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "AhmiPixel-Semilight.ttf",
+    350,
+    350,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   350,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "AhmiPixel-Bold.ttf",
+   "AhmiPixel-Light.ttf",
+   "AhmiPixel-Regular.ttf",
+   "AhmiPixel-Semibold.ttf",
+   "AhmiPixel-Semilight.ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/AhmiDarrow/AhmiPixelFont",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "AhmiPrint",
+  "slug": "ahmiprint",
+  "author": "Ahmi Darrow",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "AhmiPrint-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "AhmiPrint-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "AhmiPrint-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "AhmiPrint-Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "AhmiPrint-Semilight.ttf",
+    350,
+    350,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   350,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "AhmiPrint-Bold.ttf",
+   "AhmiPrint-Light.ttf",
+   "AhmiPrint-Regular.ttf",
+   "AhmiPrint-Semibold.ttf",
+   "AhmiPrint-Semilight.ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/AhmiDarrow/AhmiPrint",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Airfool",
+  "slug": "airfool",
+  "author": "2DFUNS",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Airfool.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Airfool.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/233",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "AKONY",
+  "slug": "akony",
+  "author": "Vladimir Klenov",
+  "class": "Декоративный, Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "298__AKONY.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "298__AKONY.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/298",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Akrobat",
+  "slug": "akrobat",
+  "author": "Fontfabric",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 8,
+  "faces": [
+   [
+    "Akrobat-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Akrobat-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Akrobat-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Akrobat-ExtraLight.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Akrobat-Light.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Akrobat-Regular.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Akrobat-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Akrobat-Thin.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "Akrobat-Black.ttf",
+   "Akrobat-Bold.ttf",
+   "Akrobat-ExtraBold.ttf",
+   "Akrobat-ExtraLight.ttf",
+   "Akrobat-Light.ttf",
+   "Akrobat-Regular.ttf",
+   "Akrobat-SemiBold.ttf",
+   "Akrobat-Thin.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/306",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -878,6 +1433,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://shishkin.ru/",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "AlayaRoza Demo",
+  "slug": "alayaroza-demo",
+  "author": "Dima Evans",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "66__AlayaRozaDemo.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "66__AlayaRozaDemo.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/66",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -1120,6 +1706,37 @@
   "copyright": ""
  },
  {
+  "name": "Alistair Signature",
+  "slug": "alistair-signature",
+  "author": "Aktab Studio",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "260__Alistair Signature.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "260__Alistair Signature.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/260",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Allo Cyr",
   "slug": "allo-cyr",
   "author": "Josh Puckett; кириллица — ynckz",
@@ -1286,6 +1903,37 @@
    "v": "caution",
    "url": "https://type.today/ru/journal/neo"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Amagro",
+  "slug": "amagro",
+  "author": "Fabio Servolo",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "333__Amagro.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "333__Amagro.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/333",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -1663,6 +2311,68 @@
   "copyright": ""
  },
  {
+  "name": "Angst",
+  "slug": "angst",
+  "author": "Misha Ivanov",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "282__AngstVF.ttf",
+    0,
+    100,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "282__AngstVF.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/282",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Anjhay",
+  "slug": "anjhay",
+  "author": "syaf rizal",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "221__Anjhay.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "221__Anjhay.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/221",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Anonymous Pro",
   "slug": "anonymous-pro",
   "author": "Mark Simonson",
@@ -1711,6 +2421,37 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/anonymouspro",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Antarctic",
+  "slug": "antarctic",
+  "author": "Stanislav Chiganov",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "356__Antarctic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "356__Antarctic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/356",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -1808,6 +2549,208 @@
   "cyrillic": "ru",
   "copyright": "Copyright © 2020 William Zhang, © 2021 Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Architectural",
+  "slug": "architectural",
+  "author": "Igor Stepanchenko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 25,
+  "faces": [
+   [
+    "Architectural-Condensed.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Architectural-Expanded.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Architectural-ExtraExpanded.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Architectural-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Architectural-LightCondensed.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Architectural-LightExpanded.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Architectural-LightExtExp.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Architectural-MedExtExp.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Architectural-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Architectural-MediumCondensed.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Architectural-MediumExpanded.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Architectural-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Architectural-VF.ttf",
+    300,
+    500,
+    false
+   ],
+   [
+    "x_Architectural-Condensed.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_Architectural-Expanded.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_Architectural-ExtraExpanded.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_Architectural-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "x_Architectural-LightCondensed.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "x_Architectural-LightExpanded.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "x_Architectural-LightExtExp.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "x_Architectural-MedExtExp.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "x_Architectural-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "x_Architectural-MediumCondensed.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "x_Architectural-MediumExpanded.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "x_Architectural-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500
+  ],
+  "files": [
+   "Architectural-Condensed.ttf",
+   "Architectural-Expanded.ttf",
+   "Architectural-ExtraExpanded.ttf",
+   "Architectural-Light.ttf",
+   "Architectural-LightCondensed.ttf",
+   "Architectural-LightExpanded.ttf",
+   "Architectural-LightExtExp.ttf",
+   "Architectural-MedExtExp.ttf",
+   "Architectural-Medium.ttf",
+   "Architectural-MediumCondensed.ttf",
+   "Architectural-MediumExpanded.ttf",
+   "Architectural-Regular.ttf",
+   "Architectural-VF.ttf",
+   "x_Architectural-Condensed.ttf",
+   "x_Architectural-Expanded.ttf",
+   "x_Architectural-ExtraExpanded.ttf",
+   "x_Architectural-Light.ttf",
+   "x_Architectural-LightCondensed.ttf",
+   "x_Architectural-LightExpanded.ttf",
+   "x_Architectural-LightExtExp.ttf",
+   "x_Architectural-MedExtExp.ttf",
+   "x_Architectural-Medium.ttf",
+   "x_Architectural-MediumCondensed.ttf",
+   "x_Architectural-MediumExpanded.ttf",
+   "x_Architectural-Regular.ttf"
+  ],
+  "license_files": [
+   "Licence.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/275",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Architexture",
@@ -2795,6 +3738,37 @@
   "copyright": "Unicode Fonts for Ancient Scripts; George Douros; 2016"
  },
  {
+  "name": "Aventura",
+  "slug": "aventura",
+  "author": "Jimmy Kalman",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "423__Aventura-Bold.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "423__Aventura-Bold.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/423",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "AZUL",
   "slug": "azul",
   "author": "JingYo",
@@ -2821,6 +3795,37 @@
    "license.txt"
   ],
   "source": "https://fontstruct.com/fontstructions/show/1554419",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "babayka_font",
+  "slug": "babayka-font",
+  "author": "Daria Atte",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "379__babayka_font.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "379__babayka_font.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/379",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -2934,6 +3939,38 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Balkara Free Condensed - npoekmu.me",
+  "slug": "balkara-free-condensed-npoekmu-me",
+  "author": "Svetlin Balezdrov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "BalkaraFreeCondensed-npoekmu.me.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "BalkaraFreeCondensed-npoekmu.me.ttf"
+  ],
+  "license_files": [
+   "BalkaraFreeCondensed-npoekmu.me SIL OFL Font License 1.1.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/63",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Balsamiq Sans",
@@ -3274,6 +4311,37 @@
   "copyright": ""
  },
  {
+  "name": "beer money",
+  "slug": "beer-money",
+  "author": "Венгерский дизайнер. Roland Hüse",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "273__BeerMoney-08po.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "273__BeerMoney-08po.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/273",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Begit",
   "slug": "begit",
   "author": "Владимир Журавлёв",
@@ -3444,6 +4512,45 @@
   "copyright": ""
  },
  {
+  "name": "Belozersk Font",
+  "slug": "belozersk-font",
+  "author": "Mark Dubonosov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Belozersk Font.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_Belozersk Font.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Belozersk Font.ttf",
+   "x_Belozersk Font.ttf"
+  ],
+  "license_files": [
+   "licence.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/44",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Benbow",
   "slug": "benbow",
   "author": "Дмитрий Антонов (Blue Curve)",
@@ -3569,6 +4676,82 @@
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "BERNIER",
+  "slug": "bernier",
+  "author": "Ryan Pyae",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 3,
+  "faces": [
+   [
+    "BERNIERDistressed-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "BERNIERRegular-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "BERNIERShade-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "BERNIERDistressed-Regular.otf",
+   "BERNIERRegular-Regular.otf",
+   "BERNIERShade-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/439",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Besom 2",
+  "slug": "besom-2",
+  "author": "KRISIJANIS MEZULIS",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "283__Besom.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "283__Besom.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/283",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Better VCR",
   "slug": "better-vcr",
   "author": "artdzyk",
@@ -3663,6 +4846,99 @@
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2025, Adam Falkowski OHWOW Design Co. (halo@ohwow.pl), (c) 2025 Cyrillic set by Denis Ignatov.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Bicubik",
+  "slug": "bicubik",
+  "author": "Anton Kudin",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "385__Bicubik.OTF",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "385__Bicubik.OTF"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/385",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Bim",
+  "slug": "bim",
+  "author": "о)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "546__Bim.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "546__Bim.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/546",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Birdy RUS",
+  "slug": "birdy-rus",
+  "author": "KA designs",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "440__Birdy RUS.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "440__Birdy RUS.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/440",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Bitter",
@@ -3895,6 +5171,37 @@
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Blob Spongey Lowercase",
+  "slug": "blob-spongey-lowercase",
+  "author": "heaven castro",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "169__BlobSpongeyLowercase-wKq3.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "169__BlobSpongeyLowercase-wKq3.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/169",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Blogger Sans",
   "slug": "blogger-sans",
   "author": "Sergiy Tkachenko",
@@ -3973,6 +5280,53 @@
    "LICENSE.txt"
   ],
   "source": "https://fontlibrary.org/font/blogger-sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Blue curve",
+  "slug": "blue-curve",
+  "author": "Дмитрий Антонов",
+  "class": "Декоративный, Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 3,
+  "faces": [
+   [
+    "Bluecurve-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Bluecurve-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Bluecurve-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "Bluecurve-Bold.ttf",
+   "Bluecurve-Light.ttf",
+   "Bluecurve-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/213",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -4116,6 +5470,123 @@
   "cyrillic": "ru",
   "copyright": "Copyright © 2018 by Alejo Bergmann, Copyright © 2019 Cyrillic set by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Bormus SP Demo",
+  "slug": "bormus-sp-demo",
+  "author": "Sasha Pavljenko, M. Borisova-Musatova",
+  "class": "Антиква",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "BormusSPDemo-Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "BormusSPDemo-Bold.otf"
+  ],
+  "license_files": [
+   "Short License.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/560",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Bounded",
+  "slug": "bounded",
+  "author": "Vlad Churkin",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 4,
+  "faces": [
+   [
+    "Bounded-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Bounded-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Bounded-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Bounded-Variable.ttf",
+    200,
+    900,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   200,
+   400,
+   900
+  ],
+  "files": [
+   "Bounded-Black.ttf",
+   "Bounded-ExtraLight.ttf",
+   "Bounded-Regular.ttf",
+   "Bounded-Variable.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/498",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Brahms Gotisch Cyr",
+  "slug": "brahms-gotisch-cyr",
+  "author": "Sasha Pavljenko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "316__BrahmsGotischCyr 2.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "316__BrahmsGotischCyr 2.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/316",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Brigadier",
@@ -4362,6 +5833,66 @@
   "copyright": "Copyright (c) 2016 by Jovanny Lemonad. All rights reserved."
  },
  {
+  "name": "BRO",
+  "slug": "bro",
+  "author": "Colorama Studio",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 5,
+  "faces": [
+   [
+    "BRO-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "BRO-Dotted.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "BRO-Dotty.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "BRO-Line.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "BRO.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "BRO-Bold.otf",
+   "BRO-Dotted.otf",
+   "BRO-Dotty.otf",
+   "BRO-Line.otf",
+   "BRO.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/209",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Brygada 1918",
   "slug": "brygada-1918",
   "author": "Mateusz Machalski | Borys Kosmynka | Przemek Hoffer",
@@ -4403,6 +5934,37 @@
   "copyright": ""
  },
  {
+  "name": "Bryndan Write",
+  "slug": "bryndan-write",
+  "author": "",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "217__Bryndan Write Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "217__Bryndan Write Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/217",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Bubblez Graffiti",
   "slug": "bubblez-graffiti",
   "author": "GGBotNet",
@@ -4439,6 +6001,68 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Buena Mono",
+  "slug": "buena-mono",
+  "author": "Buena",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "BuenaMono-VF.ttf",
+    100,
+    800,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "BuenaMono-VF.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/buenagames/buena-mono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Built Titling",
+  "slug": "built-titling",
+  "author": "BY LYAJKA",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "289__built_titling_bd(RUS BY LYAJKA).otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "289__built_titling_bd(RUS BY LYAJKA).otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/289",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Buira",
@@ -4556,6 +6180,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2016 by Aigul Gilmutdinova & Jovanny Lemonad. All rights reserved."
+ },
+ {
+  "name": "bups",
+  "slug": "bups",
+  "author": "Анастасия Мелочь",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "bups-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "bups-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/514",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Buran USSR",
@@ -4811,6 +6466,141 @@
   "copyright": "© 2025 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Cakra",
+  "slug": "cakra",
+  "author": "OoM Type",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Cakra-Normal.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Cakra-Normal.otf"
+  ],
+  "license_files": [
+   "OFL",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/147",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Calama",
+  "slug": "calama",
+  "author": "Ben Karamyan",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "320__Calama_new.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "320__Calama_new.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/320",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Calypso",
+  "slug": "calypso",
+  "author": "Karyna Manukian",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "364__Calypso.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "364__Calypso.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/364",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Capitellum",
+  "slug": "capitellum",
+  "author": "Дмитрий Антонов",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Capitellum Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Capitellum Tough.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Capitellum Regular.ttf",
+   "Capitellum Tough.ttf"
+  ],
+  "license_files": [
+   "OFL.txt",
+   "README.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/334",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Capture Smallz",
   "slug": "capture-smallz",
   "author": "MagiqueFonts",
@@ -4881,6 +6671,37 @@
   "copyright": ""
  },
  {
+  "name": "Caravan",
+  "slug": "caravan",
+  "author": "",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "17__Caravan.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "17__Caravan.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/17",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Carlito",
   "slug": "carlito",
   "author": "Lukasz Dziedzic",
@@ -4929,6 +6750,37 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/carlito",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Carmen",
+  "slug": "carmen",
+  "author": "Alexandra Gophmann",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Carmen.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Carmen.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/579",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -5473,6 +7325,130 @@
   "copyright": ""
  },
  {
+  "name": "Charming",
+  "slug": "charming",
+  "author": "Anastasia Dimitriadi",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "285__Charming.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "285__Charming.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/285",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Chava",
+  "slug": "chava",
+  "author": "bunin.",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "222__Chava-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "222__Chava-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/222",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Chekhovskoy",
+  "slug": "chekhovskoy",
+  "author": "Marath Salychow",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "84__Chekhovskoy.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "84__Chekhovskoy.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/84",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Cheshirskiy Cat",
+  "slug": "cheshirskiy-cat",
+  "author": "Alexandra Gophmann",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "582__Cheshirskiy Cat.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "582__Cheshirskiy Cat.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/582",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "CHETTY",
   "slug": "chetty",
   "author": "Анастасия Прогацкая (Школа дизайна НИУ ВШЭ)",
@@ -5499,6 +7475,37 @@
    "LICENSE.txt"
   ],
   "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Christopher",
+  "slug": "christopher",
+  "author": "Anastasiia Vyshnevska",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "151__Christopher.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "151__Christopher.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/151",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -5886,6 +7893,196 @@
   "copyright": "Copyright (c) 2020, Denis Ignatov (denis@mutno.me)"
  },
  {
+  "name": "Collab Sans",
+  "slug": "collab-sans",
+  "author": "Yugal; Rasmus Andersson",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "CollabSans-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "CollabSans-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "CollabSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "CollabSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "CollabSans-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "CollabSans-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "CollabSans-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "CollabSans-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "CollabSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "CollabSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "CollabSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "CollabSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "CollabSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "CollabSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CollabSans-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "CollabSans-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "CollabSans-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "CollabSans-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "CollabSans-Black.ttf",
+   "CollabSans-BlackItalic.ttf",
+   "CollabSans-Bold.ttf",
+   "CollabSans-BoldItalic.ttf",
+   "CollabSans-ExtraBold.ttf",
+   "CollabSans-ExtraBoldItalic.ttf",
+   "CollabSans-ExtraLight.ttf",
+   "CollabSans-ExtraLightItalic.ttf",
+   "CollabSans-Italic.ttf",
+   "CollabSans-Light.ttf",
+   "CollabSans-LightItalic.ttf",
+   "CollabSans-Medium.ttf",
+   "CollabSans-MediumItalic.ttf",
+   "CollabSans-Regular.ttf",
+   "CollabSans-SemiBold.ttf",
+   "CollabSans-SemiBoldItalic.ttf",
+   "CollabSans-Thin.ttf",
+   "CollabSans-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/yugalone/collab-sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Colus",
+  "slug": "colus",
+  "author": "Stan Partalev",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Colus-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Colus-Regular.otf"
+  ],
+  "license_files": [
+   "EULA Free Font License Ver. 2.0.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/12",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Comfortaa",
   "slug": "comfortaa",
   "author": "Johan Aakerlund",
@@ -5984,6 +8181,37 @@
    "v": "caution",
    "url": "https://type.today/ru/journal/scripts"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Comic CAT",
+  "slug": "comic-cat",
+  "author": "Vitaly Lazarenko",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "30__Comic_CAT.otf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "30__Comic_CAT.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/30",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -6431,6 +8659,68 @@
    "v": "ok",
    "url": "https://type.today/ru/journal/old-style"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Cornerita",
+  "slug": "cornerita",
+  "author": "Dimitri Antonov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 5,
+  "faces": [
+   [
+    "Cornerita Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Cornerita Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Cornerita Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Cornerita Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "Cornerita-VF.ttf",
+    100,
+    900,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   100,
+   400,
+   700,
+   900
+  ],
+  "files": [
+   "Cornerita Black.ttf",
+   "Cornerita Bold.ttf",
+   "Cornerita Regular.ttf",
+   "Cornerita Thin.ttf",
+   "Cornerita-VF.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/279",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -6931,6 +9221,37 @@
   "copyright": ""
  },
  {
+  "name": "Curely",
+  "slug": "curely",
+  "author": "Konstantine Studio",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "422__Curely-Free_Typeface.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "422__Curely-Free_Typeface.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/422",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Cyrabika",
   "slug": "cyrabika",
   "author": "Фионола Овчаренко (Школа дизайна НИУ ВШЭ)",
@@ -6962,6 +9283,54 @@
   "copyright": "Copyright (c) 2020 by HSE FONTS. All rights reserved."
  },
  {
+  "name": "Czizh",
+  "slug": "czizh",
+  "author": "Dimitri Antonov",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 3,
+  "faces": [
+   [
+    "Czizh Body.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Czizh Feather.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "Czizh Wing.ttf",
+    300,
+    300,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   300,
+   400
+  ],
+  "files": [
+   "Czizh Body.ttf",
+   "Czizh Feather.ttf",
+   "Czizh Wing.ttf"
+  ],
+  "license_files": [
+   "OFL",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/319",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Damn",
   "slug": "damn",
   "author": "Дарья Фисько (Школа дизайна НИУ ВШЭ)",
@@ -6990,6 +9359,37 @@
   "source": "https://design.hse.ru/lab/hsefonts",
   "expert": null,
   "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Daneehand Regular Cyr",
+  "slug": "daneehand-regular-cyr",
+  "author": "Danee She",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "500__Daneehand Regular Cyr.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "500__Daneehand Regular Cyr.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/500",
+  "expert": null,
+  "cyrillic": "ru",
   "copyright": ""
  },
  {
@@ -7199,6 +9599,106 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad. All rights reserved."
+ },
+ {
+  "name": "DD_Font",
+  "slug": "dd-font",
+  "author": "Rita Schmurz",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "332__DD_FontRegular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "332__DD_FontRegular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/332",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Debby",
+  "slug": "debby",
+  "author": "Artimasa Studio",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "419__Debby.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "419__Debby.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/419",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "DecimaMonoPro",
+  "slug": "decimamonopro",
+  "author": "Ramiz Guseynov",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 2,
+  "faces": [
+   [
+    "IriskaFreeFont.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "decimamonopro.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "IriskaFreeFont.ttf",
+   "decimamonopro.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/77",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Defectica",
@@ -7430,6 +9930,84 @@
   "copyright": ""
  },
  {
+  "name": "Desyatiy",
+  "slug": "desyatiy",
+  "author": "Дмитрий Антонов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 3,
+  "faces": [
+   [
+    "Desyatiy Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Desyatiy Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Desyatiy Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "Desyatiy Bold.ttf",
+   "Desyatiy Light.ttf",
+   "Desyatiy Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/462",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Deutsch Gothic",
+  "slug": "deutsch-gothic",
+  "author": "Anatole & Alexandra Gophmann",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "343__Deutsch Gothic.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "343__Deutsch Gothic.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/343",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Didact Gothic",
   "slug": "didact-gothic",
   "author": "Daniel Johnson",
@@ -7494,6 +10072,89 @@
   "cyrillic": "ru+ua",
   "copyright": "Dimka Fonts",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "DINDOT",
+  "slug": "dindot",
+  "author": "Bert Driehuis, Rick Radewagen",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 8,
+  "faces": [
+   [
+    "DINDOT-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "DINDOT-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "DINDOT-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DINDOT-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "DINDOT-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "DINDOT-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "DINDOT-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "DINDOT-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "DINDOT-Bold.ttf",
+   "DINDOT-BoldItalic.ttf",
+   "DINDOT-Italic.ttf",
+   "DINDOT-Medium.ttf",
+   "DINDOT-MediumItalic.ttf",
+   "DINDOT-Regular.ttf",
+   "DINDOT-SemiBold.ttf",
+   "DINDOT-SemiBoldItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Snowboard-Software/dindot",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Dita Sweet",
@@ -7596,6 +10257,112 @@
   "copyright": ""
  },
  {
+  "name": "DotMatrix Mono",
+  "slug": "dotmatrix-mono",
+  "author": "Stefan Schmidt",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "DotMatrixMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "DotMatrixMono-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "DotMatrixMono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DotMatrixMono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "DotMatrixMono-Bold.ttf",
+   "DotMatrixMono-BoldItalic.ttf",
+   "DotMatrixMono-Italic.ttf",
+   "DotMatrixMono-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Gissio/font_DotMatrix",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "DotMatrix Sans",
+  "slug": "dotmatrix-sans",
+  "author": "Stefan Schmidt",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "DotMatrixSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "DotMatrixSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "DotMatrixSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DotMatrixSans-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "DotMatrixSans-Bold.ttf",
+   "DotMatrixSans-BoldItalic.ttf",
+   "DotMatrixSans-Italic.ttf",
+   "DotMatrixSans-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Gissio/font_DotMatrix",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Doulos SIL",
   "slug": "doulos-sil",
   "author": "SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne",
@@ -7660,6 +10427,74 @@
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
  {
+  "name": "Dudka",
+  "slug": "dudka",
+  "author": "Дмитрий Антонов",
+  "class": "Гротеск, Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 6,
+  "faces": [
+   [
+    "Dudka Bold Italic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Dudka Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Dudka Regular Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Dudka Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Dudka Thin Italic.ttf",
+    100,
+    100,
+    true
+   ],
+   [
+    "Dudka Thin.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   400,
+   700
+  ],
+  "files": [
+   "Dudka Bold Italic.ttf",
+   "Dudka Bold.ttf",
+   "Dudka Regular Italic.ttf",
+   "Dudka Regular.ttf",
+   "Dudka Thin Italic.ttf",
+   "Dudka Thin.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/382",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "EB Garamond",
   "slug": "eb-garamond",
   "author": "Georg Duffner and Octavio Pardo",
@@ -7697,6 +10532,99 @@
    "v": "caution",
    "url": "https://type.today/ru/journal"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "EBENYA",
+  "slug": "ebenya",
+  "author": "antonfros (Gumroad seller, likely Anton Fros)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "33__EBENYA.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "33__EBENYA.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/33",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Ekaterina Velikaya One",
+  "slug": "ekaterina-velikaya-one",
+  "author": "Alexandra Gophmann",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "190__Ekaterina Velikaya One.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "190__Ekaterina Velikaya One.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/190",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Ekran",
+  "slug": "ekran",
+  "author": "Nebojsa (Bane) Gelevski",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "484__Ekran-font.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "484__Ekran-font.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/484",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -7850,6 +10778,37 @@
   "copyright": "Copyright 2026 The Emine Project Authors (https://github.com/StefanPeev/Emine)\nCopyright 2021 The M+ FONTS Project Autho"
  },
  {
+  "name": "EternalLent",
+  "slug": "eternallent",
+  "author": "Валентин Задорожний",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "431__EternalLent.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "431__EternalLent.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/431",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "EuroScript",
   "slug": "euroscript",
   "author": "Peter Wiegel",
@@ -7888,6 +10847,59 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2017 by Catfonts, Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "Evolventa",
+  "slug": "evolventa",
+  "author": "Alex Kuznetsov",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 4,
+  "faces": [
+   [
+    "Evolventa-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Evolventa-BoldOblique.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Evolventa-Oblique.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Evolventa-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Evolventa-Bold.ttf",
+   "Evolventa-BoldOblique.ttf",
+   "Evolventa-Oblique.ttf",
+   "Evolventa-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/218",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Ex Libris",
@@ -8190,6 +11202,135 @@
   "copyright": "Created by Jany Belluz with FontForge 2.0 (http://fontforge.sf.net)"
  },
  {
+  "name": "Farabee Straight",
+  "slug": "farabee-straight",
+  "author": "Dimitri Antonov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 14,
+  "faces": [
+   [
+    "Farabee Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Farabee Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Farabee Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Farabee Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Farabee Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Farabee Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Farabee Straight Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Farabee Straight Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Farabee Straight Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Farabee Straight Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Farabee Straight Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Farabee Straight Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Farabee Straight Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "Farabee Thin.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   300,
+   400,
+   500,
+   600,
+   700,
+   900
+  ],
+  "files": [
+   "Farabee Black.ttf",
+   "Farabee Bold.ttf",
+   "Farabee Light.ttf",
+   "Farabee Medium.ttf",
+   "Farabee Regular.ttf",
+   "Farabee Semibold.ttf",
+   "Farabee Straight Black.ttf",
+   "Farabee Straight Bold.ttf",
+   "Farabee Straight Light.ttf",
+   "Farabee Straight Medium.ttf",
+   "Farabee Straight Regular.ttf",
+   "Farabee Straight Semibold.ttf",
+   "Farabee Straight Thin.ttf",
+   "Farabee Thin.ttf"
+  ],
+  "license_files": [
+   "readme.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/518",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Fascinate",
   "slug": "fascinate",
   "author": "Astigmatic (AOETI); Denis Ignatov",
@@ -8220,6 +11361,37 @@
   "cyrillic": "ru",
   "copyright": "(c) 2011 by Brian J. Bonislawsky. (c) 2018 by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "FE Hero",
+  "slug": "fe-hero",
+  "author": "Egor Stremousov",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "123__FEHero-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "123__FEHero-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/123",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Feature Mono",
@@ -8353,6 +11525,69 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Ekaterina Vakhrusheva @vektrn"
+ },
+ {
+  "name": "Feral",
+  "slug": "feral",
+  "author": "Marcus Lien",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "420__Feral-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "420__Feral-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/420",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Fet",
+  "slug": "fet",
+  "author": "Dimitri Antonov",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Fet Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Fet Regular.ttf"
+  ],
+  "license_files": [
+   "readme.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/537",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Fette Bauersche Antiqua",
@@ -9400,6 +12635,37 @@
   "copyright": ""
  },
  {
+  "name": "Firenight",
+  "slug": "firenight",
+  "author": "Alexey Pushkov",
+  "class": "Декоративный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Firenight-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Firenight-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/91",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "First Time Writing",
   "slug": "first-time-writing",
   "author": "GGBotNet",
@@ -9514,6 +12780,76 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "(c) 2020 VileR"
+ },
+ {
+  "name": "Florisel script",
+  "slug": "florisel-script",
+  "author": "Gophmann A.L",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "397__Floriselscript.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100
+  ],
+  "files": [
+   "397__Floriselscript.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/397",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Flow",
+  "slug": "flow",
+  "author": "Artem Andryushkin",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Flow.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Flow_B.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Flow.otf",
+   "Flow_B.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/315",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Flow Block",
@@ -9826,6 +13162,37 @@
   "copyright": ""
  },
  {
+  "name": "FT Anchor Yard",
+  "slug": "ft-anchor-yard",
+  "author": "fresher tan",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "386__FTAnchorYard-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "386__FTAnchorYard-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/386",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Funever Sans Display",
   "slug": "funever-sans-display",
   "author": "AlloyDome",
@@ -9919,6 +13286,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright © AlloyDome. 2023. All Rights Reserved"
+ },
+ {
+  "name": "Furore",
+  "slug": "furore",
+  "author": "Ivan Gladkikh",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "26__Furore.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "26__Furore.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/26",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Futurespore",
@@ -10056,6 +13454,38 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/gabriela",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Galaktika",
+  "slug": "galaktika",
+  "author": "Misha Panfilov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Galaktika.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Galaktika.ttf"
+  ],
+  "license_files": [
+   "Free licence.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/74",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -10211,6 +13641,37 @@
    "readme.txt"
   ],
   "source": "https://drive.google.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Gehaks",
+  "slug": "gehaks",
+  "author": "Emily Michajlenko",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "490__GEHAKS.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "490__GEHAKS.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/490",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -10524,6 +13985,37 @@
   "copyright": ""
  },
  {
+  "name": "Gergel",
+  "slug": "gergel",
+  "author": "Alexandro Spotovsky",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "444__gergel_font.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "444__gergel_font.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/444",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Gerhaus",
   "slug": "gerhaus",
   "author": "GGBotNet",
@@ -10605,6 +14097,76 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright Bryndan W Meyerholt 2021"
+ },
+ {
+  "name": "GG Kizhich",
+  "slug": "gg-kizhich",
+  "author": "Grigorij Gushchin",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "GG Kizhich Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "GG Kizhich Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "GG Kizhich Bold.otf",
+   "GG Kizhich Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/542",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Ghastly Panic Cyr",
+  "slug": "ghastly-panic-cyr",
+  "author": "Sasha Pavljenko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "309__GhastlyPanicCyr.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "309__GhastlyPanicCyr.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/309",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "GhostSigns",
@@ -10959,6 +14521,76 @@
   "copyright": ""
  },
  {
+  "name": "Glina Script em.",
+  "slug": "glina-script-em",
+  "author": "Liese Mars",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Glina Script em. Thin.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "Glina Script em..otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   400
+  ],
+  "files": [
+   "Glina Script em. Thin.otf",
+   "Glina Script em..otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/507",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Gloria script",
+  "slug": "gloria-script",
+  "author": "Alexandra Gophmann",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "323__gloriascript.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "323__gloriascript.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/323",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Gnezdo",
   "slug": "gnezdo",
   "author": "Кристина Макарова (Школа дизайна НИУ ВШЭ)",
@@ -11099,6 +14731,37 @@
   "copyright": ""
  },
  {
+  "name": "Gogol",
+  "slug": "gogol",
+  "author": "студия Paratype",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "83__Gogol Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "83__Gogol Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/83",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Gogono Cocoa Mochi",
   "slug": "gogono-cocoa-mochi",
   "author": "Goma Shin, Denis Ignatov; https://scripts.sil.org/OFL",
@@ -11161,6 +14824,37 @@
    "v": "ok",
    "url": "https://type.today/ru/journal/neo"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Good Vibes Pro",
+  "slug": "good-vibes-pro",
+  "author": "Роберт Э. Леушке",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "380__Good Vibes Pro.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "380__Good Vibes Pro.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/380",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -11234,6 +14928,37 @@
    "v": "ok",
    "url": "https://type.today/ru/journal/geo2"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Gorod",
+  "slug": "gorod",
+  "author": "Ilya Zakharov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "331__Gorod.otf",
+    800,
+    800,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   800
+  ],
+  "files": [
+   "331__Gorod.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/331",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -11333,6 +15058,37 @@
   "copyright": ""
  },
  {
+  "name": "Goznak",
+  "slug": "goznak",
+  "author": "Vladimir Adrianov (Original), Wladyslaw Borisov (Digital Ver",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "458__Gosznak-Semi Bold Oblique.otf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   600
+  ],
+  "files": [
+   "458__Gosznak-Semi Bold Oblique.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/458",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Grach",
   "slug": "grach",
   "author": "Татьяна Андреева (Школа дизайна НИУ ВШЭ)",
@@ -11359,6 +15115,44 @@
    "LICENSE.txt"
   ],
   "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Grafita",
+  "slug": "grafita",
+  "author": "Slava Antipov",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 2,
+  "faces": [
+   [
+    "Grafita Normal DEMO.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Grafita Special DEMO.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Grafita Normal DEMO.otf",
+   "Grafita Special DEMO.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/28",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -11559,6 +15353,101 @@
   "source": "https://ggbot.itch.io/",
   "expert": null,
   "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Gropled",
+  "slug": "gropled",
+  "author": "Daniyar Shape",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Gropled-Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "Gropled-Bold.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/52",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Gros Ventre",
+  "slug": "gros-ventre",
+  "author": "Dimitri Antonov",
+  "class": "Гротеск",
+  "license": "Условия уточняются",
+  "styles": 5,
+  "faces": [
+   [
+    "Gros Ventre Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Gros Ventre Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Gros Ventre Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Gros Ventre Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Gros Ventre Thin.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   300,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "Gros Ventre Bold.ttf",
+   "Gros Ventre Light.ttf",
+   "Gros Ventre Regular.ttf",
+   "Gros Ventre Semibold.ttf",
+   "Gros Ventre Thin.ttf"
+  ],
+  "license_files": [
+   "readme.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/559",
+  "expert": null,
+  "cyrillic": "ru",
   "copyright": ""
  },
  {
@@ -11804,6 +15693,37 @@
   "copyright": "Copyright (c) 2018 Source Foundry Authors / Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved."
  },
  {
+  "name": "Halo Grotesk",
+  "slug": "halo-grotesk",
+  "author": "Roman Bobkov",
+  "class": "Декоративный, Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "465__HaloGrotesk-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "465__HaloGrotesk-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/465",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Handjet",
   "slug": "handjet",
   "author": "David Brezina",
@@ -11834,6 +15754,37 @@
    "v": "caution",
    "url": "https://type.today/ru/journal/display2"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "HandWriting",
+  "slug": "handwriting",
+  "author": "Zipo Kislitsin",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "515__HandWriting Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "515__HandWriting Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/515",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -11987,6 +15938,37 @@
   "copyright": "Copyright (c) 2020 WCYS & Co. with Reserved Font Name \"Hauora\" and \"Hauora Sans\""
  },
  {
+  "name": "Hellas Dust Cyrillic",
+  "slug": "hellas-dust-cyrillic",
+  "author": "Sasha Pavljenko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "HellasDustCyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "HellasDustCyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/525",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Helvetia Verbundene",
   "slug": "helvetia-verbundene",
   "author": "Peter Wiegel",
@@ -12137,6 +16119,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Hitch Hike",
+  "slug": "hitch-hike",
+  "author": "Annastasia Samsonova",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "310__Hitch-hike.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "310__Hitch-hike.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/310",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Home Video",
   "slug": "home-video",
   "author": "GGBot",
@@ -12207,6 +16220,39 @@
   "copyright": "Typeface © Fonttier. 2024. All Rights Reserved"
  },
  {
+  "name": "Horovod",
+  "slug": "horovod",
+  "author": "Nata Georgiadi (Natalia Mavromati)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Horovod-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Horovod-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE RU.txt",
+   "LICENSE.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/540",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Horta",
   "slug": "horta",
   "author": "Tim Larson",
@@ -12237,6 +16283,37 @@
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2016, Tim Larson.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "HS_LunaObscura",
+  "slug": "hs-lunaobscura",
+  "author": "Headspace Agency",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "580__HS_LunaObscura.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "580__HS_LunaObscura.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/580",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Hussar Szturm",
@@ -12556,6 +16633,152 @@
   "copyright": ""
  },
  {
+  "name": "IBM Plex Sans Condensed",
+  "slug": "ibm-plex-sans-condensed",
+  "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 16,
+  "faces": [
+   [
+    "IBMPlexSansCondensed-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "IBMPlexSansCondensed-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "IBMPlexSansCondensed-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "IBMPlexSansCondensed-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "IBMPlexSansCondensed-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "IBMPlexSansCondensed-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "IBMPlexSansCondensed-Text.ttf",
+    450,
+    450,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-TextItalic.ttf",
+    450,
+    450,
+    true
+   ],
+   [
+    "IBMPlexSansCondensed-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "IBMPlexSansCondensed-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   450,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "IBMPlexSansCondensed-Bold.ttf",
+   "IBMPlexSansCondensed-BoldItalic.ttf",
+   "IBMPlexSansCondensed-ExtraLight.ttf",
+   "IBMPlexSansCondensed-ExtraLightItalic.ttf",
+   "IBMPlexSansCondensed-Italic.ttf",
+   "IBMPlexSansCondensed-Light.ttf",
+   "IBMPlexSansCondensed-LightItalic.ttf",
+   "IBMPlexSansCondensed-Medium.ttf",
+   "IBMPlexSansCondensed-MediumItalic.ttf",
+   "IBMPlexSansCondensed-Regular.ttf",
+   "IBMPlexSansCondensed-SemiBold.ttf",
+   "IBMPlexSansCondensed-SemiBoldItalic.ttf",
+   "IBMPlexSansCondensed-Text.ttf",
+   "IBMPlexSansCondensed-TextItalic.ttf",
+   "IBMPlexSansCondensed-Thin.ttf",
+   "IBMPlexSansCondensed-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/IBM/plex",
+  "expert": {
+   "v": "ok",
+   "url": "https://type.today/ru/journal/neo"
+  },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "IBM Plex Serif",
   "slug": "ibm-plex-serif",
   "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
@@ -12679,6 +16902,100 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/ibmplexserif",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Iglets",
+  "slug": "iglets",
+  "author": "Yara Ravenloun",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Iglets.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Iglets.ttf"
+  ],
+  "license_files": [
+   "readme.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/324",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Igra Sans",
+  "slug": "igra-sans",
+  "author": "Sergei Godovalov",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "50__IgraSans.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "50__IgraSans.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/50",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Ikra Slab",
+  "slug": "ikra-slab",
+  "author": "Sergei Godovalov",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "475__IkraSlab.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "475__IkraSlab.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/475",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -12842,6 +17159,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Insektofobiya",
+  "slug": "insektofobiya",
+  "author": "Анастасия Самсонова (спасибо, что создала это)",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "561__Шрифт Инсектофобия.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "561__Шрифт Инсектофобия.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/561",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Inter",
@@ -13308,6 +17656,37 @@
   "copyright": "GGBotNet"
  },
  {
+  "name": "Izuver",
+  "slug": "izuver",
+  "author": "Ver Wave",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "460__Izuver.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "460__Izuver.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/460",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Jazzy",
   "slug": "jazzy",
   "author": "Виктория Малько (Школа дизайна НИУ ВШЭ)",
@@ -13572,6 +17951,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://shishkin.ru/jun",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "JUNKY",
+  "slug": "junky",
+  "author": "Никита Михайлов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "512__JUNKY.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "512__JUNKY.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/512",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -13909,6 +18319,107 @@
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Karlo Cham",
+  "slug": "karlo-cham",
+  "author": "MIR Design",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 2,
+  "faces": [
+   [
+    "KarloCham-Brush.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "KarloCham-Line.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "KarloCham-Brush.ttf",
+   "KarloCham-Line.ttf"
+  ],
+  "license_files": [
+   "Home license.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/11",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Karton2",
+  "slug": "karton2",
+  "author": "Elena Voynova",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Karton.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Karton.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/120",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kashima RUS by Cop",
+  "slug": "kashima-rus-by-cop",
+  "author": ", дизайнер из Индонезии Panggah Laksono",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Kashima+RUS.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Kashima+RUS.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/249",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Kazmann Sans",
   "slug": "kazmann-sans",
   "author": "Татьяна Бисерова, Jovanny Lemonad",
@@ -14084,6 +18595,68 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2020 by CAT-Fonts Peter Wiegel. All rights reserved.under SIL OFL"
+ },
+ {
+  "name": "Kintsugi_LVRG",
+  "slug": "kintsugi-lvrg",
+  "author": "Rafael Leverage",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "556__Kintsugi_LVRG-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "556__Kintsugi_LVRG-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/556",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kireev BJ TD",
+  "slug": "kireev-bj-td",
+  "author": "Yuri Bucharski / Dmitry Tektov",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "594__Kireev BJ TD.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "594__Kireev BJ TD.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/594",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Kirk Mono",
@@ -14285,6 +18858,39 @@
   "copyright": ""
  },
  {
+  "name": "Kirpich",
+  "slug": "kirpich",
+  "author": "Dmitriy Sychiov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "kirpich.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "kirpich.ttf"
+  ],
+  "license_files": [
+   "license.txt",
+   "readme.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/371",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Kiwi Maru",
   "slug": "kiwi-maru",
   "author": "Hiroki-Chan",
@@ -14364,6 +18970,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Klyakson",
+  "slug": "klyakson",
+  "author": "Alexander Veek",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "19__Klyakson.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "19__Klyakson.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/19",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Kom-post",
   "slug": "kom-post",
   "author": "@guaschetti; guaschetti",
@@ -14427,6 +19064,170 @@
   "copyright": ""
  },
  {
+  "name": "Kontrabanda",
+  "slug": "kontrabanda",
+  "author": "Anastasia Vinokurova",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "470__Kontrabanda.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "470__Kontrabanda.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/470",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kosko Bold",
+  "slug": "kosko-bold",
+  "author": "Kosko Kosko (да,так и написано)",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "KoskoBold-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "KoskoRegular-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "KoskoBold-Bold.ttf",
+   "KoskoRegular-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/238",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kosolapa Script",
+  "slug": "kosolapa-script",
+  "author": "Alexey Mozgolin",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "KosolapaScript-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "KosolapaScript-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/541",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kot Leopold",
+  "slug": "kot-leopold",
+  "author": "Alexandra Gophmann",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Kot Leopold.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Kot Leopold.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/527",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Krivulya",
+  "slug": "krivulya",
+  "author": "",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "369__Krivulya Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "369__Krivulya Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/369",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Kroftsmann",
   "slug": "kroftsmann",
   "author": "Абдул",
@@ -14453,6 +19254,106 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://www.1001fonts.com/kroftsmann-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "KS Bistra",
+  "slug": "ks-bistra",
+  "author": "Korak studio",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "KS Bistra.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_KS Bistra.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "KS Bistra.ttf",
+   "x_KS Bistra.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/536",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kubet Mono",
+  "slug": "kubet-mono",
+  "author": "kubet",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "KubetMono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "KubetMono-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/kubet/kubet-mono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kudry",
+  "slug": "kudry",
+  "author": "Isabella Chaeva",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "370__kudry_weird-headline.otf",
+    300,
+    300,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300
+  ],
+  "files": [
+   "370__kudry_weird-headline.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/370",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -14539,6 +19440,99 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2026 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Kurochka lapkoi",
+  "slug": "kurochka-lapkoi",
+  "author": "Kurochka Lapkoi",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "51__Kurochkalapkoi.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "51__Kurochkalapkoi.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/51",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "kurut",
+  "slug": "kurut",
+  "author": "Dastan Miraj",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "534__kurut.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "534__kurut.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/534",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Labor Union",
+  "slug": "labor-union",
+  "author": "Tom McAuliffe",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "344__LaborUnion-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "344__LaborUnion-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/344",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Lambda",
@@ -14930,6 +19924,37 @@
   "copyright": ""
  },
  {
+  "name": "Legend",
+  "slug": "legend",
+  "author": "Polina Loseva",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "293__Legend.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "293__Legend.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/293",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Lemon Tuesday",
   "slug": "lemon-tuesday",
   "author": "TypeType Free Fonts",
@@ -14956,6 +19981,122 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://typetype.org/freefonts/",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Lemonade129",
+  "slug": "lemonade129",
+  "author": "Vadim Bashlakov",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "602__Lemonade129 Font.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "602__Lemonade129 Font.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/602",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Lentariso",
+  "slug": "lentariso",
+  "author": "Bryndan Meyerholt",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "Lentariso-Bd.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Lentariso-BdIt.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Lentariso-It.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Lentariso-Re.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Lentariso-Bd.ttf",
+   "Lentariso-BdIt.ttf",
+   "Lentariso-It.ttf",
+   "Lentariso-Re.ttf"
+  ],
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "source": "https://github.com/Bry10022/Lentariso",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Leonov SP",
+  "slug": "leonov-sp",
+  "author": "Саша Павленко",
+  "class": "Декоративный, Рукописный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "LeonovSP.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "LeonovSP.otf"
+  ],
+  "license_files": [
+   "license pavljenko.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/558",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -15011,6 +20152,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Letov",
+  "slug": "letov",
+  "author": "Serg Shishin",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "264__Letov.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "264__Letov.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/264",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Liber Struct",
@@ -15372,6 +20544,37 @@
   "copyright": ""
  },
  {
+  "name": "Lighthaus",
+  "slug": "lighthaus",
+  "author": "Jerak Durzan",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "383__Lighthaus.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "383__Lighthaus.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/383",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Lilex",
   "slug": "lilex",
   "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Mikhael Khrustik",
@@ -15705,6 +20908,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://www.1001fonts.com/logofontik-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Lombardina Initial One",
+  "slug": "lombardina-initial-one",
+  "author": "Gophmann A.L",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "501__lombardina-initial-one3.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "501__lombardina-initial-one3.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/501",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -16531,6 +21765,37 @@
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
  {
+  "name": "Maler",
+  "slug": "maler",
+  "author": "MIR",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "29__Maler.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "29__Maler.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/29",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Manrope",
   "slug": "manrope",
   "author": "Mikhail Sharanda",
@@ -16658,6 +21923,59 @@
   "copyright": ""
  },
  {
+  "name": "Mathison",
+  "slug": "mathison",
+  "author": "Gabriela Bury",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 4,
+  "faces": [
+   [
+    "Mathison-c-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Mathison-c-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Mathison-c-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Mathison-c-RegularItalic.otf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Mathison-c-Bold.otf",
+   "Mathison-c-BoldItalic.otf",
+   "Mathison-c-Regular.otf",
+   "Mathison-c-RegularItalic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/477",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Matias",
   "slug": "matias",
   "author": "TypeType Free Fonts",
@@ -16684,6 +22002,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://typetype.org/freefonts/",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Matryoshka",
+  "slug": "matryoshka",
+  "author": "Dmitriy Chirkov",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "352__Matryoshka-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "352__Matryoshka-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/352",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -17203,6 +22552,37 @@
   "copyright": ""
  },
  {
+  "name": "MESY",
+  "slug": "mesy",
+  "author": "2DFUNS",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "MESY - GUAKO.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "MESY - GUAKO.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/288",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Metabola (Жук)",
   "slug": "metabola-zhuk",
   "author": "Полина Симонова (Школа дизайна НИУ ВШЭ)",
@@ -17264,6 +22644,37 @@
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Metrika",
+  "slug": "metrika",
+  "author": "Бесплатно для личного и коммерции",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "360__Metrika.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "360__Metrika.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/360",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Miama Nueva",
@@ -17335,6 +22746,61 @@
   "copyright": ""
  },
  {
+  "name": "Minipax",
+  "slug": "minipax",
+  "author": "Igor Stepanchenko",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 4,
+  "faces": [
+   [
+    "Minipax-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Minipax-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Minipax-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Minipax-SemiBold.otf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "Minipax-Bold.otf",
+   "Minipax-Medium.otf",
+   "Minipax-Regular.otf",
+   "Minipax-SemiBold.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/138",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Miracode",
   "slug": "miracode",
   "author": "Idrees Hassan",
@@ -17364,6 +22830,69 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Idrees Hassan, https://github.com/IdreesInc/Miracode"
+ },
+ {
+  "name": "Miratrix",
+  "slug": "miratrix",
+  "author": "Andy Karter",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Miratrix-Normal.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Miratrix-Normal.otf"
+  ],
+  "license_files": [
+   "OFL.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/96",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Mirra Auriolic",
+  "slug": "mirra-auriolic",
+  "author": "oxana tkachenko",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "31__Mirra.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "31__Mirra.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/31",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Mirror 82",
@@ -17497,6 +23026,68 @@
   "copyright": ""
  },
  {
+  "name": "Moloko",
+  "slug": "moloko",
+  "author": "",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "195__MOLOKO_by_Weekends.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "195__MOLOKO_by_Weekends.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/195",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Molot",
+  "slug": "molot",
+  "author": "Ivan Gladkikh",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "318__Molot.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "318__Molot.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/318",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2008 by Roman Yershov, Jovanny Lemonad. All rights reserved."
+ },
+ {
   "name": "Mon Hugo",
   "slug": "mon-hugo",
   "author": "Вика Усманова",
@@ -17531,6 +23122,602 @@
    "OFL.txt"
   ],
   "source": "https://drive.google.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Monaspace Krypton",
+  "slug": "monaspace-krypton",
+  "author": "Riley Cran & the Lettermatic Team",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 24,
+  "faces": [
+   [
+    "MonaspaceKrypton-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MonaspaceKrypton-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MonaspaceKrypton-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MonaspaceKrypton-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MonaspaceKrypton-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MonaspaceKrypton-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MonaspaceKrypton-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MonaspaceKrypton-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MonaspaceKrypton-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "MonaspaceKrypton-SemiWideBold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MonaspaceKrypton-SemiWideBoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MonaspaceKrypton-SemiWideExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MonaspaceKrypton-SemiWideExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MonaspaceKrypton-SemiWideExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MonaspaceKrypton-SemiWideItalic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MonaspaceKrypton-SemiWideLightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MonaspaceKrypton-SemiWideSemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MonaspaceKrypton-WideBoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MonaspaceKrypton-WideExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MonaspaceKrypton-WideExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "MonaspaceKrypton-WideLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MonaspaceKrypton-WideLightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MonaspaceKrypton-WideSemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MonaspaceKrypton-WideSemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   200,
+   300,
+   400,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "MonaspaceKrypton-Bold.otf",
+   "MonaspaceKrypton-ExtraBold.otf",
+   "MonaspaceKrypton-ExtraLight.otf",
+   "MonaspaceKrypton-Italic.otf",
+   "MonaspaceKrypton-Light.otf",
+   "MonaspaceKrypton-LightItalic.otf",
+   "MonaspaceKrypton-Regular.otf",
+   "MonaspaceKrypton-SemiBold.otf",
+   "MonaspaceKrypton-SemiBoldItalic.otf",
+   "MonaspaceKrypton-SemiWideBold.otf",
+   "MonaspaceKrypton-SemiWideBoldItalic.otf",
+   "MonaspaceKrypton-SemiWideExtraBold.otf",
+   "MonaspaceKrypton-SemiWideExtraBoldItalic.otf",
+   "MonaspaceKrypton-SemiWideExtraLight.otf",
+   "MonaspaceKrypton-SemiWideItalic.otf",
+   "MonaspaceKrypton-SemiWideLightItalic.otf",
+   "MonaspaceKrypton-SemiWideSemiBold.otf",
+   "MonaspaceKrypton-WideBoldItalic.otf",
+   "MonaspaceKrypton-WideExtraLight.otf",
+   "MonaspaceKrypton-WideExtraLightItalic.otf",
+   "MonaspaceKrypton-WideLight.otf",
+   "MonaspaceKrypton-WideLightItalic.otf",
+   "MonaspaceKrypton-WideSemiBold.otf",
+   "MonaspaceKrypton-WideSemiBoldItalic.otf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/githubnext/monaspace",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Monaspace Radon",
+  "slug": "monaspace-radon",
+  "author": "Riley Cran & the Lettermatic Team",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 24,
+  "faces": [
+   [
+    "MonaspaceRadon-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MonaspaceRadon-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MonaspaceRadon-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MonaspaceRadon-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MonaspaceRadon-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MonaspaceRadon-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MonaspaceRadon-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "MonaspaceRadon-SemiWideExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MonaspaceRadon-SemiWideExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "MonaspaceRadon-SemiWideItalic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MonaspaceRadon-SemiWideLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MonaspaceRadon-SemiWideLightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MonaspaceRadon-SemiWideMediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "MonaspaceRadon-SemiWideRegular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MonaspaceRadon-SemiWideSemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "MonaspaceRadon-WideExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MonaspaceRadon-WideExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MonaspaceRadon-WideItalic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MonaspaceRadon-WideLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MonaspaceRadon-WideLightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MonaspaceRadon-WideMedium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MonaspaceRadon-WideMediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "MonaspaceRadon-WideRegular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MonaspaceRadon-WideSemiBold.otf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "MonaspaceRadon-Bold.otf",
+   "MonaspaceRadon-ExtraBoldItalic.otf",
+   "MonaspaceRadon-LightItalic.otf",
+   "MonaspaceRadon-Medium.otf",
+   "MonaspaceRadon-Regular.otf",
+   "MonaspaceRadon-SemiBold.otf",
+   "MonaspaceRadon-SemiBoldItalic.otf",
+   "MonaspaceRadon-SemiWideExtraBoldItalic.otf",
+   "MonaspaceRadon-SemiWideExtraLightItalic.otf",
+   "MonaspaceRadon-SemiWideItalic.otf",
+   "MonaspaceRadon-SemiWideLight.otf",
+   "MonaspaceRadon-SemiWideLightItalic.otf",
+   "MonaspaceRadon-SemiWideMediumItalic.otf",
+   "MonaspaceRadon-SemiWideRegular.otf",
+   "MonaspaceRadon-SemiWideSemiBoldItalic.otf",
+   "MonaspaceRadon-WideExtraBold.otf",
+   "MonaspaceRadon-WideExtraBoldItalic.otf",
+   "MonaspaceRadon-WideItalic.otf",
+   "MonaspaceRadon-WideLight.otf",
+   "MonaspaceRadon-WideLightItalic.otf",
+   "MonaspaceRadon-WideMedium.otf",
+   "MonaspaceRadon-WideMediumItalic.otf",
+   "MonaspaceRadon-WideRegular.otf",
+   "MonaspaceRadon-WideSemiBold.otf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/githubnext/monaspace",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Monaspace Xenon",
+  "slug": "monaspace-xenon",
+  "author": "Riley Cran & the Lettermatic Team",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 24,
+  "faces": [
+   [
+    "MonaspaceXenon-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MonaspaceXenon-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MonaspaceXenon-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MonaspaceXenon-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MonaspaceXenon-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "MonaspaceXenon-SemiWideBold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MonaspaceXenon-SemiWideBoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MonaspaceXenon-SemiWideExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MonaspaceXenon-SemiWideExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MonaspaceXenon-SemiWideLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MonaspaceXenon-SemiWideLightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MonaspaceXenon-SemiWideMedium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MonaspaceXenon-SemiWideRegular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MonaspaceXenon-SemiWideSemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MonaspaceXenon-WideBold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MonaspaceXenon-WideBoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MonaspaceXenon-WideExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MonaspaceXenon-WideExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MonaspaceXenon-WideExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MonaspaceXenon-WideExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "MonaspaceXenon-WideItalic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MonaspaceXenon-WideLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MonaspaceXenon-WideMedium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MonaspaceXenon-WideRegular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "MonaspaceXenon-ExtraBold.otf",
+   "MonaspaceXenon-Italic.otf",
+   "MonaspaceXenon-Light.otf",
+   "MonaspaceXenon-Medium.otf",
+   "MonaspaceXenon-MediumItalic.otf",
+   "MonaspaceXenon-SemiWideBold.otf",
+   "MonaspaceXenon-SemiWideBoldItalic.otf",
+   "MonaspaceXenon-SemiWideExtraBoldItalic.otf",
+   "MonaspaceXenon-SemiWideExtraLight.otf",
+   "MonaspaceXenon-SemiWideLight.otf",
+   "MonaspaceXenon-SemiWideLightItalic.otf",
+   "MonaspaceXenon-SemiWideMedium.otf",
+   "MonaspaceXenon-SemiWideRegular.otf",
+   "MonaspaceXenon-SemiWideSemiBold.otf",
+   "MonaspaceXenon-WideBold.otf",
+   "MonaspaceXenon-WideBoldItalic.otf",
+   "MonaspaceXenon-WideExtraBold.otf",
+   "MonaspaceXenon-WideExtraBoldItalic.otf",
+   "MonaspaceXenon-WideExtraLight.otf",
+   "MonaspaceXenon-WideExtraLightItalic.otf",
+   "MonaspaceXenon-WideItalic.otf",
+   "MonaspaceXenon-WideLight.otf",
+   "MonaspaceXenon-WideMedium.otf",
+   "MonaspaceXenon-WideRegular.otf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/githubnext/monaspace",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -17593,6 +23780,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://rajputrajesh-448.gumroad.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Mono Biletik 1.0",
+  "slug": "mono-biletik-1-0",
+  "author": "Olha Butyrska",
+  "class": "Моно",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Mono_Biletik-Regular_1_0.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Mono_Biletik-Regular_1_0.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/268",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -18106,6 +24324,68 @@
   "copyright": "Copyright (c) 2021. Vesko Radic <radic.vesko@gmail.com>"
  },
  {
+  "name": "MorfinSans",
+  "slug": "morfinsans",
+  "author": "KFproduction",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "271__MorfinSans-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "271__MorfinSans-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/271",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "MOSCOW2024",
+  "slug": "moscow2024",
+  "author": "Stephan Ahlf",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "430__MOSCOW2024.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "430__MOSCOW2024.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/430",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Mrakobes",
   "slug": "mrakobes",
   "author": "Антонина Самохина (Школа дизайна НИУ ВШЭ)",
@@ -18419,6 +24699,68 @@
   "copyright": "Copyright © 2020 Vasily Draigo. All Rights Reserved."
  },
  {
+  "name": "NauryzRedKeds",
+  "slug": "nauryzredkeds",
+  "author": "REDKEDS CA. Разработано в Казахстане",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "402__NauryzRedKeds.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "402__NauryzRedKeds.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/402",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Needleteeth SP",
+  "slug": "needleteeth-sp",
+  "author": "Автор: Carol Twombl",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "441__Needleteeth SP Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "441__Needleteeth SP Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/441",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Neocyr",
   "slug": "neocyr",
   "author": "Viktar Palstsiuk <vipals@gmail.com>",
@@ -18450,6 +24792,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Typeface © Viktar Palstsiuk, 2002. All Rights Reserved."
+ },
+ {
+  "name": "Neoustav",
+  "slug": "neoustav",
+  "author": "Арина Соболева",
+  "class": "Рукописный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "601__Neoustav.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "601__Neoustav.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/601",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Neucha",
@@ -18575,6 +24948,46 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Neutral Face",
+  "slug": "neutral-face",
+  "author": "Vadym Aksieiev",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "NeutralFace-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NeutralFace.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "NeutralFace-Bold.otf",
+   "NeutralFace.otf"
+  ],
+  "license_files": [
+   "Neutral face licence.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/67",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Nevermind",
@@ -18889,6 +25302,37 @@
   "copyright": "© XMind ltd. All Rights Reserved."
  },
  {
+  "name": "New Font",
+  "slug": "new-font",
+  "author": "Kris Chernyaeva",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "584__kolju4ka.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "584__kolju4ka.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/584",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "News Cycle",
   "slug": "news-cycle",
   "author": "",
@@ -18965,6 +25409,69 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)"
+ },
+ {
+  "name": "NEXT ART",
+  "slug": "next-art",
+  "author": "Alexander Pravdin",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 5,
+  "faces": [
+   [
+    "NEXT ART_Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NEXT ART_Heavy.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "NEXT ART_Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "NEXT ART_Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "NEXT ART_SemiBold.otf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   600,
+   700,
+   900
+  ],
+  "files": [
+   "NEXT ART_Bold.otf",
+   "NEXT ART_Heavy.otf",
+   "NEXT ART_Light.otf",
+   "NEXT ART_Regular.otf",
+   "NEXT ART_SemiBold.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/53",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Nini Mono",
@@ -19268,6 +25775,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
+ },
+ {
+  "name": "Noise",
+  "slug": "noise",
+  "author": "sergei godovalov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "472__Noise.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "472__Noise.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/472",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Nooga Mono",
@@ -19620,6 +26158,116 @@
   "copyright": ""
  },
  {
+  "name": "Nozhik",
+  "slug": "nozhik",
+  "author": "Designgsta",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Nozhik-Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "Nozhik-Bold.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/390",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "NPV Gunny Rewritten",
+  "slug": "npv-gunny-rewritten",
+  "author": "Vít Čondák",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "281__NPV_Gunny Rewritten.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "281__NPV_Gunny Rewritten.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/281",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Nullify",
+  "slug": "nullify",
+  "author": "SaxonB-design",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "faces": [
+   [
+    "Nullify-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Nullify-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Nullify-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   700
+  ],
+  "files": [
+   "Nullify-Bold.otf",
+   "Nullify-Light.otf",
+   "Nullify-Regular.otf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/SaxonB-design/Nullify-Typeface",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "Nunito",
   "slug": "nunito",
   "author": "Vernon Adams",
@@ -19698,6 +26346,68 @@
    "v": "caution",
    "url": "https://type.today/ru/journal/neo"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Nuqun",
+  "slug": "nuqun",
+  "author": "KFproduction",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "436__Nuqun-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "436__Nuqun-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/436",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Nyasha Sans",
+  "slug": "nyasha-sans",
+  "author": "Stepan Lyaptsev",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "58__nyashasans.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "58__nyashasans.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/58",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -19805,6 +26515,68 @@
   "copyright": ""
  },
  {
+  "name": "Oktyabrina script",
+  "slug": "oktyabrina-script",
+  "author": "Gophmann A.L. cyr code page",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "505__Oktyabrina-script.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "505__Oktyabrina-script.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/505",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Old Horror Films",
+  "slug": "old-horror-films",
+  "author": "toughcrest",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "239__Old Horror Films 1-0.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "239__Old Horror Films 1-0.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/239",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "ToughCrest Studio © instagram.com/toughcrest. All Rights Reserved"
+ },
+ {
   "name": "Old Standard TT",
   "slug": "old-standard-tt",
   "author": "Alexey Kryukov",
@@ -19850,6 +26622,37 @@
    "v": "avoid",
    "url": "https://type.today/ru/journal/gfdidones"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Oldbastards",
+  "slug": "oldbastards",
+  "author": "Draw Bastards",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "526__Oldbastards.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "526__Oldbastards.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/526",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -19934,6 +26737,37 @@
    "OFL.txt"
   ],
   "source": "https://fontlibrary.org/font/omnibus-sans-serif",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Onder",
+  "slug": "onder",
+  "author": "Alisa Oleinikova",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "520__ONDER-REGULAR.TTF",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "520__ONDER-REGULAR.TTF"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/520",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -20347,6 +27181,37 @@
   "copyright": ""
  },
  {
+  "name": "Ouvality",
+  "slug": "ouvality",
+  "author": "Vunira Design/cyrillic by Cherry Vsihnya",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "251__Ouvality.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "251__Ouvality.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/251",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "overdoze sans",
   "slug": "overdoze-sans",
   "author": "IsamiRi",
@@ -20582,6 +27447,37 @@
   "copyright": ""
  },
  {
+  "name": "Palui SP Demo",
+  "slug": "palui-sp-demo",
+  "author": "Sasha Pavljenko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "493__PaluiSPDemo-Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "493__PaluiSPDemo-Bold.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/493",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Pangolin",
   "slug": "pangolin",
   "author": "Kevin Burke",
@@ -20675,6 +27571,37 @@
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names \"Passero\". Copyright (c) 2019, Denis Ig",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Pastry Chef Cyrillic",
+  "slug": "pastry-chef-cyrillic",
+  "author": "Ira Dvilyuk & Evgeny Kopytin",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "499__PastryChefCyrillic-Script.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "499__PastryChefCyrillic-Script.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/499",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Patefon",
@@ -20853,6 +27780,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Pehlevi",
+  "slug": "pehlevi",
+  "author": "Андрей Маркелов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "418__pehlevi.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "418__pehlevi.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/418",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Permanent Marker Cyrillic",
   "slug": "permanent-marker-cyrillic",
   "author": "Font Diner; кириллица — maukur",
@@ -20882,6 +27840,116 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved."
+ },
+ {
+  "name": "Pershotravneva55",
+  "slug": "pershotravneva55",
+  "author": "maxshirko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "373__Pershotravneva55.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "373__Pershotravneva55.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/373",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Perun",
+  "slug": "perun",
+  "author": "StefanPeev",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 7,
+  "faces": [
+   [
+    "Perun-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Perun-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "Perun-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Perun-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Perun-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Perun-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "Perun-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "Perun-BoldItalic.ttf",
+   "Perun-ExtraLightItalic.ttf",
+   "Perun-Italic.ttf",
+   "Perun-LightItalic.ttf",
+   "Perun-MediumItalic.ttf",
+   "Perun-SemiBoldItalic.ttf",
+   "Perun-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/StefanPeev/Perun",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
  },
  {
   "name": "Peter Ivanowitsch",
@@ -21055,6 +28123,153 @@
   "copyright": "Copyright (c) 2023, RandomMaerks (Bao Nguyen). All rights reserved."
  },
  {
+  "name": "Phorssa",
+  "slug": "phorssa",
+  "author": "Juha Korhonen",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "338__Phorssa.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "338__Phorssa.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/338",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Photonico Code",
+  "slug": "photonico-code",
+  "author": "Lu Niu",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 13,
+  "faces": [
+   [
+    "Photonico 0.1 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.10 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.11 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.2 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.3 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.4 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.5 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.6 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.7 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.8 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 0.9 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 1.6 Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Photonico 1.7 Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Photonico 0.1 Regular.ttf",
+   "Photonico 0.10 Regular.ttf",
+   "Photonico 0.11 Regular.ttf",
+   "Photonico 0.2 Regular.ttf",
+   "Photonico 0.3 Regular.ttf",
+   "Photonico 0.4 Regular.ttf",
+   "Photonico 0.5 Regular.ttf",
+   "Photonico 0.6 Regular.ttf",
+   "Photonico 0.7 Regular.ttf",
+   "Photonico 0.8 Regular.ttf",
+   "Photonico 0.9 Regular.ttf",
+   "Photonico 1.6 Regular.ttf",
+   "Photonico 1.7 Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/Photonico/Photonico_Code",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Piazzolla",
   "slug": "piazzolla",
   "author": "Juan Pablo del Peral",
@@ -21154,6 +28369,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "AR"
+ },
+ {
+  "name": "Pisalo",
+  "slug": "pisalo",
+  "author": "Sergey Shishin",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "235__Pisalo-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "235__Pisalo-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/235",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Pitagon Sans Mono",
@@ -21609,6 +28855,37 @@
   "copyright": "GGBotNet"
  },
  {
+  "name": "PIXY",
+  "slug": "pixy",
+  "author": "2DFUNS",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "PIXY.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "PIXY.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/14",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Play",
   "slug": "play",
   "author": "Jonas Hecksher (Cyrillic expansion: Cyreal); Jonas Hecksher, Playtype, e-types A",
@@ -21965,6 +29242,76 @@
   "copyright": "Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)"
  },
  {
+  "name": "Politburo",
+  "slug": "politburo",
+  "author": "Sergey Shishin",
+  "class": "Декоративный, Брусковый",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "375__Politburo.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "375__Politburo.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/375",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Polonium",
+  "slug": "polonium",
+  "author": "Alexey Atapin",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Polonium-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Polonium.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Polonium-Bold.otf",
+   "Polonium.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/155",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "PoltarGeist",
   "slug": "poltargeist",
   "author": "Nazeonix (на основе Geist и Inter)",
@@ -22018,6 +29365,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font)"
+ },
+ {
+  "name": "Pomidorko",
+  "slug": "pomidorko",
+  "author": "Sidachova Antonina",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "10__Pomidorko_cyr.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "10__Pomidorko_cyr.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/10",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Ponomar",
@@ -22119,6 +29497,75 @@
   "source": "https://www.peter-wiegel.de/Fonts/PostBusPro.zip",
   "expert": null,
   "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Postertoaster",
+  "slug": "postertoaster",
+  "author": "Vsevolod Abramov",
+  "class": "Декоративный, Моноширинный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "174__Postertoaster.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "174__Postertoaster.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/174",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Practice-font",
+  "slug": "practice-font",
+  "author": "Алексей Атапин",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Practice-font-Mono.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Practice-font.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Practice-font-Mono.otf",
+   "Practice-font.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/359",
+  "expert": null,
+  "cyrillic": "ru",
   "copyright": ""
  },
  {
@@ -22667,6 +30114,37 @@
   "copyright": ""
  },
  {
+  "name": "Pudelinka",
+  "slug": "pudelinka",
+  "author": "Gophmann A.L",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "474__pudelinka.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "474__pudelinka.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/474",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Pulstar",
   "slug": "pulstar",
   "author": "GGBotNet",
@@ -23110,6 +30588,37 @@
   "copyright": ""
  },
  {
+  "name": "Radiotechnika",
+  "slug": "radiotechnika",
+  "author": "Serezha Zhigarev",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "13__Radiotechnika.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "13__Radiotechnika.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/13",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Raleway",
   "slug": "raleway",
   "author": "Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida",
@@ -23343,6 +30852,37 @@
   "copyright": ""
  },
  {
+  "name": "ray typewriter",
+  "slug": "ray-typewriter",
+  "author": "Shura Kashentseva",
+  "class": "Антиква",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "581__ray typewriter.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "581__ray typewriter.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/581",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Raznochin",
   "slug": "raznochin",
   "author": "Василий Шишкин",
@@ -23404,6 +30944,70 @@
    "v": "avoid",
    "url": "https://type.today/ru/journal/display"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Remedy Sans",
+  "slug": "remedy-sans",
+  "author": "Ahmi Darrow",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "RemedySans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "RemedySans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "RemedySans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "RemedySans-Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "RemedySans-Semilight.ttf",
+    350,
+    350,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   350,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "RemedySans-Bold.ttf",
+   "RemedySans-Light.ttf",
+   "RemedySans-Regular.ttf",
+   "RemedySans-Semibold.ttf",
+   "RemedySans-Semilight.ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/AhmiDarrow/RemedySans",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -23647,6 +31251,37 @@
   "copyright": ""
  },
  {
+  "name": "Rimma_sans",
+  "slug": "rimma-sans",
+  "author": "Lesha Pushkarev",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "204__RIMMA_SANS-BOLD (2).TTF",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "204__RIMMA_SANS-BOLD (2).TTF"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/204",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Risha Neo",
   "slug": "risha-neo",
   "author": "Isami Risha",
@@ -23675,6 +31310,37 @@
   "source": "https://github.com/isamirivers/Risha-Neo",
   "expert": null,
   "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Riviera",
+  "slug": "riviera",
+  "author": "Polina Soldatova",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "322__riviera.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "322__riviera.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/322",
+  "expert": null,
+  "cyrillic": "ru",
   "copyright": ""
  },
  {
@@ -23942,6 +31608,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Roscha",
+  "slug": "roscha",
+  "author": "Александра Зарецкая",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Roscha.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Roscha.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/577",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Roundo Cyr",
@@ -25294,6 +32991,68 @@
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "SAGRADA",
+  "slug": "sagrada",
+  "author": "Kate Kvebliani",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "353__SAGRADA.otf",
+    900,
+    900,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   900
+  ],
+  "files": [
+   "353__SAGRADA.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/353",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Sanek",
+  "slug": "sanek",
+  "author": "Денис Кукушкин",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "100__Sanek-Regular Cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "100__Sanek-Regular Cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/100",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Sangyo",
   "slug": "sangyo",
   "author": "GGBot",
@@ -25430,6 +33189,68 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'"
+ },
+ {
+  "name": "Santello",
+  "slug": "santello",
+  "author": "Aleksei Poteichuk",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "234__SANTELLO.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "234__SANTELLO.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/234",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "SC Portugal",
+  "slug": "sc-portugal",
+  "author": "Stanislav Chiganov",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "341__SC Portugal.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "341__SC Portugal.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/341",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Scada",
@@ -25662,6 +33483,37 @@
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Serpantin",
+  "slug": "serpantin",
+  "author": "Alexandra Gophmann",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "496__Serpantin.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "496__Serpantin.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/496",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Sexsmith",
   "slug": "sexsmith",
   "author": "Ray Larabie",
@@ -25848,6 +33700,75 @@
    "v": "ok",
    "url": "https://type.today/ru/journal/scripts"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Shihan",
+  "slug": "shihan",
+  "author": "Sergei Godovalov",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "193__Shihan.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "193__Shihan.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/193",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Shnobel",
+  "slug": "shnobel",
+  "author": "Vova Egoshin",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Shnobel-Oblique.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Shnobel-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Shnobel-Oblique.ttf",
+   "Shnobel-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/16",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -26041,6 +33962,37 @@
    "LICENSE-HSE-CC.txt"
   ],
   "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Smooz",
+  "slug": "smooz",
+  "author": "Evgeny Kop",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "605__Smooz-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "605__Smooz-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/605",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -26302,6 +34254,38 @@
   "copyright": ""
  },
  {
+  "name": "Sol Kol",
+  "slug": "sol-kol",
+  "author": "Amina Nugymanova",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Sol Kol.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Sol Kol.ttf"
+  ],
+  "license_files": [
+   "License.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/589",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Solid Soldier",
   "slug": "solid-soldier",
   "author": "Goma Shin; Goma Shin, Denis Ignatov",
@@ -26477,6 +34461,37 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/sourceserif4",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Soyuz Grotesk",
+  "slug": "soyuz-grotesk",
+  "author": "temporarystate",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Soyuz Grotesk Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "Soyuz Grotesk Bold.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/141",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -26713,6 +34728,105 @@
   "copyright": "Copyright 2026 Igor Kupchinenko. Cyrillic averaged from 18 SIL OFL serif families (see OFL.txt). Latin, figures, punctua"
  },
  {
+  "name": "Sprite Graffiti",
+  "slug": "sprite-graffiti",
+  "author": "FourPlus Studio",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 6,
+  "faces": [
+   [
+    "SpriteGraffiti-Extras.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "SpriteGraffiti-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "SpriteGraffiti-Shadow.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_SpriteGraffiti-Extras.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_SpriteGraffiti-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "x_SpriteGraffiti-Shadow.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "SpriteGraffiti-Extras.otf",
+   "SpriteGraffiti-Regular.otf",
+   "SpriteGraffiti-Shadow.otf",
+   "x_SpriteGraffiti-Extras.otf",
+   "x_SpriteGraffiti-Regular.otf",
+   "x_SpriteGraffiti-Shadow.otf"
+  ],
+  "license_files": [
+   "FF EULA License ver2.2.pdf",
+   "x_FF EULA License ver2.2.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/177",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Spritulo",
+  "slug": "spritulo",
+  "author": "HaleyHalcyon",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Spritulo-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Spritulo-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/HaleyHalcyon/spritulo",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "ST-Brigantina",
   "slug": "st-brigantina",
   "author": "Alexander Shimanov",
@@ -26739,6 +34853,75 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://shimanov.pro/st-brigantina",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "ST-Cherty",
+  "slug": "st-cherty",
+  "author": "Alexander Shimanov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "ST-Cherty.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "ST-Cherty.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/569",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "ST-Nizhegorodsky",
+  "slug": "st-nizhegorodsky",
+  "author": "Alexander Shimanov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "185__ST-Nizhegorodsky.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ST-Nizhegorodsky.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "185__ST-Nizhegorodsky.otf",
+   "ST-Nizhegorodsky.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/73",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -26865,6 +35048,37 @@
   "source": "https://design.hse.ru/lab/hsefonts",
   "expert": null,
   "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Stezhok",
+  "slug": "stezhok",
+  "author": "Anastasiya Frolova",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "304__Шрифт стежок.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "304__Шрифт стежок.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/304",
+  "expert": null,
+  "cyrillic": "ru",
   "copyright": ""
  },
  {
@@ -27081,6 +35295,37 @@
   "copyright": ""
  },
  {
+  "name": "Sunday",
+  "slug": "sunday",
+  "author": "Анастасия Димитриади",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "435__Sunday-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "435__Sunday-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/435",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Swampy",
   "slug": "swampy",
   "author": "JUNNXY Studio",
@@ -27231,6 +35476,99 @@
   "copyright": ""
  },
  {
+  "name": "Tablon",
+  "slug": "tablon",
+  "author": "Cristian Tournier",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 4,
+  "faces": [
+   [
+    "Tablon-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Tablon-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Tablon-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Tablon-Round-Black.ttf",
+    950,
+    950,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   900,
+   950
+  ],
+  "files": [
+   "Tablon-Black.ttf",
+   "Tablon-Medium.ttf",
+   "Tablon-Regular.ttf",
+   "Tablon-Round-Black.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/85",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Takashimura RUS",
+  "slug": "takashimura-rus",
+  "author": "Ny Indrayana",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Takashimura RUS.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "TakashimuraRegular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Takashimura RUS.otf",
+   "TakashimuraRegular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/365",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Take Cover",
   "slug": "take-cover",
   "author": "Magique Fonts",
@@ -27292,6 +35630,224 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc.\nCyrillic and German "
+ },
+ {
+  "name": "TD Adrenalin",
+  "slug": "td-adrenalin",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "523__TD Adrenalin-Italic.otf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "523__TD Adrenalin-Italic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/523",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TD Afisha",
+  "slug": "td-afisha",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "TD Afisha.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TD Afisha.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/547",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TD Elena2021",
+  "slug": "td-elena2021",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "TD Elena 2021.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TD Elena 2021.otf"
+  ],
+  "license_files": [
+   "TD DESKTOP LICENSE.pdf",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/165",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TD Soyuz",
+  "slug": "td-soyuz",
+  "author": "Tektov Dmitry",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "597__TD Soyuz.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "597__TD Soyuz.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/597",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TD Vyazbit",
+  "slug": "td-vyazbit",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "TD Vyazbit.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TD Vyazbit.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/553",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TD Zvonar",
+  "slug": "td-zvonar",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "566__TD Zvonar.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "566__TD Zvonar.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/566",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TDAText",
+  "slug": "tdatext",
+  "author": "tinelix",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "TDAText.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TDAText.ttf"
+  ],
+  "license_files": [
+   "LICENSE.TXT"
+  ],
+  "source": "https://github.com/tinelix/TDAText",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Tecla",
@@ -27534,6 +36090,37 @@
   "cyrillic": "ru+ua",
   "copyright": "Copyright [C] 2025 Stefan Peev under the terms of the SIL OPEN FONT LICENSE Version 1.1",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Terminator Gen",
+  "slug": "terminator-gen",
+  "author": "Евгения Тишина",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "114__TerminatorGen.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "114__TerminatorGen.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/114",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "TeX Gyre Adventor",
@@ -28235,6 +36822,93 @@
   "copyright": "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
  },
  {
+  "name": "Tiny5 Mono",
+  "slug": "tiny5-mono",
+  "author": "Stefan Schmidt",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "Tiny5Mono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Tiny5Mono-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Tiny5Mono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Tiny5Mono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Tiny5Mono-Bold.ttf",
+   "Tiny5Mono-BoldItalic.ttf",
+   "Tiny5Mono-Italic.ttf",
+   "Tiny5Mono-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Gissio/font_Tiny5Mono",
+  "expert": {
+   "v": "caution",
+   "url": "https://type.today/ru/journal/display2"
+  },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Tkachenko Sketch 4F",
+  "slug": "tkachenko-sketch-4f",
+  "author": "Sergiy S. Tkachenko",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "202__TkachenkoSketch4F-Bold.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "202__TkachenkoSketch4F-Bold.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/202",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Tonky",
   "slug": "tonky",
   "author": "Полина Залевская (Школа дизайна НИУ ВШЭ)",
@@ -28261,6 +36935,68 @@
    "LICENSE-HSE-CC.txt"
   ],
   "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Topor",
+  "slug": "topor",
+  "author": "Stanislav Podoba",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "405__Topor-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "405__Topor-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/405",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Tovari Sans",
+  "slug": "tovari-sans",
+  "author": "Denns Ignatov",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "214__tovari-sans.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "214__tovari-sans.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/214",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -28527,6 +37263,37 @@
   "copyright": ""
  },
  {
+  "name": "TS Remarker",
+  "slug": "ts-remarker",
+  "author": "behance.net/MRfrukta",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "24__Vitaliy Tsygankov - TS Remarker Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "24__Vitaliy Tsygankov - TS Remarker Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/24",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Tsarevich",
   "slug": "tsarevich",
   "author": "Misha Panfilov",
@@ -28607,6 +37374,68 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "http://mishapanfilov.ru/fonts/tsarevich-old/tsarevich.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TSEH",
+  "slug": "tseh",
+  "author": "Kirill Galitskiy",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "603__TSEH FONT.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "603__TSEH FONT.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/603",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TT Limes Slab",
+  "slug": "tt-limes-slab",
+  "author": "Ivan Gladkikh",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "88__TTLimesSlab-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "88__TTLimesSlab-Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/88",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -28767,6 +37596,37 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/tuffy",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "TUPIK",
+  "slug": "tupik",
+  "author": "Изабель Осипова",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "564__TUPIK.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "564__TUPIK.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/564",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -29123,6 +37983,37 @@
   "copyright": ""
  },
  {
+  "name": "UnlimitedPie",
+  "slug": "unlimitedpie",
+  "author": "Екатерина Бакирова Предаем автору приветы от «секси-шрифт» )",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "173__UnlimitedPie.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "173__UnlimitedPie.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/173",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Unsightly",
   "slug": "unsightly",
   "author": "GGBot",
@@ -29206,6 +38097,68 @@
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Ura Bum Bum SP",
+  "slug": "ura-bum-bum-sp",
+  "author": "Sasha Pavljenko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "502__UraBumBumSP.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "502__UraBumBumSP.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/502",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "UrbanSlavic",
+  "slug": "urbanslavic",
+  "author": "Olga Kondakova",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "280__UrbanSlavic.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "280__UrbanSlavic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/280",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "USSR STENCIL",
   "slug": "ussr-stencil",
   "author": "TypeType Free Fonts",
@@ -29232,6 +38185,117 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://typetype.org/freefonts/",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Ustroke",
+  "slug": "ustroke",
+  "author": "Tikhon Reztcov",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "187__Ustroke-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "187__Ustroke-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/187",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Valera Sans",
+  "slug": "valera-sans",
+  "author": "Valery Isachenkov",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 3,
+  "faces": [
+   [
+    "ValeraSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "ValeraSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ValeraSans-Semibold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   600
+  ],
+  "files": [
+   "ValeraSans-Light.ttf",
+   "ValeraSans-Regular.ttf",
+   "ValeraSans-Semibold.ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://github.com/azbezd/valera-sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Vasek",
+  "slug": "vasek",
+  "author": "Ilya Designgsta",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Vasek Italic.ttf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Vasek Italic.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/82",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -29395,6 +38459,137 @@
   "copyright": "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type)"
  },
  {
+  "name": "Versus",
+  "slug": "versus",
+  "author": "By Lyajka",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "429__versus-ultra_RUS_BY_LYAJKA.otf",
+    900,
+    900,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   900
+  ],
+  "files": [
+   "429__versus-ultra_RUS_BY_LYAJKA.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/429",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Vertiger",
+  "slug": "vertiger",
+  "author": "Ilya Designgsta",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "488__Vertiger.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "488__Vertiger.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/488",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "VF Milorad",
+  "slug": "vf-milorad",
+  "author": "Виктор Пушкарёв",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "237__Milorad-VF (Public Release V1.0).ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "237__Milorad-VF (Public Release V1.0).ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/237",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "VF Reznovic",
+  "slug": "vf-reznovic",
+  "author": "Viktor Pushkarev",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "VFReznovic.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "VFReznovichDirty.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "VFReznovic.ttf",
+   "VFReznovichDirty.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/38",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Viaoda Libre",
   "slug": "viaoda-libre",
   "author": "Gydient",
@@ -29501,6 +38696,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2010 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public Lic"
+ },
+ {
+  "name": "VIVL Rail",
+  "slug": "vivl-rail",
+  "author": "Victoria Ogai",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "393__vivl-rail.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "393__vivl-rail.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/393",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Vollda Bold",
@@ -29635,6 +38861,37 @@
   "copyright": "Copyright GGBotNet 2020"
  },
  {
+  "name": "Wadik",
+  "slug": "wadik",
+  "author": "Sasha Pavljenko",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "250__Wadik.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "250__Wadik.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/250",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Walleye",
   "slug": "walleye",
   "author": "Nathanael Bonnell",
@@ -29688,6 +38945,99 @@
   "copyright": "Copyright (c) 2013 by Nathanael Bonnell. All rights reserved."
  },
  {
+  "name": "Warm Pixel",
+  "slug": "warm-pixel",
+  "author": "Екатерина Кипрова (behance)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "563__WarmPixel.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "563__WarmPixel.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/563",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Waterway (Demo)",
+  "slug": "waterway-demo",
+  "author": "Eduard Chernov",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Waterway Display Font.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Waterway Display Font.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/450",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Welcome Christmas",
+  "slug": "welcome-christmas",
+  "author": "Sweet Cherry",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "476__Welcome Christmas Font.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "476__Welcome Christmas Font.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/476",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Wes",
   "slug": "wes",
   "author": "Yelena Madyankina & Jovanny Lemonad",
@@ -29717,6 +39067,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2016 by Yelena Madyankina & Jovanny Lemonad. All rights reserved."
+ },
+ {
+  "name": "WesterlandC",
+  "slug": "westerlandc",
+  "author": "A.Gophmann (cyr.code page)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "346__WesterlandC.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "346__WesterlandC.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/346",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Westhorn",
@@ -30201,6 +39582,59 @@
   "copyright": "Copyright 2020-2024 LXGW (https://github.com/lxgw/kose-font)\r\nCopyright 2014 Nozomi Seto (https://ja.osdn.net/projects/s"
  },
  {
+  "name": "XITS",
+  "slug": "xits",
+  "author": "MicroPress Inc., with final additions and corrections provided by Coen Hoffman, ",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "XITS-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "XITS-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "XITS-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "XITS-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "XITS-Bold.otf",
+   "XITS-BoldItalic.otf",
+   "XITS-Italic.otf",
+   "XITS-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/aliftype/xits",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Xmind",
   "slug": "xmind",
   "author": "Xmind; lan",
@@ -30441,6 +39875,68 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2026 The Yantar Project Authors (https://github.com/Goryuchnick/yantar)"
+ },
+ {
+  "name": "Yarin",
+  "slug": "yarin",
+  "author": "Mario Pandeliev",
+  "class": "Декоративный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "357__Yarin-Bold.otf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   700
+  ],
+  "files": [
+   "357__Yarin-Bold.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/357",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Yauza TYGRA",
+  "slug": "yauza-tygra",
+  "author": "Jakov Chernihov, Yuri Sokolnikov",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "381__yauzatygra.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "381__yauzatygra.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/381",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Yazo",
@@ -30766,6 +40262,68 @@
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Zabava",
+  "slug": "zabava",
+  "author": "Мария Ченакал",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "453__Zabava_mari_chenak.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "453__Zabava_mari_chenak.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/453",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Zametka_Parletter",
+  "slug": "zametka-parletter",
+  "author": "Egor Paraev",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "206__Zametka_Parletter.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "206__Zametka_Parletter.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/206",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Zantroke",
   "slug": "zantroke",
   "author": "gluk",
@@ -30953,6 +40511,37 @@
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2015-2019 Belleve Invis.",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Zaychik",
+  "slug": "zaychik",
+  "author": "Maria Khmelevskaya",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Zaychik-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Zaychik-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/149",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Zector",
@@ -31419,6 +41008,198 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge."
+ },
+ {
+  "name": "ZT Neue Ralewe",
+  "slug": "zt-neue-ralewe",
+  "author": "ZELOW",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 10,
+  "faces": [
+   [
+    "ZTNeueRalewe-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ZTNeueRalewe-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "ZTNeueRalewe-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "ZTNeueRalewe-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "ZTNeueRalewe-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "ZTNeueRalewe-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ZTNeueRalewe-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "ZTNeueRalewe-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ZTNeueRalewe-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "ZTNeueRalewe-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "ZTNeueRalewe-Bold.ttf",
+   "ZTNeueRalewe-BoldItalic.ttf",
+   "ZTNeueRalewe-ExtraBold.ttf",
+   "ZTNeueRalewe-ExtraBoldItalic.ttf",
+   "ZTNeueRalewe-Italic.ttf",
+   "ZTNeueRalewe-Medium.ttf",
+   "ZTNeueRalewe-MediumItalic.ttf",
+   "ZTNeueRalewe-Regular.ttf",
+   "ZTNeueRalewe-SemiBold.ttf",
+   "ZTNeueRalewe-SemiBoldItalic.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://t.me/fontdisk/394",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Zutat Sans",
+  "slug": "zutat-sans",
+  "author": "Vercel, basement.studio and contributors; custom cut by Simon Doba with OpenAI",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "ZutatSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ZutatSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ZutatSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ZutatSans-SemiBold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "ZutatSans-Bold.ttf",
+   "ZutatSans-Medium.ttf",
+   "ZutatSans-Regular.ttf",
+   "ZutatSans-SemiBold.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/Sy-D/zutat-font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Zürich Sans",
+  "slug": "z-rich-sans",
+  "author": "Rasmus Andersson",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "ZurichSans-Italic[opsz,wght].ttf",
+    1,
+    810,
+    true
+   ],
+   [
+    "ZurichSans[opsz,wght].ttf",
+    1,
+    810,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "ZurichSans-Italic[opsz,wght].ttf",
+   "ZurichSans[opsz,wght].ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/crweul/zurich-sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Беларусь (Belarus)",
