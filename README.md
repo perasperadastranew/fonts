@@ -85,6 +85,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Batumi Sans | Koba Jgenti, Borbalo | SIL OFL 1.1 | 4 | [github.com](https://github.com/Borbalo/batumi-sans) |
 | Baumans Cyrillic | Cyreal (Henadij Zarechnjuk) | SIL OFL 1.1 | 1 | [github.com](https://github.com/cyrealtype/Baumans-Cyrillic) |
 | Baymax | Илона Кузина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Bebas Neue | Ryoichi Tsunekawa (Dharma Type) | SIL OFL 1.1 | 1 | [github.com](https://github.com/Scrum/font-bebas-neue) |
 | Bedstead | Ben Harris | CC0 / Public Domain | 2 | [bjh21.me.uk](https://bjh21.me.uk/bedstead/) |
 | Begit | Владимир Журавлёв | SIL OFL 1.1 | 1 | [github.com](https://github.com/private-face/begit) |
 | Bellota | Kemie Guaida | SIL OFL 1.1 | 6 | [github.com](https://github.com/google/fonts/tree/main/ofl/bellota) |
@@ -346,7 +347,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Monoid 2.0 | Andreas Larsen | SIL OFL 1.1 | 3 | [github.com](https://github.com/larsenwork/monoid) |
 | Monomakh | — | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/monomakh) |
 | mononoki | Matthias Tellen | SIL OFL 1.1 | 4 | [github.com](https://github.com/madmalik/mononoki) |
-| Montserrat | Julieta Ulanovsky | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserrat) |
 | Montserrat Alternates | Julieta Ulanovsky | SIL OFL 1.1 | 18 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserratalternates) |
 | Montserrat Underline | Julieta Ulanovsky | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserratunderline) |
 | Morana | Vesko Radic | SIL OFL 1.1 | 1 | [github.com](https://github.com/VeskoRadic/morana-font) |

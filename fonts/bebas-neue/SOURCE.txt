@@ -1,0 +1,5 @@
+Шрифт: Bebas Neue (версия 1.003 с кириллицей)
+Скачано: 2026-11-24 с https://github.com/Scrum/font-bebas-neue (пакет оригинального файла Dharma Type)
+Автор: Ryoichi Tsunekawa (Dharma Type)
+Лицензия: SIL OFL 1.1 (указана в самом файле шрифта)
+Примечание: в Google Fonts у Bebas Neue нет кириллицы, а в этой версии автора есть.
