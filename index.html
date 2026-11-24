@@ -1714,7 +1714,7 @@ function csideHTML(cats){const favs=FONTS.filter(f=>isFav(f[0])).length;
 function cCount(){const n=cShown();const a=$('#cN'),b=$('#cBar');if(a)a.textContent=n;if(b)b.style.width=n/FONTS.length*100+'%'}
 function refreshCat(fromSide){
  document.querySelectorAll('[data-c]').forEach(b=>b.classList.toggle('on',b.dataset.c===CATSEL));document.querySelectorAll('[data-set]').forEach(b=>b.classList.toggle('on',b.dataset.set===SET));
- document.querySelectorAll('[data-f]').forEach(b=>b.classList.toggle('on',!!FLT[b.dataset.f]));document.querySelectorAll('[data-pu]').forEach(b=>b.classList.toggle('on',b.dataset.pu===PUR));document.querySelectorAll('[data-mo]').forEach(b=>b.classList.toggle('on',b.dataset.mo===FMOOD));{const ps=document.getElementById('pus');if(ps)ps.value=PUR}
+ document.querySelectorAll('[data-f]').forEach(b=>b.classList.toggle('on',!!FLT[b.dataset.f]));document.querySelectorAll('[data-pu]').forEach(b=>b.classList.toggle('on',b.dataset.pu===PUR));document.querySelectorAll('[data-mo]').forEach(b=>b.classList.toggle('on',b.dataset.mo===FMOOD));{const ps=document.getElementById('pus');if(ps)ps.value=PUR}{const ms=document.getElementById('mos');if(ms)ms.value=FMOOD}
  document.querySelectorAll('.bay').forEach(el=>el.classList.toggle('on',baySel(BAYS[+el.dataset.bay])));
  const bi=document.querySelector('.binfo'),nh=bayInfoHTML();if(bi){if(nh)bi.outerHTML=nh;else bi.remove()}else if(nh){const bg=document.querySelector('.bgrid');bg&&bg.insertAdjacentHTML('afterend',nh)}
  renderGrid();cCount();catSync();
@@ -1733,11 +1733,11 @@ function catalog(){
  <div class="setsr"><span class="setl">Подборки</span>${setsHTML()}</div>
  <div class="phr"><label for="ph">СВОЙ ТЕКСТ</label><input id="ph" type="text" value="${esc(PHRASE)}" aria-label="Свой текст для всех образцов">${phraseSelect("cps")}<button type="button" class="pill soft" id="crnd" title="Сгенерировать случайную фразу">🎲 Сгенерировать</button><div class="sz">Размер<input id="csz" type="range" min="24" max="96" value="${lsGet('pada_csz',40)}" aria-label="Размер образцов"></div></div>
  <div class="filters ftb"><input class="search" id="q" type="search" placeholder="Найти шрифт" value="${esc(Q)}" aria-label="Найти шрифт">
- <select class="sel" id="pus" aria-label="Для чего"><option value="">Для чего: любое</option>${PURS.map(([k,n])=>`<option value="${k}" ${PUR===k?'selected':''}>${n}</option>`).join('')}</select>
+ <select class="sel" id="pus" aria-label="Для чего"><option value="">Для чего: любое</option>${PURS.map(([k,n])=>`<option value="${k}" ${PUR===k?'selected':''}>${n}</option>`).join('')}</select><select class="sel" id="mos" aria-label="Настроение"><option value="">Настроение: любое</option>${FMOODS.map(([k,n])=>`<option value="${k}" ${FMOOD===k?'selected':''}>${n}</option>`).join('')}</select>
  <button class="chip tg2 ${FLT.vf?'on':''}" data-f="vf" type="button" title="Один файл — любая толщина">VF</button><button class="chip tg2 ${FLT.it?'on':''}" data-f="it" type="button">Курсив</button>
  <span class="sp"></span>${viewSwitch()}<select class="sel" id="so" aria-label="Сортировка"><option value="fresh">Сначала необычные</option><option value="az">А–Я</option><option value="w">Больше начертаний</option><option value="cat">По типу</option></select></div>
  <div class="grid" id="grid"></div></div></div></div>`;
- $('#so').value=SORT;$('#pus').onchange=e=>{PUR=e.target.value;refreshCat()};document.documentElement.style.setProperty('--csz',lsGet('pada_csz',40)+'px');
+ $('#so').value=SORT;$('#pus').onchange=e=>{PUR=e.target.value;refreshCat()};$('#mos').onchange=e=>{FMOOD=e.target.value;refreshCat()};document.documentElement.style.setProperty('--csz',lsGet('pada_csz',40)+'px');
  heroInit(df);document.querySelectorAll('[data-sn]').forEach(b=>b.onclick=()=>{const c=$('#c-sets');c&&c.scrollBy({left:+b.dataset.sn*480,behavior:'smooth'})});
  baysInit();
  renderGrid();
