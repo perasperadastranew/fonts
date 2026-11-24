@@ -21539,6 +21539,236 @@
   "copyright": ""
  },
  {
+  "name": "Road UA",
+  "slug": "road-ua",
+  "author": "Андрій Константинов (minttype)",
+  "class": "Гротеск",
+  "license": "CC BY-ND",
+  "styles": 8,
+  "faces": [
+   [
+    "RoadUA-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "RoadUA-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "RoadUA-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "RoadUA-ExtraLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "RoadUA-Light.otf",
+    350,
+    350,
+    false
+   ],
+   [
+    "RoadUA-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "RoadUA-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "RoadUA-Thin.otf",
+    250,
+    250,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   250,
+   300,
+   350,
+   400,
+   500,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "RoadUA-Black.otf",
+   "RoadUA-Bold.otf",
+   "RoadUA-ExtraBold.otf",
+   "RoadUA-ExtraLight.otf",
+   "RoadUA-Light.otf",
+   "RoadUA-Medium.otf",
+   "RoadUA-Regular.otf",
+   "RoadUA-Thin.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/agentyzmin/Road-UA-Font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Road UI",
+  "slug": "road-ui",
+  "author": "Андрій Константинов (minttype)",
+  "class": "Гротеск",
+  "license": "CC BY-ND",
+  "styles": 16,
+  "faces": [
+   [
+    "RoadUI-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "RoadUI-BoldOblique.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "RoadUI-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "RoadUI-ExtraBoldOblique.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "RoadUI-ExtraLight.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "RoadUI-ExtraLightOblique.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "RoadUI-Light.otf",
+    350,
+    350,
+    false
+   ],
+   [
+    "RoadUI-LightOblique.otf",
+    350,
+    350,
+    true
+   ],
+   [
+    "RoadUI-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "RoadUI-MediumOblique.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "RoadUI-Oblique.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "RoadUI-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "RoadUI-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "RoadUI-SemiBoldOblique.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "RoadUI-Thin.otf",
+    250,
+    250,
+    false
+   ],
+   [
+    "RoadUI-ThinOblique.otf",
+    250,
+    250,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   250,
+   300,
+   350,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "RoadUI-Bold.otf",
+   "RoadUI-BoldOblique.otf",
+   "RoadUI-ExtraBold.otf",
+   "RoadUI-ExtraBoldOblique.otf",
+   "RoadUI-ExtraLight.otf",
+   "RoadUI-ExtraLightOblique.otf",
+   "RoadUI-Light.otf",
+   "RoadUI-LightOblique.otf",
+   "RoadUI-Medium.otf",
+   "RoadUI-MediumOblique.otf",
+   "RoadUI-Oblique.otf",
+   "RoadUI-Regular.otf",
+   "RoadUI-SemiBold.otf",
+   "RoadUI-SemiBoldOblique.otf",
+   "RoadUI-Thin.otf",
+   "RoadUI-ThinOblique.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/agentyzmin/Road-UI-Font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Roboto",
   "slug": "roboto",
   "author": "Christian Robertson",
