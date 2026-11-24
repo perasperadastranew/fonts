@@ -2944,6 +2944,69 @@
   "copyright": ""
  },
  {
+  "name": "Benbow",
+  "slug": "benbow",
+  "author": "Дмитрий Антонов (Blue Curve)",
+  "class": "Гротеск",
+  "license": "CC BY",
+  "styles": 5,
+  "faces": [
+   [
+    "Benbow Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Benbow Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Benbow Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Benbow Semibold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Benbow Thin.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   300,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "Benbow Bold.ttf",
+   "Benbow Light.ttf",
+   "Benbow Regular.ttf",
+   "Benbow Semibold.ttf",
+   "Benbow Thin.ttf"
+  ],
+  "license_files": [
+   "LICENSE-CC-BY-4.0.txt"
+  ],
+  "source": "https://www.behance.net/ed67b3fc",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Bender",
   "slug": "bender",
   "author": "TypeType Free Fonts",
@@ -4532,6 +4595,38 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Generated in 2009 by FontLab Studio. Copyright info pending."
+ },
+ {
+  "name": "Civil Manuscript",
+  "slug": "civil-manuscript",
+  "author": "Цветан Цеков",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Civil Manuscript.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Civil Manuscript.ttf"
+  ],
+  "license_files": [
+   "FONTLOG.txt",
+   "OFL.txt"
+  ],
+  "source": "https://www.1001fonts.com/civil-manuscript-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Classic Console Neue",
@@ -8795,6 +8890,45 @@
   "copyright": ""
  },
  {
+  "name": "Galiver Sans",
+  "slug": "galiver-sans",
+  "author": "",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "GALS.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "GALSB.ttf",
+    700,
+    700,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "GALS.ttf",
+   "GALSB.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/galiver-sans-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Ganesha Type",
   "slug": "ganesha-type",
   "author": "Ксения Карнаухова (Школа дизайна НИУ ВШЭ)",
@@ -11020,6 +11154,59 @@
   "copyright": ""
  },
  {
+  "name": "Inglobal",
+  "slug": "inglobal",
+  "author": "Андрей Кочетов, Денис Давыдов, Евгений Юртаев",
+  "class": "Гротеск",
+  "license": "Apache 2.0",
+  "styles": 4,
+  "faces": [
+   [
+    "inglobal.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "inglobalb.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "inglobalbi.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "inglobali.ttf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "inglobal.ttf",
+   "inglobalb.ttf",
+   "inglobalbi.ttf",
+   "inglobali.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://www.1001fonts.com/inglobal-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "InkVerse",
   "slug": "inkverse",
   "author": "GGBotNet",
@@ -12493,6 +12680,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Kroftsmann",
+  "slug": "kroftsmann",
+  "author": "Абдул",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Kroftsmann.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Kroftsmann.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/kroftsmann-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Kurale",
   "slug": "kurale",
   "author": "Eduardo Rodriguez Tunni",
@@ -13219,6 +13437,44 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/libertinusserifdisplay",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Library 3 AM",
+  "slug": "library-3-am",
+  "author": "Игорь Косинский",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Library 3 am soft.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Library 3 am.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Library 3 am soft.otf",
+   "Library 3 am.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/library-3-am-font.html",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -15174,6 +15430,37 @@
   "copyright": "Idrees Hassan, https://github.com/IdreesInc/Miracode"
  },
  {
+  "name": "Mirror 82",
+  "slug": "mirror-82",
+  "author": "Игорь Косинский",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "mirror 82_v2.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "mirror 82_v2.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/mirror-82-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Mister Brush",
   "slug": "mister-brush",
   "author": "GGBotNet",
@@ -16770,6 +17057,45 @@
   "copyright": "Copyright 2026 The Nini Sans Project Authors (https://github.com/niniglyphs/nini-sans)"
  },
  {
+  "name": "No Name 37",
+  "slug": "no-name-37",
+  "author": "Игорь Косинский",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "no_name_37_Light.otf",
+    350,
+    350,
+    false
+   ],
+   [
+    "no_name_37_Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   350,
+   400
+  ],
+  "files": [
+   "no_name_37_Light.otf",
+   "no_name_37_Regular.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/no-name-37-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Nobile",
   "slug": "nobile",
   "author": "vernon adams",
@@ -17260,6 +17586,44 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2024-2026 The Octahedron Project Authors (https://github.com/Fox-Novak/octahedron)"
+ },
+ {
+  "name": "Oddval",
+  "slug": "oddval",
+  "author": "Stan Partalev, Mirela Belova (Typeforward)",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Oddval-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Oddval-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   600
+  ],
+  "files": [
+   "Oddval-SemiBold.ttf",
+   "Oddval-SemiBoldItalic.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/oddval-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Oi",
@@ -22937,6 +23301,37 @@
   "copyright": ""
  },
  {
+  "name": "Slimamif",
+  "slug": "slimamif",
+  "author": "Дмитрий Здоров",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Slimamif.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "Slimamif.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/slimamif-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Sloval",
   "slug": "sloval",
   "author": "Анастасия Вокина (Школа дизайна НИУ ВШЭ)",
@@ -23662,6 +24057,37 @@
   "copyright": ""
  },
  {
+  "name": "Steam",
+  "slug": "steam",
+  "author": "Stan Partalev, Mirela Belova (Typeforward)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Steam-Base.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100
+  ],
+  "files": [
+   "Steam-Base.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/steam-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Steedle",
   "slug": "steedle",
   "author": "Валерия Куття (Школа дизайна НИУ ВШЭ)",
@@ -24342,6 +24768,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) Alexey Kryukov, 2007-2010. All rights reserved."
+ },
+ {
+  "name": "Thorn Valley",
+  "slug": "thorn-valley",
+  "author": "",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Thorn Valley.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Thorn Valley.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/thorn-valley-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Tihana",
@@ -27482,6 +27939,37 @@
   ],
   "files": [
    "TDVoBlagoDaryu.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://tektovdmitry.ru/shrifty",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Волшебство (TD Volshebstvo)",
+  "slug": "td-volshebstvo",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "TDVolshebstvo.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TDVolshebstvo.otf"
   ],
   "license_files": [
    "УСЛОВИЯ.txt"

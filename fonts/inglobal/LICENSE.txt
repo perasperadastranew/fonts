@@ -1,0 +1,6 @@
+Inglobal
+Typeface © inglobal. 2014. All Rights Reserved
+Автор: Andrey Kochetov, Denis Davydov, Evgeny Yurtaev
+
+Licensed under the Apache License, Version 2.0 (указано в файле шрифта).
+https://www.apache.org/licenses/LICENSE-2.0
