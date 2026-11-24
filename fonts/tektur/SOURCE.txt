@@ -1,0 +1,3 @@
+Шрифт: Tektur
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/tektur (Google Fonts, https://fonts.google.com/specimen/Tektur)
+Лицензия: OFL

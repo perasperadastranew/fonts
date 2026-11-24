@@ -1,0 +1,3 @@
+Шрифт: Istok Web
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/istokweb (Google Fonts, https://fonts.google.com/specimen/Istok+Web)
+Лицензия: OFL

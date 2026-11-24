@@ -1,0 +1,3 @@
+Шрифт: Viaoda Libre
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/viaodalibre (Google Fonts, https://fonts.google.com/specimen/Viaoda+Libre)
+Лицензия: OFL

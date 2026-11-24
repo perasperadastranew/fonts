@@ -1,0 +1,3 @@
+Шрифт: EB Garamond
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/ebgaramond (Google Fonts, https://fonts.google.com/specimen/EB+Garamond)
+Лицензия: OFL

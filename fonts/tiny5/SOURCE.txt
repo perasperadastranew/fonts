@@ -1,0 +1,3 @@
+Шрифт: Tiny5
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/tiny5 (Google Fonts, https://fonts.google.com/specimen/Tiny5)
+Лицензия: OFL

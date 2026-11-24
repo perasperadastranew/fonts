@@ -1,0 +1,3 @@
+Шрифт: Ysabeau Office
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/ysabeauoffice (Google Fonts, https://fonts.google.com/specimen/Ysabeau+Office)
+Лицензия: OFL

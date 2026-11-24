@@ -1,0 +1,3 @@
+Шрифт: Tenor Sans
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/tenorsans (Google Fonts, https://fonts.google.com/specimen/Tenor+Sans)
+Лицензия: OFL

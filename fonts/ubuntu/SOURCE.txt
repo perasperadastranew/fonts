@@ -1,0 +1,3 @@
+Шрифт: Ubuntu
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ufl/ubuntu (Google Fonts, https://fonts.google.com/specimen/Ubuntu)
+Лицензия: UFL

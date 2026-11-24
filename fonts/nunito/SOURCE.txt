@@ -1,0 +1,3 @@
+Шрифт: Nunito
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/nunito (Google Fonts, https://fonts.google.com/specimen/Nunito)
+Лицензия: OFL

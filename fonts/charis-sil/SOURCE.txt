@@ -1,0 +1,3 @@
+Шрифт: Charis SIL
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/charissil (Google Fonts, https://fonts.google.com/specimen/Charis+SIL)
+Лицензия: OFL

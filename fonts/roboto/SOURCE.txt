@@ -1,0 +1,3 @@
+Шрифт: Roboto
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/roboto (Google Fonts, https://fonts.google.com/specimen/Roboto)
+Лицензия: OFL

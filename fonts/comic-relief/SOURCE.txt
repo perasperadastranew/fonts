@@ -1,0 +1,3 @@
+Шрифт: Comic Relief
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/comicrelief (Google Fonts, https://fonts.google.com/specimen/Comic+Relief)
+Лицензия: OFL

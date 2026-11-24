@@ -1,0 +1,3 @@
+Шрифт: Commissioner
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/commissioner (Google Fonts, https://fonts.google.com/specimen/Commissioner)
+Лицензия: OFL

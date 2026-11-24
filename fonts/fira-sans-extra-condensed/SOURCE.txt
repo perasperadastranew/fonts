@@ -1,0 +1,3 @@
+Шрифт: Fira Sans Extra Condensed
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/firasansextracondensed (Google Fonts, https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed)
+Лицензия: OFL

@@ -1,0 +1,3 @@
+Шрифт: Oranienbaum
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/oranienbaum (Google Fonts, https://fonts.google.com/specimen/Oranienbaum)
+Лицензия: OFL

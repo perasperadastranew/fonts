@@ -1,0 +1,3 @@
+Шрифт: Noto Sans Mono
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/notosansmono (Google Fonts, https://fonts.google.com/specimen/Noto+Sans+Mono)
+Лицензия: OFL

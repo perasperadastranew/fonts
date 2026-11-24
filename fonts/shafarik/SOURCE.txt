@@ -1,0 +1,3 @@
+Шрифт: Shafarik
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/shafarik (Google Fonts, https://fonts.google.com/specimen/Shafarik)
+Лицензия: OFL

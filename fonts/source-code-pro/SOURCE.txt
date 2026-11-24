@@ -1,0 +1,3 @@
+Шрифт: Source Code Pro
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/sourcecodepro (Google Fonts, https://fonts.google.com/specimen/Source+Code+Pro)
+Лицензия: OFL

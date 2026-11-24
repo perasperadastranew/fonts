@@ -1,0 +1,3 @@
+Шрифт: Great Vibes
+Скачано: 2026-11-24 с https://github.com/google/fonts/tree/main/ofl/greatvibes (Google Fonts, https://fonts.google.com/specimen/Great+Vibes)
+Лицензия: OFL
