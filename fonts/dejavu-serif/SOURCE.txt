@@ -1,0 +1,3 @@
+Шрифт: DejaVu Serif
+Скачано: 2026-11-24 с https://github.com/dejavu-fonts/dejavu-fonts (DejaVu, на основе Bitstream Vera)
+Лицензия: Bitstream Vera Fonts Copyright + public domain для изменений DejaVu — свободная, раздавать можно.

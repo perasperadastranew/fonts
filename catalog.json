@@ -298,6 +298,37 @@
   "copyright": "Copyright 2018 The Advent Pro Project Authors (https://github.com/googlefonts/Advent)"
  },
  {
+  "name": "Aero",
+  "slug": "aero",
+  "author": "Анастасия Врублевская (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "HSEFonts_Vrublevskaya_Aero.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "HSEFonts_Vrublevskaya_Aero.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Ambidexter Regular",
   "slug": "ambidexter-regular",
   "author": "Егор Белозёров",
@@ -533,6 +564,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Atonic",
+  "slug": "atonic",
+  "author": "Антонина Самохина (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "atonic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "atonic.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Audex",
   "slug": "audex",
   "author": "GGBotNet",
@@ -738,6 +800,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2004, 2005 Tristan Grimmer\nCopyright (c) 2014 Manchson\n \nPermission is hereby granted, free of charge, to "
+ },
+ {
+  "name": "Baymax",
+  "slug": "baymax",
+  "author": "Илона Кузина (Школа дизайна НИУ ВШЭ)",
+  "class": "Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Baymax.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Baymax.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Bedstead",
@@ -1020,6 +1113,37 @@
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Blup",
+  "slug": "blup",
+  "author": "Александра Арсентьева (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "blup-Regular_final.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "blup-Regular_final.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Bondi",
   "slug": "bondi",
   "author": "Alejo Bergmann, Denis Ignatov; Hubert & Fischer",
@@ -1119,6 +1243,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Bushbaby",
+  "slug": "bushbaby",
+  "author": "Иван Воронцов (Школа дизайна НИУ ВШЭ)",
+  "class": "Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Bushbaby_Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Bushbaby_Regular.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Caesar Dressing Cyrillic",
@@ -1918,6 +2073,68 @@
   "copyright": "Copyright (c) 2020, Denis Ignatov \n(denis@mutno.me)"
  },
  {
+  "name": "Cyrabika",
+  "slug": "cyrabika",
+  "author": "Фионола Овчаренко (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "HSEFonts_Ovcharenko_Cyrabika.otf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   600
+  ],
+  "files": [
+   "HSEFonts_Ovcharenko_Cyrabika.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2020 by HSE FONTS. All rights reserved."
+ },
+ {
+  "name": "Damn",
+  "slug": "damn",
+  "author": "Дарья Фисько (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "DAMN.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "DAMN.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "DatCub",
   "slug": "datcub",
   "author": "GGBot",
@@ -2062,6 +2279,90 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2009 by Alexander Kalachev, Alexey Maslov, Jovanny Lemonad. All rights reserved."
+ },
+ {
+  "name": "Defectica",
+  "slug": "defectica",
+  "author": "Алина Молчанова (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск, Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Defectica.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Defectica.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "DejaVu Serif",
+  "slug": "dejavu-serif",
+  "author": "DejaVu (на основе Bitstream Vera)",
+  "class": "Антиква",
+  "license": "Bitstream Vera (свободная)",
+  "styles": 4,
+  "faces": [
+   [
+    "DejaVuSerif-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "DejaVuSerif-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "DejaVuSerif-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "DejaVuSerif.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "DejaVuSerif-Bold.ttf",
+   "DejaVuSerif-BoldItalic.ttf",
+   "DejaVuSerif-Italic.ttf",
+   "DejaVuSerif.ttf"
+  ],
+  "license_files": [
+   "LICENSE-DejaVu.txt"
+  ],
+  "source": "https://github.com/dejavu-fonts/dejavu-fonts",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes are in public domain"
  },
  {
   "name": "Dimica",
@@ -2487,6 +2788,139 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Feature Mono",
+  "slug": "feature-mono",
+  "author": "Анастасия Врублевская (Школа дизайна НИУ ВШЭ)",
+  "class": "Моноширинный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 6,
+  "faces": [
+   [
+    "FeatureMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "FeatureMono-Hairline.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "FeatureMono-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "FeatureMono-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "FeatureMono-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "FeatureMono-Thin.ttf",
+    200,
+    200,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   700
+  ],
+  "files": [
+   "FeatureMono-Bold.ttf",
+   "FeatureMono-Hairline.ttf",
+   "FeatureMono-Light.ttf",
+   "FeatureMono-Medium.ttf",
+   "FeatureMono-Regular.ttf",
+   "FeatureMono-Thin.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Sia Vrublevskaya"
+ },
+ {
+  "name": "Felidae",
+  "slug": "felidae",
+  "author": "Дарья Казакова (Школа дизайна НИУ ВШЭ)",
+  "class": "Антиква, Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Felidae.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Felidae.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Femme Fatale",
+  "slug": "femme-fatale",
+  "author": "Екатерина Вахрушева (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "FemmeFatale-Regular_1.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "FemmeFatale-Regular_1.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Ekaterina Vakhrusheva @vektrn"
+ },
+ {
   "name": "Fette Bauersche Antiqua",
   "slug": "fette-bauersche-antiqua",
   "author": "Peter Wiegel",
@@ -2887,6 +3321,68 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Gabin",
+  "slug": "gabin",
+  "author": "Э Рен Че (Школа дизайна НИУ ВШЭ)",
+  "class": "Антиква",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Gabin.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Gabin.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Ganesha Type",
+  "slug": "ganesha-type",
+  "author": "Ксения Карнаухова (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "GaneshaType-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "GaneshaType-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Garamond Libre",
   "slug": "garamond-libre",
   "author": "Daniel Benjamin Miller",
@@ -3021,6 +3517,68 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright Bryndan W Meyerholt 2021"
+ },
+ {
+  "name": "GhostSigns",
+  "slug": "ghostsigns",
+  "author": "Мария Павлова (Школа дизайна НИУ ВШЭ)",
+  "class": "Антиква",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "GhostSigns.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "GhostSigns.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Gnezdo",
+  "slug": "gnezdo",
+  "author": "Кристина Макарова (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "GNEZDO.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "GNEZDO.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Gochi Hand Cyrillic",
@@ -3218,7 +3776,7 @@
   "slug": "hack",
   "author": "Source Foundry; Source Foundry Authors",
   "class": "Моноширинный",
-  "license": "CC0 / Public Domain",
+  "license": "Bitstream Vera (свободная)",
   "styles": 4,
   "faces": [
    [
@@ -4881,6 +5439,37 @@
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Lithium",
+  "slug": "lithium",
+  "author": "Яна Колесниченко (Школа дизайна НИУ ВШЭ)",
+  "class": "Антиква, Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Lithium_tf.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Lithium_tf.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Lorenzo Sans",
   "slug": "lorenzo-sans",
   "author": "Intel Corp.",
@@ -4948,6 +5537,37 @@
   "cyrillic": "ru+ua",
   "copyright": "Font software Copyright © 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Louver Type",
+  "slug": "louver-type",
+  "author": "Тина Байрамова (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "LouverType-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "LouverType-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "LT Superior",
@@ -5262,6 +5882,68 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Melt",
+  "slug": "melt",
+  "author": "Арина Мишуринская (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "melt.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "melt.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Metabola (Жук)",
+  "slug": "metabola-zhuk",
+  "author": "Полина Симонова (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Zhyk-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Zhyk-Regular.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Metal Lord",
@@ -5586,6 +6268,37 @@
   "copyright": "Copyright (c) 2021. Vesko Radic <radic.vesko@gmail.com>"
  },
  {
+  "name": "Mrakobes",
+  "slug": "mrakobes",
+  "author": "Антонина Самохина (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "mrakobes.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "mrakobes.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Murs Gothic Wide Dark",
   "slug": "murs-gothic-wide-dark",
   "author": "Максим Кобузан",
@@ -5686,6 +6399,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Typeface © Viktar Palstsiuk, 2002. All Rights Reserved."
+ },
+ {
+  "name": "Neue Glagolitic",
+  "slug": "neue-glagolitic",
+  "author": "Лада Собченко (Школа дизайна НИУ ВШЭ)",
+  "class": "Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Neue_Glagolitic_Regular_1.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Neue_Glagolitic_Regular_1.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Neue Soviet",
@@ -6091,6 +6835,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
+ },
+ {
+  "name": "Novelist",
+  "slug": "novelist",
+  "author": "Алена Крачковская (Школа дизайна НИУ ВШЭ)",
+  "class": "Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Novelist_free.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Novelist_free.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Novem",
@@ -6743,6 +7518,37 @@
   },
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com), with Reserved Font Name 'Play', 'Playtype"
+ },
+ {
+  "name": "Plup",
+  "slug": "plup",
+  "author": "Ксения Хохрякова (Школа дизайна НИУ ВШЭ)",
+  "class": "Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Plup.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Plup.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Poiret One",
@@ -8537,6 +9343,68 @@
   "copyright": "Copyright (c) 2016, Indian Institute of Technology Bombay. All rights reserved."
  },
  {
+  "name": "Shoebox",
+  "slug": "shoebox",
+  "author": "Екатерина Вахрушева (Школа дизайна НИУ ВШЭ)",
+  "class": "Декоративный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Shoebox-ToTheRight.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Shoebox-ToTheRight.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Sloval",
+  "slug": "sloval",
+  "author": "Анастасия Вокина (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Sloval.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Sloval.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "SN Pro",
   "slug": "sn-pro",
   "author": "Supernotes; Tobias Whetton",
@@ -8637,6 +9505,68 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "St.Sign",
+  "slug": "st-sign",
+  "author": "Анастасия Погорелова (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "St.Sign-Normal.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "St.Sign-Normal.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Steedle",
+  "slug": "steedle",
+  "author": "Валерия Куття (Школа дизайна НИУ ВШЭ)",
+  "class": "Рукописный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Steedle_1.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Steedle_1.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
  },
  {
   "name": "Swanky and Moo Moo",
@@ -9013,6 +9943,37 @@
   "copyright": "Copyright 2026 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)"
  },
  {
+  "name": "Tonky",
+  "slug": "tonky",
+  "author": "Полина Залевская (Школа дизайна НИУ ВШЭ)",
+  "class": "Рукописный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Tonky-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Tonky-Regular.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Trigram",
   "slug": "trigram",
   "author": "GGBotNet",
@@ -9084,6 +10045,37 @@
   "copyright": "Copyright (c) 2010, 2011, 2013 by Daniel Johnson. Licensed under the terms of the SIL Open Font License."
  },
  {
+  "name": "Truin",
+  "slug": "truin",
+  "author": "Мария Полищук (Школа дизайна НИУ ВШЭ)",
+  "class": "Антиква",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Truin-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Truin-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
   "name": "TT2020 Base",
   "slug": "tt2020-base",
   "author": "Fredrick Brennan",
@@ -9151,6 +10143,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2019-2020, Fredrick Brennan (<copypaste@kittens.ph>), Licensed under SIL OFL 1.1"
+ },
+ {
+  "name": "Umnaya Masha",
+  "slug": "umnaya-masha",
+  "author": "Ксения Бурланкова (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Umnaya_Masha_1.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Umnaya_Masha_1.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Unsightly",
@@ -9305,6 +10328,37 @@
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2023 Vollda (https://github.com/alexburba/vollda)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "VPCH_2",
+  "slug": "vpch-2",
+  "author": "Александра Ботвинова (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "VPCH2.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "VPCH2.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Vyaz Pixel",
@@ -9760,6 +10814,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2011-2016 Severin Meyer"
+ },
+ {
+  "name": "Y-Height",
+  "slug": "y-height",
+  "author": "Таисия Дегтярь (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "YHEIGHT_TYPEFACE.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "YHEIGHT_TYPEFACE.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Y224",
@@ -10345,6 +11430,130 @@
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge."
  },
  {
+  "name": "Борис (Boris)",
+  "slug": "boris",
+  "author": "Ксения Герник (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "HSEFonts_Gernik_Boris.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "HSEFonts_Gernik_Boris.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2020 by HSE.FONTS.  All rights reserved"
+ },
+ {
+  "name": "Греча (Grecha)",
+  "slug": "grecha",
+  "author": "Валерий Черевков (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "grecha.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "grecha.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Дружок (Druzhok)",
+  "slug": "druzhok",
+  "author": "Влада Олейник (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "DRUZHOK.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "DRUZHOK.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Дурик (Durik)",
+  "slug": "durik",
+  "author": "Надежда Найдёнкина (Школа дизайна НИУ ВШЭ)",
+  "class": "Гротеск",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "Durik.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Durik.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Зарровв (Xarrovv)",
   "slug": "xarrovv",
   "author": "Дмитрий Здоров",
@@ -10440,6 +11649,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Курочка (Curochka)",
+  "slug": "curochka",
+  "author": "Валерий Черевков (Школа дизайна НИУ ВШЭ)",
+  "class": "Рукописный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "curochka.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "curochka.otf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Оглавие (Oglavie)",
   "slug": "oglavie",
   "author": "Ponomar Project",
@@ -10469,6 +11709,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2025 The Oglavie Project Authors (https://github.com/slavonic/Oglavie.git)"
+ },
+ {
+  "name": "Степан (Stepan)",
+  "slug": "stepan",
+  "author": "Валерия Жеребятьева (Школа дизайна НИУ ВШЭ)",
+  "class": "Акцидентный",
+  "license": "CC BY (HSE Fonts)",
+  "styles": 1,
+  "faces": [
+   [
+    "stepan_rounded.211207-1450.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "stepan_rounded.211207-1450.ttf"
+  ],
+  "license_files": [
+   "LICENSE-HSE-CC.txt"
+  ],
+  "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Сёнэн (Shonen)",
