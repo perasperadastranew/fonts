@@ -2365,6 +2365,37 @@
   "copyright": "Unicode Fonts for Ancient Scripts; George Douros; 2016"
  },
  {
+  "name": "AZUL",
+  "slug": "azul",
+  "author": "JingYo",
+  "class": "Акцидентный",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "faces": [
+   [
+    "azul.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "azul.ttf"
+  ],
+  "license_files": [
+   "license.txt"
+  ],
+  "source": "https://fontstruct.com/fontstructions/show/1554419",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Bad Comic",
   "slug": "bad-comic",
   "author": "GGBotNet",
@@ -9013,6 +9044,38 @@
   "copyright": "(c) 2019 D. Benjamin Miller; available under the X11 license\nBased on Unicode Fonts for Ancient Scripts; George Douros; "
  },
  {
+  "name": "GAVGAV",
+  "slug": "gavgav",
+  "author": "Настя Фишер, Маша Лаптий",
+  "class": "Акцидентный",
+  "license": "Apache 2.0",
+  "styles": 1,
+  "faces": [
+   [
+    "GAVGAV.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "GAVGAV.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt",
+   "readme.txt"
+  ],
+  "source": "https://drive.google.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Geist",
   "slug": "geist",
   "author": "Basement.studio, Andrés Briganti, Mateo Zaragoza",
@@ -9466,6 +9529,37 @@
   "copyright": ""
  },
  {
+  "name": "Gigant",
+  "slug": "gigant",
+  "author": "Егор Стремоусов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Gigant-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Gigant-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://drive.google.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Giphurs",
   "slug": "giphurs",
   "author": "Corne2Plum3",
@@ -9624,6 +9718,38 @@
   "copyright": "Copyright 2026 The Giphurs Project Authors (https://github.com/Corne2Plum3/Giphurs)"
  },
  {
+  "name": "Giraffe",
+  "slug": "giraffe",
+  "author": "Юлия Чернова",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Giraffe.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Giraffe.otf"
+  ],
+  "license_files": [
+   "readme.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.behance.net/uachernova",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Glanz",
   "slug": "glanz",
   "author": "Василий Шишкин",
@@ -9762,6 +9888,44 @@
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar); (c) 2018, Denis Ignatov (mutno.me/fonts)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Gogoia",
+  "slug": "gogoia",
+  "author": "Alan de Sousa",
+  "class": "Акцидентный",
+  "license": "Creative Commons (коммерция можно)",
+  "styles": 2,
+  "faces": [
+   [
+    "GOGOIA-Deco.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "GOGOIA-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "GOGOIA-Deco.ttf",
+   "GOGOIA-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE-CC.txt"
+  ],
+  "source": "https://www.behance.net/alandesousa",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Gogono Cocoa Mochi",
@@ -15530,6 +15694,45 @@
   "copyright": ""
  },
  {
+  "name": "Mon Hugo",
+  "slug": "mon-hugo",
+  "author": "Вика Усманова",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "MonHugo-in.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MonHugo-out.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500
+  ],
+  "files": [
+   "MonHugo-in.ttf",
+   "MonHugo-out.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://drive.google.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Mondealy Font",
   "slug": "mondealy-font",
   "author": "uglycoal",
@@ -15559,6 +15762,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "(c)"
+ },
+ {
+  "name": "Moniqa",
+  "slug": "moniqa",
+  "author": "Rajesh Rajput",
+  "class": "Антиква",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "CYR_CT_OP_Emberly Regular [wdth,wght]-VF.ttf",
+    100,
+    900,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   900
+  ],
+  "files": [
+   "CYR_CT_OP_Emberly Regular [wdth,wght]-VF.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://rajputrajesh-448.gumroad.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Monocraft",
@@ -21119,6 +21353,37 @@
   "copyright": "Copyright (c) 2018 ParaType Inc., ParaType Ltd. All rights reserved."
  },
  {
+  "name": "Retron2000",
+  "slug": "retron2000",
+  "author": "Vasily Draigo (Daymarius)",
+  "class": "Моно",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Retron2000.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Retron2000.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.1001fonts.com/retron2000-font.html",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Risha Neo",
   "slug": "risha-neo",
   "author": "Isami Risha",
@@ -24298,6 +24563,53 @@
   "copyright": ""
  },
  {
+  "name": "Swampy",
+  "slug": "swampy",
+  "author": "JUNNXY Studio",
+  "class": "Акцидентный",
+  "license": "CC BY",
+  "styles": 3,
+  "faces": [
+   [
+    "Swampy Clean.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Swampy Dirt.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Swampy Sand.ttf",
+    300,
+    300,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500
+  ],
+  "files": [
+   "Swampy Clean.ttf",
+   "Swampy Dirt.ttf",
+   "Swampy Sand.ttf"
+  ],
+  "license_files": [
+   "LICENSE-CC-BY-3.0.txt"
+  ],
+  "source": "https://www.behance.net/junnxy",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Swanky and Moo Moo",
   "slug": "swanky-and-moo-moo",
   "author": "Kimberly Geswein; Denis Ignatov",
@@ -24398,6 +24710,38 @@
   "source": "https://github.com/sevavar/synthax",
   "expert": null,
   "cyrillic": "ru+ua",
+  "copyright": ""
+ },
+ {
+  "name": "Take Cover",
+  "slug": "take-cover",
+  "author": "Magique Fonts",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Take cover.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Take cover.ttf"
+  ],
+  "license_files": [
+   "license.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://www.dafont.com/take-cover.font",
+  "expert": null,
+  "cyrillic": "ru",
   "copyright": ""
  },
  {
@@ -27260,6 +27604,37 @@
   "copyright": ""
  },
  {
+  "name": "Yftoowhy",
+  "slug": "yftoowhy",
+  "author": "Bryndan W. Meyerholt",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Yftoow-R.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Yftoow-R.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Bry10022/YftoowhyFont",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Yokawerad",
   "slug": "yokawerad",
   "author": "gluk",
@@ -28136,6 +28511,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Звезда НХЗДН (Zvezda NHZDN)",
+  "slug": "zvezda-nhzdn",
+  "author": "Константин Кузнецов",
+  "class": "Акцидентный",
+  "license": "CC BY-ND",
+  "styles": 1,
+  "faces": [
+   [
+    "Zvezda NHZDN Bold Italic v.1.1.ttf",
+    700,
+    700,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   700
+  ],
+  "files": [
+   "Zvezda NHZDN Bold Italic v.1.1.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://www.behance.net/nhzdn",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Избушка (TD Izbushka)",
   "slug": "td-izbushka",
   "author": "Дмитрий Тектов",
@@ -28349,6 +28755,99 @@
    "LICENSE-HSE-CC.txt"
   ],
   "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Марс (TD Mars)",
+  "slug": "td-mars",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "TD Mars.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TD Mars.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://tektovdmitry.ru/shrifty",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Медведь (TD Medved)",
+  "slug": "td-medved",
+  "author": "Дмитрий Тектов",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "TDMedved.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TDMedved.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://tektovdmitry.ru/shrifty",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Меланхолия (TD Melancholiya)",
+  "slug": "td-melancholiya",
+  "author": "Дмитрий Тектов",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "TDMelancholiya.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TDMelancholiya.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://tektovdmitry.ru/shrifty",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""

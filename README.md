@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 637 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 652 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -76,6 +76,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Audex | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | AVA | GGBotNet | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Avdira | George Douros | Свободная (любое использование) | 2 | [fontlibrary.org](https://fontlibrary.org/font/avdira-textfonts) |
+| AZUL | JingYo | CC0 / Public Domain | 1 | [fontstruct.com](https://fontstruct.com/fontstructions/show/1554419) |
 | Bad Comic | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Bad Script | Roman Shchyukin (Gaslight Type Foundry), Cyreal (Charset Expansion) | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/badscript) |
 | Balhattan | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/balhattan-font) |
@@ -220,6 +221,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Galiver Sans | — | Бесплатно (условия автора) | 2 | [www.1001fonts.com](https://www.1001fonts.com/galiver-sans-font.html) |
 | Ganesha Type | Ксения Карнаухова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Garamond Libre | Daniel Benjamin Miller | MIT / X11 | 4 | [github.com](https://github.com/dbenjaminmiller/garamond-libre) |
+| GAVGAV | Настя Фишер, Маша Лаптий | Apache 2.0 | 1 | [drive.google.com](https://drive.google.com) |
 | Geist | Basement.studio, Andrés Briganti, Mateo Zaragoza | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/geist) |
 | Geist Mono | Basement.studio, Andrés Briganti, Mateo Zaragoza | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/geistmono) |
 | Geist Rounded | mishanaer (на основе Geist) | SIL OFL 1.1 | 9 | [github.com](https://github.com/mishanaer/geist-rounded) |
@@ -230,11 +232,14 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Gewtymol | Bryndan Meyerholt | SIL OFL 1.1 | 1 | [github.com](https://github.com/Bry10022/Gewtymol) |
 | GhostSigns | Мария Павлова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Gidole | — | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/gidole) |
+| Gigant | Егор Стремоусов | Бесплатно (условия автора) | 1 | [drive.google.com](https://drive.google.com) |
 | Giphurs | Corne2Plum3 | SIL OFL 1.1 | 18 | [github.com](https://github.com/Corne2Plum3/Giphurs) |
+| Giraffe | Юлия Чернова | Бесплатно (условия автора) | 1 | [www.behance.net](https://www.behance.net/uachernova) |
 | Glanz | Василий Шишкин | Бесплатно (условия автора) | 2 | [shishkin.ru](https://shishkin.ru/) |
 | Gnezdo | Кристина Макарова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Go Mono | Bigelow & Holmes | BSD 3-Clause | 2 | [github.com](https://github.com/golang/image) |
 | Gochi Hand Cyrillic | Huerta Tipografica, Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gochi-hand-cyrillic.otf) |
+| Gogoia | Alan de Sousa | Creative Commons (коммерция можно) | 2 | [www.behance.net](https://www.behance.net/alandesousa) |
 | Gogono Cocoa Mochi | Goma Shin, Denis Ignatov; https://scripts.sil.org/OFL | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gogono-cocoa-mochi-cyrillic.otf) |
 | Golos Text | A.Korolkova, Vitaly Kuzmin | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/golostext) |
 | Googee | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/googee.zip) |
@@ -349,7 +354,9 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Mirror 82 | Игорь Косинский | Бесплатно (условия автора) | 1 | [www.1001fonts.com](https://www.1001fonts.com/mirror-82-font.html) |
 | Mister Brush | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Moderustic | Tural Alisoy | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/moderustic) |
+| Mon Hugo | Вика Усманова | SIL OFL 1.1 | 2 | [drive.google.com](https://drive.google.com) |
 | Mondealy Font | uglycoal | MIT / X11 | 1 | [github.com](https://github.com/uglycoal/mondealy_font) |
+| Moniqa | Rajesh Rajput | Бесплатно (условия автора) | 1 | [rajputrajesh-448.gumroad.com](https://rajputrajesh-448.gumroad.com) |
 | Monocraft | Idrees Hassan | SIL OFL 1.1 | 12 | [github.com](https://github.com/IdreesInc/Monocraft) |
 | Monoid 2.0 | Andreas Larsen | SIL OFL 1.1 | 3 | [github.com](https://github.com/larsenwork/monoid) |
 | Monomakh | — | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/monomakh) |
@@ -471,6 +478,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Renaissance | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
 | Renju | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Retni Sans | Vitaly Kuzmin | SIL OFL 1.1 | 8 | [fontlibrary.org](https://fontlibrary.org/font/retni-sans) |
+| Retron2000 | Vasily Draigo (Daymarius) | Бесплатно (условия автора) | 1 | [www.1001fonts.com](https://www.1001fonts.com/retron2000-font.html) |
 | Risha Neo | Isami Risha | SIL OFL 1.1 | 1 | [github.com](https://github.com/isamirivers/Risha-Neo) |
 | Roboto | Christian Robertson | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/roboto) |
 | Roboto Condensed | Christian Robertson | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/robotocondensed) |
@@ -556,9 +564,11 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Structura | Василий Шишкин | Бесплатно (условия автора) | 2 | [shishkin.ru](https://shishkin.ru/) |
 | Stykhiia Text | TheTurkeyProgramist | SIL OFL 1.1 | 1 | [github.com](https://github.com/TheTurkeyProgramist/stykhiia-fonts) |
 | Sun Serif | на основе Amstelvar (Font Bureau) | SIL OFL 1.1 | 2 | [github.com](https://github.com/sypsyp97/sun-serif) |
+| Swampy | JUNNXY Studio | CC BY | 3 | [www.behance.net](https://www.behance.net/junnxy) |
 | Swanky and Moo Moo | Kimberly Geswein; Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/swanky-and-moo-moo-cyrillic.otf) |
 | Swanston | Liam Whitelaw | SIL OFL 1.1 | 2 | [github.com](https://github.com/lwhitelaw/Swanston) |
 | Synthax | sevavar | CC0 / Public Domain | 1 | [github.com](https://github.com/sevavar/synthax) |
+| Take Cover | Magique Fonts | Бесплатно (условия автора) | 1 | [www.dafont.com](https://www.dafont.com/take-cover.font) |
 | Talyn Brush | на основе Nanum Brush Script (NHN) | SIL OFL 1.1 | 1 | [github.com](https://github.com/christophbuehler/talyn-brush) |
 | Tecla | Василий Шишкин | Бесплатно (условия автора) | 9 | [shishkin.ru](https://shishkin.ru/) |
 | Tedeev | AR (anovrus) | SIL OFL 1.1 | 1 | [github.com](https://github.com/silentbay/Tedeev) |
@@ -627,6 +637,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Yantar | Alexander Pronin | SIL OFL 1.1 | 6 | [github.com](https://github.com/Goryuchnick/yantar) |
 | Yazo | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Yeseva One | Jovanny Lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/yesevaone) |
+| Yftoowhy | Bryndan W. Meyerholt | SIL OFL 1.1 | 1 | [github.com](https://github.com/Bry10022/YftoowhyFont) |
 | Yokawerad | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/yokawerad.font) |
 | Yomogi | satsuyako | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/yomogi) |
 | Ysabeau | Christian Thalmann (Catharsis Fonts) | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ysabeau) |
@@ -649,6 +660,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Дружок (Druzhok) | Влада Олейник (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Дурик (Durik) | Надежда Найдёнкина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Зарровв (Xarrovv) | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Xarrovv/Xarrovv.otf) |
+| Звезда НХЗДН (Zvezda NHZDN) | Константин Кузнецов | CC BY-ND | 1 | [www.behance.net](https://www.behance.net/nhzdn) |
 | Избушка (TD Izbushka) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Извод (TD Izvod) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Калуга (Kaluga) | Дмитрий Тектов, Юрий Бучарский | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
@@ -656,6 +668,9 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Корнилов (Kornilow) | Marath Salychow | CC BY | 1 | [fontlibrary.org](https://fontlibrary.org/font/kornilow) |
 | Крамола (Kramola) | Алексей Меднов | CC0 / Public Domain | 1 | [www.dafont.com](https://www.dafont.com/kramola.font) |
 | Курочка (Curochka) | Валерий Черевков (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Марс (TD Mars) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
+| Медведь (TD Medved) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
+| Меланхолия (TD Melancholiya) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Наукоград (TD ST Naukograd) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Оглавие (Oglavie) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/slavonic/Oglavie) |
 | Ромочка | Иван Гладких (Jovanny Lemonad) | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
