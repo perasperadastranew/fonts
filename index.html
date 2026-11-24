@@ -596,7 +596,7 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const loaded={};
 function wq(f){return f[2]&&f[3]<f[4]?`:wght@${f[3]}..${f[4]}`:(f[3]>400?`:wght@${f[3]}`:'')}
-const REPO='https://perasperadastranew.github.io/fonts/';
+const REPO=location.hostname==='fonts.perasperadastra.ru'?location.origin+'/':location.hostname==='perasperadastranew.github.io'?location.origin+'/fonts/':'https://fonts.perasperadastra.ru/';
 function loadFont(f){
  if(loaded[f[0]])return loaded[f[0]];
  if(f[7]){const full=/^#\/(font|compare)/.test(location.hash)||f[8].length<=2;const K=f[0]+(full?'':'~');if(loaded[K])return loaded[K];if(!full&&loaded[f[0]])return loaded[f[0]];
