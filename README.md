@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 558 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 563 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -39,6 +39,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Achieve | Lauren Herda | SIL OFL 1.1 | 6 | [github.com](https://github.com/Isosceles/Achieve) |
 | Advent Pro | VivaRado, Andreas Kalpakidis | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/adventpro) |
 | Aero | Анастасия Врублевская (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Afterbyte Mono | Krishanth | SIL OFL 1.1 | 1 | [github.com](https://github.com/krishanth7/afterbyte-mono) |
 | Akt | Dmitry Grenev | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/akt) |
 | Alco Sans | Rebecca Bettencourt (Kreative Software) | SIL OFL 1.1 | 1 | [github.com](https://github.com/kreativekorp/open-relay) |
 | Alegreya | Juan Pablo del Peral | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/alegreya) |
@@ -198,6 +199,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Garamond Libre | Daniel Benjamin Miller | MIT / X11 | 4 | [github.com](https://github.com/dbenjaminmiller/garamond-libre) |
 | Geist | Basement.studio, Andrés Briganti, Mateo Zaragoza | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/geist) |
 | Geist Mono | Basement.studio, Andrés Briganti, Mateo Zaragoza | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/geistmono) |
+| Geist Rounded | mishanaer (на основе Geist) | SIL OFL 1.1 | 9 | [github.com](https://github.com/mishanaer/geist-rounded) |
 | Gentium Book Plus | Victor Gaultney, Annie Olsen, Iska Routamaa, Becca Hirsbrunner | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/gentiumbookplus) |
 | Gentium Plus | Victor Gaultney, Annie Olsen, Iska Routamaa, Becca Hirsbrunner | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/gentiumplus) |
 | Geologica | Sindre Bremnes, Frode Helland | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/geologica) |
@@ -338,6 +340,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Nini Mono | Niniglyphs; Sayantan Roy | SIL OFL 1.1 | 10 | [github.com](https://github.com/niniglyphs/nini-mono) |
 | Nini Sans | Niniglyphs; Sayantan Roy | SIL OFL 1.1 | 10 | [github.com](https://github.com/niniglyphs/nini-sans) |
 | Nobile | vernon adams | SIL OFL 1.1 | 6 | [github.com](https://github.com/google/fonts/tree/main/ofl/nobile) |
+| Nooga Mono | Marcin Gasperowicz | SIL OFL 1.1 | 4 | [github.com](https://github.com/nooga/nooga-mono) |
 | Noto Sans | Monotype Design Team | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/notosans) |
 | Noto Sans Display | Monotype Design Team | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/notosansdisplay) |
 | Noto Sans Mono | Monotype Design Team | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/notosansmono) |
@@ -402,6 +405,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Propaniac | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Prosto One | Pavel Emelyanov and Jovanny Lemonad; Pavel Emelyanov and Jovanny lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/prostoone) |
 | PT Mono | A.Korolkova, I.Chaeva | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/ptmono) |
+| PT Root UI | Виталий Кузьмин (ParaType) | SIL OFL 1.1 | 4 | [github.com](https://github.com/mikejlee/PT-Root-UI) |
 | PT Sans | A.Korolkova, O.Umpeleva, V.Yefimov | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/ptsans) |
 | PT Sans Caption | A.Korolkova, O.Umpeleva, V.Yefimov | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ptsanscaption) |
 | PT Sans Narrow | A.Korolkova, O.Umpeleva, V.Yefimov | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ptsansnarrow) |
@@ -414,6 +418,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Qazaq Grotesk | Florian Karsten (Space Grotesk); казахская версия | SIL OFL 1.1 | 5 | [github.com](https://github.com/mugid/qazaq-grotesk) |
 | Qazaq Mono | RZanbatyr (на основе Fira Mono) | SIL OFL 1.1 | 2 | [github.com](https://github.com/RZanbatyr/qazaq-mono) |
 | QuinqueFive | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Qyrandar | romaagadill (на основе Montserrat) | SIL OFL 1.1 | 18 | [github.com](https://github.com/romaagadill-a11y/Qyrandar) |
 | Raleway | Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/raleway) |
 | Renju | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Retni Sans | Vitaly Kuzmin | SIL OFL 1.1 | 8 | [fontlibrary.org](https://fontlibrary.org/font/retni-sans) |

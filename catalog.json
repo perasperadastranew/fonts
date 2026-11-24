@@ -462,6 +462,37 @@
   "copyright": ""
  },
  {
+  "name": "Afterbyte Mono",
+  "slug": "afterbyte-mono",
+  "author": "Krishanth",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "AfterbyteMono-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "AfterbyteMono-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/krishanth7/afterbyte-mono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Akt",
   "slug": "akt",
   "author": "Dmitry Grenev",
@@ -7972,6 +8003,101 @@
   "copyright": ""
  },
  {
+  "name": "Geist Rounded",
+  "slug": "geist-rounded",
+  "author": "mishanaer (на основе Geist)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 9,
+  "faces": [
+   [
+    "GeistRounded-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "GeistRounded-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "GeistRounded-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "GeistRounded-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "GeistRounded-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "GeistRounded-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "GeistRounded-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "GeistRounded-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "GeistRounded-Thin.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "GeistRounded-Black.ttf",
+   "GeistRounded-Bold.ttf",
+   "GeistRounded-ExtraBold.ttf",
+   "GeistRounded-ExtraLight.ttf",
+   "GeistRounded-Light.ttf",
+   "GeistRounded-Medium.ttf",
+   "GeistRounded-Regular.ttf",
+   "GeistRounded-SemiBold.ttf",
+   "GeistRounded-Thin.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/mishanaer/geist-rounded",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Gentium Book Plus",
   "slug": "gentium-book-plus",
   "author": "Victor Gaultney, Annie Olsen, Iska Routamaa, Becca Hirsbrunner",
@@ -15467,6 +15593,59 @@
   "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
  },
  {
+  "name": "Nooga Mono",
+  "slug": "nooga-mono",
+  "author": "Marcin Gasperowicz",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "NoogaMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NoogaMono-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "NoogaMono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "NoogaMono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "NoogaMono-Bold.ttf",
+   "NoogaMono-BoldItalic.ttf",
+   "NoogaMono-Italic.ttf",
+   "NoogaMono-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/nooga/nooga-mono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Noto Sans",
   "slug": "noto-sans",
   "author": "Monotype Design Team",
@@ -18009,6 +18188,61 @@
   "copyright": ""
  },
  {
+  "name": "PT Root UI",
+  "slug": "pt-root-ui",
+  "author": "Виталий Кузьмин (ParaType)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "PT-Root-UI_Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "PT-Root-UI_Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "PT-Root-UI_Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "PT-Root-UI_Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500,
+   700
+  ],
+  "files": [
+   "PT-Root-UI_Bold.ttf",
+   "PT-Root-UI_Light.ttf",
+   "PT-Root-UI_Medium.ttf",
+   "PT-Root-UI_Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/mikejlee/PT-Root-UI",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "PT Sans",
   "slug": "pt-sans",
   "author": "A.Korolkova, O.Umpeleva, V.Yefimov",
@@ -18529,6 +18763,164 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2019-2025 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Qyrandar",
+  "slug": "qyrandar",
+  "author": "romaagadill (на основе Montserrat)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "Qyrandar-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Qyrandar-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "Qyrandar-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Qyrandar-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Qyrandar-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Qyrandar-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "Qyrandar-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Qyrandar-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "Qyrandar-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Qyrandar-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Qyrandar-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Qyrandar-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Qyrandar-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Qyrandar-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Qyrandar-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Qyrandar-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "Qyrandar-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "Qyrandar-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "Qyrandar-Black.ttf",
+   "Qyrandar-BlackItalic.ttf",
+   "Qyrandar-Bold.ttf",
+   "Qyrandar-BoldItalic.ttf",
+   "Qyrandar-ExtraBold.ttf",
+   "Qyrandar-ExtraBoldItalic.ttf",
+   "Qyrandar-ExtraLight.ttf",
+   "Qyrandar-ExtraLightItalic.ttf",
+   "Qyrandar-Italic.ttf",
+   "Qyrandar-Light.ttf",
+   "Qyrandar-LightItalic.ttf",
+   "Qyrandar-Medium.ttf",
+   "Qyrandar-MediumItalic.ttf",
+   "Qyrandar-Regular.ttf",
+   "Qyrandar-SemiBold.ttf",
+   "Qyrandar-SemiBoldItalic.ttf",
+   "Qyrandar-Thin.ttf",
+   "Qyrandar-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/romaagadill-a11y/Qyrandar",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Raleway",

@@ -1,0 +1,3 @@
+Шрифт: PT Root UI
+Скачано: 2026-11-24 с https://github.com/mikejlee/PT-Root-UI
+Оригинал: ParaType, https://www.paratype.ru/fonts/pt/pt-root-ui
