@@ -260,6 +260,77 @@
   "copyright": "Copyright (c) 2015, HK Grotesk Latin by Alfredo Marco Pradil (ammpradil@gmail.com) and HK Grotesk Cyrillic by Stefan Pee"
  },
  {
+  "name": "Achieve",
+  "slug": "achieve",
+  "author": "Lauren Herda",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 6,
+  "faces": [
+   [
+    "Achieve-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Achieve-DemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Achieve-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Achieve-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Achieve-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Achieve-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "Achieve-Bold.otf",
+   "Achieve-DemiBold.otf",
+   "Achieve-ExtraBold.otf",
+   "Achieve-Light.otf",
+   "Achieve-Medium.otf",
+   "Achieve-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Isosceles/Achieve",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "(c) 2022 Lauren Herda"
+ },
+ {
   "name": "Advent Pro",
   "slug": "advent-pro",
   "author": "VivaRado, Andreas Kalpakidis",
@@ -327,6 +398,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
+ },
+ {
+  "name": "Alco Sans",
+  "slug": "alco-sans",
+  "author": "Rebecca Bettencourt (Kreative Software)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "AlcoSans.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "AlcoSans.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/kreativekorp/open-relay",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Alco Sans copyright 2020-2026 Kreative Software under the Open Font License.\nBased on Noto Sans 2.003 copyright 2019 Goo"
  },
  {
   "name": "Ambidexter Regular",
@@ -1822,6 +1924,69 @@
   "copyright": "Copyright (c) 2020, Denis Ignatov \n(denis@mutno.me)"
  },
  {
+  "name": "Coddy Round",
+  "slug": "coddy-round",
+  "author": "Coddy (на основе Audiowide)",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "CoddyRound-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "CoddyRound-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "CoddyRound-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "CoddyRound-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CoddyRound-SemiBold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "CoddyRound-Bold.ttf",
+   "CoddyRound-ExtraBold.ttf",
+   "CoddyRound-Medium.ttf",
+   "CoddyRound-Regular.ttf",
+   "CoddyRound-SemiBold.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/coddytech/coddy-round",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2026 The Coddy Round Project Authors (https://github.com/coddytech/coddy-round)"
+ },
+ {
   "name": "Code New Roman",
   "slug": "code-new-roman",
   "author": "Code New Roman; Sam Radian",
@@ -1900,6 +2065,89 @@
   "copyright": "Copyright (c) 2020, Denis Ignatov (denis@mutno.me)"
  },
  {
+  "name": "Common Serif",
+  "slug": "common-serif",
+  "author": "Philipp H. Poll, Khaled Hosny; Stefan Peev, Context Ltd.",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 8,
+  "faces": [
+   [
+    "CommonSerif-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "CommonSerif-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "CommonSerif-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "CommonSerif-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "CommonSerif-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "CommonSerif-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "CommonSerif-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "CommonSerif-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "CommonSerif-Bold.otf",
+   "CommonSerif-BoldItalic.otf",
+   "CommonSerif-Italic.otf",
+   "CommonSerif-Medium.otf",
+   "CommonSerif-MediumItalic.otf",
+   "CommonSerif-Regular.otf",
+   "CommonSerif-SemiBold.otf",
+   "CommonSerif-SemiBoldItalic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/StefanPeev/Common-Serif",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2022 The Common Serif Authors."
+ },
+ {
   "name": "Constantine",
   "slug": "constantine",
   "author": "Dukom Design",
@@ -1929,6 +2177,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright © 2014 Dukom Design (www.dukom.org), with Reserved Font Name “Constantine”"
+ },
+ {
+  "name": "Constructium",
+  "slug": "constructium",
+  "author": "Rebecca Bettencourt (Kreative Software), на основе Gentium",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Constructium.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Constructium.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/kreativekorp/open-relay",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Gentium copyright (c) SIL International 2003-2005 under the Open Font License.\nConstructium copyright (c) Kreative Softw"
  },
  {
   "name": "Cormorant Infant",
@@ -2078,6 +2357,37 @@
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2011, Font Diner, Inc (diner@fontdiner.com), with Reserved Font Names \"Creepster\". (c) 2022, Cyrillic set ",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Crosspath Hand",
+  "slug": "crosspath-hand",
+  "author": "Victor Popov; crosspath.cv",
+  "class": "Рукописный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "CrosspathHand-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "CrosspathHand-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/victorpapou/crosspath-hand",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Crosspath Hand Project Authors (https://github.com/victorpapou/crosspath-hand)"
  },
  {
   "name": "Crosterian",
@@ -3588,6 +3898,164 @@
   "copyright": ""
  },
  {
+  "name": "Giphurs",
+  "slug": "giphurs",
+  "author": "Corne2Plum3",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "Giphurs-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Giphurs-BlackItalic.otf",
+    900,
+    900,
+    true
+   ],
+   [
+    "Giphurs-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Giphurs-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Giphurs-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Giphurs-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "Giphurs-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Giphurs-ExtraLightItalic.otf",
+    200,
+    200,
+    true
+   ],
+   [
+    "Giphurs-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Giphurs-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Giphurs-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Giphurs-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Giphurs-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Giphurs-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Giphurs-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Giphurs-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "Giphurs-Thin.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "Giphurs-ThinItalic.otf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "Giphurs-Black.otf",
+   "Giphurs-BlackItalic.otf",
+   "Giphurs-Bold.otf",
+   "Giphurs-BoldItalic.otf",
+   "Giphurs-ExtraBold.otf",
+   "Giphurs-ExtraBoldItalic.otf",
+   "Giphurs-ExtraLight.otf",
+   "Giphurs-ExtraLightItalic.otf",
+   "Giphurs-Italic.otf",
+   "Giphurs-Light.otf",
+   "Giphurs-LightItalic.otf",
+   "Giphurs-Medium.otf",
+   "Giphurs-MediumItalic.otf",
+   "Giphurs-Regular.otf",
+   "Giphurs-SemiBold.otf",
+   "Giphurs-SemiBoldItalic.otf",
+   "Giphurs-Thin.otf",
+   "Giphurs-ThinItalic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Corne2Plum3/Giphurs",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Giphurs Project Authors (https://github.com/Corne2Plum3/Giphurs)"
+ },
+ {
   "name": "Gnezdo",
   "slug": "gnezdo",
   "author": "Кристина Макарова (Школа дизайна НИУ ВШЭ)",
@@ -3754,6 +4222,89 @@
   "copyright": "Copyright (c) 2018 by CATFonts Peter Wiegel. All rights reserved."
  },
  {
+  "name": "Gran",
+  "slug": "gran",
+  "author": "ungurenko",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 8,
+  "faces": [
+   [
+    "Gran-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "Gran-BlackItalic.otf",
+    900,
+    900,
+    true
+   ],
+   [
+    "Gran-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Gran-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Gran-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Gran-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Gran-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Gran-RegularItalic.otf",
+    400,
+    400,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400,
+   700,
+   900
+  ],
+  "files": [
+   "Gran-Black.otf",
+   "Gran-BlackItalic.otf",
+   "Gran-Bold.otf",
+   "Gran-BoldItalic.otf",
+   "Gran-Light.otf",
+   "Gran-LightItalic.otf",
+   "Gran-Regular.otf",
+   "Gran-RegularItalic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/ungurenko/gran-font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Gran Project Authors (https://github.com/ungurenko/gran-font)"
+ },
+ {
   "name": "Greybeard",
   "slug": "greybeard",
   "author": "Andy Walker",
@@ -3900,6 +4451,69 @@
   "cyrillic": "ru+ua",
   "copyright": "made by @CollectiveTypeworks",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Gypsystyle Art",
+  "slug": "gypsystyle-art",
+  "author": "Vsevolod Belikov (на основе Exo 2)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "GypsyStyleArt-Black.otf",
+    900,
+    900,
+    false
+   ],
+   [
+    "GypsyStyleArt-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "GypsyStyleArt-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "GypsyStyleArt-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "GypsyStyleArt-Thin.otf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100,
+   300,
+   500,
+   700,
+   900
+  ],
+  "files": [
+   "GypsyStyleArt-Black.otf",
+   "GypsyStyleArt-Bold.otf",
+   "GypsyStyleArt-Light.otf",
+   "GypsyStyleArt-Medium.otf",
+   "GypsyStyleArt-Thin.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/gypsystyle-dev/gypsystyle-art-font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2013 The Exo 2 Project Authors (https://github.com/googlefonts/Exo-2.0). Copyright 2026 Vsevolod Belikov (Gyps"
  },
  {
   "name": "Hack",
@@ -5991,6 +6605,77 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Lytkin",
+  "slug": "lytkin",
+  "author": "Danilo Borovinić, Antonina Samokhina",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 6,
+  "faces": [
+   [
+    "Lytkin-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Lytkin-ExtraLight.otf",
+    200,
+    200,
+    false
+   ],
+   [
+    "Lytkin-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Lytkin-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Lytkin-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Lytkin-SemiBold.otf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   200,
+   300,
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "Lytkin-Bold.otf",
+   "Lytkin-ExtraLight.otf",
+   "Lytkin-Light.otf",
+   "Lytkin-Medium.otf",
+   "Lytkin-Regular.otf",
+   "Lytkin-SemiBold.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/collectivetypeworks/Lytkin",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2026 by Collective Typeworks. All rights reserved."
+ },
+ {
   "name": "Mail Ray Stuff",
   "slug": "mail-ray-stuff",
   "author": "Ray Larabie, Typodermic Fonts",
@@ -6091,6 +6776,164 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Medeo Mono",
+  "slug": "medeo-mono",
+  "author": "DNF Studio",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "MedeoMono-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "MedeoMono-BlackItalic.ttf",
+    900,
+    900,
+    true
+   ],
+   [
+    "MedeoMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "MedeoMono-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "MedeoMono-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "MedeoMono-ExtraBoldItalic.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "MedeoMono-ExtraLight.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "MedeoMono-ExtraLightItalic.ttf",
+    200,
+    200,
+    true
+   ],
+   [
+    "MedeoMono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "MedeoMono-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "MedeoMono-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "MedeoMono-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "MedeoMono-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "MedeoMono-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "MedeoMono-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "MedeoMono-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "MedeoMono-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "MedeoMono-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "MedeoMono-Black.ttf",
+   "MedeoMono-BlackItalic.ttf",
+   "MedeoMono-Bold.ttf",
+   "MedeoMono-BoldItalic.ttf",
+   "MedeoMono-ExtraBold.ttf",
+   "MedeoMono-ExtraBoldItalic.ttf",
+   "MedeoMono-ExtraLight.ttf",
+   "MedeoMono-ExtraLightItalic.ttf",
+   "MedeoMono-Italic.ttf",
+   "MedeoMono-Light.ttf",
+   "MedeoMono-LightItalic.ttf",
+   "MedeoMono-Medium.ttf",
+   "MedeoMono-MediumItalic.ttf",
+   "MedeoMono-Regular.ttf",
+   "MedeoMono-SemiBold.ttf",
+   "MedeoMono-SemiBoldItalic.ttf",
+   "MedeoMono-Thin.ttf",
+   "MedeoMono-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/DNFDEVS/medeo-font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Medeo Project Authors (https://github.com/DNFDEVS/medeo-font). Copyright 2024 The Geist Project Autho"
  },
  {
   "name": "Melt",
@@ -6285,6 +7128,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Mondealy Font",
+  "slug": "mondealy-font",
+  "author": "uglycoal",
+  "class": "Акцидентный",
+  "license": "MIT / X11",
+  "styles": 1,
+  "faces": [
+   [
+    "Mondealy Font.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Mondealy Font.ttf"
+  ],
+  "license_files": [
+   "LICENSE-MIT.txt"
+  ],
+  "source": "https://github.com/uglycoal/mondealy_font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "(c)"
  },
  {
   "name": "Monocraft",
@@ -6537,6 +7411,119 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Maksym Kobuzan"
+ },
+ {
+  "name": "Nambli",
+  "slug": "nambli",
+  "author": "Yurii Tor",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 12,
+  "faces": [
+   [
+    "Nambli-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Nambli-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "Nambli-ExtraBold.otf",
+    800,
+    800,
+    false
+   ],
+   [
+    "Nambli-ExtraBoldItalic.otf",
+    800,
+    800,
+    true
+   ],
+   [
+    "Nambli-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Nambli-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "Nambli-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "Nambli-Medium.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Nambli-MediumItalic.otf",
+    500,
+    500,
+    true
+   ],
+   [
+    "Nambli-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "Nambli-SemiBold.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "Nambli-SemiBoldItalic.otf",
+    600,
+    600,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400,
+   500,
+   600,
+   700,
+   800
+  ],
+  "files": [
+   "Nambli-Bold.otf",
+   "Nambli-BoldItalic.otf",
+   "Nambli-ExtraBold.otf",
+   "Nambli-ExtraBoldItalic.otf",
+   "Nambli-Italic.otf",
+   "Nambli-Light.otf",
+   "Nambli-LightItalic.otf",
+   "Nambli-Medium.otf",
+   "Nambli-MediumItalic.otf",
+   "Nambli-Regular.otf",
+   "Nambli-SemiBold.otf",
+   "Nambli-SemiBoldItalic.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Tor-Production/nambli-font",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Nambli Project Authors (https://github.com/Tor-Production/nambli-font)"
  },
  {
   "name": "Natural Mono",
@@ -6976,6 +7963,202 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© XMind ltd. All Rights Reserved."
+ },
+ {
+  "name": "Nini Mono",
+  "slug": "nini-mono",
+  "author": "Niniglyphs; Sayantan Roy",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 10,
+  "faces": [
+   [
+    "NiniMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NiniMono-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "NiniMono-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "NiniMono-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "NiniMono-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "NiniMono-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "NiniMono-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "NiniMono-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "NiniMono-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "NiniMono-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   300,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "NiniMono-Bold.ttf",
+   "NiniMono-BoldItalic.ttf",
+   "NiniMono-Italic.ttf",
+   "NiniMono-Light.ttf",
+   "NiniMono-LightItalic.ttf",
+   "NiniMono-Regular.ttf",
+   "NiniMono-SemiBold.ttf",
+   "NiniMono-SemiBoldItalic.ttf",
+   "NiniMono-Thin.ttf",
+   "NiniMono-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/niniglyphs/nini-mono",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Nini Mono Project Authors (https://github.com/niniglyphs/nini-mono)"
+ },
+ {
+  "name": "Nini Sans",
+  "slug": "nini-sans",
+  "author": "Niniglyphs; Sayantan Roy",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 10,
+  "faces": [
+   [
+    "NiniSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NiniSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "NiniSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "NiniSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "NiniSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "NiniSans-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "NiniSans-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "NiniSans-SemiBoldItalic.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "NiniSans-Thin.ttf",
+    100,
+    100,
+    false
+   ],
+   [
+    "NiniSans-ThinItalic.ttf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100,
+   300,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "NiniSans-Bold.ttf",
+   "NiniSans-BoldItalic.ttf",
+   "NiniSans-Italic.ttf",
+   "NiniSans-Light.ttf",
+   "NiniSans-LightItalic.ttf",
+   "NiniSans-Regular.ttf",
+   "NiniSans-SemiBold.ttf",
+   "NiniSans-SemiBoldItalic.ttf",
+   "NiniSans-Thin.ttf",
+   "NiniSans-ThinItalic.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/niniglyphs/nini-sans",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Nini Sans Project Authors (https://github.com/niniglyphs/nini-sans)"
  },
  {
   "name": "Nobile",
@@ -8206,6 +9389,107 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2020-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Pusto Pin",
+  "slug": "pusto-pin",
+  "author": "Pustota",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "PustoPin-Regular.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "PustoPin-Regular.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/Bloorgard/pusto-pin",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright © 2026 Pustota (peter@pustota.name), with Reserved Font Name \"Pusto Pin\"."
+ },
+ {
+  "name": "Putnik",
+  "slug": "putnik",
+  "author": "la-ninpre",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Putnik.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Putnik.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/la-ninpre/Putnik",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2020, la-ninpre"
+ },
+ {
+  "name": "Qazaq Mono",
+  "slug": "qazaq-mono",
+  "author": "RZanbatyr (на основе Fira Mono)",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "QazaqMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "QazaqMono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "QazaqMono-Bold.ttf",
+   "QazaqMono-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/RZanbatyr/qazaq-mono",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Digitized data copyright © 2012-2015, The Mozilla Foundation and Telefonica S.A."
  },
  {
   "name": "QuinqueFive",
@@ -9792,6 +11076,61 @@
   "copyright": "Copyright 2011 The Seymour One Project Authors (https://github.com/googlefonts/seymourFont)"
  },
  {
+  "name": "Shalymenov Block",
+  "slug": "shalymenov-block",
+  "author": "Александр Шалыменов",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "ShalymenovBlock-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ShalymenovBlock-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "ShalymenovBlock-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "ShalymenovBlock-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   700,
+   800
+  ],
+  "files": [
+   "ShalymenovBlock-Bold.ttf",
+   "ShalymenovBlock-ExtraBold.ttf",
+   "ShalymenovBlock-Light.ttf",
+   "ShalymenovBlock-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/alexander-shalymenov/shalymenov-block",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Shalymenov Block Project Authors (https://github.com/alexander-shalymenov/shalymenov-block)"
+ },
+ {
   "name": "Shobhika",
   "slug": "shobhika",
   "author": "Manish Khatri",
@@ -10127,6 +11466,37 @@
   "cyrillic": "ru+ua",
   "copyright": "Copyright (c) 2023 Liam Whitelaw",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Synthax",
+  "slug": "synthax",
+  "author": "sevavar",
+  "class": "Моноширинный",
+  "license": "CC0 / Public Domain",
+  "styles": 1,
+  "faces": [
+   [
+    "Synthax-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Synthax-Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE-CC0.txt"
+  ],
+  "source": "https://github.com/sevavar/synthax",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": ""
  },
  {
   "name": "Terminalia",
@@ -10592,6 +11962,44 @@
   "files": [
    "TT2020Base-Italic.ttf",
    "TT2020Base-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/ctrlcctrlv/TT2020",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright (c) 2019-2020, Fredrick R. Brennan, <copypaste@kittens.ph>\n\nThis Font Software is licensed under the SIL Open "
+ },
+ {
+  "name": "TT2020 Style B",
+  "slug": "tt2020-style-b",
+  "author": "Fredrick Brennan",
+  "class": "Моноширинный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "TT2020StyleB-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "TT2020StyleB-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "TT2020StyleB-Italic.ttf",
+   "TT2020StyleB-Regular.ttf"
   ],
   "license_files": [
    "OFL.txt"
