@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 652 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 660 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -71,6 +71,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Arrose | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Arsenal | Andrij Shevchenko | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/arsenal) |
 | Arteks | Василий Шишкин | Бесплатно (условия автора) | 15 | [shishkin.ru](https://shishkin.ru/) |
+| ArtPost TYGRA | Юрий Сокольников (TYGRA) | Условия уточняются | 1 | [myskotom.ru](https://myskotom.ru/tproduct/504619321-162604776221-artpost-tygra) |
 | Arturito Slab | Cristian Tournier | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/arturito.ttf) |
 | Atonic | Антонина Самохина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Audex | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -183,6 +184,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Eleventh Square | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Emine | Стефан Пеев (на основе M+ / Coji Morishita) | SIL OFL 1.1 | 8 | [github.com](https://github.com/StefanPeev/Emine) |
 | EuroScript | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/EuroScript.zip) |
+| Ex Libris | Паша Карелин | Условия уточняются | 1 | [myskotom.ru](https://myskotom.ru/tproduct/504619321-279180530151-ex-libris) |
 | Exo 2 | Natanael Gama | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/exo2) |
 | Fabergé | Василий Шишкин, Владимир Аносов | Бесплатно (условия автора) | 4 | [shishkin.ru](https://shishkin.ru/faberge) |
 | Fairfax | Made with Bits'n'Picas by Kreative Software | SIL OFL 1.1 | 14 | [github.com](https://github.com/kreativekorp/open-relay/releases/download/2026-09-21/Fairfax.zip) |
@@ -298,6 +300,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Kirk Mono | kirklin (на основе JetBrains Mono) | SIL OFL 1.1 | 24 | [github.com](https://github.com/kirklin/kirk-mono) |
 | KJV1611 | Fredrick R. Brennan | SIL OFL 1.1 | 1 | [github.com](https://github.com/ctrlcctrlv/kjv1611/releases/download/v3.6.1/KJV1611.otf) |
 | Kom-post | @guaschetti; guaschetti | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/kom-post.ttf) |
+| Konduktor | triangle.cross | Условия уточняются | 1 | [myskotom.ru](https://myskotom.ru/tproduct/504619321-332248483801-konduktor) |
 | Kroftsmann | Абдул | Бесплатно (условия автора) | 1 | [www.1001fonts.com](https://www.1001fonts.com/kroftsmann-font.html) |
 | Kurale | Eduardo Rodriguez Tunni | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/kurale) |
 | Kurland | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -333,6 +336,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Lunasima | The DocRepair Project, Monotype Design Team | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/lunasima) |
 | Lytkin | Danilo Borovinić, Antonina Samokhina | SIL OFL 1.1 | 6 | [github.com](https://github.com/collectivetypeworks/Lytkin) |
 | machine-made Sans | machine-made (на основе Plus Jakarta Sans) | Apache 2.0 | 24 | [github.com](https://github.com/machine-made/type) |
+| machérie | Анастасия Ермолаева | Условия уточняются | 1 | [fontesk.com](https://fontesk.com/macherie-font/) |
 | Magnolia Script | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Mail Ray Stuff | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Manrope | Mikhail Sharanda | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/manrope) |
@@ -652,6 +656,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Zero Cool | GGBotNet | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Znikomit | gluk | SIL OFL 1.1 | 2 | [www.dafont.com](https://www.dafont.com/znikomit.font) |
 | ZnikomitNo25 | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/znikomitno25.font) |
+| Беларусь (Belarus) | Catherine Shulyak | Условия уточняются | 1 | [fontesk.com](https://fontesk.com/belarus-font/) |
 | Борис (Boris) | Ксения Герник (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Во Благо Дарю (TD Vo Blago Daryu) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Волшебство (TD Volshebstvo) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
@@ -676,9 +681,12 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Ромочка | Иван Гладких (Jovanny Lemonad) | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Рукопись (TD Rukopis) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | София (TD Sofia) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
+| Сплетник (Spletnik) | Екатерина Макарова | Условия уточняются | 1 | [myskotom.ru](https://myskotom.ru/tproduct/504619321-449594369041-spletnik-spletnik) |
+| Стенгазета (Stengazeta) | rakapatakunta | Условия уточняются | 1 | [online-fonts.com](https://online-fonts.com/fonts/stengazeta) |
 | Степан (Stepan) | Валерия Жеребятьева (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Сёнэн (Shonen) | Намик Мардахаев aka Намикус | SIL OFL 1.1 | 4 | [disk.yandex.ru](https://disk.yandex.ru/d/kXQNv8W06rYbJQ) |
 | Теремок (TD Teremok) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Угра (Ygra BJ TD) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |
 | Федоровск (Fedorovsk Unicode) | Ponomar Project | SIL OFL 1.1 | 1 | [github.com](https://github.com/typiconman/fonts-cu) |
+| Хлебозавод (Hlebozavod) | Карина Зиновец | Условия уточняются | 1 | — |
 | Цирюльник (TD Ciryulnik) | Дмитрий Тектов | Бесплатно (условия автора) | 1 | [tektovdmitry.ru](https://tektovdmitry.ru/shrifty) |

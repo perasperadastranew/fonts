@@ -2195,6 +2195,37 @@
   "copyright": ""
  },
  {
+  "name": "ArtPost TYGRA",
+  "slug": "artpost-tygra",
+  "author": "Юрий Сокольников (TYGRA)",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "ArtPost TYGRA Regular.ttf",
+    100,
+    100,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   100
+  ],
+  "files": [
+   "ArtPost TYGRA Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://myskotom.ru/tproduct/504619321-162604776221-artpost-tygra",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Arturito Slab",
   "slug": "arturito-slab",
   "author": "Cristian Tournier",
@@ -6810,6 +6841,37 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2017 by Catfonts, Peter Wiegel. All rights reserved."
+ },
+ {
+  "name": "Ex Libris",
+  "slug": "ex-libris",
+  "author": "Паша Карелин",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "EX LIBRIS.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "EX LIBRIS.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://myskotom.ru/tproduct/504619321-279180530151-ex-libris",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Exo 2",
@@ -12844,6 +12906,37 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "Konduktor",
+  "slug": "konduktor",
+  "author": "triangle.cross",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Konduktor.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Konduktor.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://myskotom.ru/tproduct/504619321-332248483801-konduktor",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Kroftsmann",
   "slug": "kroftsmann",
   "author": "Абдул",
@@ -14729,6 +14822,37 @@
    "LICENSE.txt"
   ],
   "source": "https://github.com/machine-made/type",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "machérie",
+  "slug": "mach-rie",
+  "author": "Анастасия Ермолаева",
+  "class": "Рукописный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "macherie.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   600
+  ],
+  "files": [
+   "macherie.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://fontesk.com/macherie-font/",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -28262,6 +28386,37 @@
   "copyright": "Created by gluk (gluksza@wp.pl | www.glukfonts.pl) with FontForge."
  },
  {
+  "name": "Беларусь (Belarus)",
+  "slug": "belarus",
+  "author": "Catherine Shulyak",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Belarus-Regular(+bel).otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Belarus-Regular(+bel).otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://fontesk.com/belarus-font/",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Борис (Boris)",
   "slug": "boris",
   "author": "Ксения Герник (Школа дизайна НИУ ВШЭ)",
@@ -29008,6 +29163,68 @@
   "copyright": ""
  },
  {
+  "name": "Сплетник (Spletnik)",
+  "slug": "spletnik",
+  "author": "Екатерина Макарова",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Spletnik.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Spletnik.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://myskotom.ru/tproduct/504619321-449594369041-spletnik-spletnik",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Стенгазета (Stengazeta)",
+  "slug": "stengazeta",
+  "author": "rakapatakunta",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Stengazeta-Regular_5.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Stengazeta-Regular_5.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://online-fonts.com/fonts/stengazeta",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Степан (Stepan)",
   "slug": "stepan",
   "author": "Валерия Жеребятьева (Школа дизайна НИУ ВШЭ)",
@@ -29183,6 +29400,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2013-2020 Aleksandr Andreev and Nikita Simmons (https://sci.ponomar.net/)."
+ },
+ {
+  "name": "Хлебозавод (Hlebozavod)",
+  "slug": "hlebozavod",
+  "author": "Карина Зиновец",
+  "class": "Гротеск",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Hlebozavod-Medium.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "Hlebozavod-Medium.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Цирюльник (TD Ciryulnik)",
