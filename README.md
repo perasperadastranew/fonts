@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 709 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 707 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -519,8 +519,6 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Retron2000 | Vasily Draigo (Daymarius) | Бесплатно (условия автора) | 1 | [www.1001fonts.com](https://www.1001fonts.com/retron2000-font.html) |
 | Rezok | Анастасия Богдановская (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Risha Neo | Isami Risha | SIL OFL 1.1 | 1 | [github.com](https://github.com/isamirivers/Risha-Neo) |
-| Road UA | Андрій Константинов (minttype) | CC BY-ND | 8 | [github.com](https://github.com/agentyzmin/Road-UA-Font) |
-| Road UI | Андрій Константинов (minttype) | CC BY-ND | 16 | [github.com](https://github.com/agentyzmin/Road-UI-Font) |
 | Roboto | Christian Robertson | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/roboto) |
 | Roboto Condensed | Christian Robertson | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/robotocondensed) |
 | Roboto Flex | Berlow after Robertson | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/robotoflex) |
