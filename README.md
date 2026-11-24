@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 623 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 624 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -347,6 +347,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Monoid 2.0 | Andreas Larsen | SIL OFL 1.1 | 3 | [github.com](https://github.com/larsenwork/monoid) |
 | Monomakh | — | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/monomakh) |
 | mononoki | Matthias Tellen | SIL OFL 1.1 | 4 | [github.com](https://github.com/madmalik/mononoki) |
+| Montserrat | Julieta Ulanovsky | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserrat) |
 | Montserrat Alternates | Julieta Ulanovsky | SIL OFL 1.1 | 18 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserratalternates) |
 | Montserrat Underline | Julieta Ulanovsky | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/montserratunderline) |
 | Morana | Vesko Radic | SIL OFL 1.1 | 1 | [github.com](https://github.com/VeskoRadic/morana-font) |

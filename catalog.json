@@ -15517,6 +15517,44 @@
   "copyright": ""
  },
  {
+  "name": "Montserrat",
+  "slug": "montserrat",
+  "author": "Julieta Ulanovsky",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "Montserrat-Italic[wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "Montserrat[wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": true,
+  "weights": [
+   100
+  ],
+  "files": [
+   "Montserrat-Italic[wght].ttf",
+   "Montserrat[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/google/fonts/tree/main/ofl/montserrat",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Montserrat Alternates",
   "slug": "montserrat-alternates",
   "author": "Julieta Ulanovsky",
