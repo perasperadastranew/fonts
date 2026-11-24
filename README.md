@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 975 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 984 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -318,11 +318,13 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Fregat | Василий Шишкин | Бесплатно (условия автора) | 4 | [shishkin.ru](https://shishkin.ru/fregat) |
 | FT Anchor Yard | fresher tan | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/386) |
 | Funever Sans Display | AlloyDome | SIL OFL 1.1 | 9 | [github.com](https://github.com/AlloyDome/Funever-Sans) |
+| Furnitur | Alexey Atapin | Бесплатно (условия автора) | 1 | [greenchay.gumroad.com](https://greenchay.gumroad.com/l/furnitur-font) |
 | Furore | Ivan Gladkikh | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/26) |
 | Futurespore | Andrew Young | CC BY-SA | 1 | [mutno.me](https://mutno.me/fonts/files/futurespore-cyrillic.otf) |
 | G8 | Василий Шишкин | Бесплатно (условия автора) | 3 | [shishkin.ru](https://shishkin.ru/) |
 | Gabin | Э Рен Че (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Gabriela | Eduardo Rodriguez Tunni | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/gabriela) |
+| Gagalin | Iordanis Passas | Условия уточняются | 1 | [ipassas.gumroad.com](https://ipassas.gumroad.com/l/gagalin) |
 | Galaktika | Misha Panfilov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/74) |
 | Galiver Sans | — | Бесплатно (условия автора) | 2 | [www.1001fonts.com](https://www.1001fonts.com/galiver-sans-font.html) |
 | Ganesha Type | Ксения Карнаухова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
@@ -472,6 +474,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Lemon Tuesday | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Lemonade129 | Vadim Bashlakov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/602) |
 | Lentariso | Bryndan Meyerholt | SIL OFL 1.1 | 4 | [github.com](https://github.com/Bry10022/Lentariso) |
+| LeoHand | Denis Espinoza | Бесплатно (условия автора) | 3 | [denisespinoza.gumroad.com](https://denisespinoza.gumroad.com/l/Leohand) |
 | Leonov SP | Саша Павленко | Условия уточняются | 1 | [t.me](https://t.me/fontdisk/558) |
 | Leporid | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Letov | Serg Shishin | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/264) |
@@ -543,6 +546,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Monaspace Xenon | Riley Cran & the Lettermatic Team | SIL OFL 1.1 | 24 | [github.com](https://github.com/githubnext/monaspace) |
 | Mondealy Font | uglycoal | MIT / X11 | 1 | [github.com](https://github.com/uglycoal/mondealy_font) |
 | Moniqa | Rajesh Rajput | Бесплатно (условия автора) | 1 | [rajputrajesh-448.gumroad.com](https://rajputrajesh-448.gumroad.com) |
+| Monly | Gatis Vilaks (WildOnes) | Бесплатно (условия автора) | 4 | [wildones.gumroad.com](https://wildones.gumroad.com/l/xULmD) |
 | Mono Biletik 1.0 | Olha Butyrska | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/268) |
 | Monocraft | Idrees Hassan | SIL OFL 1.1 | 12 | [github.com](https://github.com/IdreesInc/Monocraft) |
 | Monoid 2.0 | Andreas Larsen | SIL OFL 1.1 | 3 | [github.com](https://github.com/larsenwork/monoid) |
@@ -648,6 +652,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Pirogov | AR (anovrus) | SIL OFL 1.1 | 1 | [github.com](https://github.com/silentbay/Pirogov) |
 | Pisalo | Sergey Shishin | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/235) |
 | Pitagon Sans Mono | Travis Tran | SIL OFL 1.1 | 16 | [github.com](https://github.com/ThePitagon/pitagon-sans-mono) |
+| Piter Sans | Danil Filchenkov | SIL OFL 1.1 | 1 | [filchenkov.gumroad.com](https://filchenkov.gumroad.com/l/sabmt) |
 | Pix Cyrillic | zedseven, lotva (на основе Pixellari) | SIL OFL 1.1 | 2 | [github.com](https://github.com/lotva/pix-cyrillic) |
 | Pixar One | Василий Шишкин | Бесплатно (условия автора) | 2 | [shishkin.ru](https://shishkin.ru/) |
 | Pixar One Display | Василий Шишкин | Бесплатно (условия автора) | 1 | [shishkin.ru](https://shishkin.ru/) |
@@ -675,6 +680,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Poppins Cyr | Indian Type Foundry; кириллица — Алексей Бурба | SIL OFL 1.1 | 1 | [github.com](https://github.com/alexburba/poppins-cyrillic-typeface) |
 | PostBus | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/PostBusPro.zip) |
 | Postertoaster | Vsevolod Abramov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/174) |
+| Postumus | Sergey Shishin | Бесплатно (условия автора) | 1 | [justreyb.gumroad.com](https://justreyb.gumroad.com/l/cykhyb) |
 | Practice-font | Алексей Атапин | Бесплатно (условия автора) | 2 | [t.me](https://t.me/fontdisk/359) |
 | Prata | Ivan Petrov | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/prata) |
 | Press Start 2P | CodeMan38 | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/pressstart2p) |
@@ -783,6 +789,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Shalymenov Block | Александр Шалыменов | SIL OFL 1.1 | 4 | [github.com](https://github.com/alexander-shalymenov/shalymenov-block) |
 | Shantell Sans | Stephen Nixon, Anya Danilova, Shantell Martin | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/shantellsans) |
 | Shihan | Sergei Godovalov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/193) |
+| Shinners | Pavel Bruev | Условия уточняются | 1 | [pbruev.gumroad.com](https://pbruev.gumroad.com/l/wGcCr) |
 | Shnobel | Vova Egoshin | Бесплатно (условия автора) | 2 | [t.me](https://t.me/fontdisk/16) |
 | Shobhika | Manish Khatri | SIL OFL 1.1 | 2 | [github.com](https://github.com/Sandhi-IITBombay/Shobhika) |
 | Shoebox | Екатерина Вахрушева (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
@@ -890,6 +897,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Ubuntu Sans Mono | Dalton Maag Ltd | Ubuntu Font Licence | 2 | [github.com](https://github.com/google/fonts/tree/main/ufl/ubuntusansmono) |
 | Umnaya Masha | Ксения Бурланкова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Unbounded | Luke Prowse, Jean-Baptiste Morizot, Fátima Lázaro, Florian Runge | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/unbounded) |
+| Uncage | Vladimir Klenov | Бесплатно (условия автора) | 5 | [grinfleim.gumroad.com](https://grinfleim.gumroad.com/l/UNCAGE) |
 | Underdog | Sergey Steblina | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/underdog) |
 | UnlimitedPie | Екатерина Бакирова Предаем автору приветы от «секси-шрифт» ) | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/173) |
 | Unsightly | GGBot | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/unsightly-font) |
@@ -925,6 +933,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Wimzik | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/wimzik/Wimzik.otf) |
 | Wix Madefor Display | Dalton Maag Ltd | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/wixmadefordisplay) |
 | Wix Madefor Text | Dalton Maag Ltd | SIL OFL 1.1 | 12 | [github.com](https://github.com/google/fonts/tree/main/ofl/wixmadefortext) |
+| Wolgadeutsche | Sergey Shishin | Бесплатно (условия автора) | 1 | [justreyb.gumroad.com](https://justreyb.gumroad.com/l/Wolgadeutsche) |
 | Work Sans Cyr | Wei Huang; кириллица — Алексей Бурба | SIL OFL 1.1 | 2 | [github.com](https://github.com/alexburba/Work-Sans-Cyr-Typeface) |
 | Wumpus Mono | T. E. Vaughan | SIL OFL 1.1 | 2 | [github.com](https://github.com/vaughantype/wumpus-mono) |
 | X Company | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |

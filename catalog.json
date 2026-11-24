@@ -13288,6 +13288,37 @@
   "copyright": "Copyright © AlloyDome. 2023. All Rights Reserved"
  },
  {
+  "name": "Furnitur",
+  "slug": "furnitur",
+  "author": "Alexey Atapin",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "FurniturVF.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "FurniturVF.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://greenchay.gumroad.com/l/furnitur-font",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Furore",
   "slug": "furore",
   "author": "Ivan Gladkikh",
@@ -13454,6 +13485,37 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/gabriela",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Gagalin",
+  "slug": "gagalin",
+  "author": "Iordanis Passas",
+  "class": "Декоративный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "Gagalin-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Gagalin-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://ipassas.gumroad.com/l/gagalin",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -20070,6 +20132,53 @@
   "copyright": ""
  },
  {
+  "name": "LeoHand",
+  "slug": "leohand",
+  "author": "Denis Espinoza",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 3,
+  "faces": [
+   [
+    "LeoHand-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "LeoHand-Light.ttf",
+    200,
+    200,
+    false
+   ],
+   [
+    "LeoHand-Regular.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   200,
+   500,
+   700
+  ],
+  "files": [
+   "LeoHand-Bold.ttf",
+   "LeoHand-Light.ttf",
+   "LeoHand-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://denisespinoza.gumroad.com/l/Leohand",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Leonov SP",
   "slug": "leonov-sp",
   "author": "Саша Павленко",
@@ -23780,6 +23889,59 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://rajputrajesh-448.gumroad.com",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Monly",
+  "slug": "monly",
+  "author": "Gatis Vilaks (WildOnes)",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 4,
+  "faces": [
+   [
+    "Monly-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Monly-Light.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "Monly-Serif-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Monly-Serif-Light.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500,
+   700
+  ],
+  "files": [
+   "Monly-Bold.otf",
+   "Monly-Light.otf",
+   "Monly-Serif-Bold.otf",
+   "Monly-Serif-Light.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://wildones.gumroad.com/l/xULmD",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -28545,6 +28707,37 @@
   "copyright": "Copyright 2023 The Pitagon Sans Mono Project Authors (https://github.com/ThePitagon/pitagon-sans-mono)"
  },
  {
+  "name": "Piter Sans",
+  "slug": "piter-sans",
+  "author": "Danil Filchenkov",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Piter_Sans.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Piter_Sans.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://filchenkov.gumroad.com/l/sabmt",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Pix Cyrillic",
   "slug": "pix-cyrillic",
   "author": "zedseven, lotva (на основе Pixellari)",
@@ -29526,6 +29719,38 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://t.me/fontdisk/174",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Postumus",
+  "slug": "postumus",
+  "author": "Sergey Shishin",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Postumus.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Postumus.otf"
+  ],
+  "license_files": [
+   "Postumus license.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://justreyb.gumroad.com/l/cykhyb",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -33730,6 +33955,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://t.me/fontdisk/193",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Shinners",
+  "slug": "shinners",
+  "author": "Pavel Bruev",
+  "class": "Акцидентный",
+  "license": "Условия уточняются",
+  "styles": 1,
+  "faces": [
+   [
+    "shinners-regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "shinners-regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://pbruev.gumroad.com/l/wGcCr",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -37952,6 +38208,69 @@
   "copyright": ""
  },
  {
+  "name": "Uncage",
+  "slug": "uncage",
+  "author": "Vladimir Klenov",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 5,
+  "faces": [
+   [
+    "UNCAGE-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "UNCAGE-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "UNCAGE-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "UNCAGE-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "UNCAGE-VF.ttf",
+    400,
+    700,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   600,
+   700
+  ],
+  "files": [
+   "UNCAGE-Bold.ttf",
+   "UNCAGE-Medium.ttf",
+   "UNCAGE-Regular.ttf",
+   "UNCAGE-SemiBold.ttf",
+   "UNCAGE-VF.ttf"
+  ],
+  "license_files": [
+   "License.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://grinfleim.gumroad.com/l/UNCAGE",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Underdog",
   "slug": "underdog",
   "author": "Sergey Steblina",
@@ -39354,6 +39673,38 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/wixmadefortext",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Wolgadeutsche",
+  "slug": "wolgadeutsche",
+  "author": "Sergey Shishin",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "Wolgadeutsche.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Wolgadeutsche.otf"
+  ],
+  "license_files": [
+   "Wolgadeutsche license.txt",
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://justreyb.gumroad.com/l/Wolgadeutsche",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
