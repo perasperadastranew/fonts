@@ -782,6 +782,38 @@
   "copyright": ""
  },
  {
+  "name": "Alanesiana",
+  "slug": "alanesiana",
+  "author": "Kris Alans",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Alanesiana Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Alanesiana Regular.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt",
+   "fontlog.txt"
+  ],
+  "source": "https://fontlibrary.org/font/alanesiana",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Alantal",
   "slug": "alantal",
   "author": "Василий Шишкин",
@@ -1968,6 +2000,46 @@
   "copyright": ""
  },
  {
+  "name": "Armata",
+  "slug": "armata",
+  "author": "Jasper",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "ArmataHL.otf",
+    100,
+    100,
+    false
+   ],
+   [
+    "ArmataHLObl.otf",
+    100,
+    100,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   100
+  ],
+  "files": [
+   "ArmataHL.otf",
+   "ArmataHLObl.otf"
+  ],
+  "license_files": [
+   "About Armata + Fontlog - EN.txt",
+   "OFL-FAQ.txt",
+   "SIL Open Font License.txt"
+  ],
+  "source": "https://fontlibrary.org/font/armata",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Arrose",
   "slug": "arrose",
   "author": "GGBotNet",
@@ -2256,6 +2328,150 @@
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2019, Cristian Tournier \n(cristiantournier@gmail.com)",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Asimov",
+  "slug": "asimov",
+  "author": "Google",
+  "class": "Гротеск",
+  "license": "Apache 2.0",
+  "styles": 17,
+  "faces": [
+   [
+    "Asimov.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovNar.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovNarIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovNarOu.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovNarOuIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovOu.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovOuIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovSuIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovWid.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovWidIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovWidOu.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovWidOuIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovXWid.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovXWidIt.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovXWidOu.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "AsimovXWidOuIt.otf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "Asimov.otf",
+   "AsimovIt.otf",
+   "AsimovNar.otf",
+   "AsimovNarIt.otf",
+   "AsimovNarOu.otf",
+   "AsimovNarOuIt.otf",
+   "AsimovOu.otf",
+   "AsimovOuIt.otf",
+   "AsimovSuIt.otf",
+   "AsimovWid.otf",
+   "AsimovWidIt.otf",
+   "AsimovWidOu.otf",
+   "AsimovWidOuIt.otf",
+   "AsimovXWid.otf",
+   "AsimovXWidIt.otf",
+   "AsimovXWidOu.otf",
+   "AsimovXWidOuIt.otf"
+  ],
+  "license_files": [
+   "Apache License.txt",
+   "FONTLOG_NOTICE.txt"
+  ],
+  "source": "https://fontlibrary.org/font/asimov",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Atonic",
@@ -2771,8 +2987,14 @@
   "author": "Ryoichi Tsunekawa (Dharma Type)",
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
-  "styles": 1,
+  "styles": 2,
   "faces": [
+   [
+    "BebasNeue-Bold.ttf",
+    700,
+    700,
+    false
+   ],
    [
     "BebasNeue-Regular.ttf",
     400,
@@ -2783,9 +3005,11 @@
   "variable": false,
   "italic": false,
   "weights": [
-   400
+   400,
+   700
   ],
   "files": [
+   "BebasNeue-Bold.ttf",
    "BebasNeue-Regular.ttf"
   ],
   "license_files": [
@@ -3379,6 +3603,89 @@
   "copyright": "© 2021-2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Blogger Sans",
+  "slug": "blogger-sans",
+  "author": "Sergiy Tkachenko",
+  "class": "Гротеск",
+  "license": "CC BY",
+  "styles": 8,
+  "faces": [
+   [
+    "BloggerSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "BloggerSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "BloggerSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "BloggerSans-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "BloggerSans-LightItalic.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "BloggerSans-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "BloggerSans-MediumItalic.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "BloggerSans.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   300,
+   400,
+   500,
+   700
+  ],
+  "files": [
+   "BloggerSans-Bold.ttf",
+   "BloggerSans-BoldItalic.ttf",
+   "BloggerSans-Italic.ttf",
+   "BloggerSans-Light.ttf",
+   "BloggerSans-LightItalic.ttf",
+   "BloggerSans-Medium.ttf",
+   "BloggerSans-MediumItalic.ttf",
+   "BloggerSans.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://fontlibrary.org/font/blogger-sans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Blup",
   "slug": "blup",
   "author": "Александра Арсентьева (Школа дизайна НИУ ВШЭ)",
@@ -3598,6 +3905,104 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://shishkin.ru/",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Brisa Sans",
+  "slug": "brisa-sans",
+  "author": "Dalton Maag",
+  "class": "Гротеск",
+  "license": "Apache 2.0",
+  "styles": 10,
+  "faces": [
+   [
+    "BrisaSans-Bold.otf",
+    700,
+    700,
+    false
+   ],
+   [
+    "BrisaSans-BoldItalic.otf",
+    700,
+    700,
+    true
+   ],
+   [
+    "BrisaSans-Italic.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "BrisaSans-Light.otf",
+    300,
+    300,
+    false
+   ],
+   [
+    "BrisaSans-LightItalic.otf",
+    300,
+    300,
+    true
+   ],
+   [
+    "BrisaSans-Medium.otf",
+    600,
+    600,
+    false
+   ],
+   [
+    "BrisaSans-MediumItalic.otf",
+    600,
+    600,
+    true
+   ],
+   [
+    "BrisaSans-Regular.otf",
+    400,
+    400,
+    false
+   ],
+   [
+    "BrisaSans-Thin.otf",
+    250,
+    250,
+    false
+   ],
+   [
+    "BrisaSans-ThinItalic.otf",
+    250,
+    250,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   250,
+   300,
+   400,
+   600,
+   700
+  ],
+  "files": [
+   "BrisaSans-Bold.otf",
+   "BrisaSans-BoldItalic.otf",
+   "BrisaSans-Italic.otf",
+   "BrisaSans-Light.otf",
+   "BrisaSans-LightItalic.otf",
+   "BrisaSans-Medium.otf",
+   "BrisaSans-MediumItalic.otf",
+   "BrisaSans-Regular.otf",
+   "BrisaSans-Thin.otf",
+   "BrisaSans-ThinItalic.otf"
+  ],
+  "license_files": [
+   "Copying.txt"
+  ],
+  "source": "https://fontlibrary.org/font/brisa-sans",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -5268,6 +5673,46 @@
   "copyright": "Copyright 2022 The Common Serif Authors."
  },
  {
+  "name": "ConsolaMono",
+  "slug": "consolamono",
+  "author": "",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "ConsolaMono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ConsolaMono.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "ConsolaMono-Bold.ttf",
+   "ConsolaMono.ttf"
+  ],
+  "license_files": [
+   "FONTLOG.txt",
+   "SIL - Open Font License.txt"
+  ],
+  "source": "https://fontlibrary.org/font/consolamono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Constantine",
   "slug": "constantine",
   "author": "Dukom Design",
@@ -5643,6 +6088,37 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/cousine",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Cramaten",
+  "slug": "cramaten",
+  "author": "Денис Игнатов",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Cramaten.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Cramaten.otf"
+  ],
+  "license_files": [
+   "SIL Open Font License.txt"
+  ],
+  "source": "https://fontlibrary.org/font/cramaten",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -11442,6 +11918,44 @@
   "copyright": ""
  },
  {
+  "name": "Indiction Unicode",
+  "slug": "indiction-unicode",
+  "author": "Aleksandr Andreev (Ponomar Project)",
+  "class": "Акцидентный",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "IndictionUnicode.otf",
+    500,
+    500,
+    false
+   ],
+   [
+    "IndictionUnicode.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "IndictionUnicode.otf",
+   "IndictionUnicode.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://fontlibrary.org/font/indiction-unicode",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Inglobal",
   "slug": "inglobal",
   "author": "Андрей Кочетов, Денис Давыдов, Евгений Юртаев",
@@ -13756,6 +14270,60 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/libertinusserifdisplay",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Libra Sans",
+  "slug": "libra-sans",
+  "author": "Stefan Peev, Context Ltd",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 4,
+  "faces": [
+   [
+    "LibraSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "LibraSans-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "LibraSans-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "LibraSans.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "LibraSans-Bold.ttf",
+   "LibraSans-BoldItalic.ttf",
+   "LibraSans-Italic.ttf",
+   "LibraSans.ttf"
+  ],
+  "license_files": [
+   "LICENSE",
+   "OFL.txt"
+  ],
+  "source": "https://fontlibrary.org/font/libra-sans",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -17637,6 +18205,45 @@
   "copyright": ""
  },
  {
+  "name": "NotCourierSans",
+  "slug": "notcouriersans",
+  "author": "Harrisson, Pierre Huyghebaert, Femke Snelting, Ivan Monroy-Lopez, Yi Jiang, Nicolas Malevé, Ludivine Loiseau",
+  "class": "Моно",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "NotCourierSans-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "NotCourierSans.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "NotCourierSans-Bold.ttf",
+   "NotCourierSans.ttf"
+  ],
+  "license_files": [
+   "README.html"
+  ],
+  "source": "https://fontlibrary.org/font/notcouriersans",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Noto Sans",
   "slug": "noto-sans",
   "author": "Monotype Design Team",
@@ -18179,6 +18786,39 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2023-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Omnibus Sans Serif",
+  "slug": "omnibus-sans-serif",
+  "author": "Andrew Sigurow",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Omnibus Sans Serif.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Omnibus Sans Serif.otf"
+  ],
+  "license_files": [
+   "FONTLOG.txt",
+   "OFL-FAQ.txt",
+   "OFL.txt"
+  ],
+  "source": "https://fontlibrary.org/font/omnibus-sans-serif",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Onest",
@@ -21392,6 +22032,164 @@
    "v": "caution",
    "url": "https://type.today/ru/journal/display"
   },
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Rawline",
+  "slug": "rawline",
+  "author": "Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 18,
+  "faces": [
+   [
+    "rawline-100.ttf",
+    250,
+    250,
+    false
+   ],
+   [
+    "rawline-100i.ttf",
+    250,
+    250,
+    true
+   ],
+   [
+    "rawline-200.ttf",
+    275,
+    275,
+    false
+   ],
+   [
+    "rawline-200i.ttf",
+    275,
+    275,
+    true
+   ],
+   [
+    "rawline-300.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "rawline-300i.ttf",
+    300,
+    300,
+    true
+   ],
+   [
+    "rawline-400.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "rawline-400i.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "rawline-500.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "rawline-500i.ttf",
+    500,
+    500,
+    true
+   ],
+   [
+    "rawline-600.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "rawline-600i.ttf",
+    600,
+    600,
+    true
+   ],
+   [
+    "rawline-700.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "rawline-700i.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "rawline-800.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "rawline-800i.ttf",
+    800,
+    800,
+    true
+   ],
+   [
+    "rawline-900.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "rawline-900i.ttf",
+    900,
+    900,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   250,
+   275,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "rawline-100.ttf",
+   "rawline-100i.ttf",
+   "rawline-200.ttf",
+   "rawline-200i.ttf",
+   "rawline-300.ttf",
+   "rawline-300i.ttf",
+   "rawline-400.ttf",
+   "rawline-400i.ttf",
+   "rawline-500.ttf",
+   "rawline-500i.ttf",
+   "rawline-600.ttf",
+   "rawline-600i.ttf",
+   "rawline-700.ttf",
+   "rawline-700i.ttf",
+   "rawline-800.ttf",
+   "rawline-800i.ttf",
+   "rawline-900.ttf",
+   "rawline-900i.ttf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://fontlibrary.org/font/rawline",
+  "expert": null,
   "cyrillic": "ru",
   "copyright": ""
  },
@@ -25536,6 +26334,59 @@
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
  },
  {
+  "name": "TeX Gyre Adventor",
+  "slug": "tex-gyre-adventor",
+  "author": "GUST e-foundry",
+  "class": "Гротеск",
+  "license": "GUST Font License",
+  "styles": 4,
+  "faces": [
+   [
+    "TeXGyreAdventor-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "TeXGyreAdventor-BoldItalic.ttf",
+    700,
+    700,
+    true
+   ],
+   [
+    "TeXGyreAdventor-Italic.ttf",
+    400,
+    400,
+    true
+   ],
+   [
+    "TeXGyreAdventor-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "TeXGyreAdventor-Bold.ttf",
+   "TeXGyreAdventor-BoldItalic.ttf",
+   "TeXGyreAdventor-Italic.ttf",
+   "TeXGyreAdventor-Regular.ttf"
+  ],
+  "license_files": [
+   "GUST e-foundry License.txt"
+  ],
+  "source": "https://fontlibrary.org/font/tex-gyre-adventor",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Theano Didot",
   "slug": "theano-didot",
   "author": "Alexey Kryukov",
@@ -25973,6 +26824,37 @@
   "copyright": ""
  },
  {
+  "name": "Trabajo",
+  "slug": "trabajo",
+  "author": "",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Trabajo.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Trabajo.otf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fontlibrary.org/font/trabajo",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Train One",
   "slug": "train-one",
   "author": "Fontworks",
@@ -26044,6 +26926,38 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "© 2022-2024 GGBotNet. All Rights Reserved."
+ },
+ {
+  "name": "Triod Postnaja",
+  "slug": "triod-postnaja",
+  "author": "Aleksandr Andreev (Ponomar Project)",
+  "class": "Декоративный",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "TriodPostnaja.ttf",
+    500,
+    500,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   500
+  ],
+  "files": [
+   "TriodPostnaja.ttf"
+  ],
+  "license_files": [
+   "FONTLOG.txt",
+   "LICENSE.txt"
+  ],
+  "source": "https://fontlibrary.org/font/triod-postnaja",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Triodion",
