@@ -1,0 +1,14 @@
+{
+  "name": "pada-fonts-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "wrangler": "^4"
+  }
+}

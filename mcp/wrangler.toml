@@ -1,0 +1,9 @@
+name = "pada-fonts-mcp"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+# Свой адрес вместо *.workers.dev (домен perasperadastra.ru должен быть в Cloudflare):
+# routes = [{ pattern = "mcp.fonts.perasperadastra.ru", custom_domain = true }]
+
+[vars]
+DATA_URL = "https://fonts.perasperadastra.ru/mcp/fonts.json"
