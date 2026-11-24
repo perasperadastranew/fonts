@@ -1551,7 +1551,7 @@ function tourInit(){const hr=document.querySelector('.hd .hr');if(hr&&!document.
 // Каждый приём — своя раскладка. Цвета: p[1] фон, p[2] текст, p[3] акцент.
 const RW=(n)=>words().slice(0,n).map(w=>w.replace(/[«»"]/g,''));
 const RS=(s)=>{let h=0;for(const c of (F[0]+s))h=(h*31+c.charCodeAt(0))%9973;return ()=>{h=(h*137+71)%9973;return h/9973}};
-const fitX=(el,frac=.86,maxH=.62)=>{const art=el.closest('.art');if(!art)return;el.querySelectorAll('.fx').forEach(n=>{const vert=n.dataset.v==='1';const W=(vert?art.clientHeight:art.clientWidth)*(+n.dataset.f||frac);const box=n.getBoundingClientRect();const cur=vert?box.height:box.width;if(!cur)return;const fs=parseFloat(getComputedStyle(n).fontSize);let nf=fs*W/cur;const lim=(vert?art.clientWidth:art.clientHeight)*maxH;nf=Math.min(nf,lim);n.style.fontSize=nf.toFixed(1)+'px'})};
+const fitX=(el,frac=.86,maxH=.62)=>{const art=el.querySelector('.art')||el.closest('.art');if(!art)return;el.querySelectorAll('.fx').forEach(n=>{const vert=n.dataset.v==='1';const W=(vert?art.clientHeight:art.clientWidth)*(+n.dataset.f||frac);const box=n.getBoundingClientRect();const cur=vert?box.height:box.width;if(!cur)return;const fs=parseFloat(getComputedStyle(n).fontSize);let nf=fs*W/cur;const lim=(vert?art.clientWidth:art.clientHeight)*maxH;nf=Math.min(nf,lim);n.style.fontSize=nf.toFixed(1)+'px'})};
 const PAPER='#F3EFE6',INK='#141414';
 Object.assign(T,{
 // 1. Полосы скотча: каждое слово на своей бумажной ленте, ленты чуть повёрнуты
