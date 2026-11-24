@@ -3708,6 +3708,37 @@
   "copyright": "© 2024 GGBotNet. All Rights Reserved."
  },
  {
+  "name": "Aukera Cyrillic",
+  "slug": "aukera-cyrillic",
+  "author": "Alexandre Créquer · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "aukera-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "aukera-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "AVA",
   "slug": "ava",
   "author": "GGBotNet",
@@ -4007,6 +4038,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://t.me/fontdisk/63",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Baloo Cyrillic",
+  "slug": "baloo-cyrillic",
+  "author": "Ek Type · кириллица Denis Ignatov (mutno.me)",
+  "class": "Гротеск",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "baloo-cyrillic.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "baloo-cyrillic.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -5091,6 +5153,37 @@
    "OFL.txt"
   ],
   "source": "https://fonts.google.com/specimen/BIZ+UDPMincho",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Black and White Picture Cyrillic",
+  "slug": "black-and-white-picture-cyrillic",
+  "author": "AsiaSoft Inc. · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "black-and-white-picture-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "black-and-white-picture-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -10250,6 +10343,45 @@
   "copyright": ""
  },
  {
+  "name": "Disket Mono",
+  "slug": "disket-mono",
+  "author": "Mariano Diez (Rostype) · кириллица Denis Ignatov (mutno.me)",
+  "class": "Декоративный, Гротеск, Моноширинный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 2,
+  "faces": [
+   [
+    "Disket-Mono-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "Disket-Mono-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Disket-Mono-Bold.ttf",
+   "Disket-Mono-Regular.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2019 by Mariano Diez. All rights reserved."
+ },
+ {
   "name": "Dita Sweet",
   "slug": "dita-sweet",
   "author": "TypeType Free Fonts",
@@ -10622,6 +10754,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://t.me/fontdisk/382",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "East Sea Dokdo Cyrillic",
+  "slug": "east-sea-dokdo-cyrillic",
+  "author": "YoonDesign Inc · кириллица Denis Ignatov (mutno.me)",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "east-sea-dokdo-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "east-sea-dokdo-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -13837,6 +14000,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "(c) 2019 D. Benjamin Miller; available under the X11 license\nBased on Unicode Fonts for Ancient Scripts; George Douros; "
+ },
+ {
+  "name": "Gasrux",
+  "slug": "gasrux",
+  "author": "Hatemachine · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "gasrux.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "gasrux.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Jelek © (TheHatemachine). <2013>. All Rights Reserved"
  },
  {
   "name": "GAVGAV",
@@ -17881,6 +18075,37 @@
   "copyright": "GGBotNet"
  },
  {
+  "name": "Itim Cyrillic",
+  "slug": "itim-cyrillic",
+  "author": "Cadson Demak · кириллица Denis Ignatov (mutno.me)",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "itim-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "itim-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Izuver",
   "slug": "izuver",
   "author": "Ver Wave",
@@ -17907,6 +18132,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://t.me/fontdisk/460",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Jaro Cyrillic",
+  "slug": "jaro-cyrillic",
+  "author": "Agyei Archer, Celine Hurka, Mirko Velimirović · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "jaro-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "jaro-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -21085,6 +21341,37 @@
   "copyright": ""
  },
  {
+  "name": "Lkdown",
+  "slug": "lkdown",
+  "author": "Mariano Diez (Rostype) · кириллица Denis Ignatov (mutno.me)",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "lkdown.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "lkdown.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright (c) 2020 by Mariano Diez. All rights reserved."
+ },
+ {
   "name": "Lobster",
   "slug": "lobster",
   "author": "Impallari Type",
@@ -21242,6 +21529,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://typetype.org/freefonts/",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Long Shot Cyrillic",
+  "slug": "long-shot-cyrillic",
+  "author": "Matty DeCesare · кириллица Denis Ignatov (mutno.me)",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "long-shot-cyrillic.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "long-shot-cyrillic.ttf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -22037,6 +22355,37 @@
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
  {
+  "name": "Mainframe Opto Cyrillic",
+  "slug": "mainframe-opto-cyrillic",
+  "author": "Andrew Young (Disaster Fonts) · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "mainframe-opto-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "mainframe-opto-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Maler",
   "slug": "maler",
   "author": "MIR",
@@ -22753,6 +23102,37 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Copyright 2026 The Medeo Project Authors (https://github.com/DNFDEVS/medeo-font). Copyright 2024-2026 The Geist Project "
+ },
+ {
+  "name": "Meganek",
+  "slug": "meganek",
+  "author": "Iordanis Passas · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "meganek.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "meganek.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Melt",
@@ -26806,6 +27186,37 @@
   "copyright": ""
  },
  {
+  "name": "Odessa",
+  "slug": "odessa",
+  "author": "Under pressure · кириллица Denis Ignatov (mutno.me)",
+  "class": "Декоративный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "odessa.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "odessa.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright © 2017, Design Under Pressure."
+ },
+ {
   "name": "Oi",
   "slug": "oi",
   "author": "Kostas Bartsokas, Mohamad Dakak",
@@ -28131,6 +28542,37 @@
    "УСЛОВИЯ.txt"
   ],
   "source": "https://t.me/fontdisk/418",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Penguin Attack Cyrillic",
+  "slug": "penguin-attack-cyrillic",
+  "author": "Dustin Norlander · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "penguin-attack-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "penguin-attack-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -35246,6 +35688,37 @@
   "copyright": ""
  },
  {
+  "name": "Sriracha Cyrillic",
+  "slug": "sriracha-cyrillic",
+  "author": "Cadson Demak · кириллица Denis Ignatov (mutno.me)",
+  "class": "Рукописный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "sriracha-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "sriracha-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "ST-Brigantina",
   "slug": "st-brigantina",
   "author": "Alexander Shimanov",
@@ -37354,6 +37827,37 @@
    "LICENSE-HSE-CC.txt"
   ],
   "source": "https://design.hse.ru/lab/hsefonts",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Too Many Cowboys Cyrillic",
+  "slug": "too-many-cowboys-cyrillic",
+  "author": "bristolillustrator · кириллица Denis Ignatov (mutno.me)",
+  "class": "Акцидентный",
+  "license": "Бесплатно (условия автора)",
+  "styles": 1,
+  "faces": [
+   [
+    "too-many-cowboys-cyrillic.otf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "too-many-cowboys-cyrillic.otf"
+  ],
+  "license_files": [
+   "УСЛОВИЯ.txt"
+  ],
+  "source": "https://mutno.me/fonts",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""

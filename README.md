@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 989 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 1005 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -102,6 +102,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Asimov | Google | Apache 2.0 | 17 | [fontlibrary.org](https://fontlibrary.org/font/asimov) |
 | Atonic | Антонина Самохина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Audex | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
+| Aukera Cyrillic | Alexandre Créquer · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | AVA | GGBotNet | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Avdira | George Douros | Свободная (любое использование) | 2 | [fontlibrary.org](https://fontlibrary.org/font/avdira-textfonts) |
 | Aventura | Jimmy Kalman | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/423) |
@@ -111,6 +112,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Bad Script | Roman Shchyukin (Gaslight Type Foundry), Cyreal (Charset Expansion) | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/badscript) |
 | Balhattan | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/balhattan-font) |
 | Balkara Free Condensed - npoekmu.me | Svetlin Balezdrov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/63) |
+| Baloo Cyrillic | Ek Type · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Balsamiq Sans | Michael Angeles | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/balsamiqsans) |
 | Banana Brick | artmaker | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/banana-brick) |
 | Basis33 | Manchson | MIT / X11 | 1 | [www.dafont.com](https://www.dafont.com/basis33.font) |
@@ -139,6 +141,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Bitter | Sol Matas, and Bitter project Authors | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/bitter) |
 | BIZ UDMincho | Type Bank Co., Morisawa Inc. | SIL OFL 1.1 | 2 | [fonts.google.com](https://fonts.google.com/specimen/BIZ+UDMincho) |
 | BIZ UDPMincho | Type Bank Co., Morisawa Inc. | SIL OFL 1.1 | 2 | [fonts.google.com](https://fonts.google.com/specimen/BIZ+UDPMincho) |
+| Black and White Picture Cyrillic | AsiaSoft Inc. · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Blackcraft | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Blaec | GGBotNet | CC0 / Public Domain | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Blazma | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -261,6 +264,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Didact Gothic | Daniel Johnson | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/didactgothic) |
 | Dimica | Дмитрий Здоров | SIL OFL 1.1 | 1 | [dimka.com](https://dimka.com/fonts/Dimica/Dimica-Light.otf) |
 | DINDOT | Bert Driehuis, Rick Radewagen | SIL OFL 1.1 | 8 | [github.com](https://github.com/Snowboard-Software/dindot) |
+| Disket Mono | Mariano Diez (Rostype) · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 2 | [mutno.me](https://mutno.me/fonts) |
 | Dita Sweet | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Divagon | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | DotGothic16 | Fontworks | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/dotgothic16) |
@@ -270,6 +274,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Drabina | markblondie | SIL OFL 1.1 | 2 | [github.com](https://github.com/markblondie/Drabina) |
 | Droid 1997 | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
 | Dudka | Дмитрий Антонов | Бесплатно (условия автора) | 6 | [t.me](https://t.me/fontdisk/382) |
+| East Sea Dokdo Cyrillic | YoonDesign Inc · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | EB Garamond | Georg Duffner and Octavio Pardo | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/ebgaramond) |
 | EBENYA | antonfros (Gumroad seller, likely Anton Fros) | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/33) |
 | Ekaterina Velikaya One | Alexandra Gophmann | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/190) |
@@ -333,6 +338,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Galiver Sans | — | Бесплатно (условия автора) | 2 | [www.1001fonts.com](https://www.1001fonts.com/galiver-sans-font.html) |
 | Ganesha Type | Ксения Карнаухова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Garamond Libre | Daniel Benjamin Miller | MIT / X11 | 4 | [github.com](https://github.com/dbenjaminmiller/garamond-libre) |
+| Gasrux | Hatemachine · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | GAVGAV | Настя Фишер, Маша Лаптий | Apache 2.0 | 1 | [drive.google.com](https://drive.google.com) |
 | Gehaks | Emily Michajlenko | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/490) |
 | Geist | Basement.studio, Andrés Briganti, Mateo Zaragoza | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/geist) |
@@ -421,7 +427,9 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Isar CAT | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/IsarCAT.zip) |
 | Istok Web | Andrey V. Panov | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/istokweb) |
 | Ithaca | GGBot | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/ithaca-font) |
+| Itim Cyrillic | Cadson Demak · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Izuver | Ver Wave | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/460) |
+| Jaro Cyrillic | Agyei Archer, Celine Hurka, Mirko Velimirović · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Jazzy | Виктория Малько (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 2 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | JetBrains Mono | Philipp Nurullin, Konstantin Bulenkov | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/jetbrainsmono) |
 | Jimbi | Катя Малыгина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
@@ -497,10 +505,12 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Liter | Anton Skugarov | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/liter) |
 | Literata | Latin by Veronika Burian and Jose Scaglione. Greek by Irene Vlachou. Cyrillic by Vera Evstafieva | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/literata) |
 | Lithium | Яна Колесниченко (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Lkdown | Mariano Diez (Rostype) · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Lobster | Impallari Type | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/lobster) |
 | Logofontik 4F | 4th February | Бесплатно (условия автора) | 6 | [www.1001fonts.com](https://www.1001fonts.com/logofontik-font.html) |
 | Lombardina Initial One | Gophmann A.L | Условия уточняются | 1 | [t.me](https://t.me/fontdisk/501) |
 | London | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
+| Long Shot Cyrillic | Matty DeCesare · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Lora | Olga Karpushina, Alexei Vanyashin (Cyrillic) | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/lora) |
 | Lorenzo Sans | Intel Corp. | Apache 2.0 | 6 | [fontlibrary.org](https://fontlibrary.org/en/font/lorenzo-sans) |
 | Louver Type | Тина Байрамова (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
@@ -513,6 +523,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | machérie | Анастасия Ермолаева | Условия уточняются | 1 | [fontesk.com](https://fontesk.com/macherie-font/) |
 | Magnolia Script | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Mail Ray Stuff | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Mainframe Opto Cyrillic | Andrew Young (Disaster Fonts) · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Maler | MIR | Условия уточняются | 1 | [t.me](https://t.me/fontdisk/29) |
 | Manrope | Mikhail Sharanda | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/manrope) |
 | Marck Script | Denis Masharov, Marck Fogel | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/marckscript) |
@@ -526,6 +537,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Medeo Pixel | DNF Studio | SIL OFL 1.1 | 5 | [github.com](https://github.com/DNFDEVS/medeo-font) |
 | Medeo Sans | DNF Studio | SIL OFL 1.1 | 18 | [github.com](https://github.com/DNFDEVS/medeo-font) |
 | Medeo Serif | DNF Studio | SIL OFL 1.1 | 1 | [github.com](https://github.com/DNFDEVS/medeo-font) |
+| Meganek | Iordanis Passas · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Melt | Арина Мишуринская (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Merriweather | Eben Sorkin | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/merriweather) |
 | MESY | 2DFUNS | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/288) |
@@ -608,6 +620,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Nyasha Sans | Stepan Lyaptsev | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/58) |
 | Octahedron | Fox Novak | SIL OFL 1.1 | 1 | [github.com](https://github.com/Fox-Novak/octahedron) |
 | Oddval | Stan Partalev, Mirela Belova (Typeforward) | Бесплатно (условия автора) | 2 | [www.1001fonts.com](https://www.1001fonts.com/oddval-font.html) |
+| Odessa | Under pressure · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Oi | Kostas Bartsokas, Mohamad Dakak | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/oi) |
 | Oktyabrina script | Gophmann A.L. cyr code page | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/505) |
 | Old Horror Films | toughcrest | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/239) |
@@ -642,6 +655,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Peace Sans | TypeType Free Fonts | Бесплатно (условия автора) | 1 | [typetype.org](https://typetype.org/freefonts/) |
 | Pecita | Phillipe Cochy | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/pecita.font) |
 | Pehlevi | Андрей Маркелов | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/418) |
+| Penguin Attack Cyrillic | Dustin Norlander · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Permanent Marker Cyrillic | Font Diner; кириллица — maukur | Apache 2.0 | 1 | [github.com](https://github.com/maukur/PermanentMarkerCyrillic) |
 | Pershotravneva55 | maxshirko | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/373) |
 | Perun | StefanPeev | SIL OFL 1.1 | 7 | [github.com](https://github.com/StefanPeev/Perun) |
@@ -820,6 +834,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Splav | Игорь Купчиненко | SIL OFL 1.1 | 6 | [github.com](https://github.com/KidPudel/splav) |
 | Sprite Graffiti | FourPlus Studio | Бесплатно (условия автора) | 6 | [t.me](https://t.me/fontdisk/177) |
 | Spritulo | HaleyHalcyon | SIL OFL 1.1 | 1 | [github.com](https://github.com/HaleyHalcyon/spritulo) |
+| Sriracha Cyrillic | Cadson Demak · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | ST-Brigantina | Alexander Shimanov | Бесплатно (условия автора) | 1 | [shimanov.pro](https://shimanov.pro/st-brigantina) |
 | ST-Cherty | Alexander Shimanov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/569) |
 | ST-Nizhegorodsky | Alexander Shimanov | Бесплатно (условия автора) | 2 | [t.me](https://t.me/fontdisk/73) |
@@ -874,6 +889,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Tiny5 Mono | Stefan Schmidt | SIL OFL 1.1 | 4 | [github.com](https://github.com/Gissio/font_Tiny5Mono) |
 | Tkachenko Sketch 4F | Sergiy S. Tkachenko | Условия уточняются | 1 | [t.me](https://t.me/fontdisk/202) |
 | Tonky | Полина Залевская (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
+| Too Many Cowboys Cyrillic | bristolillustrator · кириллица Denis Ignatov (mutno.me) | Бесплатно (условия автора) | 1 | [mutno.me](https://mutno.me/fonts) |
 | Topor | Stanislav Podoba | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/405) |
 | Tovari Sans | Denns Ignatov | Бесплатно (условия автора) | 1 | [t.me](https://t.me/fontdisk/214) |
 | Trabajo | — | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/trabajo) |
