@@ -1,0 +1,2 @@
+Шрифт: Russkopis
+Скачано: 2026-11-24 с https://github.com/MihailJP/Russkopis (релиз 0.0.1)

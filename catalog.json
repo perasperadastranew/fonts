@@ -3023,6 +3023,93 @@
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
  },
  {
+  "name": "Emine",
+  "slug": "emine",
+  "author": "Стефан Пеев (на основе M+ / Coji Morishita)",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 8,
+  "faces": [
+   [
+    "Emine-Bold.ttf",
+    719,
+    719,
+    false
+   ],
+   [
+    "Emine-ExtraBold.ttf",
+    813,
+    813,
+    false
+   ],
+   [
+    "Emine-ExtraLight.ttf",
+    244,
+    244,
+    false
+   ],
+   [
+    "Emine-Light.ttf",
+    340,
+    340,
+    false
+   ],
+   [
+    "Emine-Medium.ttf",
+    530,
+    530,
+    false
+   ],
+   [
+    "Emine-Regular.ttf",
+    435,
+    435,
+    false
+   ],
+   [
+    "Emine-SemiBold.ttf",
+    624,
+    624,
+    false
+   ],
+   [
+    "Emine-Thin.ttf",
+    146,
+    146,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   146,
+   244,
+   340,
+   435,
+   530,
+   624,
+   719,
+   813
+  ],
+  "files": [
+   "Emine-Bold.ttf",
+   "Emine-ExtraBold.ttf",
+   "Emine-ExtraLight.ttf",
+   "Emine-Light.ttf",
+   "Emine-Medium.ttf",
+   "Emine-Regular.ttf",
+   "Emine-SemiBold.ttf",
+   "Emine-Thin.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/StefanPeev/Emine",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "Copyright 2026 The Emine Project Authors (https://github.com/StefanPeev/Emine)\nCopyright 2021 The M+ FONTS Project Autho"
+ },
+ {
   "name": "EuroScript",
   "slug": "euroscript",
   "author": "Peter Wiegel",
@@ -11716,6 +11803,45 @@
   "expert": null,
   "cyrillic": "ru",
   "copyright": "Copyright (c) 2025, Mixel Te"
+ },
+ {
+  "name": "Russkopis",
+  "slug": "russkopis",
+  "author": "MihailJP (на основе Symbola и CMU)",
+  "class": "Рукописный",
+  "license": "MIT / X11",
+  "styles": 2,
+  "faces": [
+   [
+    "Russkopis-Normalny.otf",
+    400,
+    400,
+    true
+   ],
+   [
+    "Russkopis-Zhirny.otf",
+    700,
+    700,
+    true
+   ]
+  ],
+  "variable": false,
+  "italic": true,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "Russkopis-Normalny.otf",
+   "Russkopis-Zhirny.otf"
+  ],
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "source": "https://github.com/MihailJP/Russkopis",
+  "expert": null,
+  "cyrillic": "ru+ua",
+  "copyright": "George Douros; 2010\nAndrey V. Panov (C) 2005\nMihailJP (c) 2011"
  },
  {
   "name": "Russo One",

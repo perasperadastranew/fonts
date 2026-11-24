@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 350 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 352 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -106,6 +106,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Divagon | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Doulos SIL | SIL Global; Walt Agee, Jon Coblentz, Sharon Correll, Lorna Evans, Victor Gaultne | SIL OFL 1.1 | 1 | [github.com](https://github.com/silnrsi/font-doulos) |
 | Droid 1997 | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Emine | Стефан Пеев (на основе M+ / Coji Morishita) | SIL OFL 1.1 | 8 | [github.com](https://github.com/StefanPeev/Emine) |
 | EuroScript | Peter Wiegel | SIL OFL 1.1 | 2 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/EuroScript.zip) |
 | Exo 2 | Natanael Gama | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/exo2) |
 | Fairfax | Made with Bits'n'Picas by Kreative Software | SIL OFL 1.1 | 14 | [github.com](https://github.com/kreativekorp/open-relay/releases/download/2026-09-21/Fairfax.zip) |
@@ -292,6 +293,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Rubik Wet Paint | Hubert and Fischer, NaN | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/rubikwetpaint) |
 | Rum Raisin | Astigmatic (AOETI); Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/rum-raisin-cyrillic.otf) |
 | Runicsly | MixelTe | SIL OFL 1.1 | 2 | [github.com](https://github.com/MixelTe/runicsly) |
+| Russkopis | MihailJP (на основе Symbola и CMU) | MIT / X11 | 2 | [github.com](https://github.com/MihailJP/Russkopis) |
 | Russo One | Jovanny Lemonad; Jovanny lemonad | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/russoone) |
 | Ruthless Sketch | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Sagewold | GGBot | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/sagewold-font) |
