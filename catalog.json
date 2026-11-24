@@ -3051,6 +3051,37 @@
   "copyright": "Copyright (c) 2004, 2005 Tristan Grimmer\nCopyright (c) 2014 Manchson\n \nPermission is hereby granted, free of charge, to "
  },
  {
+  "name": "Batang",
+  "slug": "batang",
+  "author": "HanYang I&C Co.",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Batang-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Batang-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Batang",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Batumi Sans",
   "slug": "batumi-sans",
   "author": "Koba Jgenti, Borbalo",
@@ -3667,6 +3698,84 @@
    "OFL.txt"
   ],
   "source": "https://github.com/google/fonts/tree/main/ofl/bitter",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "BIZ UDMincho",
+  "slug": "biz-udmincho",
+  "author": "Type Bank Co., Morisawa Inc.",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "BIZUDMincho-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "BIZUDMincho-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "BIZUDMincho-Bold.ttf",
+   "BIZUDMincho-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/BIZ+UDMincho",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "BIZ UDPMincho",
+  "slug": "biz-udpmincho",
+  "author": "Type Bank Co., Morisawa Inc.",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "BIZUDPMincho-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "BIZUDPMincho-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   700
+  ],
+  "files": [
+   "BIZUDPMincho-Bold.ttf",
+   "BIZUDPMincho-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/BIZ+UDPMincho",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -11129,6 +11238,101 @@
   "copyright": ""
  },
  {
+  "name": "Gothic A1",
+  "slug": "gothic-a1",
+  "author": "HanYang I&C Co",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 9,
+  "faces": [
+   [
+    "GothicA1-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "GothicA1-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "GothicA1-ExtraBold.ttf",
+    800,
+    800,
+    false
+   ],
+   [
+    "GothicA1-ExtraLight.ttf",
+    275,
+    275,
+    false
+   ],
+   [
+    "GothicA1-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "GothicA1-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "GothicA1-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "GothicA1-SemiBold.ttf",
+    600,
+    600,
+    false
+   ],
+   [
+    "GothicA1-Thin.ttf",
+    250,
+    250,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   250,
+   275,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
+  ],
+  "files": [
+   "GothicA1-Black.ttf",
+   "GothicA1-Bold.ttf",
+   "GothicA1-ExtraBold.ttf",
+   "GothicA1-ExtraLight.ttf",
+   "GothicA1-Light.ttf",
+   "GothicA1-Medium.ttf",
+   "GothicA1-Regular.ttf",
+   "GothicA1-SemiBold.ttf",
+   "GothicA1-Thin.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Gothic+A1",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
   "name": "Grach",
   "slug": "grach",
   "author": "Татьяна Андреева (Школа дизайна НИУ ВШЭ)",
@@ -11420,6 +11624,37 @@
   "cyrillic": "ru+ua",
   "copyright": "made by @CollectiveTypeworks",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
+ },
+ {
+  "name": "Gungsuh",
+  "slug": "gungsuh",
+  "author": "HanYang I&C Co.",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Gungsuh-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Gungsuh-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Gungsuh",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Gypsystyle Art",
@@ -14045,6 +14280,53 @@
    "OFL.txt"
   ],
   "source": "https://github.com/kirklin/kirk-mono",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Kiwi Maru",
+  "slug": "kiwi-maru",
+  "author": "Hiroki-Chan",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 3,
+  "faces": [
+   [
+    "KiwiMaru-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "KiwiMaru-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "KiwiMaru-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500
+  ],
+  "files": [
+   "KiwiMaru-Light.ttf",
+   "KiwiMaru-Medium.ttf",
+   "KiwiMaru-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Kiwi+Maru",
   "expert": null,
   "cyrillic": "ru",
   "copyright": ""
@@ -18293,6 +18575,44 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Nevermind",
+  "slug": "nevermind",
+  "author": "lan",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 2,
+  "faces": [
+   [
+    "Nevermind-Italic[wght].ttf",
+    100,
+    900,
+    true
+   ],
+   [
+    "Nevermind[wght].ttf",
+    100,
+    900,
+    false
+   ]
+  ],
+  "variable": true,
+  "italic": true,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Nevermind-Italic[wght].ttf",
+   "Nevermind[wght].ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Nevermind",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "NeverMind Compact",
@@ -30748,6 +31068,257 @@
   "expert": null,
   "cyrillic": "ru+ua",
   "copyright": "Released in 2024 under CC0 license. No rights reserved."
+ },
+ {
+  "name": "Zen Antique",
+  "slug": "zen-antique",
+  "author": "Yoshimichi Ohira",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "ZenAntique-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "ZenAntique-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Zen+Antique",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Zen Antique Soft",
+  "slug": "zen-antique-soft",
+  "author": "Yoshimichi Ohira",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "ZenAntiqueSoft-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "ZenAntiqueSoft-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Zen+Antique+Soft",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Zen Kaku Gothic Antique",
+  "slug": "zen-kaku-gothic-antique",
+  "author": "Yoshimichi Ohira",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "ZenKakuGothicAntique-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "ZenKakuGothicAntique-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ZenKakuGothicAntique-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "ZenKakuGothicAntique-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ZenKakuGothicAntique-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500,
+   700,
+   900
+  ],
+  "files": [
+   "ZenKakuGothicAntique-Black.ttf",
+   "ZenKakuGothicAntique-Bold.ttf",
+   "ZenKakuGothicAntique-Light.ttf",
+   "ZenKakuGothicAntique-Medium.ttf",
+   "ZenKakuGothicAntique-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Zen+Kaku+Gothic+Antique",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Zen Maru Gothic",
+  "slug": "zen-maru-gothic",
+  "author": "Yoshimichi Ohira",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "ZenMaruGothic-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "ZenMaruGothic-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ZenMaruGothic-Light.ttf",
+    300,
+    300,
+    false
+   ],
+   [
+    "ZenMaruGothic-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ZenMaruGothic-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   300,
+   400,
+   500,
+   700,
+   900
+  ],
+  "files": [
+   "ZenMaruGothic-Black.ttf",
+   "ZenMaruGothic-Bold.ttf",
+   "ZenMaruGothic-Light.ttf",
+   "ZenMaruGothic-Medium.ttf",
+   "ZenMaruGothic-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Zen+Maru+Gothic",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
+ },
+ {
+  "name": "Zen Old Mincho",
+  "slug": "zen-old-mincho",
+  "author": "Yoshimichi Ohira",
+  "class": "Антиква",
+  "license": "SIL OFL 1.1",
+  "styles": 5,
+  "faces": [
+   [
+    "ZenOldMincho-Black.ttf",
+    900,
+    900,
+    false
+   ],
+   [
+    "ZenOldMincho-Bold.ttf",
+    700,
+    700,
+    false
+   ],
+   [
+    "ZenOldMincho-Medium.ttf",
+    500,
+    500,
+    false
+   ],
+   [
+    "ZenOldMincho-Regular.ttf",
+    400,
+    400,
+    false
+   ],
+   [
+    "ZenOldMincho-SemiBold.ttf",
+    600,
+    600,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400,
+   500,
+   600,
+   700,
+   900
+  ],
+  "files": [
+   "ZenOldMincho-Black.ttf",
+   "ZenOldMincho-Bold.ttf",
+   "ZenOldMincho-Medium.ttf",
+   "ZenOldMincho-Regular.ttf",
+   "ZenOldMincho-SemiBold.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://fonts.google.com/specimen/Zen+Old+Mincho",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": ""
  },
  {
   "name": "Zero Cool",

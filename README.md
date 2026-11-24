@@ -2,7 +2,7 @@
 
 Бесплатные шрифты с полной кириллицей для студентов школы Perasperadastra: для мини-приложения «Подготовка экипажа» и сайта школы.
 
-- 718 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
+- 730 шрифтов. В каждом проверены полный русский алфавит (с Ё, Й, Ъ), «», — и №.
 - Файлы взяты у авторов: со страниц на GitHub, GitLab, itch.io и авторских сайтов. Ссылка на источник лежит в `fonts/<шрифт>/SOURCE.txt`.
 - Только открытые лицензии: SIL OFL 1.1, CC0 / Public Domain, Apache 2.0, MIT, CC BY-SA. Текст лицензии лежит в папке каждого шрифта.
 
@@ -91,6 +91,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Balsamiq Sans | Michael Angeles | SIL OFL 1.1 | 4 | [github.com](https://github.com/google/fonts/tree/main/ofl/balsamiqsans) |
 | Banana Brick | artmaker | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/font/banana-brick) |
 | Basis33 | Manchson | MIT / X11 | 1 | [www.dafont.com](https://www.dafont.com/basis33.font) |
+| Batang | HanYang I&C Co. | SIL OFL 1.1 | 1 | [fonts.google.com](https://fonts.google.com/specimen/Batang) |
 | Batumi Sans | Koba Jgenti, Borbalo | SIL OFL 1.1 | 4 | [github.com](https://github.com/Borbalo/batumi-sans) |
 | Baumans Cyrillic | Cyreal (Henadij Zarechnjuk) | SIL OFL 1.1 | 1 | [github.com](https://github.com/cyrealtype/Baumans-Cyrillic) |
 | Baymax | Илона Кузина (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
@@ -106,6 +107,8 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Bewlay BR1 | JORN.SB; JORN.SB, Denis Ignatov | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/bewlay-br1-cyrillic.otf) |
 | Bezmiar Cyrillic | Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/bezmiar-cyrillic.otf) |
 | Bitter | Sol Matas, and Bitter project Authors | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/bitter) |
+| BIZ UDMincho | Type Bank Co., Morisawa Inc. | SIL OFL 1.1 | 2 | [fonts.google.com](https://fonts.google.com/specimen/BIZ+UDMincho) |
+| BIZ UDPMincho | Type Bank Co., Morisawa Inc. | SIL OFL 1.1 | 2 | [fonts.google.com](https://fonts.google.com/specimen/BIZ+UDPMincho) |
 | Blackcraft | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Blaec | GGBotNet | CC0 / Public Domain | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Blazma | GGBotNet | SIL OFL 1.1 | 2 | [ggbot.itch.io](https://ggbot.itch.io/) |
@@ -267,6 +270,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Golos Text | A.Korolkova, Vitaly Kuzmin | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/golostext) |
 | Googee | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](https://www.peter-wiegel.de/Fonts/googee.zip) |
 | Google Sans | Google Sans Authors | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/googlesans) |
+| Gothic A1 | HanYang I&C Co | SIL OFL 1.1 | 9 | [fonts.google.com](https://fonts.google.com/specimen/Gothic+A1) |
 | Grach | Татьяна Андреева (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Gran | ungurenko | SIL OFL 1.1 | 8 | [github.com](https://github.com/ungurenko/gran-font) |
 | Great Vibes | Robert E. Leuschke, Viktoriya Grabowska, Viviana Monsalve, Eben Sorkin | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/greatvibes) |
@@ -274,6 +278,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Gridtile | GGBotNet | CC0 / Public Domain | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Gugi Cyrillic | TAE System &amp; Typefaces Co., Денис Игнатов | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/gugi-cyrillic.otf) |
 | Guidy | Матвей Малкин aka nicl4m | SIL OFL 1.1 | 1 | [github.com](https://github.com/collectivetypeworks/Guidy/releases/download/Typeface/Guidy-1.1.zip) |
+| Gungsuh | HanYang I&C Co. | SIL OFL 1.1 | 1 | [fonts.google.com](https://fonts.google.com/specimen/Gungsuh) |
 | Gypsystyle Art | Vsevolod Belikov (на основе Exo 2) | SIL OFL 1.1 | 5 | [github.com](https://github.com/gypsystyle-dev/gypsystyle-art-font) |
 | Hachi Maru Pop | Nonty | SIL OFL 1.1 | 1 | [github.com](https://github.com/google/fonts/tree/main/ofl/hachimarupop) |
 | Hack | Source Foundry; Source Foundry Authors | Bitstream Vera (свободная) | 4 | [github.com](https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip) |
@@ -325,6 +330,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Kelvinch | Paul Miller | SIL OFL 1.1 | 1 | [fontlibrary.org](https://fontlibrary.org/en/font/kelvinch) |
 | Ketwurst | Peter Wiegel | SIL OFL 1.1 | 1 | [www.peter-wiegel.de](http://www.peter-wiegel.de/Ketwurst.html) |
 | Kirk Mono | kirklin (на основе JetBrains Mono) | SIL OFL 1.1 | 24 | [github.com](https://github.com/kirklin/kirk-mono) |
+| Kiwi Maru | Hiroki-Chan | SIL OFL 1.1 | 3 | [fonts.google.com](https://fonts.google.com/specimen/Kiwi+Maru) |
 | KJV1611 | Fredrick R. Brennan | SIL OFL 1.1 | 1 | [github.com](https://github.com/ctrlcctrlv/kjv1611/releases/download/v3.6.1/KJV1611.otf) |
 | Kom-post | @guaschetti; guaschetti | SIL OFL 1.1 | 1 | [mutno.me](https://mutno.me/fonts/files/kom-post.ttf) |
 | Konduktor | triangle.cross | Условия уточняются | 1 | [myskotom.ru](https://myskotom.ru/tproduct/504619321-332248483801-konduktor) |
@@ -412,6 +418,7 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Neue Glagolitic | Лада Собченко (Школа дизайна НИУ ВШЭ) | CC BY (HSE Fonts) | 1 | [design.hse.ru](https://design.hse.ru/lab/hsefonts) |
 | Neue Soviet | Борис Журавлев | SIL OFL 1.1 | 1 | [github.com](https://github.com/zhuravlevb/neuesoviet) |
 | Neuropol | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Nevermind | lan | SIL OFL 1.1 | 2 | [fonts.google.com](https://fonts.google.com/specimen/Nevermind) |
 | NeverMind Compact | XMind; lan | SIL OFL 1.1 | 20 | [github.com](https://github.com/xmindltd/nevermind) |
 | NeverMind Slab | Xmind Designer Team | SIL OFL 1.1 | 10 | [github.com](https://github.com/xmindltd/nevermind) |
 | News Cycle | — | SIL OFL 1.1 | 2 | [github.com](https://github.com/google/fonts/tree/main/ofl/newscycle) |
@@ -708,6 +715,11 @@ https://perasperadastranew.github.io/fonts/fonts/<slug>/<file>
 | Zector | GGBotNet | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Zeitmax | GGBotNet | SIL OFL 1.1 | 4 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Zelega Zenega | Ray Larabie, Typodermic Fonts | CC0 / Public Domain | 1 | [typodermicfonts.com](https://typodermicfonts.com/public-domain/) |
+| Zen Antique | Yoshimichi Ohira | SIL OFL 1.1 | 1 | [fonts.google.com](https://fonts.google.com/specimen/Zen+Antique) |
+| Zen Antique Soft | Yoshimichi Ohira | SIL OFL 1.1 | 1 | [fonts.google.com](https://fonts.google.com/specimen/Zen+Antique+Soft) |
+| Zen Kaku Gothic Antique | Yoshimichi Ohira | SIL OFL 1.1 | 5 | [fonts.google.com](https://fonts.google.com/specimen/Zen+Kaku+Gothic+Antique) |
+| Zen Maru Gothic | Yoshimichi Ohira | SIL OFL 1.1 | 5 | [fonts.google.com](https://fonts.google.com/specimen/Zen+Maru+Gothic) |
+| Zen Old Mincho | Yoshimichi Ohira | SIL OFL 1.1 | 5 | [fonts.google.com](https://fonts.google.com/specimen/Zen+Old+Mincho) |
 | Zero Cool | GGBotNet | SIL OFL 1.1 | 1 | [ggbot.itch.io](https://ggbot.itch.io/) |
 | Znikomit | gluk | SIL OFL 1.1 | 2 | [www.dafont.com](https://www.dafont.com/znikomit.font) |
 | ZnikomitNo25 | gluk | SIL OFL 1.1 | 1 | [www.dafont.com](https://www.dafont.com/znikomitno25.font) |
