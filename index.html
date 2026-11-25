@@ -595,6 +595,7 @@ body.tg .mbtn{display:none!important}
 .fgrid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;align-items:start}
 .fdrop{display:block;border:2px dashed var(--ln);border-radius:24px;background:var(--wh,#fff);min-height:260px;cursor:pointer;overflow:hidden;position:relative}
 .fdi .fpaste{margin-top:14px;pointer-events:auto}.fdi .fkbd{font-size:12px;margin-top:8px;opacity:.7}
+.based{margin-top:8px;font-size:12px;opacity:.75}.based a{color:inherit;text-decoration:underline}
 .fdrop.over{border-color:#FF7122;background:#fff7f1}.fdrop.has{border-style:solid;cursor:crosshair;min-height:0}
 .fdi{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:260px;padding:24px;text-align:center}
 .fdi b{font-size:20px;font-weight:500}.fdi span{color:var(--mut);font-size:14px}
@@ -974,6 +975,9 @@ function edInit(root,onEdit){if(!root||root._ed)return;root._ed=1;root.addEventL
 
 // ---------- справка о семействе: история известных шрифтов (пересказ описаний авторов на Google Fonts) и паспорт по замерам
 const HIST={
+"Retni Sans":["Виталий Кузьмин", "Гротеск Виталия Кузьмина — того же автора, что и PT Root UI. По рисунку букв это очень близкая к нему версия.", "https://fontlibrary.org/font/retni-sans"],
+"Crooli Sans":["Crooli", "Переработка Geist — гротеска студии Vercel. Лицензия OFL разрешает переделывать шрифт и выпускать его под другим названием.", "https://github.com/xandertaylorx/crooli-sans"],
+"Qazaq Mono":["RZanbatyr", "Моноширинный шрифт на основе Fira Mono от Mozilla. Переделка разрешена лицензией OFL.", "https://github.com/RZanbatyr/qazaq-mono"],
 "3270":["Ricardo Bánffy", "Шрифт для тех, кто скучает по терминалам IBM 3270. Его родословная — цепочка копий: из шрифта x3270, который перевели из программы 3270tool Технологического института Джорджии, а туда он попал, когда буквы вручную срисовали с экрана настоящего терминала. Автор сделал его, потому что считал, что терминалы заслуживают красоты.", "https://github.com/rbanffy/3270font"],
 "Acari Sans":["Stefan Peev", "Ответвление от Hanken Grotesk версии 1.045 — последней, где ещё была кириллица. Назван в честь рыбы акари из Центральной и Южной Америки (её ещё называют каскудо). Начиналось с табличных цифр одинаковой ширины во всех насыщенностях, а с версии 1.070 геометрию букв перестроили на новой сетке.", "https://github.com/StefanPeev/acari-sans"],
 "Advent Pro":["VivaRado, Andreas Kalpakidis", "Современный гротеск для экрана и печати: классическая основа рубленого шрифта с более острыми, технологичными деталями. В декабре 2022 года семейство стало вариативным, получило курсивы и исправленный кернинг.", "https://github.com/google/fonts/tree/main/ofl/adventpro"],
@@ -2137,6 +2141,9 @@ function journal(){
 }
 
 // ---------- страница шрифта
+// шрифты, сделанные на основе других: лицензия (OFL, Apache) разрешает переделку под новым названием
+const BASED={'Lorenzo Sans':['Clear Sans','слегка изменённая версия'],'Retni Sans':['PT Root UI','тот же автор, близкая версия'],'Xmind':['Nevermind','тот же автор, близкая версия'],'Crooli Sans':['Geist','переработка'],'SN Pro':['Nunito','переработка'],'Qazaq Mono':['Fira Mono','переработка']};
+function basedHTML(f){const b=BASED[f[0]];if(!b)return '';const o=FONTS.find(x=>x[0]===b[0]);return `<div class="based">Основан на ${o?`<a href="#/font/${slug(o[0])}">${esc(b[0])}</a>`:esc(b[0])} · ${b[1]}</div>`}
 function licInfo(f){const l=f[10]||'SIL OFL 1.1';const L=(t,h)=>`<a href="${h}" target="_blank" rel="noopener" style="display:inline-block;margin-top:14px;font-size:13px;text-decoration:underline">${t}</a>`;
 if(l==='Условия уточняются')return{ok:false,b:'Условия уточняются',t:'Автор раздаёт шрифт бесплатно, но лицензии в файле нет, и условий мы пока не нашли. Для клиентских и коммерческих проектов уточните у автора. Если вы автор этого шрифта, напишите нам: поправим условия или уберём шрифт.',a:L('Написать в Telegram @perasperaschool','https://t.me/perasperaschool')};
 if(/условия автора/.test(l))return{ok:true,b:'Можно для клиента',t:'Автор разрешает пользоваться бесплатно, в том числе в коммерции. Открытой лицензии нет: точные условия — в файле УСЛОВИЯ.txt в архиве и на странице автора. Продавать и раздавать шрифт от своего имени нельзя.',a:f[12]&&/^http/.test(f[12])?L('Страница автора',f[12]):''};
@@ -2168,7 +2175,7 @@ function similarFor(f){const fe=FEAT[f[0]];if(fe&&fe.sim){const r=fe.sim.map(n=>
 function fontPage(f){
  F=f;const ws=weightsOf(f),vf=f[2]&&f[3]<f[4];const gl=f[7]?`${REPO}#/font/${f[7]}`:`https://fonts.google.com/specimen/${f[0].replace(/ /g,'+')}`;
  app.innerHTML=`<div class="wrap"><a class="backb" href="${BACKH||'#/'}" id="backb"><span aria-hidden="true">←</span> ${backLbl(BACKH)}</a><div class="fp">
- <aside class="side"><div class="box"><div class="n" style="font-family:${fam(f)}">${esc(f[0])}</div><small>${CAT[f[1]]} · ${f[5]} ${plural(f[5])}</small>${featHTML(f)}<div class="lic ${licInfo(f).ok?'':'lq'}">● ${licInfo(f).ok?licInfo(f).b+' · ':''}${esc(f[10]||'SIL OFL 1.1')}</div><a class="pill lt" href="${gl}" target="_blank" rel="noopener" data-dl="1">Скачать</a><button class="pill" type="button" data-tg="1" style="background:rgba(241,239,234,.14);color:var(--pap)">✈ Отправить в Telegram</button></div>
+ <aside class="side"><div class="box"><div class="n" style="font-family:${fam(f)}">${esc(f[0])}</div><small>${CAT[f[1]]} · ${f[5]} ${plural(f[5])}</small>${basedHTML(f)}${featHTML(f)}<div class="lic ${licInfo(f).ok?'':'lq'}">● ${licInfo(f).ok?licInfo(f).b+' · ':''}${esc(f[10]||'SIL OFL 1.1')}</div><a class="pill lt" href="${gl}" target="_blank" rel="noopener" data-dl="1">Скачать</a><button class="pill" type="button" data-tg="1" style="background:rgba(241,239,234,.14);color:var(--pap)">✈ Отправить в Telegram</button></div>
  <div class="sphr"><label for="sph">СВОЙ ТЕКСТ — МЕНЯЕТ ВСЮ СТРАНИЦУ</label><textarea id="sph" rows="2">${esc(PHRASE||DEF)}</textarea><div class="q">${phraseSelect("sps")}<button type="button" id="srnd" title="Сгенерировать случайную фразу">🎲 Сгенерировать</button></div></div>
  <nav class="toc" aria-label="Разделы страницы">${SECS.map(([n,t])=>`<a href="#s${n}" data-s="${n}"><span>${n}</span>${t}</a>`).join('')}</nav></aside>
  <div>
