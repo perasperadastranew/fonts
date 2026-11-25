@@ -9854,14 +9854,8 @@
   "author": "Ramiz Guseynov",
   "class": "Акцидентный",
   "license": "Условия уточняются",
-  "styles": 2,
+  "styles": 1,
   "faces": [
-   [
-    "IriskaFreeFont.ttf",
-    400,
-    400,
-    false
-   ],
    [
     "decimamonopro.ttf",
     400,
@@ -9875,7 +9869,6 @@
    400
   ],
   "files": [
-   "IriskaFreeFont.ttf",
    "decimamonopro.ttf"
   ],
   "license_files": [
@@ -22067,7 +22060,7 @@
   "author": "machine-made (на основе Plus Jakarta Sans)",
   "class": "Гротеск",
   "license": "Apache 2.0",
-  "styles": 24,
+  "styles": 14,
   "faces": [
    [
     "MachineMadeSans-Bold.otf",
@@ -22152,66 +22145,6 @@
     600,
     600,
     true
-   ],
-   [
-    "MachineMadeWarp-Bold.otf",
-    700,
-    700,
-    false
-   ],
-   [
-    "MachineMadeWarp-BoldItalic.otf",
-    700,
-    700,
-    true
-   ],
-   [
-    "MachineMadeWarp-Italic.otf",
-    400,
-    400,
-    true
-   ],
-   [
-    "MachineMadeWarp-Regular.otf",
-    400,
-    400,
-    false
-   ],
-   [
-    "MachineMadeWarpDisplay-Italic.otf",
-    400,
-    400,
-    true
-   ],
-   [
-    "MachineMadeWarpDisplay-Regular.otf",
-    400,
-    400,
-    false
-   ],
-   [
-    "MachineMadeWeft-Black.otf",
-    900,
-    900,
-    false
-   ],
-   [
-    "MachineMadeWeft-Bold.otf",
-    700,
-    700,
-    false
-   ],
-   [
-    "MachineMadeWeft-ExtraBold.otf",
-    800,
-    800,
-    false
-   ],
-   [
-    "MachineMadeWeft-ExtraLight.otf",
-    200,
-    200,
-    false
    ]
   ],
   "variable": false,
@@ -22223,8 +22156,7 @@
    500,
    600,
    700,
-   800,
-   900
+   800
   ],
   "files": [
    "MachineMadeSans-Bold.otf",
@@ -22240,17 +22172,7 @@
    "MachineMadeSans-MediumItalic.otf",
    "MachineMadeSans-Regular.otf",
    "MachineMadeSans-SemiBold.otf",
-   "MachineMadeSans-SemiBoldItalic.otf",
-   "MachineMadeWarp-Bold.otf",
-   "MachineMadeWarp-BoldItalic.otf",
-   "MachineMadeWarp-Italic.otf",
-   "MachineMadeWarp-Regular.otf",
-   "MachineMadeWarpDisplay-Italic.otf",
-   "MachineMadeWarpDisplay-Regular.otf",
-   "MachineMadeWeft-Black.otf",
-   "MachineMadeWeft-Bold.otf",
-   "MachineMadeWeft-ExtraBold.otf",
-   "MachineMadeWeft-ExtraLight.otf"
+   "MachineMadeSans-SemiBoldItalic.otf"
   ],
   "license_files": [
    "LICENSE.txt"
@@ -26043,14 +25965,8 @@
   "author": "",
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
-  "styles": 2,
+  "styles": 1,
   "faces": [
-   [
-    "NewsCycle-Bold.ttf",
-    700,
-    700,
-    false
-   ],
    [
     "NewsCycle-Regular.ttf",
     400,
@@ -26061,11 +25977,9 @@
   "variable": false,
   "italic": false,
   "weights": [
-   400,
-   700
+   400
   ],
   "files": [
-   "NewsCycle-Bold.ttf",
    "NewsCycle-Regular.ttf"
   ],
   "license_files": [
@@ -27583,7 +27497,7 @@
   "author": "Abbie Gonzalez",
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
-  "styles": 7,
+  "styles": 6,
   "faces": [
    [
     "OpenDyslexic-Bold-Italic.otf",
@@ -27616,12 +27530,6 @@
     false
    ],
    [
-    "nostalgiaelements-Regular.otf",
-    400,
-    400,
-    false
-   ],
-   [
     "opendyslexic.otf",
     800,
     800,
@@ -27640,7 +27548,6 @@
    "OpenDyslexic-BoldItalic.otf",
    "OpenDyslexic-Italic.otf",
    "OpenDyslexic-Regular.otf",
-   "nostalgiaelements-Regular.otf",
    "opendyslexic.otf"
   ],
   "license_files": [
@@ -35215,14 +35122,8 @@
   "author": "Paul D. Hunt, Teo Tuominen",
   "class": "Моно",
   "license": "SIL OFL 1.1",
-  "styles": 2,
+  "styles": 1,
   "faces": [
-   [
-    "SourceCodePro-Italic[wght].ttf",
-    200,
-    900,
-    true
-   ],
    [
     "SourceCodePro[wght].ttf",
     200,
@@ -35231,12 +35132,18 @@
    ]
   ],
   "variable": true,
-  "italic": true,
+  "italic": false,
   "weights": [
-   200
+   200,
+   300,
+   400,
+   500,
+   600,
+   700,
+   800,
+   900
   ],
   "files": [
-   "SourceCodePro-Italic[wght].ttf",
    "SourceCodePro[wght].ttf"
   ],
   "license_files": [
@@ -35594,14 +35501,8 @@
   "author": "FourPlus Studio",
   "class": "Рукописный",
   "license": "Бесплатно (условия автора)",
-  "styles": 6,
+  "styles": 4,
   "faces": [
-   [
-    "SpriteGraffiti-Extras.otf",
-    400,
-    400,
-    false
-   ],
    [
     "SpriteGraffiti-Regular.otf",
     400,
@@ -35610,12 +35511,6 @@
    ],
    [
     "SpriteGraffiti-Shadow.otf",
-    400,
-    400,
-    false
-   ],
-   [
-    "x_SpriteGraffiti-Extras.otf",
     400,
     400,
     false
@@ -35639,10 +35534,8 @@
    400
   ],
   "files": [
-   "SpriteGraffiti-Extras.otf",
    "SpriteGraffiti-Regular.otf",
    "SpriteGraffiti-Shadow.otf",
-   "x_SpriteGraffiti-Extras.otf",
    "x_SpriteGraffiti-Regular.otf",
    "x_SpriteGraffiti-Shadow.otf"
   ],
@@ -36428,16 +36321,10 @@
   "author": "Ny Indrayana",
   "class": "Рукописный",
   "license": "Бесплатно (условия автора)",
-  "styles": 2,
+  "styles": 1,
   "faces": [
    [
     "Takashimura RUS.otf",
-    400,
-    400,
-    false
-   ],
-   [
-    "TakashimuraRegular.ttf",
     400,
     400,
     false
@@ -36449,8 +36336,7 @@
    400
   ],
   "files": [
-   "Takashimura RUS.otf",
-   "TakashimuraRegular.ttf"
+   "Takashimura RUS.otf"
   ],
   "license_files": [
    "УСЛОВИЯ.txt"
@@ -40238,7 +40124,7 @@
   "author": "Dalton Maag Ltd",
   "class": "Гротеск",
   "license": "SIL OFL 1.1",
-  "styles": 12,
+  "styles": 6,
   "faces": [
    [
     "WixMadeforText-Bold.ttf",
@@ -40247,46 +40133,16 @@
     false
    ],
    [
-    "WixMadeforText-BoldItalic.ttf",
-    700,
-    700,
-    true
-   ],
-   [
     "WixMadeforText-ExtraBold.ttf",
     800,
     800,
     false
    ],
    [
-    "WixMadeforText-ExtraBoldItalic.ttf",
-    800,
-    800,
-    true
-   ],
-   [
-    "WixMadeforText-Italic.ttf",
-    400,
-    400,
-    true
-   ],
-   [
-    "WixMadeforText-Italic[wght].ttf",
-    400,
-    800,
-    true
-   ],
-   [
     "WixMadeforText-Medium.ttf",
     500,
     500,
     false
-   ],
-   [
-    "WixMadeforText-MediumItalic.ttf",
-    500,
-    500,
-    true
    ],
    [
     "WixMadeforText-Regular.ttf",
@@ -40301,12 +40157,6 @@
     false
    ],
    [
-    "WixMadeforText-SemiBoldItalic.ttf",
-    600,
-    600,
-    true
-   ],
-   [
     "WixMadeforText[wght].ttf",
     400,
     800,
@@ -40314,7 +40164,7 @@
    ]
   ],
   "variable": true,
-  "italic": true,
+  "italic": false,
   "weights": [
    400,
    500,
@@ -40324,16 +40174,10 @@
   ],
   "files": [
    "WixMadeforText-Bold.ttf",
-   "WixMadeforText-BoldItalic.ttf",
    "WixMadeforText-ExtraBold.ttf",
-   "WixMadeforText-ExtraBoldItalic.ttf",
-   "WixMadeforText-Italic.ttf",
-   "WixMadeforText-Italic[wght].ttf",
    "WixMadeforText-Medium.ttf",
-   "WixMadeforText-MediumItalic.ttf",
    "WixMadeforText-Regular.ttf",
    "WixMadeforText-SemiBold.ttf",
-   "WixMadeforText-SemiBoldItalic.ttf",
    "WixMadeforText[wght].ttf"
   ],
   "license_files": [
