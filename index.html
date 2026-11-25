@@ -1851,7 +1851,7 @@ function weightsList(f){return weightsOf(f)}
 function cardSize(f){return f[1]==='Рукописный'?44:f[1]==='Моно'?30:38}
 function fam(f){return `'${f[0]}', serif`}
 const CAPS=new Set(['Zhirok']);const STUB=new Set(['Flow Block','Flow Circular','Flow Rounded']);
-function capsCSS(){return [...CAPS].map(n=>`[style*="font-family:'${n}'"],[style*="font-family: '${n}'"]`).join(',')+'{text-transform:uppercase}'}
+function capsCSS(){return [...CAPS].map(n=>`[style*="font-family:'${n}'"],[style*="font-family: '${n}'"]`).join(',')+'{text-transform:uppercase}'+[...CAPS].map(n=>`.card .pv[style*="'${n}'"]`).join(',')+'{font-size:calc(var(--csz,40px)*.68)}'}
 document.head.insertAdjacentHTML('beforeend','<style>'+capsCSS()+'</style>');
 
 // ---------- композиция в контейнер
