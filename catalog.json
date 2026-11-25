@@ -34,7 +34,7 @@
   "name": "20 dB",
   "slug": "20-db",
   "author": "Jovanny Lemonad",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -65,7 +65,7 @@
   "name": "3270",
   "slug": "3270",
   "author": "Ricardo Bánffy",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -157,7 +157,7 @@
   "name": "5by7",
   "slug": "5by7",
   "author": "Peter Wiegel",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -197,7 +197,7 @@
   "name": "AA Lumos",
   "slug": "aa-lumos",
   "author": "Carpe Saponem",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -645,7 +645,7 @@
   "name": "Accuratist",
   "slug": "accuratist",
   "author": "Елена Шкердина, Jovanny Lemonad",
-  "class": "Гротеск, Декоративный",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -915,7 +915,7 @@
   "name": "Aero",
   "slug": "aero",
   "author": "Анастасия Врублевская (Школа дизайна НИУ ВШЭ)",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -946,7 +946,7 @@
   "name": "Afterbyte Mono",
   "slug": "afterbyte-mono",
   "author": "Krishanth",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -1134,7 +1134,7 @@
   "name": "AhmiPrint",
   "slug": "ahmiprint",
   "author": "Ahmi Darrow",
-  "class": "Акцидентный",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 5,
   "faces": [
@@ -1198,7 +1198,7 @@
   "name": "Airfool",
   "slug": "airfool",
   "author": "2DFUNS",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -1229,7 +1229,7 @@
   "name": "AKONY",
   "slug": "akony",
   "author": "Vladimir Klenov",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -2105,7 +2105,7 @@
   "name": "Ambidexter Regular",
   "slug": "ambidexter-regular",
   "author": "Егор Белозёров",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -2137,7 +2137,7 @@
   "name": "Ampero",
   "slug": "ampero",
   "author": "Niklas Johnson",
-  "class": "Акцидентный",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 8,
   "faces": [
@@ -2314,7 +2314,7 @@
   "name": "Angeme",
   "slug": "angeme",
   "author": "Нурбек Нас",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -2353,7 +2353,7 @@
   "name": "Angst",
   "slug": "angst",
   "author": "Misha Ivanov",
-  "class": "Антиква",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -2499,7 +2499,7 @@
   "name": "Anticva Regular",
   "slug": "anticva-regular",
   "author": "Константин Крастев",
-  "class": "Декоративный, Антиква",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -2858,7 +2858,7 @@
   "name": "Ardeco",
   "slug": "ardeco",
   "author": "Ирина Чукина, Jovanny Lemonad",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -3466,7 +3466,7 @@
   "name": "Arturito Slab",
   "slug": "arturito-slab",
   "author": "Cristian Tournier",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -4130,7 +4130,7 @@
   "name": "Banana Brick",
   "slug": "banana-brick",
   "author": "artmaker",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -4161,7 +4161,7 @@
   "name": "Basis33",
   "slug": "basis33",
   "author": "Manchson",
-  "class": "Декоративный",
+  "class": "Моно",
   "license": "MIT / X11",
   "styles": 1,
   "faces": [
@@ -4306,7 +4306,7 @@
   "name": "Baymax",
   "slug": "baymax",
   "author": "Илона Кузина (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -4376,7 +4376,7 @@
   "name": "Bedstead",
   "slug": "bedstead",
   "author": "Ben Harris",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC0 / Public Domain",
   "styles": 2,
   "faces": [
@@ -4477,7 +4477,7 @@
   "name": "Bellota",
   "slug": "bellota",
   "author": "Kemie Guaida",
-  "class": "Акцидентный",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 6,
   "faces": [
@@ -4545,7 +4545,7 @@
   "name": "Bellota Text",
   "slug": "bellota-text",
   "author": "Kemie Guaida",
-  "class": "Акцидентный",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 6,
   "faces": [
@@ -4856,7 +4856,7 @@
   "name": "Better VCR",
   "slug": "better-vcr",
   "author": "artdzyk",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -5192,7 +5192,7 @@
   "name": "Blackcraft",
   "slug": "blackcraft",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -5306,7 +5306,7 @@
   "name": "Blob Spongey Lowercase",
   "slug": "blob-spongey-lowercase",
   "author": "heaven castro",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -5420,7 +5420,7 @@
   "name": "Blue curve",
   "slug": "blue-curve",
   "author": "Дмитрий Антонов",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 3,
   "faces": [
@@ -5575,7 +5575,7 @@
   "name": "Bondi",
   "slug": "bondi",
   "author": "Alejo Bergmann, Denis Ignatov; Hubert & Fischer",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -5607,7 +5607,7 @@
   "name": "Bormus SP Demo",
   "slug": "bormus-sp-demo",
   "author": "Sasha Pavljenko, M. Borisova-Musatova",
-  "class": "Антиква",
+  "class": "Акцидентный",
   "license": "Условия уточняются",
   "styles": 1,
   "faces": [
@@ -6286,7 +6286,7 @@
   "name": "Bully",
   "slug": "bully",
   "author": "Айгуль Гильмутдинова, Jovanny Lemonad",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -6348,7 +6348,7 @@
   "name": "Buran USSR",
   "slug": "buran-ussr",
   "author": "Денис Щербак",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -6379,7 +6379,7 @@
   "name": "Bushbaby",
   "slug": "bushbaby",
   "author": "Иван Воронцов (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -6442,7 +6442,7 @@
   "name": "Caesium",
   "slug": "caesium",
   "author": "Alpha Argon",
-  "class": "Антиква",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 14,
   "faces": [
@@ -6664,7 +6664,7 @@
   "name": "Calypso",
   "slug": "calypso",
   "author": "Karyna Manukian",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -6695,7 +6695,7 @@
   "name": "Capitellum",
   "slug": "capitellum",
   "author": "Дмитрий Антонов",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -6736,7 +6736,7 @@
   "name": "Capture Smallz",
   "slug": "capture-smallz",
   "author": "MagiqueFonts",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -6921,7 +6921,7 @@
   "name": "Cascadia Code",
   "slug": "cascadia-code",
   "author": "Aaron Bell; Saja Typeworks",
-  "class": "Гротеск",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -6959,7 +6959,7 @@
   "name": "Cascadia Mono",
   "slug": "cascadia-mono",
   "author": "Aaron Bell; Saja Typeworks",
-  "class": "Гротеск",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -6997,7 +6997,7 @@
   "name": "Caskaydia Cove",
   "slug": "caskaydia-cove",
   "author": "Eli Heuer",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 7,
   "faces": [
@@ -7122,7 +7122,7 @@
   "name": "CAT Hohenzollern",
   "slug": "cat-hohenzollern",
   "author": "Peter Wiegel",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -7187,7 +7187,7 @@
   "name": "CAT Linz",
   "slug": "cat-linz",
   "author": "Peter Wiegel",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -7219,7 +7219,7 @@
   "name": "Catacombs",
   "slug": "catacombs",
   "author": "ToughCrest Studio",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -7545,7 +7545,7 @@
   "name": "Chava",
   "slug": "chava",
   "author": "bunin.",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -7763,7 +7763,7 @@
   "name": "Classic Console Neue",
   "slug": "classic-console-neue",
   "author": "DeeJayy",
-  "class": "Декоративный",
+  "class": "Моно",
   "license": "MIT / X11",
   "styles": 1,
   "faces": [
@@ -7879,7 +7879,7 @@
   "name": "Clickuper",
   "slug": "clickuper",
   "author": "Denis Ignatov",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8004,7 +8004,7 @@
   "name": "Code New Roman",
   "slug": "code-new-roman",
   "author": "Code New Roman; Sam Radian",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -8051,7 +8051,7 @@
   "name": "Colatemta",
   "slug": "colatemta",
   "author": "Denis Ignatov",
-  "class": "Декоративный, Брусковый",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8374,7 +8374,7 @@
   "name": "Comic CAT",
   "slug": "comic-cat",
   "author": "Vitaly Lazarenko",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -8601,7 +8601,7 @@
   "name": "Constantine",
   "slug": "constantine",
   "author": "Dukom Design",
-  "class": "Декоративный, Антиква",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -8914,7 +8914,7 @@
   "name": "Correction Brush",
   "slug": "correction-brush",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -8952,7 +8952,7 @@
   "name": "Correction Tape",
   "slug": "correction-tape",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -9341,7 +9341,7 @@
   "name": "Crosterian",
   "slug": "crosterian",
   "author": "Denis Ignatov",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -9613,7 +9613,7 @@
   "name": "Data Twenty Cyrillic",
   "slug": "data-twenty-cyrillic",
   "author": "кириллица — Денис Игнатов",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -9644,7 +9644,7 @@
   "name": "DatCub",
   "slug": "datcub",
   "author": "GGBot",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -9691,7 +9691,7 @@
   "name": "DatDot",
   "slug": "datdot",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 6,
   "faces": [
@@ -9852,7 +9852,7 @@
   "name": "DecimaMonoPro",
   "slug": "decimamonopro",
   "author": "Ramiz Guseynov",
-  "class": "Акцидентный",
+  "class": "Моно",
   "license": "Условия уточняются",
   "styles": 1,
   "faces": [
@@ -9883,7 +9883,7 @@
   "name": "Defectica",
   "slug": "defectica",
   "author": "Алина Молчанова (Школа дизайна НИУ ВШЭ)",
-  "class": "Гротеск, Декоративный",
+  "class": "Гротеск",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -10067,7 +10067,7 @@
   "name": "Departure Mono",
   "slug": "departure-mono",
   "author": "Helena Zhang",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "MIT / X11",
   "styles": 3,
   "faces": [
@@ -10256,7 +10256,7 @@
   "name": "DINDOT",
   "slug": "dindot",
   "author": "Bert Driehuis, Rick Radewagen",
-  "class": "Акцидентный",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 8,
   "faces": [
@@ -10339,7 +10339,7 @@
   "name": "Disket Mono",
   "slug": "disket-mono",
   "author": "Mariano Diez (Rostype) · кириллица Denis Ignatov (mutno.me)",
-  "class": "Декоративный, Гротеск, Моноширинный",
+  "class": "Моно",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -10409,7 +10409,7 @@
   "name": "Divagon",
   "slug": "divagon",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -10447,7 +10447,7 @@
   "name": "DotGothic16",
   "slug": "dotgothic16",
   "author": "Fontworks",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -10687,7 +10687,7 @@
   "name": "Dudka",
   "slug": "dudka",
   "author": "Дмитрий Антонов",
-  "class": "Гротеск, Декоративный",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 6,
   "faces": [
@@ -10889,7 +10889,7 @@
   "name": "Ekran",
   "slug": "ekran",
   "author": "Nebojsa (Bane) Gelevski",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -10951,7 +10951,7 @@
   "name": "Eleventh Square",
   "slug": "eleventh-square",
   "author": "TypeType Free Fonts",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -11265,7 +11265,7 @@
   "name": "Fabergé",
   "slug": "faberg",
   "author": "Василий Шишкин, Владимир Аносов",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 4,
   "faces": [
@@ -11317,7 +11317,7 @@
   "name": "Fairfax",
   "slug": "fairfax",
   "author": "Made with Bits'n'Picas by Kreative Software",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 14,
   "faces": [
@@ -11440,7 +11440,7 @@
   "name": "Fairwall Sans",
   "slug": "fairwall-sans",
   "author": "Pavel Bruev",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -11471,7 +11471,7 @@
   "name": "Fantasque Sans Mono",
   "slug": "fantasque-sans-mono",
   "author": "Джани Беллуз",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -11524,7 +11524,7 @@
   "name": "Farabee Straight",
   "slug": "farabee-straight",
   "author": "Dimitri Antonov",
-  "class": "Акцидентный",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 14,
   "faces": [
@@ -11716,7 +11716,7 @@
   "name": "Feature Mono",
   "slug": "feature-mono",
   "author": "Анастасия Врублевская (Школа дизайна НИУ ВШЭ)",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC BY (HSE Fonts)",
   "styles": 6,
   "faces": [
@@ -11787,7 +11787,7 @@
   "name": "Felidae",
   "slug": "felidae",
   "author": "Дарья Казакова (Школа дизайна НИУ ВШЭ)",
-  "class": "Антиква, Декоративный",
+  "class": "Антиква",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -11912,7 +11912,7 @@
   "name": "Fette Bauersche Antiqua",
   "slug": "fette-bauersche-antiqua",
   "author": "Peter Wiegel",
-  "class": "Антиква, Декоративный",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -12957,7 +12957,7 @@
   "name": "Firenight",
   "slug": "firenight",
   "author": "Alexey Pushkov",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Условия уточняются",
   "styles": 1,
   "faces": [
@@ -12988,7 +12988,7 @@
   "name": "First Time Writing",
   "slug": "first-time-writing",
   "author": "GGBotNet",
-  "class": "Рукописный, Декоративный",
+  "class": "Рукописный",
   "license": "CC0 / Public Domain",
   "styles": 4,
   "faces": [
@@ -13040,7 +13040,7 @@
   "name": "Flexi IBM VGA False",
   "slug": "flexi-ibm-vga-false",
   "author": "VileR",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC BY-SA",
   "styles": 1,
   "faces": [
@@ -13072,7 +13072,7 @@
   "name": "Flexi IBM VGA True",
   "slug": "flexi-ibm-vga-true",
   "author": "VileR",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC BY-SA",
   "styles": 1,
   "faces": [
@@ -13306,7 +13306,7 @@
   "name": "Foo",
   "slug": "foo",
   "author": "Ray Larabie",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -13369,7 +13369,7 @@
   "name": "Fowviel",
   "slug": "fowviel",
   "author": "Дмитро Барсуков",
-  "class": "Декоративный, Антиква",
+  "class": "Антиква",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -13400,7 +13400,7 @@
   "name": "Freeride",
   "slug": "freeride",
   "author": "Nina Kulakova & Jovanny Lemonad",
-  "class": "Антиква, Декоративный",
+  "class": "Антиква",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -13515,7 +13515,7 @@
   "name": "Funever Sans Display",
   "slug": "funever-sans-display",
   "author": "AlloyDome",
-  "class": "Декоративный",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 9,
   "faces": [
@@ -13641,7 +13641,7 @@
   "name": "Furore",
   "slug": "furore",
   "author": "Ivan Gladkikh",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -13704,7 +13704,7 @@
   "name": "G8",
   "slug": "g8",
   "author": "Василий Шишкин",
-  "class": "Декоративный",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 3,
   "faces": [
@@ -13812,7 +13812,7 @@
   "name": "Gagalin",
   "slug": "gagalin",
   "author": "Iordanis Passas",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Условия уточняются",
   "styles": 1,
   "faces": [
@@ -13875,7 +13875,7 @@
   "name": "Galiver Sans",
   "slug": "galiver-sans",
   "author": "",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -14431,7 +14431,7 @@
   "name": "Gerhaus",
   "slug": "gerhaus",
   "author": "GGBotNet",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -14483,7 +14483,7 @@
   "name": "Gewtymol",
   "slug": "gewtymol",
   "author": "Bryndan Meyerholt",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -14866,7 +14866,7 @@
   "name": "Giraffe",
   "slug": "giraffe",
   "author": "Юлия Чернова",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -15037,7 +15037,7 @@
   "name": "Go Mono",
   "slug": "go-mono",
   "author": "Bigelow & Holmes",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "BSD 3-Clause",
   "styles": 2,
   "faces": [
@@ -15687,7 +15687,7 @@
   "name": "Greybeard",
   "slug": "greybeard",
   "author": "Andy Walker",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "MIT / X11",
   "styles": 4,
   "faces": [
@@ -15771,7 +15771,7 @@
   "name": "Gropled",
   "slug": "gropled",
   "author": "Daniyar Shape",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -16055,7 +16055,7 @@
   "name": "Hack",
   "slug": "hack",
   "author": "Source Foundry; Source Foundry Authors",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "Bitstream Vera (свободная)",
   "styles": 4,
   "faces": [
@@ -16108,7 +16108,7 @@
   "name": "Halo Grotesk",
   "slug": "halo-grotesk",
   "author": "Roman Bobkov",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -16565,7 +16565,7 @@
   "name": "Home Video",
   "slug": "home-video",
   "author": "GGBot",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC0 / Public Domain",
   "styles": 2,
   "faces": [
@@ -16604,7 +16604,7 @@
   "name": "Hooskai Chamfered Square",
   "slug": "hooskai-chamfered-square",
   "author": "胡斯凯",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -16668,7 +16668,7 @@
   "name": "Horta",
   "slug": "horta",
   "author": "Tim Larson",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -16731,7 +16731,7 @@
   "name": "Hussar Szturm",
   "slug": "hussar-szturm",
   "author": "Robert Jablonski",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -16770,7 +16770,7 @@
   "name": "iA Writer",
   "slug": "ia-writer",
   "author": "iA (на основе IBM Plex)",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 12,
   "faces": [
@@ -17952,7 +17952,7 @@
   "name": "Isar CAT",
   "slug": "isar-cat",
   "author": "Peter Wiegel",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -18040,7 +18040,7 @@
   "name": "Ithaca",
   "slug": "ithaca",
   "author": "GGBot",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -18164,7 +18164,7 @@
   "name": "Jazzy",
   "slug": "jazzy",
   "author": "Виктория Малько (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 2,
   "faces": [
@@ -18244,7 +18244,7 @@
   "name": "Jimbi",
   "slug": "jimbi",
   "author": "Катя Малыгина (Школа дизайна НИУ ВШЭ)",
-  "class": "Антиква, Декоративный",
+  "class": "Антиква",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -18726,7 +18726,7 @@
   "name": "Kanalisirung",
   "slug": "kanalisirung",
   "author": "Peter Wiegel",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -19041,7 +19041,7 @@
   "name": "Ketwurst",
   "slug": "ketwurst",
   "author": "Peter Wiegel",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -19074,7 +19074,7 @@
   "name": "Kintsugi_LVRG",
   "slug": "kintsugi-lvrg",
   "author": "Rafael Leverage",
-  "class": "Антиква",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -19136,7 +19136,7 @@
   "name": "Kirk Mono",
   "slug": "kirk-mono",
   "author": "kirklin (на основе JetBrains Mono)",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 24,
   "faces": [
@@ -19415,7 +19415,7 @@
   "name": "KJV1611",
   "slug": "kjv1611",
   "author": "Fredrick R. Brennan",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -19478,7 +19478,7 @@
   "name": "Kom-post",
   "slug": "kom-post",
   "author": "@guaschetti; guaschetti",
-  "class": "Декоративный, Рукописный",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -19867,7 +19867,7 @@
   "name": "Kurland",
   "slug": "kurland",
   "author": "GGBotNet",
-  "class": "Рукописный, Декоративный",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -19981,7 +19981,7 @@
   "name": "Labor Union",
   "slug": "labor-union",
   "author": "Tom McAuliffe",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -20315,7 +20315,7 @@
   "name": "LCD 14",
   "slug": "lcd-14",
   "author": "Fredrick Brennan",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -20401,7 +20401,7 @@
   "name": "Legend",
   "slug": "legend",
   "author": "Polina Loseva",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -20594,7 +20594,7 @@
   "name": "Leonov SP",
   "slug": "leonov-sp",
   "author": "Саша Павленко",
-  "class": "Декоративный, Рукописный",
+  "class": "Рукописный",
   "license": "Условия уточняются",
   "styles": 1,
   "faces": [
@@ -20626,7 +20626,7 @@
   "name": "Leporid",
   "slug": "leporid",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -21068,7 +21068,7 @@
   "name": "Lighthaus",
   "slug": "lighthaus",
   "author": "Jerak Durzan",
-  "class": "Антиква",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -21306,7 +21306,7 @@
   "name": "Lithium",
   "slug": "lithium",
   "author": "Яна Колесниченко (Школа дизайна НИУ ВШЭ)",
-  "class": "Антиква, Декоративный",
+  "class": "Антиква",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -21337,7 +21337,7 @@
   "name": "Lkdown",
   "slug": "lkdown",
   "author": "Mariano Diez (Rostype) · кириллица Denis Ignatov (mutno.me)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -21530,7 +21530,7 @@
   "name": "Long Shot Cyrillic",
   "slug": "long-shot-cyrillic",
   "author": "Matty DeCesare · кириллица Denis Ignatov (mutno.me)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -21860,7 +21860,7 @@
   "name": "Luculent",
   "slug": "luculent",
   "author": "Andrew Kensler",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -21914,7 +21914,7 @@
   "name": "Lumberjack",
   "slug": "lumberjack",
   "author": "TypeType Free Fonts",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -22469,7 +22469,7 @@
   "name": "Mathison",
   "slug": "mathison",
   "author": "Gabriela Bury",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 4,
   "faces": [
@@ -22623,7 +22623,7 @@
   "name": "Medeo Mono",
   "slug": "medeo-mono",
   "author": "DNF Studio",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 18,
   "faces": [
@@ -23191,7 +23191,7 @@
   "name": "Metal Lord",
   "slug": "metal-lord",
   "author": "Ray Larabie",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -23378,7 +23378,7 @@
   "name": "Miracode",
   "slug": "miracode",
   "author": "Idrees Hassan",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -23409,7 +23409,7 @@
   "name": "Miratrix",
   "slug": "miratrix",
   "author": "Andy Karter",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -23503,7 +23503,7 @@
   "name": "Mister Brush",
   "slug": "mister-brush",
   "author": "GGBotNet",
-  "class": "Рукописный, Декоративный",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -23634,7 +23634,7 @@
   "name": "Molot",
   "slug": "molot",
   "author": "Ivan Gladkikh",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -24331,7 +24331,7 @@
   "name": "Moniqa",
   "slug": "moniqa",
   "author": "Rajesh Rajput",
-  "class": "Антиква",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -24362,7 +24362,7 @@
   "name": "Monly",
   "slug": "monly",
   "author": "Gatis Vilaks (WildOnes)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 4,
   "faces": [
@@ -24446,7 +24446,7 @@
   "name": "Monocraft",
   "slug": "monocraft",
   "author": "Idrees Hassan",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 12,
   "faces": [
@@ -24558,7 +24558,7 @@
   "name": "Monoid 2.0",
   "slug": "monoid-2-0",
   "author": "Andreas Larsen",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 3,
   "faces": [
@@ -24636,7 +24636,7 @@
   "name": "mononoki",
   "slug": "mononoki",
   "author": "Matthias Tellen",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -24885,7 +24885,7 @@
   "name": "Montserrat Underline",
   "slug": "montserrat-underline",
   "author": "Julieta Ulanovsky",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -24923,7 +24923,7 @@
   "name": "Morana",
   "slug": "morana",
   "author": "Vesko Radic",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -25291,7 +25291,7 @@
   "name": "Natural Mono",
   "slug": "natural-mono",
   "author": "Vasily Draigo",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -25391,7 +25391,7 @@
   "name": "Neocyr",
   "slug": "neocyr",
   "author": "Viktar Palstsiuk <vipals@gmail.com>",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -25486,7 +25486,7 @@
   "name": "Neue Glagolitic",
   "slug": "neue-glagolitic",
   "author": "Лада Собченко (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -26096,7 +26096,7 @@
   "name": "Nini Mono",
   "slug": "nini-mono",
   "author": "Niniglyphs; Sayantan Roy",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 10,
   "faces": [
@@ -26430,7 +26430,7 @@
   "name": "Nooga Mono",
   "slug": "nooga-mono",
   "author": "Marcin Gasperowicz",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -26598,7 +26598,7 @@
   "name": "Noto Sans Mono",
   "slug": "noto-sans-mono",
   "author": "Monotype Design Team",
-  "class": "Гротеск",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -26711,7 +26711,7 @@
   "name": "Novelist",
   "slug": "novelist",
   "author": "Алена Крачковская (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -26742,7 +26742,7 @@
   "name": "Novem",
   "slug": "novem",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 2,
   "faces": [
@@ -27103,7 +27103,7 @@
   "name": "Odessa",
   "slug": "odessa",
   "author": "Under pressure · кириллица Denis Ignatov (mutno.me)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -27199,7 +27199,7 @@
   "name": "Old Horror Films",
   "slug": "old-horror-films",
   "author": "toughcrest",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -27310,7 +27310,7 @@
   "name": "Oldtimer",
   "slug": "oldtimer",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -27562,7 +27562,7 @@
   "name": "Operation Napalm",
   "slug": "operation-napalm",
   "author": "GGBot",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC0 / Public Domain",
   "styles": 2,
   "faces": [
@@ -27600,7 +27600,7 @@
   "name": "Opsilon",
   "slug": "opsilon",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -28155,7 +28155,7 @@
   "name": "Paperfiller",
   "slug": "paperfiller",
   "author": "Denis Ignatov; Pablo Cosgaya & Dani Raskovsky",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -28332,7 +28332,7 @@
   "name": "Pattaya",
   "slug": "pattaya",
   "author": "Pablo Impallari / Thai characters Designed by Thanarat Vachiruckul and Suppakit Chalermlarp",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -28629,7 +28629,7 @@
   "name": "Peter Ivanowitsch",
   "slug": "peter-ivanowitsch",
   "author": "Peter Wiegel",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -29079,7 +29079,7 @@
   "name": "Pitagon Sans Mono",
   "slug": "pitagon-sans-mono",
   "author": "Travis Tran",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 16,
   "faces": [
@@ -29222,7 +29222,7 @@
   "name": "Piter Sans",
   "slug": "piter-sans",
   "author": "Danil Filchenkov",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -29465,7 +29465,7 @@
   "name": "Pixeloid Sans",
   "slug": "pixeloid-sans",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 6,
   "faces": [
@@ -29784,7 +29784,7 @@
   "name": "Plup",
   "slug": "plup",
   "author": "Ксения Хохрякова (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -29950,7 +29950,7 @@
   "name": "Politburo",
   "slug": "politburo",
   "author": "Sergey Shishin",
-  "class": "Декоративный, Брусковый",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -29981,7 +29981,7 @@
   "name": "Polonium",
   "slug": "polonium",
   "author": "Alexey Atapin",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -30208,7 +30208,7 @@
   "name": "Postertoaster",
   "slug": "postertoaster",
   "author": "Vsevolod Abramov",
-  "class": "Декоративный, Моноширинный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -30823,7 +30823,7 @@
   "name": "Public Pixel",
   "slug": "public-pixel",
   "author": "GGBotNet",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -30885,7 +30885,7 @@
   "name": "Pulstar",
   "slug": "pulstar",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -31062,7 +31062,7 @@
   "name": "Qazaq Mono",
   "slug": "qazaq-mono",
   "author": "RZanbatyr (на основе Fira Mono)",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -31132,7 +31132,7 @@
   "name": "QuinqueFive",
   "slug": "quinquefive",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -31752,7 +31752,7 @@
   "name": "Renaissance",
   "slug": "renaissance",
   "author": "Василий Шишкин",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -31929,7 +31929,7 @@
   "name": "Retron2000",
   "slug": "retron2000",
   "author": "Vasily Draigo (Daymarius)",
-  "class": "Моно",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -31991,7 +31991,7 @@
   "name": "Rimma_sans",
   "slug": "rimma-sans",
   "author": "Lesha Pushkarev",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -32022,7 +32022,7 @@
   "name": "Risha Neo",
   "slug": "risha-neo",
   "author": "Isami Risha",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -32298,7 +32298,7 @@
   "name": "Robtronika",
   "slug": "robtronika",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -33096,7 +33096,7 @@
   "name": "Rubik Mono One",
   "slug": "rubik-mono-one",
   "author": "Hubert and Fischer with Elvire Volk Leonovitch; Hubert and Fischer with Elvire V",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -33641,7 +33641,7 @@
   "name": "Ruthless Sketch",
   "slug": "ruthless-sketch",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -33731,7 +33731,7 @@
   "name": "SAGRADA",
   "slug": "sagrada",
   "author": "Kate Kvebliani",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -34108,7 +34108,7 @@
   "name": "Scumbria",
   "slug": "scumbria",
   "author": "Василий Шишкин",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 2,
   "faces": [
@@ -34254,7 +34254,7 @@
   "name": "Sexsmith",
   "slug": "sexsmith",
   "author": "Ray Larabie",
-  "class": "Антиква, Декоративный",
+  "class": "Антиква",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -34444,7 +34444,7 @@
   "name": "Shihan",
   "slug": "shihan",
   "author": "Sergei Godovalov",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -34583,7 +34583,7 @@
   "name": "Shoebox",
   "slug": "shoebox",
   "author": "Екатерина Вахрушева (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -34614,7 +34614,7 @@
   "name": "Singfried",
   "slug": "singfried",
   "author": "Полина Гайнуллина (Школа дизайна НИУ ВШЭ)",
-  "class": "Декоративный, Антиква",
+  "class": "Антиква",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -34807,7 +34807,7 @@
   "name": "Snowstorm",
   "slug": "snowstorm",
   "author": "Denis Sherbak",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 6,
   "faces": [
@@ -35904,7 +35904,7 @@
   "name": "Stig",
   "slug": "stig",
   "author": "TypeType Free Fonts",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -36193,7 +36193,7 @@
   "name": "Swanston",
   "slug": "swanston",
   "author": "Liam Whitelaw",
-  "class": "Декоративный, Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -36233,7 +36233,7 @@
   "name": "Synthax",
   "slug": "synthax",
   "author": "sevavar",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -36818,7 +36818,7 @@
   "name": "Terminalia",
   "slug": "terminalia",
   "author": "Стефан Пеев",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -37324,7 +37324,7 @@
   "name": "Tihana",
   "slug": "tihana",
   "author": "Vesko Radić",
-  "class": "Декоративный, Рукописный",
+  "class": "Рукописный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -37752,7 +37752,7 @@
   "name": "Topor",
   "slug": "topor",
   "author": "Stanislav Podoba",
-  "class": "Антиква",
+  "class": "Рукописный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -37917,8 +37917,8 @@
  {
   "name": "Triod Postnaja",
   "slug": "triod-postnaja",
-  "author": "Aleksandr Andreev (Ponomar Project)",
-  "class": "Декоративный",
+  "author": "Daniel Johnson",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -37978,42 +37978,10 @@
   "copyright": ""
  },
  {
-  "name": "TriodPostnaja",
-  "slug": "triodpostnaja",
-  "author": "Daniel Johnson",
-  "class": "Декоративный",
-  "license": "SIL OFL 1.1",
-  "styles": 1,
-  "faces": [
-   [
-    "TriodPostnaja.ttf",
-    500,
-    500,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   500
-  ],
-  "files": [
-   "TriodPostnaja.ttf"
-  ],
-  "license_files": [
-   "FONTLOG.txt",
-   "LICENSE.txt"
-  ],
-  "source": "https://fontlibrary.org/ru/font/triod-postnaja",
-  "expert": null,
-  "cyrillic": "ru+ua",
-  "copyright": "Copyright (c) 2010, 2011, 2013 by Daniel Johnson. Licensed under the terms of the SIL Open Font License."
- },
- {
   "name": "Tristan",
   "slug": "tristan",
   "author": "Василий Шишкин",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -38253,7 +38221,7 @@
   "name": "TT2020 Base",
   "slug": "tt2020-base",
   "author": "Fredrick Brennan",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -38291,7 +38259,7 @@
   "name": "TT2020 Style B",
   "slug": "tt2020-style-b",
   "author": "Fredrick Brennan",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -38329,7 +38297,7 @@
   "name": "TT2020 Style E",
   "slug": "tt2020-style-e",
   "author": "Fredrick Brennan",
-  "class": "Декоративный, Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -38858,7 +38826,7 @@
   "name": "UnlimitedPie",
   "slug": "unlimitedpie",
   "author": "Екатерина Бакирова Предаем автору приветы от «секси-шрифт» )",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -39365,7 +39333,7 @@
   "name": "Vertiger",
   "slug": "vertiger",
   "author": "Ilya Designgsta",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -39534,7 +39502,7 @@
   "name": "Vis-A-Vis",
   "slug": "vis-a-vis",
   "author": "Peter Wiegel",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -39913,7 +39881,7 @@
   "name": "Wes",
   "slug": "wes",
   "author": "Yelena Madyankina & Jovanny Lemonad",
-  "class": "Антиква, Декоративный",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -39975,7 +39943,7 @@
   "name": "Westhorn",
   "slug": "westhorn",
   "author": "GGBotNet",
-  "class": "Брусковый, Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -40192,7 +40160,7 @@
   "name": "Wolgadeutsche",
   "slug": "wolgadeutsche",
   "author": "Sergey Shishin",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -40263,7 +40231,7 @@
   "name": "Wumpus Mono",
   "slug": "wumpus-mono",
   "author": "T. E. Vaughan",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -40339,7 +40307,7 @@
   "name": "X Typewriter",
   "slug": "x-typewriter",
   "author": "GGBot",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -40378,7 +40346,7 @@
   "name": "Xanmono",
   "slug": "xanmono",
   "author": "GGBotNet",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -40447,7 +40415,7 @@
   "name": "XITS",
   "slug": "xits",
   "author": "MicroPress Inc., with final additions and corrections provided by Coen Hoffman, ",
-  "class": "Акцидентный",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -40538,7 +40506,7 @@
   "name": "Xolonium",
   "slug": "xolonium",
   "author": "Severin Meyer",
-  "class": "Декоративный, Гротеск",
+  "class": "Гротеск",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -40609,7 +40577,7 @@
   "name": "Y224",
   "slug": "y224",
   "author": "GGBot",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "CC0 / Public Domain",
   "styles": 1,
   "faces": [
@@ -40742,7 +40710,7 @@
   "name": "Yarin",
   "slug": "yarin",
   "author": "Mario Pandeliev",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "Условия уточняются",
   "styles": 1,
   "faces": [
@@ -40804,7 +40772,7 @@
   "name": "Yazo",
   "slug": "yazo",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 2,
   "faces": [
@@ -41189,7 +41157,7 @@
   "name": "Zantroke",
   "slug": "zantroke",
   "author": "gluk",
-  "class": "Антиква, Брусковый, Декоративный",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -41409,7 +41377,7 @@
   "name": "Zector",
   "slug": "zector",
   "author": "GGBotNet",
-  "class": "Моноширинный",
+  "class": "Моно",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -41440,7 +41408,7 @@
   "name": "Zeitmax",
   "slug": "zeitmax",
   "author": "GGBotNet",
-  "class": "Декоративный",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -41875,7 +41843,7 @@
   "name": "ZnikomitNo25",
   "slug": "znikomitno25",
   "author": "gluk",
-  "class": "Декоративный, Антиква",
+  "class": "Антиква",
   "license": "SIL OFL 1.1",
   "styles": 1,
   "faces": [
@@ -42222,7 +42190,7 @@
   "name": "Греча (Grecha)",
   "slug": "grecha",
   "author": "Валерий Черевков (Школа дизайна НИУ ВШЭ)",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "CC BY (HSE Fonts)",
   "styles": 1,
   "faces": [
@@ -42720,7 +42688,7 @@
   "name": "Меланхолия (TD Melancholiya)",
   "slug": "td-melancholiya",
   "author": "Дмитрий Тектов",
-  "class": "Рукописный",
+  "class": "Акцидентный",
   "license": "Бесплатно (условия автора)",
   "styles": 1,
   "faces": [
@@ -43061,7 +43029,7 @@
   "name": "Сёнэн (Shonen)",
   "slug": "shonen",
   "author": "Намик Мардахаев aka Намикус",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "SIL OFL 1.1",
   "styles": 4,
   "faces": [
@@ -43207,7 +43175,7 @@
   "name": "Хлебозавод (Hlebozavod)",
   "slug": "hlebozavod",
   "author": "Карина Зиновец",
-  "class": "Гротеск",
+  "class": "Акцидентный",
   "license": "Условия уточняются",
   "styles": 1,
   "faces": [
