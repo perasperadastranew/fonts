@@ -12,7 +12,7 @@
 Замеры шрифтов кешируются в tools/measure_cache.json: пересчитываются только новые
 и изменённые шрифты, поэтому повторный запуск занимает секунды.
 """
-import json, re, os, sys, math, hashlib, statistics as st, tempfile
+import subprocess, json, re, os, sys, math, hashlib, statistics as st, tempfile
 from fontTools.ttLib import TTFont
 from fontTools.pens.recordingPen import RecordingPen
 
@@ -239,6 +239,20 @@ def main():
     for h, ns in zh.items():
         if len(ns) > 1:
             W('clone:' + '+'.join(sorted(ns)), f'Одинаковые буквы у шрифтов: {", ".join(ns)} — дубль или клон')
+    # архивы в ветке files: у каждого шрифта должен быть <slug>.zip (и ни один не должен пропасть)
+    try:
+        subprocess.run(['git', 'fetch', '-q', '--depth', '1', '--filter=blob:none', 'origin', 'files'],
+                       check=True, capture_output=True, timeout=120)
+        tree = subprocess.run(['git', 'ls-tree', '--name-only', 'FETCH_HEAD'], check=True,
+                              capture_output=True, text=True).stdout.split()
+        zips = {x for x in tree if x.endswith('.zip')}
+        miss = [f[0] for f in fonts if f[7] and f[7] + '.zip' not in zips]
+        if len(zips) < len(fonts) * 0.9:
+            E('files-wiped', f'в ветке files всего {len(zips)} архивов на {len(fonts)} шрифтов — архивы пропали, верни прошлый коммит files')
+        elif miss:
+            E('files-missing', f'нет архива в ветке files у {len(miss)} шрифтов, например «{miss[0]}» — залей через tools/upload_zip.py')
+    except Exception as e:
+        print(f'⚠️  Ветку files проверить не удалось ({type(e).__name__}) — нет сети или git')
     for k, mem in sets.items():
         for n in mem:
             if n not in names:

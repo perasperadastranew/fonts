@@ -1371,8 +1371,10 @@ function ruleOk(tpl,len){const r=RULES[tpl];if(!r)return true;return !(r.max&&le
 let VIEW=(()=>{try{return localStorage.getItem('pada_view')||'phrase'}catch(e){return 'phrase'}})();
 const VIEWS=[['phrase','Фраза'],['glyph','Буква'],['alpha','Алфавит'],['ladder','Начертания'],['hard','Трудные'],['passport','Паспорт'],['poster','Плакат'],['list','Список']];
 // в подборке «В духе Druk» показываем самое жирное начертание, а у шрифтов с осью ширины — крайнюю ширину
+// у Roboto Flex самая узкая форма — только на крупном оптическом размере
+const DRUKX={'Roboto Flex':", 'opsz' 144"};
 const DRUKW={'Roboto Flex':25,'Science Gothic':200,'TikTok Sans':150,'Nunito Sans':125,'Noto Sans Display':62.5};
-function setStyle(f){if(SET!=='druk')return `font-weight:${baseW(f)}`;const vf=f[2]&&f[3]<f[4];const w=vf?f[4]:Math.max(...f[8].filter(x=>!x[3]).map(x=>x[2]));const d=DRUKW[f[0]];return `font-weight:${w}`+(vf?`;font-variation-settings:'wght' ${w}${d?`, 'wdth' ${d}`:''}`:'')}
+function setStyle(f){if(SET!=='druk')return `font-weight:${baseW(f)}`;const vf=f[2]&&f[3]<f[4];const w=vf?f[4]:Math.max(...f[8].filter(x=>!x[3]).map(x=>x[2]));const d=DRUKW[f[0]];return `font-weight:${w}`+(vf?`;font-variation-settings:'wght' ${w}${d?`, 'wdth' ${d}`:''}${DRUKX[f[0]]||''}`:'')}
 function cardHTML(f){const bb=BAYS.find(b=>b.k===f[1])||BAYS[0];const vf=f[2]&&f[3]<f[4];const P=esc(nb3(PHRASE||DEF));const no=String(FONTS.indexOf(f)+1).padStart(3,'0');
  const meta=`<div class="cmeta"><span>№ ${no} · ${f[1].toUpperCase()}</span><span>${f[5]} НАЧ.${vf?' · VF':''}${f[6]?' · ITAL':''}</span></div>`;
  const cg=`<div class="cg" aria-hidden="true" style="font-family:${fam(f)};font-weight:${heavyW(f)}">${bb.g[0]}</div>`;
@@ -1614,9 +1616,9 @@ function tourStart(){if(TEL)return;if(!(location.hash===''||location.hash==='#/'
  TEL.addEventListener('click',e=>{if(e.target===TEL||e.target.classList.contains('tdm'))tourGo(1)});document.body.appendChild(TEL);document.documentElement.classList.add('touring');document.addEventListener('keydown',tourKey);addEventListener('resize',tourReq);addEventListener('scroll',tourReq,{passive:true});TI=0;tourShow()}
 function tourInit(){const hr=document.querySelector('.hd .hr');if(hr&&!document.getElementById('tourBtn')){const b=document.createElement('button');b.type='button';b.id='tourBtn';b.className='icon';b.title='Как пользоваться';b.setAttribute('aria-label','Как пользоваться');b.textContent='?';b.onclick=tourStart;hr.insertBefore(b,hr.firstChild)}
  let seen=null;try{seen=localStorage.getItem('pada_tour')}catch(e){}
- if(!seen)setTimeout(tourAsk,2500)}
+ if(!seen&&window.self===window.top)setTimeout(tourAsk,2500)}
 // по желанию: маленькое уведомление в углу, сам тур — только по кнопке
-function tourAsk(){if(TEL||document.getElementById('tourAsk'))return;const d=document.createElement('div');d.id='tourAsk';d.className='task';d.setAttribute('role','status');
+function tourAsk(){if(TEL||document.getElementById('tourAsk'))return;const h=location.hash;if(!(h===''||h==='#/'||h.startsWith('#/?')))return;try{localStorage.setItem('pada_tour','asked')}catch(e){}const d=document.createElement('div');d.id='tourAsk';d.className='task';d.setAttribute('role','status');
  d.innerHTML='<b>Впервые здесь?</b><span>Покажу, как всё устроено, — 4 шага</span><div><button type="button" class="tb1">Показать</button><button type="button" class="tb0" aria-label="Не надо">Не надо</button></div>';
  document.body.appendChild(d);requestAnimationFrame(()=>d.classList.add('in'));const close=v=>{d.classList.remove('in');setTimeout(()=>d.remove(),300);if(v!=='go')try{localStorage.setItem('pada_tour','skip')}catch(e){}};
  d.querySelector('.tb1').onclick=()=>{close('go');tourStart()};d.querySelector('.tb0').onclick=()=>close();setTimeout(()=>{if(document.body.contains(d))d.classList.remove('in'),setTimeout(()=>d.remove(),300)},20000)}
@@ -2374,7 +2376,7 @@ async function route(){if(!window._tgi){window._tgi=1;tgInit();setTimeout(logoIn
  if(h==='#/swipe'){document.title='Свайп шрифтов';swipe();return}
  if(h==='#/brief'){$('#nBr').classList.add('on');document.title='Подбор шрифта по задаче';brief();return}
  document.title='Библиотека шрифтов Perasperadastra';catRead(h);LASTH=h;catalog();if(back&&CATY!=null){const y=CATY;CATY=null;const go=()=>scrollTo({top:y,behavior:'instant'});requestAnimationFrame(go);setTimeout(go,250);setTimeout(go,700)}}
-addEventListener('hashchange',route);
+addEventListener('hashchange',()=>{const a=document.getElementById('tourAsk');if(a)a.remove()});addEventListener('hashchange',route);
 (()=>{const hd=document.querySelector('.hd'),b=$('#mBtn');if(!hd||!b)return;const set=v=>{hd.classList.toggle('open',v);b.setAttribute('aria-expanded',v?'true':'false')};
  b.onclick=e=>{e.stopPropagation();set(!hd.classList.contains('open'))};
  $('#mainNav').addEventListener('click',e=>{if(e.target.closest('a,button'))set(false)});
