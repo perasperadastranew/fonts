@@ -25,11 +25,13 @@
     return t;
   }
   // бинаризация с автоопределением фона по краю
-  function binarize(g, w, h) {
+  // ring — средняя яркость полосы вокруг выделения (люди обводят слово впритык,
+  // и жирные буквы касаются краёв рамки: тогда фон по самому краю определить нельзя)
+  function binarize(g, w, h, ring) {
     const t = otsu(g); let edge = 0, n = 0;
     for (let x = 0; x < w; x++) { edge += g[x] + g[(h - 1) * w + x]; n += 2; }
     for (let y = 0; y < h; y++) { edge += g[y * w] + g[y * w + w - 1]; n += 2; }
-    const lightBg = edge / n > t;
+    const lightBg = (ring != null ? ring : edge / n) > t;
     const b = new Uint8Array(w * h);
     for (let i = 0; i < b.length; i++) b[i] = lightBg ? (g[i] < t ? 1 : 0) : (g[i] > t ? 1 : 0);
     return b;
@@ -40,7 +42,25 @@
     return x1 < 0 ? null : { x0, y0, x1, y1 };
   }
   // выбрать самую «насыщенную» строку, если выделено несколько
-  function lines(b, w, h, bb) {
+  // убрать крупные пятна, касающиеся края картинки: плашки, рамки, полосы по бокам
+  function dropFrames(b, w, h) {
+    const seen = new Uint8Array(b.length), st = [];
+    for (let i = 0; i < b.length; i++) {
+      if (!b[i] || seen[i]) continue;
+      const px = []; let x0 = w, y0 = h, x1 = -1, y1 = -1, edge = false; st.push(i); seen[i] = 1;
+      while (st.length) {
+        const j = st.pop(), x = j % w, y = (j / w) | 0; px.push(j);
+        if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y;
+        if (!x || !y || x === w - 1 || y === h - 1) edge = true;
+        if (x > 0 && b[j - 1] && !seen[j - 1]) { seen[j - 1] = 1; st.push(j - 1); }
+        if (x < w - 1 && b[j + 1] && !seen[j + 1]) { seen[j + 1] = 1; st.push(j + 1); }
+        if (y > 0 && b[j - w] && !seen[j - w]) { seen[j - w] = 1; st.push(j - w); }
+        if (y < h - 1 && b[j + w] && !seen[j + w]) { seen[j + w] = 1; st.push(j + w); }
+      }
+      if (edge && (y1 - y0 > h * 0.5 || x1 - x0 > w * 0.5)) for (const j of px) b[j] = 0;
+    }
+  }
+  function lines(b, w, h, bb, minFrac) {
     const rows = []; for (let y = bb.y0; y <= bb.y1; y++) { let s = 0; for (let x = bb.x0; x <= bb.x1; x++) s += b[y * w + x]; rows.push(s); }
     const gapMin = Math.max(2, Math.round((bb.y1 - bb.y0) * 0.03)), L = []; let st = -1, gap = 0, ink = 0;
     for (let i = 0; i < rows.length; i++) {
@@ -49,7 +69,8 @@
     }
     if (st >= 0) L.push([st, rows.length - 1, ink]);
     const hmax = Math.max(...L.map(l => l[1] - l[0]));
-    return L.filter(l => l[1] - l[0] >= hmax * 0.45).map(l => {
+    lines.total = L.filter(l => l[1] - l[0] >= hmax * 0.3).length;
+    return L.filter(l => l[1] - l[0] >= hmax * (minFrac || 0.45)).map(l => {
       const y0 = bb.y0 + l[0], y1 = bb.y0 + l[1]; let x0 = w, x1 = -1;
       for (let y = y0; y <= y1; y++) for (let x = bb.x0; x <= bb.x1; x++) if (b[y * w + x]) { if (x < x0) x0 = x; if (x > x1) x1 = x; }
       return { x0, y0, x1, y1 };
@@ -125,22 +146,36 @@
 
   /* Главная функция: RGBA-данные + прямоугольник → вектор признаков */
   function measure(data, w, h, rect) {
+    const whole = !rect;
     rect = rect || { x: 0, y: 0, w, h };
     const rx = Math.max(0, Math.round(rect.x)), ry = Math.max(0, Math.round(rect.y)), rw = Math.min(w - rx, Math.round(rect.w)), rh = Math.min(h - ry, Math.round(rect.h));
     if (rw < 8 || rh < 8) return null;
     const sub = new Uint8ClampedArray(rw * rh * 4);
     for (let y = 0; y < rh; y++) sub.set(data.subarray(((ry + y) * w + rx) * 4, ((ry + y) * w + rx + rw) * 4), y * rw * 4);
-    const g = toGray(sub, rw, rh), b0 = binarize(g, rw, rh);
+    // полоса вокруг рамки (до 15% от её размера), если рамка не во всю картинку
+    const m = Math.round(Math.min(rw, rh) * 0.15) + 4;
+    let ringS = 0, ringN = 0;
+    const ax0 = Math.max(0, rx - m), ay0 = Math.max(0, ry - m), ax1 = Math.min(w, rx + rw + m), ay1 = Math.min(h, ry + rh + m);
+    for (let y = ay0; y < ay1; y += 2) for (let x = ax0; x < ax1; x += 2) {
+      if (x >= rx && x < rx + rw && y >= ry && y < ry + rh) continue;
+      const j = (y * w + x) * 4, a = data[j + 3] / 255;
+      ringS += (0.299 * data[j] + 0.587 * data[j + 1] + 0.114 * data[j + 2]) * a + 255 * (1 - a); ringN++;
+    }
+    const ring = ringN > (rw + rh) * 0.5 ? ringS / ringN : null;
+    const g = toGray(sub, rw, rh), b0 = binarize(g, rw, rh, ring);
+    // вся картинка: без рамки человек не показал, где текст, — убираем плашки и берём самые крупные строки
+    if (whole) dropFrames(b0, rw, rh);
     const bb0 = bbox(b0, rw, rh); if (!bb0) return null;
     let acc = null, nL = 0, dbg = null;
-    for (const bb of lines(b0, rw, rh, bb0)) {
+    const LL = lines(b0, rw, rh, bb0, whole ? 0.75 : 0.45);
+    for (const bb of LL) {
       if (bb.y1 - bb.y0 < 6 || bb.x1 - bb.x0 < 10) continue;
       const r = lineFeat(g, rw, bb, b0); if (!r) continue;
       const wgt = r.dbg.letters; if (!acc) acc = r.v.map(() => 0);
       r.v.forEach((x, k) => acc[k] += x * wgt); nL += wgt; if (!dbg || r.dbg.letters > dbg.letters) dbg = r.dbg;
     }
     if (!acc) return null;
-    dbg.letters = nL;
+    dbg.letters = nL; dbg.lines = lines.total;
     return { v: acc.map(x => x / nL), dbg };
   }
   function lineFeat(g, rw, bb, b0) {
