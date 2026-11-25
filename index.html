@@ -594,6 +594,7 @@ body.tg .mbtn{display:none!important}
 .fsub{color:var(--mut);max-width:640px;margin:14px 0 24px;font-size:16px;line-height:1.5}
 .fgrid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;align-items:start}
 .fdrop{display:block;border:2px dashed var(--ln);border-radius:24px;background:var(--wh,#fff);min-height:260px;cursor:pointer;overflow:hidden;position:relative}
+.fdi .fpaste{margin-top:14px;pointer-events:auto}.fdi .fkbd{font-size:12px;margin-top:8px;opacity:.7}
 .fdrop.over{border-color:#FF7122;background:#fff7f1}.fdrop.has{border-style:solid;cursor:crosshair;min-height:0}
 .fdi{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:260px;padding:24px;text-align:center}
 .fdi b{font-size:20px;font-weight:500}.fdi span{color:var(--mut);font-size:14px}
@@ -1929,8 +1930,8 @@ function findPage(){
  <h1>Найти шрифт <span class="plq">по картинке</span><span class="fbeta">БЕТА</span></h1>
  <p class="fsub">Загрузите фото вывески, скриншот или макет — покажем похожие шрифты из библиотеки. Лучше всего работает с одним словом или строкой, снятой ровно.</p>
  <div class="fgrid"><div>
-  <label class="fdrop" id="fdrop"><input type="file" accept="image/*" id="ffile" hidden><div class="fdi" id="fdi"><b>Перетащите картинку сюда</b><span>или нажмите, чтобы выбрать · можно вставить из буфера Ctrl/⌘+V</span></div><canvas id="fcv" hidden></canvas></label>
-  <div class="frow" id="frow" hidden><span class="fhint">Обведите рамкой слово или строку</span><button type="button" class="pill soft" id="fall">Вся картинка</button><button type="button" class="pill soft" id="fnew">Другая картинка</button></div>
+  <label class="fdrop" id="fdrop"><input type="file" accept="image/*" id="ffile" hidden><div class="fdi" id="fdi"><b>Перетащите картинку сюда</b><span>или нажмите, чтобы выбрать</span><button type="button" class="pill dark fpaste" id="fpaste">Вставить из буфера</button><span class="fkbd">или Ctrl/⌘+V в любом месте страницы</span></div><canvas id="fcv" hidden></canvas></label>
+  <div class="frow" id="frow" hidden><span class="fhint">Обведите рамкой слово или строку</span><button type="button" class="pill soft" id="fall">Вся картинка</button><button type="button" class="pill soft" id="fpaste2">Вставить из буфера</button><button type="button" class="pill soft" id="fnew">Другая картинка</button></div>
  </div><div class="fside">
   <label class="flab" for="ftx">Что написано на картинке</label><input class="finp" id="ftx" placeholder="необязательно — покажем шрифты на этом тексте" value="">
   <button type="button" class="pill dark fgo" id="fgo" disabled>Найти похожие</button>
@@ -1945,7 +1946,9 @@ function findPage(){
  drop.addEventListener('click',e=>{if(FIND.img)e.preventDefault()});
  drop.ondragover=e=>{e.preventDefault();drop.classList.add('over')};drop.ondragleave=()=>drop.classList.remove('over');
  drop.ondrop=e=>{e.preventDefault();drop.classList.remove('over');file(e.dataTransfer.files[0])};
- document.onpaste=e=>{if(location.hash!=='#/find')return;const it=[...(e.clipboardData||{}).items||[]].find(i=>i.type.startsWith('image/'));if(it)file(it.getAsFile())};
+ document.onpaste=e=>{if(!location.hash.startsWith('#/find'))return;const cd=e.clipboardData||{};const f=[...(cd.files||[])].find(x=>/^image\//.test(x.type))||([...(cd.items||[])].find(i=>i.kind==='file'&&i.type.startsWith('image/'))||{getAsFile:()=>null}).getAsFile();if(f){e.preventDefault();file(f)}else if(document.activeElement!==$('#ftx'))$('#fst').textContent='В буфере нет картинки — скопируйте изображение или сделайте скриншот в буфер'};
+ const clip=async ev=>{ev.preventDefault();ev.stopPropagation();const st=$('#fst');try{if(!navigator.clipboard||!navigator.clipboard.read)throw 0;const its=await navigator.clipboard.read();for(const it of its){const t=it.types.find(x=>x.startsWith('image/'));if(t){const b=await it.getType(t);file(new File([b],'clip',{type:t}));return}}st.textContent='В буфере нет картинки — скопируйте изображение или сделайте скриншот в буфер'}catch(e){st.textContent='Браузер не дал доступ к буферу — нажмите Ctrl/⌘+V прямо на странице'}};
+ $('#fpaste').onclick=clip;$('#fpaste2').onclick=clip;
  $('#fnew').onclick=()=>$('#ffile').click();
  $('#fall').onclick=()=>{FIND.sel=null;draw();findRun()};
  let st=null;const pt=e=>{const b=cv.getBoundingClientRect();return{x:(e.clientX-b.left)*cv.width/b.width,y:(e.clientY-b.top)*cv.height/b.height}};
