@@ -1442,7 +1442,7 @@
   "slug": "alayaroza-demo",
   "author": "Dima Evans",
   "class": "Рукописный",
-  "license": "Бесплатно (условия автора)",
+  "license": "Только для личных проектов",
   "styles": 1,
   "faces": [
    [
@@ -5633,38 +5633,6 @@
   "cyrillic": "ru",
   "copyright": "Copyright © 2018 by Alejo Bergmann, Copyright © 2019 Cyrillic set by Denis Ignatov",
   "license_note": "текст лицензии добавлен нами по данным из файла шрифта или со страницы автора"
- },
- {
-  "name": "Bormus SP Demo",
-  "slug": "bormus-sp-demo",
-  "author": "Sasha Pavljenko, M. Borisova-Musatova",
-  "class": "Акцидентный",
-  "license": "Условия уточняются",
-  "styles": 1,
-  "faces": [
-   [
-    "BormusSPDemo-Bold.otf",
-    700,
-    700,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   700
-  ],
-  "files": [
-   "BormusSPDemo-Bold.otf"
-  ],
-  "license_files": [
-   "Short License.pdf",
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://t.me/fontdisk/560",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
  },
  {
   "name": "Bounded",
@@ -28121,37 +28089,6 @@
   "copyright": ""
  },
  {
-  "name": "Palui SP Demo",
-  "slug": "palui-sp-demo",
-  "author": "Sasha Pavljenko",
-  "class": "Акцидентный",
-  "license": "Бесплатно (условия автора)",
-  "styles": 1,
-  "faces": [
-   [
-    "493__PaluiSPDemo-Bold.otf",
-    700,
-    700,
-    false
-   ]
-  ],
-  "variable": false,
-  "italic": false,
-  "weights": [
-   700
-  ],
-  "files": [
-   "493__PaluiSPDemo-Bold.otf"
-  ],
-  "license_files": [
-   "УСЛОВИЯ.txt"
-  ],
-  "source": "https://t.me/fontdisk/493",
-  "expert": null,
-  "cyrillic": "ru",
-  "copyright": ""
- },
- {
   "name": "Pangolin",
   "slug": "pangolin",
   "author": "Kevin Burke",
@@ -39847,7 +39784,7 @@
   "copyright": ""
  },
  {
-  "name": "Waterway (Demo)",
+  "name": "Waterway",
   "slug": "waterway-demo",
   "author": "Eduard Chernov",
   "class": "Антиква",
