@@ -2527,6 +2527,37 @@
   "copyright": "Copyright (c) 2021, Konstantin Krastev"
  },
  {
+  "name": "Anton",
+  "slug": "anton",
+  "author": "Vernon Adams; кириллица — Murat Karibay",
+  "class": "Гротеск",
+  "license": "SIL OFL 1.1",
+  "styles": 1,
+  "faces": [
+   [
+    "Anton-Regular.ttf",
+    400,
+    400,
+    false
+   ]
+  ],
+  "variable": false,
+  "italic": false,
+  "weights": [
+   400
+  ],
+  "files": [
+   "Anton-Regular.ttf"
+  ],
+  "license_files": [
+   "OFL.txt"
+  ],
+  "source": "https://github.com/MuratKaribay/AntonFont",
+  "expert": null,
+  "cyrillic": "ru",
+  "copyright": "Copyright 2020 The Anton Project Authors"
+ },
+ {
   "name": "Antract",
   "slug": "antract",
   "author": "Екатерина Кирлан (Школа дизайна НИУ ВШЭ)",
