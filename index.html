@@ -1910,6 +1910,7 @@ function bestSort(a){const CO=['Акцидентный','Гротеск','Рук
  const pk=a.filter(f=>PICKN.has(f[0])).sort((x,y)=>dayRand(x[0])-dayRand(y[0]));const by={};pk.forEach(f=>(by[f[1]]=by[f[1]]||[]).push(f));
  const head=[];let k=0,guard=0;while(head.length<pk.length&&guard<pk.length*12){const c=CO[k++%CO.length];if(by[c]&&by[c].length)head.push(by[c].shift());guard++}
  Object.values(by).forEach(l=>head.push(...l));
+ for(let i=0;i<Math.min(6,head.length);i++){if(pq(head[i],'wid')>78){const j=head.findIndex((f,k)=>k>5&&pq(f,'wid')<=78);if(j>0){const w=head.splice(i,1)[0];head.splice(j,0,w);i--}}}
  let rest=a.filter(f=>!PICKN.has(f[0])).map(f=>({f,s:(QS[f[0]]??40)+dayRand(f[0]+'q')*14-(isStd(f)?6:0)-(STUB.has(f[0])?200:0)})).sort((x,y)=>y.s-x.s);
  const seen={};rest.forEach(x=>{const k=x.f[1]+famKey(x.f[0]);x.s-=12*(seen[k]=(seen[k]||0)+1)-12});rest=rest.sort((x,y)=>y.s-x.s).map(x=>x.f);
  const out=[],wait=[];const last=()=>out.slice(-4).map(f=>famKey(f[0]));
