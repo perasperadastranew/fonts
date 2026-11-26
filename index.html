@@ -621,6 +621,9 @@ body.tg .mbtn{display:none!important}
 .plev{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:22px 0 4px}.plev button{text-align:left;border:1px solid var(--ln);background:transparent;border-radius:calc(var(--rk,1)*18px);padding:14px 16px;font:inherit;cursor:pointer;display:flex;flex-direction:column;gap:6px;color:var(--ink)}.plev button b{font-size:17px;font-weight:500}.plev button span{font-size:13px;line-height:1.4;color:var(--mut)}.plev button.on{background:var(--ink);border-color:var(--ink)}.plev button.on b{color:var(--pap)}.plev button.on span{color:rgba(255,255,255,.72)}
 .pl.lw{justify-content:center;align-items:flex-start;min-height:230px}.lwl{font-size:44px;line-height:1.12;width:100%}.lww{font-size:86px;line-height:1.05;letter-spacing:-.01em;white-space:nowrap;width:100%}.prs [hidden]{display:none!important}
 @media(max-width:800px){.plev{grid-template-columns:1fr}}
+.ptx{margin:-8px 0 18px}.ptx summary{cursor:pointer;font-size:14px;color:var(--mut);list-style:none;display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft)}.ptx summary::-webkit-details-marker{display:none}.ptx[open] summary{background:var(--ink);color:var(--pap)}
+.ptxr{display:grid;grid-template-columns:1fr 1.4fr auto;gap:8px;margin-top:10px;align-items:start}.ptxr textarea{resize:vertical;min-height:46px;font:inherit}
+@media(max-width:800px){.ptxr{grid-template-columns:1fr}}
 .ptypes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}.ptypes button{border:1px solid var(--ln);background:transparent;border-radius:999px;padding:7px 13px;font:inherit;font-size:13px;cursor:pointer}.ptypes button.on{background:var(--ink);color:var(--pap);border-color:var(--ink)}
 .ptg{display:inline-block;font-weight:500;color:var(--ink);background:#FFE6D6;border-radius:6px;padding:1px 7px;margin-right:8px}
 .phow{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}.phc{text-align:left;border:0;background:var(--wh);border-radius:calc(var(--rk,1)*20px);padding:20px;display:flex;flex-direction:column;gap:8px;font:inherit;cursor:pointer;color:var(--ink)}.phc b{font-size:18px;font-weight:500}.phc span{font-size:14px;line-height:1.45;color:var(--mut)}.phc:hover{outline:2px solid var(--ink)}.plv{cursor:default;background:#FFE6D6}.plv:hover{outline:0}.pnote{background:var(--ink);cursor:default}.pnote b{color:var(--pap)}.pnote span{color:rgba(255,255,255,.7)}.pnote:hover{outline:0}
@@ -2090,8 +2093,11 @@ function loadItalic(f){if(!f[7]||itLoaded[f[0]])return itLoaded[f[0]]||Promise.r
  const pick=[...new Set([it.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-400)-Math.abs((b[1]+b[2])/2-400))[0],it.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-700)-Math.abs((b[1]+b[2])/2-700))[0]])];
  itLoaded[f[0]]=Promise.all(pick.map(x=>{const fc=new FontFace(f[0],x[4]?`url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}") format("woff2")`:`url("${REPO}fonts/${f[7]}/${encodeURIComponent(x[0])}")`,{weight:x[1]===x[2]?String(x[1]):`${x[1]} ${x[2]}`,style:'italic'});return fc.load().then(r=>document.fonts.add(r)).catch(()=>{})}));return itLoaded[f[0]]}
 const hasIt=f=>f[6]||f[8].some(x=>x[3]);
+// слишком декоративные для акцентов: узор, фактура, пиксели, обводка, тени
+const DECOR=/maze|pixel|bits|beastly|bubble|spray|glitch|noise|doodle|puddle|burn|vinyl|storm|microbe|moonrock|lines|stripe|dirt|distress|stencil|outline|inline|shadow|3d|grunge|pinstripe|mosaic|zebra|hatch|gemstone|wonder|dots?\b|block|metal|blood|horror|zombie|tag\b|graffiti/i;
+let DECS=null;const isDecor=f=>{if(!DECS){DECS=new Set();const px=SETS.find(x=>x[0]==='pixel');if(px)px[3].forEach(n=>DECS.add(n))}return DECOR.test(f[0])||DECS.has(f[0])};
 let LPOOL=null;
-function linePool(){if(LPOOL)return LPOOL;LPOOL=FONTS.filter(f=>!CAPS.has(f[0])&&!STUB.has(f[0])&&MET[f[0]]&&licOk(f)&&(QS[f[0]]??40)>=50&&((f[1]==='Антиква'&&hasIt(f))||f[1]==='Рукописный'||(f[1]==='Гротеск'&&hasIt(f)&&TEXTS.includes(f[0]))));return LPOOL}
+function linePool(){if(LPOOL)return LPOOL;LPOOL=FONTS.filter(f=>!CAPS.has(f[0])&&!STUB.has(f[0])&&!isDecor(f)&&MET[f[0]]&&licOk(f)&&(QS[f[0]]??40)>=50&&((f[1]==='Антиква'&&hasIt(f))||f[1]==='Рукописный'||(f[1]==='Гротеск'&&hasIt(f)&&TEXTS.includes(f[0]))));return LPOOL}
 // во фразе: акцентное слово другим шрифтом
 function lineFor(h,n=6,seed=0){
  const mh=MET[h[0]]||{},hv=heavyW(h)>=600;
@@ -2106,7 +2112,7 @@ function lineFor(h,n=6,seed=0){
 // в слове: буквы-акценты другим шрифтом той же толщины и высоты
 function wordFor(h,n=6,seed=0){
  const mh=MET[h[0]];if(!mh)return [];
- const P=FONTS.filter(b=>b!==h&&MET[b[0]]&&!STUB.has(b[0])&&licOk(b)&&(QS[b[0]]??40)>=45&&b[1]!=='Моно'&&famKey(b[0])!==famKey(h[0])).map(b=>{const mb=MET[b[0]];
+ const P=FONTS.filter(b=>b!==h&&MET[b[0]]&&!STUB.has(b[0])&&!isDecor(b)&&licOk(b)&&(QS[b[0]]??40)>=45&&b[1]!=='Моно'&&famKey(b[0])!==famKey(h[0])).map(b=>{const mb=MET[b[0]];
   const dd=Math.abs(mh.dens-mb.dens),dx=Math.abs(mh.xH-mb.xH);if(dd>0.06||dx>0.08)return null;
   let s=3-dd*25-dx*15-Math.abs(mh.wid-mb.wid)*3,why;
   if(b[1]===h[1]){s-=1.2;why='Тот же класс, другая форма букв'}else why=`${CAT[h[1]][0].toUpperCase()+CAT[h[1]].slice(1)} + буквы-${b[1]==='Антиква'?'засечки':b[1]==='Рукописный'?'росчерки':'акценты'}`;
@@ -2115,7 +2121,7 @@ function wordFor(h,n=6,seed=0){
  P.forEach(p=>p.r=p.s+prnd('W'+h[0]+'|'+p.b[0]+'|'+seed)*(seed?3:1.4));P.sort((a,b)=>b.r-a.r);
  const out=[],fams=new Set();for(const p of P){const k=famKey(p.b[0]);if(fams.has(k))continue;fams.add(k);out.push(p);if(out.length>=n)break}return out}
 // выбрать слово и буквы для замены: круглые и характерные буквы, не первая
-function wordPick(){const ws=phrase().split(/\s+/).map(w=>w.replace(/[^\p{L}-]/gu,'')).filter(Boolean);const sc=w=>Math.abs(Math.min(w.length,12)-8)+(w.length>12?w.length-12:0);const w=ws.filter(x=>x.length>=3).sort((a,b)=>sc(a)-sc(b))[0]||ws[0]||'Звёзды';
+function wordPick(){const ws=ptext().split(/\s+/).map(w=>w.replace(/[^\p{L}-]/gu,'')).filter(Boolean);const sc=w=>Math.abs(Math.min(w.length,12)-8)+(w.length>12?w.length-12:0);const w=ws.filter(x=>x.length>=3).sort((a,b)=>sc(a)-sc(b))[0]||ws[0]||'Звёзды';
  const pref='оеаёзсвркджфэюя';const idx=[...w].map((c,i)=>[c,i]).filter(([c,i])=>i>0&&pref.includes(c.toLowerCase())).map(x=>x[1]);
  const sel=idx.length?[idx[0]].concat(idx.length>2?[idx[idx.length-1]]:[]):[Math.min(1,w.length-1)];return {w,sel}}
 // автоподбор кегля: самый крупный размер, при котором текст влезает в ширину карточки и в заданное число строк
@@ -2136,18 +2142,18 @@ function fitAccents(root){const cv=document.createElement('canvas').getContext('
   const a=asc(hs.fontFamily,hs.fontWeight,'normal',ch),b=asc(es.fontFamily,es.fontWeight,es.fontStyle,ch);if(a>0&&b>0)el.style.fontSize=Math.max(.6,Math.min(1.6,a/b)).toFixed(3)+'em'})}
 function lwCard(kind,p,h){const b=p.b,mh=MET[h[0]]||{},mb=MET[b[0]]||{};const sc=Math.max(.8,Math.min(1.3,(mh.xH||.72)/(mb.xH||.72)));
  const H=`font-family:${fam(h)};font-weight:${heavyW(h)}`;let art;
- if(kind==='line'){const ws=phrase().split(/\s+/);const k=ws.length>2?1:ws.length-1;
+ if(kind==='line'){const ws=ptext().split(/\s+/);let k=-1,bl=0;ws.forEach((w,i)=>{const L=w.replace(/[^\p{L}]/gu,'').length;if(i>0&&L>2&&L>bl){bl=L;k=i}});if(k<0)k=ws.length>1?ws.length-1:0;
   const it=hasIt(b)&&b[1]!=='Рукописный';const st=`--fit:x;font-family:${fam(b)};font-style:${it?'italic':'normal'};font-weight:${b[1]==='Рукописный'?baseW(b):(heavyW(h)>=600?Math.min(500,heavyW(b)):baseW(b))};font-size:${sc.toFixed(3)}em`;
   art=`<div class="lwl" data-mx="60" data-ln="2" style="${H}">${ws.map((w,i)=>(i===k?`<span data-fit="x" style="${st}">${esc(w)}</span>`:esc(w))+(i<ws.length-1?(w.length<=2?'&nbsp;':' '):'')).join('')}</div>`}
  else{const {w,sel}=wordPick();const caps=CAPS.has(h[0])||(mh.xH||0)>0.8;const W=caps?w.toUpperCase():w;const fs=Math.min(86,Math.round(560/Math.max(5,W.length)*1.25));const bw=Math.min(b[2]&&b[3]<b[4]?b[4]:Math.max(...b[8].filter(x=>!x[3]).map(x=>x[2])),Math.max(heavyW(h),b[3]));
   art=`<div class="lww" data-mx="130" data-ln="1" style="${H};font-size:${fs}px">${[...W].map((c,i)=>sel.includes(i)?`<span data-fit="${caps?'cap':'x'}" style="font-family:${fam(b)};font-weight:${bw};font-size:${(caps?1:sc).toFixed(3)}em">${esc(c)}</span>`:esc(c)).join('')}</div>`}
  return `<div class="pcard"><div class="pl lw">${art}</div><div class="pf"><span class="why"><b class="ptg">${PLEVELS[kind][0]}</b>${esc(p.why)}</span>
  <div class="pn2"><a href="#/font/${slug(h[0])}"><small>Основной</small>${esc(h[0])}</a><a href="#/font/${slug(b[0])}"><small>${kind==='line'?'Акцентное слово':'Буквы-акценты'}</small>${esc(b[0])}</a></div>
- <div class="pb"><button type="button" class="pill soft" data-css="${esc(h[0])}|${esc(b[0])}">CSS</button><button type="button" class="pill soft" data-fav="${esc(h[0])}|${esc(b[0])}">★ В журнал</button></div></div></div>`}
+ <div class="pb"><button type="button" class="pill soft" data-css="${esc(h[0])}|${esc(b[0])}">CSS</button><button type="button" class="pill soft" data-fav="${esc(h[0])}|${esc(b[0])}">★ В журнал</button><button type="button" class="pill soft" data-png="1">PNG</button><button type="button" class="pill soft" data-link="${slug(h[0])}|${slug(b[0])}|${kind}">Ссылка</button></div></div></div>`}
 const PMODES=[['site','Сайт'],['slide','Слайд'],['poster','Афиша'],['reel','Рилс']];
 function pairCard(why,h,b,mode,noMore,t){
- const H=`font-family:${fam(h)};font-weight:${heavyW(h)}`,B=`font-family:${fam(b)};font-weight:${baseW(b)}`,ph=esc(phrase()),
- txt='Экипаж собрался в шесть утра. До старта три часа: проверить приборы, повторить план полёта и выпить чаю.';
+ const H=`font-family:${fam(h)};font-weight:${heavyW(h)}`,B=`font-family:${fam(b)};font-weight:${baseW(b)}`,ph=esc(ptext()),
+ txt=esc((PBODY||'').trim()||PBODY0);
  let lay;
  if(mode==='slide')lay=`<div class="pl sl"><div class="t" data-mx="44" data-ln="3" style="${H}">${ph}</div><ul style="${B}"><li>Проверить приборы и связь</li><li>Повторить план полёта</li><li>Старт ровно в девять</li></ul><span class="pn" style="${B}">03</span></div>`;
  else if(mode==='poster')lay=`<div class="pl po"><div class="t" data-mx="76" data-ln="4" style="${H}">${ph}</div><div class="i" style="${B}"><b>26 ноября · 19:00</b><span>Планетарий, большой зал</span><span>Вход свободный</span></div></div>`;
@@ -2155,20 +2161,41 @@ function pairCard(why,h,b,mode,noMore,t){
  else lay=`<div class="pl st"><div class="nv" style="${B}"><b>Экипаж</b><span>Курсы</span><span>Кейсы</span></div><div class="t" data-mx="48" data-ln="3" style="${H}">${ph}</div><p style="${B}">${txt}</p><span class="bt" style="${B};font-weight:${Math.min(600,heavyW(b))}">Записаться</span></div>`;
  return `<div class="pcard">${lay}<div class="pf"><span class="why">${t&&PTYPES[t]?`<b class="ptg">${PTYPES[t][0]}</b>`:''}${esc(t?why.replace(/^[^:·]+:\s*/,''):why)}</span>
  <div class="pn2"><a href="#/font/${slug(h[0])}"><small>Заголовок</small>${esc(h[0])}</a><a href="#/font/${slug(b[0])}"><small>Текст</small>${esc(b[0])}</a></div>
- <div class="pb"><button type="button" class="pill soft" data-css="${esc(h[0])}|${esc(b[0])}">CSS</button><button type="button" class="pill soft" data-fav="${esc(h[0])}|${esc(b[0])}">★ В журнал</button>${noMore?'':`<a class="pill soft" href="#/pairs?f=${slug(h[0])}">Ещё к ${esc(h[0])}</a>`}</div></div></div>`}
+ <div class="pb"><button type="button" class="pill soft" data-css="${esc(h[0])}|${esc(b[0])}">CSS</button><button type="button" class="pill soft" data-fav="${esc(h[0])}|${esc(b[0])}">★ В журнал</button><button type="button" class="pill soft" data-png="1">PNG</button><button type="button" class="pill soft" data-link="${slug(h[0])}|${slug(b[0])}|para|${mode}">Ссылка</button>${noMore?'':`<a class="pill soft" href="#/pairs?f=${slug(h[0])}">Ещё к ${esc(h[0])}</a>`}</div></div></div>`}
 function pairCSS(h,b){
  const ff=f=>{if(!f[7])return `/* ${f[0]} — Google Fonts */\n@import url("https://fonts.googleapis.com/css2?family=${encodeURIComponent(f[0]).replace(/%20/g,'+')}${wq(f)}&display=swap");`;
   const up=f[8].filter(x=>!x[3]);const near=w=>up.slice().sort((a,c)=>Math.abs((a[1]+a[2])/2-w)-Math.abs((c[1]+c[2])/2-w))[0];
   return [...new Set([near(400),near(700)].filter(Boolean))].map(x=>`@font-face {\n  font-family: "${f[0]}";\n  src: url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}") format("woff2");\n  font-weight: ${x[1]===x[2]?x[1]:x[1]+' '+x[2]};\n  font-display: swap;\n}`).join('\n')};
  return `${ff(h)}\n${ff(b)}\n\nh1, h2, h3 { font-family: "${h[0]}", sans-serif; font-weight: ${heavyW(h)}; }\nbody { font-family: "${b[0]}", sans-serif; font-weight: ${baseW(b)}; }\n\n/* Шрифты: библиотека Perasperadastra — fonts.perasperadastra.ru. Для сайта лучше скачать файлы и положить к себе. */`}
+// картинка карточки: SVG с foreignObject, шрифты вшиваем как data-URL, рисуем на canvas ×2
+const B64={};
+async function f64(url){if(B64[url])return B64[url];const r=await fetch(url);if(!r.ok)throw 0;const b=await r.blob();return B64[url]=await new Promise(ok=>{const fr=new FileReader();fr.onload=()=>ok(fr.result);fr.readAsDataURL(b)})}
+function faceURL(f,x){return x[4]?`${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}`:`${REPO}fonts/${f[7]}/${encodeURIComponent(x[0])}`}
+async function cardPNG(node,name){
+ const used=new Map();node.querySelectorAll('*').forEach(e=>{const cs=getComputedStyle(e);const n=cs.fontFamily.split(',')[0].replace(/['"]/g,'').trim();const f=FONTS.find(x=>x[0]===n);if(!f||!f[7])return;const k=f[0];if(!used.has(k))used.set(k,{f,w:new Set(),it:false});const u=used.get(k);u.w.add(+cs.fontWeight);if(cs.fontStyle==='italic')u.it=true});
+ let css='';for(const {f,w,it} of used.values()){const faces=new Set();for(const wt of w){for(const ital of it?[false,true]:[false]){const c=f[8].filter(x=>!!x[3]===ital);if(!c.length)continue;faces.add(c.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-wt)-Math.abs((b[1]+b[2])/2-wt))[0])}}
+  for(const x of faces){try{const d=await f64(faceURL(f,x));css+=`@font-face{font-family:"${f[0]}";src:url(${d});font-weight:${x[1]===x[2]?x[1]:x[1]+' '+x[2]};font-style:${x[3]?'italic':'normal'}}`}catch(e){}}}
+ let rules='';for(const sh of document.styleSheets){try{for(const r of sh.cssRules)if(r.selectorText&&/\.pl|\.lw|\.rv|\.t\b|\.nv|\.bt|\.pn\b/.test(r.selectorText))rules+=r.cssText}catch(e){}}
+ const W=node.offsetWidth,H=node.offsetHeight,rs=getComputedStyle(document.documentElement),bs=getComputedStyle(document.body),vars=['--ink','--pap','--wh','--mut','--soft','--ln','--rk'].map(v=>`${v}:${rs.getPropertyValue(v)||bs.getPropertyValue(v)}`).join(';');
+ const cl=node.cloneNode(true);const bg=getComputedStyle(node).backgroundColor;const card=node.closest('.pcard');const cbg=card?getComputedStyle(card).backgroundColor:'#fff';
+ const html=`<div xmlns="http://www.w3.org/1999/xhtml" style="${vars};width:${W}px;height:${H}px;background:${bg&&bg!=='rgba(0, 0, 0, 0)'?bg:cbg};color:#0c0b0d;font-family:sans-serif;display:flex"><style>${css}${rules}.pl{width:100%;height:100%;box-sizing:border-box}</style>${new XMLSerializer().serializeToString(cl)}</div>`;
+ const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}"><foreignObject width="100%" height="100%">${html}</foreignObject></svg>`;
+ const img=new Image();img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);await img.decode();await new Promise(r=>setTimeout(r,120));
+ const cv=document.createElement('canvas'),k=2;cv.width=W*k;cv.height=H*k;const x=cv.getContext('2d');x.scale(k,k);x.drawImage(img,0,0);
+ const blob=await new Promise(r=>cv.toBlob(r,'image/png'));const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name.replace(/[^\p{L}\p{N} +-]/gu,'').trim()+'.png';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);toast('Картинка пары сохранена')}
 function pairWire(root){
  root.querySelectorAll('[data-css]').forEach(x=>x.onclick=()=>{const [a,c]=x.dataset.css.split('|').map(n=>FONTS.find(f=>f[0]===n));const t=pairCSS(a,c);(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('CSS пары скопирован')).catch(()=>{prompt('Скопируйте CSS',t)})});
  root.querySelectorAll('[data-fav]').forEach(x=>x.onclick=()=>{const ns=x.dataset.fav.split('|');ns.forEach(n=>{if(!isFav(n))toggleFav(n)});toast('Оба шрифта в бортовом журнале')});
+ root.querySelectorAll('[data-link]').forEach(x=>x.onclick=()=>{const [a,c,l,m]=x.dataset.link.split('|');const u=location.origin+location.pathname+`#/pairs?f=${a}&b=${c}&l=${l}`+(m?`&m=${m}`:'');(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>toast('Ссылка на пару скопирована')).catch(()=>prompt('Ссылка на пару',u))});
+ root.querySelectorAll('[data-png]').forEach(x=>x.onclick=()=>{const c=x.closest('.pcard');const names=[...c.querySelectorAll('.pn2 a')].map(a=>a.textContent.replace(/^(Заголовок|Текст|Основной|Акцентное слово|Буквы-акценты)/,''));x.disabled=true;x.textContent='…';cardPNG(c.querySelector('.pl'),'пара '+names.join(' + ')).catch(e=>toast('Не получилось сохранить картинку')).finally(()=>{x.disabled=false;x.textContent='PNG'})});
  const L=[];root.querySelectorAll('.pcard').forEach(c=>c.querySelectorAll('.pn2 a').forEach(a=>{const f=bySlug(a.getAttribute('href').slice(7));if(f)L.push(loadFont(f).catch(()=>{}))}));
  fitAll(root);Promise.all(L).then(()=>document.fonts.ready).then(()=>fitAll(root))}
-let PSEED=0,PTYPE='',PMODE=lsGet('pada_pmode','site'),PLEVEL=lsGet('pada_plevel','para');
+let PSEED=0,PTYPE='',PMODE=lsGet('pada_pmode','site'),PLEVEL=lsGet('pada_plevel','para'),PHEAD=lsGet('pada_phead',''),PBODY=lsGet('pada_pbody','');
+const PBODY0='Экипаж собрался в шесть утра. До старта три часа: проверить приборы, повторить план полёта и выпить чаю.';
+const ptext=()=>(PHEAD||'').trim()||phrase();
 function pairsPage(){
- const q=new URLSearchParams((location.hash.split('?')[1])||'');const hf=bySlug(q.get('f')||'');
+ const q=new URLSearchParams((location.hash.split('?')[1])||'');const hf=bySlug(q.get('f')||'');const bf=bySlug(q.get('b')||'');
+ if(q.get('l')&&PLEVELS[q.get('l')])PLEVEL=q.get('l');if(q.get('m')&&PMODES.some(x=>x[0]===q.get('m')))PMODE=q.get('m');
  const opts=FONTS.filter(f=>!STUB.has(f[0])).map(f=>`<option value="${esc(f[0])}">`).join('');
  app.innerHTML=`<div class="wrap prs"><div class="mono" style="font-size:11px;color:var(--mut)">★ ГЕНЕРАТОР ПАР · ЗАГОЛОВОК + ТЕКСТ</div>
  <h1>Шрифтовые <span class="plq">пары</span></h1>
@@ -2177,6 +2204,8 @@ function pairsPage(){
  <div class="pctl"><input class="finp" id="pin" list="pfl" placeholder="Шрифт для заголовка, например Anton" value="${hf?esc(hf[0]):''}"><datalist id="pfl">${opts}</datalist>
  <button type="button" class="pill dark" id="pgo">Подобрать</button><button type="button" class="pill soft" id="prn">Случайный</button><button type="button" class="pill soft" id="pmore"${hf?'':' hidden'}>Ещё варианты</button>
  <div class="pseg">${PMODES.map(([k,t])=>`<button type="button" class="${k===PMODE?'on':''}" data-m="${k}">${t}</button>`).join('')}</div></div>
+ <details class="ptx"${PHEAD||PBODY?' open':''}><summary>Свой текст</summary><div class="ptxr"><input class="finp" id="phd" placeholder="Заголовок — по умолчанию фраза сайта" value="${esc(PHEAD)}"><textarea class="finp" id="pbd" rows="2" placeholder="Абзац текста">${esc(PBODY)}</textarea><button type="button" class="pill soft" id="ptr">Сбросить</button></div></details>
+ ${hf&&bf?'<div class="sh" style="margin-top:8px"><h2>Пара по ссылке</h2></div><div class="pgrid" id="plink" style="margin-bottom:40px"></div><div class="sh"><h2>Другие варианты</h2></div>':''}
  <div class="ptypes" id="ptypes"><button type="button" class="on" data-t="">Все типы</button>${Object.entries(PTYPES).map(([k,[n]])=>`<button type="button" data-t="${k}">${n}</button>`).join('')}</div>
  <div class="pgrid" id="pres"></div>
  <div class="sh" id="phandH" style="margin-top:56px"><h2>${hf?'Ещё и готовые пары':'Готовые пары'}</h2><small>собраны вручную</small></div><div class="pgrid" id="phand"></div>
@@ -2184,6 +2213,7 @@ function pairsPage(){
  <div class="phow">${Object.entries(PTYPES).map(([k,[n,d]])=>`<button type="button" class="phc" data-t="${k}"><b>${n}</b><span>${d}</span></button>`).join('')}
  ${Object.entries(PLEVELS).map(([k,[n,d]])=>`<div class="phc plv"><b>${n}</b><span>${d}</span></div>`).join('')}<div class="phc pnote"><b>Общие правила</b><span>Два шрифта, максимум три (третий — моно для подписей). Контраст должен быть явным: два похожих гротеска выглядят как ошибка. Близкая высота строчных — и строки не спорят. Настроение общее: строгий заголовок — строгий текст.</span></div></div></div>`;
  const draw=()=>{const res=$('#pres');const para=PLEVEL==='para';
+  const pl=$('#plink');if(pl&&hf&&bf){if(para){const sc=pairScore(hf,bf);pl.innerHTML=pairCard(sc?sc.why:'Пара по ссылке',hf,bf,PMODE,0,sc?sc.t:'');pairWire(pl)}else{const L=(PLEVEL==='line'?lineFor(hf,60):wordFor(hf,60));const p=L.find(x=>x.b===bf)||{b:bf,why:'Пара по ссылке'};pl.innerHTML=lwCard(PLEVEL,p,hf);pairWire(pl);Promise.all([loadFont(hf),loadFont(bf),PLEVEL==='line'?loadItalic(bf):0].map(x=>Promise.resolve(x).catch(()=>{}))).then(()=>document.fonts.ready).then(()=>{fitAccents(pl);try{opticalSpace(pl)}catch(e){}fitAll(pl)})}}
   $('#ptypes').hidden=!para;$('.pseg').style.display=para?'':'none';$('#phandH').hidden=!para;$('#phand').hidden=!para;
   if(hf&&!para){const L=PLEVEL==='line'?lineFor(hf,6,PSEED):wordFor(hf,6,PSEED);res.innerHTML=L.length?L.map(p=>lwCard(PLEVEL,p,hf)).join(''):'<div class="empty">Не нашли пару для этого приёма — попробуйте другой шрифт</div>';pairWire(res);loadFont(hf).catch(()=>{});Promise.all([loadFont(hf).catch(()=>{}),...L.map(p=>Promise.all([loadFont(p.b).catch(()=>{}),PLEVEL==='line'?loadItalic(p.b):0]))]).then(()=>document.fonts.ready).then(()=>{fitAccents(res);try{opticalSpace(res)}catch(e){}fitAll(res)});fitAll(res);return}
   if(!hf&&!para){res.innerHTML='<div class="empty">Выберите основной шрифт — подберём к нему '+(PLEVEL==='line'?'шрифт для акцентного слова':'шрифт для букв-акцентов')+'</div>'}
@@ -2195,6 +2225,8 @@ function pairsPage(){
  $('#pgo').onclick=()=>go($('#pin').value);$('#pin').onkeydown=e=>{if(e.key==='Enter')go($('#pin').value)};$('#pin').onchange=()=>{if(FONTS.some(x=>x[0]===$('#pin').value))go($('#pin').value)};
  $('#prn').onclick=()=>{const C=FONTS.filter(f=>(f[1]==='Акцидентный'||f[1]==='Антиква'||f[1]==='Рукописный')&&(QS[f[0]]??40)>=60&&!STUB.has(f[0]));go(C[Math.floor(Math.random()*C.length)][0])};
  $('#pmore').onclick=()=>{PSEED++;draw()};
+ let PTT;const upd=()=>{clearTimeout(PTT);PTT=setTimeout(()=>{PHEAD=$('#phd').value;PBODY=$('#pbd').value;lsSet('pada_phead',PHEAD);lsSet('pada_pbody',PBODY);draw()},250)};
+ $('#phd').oninput=upd;$('#pbd').oninput=upd;$('#ptr').onclick=()=>{$('#phd').value='';$('#pbd').value='';upd()};
  document.querySelectorAll('#plev button').forEach(b=>b.onclick=()=>{PLEVEL=b.dataset.l;lsSet('pada_plevel',PLEVEL);PSEED=0;document.querySelectorAll('#plev button').forEach(x=>x.classList.toggle('on',x===b));$('#pin').placeholder=PLEVEL==='para'?'Шрифт для заголовка, например Anton':'Основной шрифт, например Golos Text';draw()});
  const setT=t=>{PTYPE=t;PSEED=0;document.querySelectorAll('#ptypes button').forEach(x=>x.classList.toggle('on',x.dataset.t===t));draw()};
  document.querySelectorAll('#ptypes button').forEach(b=>b.onclick=()=>setT(b.dataset.t));
