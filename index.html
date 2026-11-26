@@ -624,6 +624,8 @@ body.tg .mbtn{display:none!important}
 .ptx{margin:-8px 0 18px}.ptx summary{cursor:pointer;font-size:14px;color:var(--mut);list-style:none;display:inline-block;padding:6px 12px;border-radius:999px;background:var(--soft)}.ptx summary::-webkit-details-marker{display:none}.ptx[open] summary{background:var(--ink);color:var(--pap)}
 .ptxr{display:grid;grid-template-columns:1fr 1.4fr auto;gap:8px;margin-top:10px;align-items:start}.ptxr textarea{resize:vertical;min-height:46px;font:inherit}
 @media(max-width:800px){.ptxr{grid-template-columns:1fr}}
+.rv2 .swst{aspect-ratio:auto;height:min(62vh,560px)}.rvc{background:var(--wh);display:flex;flex-direction:column}.rvc .pcard{height:100%;border-radius:0}.rvc .pl{min-height:0}.rvq{padding:0 20px 16px;font-size:14px;color:var(--mut)}
+.rvexp{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}.rvexp span{font-size:13px;color:var(--mut);flex:1 1 260px}
 .ptypes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}.ptypes button{border:1px solid var(--ln);background:transparent;border-radius:999px;padding:7px 13px;font:inherit;font-size:13px;cursor:pointer}.ptypes button.on{background:var(--ink);color:var(--pap);border-color:var(--ink)}
 .ptg{display:inline-block;font-weight:500;color:var(--ink);background:#FFE6D6;border-radius:6px;padding:1px 7px;margin-right:8px}
 .phow{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}.phc{text-align:left;border:0;background:var(--wh);border-radius:calc(var(--rk,1)*20px);padding:20px;display:flex;flex-direction:column;gap:8px;font:inherit;cursor:pointer;color:var(--ink)}.phc b{font-size:18px;font-weight:500}.phc span{font-size:14px;line-height:1.45;color:var(--mut)}.phc:hover{outline:2px solid var(--ink)}.plv{cursor:default;background:#FFE6D6}.plv:hover{outline:0}.pnote{background:var(--ink);cursor:default}.pnote b{color:var(--pap)}.pnote span{color:rgba(255,255,255,.7)}.pnote:hover{outline:0}
@@ -2150,6 +2152,54 @@ function lwCard(kind,p,h){const b=p.b,mh=MET[h[0]]||{},mb=MET[b[0]]||{};const sc
  return `<div class="pcard"><div class="pl lw">${art}</div><div class="pf"><span class="why"><b class="ptg">${PLEVELS[kind][0]}</b>${esc(p.why)}</span>
  <div class="pn2"><a href="#/font/${slug(h[0])}"><small>Основной</small>${esc(h[0])}</a><a href="#/font/${slug(b[0])}"><small>${kind==='line'?'Акцентное слово':'Буквы-акценты'}</small>${esc(b[0])}</a></div>
  <div class="pb"><button type="button" class="pill soft" data-css="${esc(h[0])}|${esc(b[0])}">CSS</button><button type="button" class="pill soft" data-fav="${esc(h[0])}|${esc(b[0])}">★ В журнал</button><button type="button" class="pill soft" data-png="1">PNG</button><button type="button" class="pill soft" data-link="${slug(h[0])}|${slug(b[0])}|${kind}">Ссылка</button></div></div></div>`}
+
+// ---------- Ревью пар «тиндером» (#/review): решаем сами, что хорошо, что нет ----------
+let REV=lsGet('pada_rev',{pairs:{},decor:{}});if(!REV.pairs)REV={pairs:{},decor:{}};
+let RVK=lsGet('pada_revk','pairs'),RVQ=[],RVI=0;
+function revQueue(kind){const out=[];
+ if(kind==='decor'){const cand=new Set();FONTS.forEach(f=>{if(isDecor(f))cand.add(f[0])});
+  // плюс шрифты, которые генератор чаще всего ставит буквами-акцентами
+  const heads=PICKS.map(n=>FONTS.find(f=>f[0]===n)).filter(Boolean).slice(0,40);const cnt={};heads.forEach(h=>wordFor(h,6).forEach(p=>cnt[p.b[0]]=(cnt[p.b[0]]||0)+1));
+  Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,40).forEach(([n])=>cand.add(n));
+  [...cand].forEach(n=>{if(!(n in REV.decor))out.push({k:'decor',n})});return out}
+ const heads=[...new Set([...PICKS,...PAIRS_HAND.map(x=>x[0])])].map(n=>FONTS.find(f=>f[0]===n)).filter(Boolean);
+ heads.forEach(h=>{pairsFor(h,2).forEach(([w,a,b,t])=>out.push({k:'para',h,b,why:w,t}));const l=lineFor(h,1)[0];if(l)out.push({k:'line',h,b:l.b,why:l.why});const wd=wordFor(h,1)[0];if(wd)out.push({k:'word',h,b:wd.b,why:wd.why})});
+ return out.filter(x=>!((x.k+'|'+x.h[0]+'|'+x.b[0]) in REV.pairs)).sort((a,b)=>prnd(a.h[0]+a.b[0]+a.k)-prnd(b.h[0]+b.b[0]+b.k))}
+function revCardHTML(it){
+ if(it.k==='decor'){const f=FONTS.find(x=>x[0]===it.n);const h=FONTS.find(x=>x[0]==='Golos Text');return lwCard('word',{b:f,why:'Можно ли такие буквы вставлять в слово?'},h)+`<div class="rvq">${esc(it.n)}: слишком декоративный для акцентов?</div>`}
+ if(it.k==='para')return pairCard(it.why,it.h,it.b,'site',1,it.t);
+ return lwCard(it.k,it,it.h)}
+function review(){
+ const nP=Object.keys(REV.pairs).length,nD=Object.keys(REV.decor).length;
+ app.innerHTML=`<div class="wrap sw2 rv2"><div>
+  <div class="mono" style="font-size:11px;color:var(--mut)">★ РЕВЬЮ ПАР · ДЛЯ КОМАНДЫ · ${nP} ПАР И ${nD} ШРИФТОВ ОЦЕНЕНО</div>
+  <h1 style="margin:10px 0 14px;font-weight:400;font-size:clamp(34px,4vw,52px);letter-spacing:-1.6px;line-height:1">Хорошая пара или <span class="plq">нет?</span></h1>
+  <div class="pseg rvt" style="margin:0 0 14px"><button type="button" data-k="pairs" class="${RVK==='pairs'?'on':''}">Пары</button><button type="button" data-k="decor" class="${RVK==='decor'?'on':''}">Слишком декоративные?</button></div>
+  <div class="swst rvst" id="rvst"></div>
+  <div class="swinfo"><b id="rvn"></b><span class="mono" id="rvc" style="font-size:12px;color:var(--mut)"></span></div>
+  <div class="swbtn"><button class="n" type="button" data-v="-1"><span id="rvno">✕ Не то</span><small>←</small></button><button class="s" type="button" data-v="0">Пропустить<small>↓</small></button><button class="y" type="button" data-v="1"><span id="rvyes">♥ Хорошая</span><small>→</small></button></div>
+  <div class="rvexp"><button type="button" class="pill dark" id="rvcp">Скопировать результаты</button><button type="button" class="pill soft" id="rvun">Отменить последнее</button><span>Оценки хранятся в этом браузере. Когда закончишь, скопируй и пришли в чат: хорошие пары попадут в витрину, плохие — в запрет, декоративные — в исключения.</span></div></div></div>`;
+ RVQ=revQueue(RVK==='decor'?'decor':'pairs');RVI=0;revDraw();
+ document.querySelectorAll('.rvt button').forEach(b=>b.onclick=()=>{RVK=b.dataset.k;lsSet('pada_revk',RVK);review()});
+ document.querySelectorAll('.swbtn button').forEach(b=>b.onclick=()=>revVote(+b.dataset.v));
+ $('#rvcp').onclick=()=>{const good=[],bad=[];Object.entries(REV.pairs).forEach(([k,v])=>(v>0?good:bad).push(k));const t=JSON.stringify({good,bad,decor_ban:Object.keys(REV.decor).filter(k=>REV.decor[k]<0),decor_ok:Object.keys(REV.decor).filter(k=>REV.decor[k]>0)},null,1);(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Результаты скопированы — пришли их в чат')).catch(()=>prompt('Результаты',t))};
+ $('#rvun').onclick=()=>{const L=REV._last;if(!L)return;delete (L.k==='decor'?REV.decor:REV.pairs)[L.id];REV._last=null;lsSet('pada_rev',REV);review()};
+ document.onkeydown=e=>{if(!location.hash.startsWith('#/review')||/INPUT|TEXTAREA/.test(document.activeElement.tagName))return;if(e.key==='ArrowLeft')revVote(-1);else if(e.key==='ArrowRight')revVote(1);else if(e.key==='ArrowDown')revVote(0)}}
+function revDraw(){const st=$('#rvst');if(!st)return;const it=RVQ[RVI];st.innerHTML='';
+ $('#rvno').textContent=RVK==='decor'?'✕ Слишком':'✕ Не то';$('#rvyes').textContent=RVK==='decor'?'♥ Можно':'♥ Хорошая';
+ if(!it){st.innerHTML='<div class="empty">Всё оценено. Скопируй результаты и пришли в чат.</div>';$('#rvn').textContent='';$('#rvc').textContent='';return}
+ $('#rvc').textContent=`${RVI+1} из ${RVQ.length}`;$('#rvn').textContent=it.k==='decor'?it.n:`${it.h[0]} + ${it.b[0]}`;
+ const c=document.createElement('div');c.className='swc rvc';c.innerHTML=revCardHTML(it)+'<div class="stamp y">'+(RVK==='decor'?'МОЖНО':'ХОРОШАЯ')+'</div><div class="stamp n">'+(RVK==='decor'?'СЛИШКОМ':'НЕ ТО')+'</div>';st.appendChild(c);
+ c.querySelectorAll('.pb').forEach(x=>x.remove());
+ const fs=[it.h,it.b,it.n&&FONTS.find(x=>x[0]===it.n),FONTS.find(x=>x[0]==='Golos Text')].filter(Boolean);
+ Promise.all(fs.map(f=>loadFont(f).catch(()=>{})).concat(it.k==='line'?[loadItalic(it.b)]:[])).then(()=>document.fonts.ready).then(()=>{fitAccents(c);try{opticalSpace(c)}catch(e){}fitAll(c)});fitAll(c);
+ let x0=null,dx=0;c.onpointerdown=e=>{x0=e.clientX;c.setPointerCapture(e.pointerId);c.style.transition='none'};
+ c.onpointermove=e=>{if(x0==null)return;dx=e.clientX-x0;c.style.transform=`translateX(${dx}px) rotate(${dx/18}deg)`;c.querySelector('.stamp.y').style.opacity=Math.max(0,dx/120);c.querySelector('.stamp.n').style.opacity=Math.max(0,-dx/120)};
+ c.onpointerup=()=>{if(x0==null)return;x0=null;c.style.transition='';if(Math.abs(dx)>110)revVote(dx>0?1:-1);else{c.style.transform='';c.querySelectorAll('.stamp').forEach(s=>s.style.opacity=0)}dx=0}}
+function revVote(v){const it=RVQ[RVI];if(!it)return;
+ if(v!==0){const id=it.k==='decor'?it.n:it.k+'|'+it.h[0]+'|'+it.b[0];(it.k==='decor'?REV.decor:REV.pairs)[id]=v;REV._last={k:it.k,id};lsSet('pada_rev',REV)}
+ const c=document.querySelector('.rvc');if(c&&v){c.style.transform=`translateX(${v*600}px) rotate(${v*24}deg)`;c.style.opacity=0}
+ setTimeout(()=>{RVI++;revDraw();const n=$('.rv2 .mono');if(n)n.textContent=`★ РЕВЬЮ ПАР · ДЛЯ КОМАНДЫ · ${Object.keys(REV.pairs).length} ПАР И ${Object.keys(REV.decor).length} ШРИФТОВ ОЦЕНЕНО`},v?220:0)}
 const PMODES=[['site','Сайт'],['slide','Слайд'],['poster','Афиша'],['reel','Рилс']];
 function pairCard(why,h,b,mode,noMore,t){
  const H=`font-family:${fam(h)};font-weight:${heavyW(h)}`,B=`font-family:${fam(b)};font-weight:${baseW(b)}`,ph=esc(ptext()),
@@ -2670,6 +2720,7 @@ async function route(){if(!window._tgi){window._tgi=1;tgInit();setTimeout(logoIn
  if(h==='#/journal'){journal();return}
  if(h==='#/compare'){compare();return}
  if(h==='#/shape'){document.title='Поиск шрифта по пропорциям';shape();return}
+ if(h==='#/review'){document.title='Ревью пар';review();return}
  if(h.startsWith('#/pairs')){document.title='Шрифтовые пары — генератор';pairsPage();return}
  if(h==='#/find'){document.title='Найти шрифт по картинке';findPage();return}
  if(h==='#/swipe'){document.title='Свайп шрифтов';swipe();return}
