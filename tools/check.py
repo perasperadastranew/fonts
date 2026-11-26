@@ -253,6 +253,19 @@ def main():
             E('files-missing', f'нет архива в ветке files у {len(miss)} шрифтов, например «{miss[0]}» — залей через tools/upload_zip.py')
     except Exception as e:
         print(f'⚠️  Ветку files проверить не удалось ({type(e).__name__}) — нет сети или git')
+    # синтаксис главного скрипта: одна ошибка в JS ломает весь сайт
+    try:
+        import re as _re, tempfile as _tf
+        _big = max(_re.findall(r'<script>(.*?)</script>', open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read(), _re.S), key=len)
+        with _tf.NamedTemporaryFile('w', suffix='.js', delete=False, encoding='utf-8') as _t:
+            _t.write(_big)
+        _r = subprocess.run(['node', '--check', _t.name], capture_output=True, text=True)
+        if _r.returncode != 0:
+            _ln = [l for l in _r.stderr.splitlines() if 'Error' in l] or ['?']
+            _at = [l for l in _r.stderr.splitlines() if l.startswith(_t.name)]
+            E('js-syntax', 'ошибка в скрипте index.html: ' + _ln[0][:160] + (' (строка скрипта ' + _at[0].rsplit(':', 1)[-1] + ')' if _at else ''))
+    except FileNotFoundError:
+        print('⚠️  node не найден — синтаксис скрипта не проверен')
     for k, mem in sets.items():
         for n in mem:
             if n not in names:

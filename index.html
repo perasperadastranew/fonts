@@ -2128,38 +2128,64 @@ const PLEVELS={para:['В абзаце','Заголовок одним шрифт
 function licOk(f){try{return licInfo(f).ok}catch(e){return false}}
 // курсив шрифта: подгружаем отдельно (в каталоге грузятся только прямые начертания)
 const itLoaded={};
-function loadItalic(f){if(!f[7]||itLoaded[f[0]])return itLoaded[f[0]]||Promise.resolve();const it=f[8].filter(x=>x[3]);if(!it.length)return Promise.resolve();
- const pick=[...new Set([it.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-400)-Math.abs((b[1]+b[2])/2-400))[0],it.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-700)-Math.abs((b[1]+b[2])/2-700))[0]])];
- itLoaded[f[0]]=Promise.all(pick.map(x=>{const fc=new FontFace(f[0],x[4]?`url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}") format("woff2")`:`url("${REPO}fonts/${f[7]}/${encodeURIComponent(x[0])}")`,{weight:x[1]===x[2]?String(x[1]):`${x[1]} ${x[2]}`,style:'italic'});return fc.load().then(r=>document.fonts.add(r)).catch(()=>{})}));return itLoaded[f[0]]}
+function loadItalic(f,wt){const K=f[0]+'@'+(wt||0);if(!f[7]||itLoaded[K])return itLoaded[K]||Promise.resolve();const it=f[8].filter(x=>x[3]);if(!it.length)return Promise.resolve();
+ const near=w=>it.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-w)-Math.abs((b[1]+b[2])/2-w))[0];const pick=[...new Set(wt?[near(wt)]:[near(400),near(700)])];
+ itLoaded[K]=Promise.all(pick.map(x=>{const fc=new FontFace(f[0],x[4]?`url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}") format("woff2")`:`url("${REPO}fonts/${f[7]}/${encodeURIComponent(x[0])}")`,{weight:x[1]===x[2]?String(x[1]):`${x[1]} ${x[2]}`,style:'italic'});return fc.load().then(r=>document.fonts.add(r)).catch(()=>{})}));return itLoaded[K]}
+const upLoaded={};
+// прямое начертание нужной толщины (в каталоге грузятся только 400 и 700)
+function loadUpright(f,wt){const K=f[0]+'@'+wt;if(!f[7]||upLoaded[K])return upLoaded[K]||Promise.resolve();const up=f[8].filter(x=>!x[3]);if(!up.length)return Promise.resolve();
+ const x=up.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-wt)-Math.abs((b[1]+b[2])/2-wt))[0];if(x[1]<=wt&&wt<=x[2]&&x[1]!==x[2])return loadFont(f);
+ const fc=new FontFace(f[0],x[4]?`url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}") format("woff2")`:`url("${REPO}fonts/${f[7]}/${encodeURIComponent(x[0])}")`,{weight:String(x[1]),style:'normal'});
+ return upLoaded[K]=fc.load().then(r=>document.fonts.add(r)).catch(()=>{})}
 const hasIt=f=>f[6]||f[8].some(x=>x[3]);
 // слишком декоративные для акцентов: узор, фактура, пиксели, обводка, тени
-const DECOR=/maze|pixel|bits|beastly|bubble|spray|glitch|noise|doodle|puddle|burn|vinyl|storm|microbe|moonrock|lines|stripe|dirt|distress|stencil|outline|inline|shadow|3d|grunge|pinstripe|mosaic|zebra|hatch|gemstone|wonder|dots?\b|\biso\b|metal|blood|horror|zombie|tag\b|graffiti/i;
+const DECOR=/maze|pixel|bits|beastly|bubble|spray|glitch|noise|doodle|puddle|burn|vinyl|storm|microbe|moonrock|lines|stripe|dirt|distress|stencil|outline|inline|shadow|3d|grunge|pinstripe|mosaic|zebra|hatch|gemstone|wonder|dots?\b|\biso\b|maps|steam|blob|christmas|tiny|catacomb|fade|wet\b|vpch|mavoble|underline|broken|fax|radon|metal|blood|horror|zombie|tag\b|graffiti/i;
 let DECS=null;const isDecor=f=>{if(!DECS){DECS=new Set();const px=SETS.find(x=>x[0]==='pixel');if(px)px[3].forEach(n=>DECS.add(n))}return (DECOR.test(f[0])&&!/didot/i.test(f[0]))||DECS.has(f[0])};
 let LPOOL=null;
 function linePool(){if(LPOOL)return LPOOL;LPOOL=FONTS.filter(f=>!CAPS.has(f[0])&&!STUB.has(f[0])&&!isDecor(f)&&MET[f[0]]&&licOk(f)&&(QS[f[0]]??40)>=50&&((f[1]==='Антиква'&&hasIt(f))||f[1]==='Рукописный'||(f[1]==='Гротеск'&&hasIt(f)&&TEXTS.includes(f[0]))));return LPOOL}
 // во фразе: акцентное слово другим шрифтом
-function lineFor(h,n=6,seed=0){
- const mh=MET[h[0]]||{},hv=heavyW(h)>=600;
- // по ревью: приём работает, когда основной шрифт спокойный (текстовый гротеск, моно или книжная/дисплейная антиква средней плотности),
- // а акцент — курсивная антиква. Каллиграфия, фактурные и очень плотные заголовки не подходят.
- if(isScript(h)||isDecor(h)||h[1]==='Рукописный'||(mh.dens||0)>0.4||(h[1]==='Акцидентный'&&(mh.dens||0)>0.33&&h[0]!=='Yeseva One'))return [];
- if(h[1]==='Антиква'){// у антиквы лучший акцент — её собственный курсив
-  return hasIt(h)&&!PREV_BAD.has('line|'+h[0]+'|'+h[0])?[{b:h,s:9,why:'Курсив того же шрифта — классика'}]:[]}
- const P=linePool().map(b=>{if(b===h||famKey(b[0])===famKey(h[0])||b[1]!=='Антиква')return null;const id='line|'+h[0]+'|'+b[0];if(PREV_BAD.has(id))return null;
-  const mb=MET[b[0]];let s=3,why=hv?'Жирный заголовок + светлый курсив':'Прямой гротеск + курсивная антиква';
-  if(PREV_GOOD.has(id)){s=9;why='Проверено командой'}
-  const sc=(mh.xH||.72)/(mb.xH||.72);if(sc<.78||sc>1.3)s-=2;
-  s+=((QS[b[0]]??40)-60)/30+(TEXTS.includes(b[0])?.8:0);return {b,s,why}}).filter(p=>p&&p.s>0);
- P.forEach(p=>p.r=p.s+prnd('L'+h[0]+'|'+p.b[0]+'|'+seed)*(seed?3:1.4));P.sort((a,b)=>b.r-a.r);
- const out=[],fams=new Set();for(const p of P){const k=famKey(p.b[0]);if(fams.has(k))continue;fams.add(k);out.push(p);if(out.length>=n)break}return out}
+// типы сочетаний во фразе (заголовке): что ставим акцентным словом
+const LTYPES={serif:['Гротеск + антиква','Акцентное слово курсивной антиквой. Самый частый приём в обложках и каруселях.'],
+ hand:['Гротеск + рукописный','Слово «от руки»: маркер или живой почерк. Добавляет голос и эмоцию.'],
+ weight:['Жирный + тонкий','Один шрифт, разная толщина. Самый аккуратный способ выделить слово.'],
+ display:['Гротеск + акцидентный','Слово другим ярким шрифтом: узкое к широкому, плотное к лёгкому.'],
+ mono:['Гротеск + моно','Слово моноширинным — технично, как подпись или код.'],
+ own:['Антиква + её курсив','Классика книжной типографики: курсив того же шрифта.']};
+const MONOS=['JetBrains Mono','IBM Plex Mono','Martian Mono','Geist Mono','Fira Code','Ubuntu Sans Mono','PT Mono','Roboto Mono','Fira Mono'];
+const HANDS=['Mister Brush','Permanent Marker Cyrillic','Sriracha Cyrillic','Kom-post','Pangolin','Shnobel','Caveat','Marck Script','Neucha','Gochi Hand Cyrillic','Crosspath Hand','Itim Cyrillic','Shantell Sans','Bad Script','Amatic SC','Comforter','Pacifico'];
+const BRUSH=['Mister Brush','Permanent Marker Cyrillic','Sriracha Cyrillic','Kom-post','Pangolin','Shnobel'];
+const itMaxW=f=>{const it=f[8].filter(x=>x[3]);return it.length?Math.max(...it.map(x=>x[2])):0};
+const wRange=f=>{if(f[2])return [f[3],f[4]];const w=f[8].filter(x=>!x[3]).map(x=>x[1]);return [Math.min(...w),Math.max(...w)]};
+function lineFor(h,n=6,seed=0,type=''){
+ const mh=MET[h[0]]||{},hw=heavyW(h),heavy=hw>=700||(mh.dens||0)>0.36,narrow=(mh.wid||1.15)<1.0;
+ if(isScript(h)||isDecor(h)||h[1]==='Рукописный')return [];
+ const P=[];const add=(b,t,s,why,o={})=>{const id='line|'+h[0]+'|'+b[0];if(PREV_BAD.has(id))return;if(PREV_GOOD.has(id)){s=9;why='Проверено командой'}P.push(Object.assign({b,t,s,why},o))};
+ // жирный + тонкий одного шрифта
+ const [lo,hi]=wRange(h);if(hi-lo>=300&&h[1]!=='Моно')add(h,'weight',3.4,'Один шрифт: жирный и тонкий',{w:lo,hw:Math.min(hi,Math.max(hw,700)),it:0});
+ // антиква + её курсив
+ if(h[1]==='Антиква'&&hasIt(h))add(h,'own',3.6,'Курсив того же шрифта — классика',{w:heavy?Math.min(itMaxW(h),hw):baseW(h),it:1});
+ FONTS.forEach(b=>{if(b===h||famKey(b[0])===famKey(h[0])||!licOk(b)||STUB.has(b[0])||!MET[b[0]])return;const mb=MET[b[0]];const q=((QS[b[0]]??40)-60)/30+(TEXTS.includes(b[0])?.8:0);
+  if(b[1]==='Антиква'&&hasIt(b)&&h[1]!=='Антиква'){const mx=itMaxW(b);let s=3+q,w,wd=0,why;
+   if(heavy){if(mx<700)return;w=Math.min(mx,hw>=800?900:800);why=narrow?'Узкий жирный заголовок + узкий жирный курсив':'Жирный заголовок + жирный курсив'}else{w=baseW(b);why='Гротеск + курсивная антиква'}
+   if(narrow){const W=WDTH[b[0]];if(W&&W[0]<=75){wd=Math.max(W[0],Math.round(100*(mh.wid||.9)/(mb.wid||1.3)/5)*5);s+=2.2}else s-=((mb.wid||1.3)-1.15)*8}
+   add(b,'serif',s,why,{w,wd,it:1})}
+  else if(HANDS.includes(b[0])){const br=BRUSH.includes(b[0]);if(heavy&&!br)return;add(b,'hand',(br===heavy?3:2.2)+q,br?'Заголовок + слово маркером':'Заголовок + слово от руки',{w:baseW(b),it:0})}
+  else if(b[1]==='Моно'&&h[1]!=='Моно'&&(QS[b[0]]??40)>=60&&!isDecor(b)){const [l2,h2]=wRange(b);add(b,'mono',2.4+q+(MONOS.includes(b[0])?1.5:0),'Заголовок + моноширинное слово',{w:heavy?Math.min(h2,700):Math.min(h2,500),it:0})}
+  else if(b[1]==='Акцидентный'&&!isDecor(b)&&!isScript(b)&&(QS[b[0]]??40)>=65){const dd=Math.abs((mh.dens||.3)-mb.dens);if(dd>0.12)return;const dw=Math.abs((mh.wid||1.15)-mb.wid);if(dw<0.2)return;add(b,'display',2.2+q-dd*10+Math.min(1,dw),'Заголовок + яркое слово другой ширины',{w:heavyW(b),it:0})}});
+ P.forEach(p=>p.r=p.s+prnd('L'+h[0]+'|'+p.b[0]+'|'+p.t+'|'+seed)*(seed?3:1.4));P.sort((a,b)=>b.r-a.r);
+ const Q=type?P.filter(p=>p.t===type):P;const out=[],seen=new Set(),types={};
+ const take=p=>{const k=p.t+'|'+(p.b===h?'@':famKey(p.b[0]));if(seen.has(k))return;seen.add(k);out.push(p);types[p.t]=(types[p.t]||0)+1};
+ if(!type)for(const p of Q){if(out.length>=n)break;if(!types[p.t])take(p)}
+ for(const p of Q){if(out.length>=n)break;if(!out.includes(p))take(p)}
+ return out.slice(0,n)}
 // в слове: буквы-акценты другим шрифтом той же толщины и высоты
 function wordFor(h,n=6,seed=0){
- const mh=MET[h[0]];if(!mh||isScript(h)||h[1]==='Рукописный'||mh.xH>=0.95)return [];
- const P=FONTS.filter(b=>b!==h&&MET[b[0]]&&!STUB.has(b[0])&&!isDecor(b)&&b[1]!=='Рукописный'&&!isScript(b)&&(MET[b[0]].xH<0.95)&&!PREV_BAD.has('word|'+h[0]+'|'+b[0])&&licOk(b)&&(QS[b[0]]??40)>=45&&b[1]!=='Моно'&&famKey(b[0])!==famKey(h[0])).map(b=>{const mb=MET[b[0]];
-  const dd=Math.abs(mh.dens-mb.dens),dx=Math.abs(mh.xH-mb.xH);if(dd>0.06||dx>0.08)return null;
+ const mh=MET[h[0]];if(!mh||isScript(h)||h[1]==='Рукописный')return [];
+ const P=FONTS.filter(b=>b!==h&&MET[b[0]]&&!STUB.has(b[0])&&!isDecor(b)&&b[1]!=='Рукописный'&&(b[1]!=='Акцидентный'||(QS[b[0]]??40)>=60)&&!isScript(b)&&(MET[b[0]].xH<0.95)&&!PREV_BAD.has('word|'+h[0]+'|'+b[0])&&licOk(b)&&(QS[b[0]]??40)>=45&&b[1]!=='Моно'&&famKey(b[0])!==famKey(h[0])).map(b=>{const mb=MET[b[0]];
+  const capsH=CAPS.has(h[0])||mh.xH>0.9;const dd=Math.abs(mh.dens-mb.dens),dx=capsH?0:Math.abs(mh.xH-mb.xH);if(dd>0.06||dx>0.08)return null;
   let s=3-dd*25-dx*15-Math.abs(mh.wid-mb.wid)*3,why;
   if(b[1]===h[1]){s-=1.2;why='Тот же класс, другая форма букв'}else why=`${CAT[h[1]][0].toUpperCase()+CAT[h[1]].slice(1)} + буквы-${b[1]==='Антиква'?'засечки':b[1]==='Рукописный'?'росчерки':'акценты'}`;
-  if(b[1]==='Акцидентный'||b[1]==='Антиква')s+=.6;
+  if(b[1]==='Антиква')s+=1.5;else if(b[1]==='Акцидентный')s-=.8;
   s+=((QS[b[0]]??40)-60)/40;if(PREV_GOOD.has('word|'+h[0]+'|'+b[0])){s+=6;why='Проверено командой'}return {b,s,why}}).filter(Boolean);
  P.forEach(p=>p.r=p.s+prnd('W'+h[0]+'|'+p.b[0]+'|'+seed)*(seed?3:1.4));P.sort((a,b)=>b.r-a.r);
  const out=[],fams=new Set();for(const p of P){const k=famKey(p.b[0]);if(fams.has(k))continue;fams.add(k);out.push(p);if(out.length>=n)break}return out}
@@ -2184,25 +2210,30 @@ function fitAccents(root){const cv=document.createElement('canvas').getContext('
  root.querySelectorAll('[data-fit]').forEach(el=>{const host=el.parentElement,hs=getComputedStyle(host),es=getComputedStyle(el);const ch=el.dataset.fit==='cap'?'НЗВП':'хнвп';
   const a=asc(hs.fontFamily,hs.fontWeight,'normal',ch),b=asc(es.fontFamily,es.fontWeight,es.fontStyle,ch);if(a>0&&b>0)el.style.fontSize=Math.max(.6,Math.min(1.6,a/b)).toFixed(3)+'em'})}
 function lwCard(kind,p,h){const b=p.b,mh=MET[h[0]]||{},mb=MET[b[0]]||{};const sc=Math.max(.8,Math.min(1.3,(mh.xH||.72)/(mb.xH||.72)));
- const H=`font-family:${fam(h)};font-weight:${heavyW(h)}`;let art;
- if(kind==='line'){const ws=ptext().split(/\s+/);let k=-1,bl=0;ws.forEach((w,i)=>{const L=w.replace(/[^\p{L}]/gu,'').length;if(i>0&&L>2&&L>bl){bl=L;k=i}});if(k<0)k=ws.length>1?ws.length-1:0;
-  const it=hasIt(b)&&b[1]!=='Рукописный';const st=`--fit:x;font-family:${fam(b)};font-style:${it?'italic':'normal'};font-weight:${b[1]==='Рукописный'?baseW(b):(heavyW(h)>=600?Math.min(500,heavyW(b)):baseW(b))};font-size:${sc.toFixed(3)}em`;
-  art=`<div class="lwl" data-mx="60" data-ln="2" style="${H}">${ws.map((w,i)=>(i===k?`<span data-fit="x" style="${st}">${esc(w)}</span>`:esc(w))+(i<ws.length-1?(w.length<=2?'&nbsp;':' '):'')).join('')}</div>`}
+ let H=`font-family:${fam(h)};font-weight:${heavyW(h)}`;let art;
+ if(kind==='line'){if(p.hw)H=`font-family:${fam(h)};font-weight:${p.hw}`;const capsH=CAPS.has(h[0])||(mh.xH||0)>0.8;const ws=(capsH?ptext().toUpperCase():ptext()).split(/\s+/);let k=-1,bl=0;ws.forEach((w,i)=>{const L=w.replace(/[^\p{L}]/gu,'').length;if(i>0&&L>2&&L>bl){bl=L;k=i}});if(k<0)k=ws.length>1?ws.length-1:0;
+  const it=p.it!=null?!!p.it:(hasIt(b)&&b[1]!=='Рукописный');const aw=p.w||baseW(b);const st=`--fit:x;font-family:${fam(b)};font-style:${it?'italic':'normal'};font-weight:${aw};${p.wd?`font-variation-settings:'wdth' ${p.wd},'wght' ${aw};`:''}font-size:${sc.toFixed(3)}em`;
+  art=`<div class="lwl" data-mx="60" data-ln="2" style="${H}">${ws.map((w,i)=>(i===k?`<span data-fit="${capsH?'cap':'x'}" style="${st}">${esc(w)}</span>`:esc(w))+(i<ws.length-1?(w.length<=2?'&nbsp;':' '):'')).join('')}</div>`}
  else{const {w,sel}=wordPick();const caps=CAPS.has(h[0])||(mh.xH||0)>0.8;const W=caps?w.toUpperCase():w;const fs=Math.min(86,Math.round(560/Math.max(5,W.length)*1.25));const bw=Math.min(b[2]&&b[3]<b[4]?b[4]:Math.max(...b[8].filter(x=>!x[3]).map(x=>x[2])),Math.max(heavyW(h),b[3]));
   art=`<div class="lww" data-mx="130" data-ln="1" style="${H};font-size:${fs}px">${[...W].map((c,i)=>sel.includes(i)?`<span data-fit="${caps?'cap':'x'}" style="font-family:${fam(b)};font-weight:${bw};font-size:${(caps?1:sc).toFixed(3)}em">${esc(c)}</span>`:esc(c)).join('')}</div>`}
- return `<div class="pcard"><div class="pl lw">${art}</div><div class="pf"><span class="why"><b class="ptg">${PLEVELS[kind][0]}</b>${esc(p.why)}</span>
+ return `<div class="pcard"><div class="pl lw">${art}</div><div class="pf"><span class="why"><b class="ptg">${kind==='line'&&p.t&&LTYPES[p.t]?LTYPES[p.t][0].replace('Гротеск',h[1]==='Антиква'?'Антиква':h[1]==='Моно'?'Моно':'Гротеск'):PLEVELS[kind][0]}</b>${esc(p.why)}</span>
  <div class="pn2"><a href="#/font/${slug(h[0])}"><small>Основной</small>${esc(h[0])}</a><a href="#/font/${slug(b[0])}"><small>${kind==='line'?'Акцентное слово':'Буквы-акценты'}</small>${esc(b[0])}</a></div>
  <div class="pb"><button type="button" class="pill soft" data-css="${esc(h[0])}|${esc(b[0])}">CSS</button><button type="button" class="pill soft" data-fav="${esc(h[0])}|${esc(b[0])}">★ В журнал</button><button type="button" class="pill soft" data-png="1">PNG</button><button type="button" class="pill soft" data-link="${slug(h[0])}|${slug(b[0])}|${kind}">Ссылка</button></div></div></div>`}
 
 // ---------- Ревью пар «тиндером» (#/review): решаем сами, что хорошо, что нет ----------
 let REV=lsGet('pada_rev',{pairs:{},decor:{}});if(!REV.pairs)REV={pairs:{},decor:{}};
-let RVK=lsGet('pada_revk','pairs'),RVQ=[],RVI=0;
+let RVK=lsGet('pada_revk','heads'),RVQ=[],RVI=0;
 function revQueue(kind){const out=[];
  if(kind==='decor'){const cand=new Set();FONTS.forEach(f=>{if(isDecor(f))cand.add(f[0])});
   // плюс шрифты, которые генератор чаще всего ставит буквами-акцентами
   const heads=PICKS.map(n=>FONTS.find(f=>f[0]===n)).filter(Boolean).slice(0,40);const cnt={};heads.forEach(h=>wordFor(h,6).forEach(p=>cnt[p.b[0]]=(cnt[p.b[0]]||0)+1));
   Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,40).forEach(([n])=>cand.add(n));
   [...cand].forEach(n=>{if(!(n in REV.decor))out.push({k:'decor',n})});return out}
+ if(kind==='heads'){// жирные и узкие заголовочные шрифты для контента: каждый приём во фразе + буквы в слове
+  const sets=['reels','poster','druk','loud'].flatMap(k=>(SETS.find(x=>x[0]===k)||[,,,[]])[3]);
+  const hs=[...new Set(['Anton','Bebas Neue','Alumni Sans','Oswald','Dela Gothic One','Russo One','Unbounded','Golos Text','Onest','Inter Tight','Manrope','Geist',...sets])].map(n=>FONTS.find(f=>f[0]===n)).filter(f=>f&&!isDecor(f)&&!isScript(f)&&f[1]!=='Рукописный').slice(0,45);
+  hs.forEach(h=>{lineFor(h,6).forEach(p=>out.push(Object.assign({k:'line'},p,{h})));wordFor(h,3).forEach(p=>out.push({k:'word',h,b:p.b,why:p.why}))});
+  return out.filter(x=>!((x.k+'|'+x.h[0]+'|'+x.b[0]+(x.t==='weight'?'|w':'')) in REV.pairs)).sort((a,b)=>prnd(a.h[0]+a.b[0]+a.k+(a.t||''))-prnd(b.h[0]+b.b[0]+b.k+(b.t||'')))}
  const heads=[...new Set([...PICKS,...PAIRS_HAND.map(x=>x[0])])].map(n=>FONTS.find(f=>f[0]===n)).filter(Boolean);
  heads.forEach(h=>{pairsFor(h,2).forEach(([w,a,b,t])=>out.push({k:'para',h,b,why:w,t}));const l=lineFor(h,1)[0];if(l)out.push({k:'line',h,b:l.b,why:l.why});const wd=wordFor(h,1)[0];if(wd)out.push({k:'word',h,b:wd.b,why:wd.why})});
  return out.filter(x=>!((x.k+'|'+x.h[0]+'|'+x.b[0]) in REV.pairs)).sort((a,b)=>prnd(a.h[0]+a.b[0]+a.k)-prnd(b.h[0]+b.b[0]+b.k))}
@@ -2215,12 +2246,12 @@ function review(){
  app.innerHTML=`<div class="wrap sw2 rv2"><div>
   <div class="mono" style="font-size:11px;color:var(--mut)">★ РЕВЬЮ ПАР · ДЛЯ КОМАНДЫ · ${nP} ПАР И ${nD} ШРИФТОВ ОЦЕНЕНО</div>
   <h1 style="margin:10px 0 14px;font-weight:400;font-size:clamp(34px,4vw,52px);letter-spacing:-1.6px;line-height:1">Хорошая пара или <span class="plq">нет?</span></h1>
-  <div class="pseg rvt" style="margin:0 0 14px"><button type="button" data-k="pairs" class="${RVK==='pairs'?'on':''}">Пары</button><button type="button" data-k="decor" class="${RVK==='decor'?'on':''}">Слишком декоративные?</button></div>
+  <div class="pseg rvt" style="margin:0 0 14px"><button type="button" data-k="heads" class="${RVK==='heads'?'on':''}">Заголовки и буквы</button><button type="button" data-k="pairs" class="${RVK==='pairs'?'on':''}">Пары</button><button type="button" data-k="decor" class="${RVK==='decor'?'on':''}">Слишком декоративные?</button></div>
   <div class="swst rvst" id="rvst"></div>
   <div class="swinfo"><b id="rvn"></b><span class="mono" id="rvc" style="font-size:12px;color:var(--mut)"></span></div>
   <div class="swbtn"><button class="n" type="button" data-v="-1"><span id="rvno">✕ Не то</span><small>←</small></button><button class="s" type="button" data-v="0">Пропустить<small>↓</small></button><button class="y" type="button" data-v="1"><span id="rvyes">♥ Хорошая</span><small>→</small></button></div>
   <div class="rvexp"><button type="button" class="pill dark" id="rvcp">Скопировать результаты</button><button type="button" class="pill soft" id="rvun">Отменить последнее</button><span>Оценки хранятся в этом браузере. Когда закончишь, скопируй и пришли в чат: хорошие пары попадут в витрину, плохие — в запрет, декоративные — в исключения.</span></div></div></div>`;
- RVQ=revQueue(RVK==='decor'?'decor':'pairs');RVI=0;revDraw();
+ RVQ=revQueue(RVK);RVI=0;revDraw();
  document.querySelectorAll('.rvt button').forEach(b=>b.onclick=()=>{RVK=b.dataset.k;lsSet('pada_revk',RVK);review()});
  document.querySelectorAll('.swbtn button').forEach(b=>b.onclick=()=>revVote(+b.dataset.v));
  $('#rvcp').onclick=()=>{const good=[],bad=[];Object.entries(REV.pairs).forEach(([k,v])=>(v>0?good:bad).push(k));const t=JSON.stringify({good,bad,decor_ban:Object.keys(REV.decor).filter(k=>REV.decor[k]<0),decor_ok:Object.keys(REV.decor).filter(k=>REV.decor[k]>0)},null,1);(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Результаты скопированы — пришли их в чат')).catch(()=>prompt('Результаты',t))};
@@ -2233,12 +2264,12 @@ function revDraw(){const st=$('#rvst');if(!st)return;const it=RVQ[RVI];st.innerH
  const c=document.createElement('div');c.className='swc rvc';c.innerHTML=revCardHTML(it)+'<div class="stamp y">'+(RVK==='decor'?'МОЖНО':'ХОРОШАЯ')+'</div><div class="stamp n">'+(RVK==='decor'?'СЛИШКОМ':'НЕ ТО')+'</div>';st.appendChild(c);
  c.querySelectorAll('.pb').forEach(x=>x.remove());
  const fs=[it.h,it.b,it.n&&FONTS.find(x=>x[0]===it.n),FONTS.find(x=>x[0]==='Golos Text')].filter(Boolean);
- Promise.all(fs.map(f=>loadFont(f).catch(()=>{})).concat(it.k==='line'?[loadItalic(it.b)]:[])).then(()=>document.fonts.ready).then(()=>{fitAccents(c);try{opticalSpace(c)}catch(e){}fitAll(c)});fitAll(c);
+ Promise.all(fs.map(f=>loadFont(f).catch(()=>{})).concat(it.k==='line'&&it.it?[loadItalic(it.b,it.w)]:[]).concat(it.hw?[loadUpright(it.b,it.w),loadUpright(it.h,it.hw)]:[])).then(()=>document.fonts.ready).then(()=>{fitAccents(c);try{opticalSpace(c)}catch(e){}fitAll(c)});fitAll(c);
  let x0=null,dx=0;c.onpointerdown=e=>{x0=e.clientX;c.setPointerCapture(e.pointerId);c.style.transition='none'};
  c.onpointermove=e=>{if(x0==null)return;dx=e.clientX-x0;c.style.transform=`translateX(${dx}px) rotate(${dx/18}deg)`;c.querySelector('.stamp.y').style.opacity=Math.max(0,dx/120);c.querySelector('.stamp.n').style.opacity=Math.max(0,-dx/120)};
  c.onpointerup=()=>{if(x0==null)return;x0=null;c.style.transition='';if(Math.abs(dx)>110)revVote(dx>0?1:-1);else{c.style.transform='';c.querySelectorAll('.stamp').forEach(s=>s.style.opacity=0)}dx=0}}
 function revVote(v){const it=RVQ[RVI];if(!it)return;
- if(v!==0){const id=it.k==='decor'?it.n:it.k+'|'+it.h[0]+'|'+it.b[0];(it.k==='decor'?REV.decor:REV.pairs)[id]=v;REV._last={k:it.k,id};lsSet('pada_rev',REV)}
+ if(v!==0){const id=it.k==='decor'?it.n:it.k+'|'+it.h[0]+'|'+it.b[0]+(it.t==='weight'?'|w':'');(it.k==='decor'?REV.decor:REV.pairs)[id]=v;REV._last={k:it.k,id};lsSet('pada_rev',REV)}
  const c=document.querySelector('.rvc');if(c&&v){c.style.transform=`translateX(${v*600}px) rotate(${v*24}deg)`;c.style.opacity=0}
  setTimeout(()=>{RVI++;revDraw();const n=$('.rv2 .mono');if(n)n.textContent=`★ РЕВЬЮ ПАР · ДЛЯ КОМАНДЫ · ${Object.keys(REV.pairs).length} ПАР И ${Object.keys(REV.decor).length} ШРИФТОВ ОЦЕНЕНО`},v?220:0)}
 
@@ -2309,7 +2340,7 @@ function pairWire(root){
  root.querySelectorAll('[data-talk]').forEach(x=>{talkRun(x,{speech:(PBODY||'').trim()||TALK_SPEECH});const z=x.querySelector('[data-zone]');if(z)z.onclick=()=>{const t=x.querySelector('.tk');t.classList.toggle('zn');z.textContent=t.classList.contains('zn')?'Скрыть компоновку':'Показать компоновку'}});
  const L=[];root.querySelectorAll('.pcard').forEach(c=>c.querySelectorAll('.pn2 a').forEach(a=>{const f=bySlug(a.getAttribute('href').slice(7));if(f)L.push(loadFont(f).catch(()=>{}))}));
  fitAll(root);Promise.all(L).then(()=>document.fonts.ready).then(()=>fitAll(root))}
-let PSEED=0,PTYPE='',PMODE=lsGet('pada_pmode','site'),PLEVEL=lsGet('pada_plevel','para'),PHEAD=lsGet('pada_phead',''),PBODY=lsGet('pada_pbody','');
+let PSEED=0,PTYPE='',LTYPE='',PMODE=lsGet('pada_pmode','site'),PLEVEL=lsGet('pada_plevel','para'),PHEAD=lsGet('pada_phead',''),PBODY=lsGet('pada_pbody','');
 const PBODY0='Экипаж собрался в шесть утра. До старта три часа: проверить приборы, повторить план полёта и выпить чаю.';
 const ptext=()=>(PHEAD||'').trim()||phrase();
 function pairsPage(){
@@ -2325,16 +2356,17 @@ function pairsPage(){
  <div class="pseg">${PMODES.map(([k,t])=>`<button type="button" class="${k===PMODE?'on':''}" data-m="${k}">${t}</button>`).join('')}</div></div>
  <details class="ptx"${PHEAD||PBODY?' open':''}><summary>Свой текст</summary><div class="ptxr"><input class="finp" id="phd" placeholder="Заголовок — по умолчанию фраза сайта" value="${esc(PHEAD)}"><textarea class="finp" id="pbd" rows="2" placeholder="Абзац текста">${esc(PBODY)}</textarea><button type="button" class="pill soft" id="ptr">Сбросить</button></div></details>
  ${hf&&bf?'<div class="sh" style="margin-top:8px"><h2>Пара по ссылке</h2></div><div class="pgrid" id="plink" style="margin-bottom:40px"></div><div class="sh"><h2>Другие варианты</h2></div>':''}
+ <div class="ptypes" id="ltypes" hidden><button type="button" class="on" data-lt="">Все приёмы</button>${Object.entries(LTYPES).map(([k,[n]])=>`<button type="button" data-lt="${k}">${n}</button>`).join('')}</div>
  <div class="ptypes" id="ptypes"><button type="button" class="on" data-t="">Все типы</button>${Object.entries(PTYPES).map(([k,[n]])=>`<button type="button" data-t="${k}">${n}</button>`).join('')}</div>
  <div class="pgrid" id="pres"></div>
  <div class="sh" id="phandH" style="margin-top:56px"><h2>${hf?'Ещё и готовые пары':'Готовые пары'}</h2><small>собраны вручную</small></div><div class="pgrid" id="phand"></div>
  <div class="sh" style="margin-top:56px"><h2>Как работают пары</h2><small>семь схем и три уровня · один шрифт ведёт, второй работает</small></div>
  <div class="phow">${Object.entries(PTYPES).map(([k,[n,d]])=>`<button type="button" class="phc" data-t="${k}"><b>${n}</b><span>${d}</span></button>`).join('')}
- ${Object.entries(PLEVELS).map(([k,[n,d]])=>`<div class="phc plv"><b>${n}</b><span>${d}</span></div>`).join('')}<div class="phc pnote"><b>Общие правила</b><span>Два шрифта, максимум три (третий — моно для подписей). Контраст должен быть явным: два похожих гротеска выглядят как ошибка. Близкая высота строчных — и строки не спорят. Настроение общее: строгий заголовок — строгий текст.</span></div></div></div>`;
+ ${Object.entries(PLEVELS).map(([k,[n,d]])=>`<div class="phc plv"><b>${n}</b><span>${d}</span></div>`).join('')}${Object.entries(LTYPES).map(([k,[n,d]])=>`<div class="phc plv"><b>Во фразе: ${n.toLowerCase()}</b><span>${d}</span></div>`).join('')}<div class="phc pnote"><b>Общие правила</b><span>Два шрифта, максимум три (третий — моно для подписей). Контраст должен быть явным: два похожих гротеска выглядят как ошибка. Близкая высота строчных — и строки не спорят. Настроение общее: строгий заголовок — строгий текст.</span></div></div></div>`;
  const draw=()=>{const res=$('#pres');const para=PLEVEL==='para';document.querySelectorAll('.prs .pgrid').forEach(g=>g.classList.toggle('wide',para&&PMODE==='reel'));
-  const pl=$('#plink');if(pl&&hf&&bf){if(para){const sc=pairScore(hf,bf);pl.innerHTML=pairCard(sc?sc.why:'Пара по ссылке',hf,bf,PMODE,0,sc?sc.t:'');pairWire(pl)}else{const L=(PLEVEL==='line'?lineFor(hf,60):wordFor(hf,60));const p=L.find(x=>x.b===bf)||{b:bf,why:'Пара по ссылке'};pl.innerHTML=lwCard(PLEVEL,p,hf);pairWire(pl);Promise.all([loadFont(hf),loadFont(bf),PLEVEL==='line'?loadItalic(bf):0].map(x=>Promise.resolve(x).catch(()=>{}))).then(()=>document.fonts.ready).then(()=>{fitAccents(pl);try{opticalSpace(pl)}catch(e){}fitAll(pl)})}}
-  $('#ptypes').hidden=!para;$('.pseg').style.display=para?'':'none';$('#phandH').hidden=!para;$('#phand').hidden=!para;
-  if(hf&&!para){const L=PLEVEL==='line'?lineFor(hf,6,PSEED):wordFor(hf,6,PSEED);res.innerHTML=L.length?L.map(p=>lwCard(PLEVEL,p,hf)).join(''):`<div class="empty">${PLEVEL==='line'?'Во фразе этот шрифт лучше не смешивать: приём работает, когда основной шрифт спокойный — например Golos Text, Geist или Onest. Яркий или каллиграфический заголовок оставьте одним шрифтом.':'Для замены букв в слове этот шрифт не подходит: каллиграфию и шрифты из одних прописных с другими лучше не смешивать.'}</div>`;pairWire(res);loadFont(hf).catch(()=>{});Promise.all([loadFont(hf).catch(()=>{}),...L.map(p=>Promise.all([loadFont(p.b).catch(()=>{}),PLEVEL==='line'?loadItalic(p.b):0]))]).then(()=>document.fonts.ready).then(()=>{fitAccents(res);try{opticalSpace(res)}catch(e){}fitAll(res)});fitAll(res);return}
+  const pl=$('#plink');if(pl&&hf&&bf){if(para){const sc=pairScore(hf,bf);pl.innerHTML=pairCard(sc?sc.why:'Пара по ссылке',hf,bf,PMODE,0,sc?sc.t:'');pairWire(pl)}else{const L=(PLEVEL==='line'?lineFor(hf,60):wordFor(hf,60));const p=L.find(x=>x.b===bf)||{b:bf,why:'Пара по ссылке'};pl.innerHTML=lwCard(PLEVEL,p,hf);pairWire(pl);Promise.all([loadFont(hf),loadFont(bf),PLEVEL==='line'?loadItalic(bf,(lineFor(hf,60).find(x=>x.b===bf)||{}).w):0].map(x=>Promise.resolve(x).catch(()=>{}))).then(()=>document.fonts.ready).then(()=>{fitAccents(pl);try{opticalSpace(pl)}catch(e){}fitAll(pl)})}}
+  $('#ptypes').hidden=!para;$('#ltypes').hidden=PLEVEL!=='line';$('.pseg').style.display=para?'':'none';$('#phandH').hidden=!para;$('#phand').hidden=!para;
+  if(hf&&!para){const L=PLEVEL==='line'?lineFor(hf,8,PSEED,LTYPE):wordFor(hf,6,PSEED);res.innerHTML=L.length?L.map(p=>lwCard(PLEVEL,p,hf)).join(''):`<div class="empty">${PLEVEL==='line'?'Во фразе этот шрифт лучше не смешивать: приём работает, когда основной шрифт спокойный — например Golos Text, Geist или Onest. Яркий или каллиграфический заголовок оставьте одним шрифтом.':'Для замены букв в слове этот шрифт не подходит: каллиграфию и шрифты из одних прописных с другими лучше не смешивать.'}</div>`;pairWire(res);loadFont(hf).catch(()=>{});Promise.all([loadFont(hf).catch(()=>{}),...L.map(p=>Promise.all([loadFont(p.b).catch(()=>{}),PLEVEL==='line'&&p.it?loadItalic(p.b,p.w):0,p.hw?Promise.all([loadUpright(p.b,p.w),loadUpright(hf,p.hw)]):0]))]).then(()=>document.fonts.ready).then(()=>{fitAccents(res);try{opticalSpace(res)}catch(e){}fitAll(res)});fitAll(res);return}
   if(!hf&&!para){res.innerHTML='<div class="empty">Выберите основной шрифт — подберём к нему '+(PLEVEL==='line'?'шрифт для акцентного слова':'шрифт для букв-акцентов')+'</div>'}
   if(hf&&para){const L=pairsFor(hf,6,PSEED,PTYPE);res.innerHTML=L.length?L.map(([w,a,c,t])=>pairCard(w,a,c,PMODE,1,t)).join(''):`<div class="empty">${PTYPE?'Для этого шрифта нет пар типа «'+PTYPES[PTYPE][0]+'» — выберите другой тип':'Не нашли пару — попробуйте другой шрифт'}</div>`;pairWire(res);loadFont(hf).catch(()=>{})}
   else if(para)res.innerHTML='';
@@ -2349,6 +2381,7 @@ function pairsPage(){
  document.querySelectorAll('#plev button').forEach(b=>b.onclick=()=>{PLEVEL=b.dataset.l;lsSet('pada_plevel',PLEVEL);PSEED=0;document.querySelectorAll('#plev button').forEach(x=>x.classList.toggle('on',x===b));$('#pin').placeholder=PLEVEL==='para'?'Шрифт для заголовка, например Anton':'Основной шрифт, например Golos Text';draw()});
  const setT=t=>{PTYPE=t;PSEED=0;document.querySelectorAll('#ptypes button').forEach(x=>x.classList.toggle('on',x.dataset.t===t));draw()};
  document.querySelectorAll('#ptypes button').forEach(b=>b.onclick=()=>setT(b.dataset.t));
+ document.querySelectorAll('#ltypes button').forEach(b=>b.onclick=()=>{LTYPE=b.dataset.lt;PSEED=0;document.querySelectorAll('#ltypes button').forEach(x=>x.classList.toggle('on',x===b));draw()});
  document.querySelectorAll('.phow .phc[data-t]').forEach(b=>b.onclick=()=>{setT(b.dataset.t);$('#ptypes').scrollIntoView({behavior:'smooth',block:'start'})});
  document.querySelectorAll('.pseg button').forEach(b=>b.onclick=()=>{PMODE=b.dataset.m;lsSet('pada_pmode',PMODE);document.querySelectorAll('.pseg button').forEach(x=>x.classList.toggle('on',x===b));draw()})}
 function findPage(){
