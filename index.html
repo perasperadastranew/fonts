@@ -2094,8 +2094,8 @@ function loadItalic(f){if(!f[7]||itLoaded[f[0]])return itLoaded[f[0]]||Promise.r
  itLoaded[f[0]]=Promise.all(pick.map(x=>{const fc=new FontFace(f[0],x[4]?`url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}") format("woff2")`:`url("${REPO}fonts/${f[7]}/${encodeURIComponent(x[0])}")`,{weight:x[1]===x[2]?String(x[1]):`${x[1]} ${x[2]}`,style:'italic'});return fc.load().then(r=>document.fonts.add(r)).catch(()=>{})}));return itLoaded[f[0]]}
 const hasIt=f=>f[6]||f[8].some(x=>x[3]);
 // слишком декоративные для акцентов: узор, фактура, пиксели, обводка, тени
-const DECOR=/maze|pixel|bits|beastly|bubble|spray|glitch|noise|doodle|puddle|burn|vinyl|storm|microbe|moonrock|lines|stripe|dirt|distress|stencil|outline|inline|shadow|3d|grunge|pinstripe|mosaic|zebra|hatch|gemstone|wonder|dots?\b|block|metal|blood|horror|zombie|tag\b|graffiti/i;
-let DECS=null;const isDecor=f=>{if(!DECS){DECS=new Set();const px=SETS.find(x=>x[0]==='pixel');if(px)px[3].forEach(n=>DECS.add(n))}return DECOR.test(f[0])||DECS.has(f[0])};
+const DECOR=/maze|pixel|bits|beastly|bubble|spray|glitch|noise|doodle|puddle|burn|vinyl|storm|microbe|moonrock|lines|stripe|dirt|distress|stencil|outline|inline|shadow|3d|grunge|pinstripe|mosaic|zebra|hatch|gemstone|wonder|dots?\b|metal|blood|horror|zombie|tag\b|graffiti/i;
+let DECS=null;const isDecor=f=>{if(!DECS){DECS=new Set();const px=SETS.find(x=>x[0]==='pixel');if(px)px[3].forEach(n=>DECS.add(n))}return (DECOR.test(f[0])&&!/didot/i.test(f[0]))||DECS.has(f[0])};
 let LPOOL=null;
 function linePool(){if(LPOOL)return LPOOL;LPOOL=FONTS.filter(f=>!CAPS.has(f[0])&&!STUB.has(f[0])&&!isDecor(f)&&MET[f[0]]&&licOk(f)&&(QS[f[0]]??40)>=50&&((f[1]==='Антиква'&&hasIt(f))||f[1]==='Рукописный'||(f[1]==='Гротеск'&&hasIt(f)&&TEXTS.includes(f[0]))));return LPOOL}
 // во фразе: акцентное слово другим шрифтом
