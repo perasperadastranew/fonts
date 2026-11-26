@@ -596,6 +596,36 @@ body.tg .mbtn{display:none!important}
 .fdrop{display:block;border:2px dashed var(--ln);border-radius:24px;background:var(--wh,#fff);min-height:260px;cursor:pointer;overflow:hidden;position:relative}
 .fdi .fpaste{margin-top:14px;pointer-events:auto}.fdi .fkbd{font-size:12px;margin-top:8px;opacity:.7}
 .based{margin-top:8px;font-size:12px;opacity:.75}.based a{color:inherit;text-decoration:underline}
+/* пары шрифтов */
+.prs h1{font-size:clamp(40px,6vw,76px);line-height:1.05;letter-spacing:-.02em;margin:10px 0 14px;font-weight:500}
+.pctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:22px 0 22px}
+.pctl .finp{flex:1 1 300px;max-width:420px}
+.pseg{display:inline-flex;background:var(--soft);border-radius:999px;padding:4px;margin-left:auto}
+.pseg button{border:0;background:transparent;border-radius:999px;padding:8px 14px;font:inherit;font-size:14px;cursor:pointer}
+.pseg button.on{background:var(--ink);color:var(--pap)}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px}
+.pgrid.pg3{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.pcard{color:var(--ink);background:var(--wh);border-radius:calc(var(--rk,1)*24px);overflow:hidden;display:flex;flex-direction:column}
+.pl{padding:26px 26px 22px;flex:1;min-height:250px;display:flex;flex-direction:column;gap:14px;overflow:hidden}
+.pl .t{font-size:38px;line-height:1.02;letter-spacing:-.01em;overflow-wrap:anywhere}
+.pl.st .nv{display:flex;gap:14px;font-size:12px;color:var(--mut)}.pl.st .nv b{color:var(--ink);margin-right:auto;font-weight:inherit}
+.pl.st p{font-size:15px;line-height:1.5;color:var(--mut);margin:0}
+.pl.st .bt{align-self:flex-start;background:var(--ink);color:var(--pap);border-radius:999px;padding:9px 16px;font-size:13px}
+.pl.sl{background:#16151a;color:#f4f1ea;aspect-ratio:16/10;min-height:0;position:relative}
+.pl.sl .t{font-size:34px}.pl.sl ul{margin:0;padding-left:18px;font-size:15px;line-height:1.6;opacity:.85}.pl.sl .pn{position:absolute;right:22px;bottom:16px;font-size:12px;opacity:.5}
+.pl.po{background:#FF7122;color:#16151a;min-height:360px;justify-content:space-between}
+.pl.po .t{font-size:54px;line-height:.95;text-transform:uppercase}.pl.po .i{display:flex;flex-direction:column;gap:3px;font-size:14px}.pl.po .i b{font-size:16px}
+.pl.rl{background:var(--soft);align-items:center;padding:18px}
+.pl.rl .rv{width:200px;aspect-ratio:9/16;background:#16151a;color:#fff;border-radius:18px;padding:18px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px}
+.pl.rl .t{font-size:28px;text-transform:uppercase}.pl.rl .c{font-size:13px;line-height:1.35;background:#FF7122;color:#16151a;padding:6px 8px;border-radius:8px;align-self:flex-start}
+.ptypes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}.ptypes button{border:1px solid var(--ln);background:transparent;border-radius:999px;padding:7px 13px;font:inherit;font-size:13px;cursor:pointer}.ptypes button.on{background:var(--ink);color:var(--pap);border-color:var(--ink)}
+.ptg{display:inline-block;font-weight:500;color:var(--ink);background:#FFE6D6;border-radius:6px;padding:1px 7px;margin-right:8px}
+.phow{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}.phc{text-align:left;border:0;background:var(--wh);border-radius:calc(var(--rk,1)*20px);padding:20px;display:flex;flex-direction:column;gap:8px;font:inherit;cursor:pointer;color:var(--ink)}.phc b{font-size:18px;font-weight:500}.phc span{font-size:14px;line-height:1.45;color:var(--mut)}.phc:hover{outline:2px solid var(--ink)}.pnote{background:var(--ink);cursor:default}.pnote b{color:var(--pap)}.pnote span{color:rgba(255,255,255,.7)}.pnote:hover{outline:0}
+.pf{border-top:1px solid var(--ln);padding:14px 20px 18px;display:flex;flex-direction:column;gap:10px}
+.pf .why{font-size:12px;color:var(--mut)}
+.pn2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.pn2 a{font-size:14px;text-decoration:none;color:var(--ink)}.pn2 a small{display:block;font-size:11px;color:var(--mut)}.pn2 a:hover{text-decoration:underline}
+.pb{display:flex;flex-wrap:wrap;gap:6px}.pb .pill{font-size:13px;padding:7px 12px}
+@media(max-width:600px){.pgrid{grid-template-columns:1fr}.pseg{margin-left:0}.pl .t{font-size:32px}}
 .fdrop.over{border-color:#FF7122;background:#fff7f1}.fdrop.has{border-style:solid;cursor:crosshair;min-height:0}
 .fdi{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:260px;padding:24px;text-align:center}
 .fdi b{font-size:20px;font-weight:500}.fdi span{color:var(--mut);font-size:14px}
@@ -612,7 +642,7 @@ body.tg .mbtn{display:none!important}
 </style></head><body>
 <header class="hd"><div class="wrap">
  <a class="logo" href="#/" style="letter-spacing:.2px;font-size:15px" aria-label="Perasperadastra шрифты"><img class="lgi" src="data:image/png;base64,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" alt="" width="32" height="32"><span class="lgt">Perasperadastra</span><span class="lgw" aria-hidden="true"><i>ш</i><i>р</i><i>и</i><i>ф</i><i>т</i><i>ы</i></span></a>
- <nav class="nav" id="mainNav" aria-label="Разделы"><a href="#/" id="nCat">Каталог</a><a href="#/brief" id="nBr">Подбор</a><a href="#/swipe" id="nSw">Свайп</a><a href="#/shape" id="nSh">Пропорции</a><a href="#/find" id="nFind">По картинке</a><a href="#/" id="nDay">Звезда дня</a><a href="#/journal" id="nJ">Бортовой журнал</a><a href="mcp/" id="nAI">Для ИИ</a><button type="button" class="ntour" onclick="tourStart()">Как пользоваться</button><a class="napp" href="https://t.me/perasperaschool" target="_blank" rel="noopener">В приложение</a></nav>
+ <nav class="nav" id="mainNav" aria-label="Разделы"><a href="#/" id="nCat">Каталог</a><a href="#/brief" id="nBr">Подбор</a><a href="#/swipe" id="nSw">Свайп</a><a href="#/shape" id="nSh">Пропорции</a><a href="#/pairs" id="nPr">Пары</a><a href="#/find" id="nFind">По картинке</a><a href="#/" id="nDay">Звезда дня</a><a href="#/journal" id="nJ">Бортовой журнал</a><a href="mcp/" id="nAI">Для ИИ</a><button type="button" class="ntour" onclick="tourStart()">Как пользоваться</button><a class="napp" href="https://t.me/perasperaschool" target="_blank" rel="noopener">В приложение</a></nav>
  <div class="hr"><button class="icon mbtn" type="button" id="mBtn" aria-label="Меню" aria-expanded="false" aria-controls="mainNav"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg></button><button class="icon" type="button" id="sBtn" aria-label="Поиск"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></button><a class="pill soft" href="#/journal" id="jCnt">★ 0</a><a class="pill dark" href="https://t.me/perasperaschool" target="_blank" rel="noopener">В приложение</a></div>
 </div></header>
 <main id="app"></main>
@@ -1354,7 +1384,7 @@ hardletters(p){const hw=heavyW(F);const L=['Ж','Д','Л','Ы','Щ','Й','Ф','�
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:3.6cqmin;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:auto repeat(3,1fr);gap:1.2cqmin;overflow:hidden">
  <div style="grid-column:1/-1;display:flex;justify-content:space-between;font:600 2.2cqmin 'JetBrains Mono',monospace;letter-spacing:.08em;opacity:.8"><span>ТРУДНЫЕ БУКВЫ КИРИЛЛИЦЫ</span><span>${esc(F[0].toUpperCase())}</span></div>
  ${L.map((c,i)=>`<div style="position:relative;border:1px solid ${p[2]}30;border-radius:1.6cqmin;display:grid;place-items:center;${i===0?`background:${p[3]};color:${p[1]};border-color:transparent`:''}"><span style="font-family:${ff()};font-weight:${hw};font-size:11cqmin;line-height:1">${c}</span><span style="position:absolute;left:1.2cqmin;bottom:.9cqmin;right:1cqmin;font:1.55cqmin 'JetBrains Mono',monospace;opacity:.65;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc((NOTES[c]||'').replace(/^[^:]*:\s*/,''))}</span></div>`).join('')}</div>`}},
-pairing(p){const ph=phrase();const hw=heavyW(F);const pr=(typeof pairFor==='function'?pairFor(F):[]).find(x=>x[2]&&x[2]!==F);const b=pr?pr[2]:F;if(b!==F)loadFont(b).catch(()=>{});
+pairing(p){const ph=phrase();const hw=heavyW(F);const pr=(typeof pairsFor==='function'?pairsFor(F,1):[]).find(x=>x[2]&&x[2]!==F);const b=pr?pr[2]:F;if(b!==F)loadFont(b).catch(()=>{});
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:5cqmin;display:flex;flex-direction:column;gap:2.4cqmin;overflow:hidden">
  <div style="font:600 2.2cqmin 'JetBrains Mono',monospace;letter-spacing:.08em;opacity:.8">ПАРА · ${esc(F[0].toUpperCase())} + ${esc(b[0].toUpperCase())}</div>
  <div style="font-family:${ff()};font-weight:${hw};font-size:9cqmin;line-height:1.02;text-wrap:balance">${esc(ph)}</div>
@@ -1936,6 +1966,143 @@ function dayRand(s){let h=2166136261;const d=new Date();s=s+d.getFullYear()+'.'+
 // ---------- поиск по картинке (find.js + find/match.json, всё считается в браузере)
 let FIND={img:null,sel:null,M:null,res:null};
 function findLib(){if(window.FM&&FIND.M)return Promise.resolve();return new Promise((ok,no)=>{const go=()=>fetch('find/match.json').then(r=>r.json()).then(j=>{FIND.M=FM.load(j);ok()}).catch(no);if(window.FM)return go();const sc=document.createElement('script');sc.src='find.js?v=3';sc.onload=go;sc.onerror=no;document.head.appendChild(sc)})}
+// ---------- Пары шрифтов: заголовок + текст ----------
+// Правила без нейросети: контраст классов, близкая высота строчных, текстовый шрифт хорошо проработан, оба можно для клиента.
+const PAIRS_HAND=[
+ ['Anton','Golos Text','Плакатный узкий заголовок и спокойный текст','accent'],['PT Serif','PT Sans','Одна система: антиква и гротеск ПараТайпа','super'],
+ ['Playfair Display','Manrope','Журнальная антиква и чистый гротеск','classic'],['Comfortaa','Nunito','Обе округлые и открытые — мягко и дружелюбно','kin'],
+ ['Bebas Neue','Montserrat','Узкий плотный заголовок и широкий лёгкий текст','width'],['Golos Text','Golos Text','Один шрифт: жирный заголовок, обычный текст','one'],
+ ['Science Gothic','JetBrains Mono','Широкий техно-заголовок и моно','tech'],['Cormorant Garamond','Montserrat','Изящная антиква и геометрия','classic'],
+ ['Unbounded','Onest','Широкий заголовок и современный гротеск','accent'],['IBM Plex Serif','IBM Plex Sans','Строгая система IBM','super'],
+ ['Dela Gothic One','Inter','Жирный акцент и нейтральный текст','accent'],['Lora','Raleway','Мягкая антиква и тонкий гротеск','classic'],
+ ['Alumni Sans','Onest','В духе Druk: узко, жирно, современно','width'],['Alegreya','Alegreya Sans','Живая каллиграфичная система','super'],
+ ['Peter Ivanowitsch','Literata','Старая типографика и книжная антиква','accent'],['Shantell Sans','Nunito','Живой рукописный и мягкий гротеск','accent'],
+ ['Yeseva One','Jost','Контрастная антиква и геометрический гротеск','classic'],['Inter','Inter','Один шрифт для интерфейса и текста','one'],
+ ['Murs Gothic Wide Dark','Golos Text','Тяжёлый широкий заголовок и простой текст','accent'],['Spectral','Manrope','Литературная антиква и аккуратный гротеск','classic']];
+// надёжные текстовые шрифты — основа подбора; остальные хорошие текстовые идут со штрафом
+const TEXTS=['Golos Text','Inter','Onest','Manrope','Montserrat','Roboto','PT Sans','Noto Sans','IBM Plex Sans','Fira Sans','Nunito','Jost','Raleway','Commissioner','Geologica','Wix Madefor Text','Ubuntu Sans','Open Sans','Rubik','Alegreya Sans','Mulish','Inter Tight','Geist','Arsenal','PT Serif','Source Serif 4','Literata','Lora','Merriweather','Noto Serif','IBM Plex Serif','Alegreya','Spectral','EB Garamond','Vollkorn','Piazzolla','Roboto Serif','Bitter'];
+let BODYP=null;
+function bodyPool(){if(BODYP)return BODYP;const T=new Set(TEXTS);BODYP=FONTS.filter(f=>{
+ if(T.has(f[0]))return true;
+ if(!(f[1]==='Гротеск'||f[1]==='Антиква')||CAPS.has(f[0])||STUB.has(f[0]))return false;
+ if(/display|condensed|narrow|mono|slab|stencil|outline|inline|wide|demo|unicase|caps|dot/i.test(f[0]))return false;
+ let ok=false;try{ok=licInfo(f).ok}catch(e){}if(!ok)return false;
+ const m=MET[f[0]];if(!m)return false;const fe=FEAT[f[0]]||{};if((fe.mood||[]).includes('tech'))return false;
+ const st=f[2]&&f[4]-f[3]>=300?4:f[5];if(st<3||(QS[f[0]]??40)<75)return false;
+ if(m.dens<0.22||m.dens>0.33)return false;
+ if(f[1]==='Гротеск')return m.xH>=0.69&&m.wid>=1.05&&m.wid<=1.22;
+ return m.xH>=0.66&&m.con<=2.3&&m.wid>=1.2});return BODYP}
+// заголовочный шрифт: акцидентный, рукописный или «одного-двух начертаний», плотный
+function isDisp(h){if(h[1]==='Акцидентный'||h[1]==='Рукописный')return true;const m=MET[h[0]]||{};const st=h[2]&&h[4]-h[3]>=300?4:h[5];return st<=2&&!TEXTS.includes(h[0])||m.dens>0.36||(h[1]==='Гротеск'&&m.wid>1.32)||/condensed|display|wide|one$/i.test(h[0])}
+/* Типы пар — как пары работают:
+   classic — антиква + гротеск: разный скелет, общий ритм
+   super   — суперсемья: антиква, гротеск и моно одной системы, пропорции совпадают сами
+   accent  — яркий заголовок + нейтральный текст: характер даёт заголовок
+   kin     — родство: разные классы, но похожая округлость и раскрытость букв
+   width   — контраст пропорций: два гротеска, узкий плотный + широкий лёгкий
+   one     — одна семья: один шрифт, жирный заголовок и обычный текст
+   tech    — технично: моно + спокойный текст для данных, кода, интерфейсов */
+const PTYPES={classic:['Классика','Антиква + гротеск. Разный скелет букв, но близкая высота строчных — самая надёжная схема для сайтов и статей.'],
+ super:['Суперсемья','Антиква, гротеск и моно из одной системы. Пропорции и ритм совпадают сами, ошибиться почти невозможно.'],
+ accent:['Акцент','Яркий заголовок и нейтральный текст. Характер даёт заголовок, текст ему не спорит. Афиши, обложки, рилс.'],
+ kin:['Родство','Разные классы, но похожий скелет: та же округлость и раскрытость букв. Пара выглядит цельной и спокойной.'],
+ width:['Контраст пропорций','Два гротеска: узкий плотный заголовок и широкий лёгкий текст. Работает, только если разница видна сразу.'],
+ one:['Одна семья','Один шрифт в разных начертаниях: жирный заголовок, обычный текст. Самое строгое и аккуратное решение.'],
+ tech:['Технично','Моноширинный шрифт и спокойный текст. Для данных, кода, интерфейсов и подписей.']};
+const SUPERS=[['PT Serif','PT Sans','PT Mono'],['IBM Plex Serif','IBM Plex Sans','IBM Plex Mono'],['Noto Serif','Noto Sans','Noto Sans Mono','Noto Sans Display','Noto Serif Display'],['Roboto Serif','Roboto','Roboto Mono','Roboto Flex','Roboto Condensed'],['Alegreya','Alegreya Sans'],['Source Serif 4','Source Sans 3'],['Wix Madefor Display','Wix Madefor Text'],['Geist','Geist Mono'],['Ubuntu Sans','Ubuntu Sans Mono'],['Fira Sans','Fira Mono','Fira Code'],['Sofia Sans','Sofia Sans Condensed']];
+const superOf=n=>SUPERS.find(g=>g.includes(n));
+function pairScore(h,b){
+ if(h===b)return null;
+ const C=h[1],D=b[1],mh=MET[h[0]],mb=MET[b[0]],fh=FEAT[h[0]]||{},fb=FEAT[b[0]]||{},disp=isDisp(h),cd=CAT[D];
+ const sg=superOf(h[0]);
+ if(sg&&sg.includes(b[0])){if(C===D&&!disp)return null;return {b,s:D==='Моно'||C==='Моно'?3.2:4.4,t:'super',why:`Суперсемья: ${CAT[C]} и ${cd} одной системы`}}
+ if(famKey(h[0])===famKey(b[0]))return null;
+ if((fh.sim||[]).includes(b[0])||(fb.sim||[]).includes(h[0]))return null;
+ let s=0,t,why;
+ if(C==='Моно'){s=2.6;t='tech';why='Технично: моно + '+cd}
+ else if(C==='Рукописный'){s=D==='Гротеск'?3:2.4;t='accent';why='Рукописный акцент + '+cd}
+ else if(disp){s=D==='Гротеск'?3:(C==='Антиква'?1.2:2.5);t='accent';why=D==='Гротеск'?'Яркий заголовок + спокойный гротеск':'Яркий заголовок + книжная антиква'}
+ else if(C!==D){s=3;t='classic';why=C==='Антиква'?'Классика: антиква в заголовке, гротеск в тексте':'Классика: гротеск в заголовке, антиква в тексте'}
+ else{s=0.6;t='width';why='Два '+(C==='Антиква'?'антиквы':'гротеска')+': контраст пропорций'}
+ if(mh&&mb&&C!=='Рукописный'&&!CAPS.has(h[0])){const d=Math.abs(mh.xH-mb.xH);s-=d*25;if(d<0.012&&!disp)why+=' · одна высота строчных'}
+ // родство: разные классы, но похожая округлость (rd) и раскрытость (ap)
+ if((t==='classic'||(t==='accent'&&C!=='Рукописный'&&D==='Гротеск'))&&fh.rd!=null&&fb.rd!=null&&Math.abs(fh.rd-fb.rd)<(t==='accent'?18:12)&&Math.abs((fh.ap??50)-(fb.ap??50))<(t==='accent'?18:12)){t='kin';why=C===D?'Родство: та же округлость и раскрытость букв':'Родство: похожий скелет букв, разные классы';s+=0.4}
+ if(t==='accent'&&C==='Гротеск'&&D==='Гротеск'&&mh&&mb&&Math.abs(mh.wid-mb.wid)>0.25){t='width';why=mh.wid<mb.wid?'Узкий плотный заголовок + широкий текст':'Широкий заголовок + сдержанный текст'}
+ if(t==='width'&&!disp){if(!(mh&&mb))return null;const dw=Math.abs(mh.wid-mb.wid),dd=Math.abs(mh.dens-mb.dens);if(dw<0.15&&dd<0.05)return null;s+=Math.min(2,dw*6+dd*15)}
+ else if(C===D&&mh&&mb&&t==='accent'){const dif=Math.abs(mh.wid-mb.wid)+Math.abs((fh.rd??50)-(fb.rd??50))/100+Math.abs(mh.con-mb.con);s+=dif>0.3?0.6:-0.8}
+ const mo=fh.mood||[];
+ if(fb.rd!=null){if(mo.includes('friendly')||mo.includes('hand'))s+=(fb.rd-50)/50;if(mo.includes('strict'))s-=(fb.rd-50)/80}
+ if(mo.includes('elegant')&&D==='Антиква')s+=0.8;
+ s+=TEXTS.includes(b[0])?1:-1.2;s+=((QS[b[0]]??40)-60)/40;
+ return {b,s,t,why}}
+function prnd(k){let h=2166136261;for(const c of k)h=Math.imul(h^c.charCodeAt(0),16777619);return ((h>>>0)%10000)/10000}
+// n пар для заголовка h; seed > 0 — «ещё варианты»; type — только пары этого типа
+function pairsFor(h,n=3,seed=0,type=''){
+ const pool=bodyPool().slice();const sg=superOf(h[0]);if(sg)sg.forEach(x=>{const f=FONTS.find(y=>y[0]===x);if(f&&!pool.includes(f))pool.push(f)});
+ const P=pool.map(b=>pairScore(h,b)).filter(Boolean);
+ const st=h[2]&&h[4]-h[3]>=300?4:h[5];
+ if((h[1]==='Гротеск'||h[1]==='Антиква')&&st>=4&&!isDisp(h))P.push({b:h,s:2.8+((QS[h[0]]??40)-60)/40,t:'one',why:'Одна семья: жирный заголовок и обычный текст одним шрифтом'});
+ P.forEach(p=>p.r=p.s+prnd(h[0]+'|'+p.b[0]+'|'+seed)*(seed?3.2:1.2));P.sort((a,b)=>b.r-a.r);
+ const Q=type?P.filter(p=>p.t===type):P;
+ const out=[],fams=new Set(),types={};
+ // сначала лучший вариант каждого типа, потом остальные — чтобы были видны разные схемы
+ const take=p=>{const k=p.b===h?'@self':p.t==='super'?p.b[0]:famKey(p.b[0]);if(fams.has(k))return;fams.add(k);out.push(p);types[p.t]=(types[p.t]||0)+1};
+ if(!type)for(const p of Q){if(out.length>=n)break;if(!types[p.t])take(p)}
+ for(const p of Q){if(out.length>=n)break;if(!out.includes(p)&&(type||types[p.t]<2))take(p)}
+ for(const p of Q){if(out.length>=n)break;if(!out.includes(p))take(p)}
+ out.sort((a,b)=>b.r-a.r);
+ return out.slice(0,n).map(p=>[p.why,h,p.b,p.t])}
+function pairTypes(h){const P=pairsFor(h,40);return [...new Set(P.map(x=>x[3]))]}
+const PMODES=[['site','Сайт'],['slide','Слайд'],['poster','Афиша'],['reel','Рилс']];
+function pairCard(why,h,b,mode,noMore,t){
+ const H=`font-family:${fam(h)};font-weight:${heavyW(h)}`,B=`font-family:${fam(b)};font-weight:${baseW(b)}`,ph=esc(phrase()),
+ txt='Экипаж собрался в шесть утра. До старта три часа: проверить приборы, повторить план полёта и выпить чаю.';
+ let lay;
+ if(mode==='slide')lay=`<div class="pl sl"><div class="t" style="${H}">${ph}</div><ul style="${B}"><li>Проверить приборы и связь</li><li>Повторить план полёта</li><li>Старт ровно в девять</li></ul><span class="pn" style="${B}">03</span></div>`;
+ else if(mode==='poster')lay=`<div class="pl po"><div class="t" style="${H}">${ph}</div><div class="i" style="${B}"><b>26 ноября · 19:00</b><span>Планетарий, большой зал</span><span>Вход свободный</span></div></div>`;
+ else if(mode==='reel')lay=`<div class="pl rl"><div class="rv"><div class="t" style="${H}">${ph}</div><div class="c" style="${B}">три шрифта, которые спасут ваш макет</div></div></div>`;
+ else lay=`<div class="pl st"><div class="nv" style="${B}"><b>Экипаж</b><span>Курсы</span><span>Кейсы</span></div><div class="t" style="${H}">${ph}</div><p style="${B}">${txt}</p><span class="bt" style="${B};font-weight:${Math.min(600,heavyW(b))}">Записаться</span></div>`;
+ return `<div class="pcard">${lay}<div class="pf"><span class="why">${t&&PTYPES[t]?`<b class="ptg">${PTYPES[t][0]}</b>`:''}${esc(t?why.replace(/^[^:·]+:\s*/,''):why)}</span>
+ <div class="pn2"><a href="#/font/${slug(h[0])}"><small>Заголовок</small>${esc(h[0])}</a><a href="#/font/${slug(b[0])}"><small>Текст</small>${esc(b[0])}</a></div>
+ <div class="pb"><button type="button" class="pill soft" data-css="${esc(h[0])}|${esc(b[0])}">CSS</button><button type="button" class="pill soft" data-fav="${esc(h[0])}|${esc(b[0])}">★ В журнал</button>${noMore?'':`<a class="pill soft" href="#/pairs?f=${slug(h[0])}">Ещё к ${esc(h[0])}</a>`}</div></div></div>`}
+function pairCSS(h,b){
+ const ff=f=>{if(!f[7])return `/* ${f[0]} — Google Fonts */\n@import url("https://fonts.googleapis.com/css2?family=${encodeURIComponent(f[0]).replace(/%20/g,'+')}${wq(f)}&display=swap");`;
+  const up=f[8].filter(x=>!x[3]);const near=w=>up.slice().sort((a,c)=>Math.abs((a[1]+a[2])/2-w)-Math.abs((c[1]+c[2])/2-w))[0];
+  return [...new Set([near(400),near(700)].filter(Boolean))].map(x=>`@font-face {\n  font-family: "${f[0]}";\n  src: url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,'.woff2'))}") format("woff2");\n  font-weight: ${x[1]===x[2]?x[1]:x[1]+' '+x[2]};\n  font-display: swap;\n}`).join('\n')};
+ return `${ff(h)}\n${ff(b)}\n\nh1, h2, h3 { font-family: "${h[0]}", sans-serif; font-weight: ${heavyW(h)}; }\nbody { font-family: "${b[0]}", sans-serif; font-weight: ${baseW(b)}; }\n\n/* Шрифты: библиотека Perasperadastra — fonts.perasperadastra.ru. Для сайта лучше скачать файлы и положить к себе. */`}
+function pairWire(root){
+ root.querySelectorAll('[data-css]').forEach(x=>x.onclick=()=>{const [a,c]=x.dataset.css.split('|').map(n=>FONTS.find(f=>f[0]===n));const t=pairCSS(a,c);(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('CSS пары скопирован')).catch(()=>{prompt('Скопируйте CSS',t)})});
+ root.querySelectorAll('[data-fav]').forEach(x=>x.onclick=()=>{const ns=x.dataset.fav.split('|');ns.forEach(n=>{if(!isFav(n))toggleFav(n)});toast('Оба шрифта в бортовом журнале')});
+ root.querySelectorAll('.pcard').forEach(c=>c.querySelectorAll('.pn2 a').forEach(a=>{const f=bySlug(a.getAttribute('href').slice(7));if(f)loadFont(f).catch(()=>{})}))}
+let PSEED=0,PTYPE='',PMODE=lsGet('pada_pmode','site');
+function pairsPage(){
+ const q=new URLSearchParams((location.hash.split('?')[1])||'');const hf=bySlug(q.get('f')||'');
+ const opts=FONTS.filter(f=>!STUB.has(f[0])).map(f=>`<option value="${esc(f[0])}">`).join('');
+ app.innerHTML=`<div class="wrap prs"><div class="mono" style="font-size:11px;color:var(--mut)">★ ГЕНЕРАТОР ПАР · ЗАГОЛОВОК + ТЕКСТ</div>
+ <h1>Шрифтовые <span class="plq">пары</span></h1>
+ <p class="fsub">Выберите шрифт для заголовка — подберём к нему текстовый: с контрастом по характеру, близкой высотой строчных и хорошей проработкой. Все пары можно использовать для клиентов.</p>
+ <div class="pctl"><input class="finp" id="pin" list="pfl" placeholder="Шрифт для заголовка, например Anton" value="${hf?esc(hf[0]):''}"><datalist id="pfl">${opts}</datalist>
+ <button type="button" class="pill dark" id="pgo">Подобрать</button><button type="button" class="pill soft" id="prn">Случайный</button><button type="button" class="pill soft" id="pmore"${hf?'':' hidden'}>Ещё варианты</button>
+ <div class="pseg">${PMODES.map(([k,t])=>`<button type="button" class="${k===PMODE?'on':''}" data-m="${k}">${t}</button>`).join('')}</div></div>
+ <div class="ptypes" id="ptypes"><button type="button" class="on" data-t="">Все типы</button>${Object.entries(PTYPES).map(([k,[n]])=>`<button type="button" data-t="${k}">${n}</button>`).join('')}</div>
+ <div class="pgrid" id="pres"></div>
+ <div class="sh" style="margin-top:56px"><h2>${hf?'Ещё и готовые пары':'Готовые пары'}</h2><small>собраны вручную</small></div><div class="pgrid" id="phand"></div>
+ <div class="sh" style="margin-top:56px"><h2>Как работают пары</h2><small>семь схем · правило одно: один шрифт ведёт, второй работает</small></div>
+ <div class="phow">${Object.entries(PTYPES).map(([k,[n,d]])=>`<button type="button" class="phc" data-t="${k}"><b>${n}</b><span>${d}</span></button>`).join('')}
+ <div class="phc pnote"><b>Общие правила</b><span>Два шрифта, максимум три (третий — моно для подписей). Контраст должен быть явным: два похожих гротеска выглядят как ошибка. Близкая высота строчных — и строки не спорят. Настроение общее: строгий заголовок — строгий текст.</span></div></div></div>`;
+ const draw=()=>{const res=$('#pres');
+  if(hf){const L=pairsFor(hf,6,PSEED,PTYPE);res.innerHTML=L.length?L.map(([w,a,c,t])=>pairCard(w,a,c,PMODE,1,t)).join(''):`<div class="empty">${PTYPE?'Для этого шрифта нет пар типа «'+PTYPES[PTYPE][0]+'» — выберите другой тип':'Не нашли пару — попробуйте другой шрифт'}</div>`;pairWire(res);loadFont(hf).catch(()=>{})}
+  else res.innerHTML='';
+  const hd=$('#phand');hd.innerHTML=PAIRS_HAND.map(([a,c,w,t])=>[FONTS.find(f=>f[0]===a),FONTS.find(f=>f[0]===c),w,t]).filter(x=>x[0]&&x[1]&&(!PTYPE||x[3]===PTYPE)).map(([a,c,w,t])=>pairCard(w,a,c,PMODE,0,t)).join('');pairWire(hd)};
+ draw();
+ const go=n=>{const f=FONTS.find(x=>x[0].toLowerCase()===(n||'').trim().toLowerCase());if(!f){toast('Нет такого шрифта в библиотеке');return}PSEED=0;location.hash='#/pairs?f='+slug(f[0])};
+ $('#pgo').onclick=()=>go($('#pin').value);$('#pin').onkeydown=e=>{if(e.key==='Enter')go($('#pin').value)};$('#pin').onchange=()=>{if(FONTS.some(x=>x[0]===$('#pin').value))go($('#pin').value)};
+ $('#prn').onclick=()=>{const C=FONTS.filter(f=>(f[1]==='Акцидентный'||f[1]==='Антиква'||f[1]==='Рукописный')&&(QS[f[0]]??40)>=60&&!STUB.has(f[0]));go(C[Math.floor(Math.random()*C.length)][0])};
+ $('#pmore').onclick=()=>{PSEED++;draw()};
+ const setT=t=>{PTYPE=t;PSEED=0;document.querySelectorAll('#ptypes button').forEach(x=>x.classList.toggle('on',x.dataset.t===t));draw()};
+ document.querySelectorAll('#ptypes button').forEach(b=>b.onclick=()=>setT(b.dataset.t));
+ document.querySelectorAll('.phow .phc[data-t]').forEach(b=>b.onclick=()=>{setT(b.dataset.t);$('#ptypes').scrollIntoView({behavior:'smooth',block:'start'})});
+ document.querySelectorAll('.pseg button').forEach(b=>b.onclick=()=>{PMODE=b.dataset.m;lsSet('pada_pmode',PMODE);document.querySelectorAll('.pseg button').forEach(x=>x.classList.toggle('on',x===b));draw()})}
 function findPage(){
  app.innerHTML=`<div class="wrap fnd"><div class="mono" style="font-size:11px;color:var(--mut)">★ ПОИСК ПО КАРТИНКЕ · КАРТИНКА НЕ ПОКИДАЕТ ВАШ КОМПЬЮТЕР</div>
  <h1>Найти шрифт <span class="plq">по картинке</span><span class="fbeta">БЕТА</span></h1>
@@ -2065,7 +2232,7 @@ function csideHTML(cats){const favs=FONTS.filter(f=>isFav(f[0])).length;
  <h4>ДЛЯ ЧЕГО</h4><nav class="cnav">${PURS.map(([k,n,d])=>`<button type="button" data-pu="${k}" class="${PUR===k?'on':''}" title="${d}">${n}<i>${FONTS.filter(f=>purOk(f,k)).length}</i></button>`).join('')}</nav>
  <h4>НАСТРОЕНИЕ</h4><nav class="cnav">${FMOODS.map(([k,n,d])=>`<button type="button" data-mo="${k}" class="${FMOOD===k?'on':''}" title="${d}">${n}<i>${FONTS.filter(f=>moodOk(f,k)).length}</i></button>`).join('')}</nav>
  <h4>СВОЙСТВА</h4><nav class="cnav"><button type="button" class="tg ${FLT.vf?'on':''}" data-f="vf">Вариативные<i>${FONTS.filter(f=>f[2]&&f[3]<f[4]).length}</i></button><button type="button" class="tg ${FLT.it?'on':''}" data-f="it">С курсивом<i>${FONTS.filter(f=>f[6]).length}</i></button></nav>
- <h4>ИНСТРУМЕНТЫ</h4><nav class="cnav sec2"><a href="#/brief">Подбор по задаче</a><a href="#/swipe">Свайп шрифтов</a><a href="#/shape">Пропорции</a><a href="#" id="cRnd">Случайный шрифт</a><a href="#/journal">★ Бортовой журнал<i>${favs||''}</i></a></nav></aside>`}
+ <h4>ИНСТРУМЕНТЫ</h4><nav class="cnav sec2"><a href="#/brief">Подбор по задаче</a><a href="#/swipe">Свайп шрифтов</a><a href="#/shape">Пропорции</a><a href="#/pairs">Шрифтовые пары</a><a href="#" id="cRnd">Случайный шрифт</a><a href="#/journal">★ Бортовой журнал<i>${favs||''}</i></a></nav></aside>`}
 function cCount(){const n=cShown();const a=$('#cN'),b=$('#cBar');if(a)a.textContent=n;if(b)b.style.width=n/FONTS.length*100+'%'}
 function refreshCat(fromSide){
  document.querySelectorAll('[data-c]').forEach(b=>b.classList.toggle('on',b.dataset.c===CATSEL));document.querySelectorAll('[data-set]').forEach(b=>b.classList.toggle('on',b.dataset.set===SET));
@@ -2165,14 +2332,6 @@ const SECS=[['01','Знакомство'],['02','Начертания'],['03','�
 const SLOTS2=[['w8','r169'],['w4','r45'],['w4','r45'],['w4','r45'],['w4','r45'],['w6','r11'],['w6','r11']];
 let tiles=[],coverT=null,SUBSEL=lsGet('pada_sub','titles');
 const CYR='АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789₽№«»—!?&';
-function pairFor(f){ // подсказки пар по логике; реальные пары подбирает модератор
- const by=n=>FONTS.find(x=>x[0]===n);
- const body=by('Golos Text'),serif=by('Literata'),geo=by('Jost'),mono=by('JetBrains Mono');
- const L=[];
- if(f[1]==='Антиква'){L.push(['Контраст: антиква + гротеск',f,body]);L.push(['Акцент: моно для подписей',f,mono]);L.push(['Одна семья: заголовок и текст одним шрифтом',f,f])}
- else if(f[1]==='Гротеск'){L.push(['Контраст: гротеск + антиква',f,serif]);L.push(['Общий характер: оба геометричные',f,geo]);L.push(['Одна семья: заголовок и текст одним шрифтом',f,f])}
- else{L.push(['Акцент: яркий заголовок, спокойный текст',f,body]);L.push(['Контраст: акцидентный + антиква',f,serif]);L.push(['Акцент: моно для подписей',f,mono])}
- return L.filter(x=>x[2])}
 function similarFor(f){const fe=FEAT[f[0]];if(fe&&fe.sim){const r=fe.sim.map(n=>FONTS.find(x=>x[0]===n)).filter(Boolean).slice(0,6);if(r.length>=3)return r}const pf=prof(f);if(pf){const r=FONTS.filter(x=>x!==f&&prof(x)).map(x=>{const q=prof(x);return [x,AX.reduce((s,[k])=>s+Math.pow(q[k]-pf[k],2),0)+(x[1]===f[1]?0:900)]}).sort((a,b)=>a[1]-b[1]).slice(0,3).map(a=>a[0]);if(r.length===3)return r}const same=FONTS.filter(x=>x!==f&&x[1]===f[1]);const s=[...same].sort((a,b)=>Math.abs(a[5]-f[5])-Math.abs(b[5]-f[5]));return s.slice(0,6).sort(()=>Math.random()-.5).slice(0,3)}
 function fontPage(f){
  F=f;const ws=weightsOf(f),vf=f[2]&&f[3]<f[4];const gl=f[7]?`${REPO}#/font/${f[7]}`:`https://fonts.google.com/specimen/${f[0].replace(/ /g,'+')}`;
@@ -2208,7 +2367,7 @@ function fontPage(f){
  <div class="phones">${[[SUBSEL,'Титры: '+SUBS.find(x=>x[0]===SUBSEL)[1].toLowerCase()],['reelcover','Обложка ролика'],['lowerthird','Плашка спикера']].map(([k,n],i)=>`<figure><div class="phone tile" id="vph${i}" data-t="${k}"><div class="art"></div></div><figcaption id="vpc${i}">${n}</figcaption></figure>`).join('')}</div></section>
  <section class="sec" id="s07"><div class="sh"><h2><span>07</span>Шрифт в жизни</h2><div style="display:flex;gap:6px;align-items:center"><small style="margin-right:8px">как он выглядит на вещах</small><button class="pill soft" type="button" id="lp">◐ Цвета</button></div></div>
  <div class="life">${LIFE.map(([k,n],i)=>`<figure><div class="lifet tile" id="lf${i}" data-t="${k}"><div class="art"></div></div><figcaption>${n}</figcaption></figure>`).join('')}</div></section>
- <section class="sec ${VAR!=='c'?'stars':''}" id="s08"><div class="sh"><h2><span>08</span>Созвездия</h2><small>пары с этим шрифтом</small></div><div class="pairs">${pairFor(f).map(([why,a,b])=>`<div class="pair"><span class="why">${why}</span><span class="h" style="font-family:${fam(a)};font-weight:${heavyW(a)}">${esc(PHRASE||DEF)}</span><span class="b" style="font-family:${fam(b)}">Экипаж собрался в шесть утра. До старта три часа: проверить приборы, повторить план полёта и выпить чаю.</span><span class="f"><span>${esc(a[0])} + ${esc(b[0])}</span>${b!==a?`<a href="#/font/${slug(b[0])}" style="color:var(--mut)">${esc(b[0])} →</a>`:''}</span></div>`).join('')}</div></section>
+ <section class="sec ${VAR!=='c'?'stars':''}" id="s08"><div class="sh"><h2><span>08</span>Созвездия</h2><small>с чем сочетать · заголовок + текст</small></div><div class="pgrid pg3" id="fpairs">${pairsFor(f,3).map(([w,a,b,t])=>pairCard(w,a,b,'site',1,t)).join('')}</div><a class="pill soft" style="margin-top:12px;display:inline-flex" href="#/pairs?f=${slug(f[0])}">Больше пар и шаблоны: слайд, афиша, рилс →</a></section>
  <section class="sec" id="s09"><div class="sh"><h2><span>09</span>Кириллица</h2><small>нажми на букву · смотри на Ж, Д, Л, Ы</small></div>
  <div class="glyph"><div class="g" id="gbig" style="font-family:${fam(f)};font-weight:${baseW(f)}">Ж</div><div class="i" id="ginf">Ж<br>U+0416<br>${esc(f[0])}</div></div>
  <div class="cyr" style="font-family:${fam(f)}">${[...CYR].map(c=>`<button type="button" class="${'ЖДЛЫ'.includes(c)?'hl':''}">${c}</button>`).join('')}</div></section>
@@ -2219,7 +2378,7 @@ function fontPage(f){
  <section class="cta"><p>Подбор за 3 вопроса, пары и тренажёры —<br>в бесплатном приложении «Подготовка экипажа»</p><a class="pill" href="https://t.me/perasperaschool" target="_blank" rel="noopener" style="background:var(--pap);color:var(--ink);font-weight:500">Открыть в Telegram</a></section>
  </div></div></div>
  <div class="mbar"><button class="pill soft" type="button" id="mfv">☆</button><a class="pill soft" href="#s05">Образцы</a><a class="pill dark" href="${gl}" target="_blank" rel="noopener" data-dl="1">Скачать</a></div>`;
- similarFor(f).forEach(x=>loadFont(x).catch(()=>{}));pairFor(f).forEach(x=>loadFont(x[2]).catch(()=>{}));
+ similarFor(f).forEach(x=>loadFont(x).catch(()=>{}));pairsFor(f,3).forEach(x=>loadFont(x[2]).catch(()=>{}));
  // обложка
  const kF=F;F=f;coverT={tpl:R(dirOf(f).cover),pal:dirPal(false,[])};F=kF;
  const drawCover=()=>compose($('#cover'),f,coverT.tpl,coverT.pal);
@@ -2244,6 +2403,7 @@ function fontPage(f){
  // тестер
  const to=$('#tout');const bind=(id,fn)=>{const e=$('#'+id);if(e)e.oninput=()=>fn(e.value)};
  bind('ts',v=>{to.style.fontSize=v+'px';$('#tsv').textContent=v});const tfv=()=>{const w=$('#tw'),d=$('#twd');to.style.fontVariationSettings=[w?`'wght' ${w.value}`:'',d?`'wdth' ${d.value}`:''].filter(Boolean).join(', ')||'normal'};
+ {const fp=document.getElementById('fpairs');if(fp)pairWire(fp)}
  bind('tw',v=>{to.style.fontWeight=v;tfv();$('#twv').textContent=v});bind('twd',v=>{tfv();$('#twdv').textContent=v});
  bind('tt',v=>{to.style.letterSpacing=(v/1000)+'em';$('#ttv').textContent=v});bind('tl',v=>{to.style.lineHeight=v/100;$('#tlv').textContent=(v/100).toFixed(2)});
  $('#sw').onclick=e=>{const b=e.target.closest('button[data-p]');if(!b)return;const p=PAL[+b.dataset.p];to.style.background=p[1];to.style.color=p[2];document.querySelectorAll('#sw button').forEach(x=>x.classList.toggle('on',x===b))};
@@ -2376,11 +2536,12 @@ addEventListener('keydown',e=>{if(location.hash!=='#/swipe'||/INPUT|TEXTAREA|SEL
 // ---------- роутер
 let RH=null,BACKH=null;function backLbl(h){if(!h)return 'Все шрифты';if(/[?&]set=/.test(h))return 'К подборке';if(isCat(h))return /\?/.test(h)?'К поиску':'К каталогу';const m={'#/shape':'К пропорциям','#/swipe':'К свайпу','#/compare':'К сравнению','#/brief':'К подбору','#/journal':'К журналу'};return m[h.split('?')[0]]||'Назад'}
 async function route(){if(!window._tgi){window._tgi=1;tgInit();setTimeout(logoInit,300);setTimeout(()=>{try{tourInit()}catch(e){}},600)}clearInterval(heroTimer);clearInterval(BAYT);const h=location.hash||'#/';tgRoute(h);if(RH!==null&&isCat(RH)&&!isCat(h))CATY=scrollY;const back=RH!==null&&!isCat(RH);if(/^#\/font\//.test(h)){if(RH!==null&&!/^#\/font\//.test(RH))BACKH=RH}else BACKH=null;RH=h;const qv=document.getElementById('qv');if(qv){qv.classList.remove('on');qv.innerHTML='';document.body.style.overflow=''}window.scrollTo(0,0);setTimeout(cmpTray,0);
- $('#nCat').classList.toggle('on',isCat(h));$('#nJ').classList.toggle('on',h==='#/journal');$('#nBr').classList.toggle('on',h==='#/brief');$('#nSw').classList.toggle('on',h==='#/swipe');$('#nSh').classList.toggle('on',h==='#/shape');$('#nFind').classList.toggle('on',h==='#/find');
+ $('#nCat').classList.toggle('on',isCat(h));$('#nJ').classList.toggle('on',h==='#/journal');$('#nBr').classList.toggle('on',h==='#/brief');$('#nSw').classList.toggle('on',h==='#/swipe');$('#nSh').classList.toggle('on',h==='#/shape');$('#nFind').classList.toggle('on',h==='#/find');$('#nPr').classList.toggle('on',h.startsWith('#/pairs'));
  if(h.startsWith('#/font/')){const f=bySlug(h.slice(7));if(!f){location.hash='#/';return}app.innerHTML='<div class="empty">Загружаю шрифт…</div>';try{await Promise.race([loadFont(f),new Promise(r=>setTimeout(r,2500))])}catch(e){}fontPage(f);tgShut();if(f[7])loadFont(f).then(()=>{if(location.hash.slice(7)===slug(f[0]))document.querySelectorAll('[style*="'+f[0]+'"]').forEach(e=>{e.style.fontFamily=e.style.fontFamily});window._redrawAll&&window._redrawAll()}).catch(()=>{});document.title=f[0]+' — библиотека шрифтов Perasperadastra';return}
  if(h==='#/journal'){journal();return}
  if(h==='#/compare'){compare();return}
  if(h==='#/shape'){document.title='Поиск шрифта по пропорциям';shape();return}
+ if(h.startsWith('#/pairs')){document.title='Шрифтовые пары — генератор';pairsPage();return}
  if(h==='#/find'){document.title='Найти шрифт по картинке';findPage();return}
  if(h==='#/swipe'){document.title='Свайп шрифтов';swipe();return}
  if(h==='#/brief'){$('#nBr').classList.add('on');document.title='Подбор шрифта по задаче';brief();return}
