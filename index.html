@@ -652,6 +652,8 @@ body.tg .mbtn{display:none!important}
 .pl.tl{display:grid;grid-template-columns:minmax(0,230px) 1fr;gap:20px;align-items:start;padding:20px}
 .tleg{display:flex;flex-direction:column;gap:10px;font-size:13px;line-height:1.4;color:var(--mut)}.tleg b{color:var(--ink);font-weight:500;display:block}.tleg .pill{align-self:flex-start;font-size:12px;padding:6px 11px}
 @media(max-width:600px){.pl.tl{grid-template-columns:1fr}.pl.tl .tkph{max-width:260px}}
+.pxl{background:var(--wh)}.pxl.dk{background:#0b1418;color:#5CFF8F}.pxl.dk p{color:#cdf7da}.pxl .t{font-size:0;line-height:0}.pxs{display:block;width:100%;height:auto;max-height:240px}.pxl p{font-size:15px;line-height:1.5;margin:0;color:var(--mut)}
+.pxr{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mut)}.pxr input{flex:1;accent-color:var(--ink)}.pxr b{font-weight:500;color:var(--ink);min-width:20px}
 .ptypes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}.ptypes button{border:1px solid var(--ln);background:transparent;border-radius:999px;padding:7px 13px;font:inherit;font-size:13px;cursor:pointer}.ptypes button.on{background:var(--ink);color:var(--pap);border-color:var(--ink)}
 .ptg{display:inline-block;font-weight:500;color:var(--ink);background:#FFE6D6;border-radius:6px;padding:1px 7px;margin-right:8px}
 .phow{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}.phc{text-align:left;border:0;background:var(--wh);border-radius:calc(var(--rk,1)*20px);padding:20px;display:flex;flex-direction:column;gap:8px;font:inherit;cursor:pointer;color:var(--ink)}.phc b{font-size:18px;font-weight:500}.phc span{font-size:14px;line-height:1.45;color:var(--mut)}.phc:hover{outline:2px solid var(--ink)}.plv{cursor:default;background:#FFE6D6}.plv:hover{outline:0}.pnote{background:var(--ink);cursor:default}.pnote b{color:var(--pap)}.pnote span{color:rgba(255,255,255,.7)}.pnote:hover{outline:0}
@@ -2070,7 +2072,8 @@ const PTYPES={classic:['Классика','Антиква + гротеск. Ра
  kin:['Родство','Разные классы, но похожий скелет: та же округлость и раскрытость букв. Пара выглядит цельной и спокойной.'],
  width:['Контраст пропорций','Два гротеска: узкий плотный заголовок и широкий лёгкий текст. Работает, только если разница видна сразу.'],
  one:['Одна семья','Один шрифт в разных начертаниях: жирный заголовок, обычный текст. Самое строгое и аккуратное решение.'],
- tech:['Технично','Моноширинный шрифт и спокойный текст. Для данных, кода, интерфейсов и подписей.']};
+ tech:['Технично','Моноширинный шрифт и спокойный текст. Для данных, кода, интерфейсов и подписей.'],
+ pixel:['Пиксель + гладкий','Заголовок — пиксельная версия того же шрифта, текст — обычная. Скелет совпадает, ступеньки дают технологичное настроение.']};
 const SUPERS=[['PT Serif','PT Sans','PT Mono'],['IBM Plex Serif','IBM Plex Sans','IBM Plex Mono'],['Noto Serif','Noto Sans','Noto Sans Mono','Noto Sans Display','Noto Serif Display'],['Roboto Serif','Roboto','Roboto Mono','Roboto Flex','Roboto Condensed'],['Alegreya','Alegreya Sans'],['Source Serif 4','Source Sans 3'],['Wix Madefor Display','Wix Madefor Text'],['Geist','Geist Mono'],['Ubuntu Sans','Ubuntu Sans Mono'],['Fira Sans','Fira Mono','Fira Code'],['Sofia Sans','Sofia Sans Condensed']];
 const superOf=n=>SUPERS.find(g=>g.includes(n));
 function pairScore(h,b){
@@ -2109,11 +2112,12 @@ function pairsFor(h,n=3,seed=0,type=''){
  const P=pool.map(b=>pairScore(h,b)).filter(Boolean);
  const st=h[2]&&h[4]-h[3]>=300?4:h[5];
  if(h[1]==='Гротеск'&&TEXTS.includes(h[0])&&st>=4&&!isDisp(h)&&!PREV_BAD.has('para|'+h[0]+'|'+h[0]))P.push({b:h,s:2.8+((QS[h[0]]??40)-60)/40,t:'one',why:'Одна семья: жирный заголовок и обычный текст одним шрифтом'});
+ if(!isScript(h)&&!isDecor(h)&&h[1]!=='Рукописный'&&(h[1]==='Гротеск'||h[1]==='Моно'||h[1]==='Акцидентный'))P.push({b:h,s:2.9,t:'pixel',why:'Пиксельная версия того же шрифта + обычная'});
  P.forEach(p=>p.r=p.s+prnd(h[0]+'|'+p.b[0]+'|'+seed)*(seed?3.2:1.2));P.sort((a,b)=>b.r-a.r);
  const Q=type?P.filter(p=>p.t===type):P;
  const out=[],fams=new Set(),types={};
  // сначала лучший вариант каждого типа, потом остальные — чтобы были видны разные схемы
- const take=p=>{const k=p.b===h?'@self':p.t==='super'?p.b[0]:famKey(p.b[0]);if(fams.has(k))return;fams.add(k);out.push(p);types[p.t]=(types[p.t]||0)+1};
+ const take=p=>{const k=p.t==='pixel'?'@px':p.b===h?'@self':p.t==='super'?p.b[0]:famKey(p.b[0]);if(fams.has(k))return;fams.add(k);out.push(p);types[p.t]=(types[p.t]||0)+1};
  if(!type)for(const p of Q){if(out.length>=n)break;if(!types[p.t])take(p)}
  for(const p of Q){if(out.length>=n)break;if(!out.includes(p)&&(type||types[p.t]<2))take(p)}
  for(const p of Q){if(out.length>=n)break;if(!out.includes(p))take(p)}
@@ -2298,8 +2302,36 @@ function talkRun(root,o){const el=root.querySelector('.tk');if(!el)return;const 
   // титры: 3 слова на экране, текущее подсвечено, ~330 мс на слово, с 0,6 с до 8,2 с
   if(t>600&&t<8200){const wi=Math.floor((t-600)/330)%ws.length,ci=Math.floor(wi/3),k=wi%3,key=ci+'|'+k;if(key!==last){last=key;sub.innerHTML=ch[ci].map((w,j)=>`<span class="${j===k?'on':''}${j<=k?' sd':''}">${esc(w)}</span>`).join(' ')}}else if(last){last='';sub.innerHTML=''}
   requestAnimationFrame(step)};requestAnimationFrame(step)}
+
+// ---------- Пиксельная версия шрифта (в браузере): рисуем текст на крупной сетке и собираем векторный SVG ----------
+function pixelSVG(fam,wt,text,cells){
+ const cv=document.createElement('canvas'),x=cv.getContext('2d',{willReadFrequently:true});
+ x.font=`${wt} 100px ${fam}`;const cap=x.measureText('Н').actualBoundingBoxAscent||70;const S=100*cells/cap;
+ // переносим по словам, чтобы строка не была слишком длинной
+ const ws=text.trim().split(/\s+/);x.font=`${wt} ${S}px ${fam}`;const full=x.measureText(text).width/cells;
+ const nl=full>34?3:full>16?2:1;const lines=[];let cur='';const tgt=x.measureText(text).width/nl;
+ ws.forEach(w=>{const t=cur?cur+' '+w:w;if(cur&&x.measureText(t).width>tgt*1.15&&lines.length<nl-1){lines.push(cur);cur=w}else cur=t});lines.push(cur);
+ const lh=Math.round(cells*1.55),pad=Math.ceil(cells*.35);
+ const W=Math.ceil(Math.max(...lines.map(l=>x.measureText(l).width)))+4,H=lh*lines.length+pad*2;cv.width=W;cv.height=H;
+ x.font=`${wt} ${S}px ${fam}`;x.fillStyle='#000';x.textBaseline='alphabetic';
+ lines.forEach((l,i)=>x.fillText(l,2,pad+cells+i*lh+Math.round(cells*.15)));
+ const d=x.getImageData(0,0,W,H).data;let path='',minX=W,maxX=0,minY=H,maxY=0;
+ for(let y=0;y<H;y++){let run=-1;for(let i=0;i<=W;i++){const on=i<W&&d[(y*W+i)*4+3]>96;if(on&&run<0)run=i;if(!on&&run>=0){path+=`M${run} ${y}h${i-run}v1h-${i-run}z`;if(run<minX)minX=run;if(i>maxX)maxX=i;if(y<minY)minY=y;if(y+1>maxY)maxY=y+1;run=-1}}}
+ if(!path)return '';return `<svg class="pxs" viewBox="${minX} ${minY} ${maxX-minX} ${maxY-minY}" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="${path}"/></svg>`}
+// самое тонкое прямое начертание: тогда штрих ≈ одна клетка, как у «настоящих» пиксельных версий
+const thinW=(f,c)=>{const [lo,hi]=wRange(f);const want=c>=16?300:c>=12?400:c>=9?500:600;return Math.max(lo,Math.min(hi,want))};
+function pixelize(root){root.querySelectorAll('[data-px]').forEach(el=>{const [n,c]=el.dataset.px.split('|');const f=FONTS.find(x=>x[0]===n);if(!f)return;const w=thinW(f,+c||11);
+ loadUpright(f,w).then(()=>document.fonts.load(`${w} 40px "${f[0]}"`)).then(()=>{const t=el.dataset.txt||ptext();el.innerHTML=pixelSVG(fam(f),w,t,+c||11)||esc(t)}).catch(()=>{})})}
 const PMODES=[['site','Сайт'],['slide','Слайд'],['poster','Афиша'],['reel','Ролик']];
-function pairCard(why,h,b,mode,noMore,t){
+function pixelCard(why,h,mode,noMore){const B=`font-family:${fam(h)};font-weight:${baseW(h)}`,txt=esc((PBODY||'').trim()||PBODY0),dark=mode!=='site';
+ const px=`<div class="t pxt" data-px="${esc(h[0])}|${PXC}">${esc(ptext())}</div>`;
+ const lay=`<div class="pl pxl${dark?' dk':''}">${px}<p style="${B}">${txt}</p></div>`;
+ return `<div class="pcard">${lay}<div class="pf"><span class="why"><b class="ptg">${PTYPES.pixel[0]}</b>${esc(why)}</span>
+ <div class="pn2"><a href="#/font/${slug(h[0])}"><small>Заголовок · пиксели</small>${esc(h[0])}</a><a href="#/font/${slug(h[0])}"><small>Текст</small>${esc(h[0])}</a></div>
+ <label class="pxr">Пиксели <input type="range" min="8" max="24" step="1" value="${PXC}" data-pxr> <b>${PXC}</b></label>
+ <div class="pb"><button type="button" class="pill soft" data-pxsvg>SVG заголовка</button><button type="button" class="pill soft" data-png="1">PNG</button><button type="button" class="pill soft" data-link="${slug(h[0])}|${slug(h[0])}|para|px">Ссылка</button>${noMore?'':`<a class="pill soft" href="#/pairs?f=${slug(h[0])}">Ещё к ${esc(h[0])}</a>`}</div></div></div>`}
+let PXC=+lsGet('pada_pxc',11)||11;
+function pairCard(why,h,b,mode,noMore,t){if(t==='pixel')return pixelCard(why,h,mode,noMore);
  const H=`font-family:${fam(h)};font-weight:${heavyW(h)}`,B=`font-family:${fam(b)};font-weight:${baseW(b)}`,ph=esc(ptext()),
  txt=esc((PBODY||'').trim()||PBODY0);
  let lay;
@@ -2337,6 +2369,9 @@ function pairWire(root){
  root.querySelectorAll('[data-fav]').forEach(x=>x.onclick=()=>{const ns=x.dataset.fav.split('|');ns.forEach(n=>{if(!isFav(n))toggleFav(n)});toast('Оба шрифта в бортовом журнале')});
  root.querySelectorAll('[data-link]').forEach(x=>x.onclick=()=>{const [a,c,l,m]=x.dataset.link.split('|');const u=location.origin+location.pathname+`#/pairs?f=${a}&b=${c}&l=${l}`+(m?`&m=${m}`:'');(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>toast('Ссылка на пару скопирована')).catch(()=>prompt('Ссылка на пару',u))});
  root.querySelectorAll('[data-png]').forEach(x=>x.onclick=()=>{const c=x.closest('.pcard');const names=[...c.querySelectorAll('.pn2 a')].map(a=>a.textContent.replace(/^(Заголовок|Текст|Основной|Акцентное слово|Буквы-акценты)/,''));x.disabled=true;x.textContent='…';cardPNG(c.querySelector('.pl'),'пара '+names.join(' + ')).catch(e=>toast('Не получилось сохранить картинку')).finally(()=>{x.disabled=false;x.textContent='PNG'})});
+ pixelize(root);
+ root.querySelectorAll('[data-pxr]').forEach(r=>r.oninput=()=>{const c=r.closest('.pcard'),t=c.querySelector('[data-px]');PXC=+r.value;lsSet('pada_pxc',PXC);r.nextElementSibling.textContent=PXC;const [n]=t.dataset.px.split('|');t.dataset.px=n+'|'+PXC;pixelize(c)});
+ root.querySelectorAll('[data-pxsvg]').forEach(x=>x.onclick=()=>{const c=x.closest('.pcard'),sv=c.querySelector('.pxs');if(!sv)return;const n=c.querySelector('[data-px]').dataset.px.split('|')[0];const blob=new Blob([sv.outerHTML.replace('fill="currentColor"','fill="#000"')],{type:'image/svg+xml'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=n+' пиксели.svg';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);toast('SVG заголовка сохранён — его можно вставить в Figma')});
  root.querySelectorAll('[data-talk]').forEach(x=>{talkRun(x,{speech:(PBODY||'').trim()||TALK_SPEECH});const z=x.querySelector('[data-zone]');if(z)z.onclick=()=>{const t=x.querySelector('.tk');t.classList.toggle('zn');z.textContent=t.classList.contains('zn')?'Скрыть компоновку':'Показать компоновку'}});
  const L=[];root.querySelectorAll('.pcard').forEach(c=>c.querySelectorAll('.pn2 a').forEach(a=>{const f=bySlug(a.getAttribute('href').slice(7));if(f)L.push(loadFont(f).catch(()=>{}))}));
  fitAll(root);Promise.all(L).then(()=>document.fonts.ready).then(()=>fitAll(root))}
@@ -2345,7 +2380,7 @@ const PBODY0='Экипаж собрался в шесть утра. До ста�
 const ptext=()=>(PHEAD||'').trim()||phrase();
 function pairsPage(){
  const q=new URLSearchParams((location.hash.split('?')[1])||'');const hf=bySlug(q.get('f')||'');const bf=bySlug(q.get('b')||'');
- if(q.get('l')&&PLEVELS[q.get('l')])PLEVEL=q.get('l');if(q.get('m')&&PMODES.some(x=>x[0]===q.get('m')))PMODE=q.get('m');
+ if(q.get('l')&&PLEVELS[q.get('l')])PLEVEL=q.get('l');if(q.get('m')&&PMODES.some(x=>x[0]===q.get('m')))PMODE=q.get('m');const PXLINK=q.get('m')==='px';
  const opts=FONTS.filter(f=>!STUB.has(f[0])).map(f=>`<option value="${esc(f[0])}">`).join('');
  app.innerHTML=`<div class="wrap prs"><div class="mono" style="font-size:11px;color:var(--mut)">★ ГЕНЕРАТОР ПАР · ЗАГОЛОВОК + ТЕКСТ</div>
  <h1>Шрифтовые <span class="plq">пары</span></h1>
@@ -2364,7 +2399,7 @@ function pairsPage(){
  <div class="phow">${Object.entries(PTYPES).map(([k,[n,d]])=>`<button type="button" class="phc" data-t="${k}"><b>${n}</b><span>${d}</span></button>`).join('')}
  ${Object.entries(PLEVELS).map(([k,[n,d]])=>`<div class="phc plv"><b>${n}</b><span>${d}</span></div>`).join('')}${Object.entries(LTYPES).map(([k,[n,d]])=>`<div class="phc plv"><b>Во фразе: ${n.toLowerCase()}</b><span>${d}</span></div>`).join('')}<div class="phc pnote"><b>Общие правила</b><span>Два шрифта, максимум три (третий — моно для подписей). Контраст должен быть явным: два похожих гротеска выглядят как ошибка. Близкая высота строчных — и строки не спорят. Настроение общее: строгий заголовок — строгий текст.</span></div></div></div>`;
  const draw=()=>{const res=$('#pres');const para=PLEVEL==='para';document.querySelectorAll('.prs .pgrid').forEach(g=>g.classList.toggle('wide',para&&PMODE==='reel'));
-  const pl=$('#plink');if(pl&&hf&&bf){if(para){const sc=pairScore(hf,bf);pl.innerHTML=pairCard(sc?sc.why:'Пара по ссылке',hf,bf,PMODE,0,sc?sc.t:'');pairWire(pl)}else{const L=(PLEVEL==='line'?lineFor(hf,60):wordFor(hf,60));const p=L.find(x=>x.b===bf)||{b:bf,why:'Пара по ссылке'};pl.innerHTML=lwCard(PLEVEL,p,hf);pairWire(pl);Promise.all([loadFont(hf),loadFont(bf),PLEVEL==='line'?loadItalic(bf,(lineFor(hf,60).find(x=>x.b===bf)||{}).w):0].map(x=>Promise.resolve(x).catch(()=>{}))).then(()=>document.fonts.ready).then(()=>{fitAccents(pl);try{opticalSpace(pl)}catch(e){}fitAll(pl)})}}
+  const pl=$('#plink');if(pl&&hf&&bf){if(para){const sc=pairScore(hf,bf);pl.innerHTML=PXLINK?pixelCard(PTYPES.pixel[1],hf,PMODE):pairCard(sc?sc.why:'Пара по ссылке',hf,bf,PMODE,0,sc?sc.t:'');pairWire(pl)}else{const L=(PLEVEL==='line'?lineFor(hf,60):wordFor(hf,60));const p=L.find(x=>x.b===bf)||{b:bf,why:'Пара по ссылке'};pl.innerHTML=lwCard(PLEVEL,p,hf);pairWire(pl);Promise.all([loadFont(hf),loadFont(bf),PLEVEL==='line'?loadItalic(bf,(lineFor(hf,60).find(x=>x.b===bf)||{}).w):0].map(x=>Promise.resolve(x).catch(()=>{}))).then(()=>document.fonts.ready).then(()=>{fitAccents(pl);try{opticalSpace(pl)}catch(e){}fitAll(pl)})}}
   $('#ptypes').hidden=!para;$('#ltypes').hidden=PLEVEL!=='line';$('.pseg').style.display=para?'':'none';$('#phandH').hidden=!para;$('#phand').hidden=!para;
   if(hf&&!para){const L=PLEVEL==='line'?lineFor(hf,8,PSEED,LTYPE):wordFor(hf,6,PSEED);res.innerHTML=L.length?L.map(p=>lwCard(PLEVEL,p,hf)).join(''):`<div class="empty">${PLEVEL==='line'?'Во фразе этот шрифт лучше не смешивать: приём работает, когда основной шрифт спокойный — например Golos Text, Geist или Onest. Яркий или каллиграфический заголовок оставьте одним шрифтом.':'Для замены букв в слове этот шрифт не подходит: каллиграфию и шрифты из одних прописных с другими лучше не смешивать.'}</div>`;pairWire(res);loadFont(hf).catch(()=>{});Promise.all([loadFont(hf).catch(()=>{}),...L.map(p=>Promise.all([loadFont(p.b).catch(()=>{}),PLEVEL==='line'&&p.it?loadItalic(p.b,p.w):0,p.hw?Promise.all([loadUpright(p.b,p.w),loadUpright(hf,p.hw)]):0]))]).then(()=>document.fonts.ready).then(()=>{fitAccents(res);try{opticalSpace(res)}catch(e){}fitAll(res)});fitAll(res);return}
   if(!hf&&!para){res.innerHTML='<div class="empty">Выберите основной шрифт — подберём к нему '+(PLEVEL==='line'?'шрифт для акцентного слова':'шрифт для букв-акцентов')+'</div>'}
