@@ -28,13 +28,45 @@
   // ring — средняя яркость полосы вокруг выделения (люди обводят слово впритык,
   // и жирные буквы касаются краёв рамки: тогда фон по самому краю определить нельзя)
   function binarize(g, w, h, ring) {
-    const t = otsu(g); let edge = 0, n = 0;
-    for (let x = 0; x < w; x++) { edge += g[x] + g[(h - 1) * w + x]; n += 2; }
-    for (let y = 0; y < h; y++) { edge += g[y * w] + g[y * w + w - 1]; n += 2; }
-    const lightBg = (ring != null ? ring : edge / n) > t;
+    const t = otsu(g); let el = 0, n = 0;
+    const e = v => { n++; if (v > t) el++; };
+    for (let x = 0; x < w; x++) { e(g[x]); e(g[(h - 1) * w + x]); }
+    for (let y = 0; y < h; y++) { e(g[y * w]); e(g[y * w + w - 1]); }
+    const edgeL = el / n;
+    // фон — то, что по краю выделения. Если край спорный (жирные буквы касаются рамки), смотрим на полосу вокруг:
+    // считаем долю светлых точек, а не среднюю яркость — полоса может захватить и плашку, и тёмный фон за ней
+    let lightBg;
+    if (edgeL > 0.8) lightBg = true; else if (edgeL < 0.2) lightBg = false;
+    else if (ring && ring.length > 20) { let rl = 0; for (const v of ring) if (v > t) rl++; lightBg = rl / ring.length > 0.5; }
+    else lightBg = edgeL > 0.5;
     const b = new Uint8Array(w * h);
     for (let i = 0; i < b.length; i++) b[i] = lightBg ? (g[i] < t ? 1 : 0) : (g[i] > t ? 1 : 0);
     return b;
+  }
+  // плашка: одно сплошное пятно на полкартинки с дырками-буквами внутри (светлая карточка на тёмном фоне)
+  function plate(b, w, h) {
+    const seen = new Uint8Array(b.length), st = []; let best = null;
+    for (let i = 0; i < b.length; i++) {
+      if (!b[i] || seen[i]) continue;
+      let x0 = w, y0 = h, x1 = -1, y1 = -1, a = 0; st.push(i); seen[i] = 1;
+      while (st.length) {
+        const j = st.pop(), x = j % w, y = (j / w) | 0; a++;
+        if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y;
+        if (x > 0 && b[j - 1] && !seen[j - 1]) { seen[j - 1] = 1; st.push(j - 1); }
+        if (x < w - 1 && b[j + 1] && !seen[j + 1]) { seen[j + 1] = 1; st.push(j + 1); }
+        if (y > 0 && b[j - w] && !seen[j - w]) { seen[j - w] = 1; st.push(j - w); }
+        if (y < h - 1 && b[j + w] && !seen[j + w]) { seen[j + w] = 1; st.push(j + w); }
+      }
+      const bw = x1 - x0 + 1, bh = y1 - y0 + 1;
+      if (bw * bh > w * h * 0.2 && a > bw * bh * 0.5 && a < bw * bh * 0.97 && (!best || a > best.a)) {
+        // у плашки прямые края: рамка её габарита почти вся закрашена (у строки текста так не бывает)
+        let per = 0, pn = 0; const ins = 3, X0 = x0 + ins, X1 = x1 - ins, Y0 = y0 + ins, Y1 = y1 - ins;
+        for (let x = X0; x <= X1; x += 2) { per += b[Y0 * w + x] + b[Y1 * w + x]; pn += 2; }
+        for (let y = Y0; y <= Y1; y += 2) { per += b[y * w + X0] + b[y * w + X1]; pn += 2; }
+        if (pn && per / pn > 0.85) best = { x: x0, y: y0, w: bw, h: bh, a };
+      }
+    }
+    return best;
   }
   function bbox(b, w, h) {
     let x0 = w, y0 = h, x1 = -1, y1 = -1;
@@ -145,8 +177,8 @@
   }
 
   /* Главная функция: RGBA-данные + прямоугольник → вектор признаков */
-  function measure(data, w, h, rect) {
-    const whole = !rect;
+  function measure(data, w, h, rect, inPlate) {
+    const whole = !rect || inPlate;
     rect = rect || { x: 0, y: 0, w, h };
     const rx = Math.max(0, Math.round(rect.x)), ry = Math.max(0, Math.round(rect.y)), rw = Math.min(w - rx, Math.round(rect.w)), rh = Math.min(h - ry, Math.round(rect.h));
     if (rw < 8 || rh < 8) return null;
@@ -154,17 +186,23 @@
     for (let y = 0; y < rh; y++) sub.set(data.subarray(((ry + y) * w + rx) * 4, ((ry + y) * w + rx + rw) * 4), y * rw * 4);
     // полоса вокруг рамки (до 15% от её размера), если рамка не во всю картинку
     const m = Math.round(Math.min(rw, rh) * 0.15) + 4;
-    let ringS = 0, ringN = 0;
+    const ringV = [];
     const ax0 = Math.max(0, rx - m), ay0 = Math.max(0, ry - m), ax1 = Math.min(w, rx + rw + m), ay1 = Math.min(h, ry + rh + m);
     for (let y = ay0; y < ay1; y += 2) for (let x = ax0; x < ax1; x += 2) {
       if (x >= rx && x < rx + rw && y >= ry && y < ry + rh) continue;
       const j = (y * w + x) * 4, a = data[j + 3] / 255;
-      ringS += (0.299 * data[j] + 0.587 * data[j + 1] + 0.114 * data[j + 2]) * a + 255 * (1 - a); ringN++;
+      ringV.push((0.299 * data[j] + 0.587 * data[j + 1] + 0.114 * data[j + 2]) * a + 255 * (1 - a));
     }
-    const ring = ringN > (rw + rh) * 0.5 ? ringS / ringN : null;
+    const ring = ringV.length > (rw + rh) * 0.5 ? ringV : null;
     const g = toGray(sub, rw, rh), b0 = binarize(g, rw, rh, ring);
     // вся картинка: без рамки человек не показал, где текст, — убираем плашки и берём самые крупные строки
-    if (whole) dropFrames(b0, rw, rh);
+    if (whole) {
+      // текст на плашке: меряем внутри плашки, там свой фон (поля по краю срезаем чуть-чуть — скругления углов)
+      const P = !inPlate && plate(b0, rw, rh);
+      if (P) { const mx = Math.round(P.w * 0.004) + 2, my = Math.round(P.h * 0.004) + 2;
+        const r = measure(data, w, h, { x: rx + P.x + mx, y: ry + P.y + my, w: P.w - 2 * mx, h: P.h - 2 * my }, true); if (r) return r; }
+      dropFrames(b0, rw, rh);
+    }
     const bb0 = bbox(b0, rw, rh); if (!bb0) return null;
     let acc = null, nL = 0, dbg = null;
     const LL = lines(b0, rw, rh, bb0, whole ? 0.75 : 0.45);

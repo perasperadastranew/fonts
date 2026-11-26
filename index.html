@@ -2026,7 +2026,7 @@ const isStd=f=>STD.has(f[0]);
 function dayRand(s){let h=2166136261;const d=new Date();s=s+d.getFullYear()+'.'+d.getMonth()+'.'+d.getDate();for(const c of s){h^=c.charCodeAt(0);h=Math.imul(h,16777619)}return (h>>>0)/4294967296}
 // ---------- поиск по картинке (find.js + find/match.json, всё считается в браузере)
 let FIND={img:null,sel:null,M:null,res:null};
-function findLib(){if(window.FM&&FIND.M)return Promise.resolve();return new Promise((ok,no)=>{const go=()=>fetch('find/match.json').then(r=>r.json()).then(j=>{FIND.M=FM.load(j);ok()}).catch(no);if(window.FM)return go();const sc=document.createElement('script');sc.src='find.js?v=3';sc.onload=go;sc.onerror=no;document.head.appendChild(sc)})}
+function findLib(){if(window.FM&&FIND.M)return Promise.resolve();return new Promise((ok,no)=>{const go=()=>fetch('find/match.json').then(r=>r.json()).then(j=>{FIND.M=FM.load(j);ok()}).catch(no);if(window.FM)return go();const sc=document.createElement('script');sc.src='find.js?v=4';sc.onload=go;sc.onerror=no;document.head.appendChild(sc)})}
 // ---------- Пары шрифтов: заголовок + текст ----------
 // Правила без нейросети: контраст классов, близкая высота строчных, текстовый шрифт хорошо проработан, оба можно для клиента.
 const PAIRS_HAND=[
