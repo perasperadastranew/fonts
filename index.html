@@ -145,13 +145,20 @@ table.spec td:first-child{color:var(--mut)}
 .pair .h{font-size:34px;line-height:1.05;letter-spacing:-.5px}
 .pair .b{font-size:15px;line-height:1.5;color:var(--mut)}
 .pair .f{font-size:13px;border-top:1px solid var(--ln);padding-top:10px;display:flex;justify-content:space-between}
-.cyr{background:var(--wh);border-radius:calc(var(--rk,1)*24px);padding:14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr))}
-.cyr button{height:64px;border:0;background:transparent;font-size:28px;border-radius:calc(var(--rk,1)*12px)}
+.cyr2{display:grid;grid-template-columns:minmax(260px,.85fr) 1.6fr;gap:8px;align-items:start}
+.cyp{background:var(--wh);border-radius:calc(var(--rk,1)*24px);padding:20px 24px 22px;display:flex;flex-direction:column;min-height:420px;position:sticky;top:88px}
+.cyp .g{flex:1;display:grid;place-items:center;font-size:clamp(150px,15vw,240px);line-height:1.1;min-height:280px}
+.cyp .gi{display:flex;justify-content:space-between;align-items:end;gap:12px;border-top:1px solid color-mix(in srgb,var(--ink) 12%,transparent);padding-top:14px}
+.cyp .mono{font:12px/1.6 'JetBrains Mono',monospace;letter-spacing:.06em;color:var(--mut)}.cyp .pr{font-size:34px;line-height:1}
+.cyp p{margin:4px 0 0;font-size:14px;color:var(--ink);min-height:1.4em}
+.cyr{background:var(--wh);border-radius:calc(var(--rk,1)*24px);padding:18px 18px 20px;display:flex;flex-direction:column;gap:18px}
+.cyr .grp>span{display:block;margin:0 0 6px 6px;font:11px 'JetBrains Mono',monospace;letter-spacing:.08em;color:var(--mut)}
+.cyr .row{display:grid;grid-template-columns:repeat(11,1fr);gap:2px}
+.cyr button{aspect-ratio:1;min-width:0;border:0;background:transparent;font-family:inherit;font-weight:inherit;color:inherit;font-size:clamp(20px,2.2vw,32px);line-height:1;border-radius:calc(var(--rk,1)*12px);position:relative;cursor:pointer;padding:0}
 .cyr button:hover{background:var(--soft)}
-.cyr button.hl{background:#FFE6D6}
-.glyph{background:var(--ink);color:var(--pap);border-radius:calc(var(--rk,1)*24px);display:grid;grid-template-columns:1fr auto;align-items:center;margin-bottom:8px;overflow:hidden}
-.glyph .g{font-size:220px;line-height:1.05;padding:10px 40px}
-.glyph .i{padding:24px 32px;font:12px/1.8 'JetBrains Mono';color:#A5A09B}
+.cyr button.hl::after{content:'';position:absolute;top:7px;right:7px;width:5px;height:5px;border-radius:50%;background:#FF7122}
+.cyr button.on{background:var(--ink);color:var(--pap)}
+@media(max-width:760px){.cyr2{grid-template-columns:1fr}.cyp{position:static;min-height:0}.cyp .g{min-height:200px}.cyr .row{grid-template-columns:repeat(8,1fr)}}
 .lic2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .lic2 > div{border-radius:calc(var(--rk,1)*24px);padding:28px}
 .lic2 .a{background:var(--ok)}.lic2 .b{background:var(--wh);font-size:14px;line-height:1.65}
@@ -292,7 +299,7 @@ body.v-b{background-image:var(--stars);background-size:600px 600px;background-at
 body.v-b .sh h2 span::before{content:'[ '}body.v-b .sh h2 span::after{content:' ]'}
 body.v-b .sh h2{text-transform:none}
 body.v-b .tag.ok{color:#9FE0B0}
-body.v-b .cyr button.hl{background:rgba(255,113,34,.22)}
+
 body.v-b .route{background:#F1EFEA;color:#0C0B0D}body.v-b .route .d{color:#6E6A66}body.v-b .route .tg span{background:#0C0B0D;color:#F1EFEA}body.v-b .route .tg span.o{background:#FF7122;color:#0C0B0D}
 body.v-b .sec.stars{background:transparent;padding:0}
 body.v-b .lic2 .a{color:var(--ink)}
@@ -300,7 +307,7 @@ body.v-b .lic2 .a{color:var(--ink)}
 @media(max-width:900px){
  .nav{display:none}.wrap{padding:0 16px}.hero,.two,.wgrid,.lic2,.cta{grid-template-columns:1fr}
  .fp{grid-template-columns:1fr}.side{display:none}.samples .tile.w8,.samples .tile.w4,.samples .tile.w6{grid-column:span 12}
- .cover .ov{left:16px;right:16px}.wl div{font-size:30px}.glyph .g{font-size:140px}
+ .cover .ov{left:16px;right:16px}.wl div{font-size:30px}
  .mbar{display:flex;position:fixed;left:12px;right:12px;bottom:14px;gap:6px;background:rgba(241,239,234,.94);backdrop-filter:blur(10px);padding:6px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.14);z-index:15}
  .mbar .pill{flex:1;text-align:center}
  .intro h1{font-size:38px}
@@ -394,8 +401,8 @@ body.v-b .lic2 .a{color:var(--ink)}
 .famc p{margin:10px 0 0;font-size:16px;line-height:1.5}.famc .mut{color:var(--mut)}
 .famc .who{margin-top:10px;font-size:20px;letter-spacing:-.01em}
 .famc .src{display:inline-block;margin-top:14px;font-size:13px;color:var(--mut);text-decoration:underline;text-underline-offset:3px}
-.fk{background:var(--ink);color:var(--pap)}.fk .mono{color:#A5A09B}.fk p{font-size:15px}.fk .kk{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.fk .kk p{margin-top:4px;font-size:14px;color:#D9D5CF}
-.fp2{grid-column:auto}.pp .bp{aspect-ratio:220/96;margin-bottom:10px;border-radius:10px;background:#F6F4EE;overflow:hidden}.pp .bp svg{display:block;width:100%;height:100%}.fam>.famc:only-child{grid-column:1/-1}.pps{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin-top:14px}.fk .who{color:var(--pap)}.fk .src{color:#A5A09B}.fk p.cl{color:#A5A09B;font-size:14px;margin-top:14px}
+.fk{background:var(--wh);color:var(--ink)}.fk p{font-size:17px;line-height:1.5;max-width:62ch}.fk .kk{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px;padding-top:18px;border-top:1px solid color-mix(in srgb,var(--ink) 12%,transparent)}.fk .kk p{margin-top:6px;font-size:15px;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.fp2{grid-column:auto}.pp .bp{aspect-ratio:220/96;margin-bottom:10px;border-radius:10px;background:#F6F4EE;overflow:hidden}.pp .bp svg{display:block;width:100%;height:100%}.fam>.famc:only-child{grid-column:1/-1}.pps{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin-top:14px}.fk .who{color:var(--ink)}.fk .src{color:var(--mut)}.fk p.cl{color:var(--mut);font-size:14px;margin-top:14px}
 .pp b{display:block;font-weight:500;font-size:18px;margin:6px 0 8px}.pp i{display:block;height:4px;border-radius:4px;background:linear-gradient(90deg,#FF7122 var(--p),rgba(12,11,13,.1) var(--p))}.pp small{display:block;margin-top:8px;font-size:12px;line-height:1.35;color:var(--mut)}
 @media(max-width:900px){.fam{grid-template-columns:1fr}.pps{grid-template-columns:1fr 1fr}}
 .h4bar{justify-content:flex-start}
@@ -799,7 +806,7 @@ blueprint(p){const word=words()[0].replace(/[,.!?]/g,'');const w=baseW(F);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:6cqw 5cqw">
  <div style="position:absolute;top:2cqw;left:50%;transform:translateX(-50%)">${reg(p[2])}</div><div style="position:absolute;bottom:2cqw;left:50%;transform:translateX(-50%)">${reg(p[2])}</div>
  <div style="position:absolute;left:1.5cqw;top:50%">${reg(p[2])}</div><div style="position:absolute;right:1.5cqw;top:50%">${reg(p[2])}</div>
- <div data-bp style="position:absolute;left:7cqw;right:7cqw;top:50%;transform:translateY(-50%)"><div data-word style="font-family:${ff()};font-weight:${w};white-space:nowrap;line-height:1;position:relative;z-index:1">${[...word].map(c=>`<span>${esc(c)}</span>`).join('')}</div></div></div>`,after:blue}},
+ <div data-bp style="position:absolute;left:22cqw;right:6cqw;top:50%;transform:translateY(-50%);text-align:center"><div data-word style="display:inline-block;font-family:${ff()};font-weight:${w};white-space:nowrap;line-height:1;position:relative;z-index:1">${[...word].map(c=>`<span>${esc(c)}</span>`).join('')}</div></div></div>`,after:blue}},
 glyph(p){const cand=[...'ЖДЯФЩЫЮЁЛЪж'];const g=R(cand);
  return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]}">
  <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:${ff()};font-weight:${R([lightW(F),baseW(F),heavyW(F)])};font-size:92cqw;line-height:1">${g}</div>
@@ -910,16 +917,28 @@ function annotate(root,p){const box=root.querySelector('[data-ann]');if(!box)ret
   const c=document.createElement('div');c.className='ann';Object.assign(c.style,{left:(cx-d/2)+'px',top:(cy-d/2)+'px',width:d+'px',height:d+'px',background:p[3],opacity:.35});art.appendChild(c);
   const o=document.createElement('div');o.className='ann';Object.assign(o.style,{left:(cx-d/2)+'px',top:(cy-d/2)+'px',width:d+'px',height:d+'px',border:`1px solid ${p[2]}`});art.appendChild(o);
   const l=document.createElement('div');l.className='annl';l.style.color=p[2];l.textContent=NOTES[s.textContent]||('буква '+s.textContent);const up=i%2==0;l.style.left=Math.max(6,cx+d*0.35)+'px';l.style.top=(up?cy-d/2-4:cy+d/2-10)+'px';art.appendChild(l)})}
-function blue(root,p){const bp=root.querySelector('[data-bp]'),wd=root.querySelector('[data-word]');if(!bp)return;
- const W=bp.clientWidth;wd.style.fontSize='100px';const w=wd.scrollWidth||1;const fs=Math.min(100*W/w,root.clientHeight*0.55);wd.style.fontSize=fs+'px';
- const c=document.createElement('canvas').getContext('2d');c.font=`${baseW(F)} ${fs}px "${F[0]}"`;const cap=c.measureText('Н').actualBoundingBoxAscent,xh=c.measureText('н').actualBoundingBoxAscent,desc=c.measureText('у').actualBoundingBoxDescent;
- const wr=wd.getBoundingClientRect(),br=bp.getBoundingClientRect();const base=wd.offsetTop+ (wd.offsetHeight+cap-desc)/2; // approx baseline
- const m=c.measureText('Н');const baseline=wd.offsetTop+wd.offsetHeight/2+(m.actualBoundingBoxAscent-m.actualBoundingBoxDescent)/2;
- const lines=[['прописные',baseline-cap,Math.round(cap)],['строчные',baseline-xh,Math.round(xh)],['базовая',baseline,0],['выносные',baseline+desc,Math.round(desc)]];
- let h='';lines.forEach(([n,y,v],i)=>{h+=`<div style="position:absolute;left:-4cqw;right:-4cqw;top:${y}px;border-top:1px ${i==2?'solid':'dashed'} ${p[2]};opacity:${i==2?.9:.45}"></div><div class="mono" style="position:absolute;right:-4cqw;top:${y-14}px;font-size:1.2cqw;opacity:.8">${n}${v?' · '+v+' px':''}</div>`});
- const spans=[...wd.querySelectorAll('span')];spans.forEach(s=>{const x=s.offsetLeft;h+=`<div style="position:absolute;left:${x}px;top:${baseline-cap-30}px;height:${cap+desc+60}px;border-left:1px solid ${p[2]};opacity:.3"></div><div class="mono" style="position:absolute;left:${x+4}px;top:${baseline+desc+14}px;font-size:1.15cqw;opacity:.75">${Math.round(s.offsetWidth)} px</div>`});
- const last=spans[spans.length-1];if(last)h+=`<div style="position:absolute;left:${last.offsetLeft+last.offsetWidth}px;top:${baseline-cap-30}px;height:${cap+desc+60}px;border-left:1px solid ${p[2]};opacity:.3"></div>`;
- const lay=document.createElement('div');lay.style.cssText='position:absolute;inset:0;pointer-events:none';lay.innerHTML=h;bp.appendChild(lay)}
+function blue(root,p){const bp=root.querySelector('[data-bp]'),wd=root.querySelector('[data-word]');if(!bp)return;bp.querySelectorAll('.bpl').forEach(x=>x.remove());
+ const W=bp.clientWidth,RH=root.clientHeight,RW=root.clientWidth;wd.style.fontSize='100px';const w=wd.scrollWidth||1;const fs=Math.min(100*W/w,RH*0.42);wd.style.fontSize=fs+'px';
+ const c=document.createElement('canvas').getContext('2d');c.font=`${wd.style.fontWeight||baseW(F)} ${fs}px ${fam(F)}`;
+ const mH=c.measureText('Н'),cap=mH.actualBoundingBoxAscent,xh=c.measureText('н').actualBoundingBoxAscent,desc=Math.max(c.measureText('у').actualBoundingBoxDescent,c.measureText('р').actualBoundingBoxDescent);
+ const fA=mH.fontBoundingBoxAscent||cap*1.2,fD=mH.fontBoundingBoxDescent||desc*1.2;
+ const baseline=wd.offsetTop+(wd.offsetHeight-(fA+fD))/2+fA; // точная базовая линия: полуинтерлиньяж по CSS
+ const em=v=>(v/fs).toFixed(2).replace(/^0/,'')+' em';
+ const nr=RW<700;const L=[[nr?'H':'прописные',baseline-cap,nr?'':em(cap)],[nr?'x':'строчные',baseline-xh,nr?Math.round(xh/cap*100)+'%':em(xh)+' · '+Math.round(xh/cap*100)+'%'],[nr?'база':'базовая',baseline,''],[nr?'вын.':'выносные',baseline+desc,nr?'':em(desc)]].filter(l=>l[1]>-RH);
+ const lf=Math.max(10,RW*0.0105),gap=lf*1.9;const ly=L.map(l=>l[1]);for(let i=1;i<ly.length;i++)ly[i]=Math.max(ly[i],ly[i-1]+gap); // подписи не наезжают друг на друга
+ const x0=-bp.offsetLeft+RW*0.035,x1=-RW*0.015; // колонка подписей слева от слова
+ let h='',sv='';L.forEach(([n,y,v],i)=>{const main=n==='базовая'||n==='база';
+  h+=`<div class="bpl" style="position:absolute;left:${x1}px;right:-2cqw;top:${y}px;border-top:1px ${main?'solid':'dashed'} ${p[2]};opacity:${main?.85:.4}"></div>`;
+  h+=`<div class="bpl mono" style="position:absolute;left:${x0}px;width:${x1-x0-RW*0.012}px;top:${ly[i]-lf*.7}px;font-size:${lf}px;line-height:1.3;opacity:.85;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis"><b style="font-weight:600;opacity:1">${n}</b>${v?` <span style="opacity:.6">${v}</span>`:''}</div>`;
+  if(Math.abs(ly[i]-y)>1)sv+=`<path d="M${x1-RW*0.01} ${ly[i]} L${x1} ${y}" stroke="${p[2]}" stroke-width="1" opacity=".45" fill="none"/>`});
+ h+=`<div class="bpl" style="position:absolute;left:${x1}px;right:-2cqw;top:${baseline-xh}px;height:${xh}px;background:${p[2]};opacity:.06"></div>`; // полоса высоты строчных
+ h+=`<svg class="bpl" style="position:absolute;left:0;top:0;overflow:visible;width:1px;height:1px">${sv}</svg>`;
+ // границы букв — короткие засечки под строкой, без цифр
+ const spans=[...wd.querySelectorAll('span')];const yb=baseline+desc+fs*.08;const ox=wd.offsetLeft;const edges=spans.map(s=>ox+s.offsetLeft);if(spans.length)edges.push(ox+spans[spans.length-1].offsetLeft+spans[spans.length-1].offsetWidth);
+ edges.forEach(x=>h+=`<div class="bpl" style="position:absolute;left:${x}px;top:${yb}px;height:${fs*.07}px;border-left:1px solid ${p[2]};opacity:.4"></div>`);
+ const ws=spans.map(s=>s.offsetWidth).filter(Boolean);
+ if(ws.length)h+=`<div class="bpl mono" style="position:absolute;left:${ox+spans[0].offsetLeft}px;top:${yb+fs*.1}px;font-size:${lf}px;opacity:.6;white-space:nowrap">ширина букв ${em(Math.min(...ws))} … ${em(Math.max(...ws))}</div>`;
+ const lay=document.createElement('div');lay.className='bpl';lay.style.cssText='position:absolute;inset:0;pointer-events:none';lay.innerHTML=h;bp.appendChild(lay)}
 
 
 // ---------- векторные иллюстрации (свои, рисуются кодом)
@@ -1345,17 +1364,49 @@ note(p){const ph=phrase();const w=heavyW(F);const cov=window.COVER;const ink=['#
   <div style="position:absolute;left:4cqw;bottom:2.4cqh;width:${cov?8:12}cqw;height:${cov?8:12}cqw;border:2px solid ${p[3]};border-radius:50%;display:grid;place-items:center;transform:rotate(-14deg);font:700 ${cov?1:1.5}cqw 'JetBrains Mono',monospace;color:${p[3]};text-align:center;line-height:1.2">ЭКИПАЖ<br>${new Date().getFullYear()}</div></div></div>`}}
 });
 Object.assign(TPL_NAME,{editorial:'Журнальная полоса',terminal:'Терминал',note:'Записка'});
-TPL_BY_SLOT.r169.push('editorial','terminal','note');TPL_BY_SLOT.r45.push('editorial','terminal','note');TPL_BY_SLOT.r11.push('terminal','note');TPL_BY_SLOT.r21.push('editorial','terminal');
+// ---------- шаблоны, которые показывают шрифт целиком (а не трюк вокруг одной буквы)
+function famWeights(f){const up=f[8]?f[8].filter(x=>!x[3]):[];let ws=[];if(f[2]&&f[3]<f[4])ws=WN.filter(w=>w[0]>=f[3]&&w[0]<=f[4]).map(w=>w[0]);else ws=[...new Set(up.map(x=>x[1]))].sort((a,b)=>a-b);if(!ws.length)ws=[baseW(f)];return ws}
+const wName=w=>(WN.find(x=>x[0]===w)||WN.slice().sort((a,b)=>Math.abs(a[0]-w)-Math.abs(b[0]-w))[0])[1];
+const MONO="'JetBrains Mono',monospace";
+// ширина текста при кегле 100px этим шрифтом — чтобы строку уместить в формат, а не обрезать
+const _tw=document.createElement('canvas').getContext('2d');function tw100(t,w,f){_tw.font=`${w} 100px ${fam(f||F)}`;return Math.max(1,_tw.measureText(t).width)}
+Object.assign(T,{
+spec(p){const w=baseW(F),hw=heavyW(F),cov=window.COVER,caps=CAPS.has(F[0]);const n=F[5]||famWeights(F).length;
+ const UP='АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ',LO='абвгдеёжзийклмнопрстуфхцчшщъыьэюя',NUM='0123456789 «»№₽&?!';
+ const AA=(cov?34:30)*tw100('Аа',hw)/100;const wmax=Math.max(tw100(UP,w),caps?0:tw100(LO,w),tw100(NUM,w));
+ const line=(t,st='')=>`<div style="font-size:min(${cov?9:8}cqmin,calc((100cqw - ${(13+5+AA).toFixed(1)}cqmin) * ${(100/wmax).toFixed(4)}));${st}">${esc(t)}</div>`;
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:6cqmin 6.5cqmin ${cov?'17cqh':'6cqmin'};display:flex;flex-direction:column;gap:3cqmin;overflow:hidden">
+ <div style="display:flex;justify-content:space-between;font:600 2cqmin ${MONO};letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:1.6cqmin;opacity:.8"><span>${esc(F[0])}</span><span>${esc(CAT[F[1]])} · ${n} ${plural(n)}</span></div>
+ <div style="flex:1;min-height:0;display:grid;grid-template-columns:auto 1fr;gap:5cqmin;align-items:center">
+  <div style="font-family:${ff()};font-weight:${hw};font-size:${cov?34:30}cqmin;line-height:.9;letter-spacing:-.02em;color:${p[3]}">Аа</div>
+  <div style="display:flex;flex-direction:column;justify-content:center;gap:1.2cqmin;font-family:${ff()};font-weight:${w};line-height:1.2;white-space:nowrap;overflow:hidden">
+   ${line(UP)}${caps?'':line(LO)}${line(NUM,'opacity:.7')}</div></div></div>`}},
+scale2(p){const w=baseW(F),hw=heavyW(F),cov=window.COVER;const i0=BODY.indexOf('. ');const sub=BODY.slice(0,i0+1),rest=BODY.slice(i0+2);
+ const lab=t=>`<div style="font:600 1.8cqmin ${MONO};letter-spacing:.1em;opacity:.55;padding-top:.6em">${t}</div>`;
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:6cqmin 6.5cqmin ${cov?'17cqh':'6cqmin'};display:grid;grid-template-columns:9cqmin 1fr;align-content:center;column-gap:3cqmin;row-gap:3.6cqmin;overflow:hidden">
+ ${lab('H1')}<div data-box style="font-family:${ff()};font-weight:${hw};font-size:${cov?11:12}cqmin;line-height:1;letter-spacing:-.015em;text-wrap:balance;max-height:${cov?30:38}cqh;overflow:hidden">${esc(phrase())}</div>
+ ${lab('H2')}<div style="font-family:${ff()};font-weight:${w};font-size:4.2cqmin;line-height:1.2;color:${p[3]};text-wrap:balance;max-width:92%">${esc(sub)}</div>
+ ${lab('ТЕКСТ')}<div style="font-family:${ff()};font-weight:${w};font-size:2.6cqmin;line-height:1.5;column-count:${cov?3:2};column-gap:4cqmin;opacity:.9">${esc(rest)}</div></div>`}},
+waterfall(p){const w=baseW(F),cov=window.COVER;const ph=phrase();const S=cov?[15,9.5,6,3.8]:[15,9.5,6,3.8,2.5];
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:5cqmin 6.5cqmin ${cov?'21cqh':'5cqmin'};display:flex;flex-direction:column;justify-content:space-between;overflow:hidden">
+ ${S.map((z,i)=>`<div style="display:grid;grid-template-columns:8cqmin 1fr;align-items:baseline;gap:2cqmin;border-top:${i?'1px solid':'0'} color-mix(in srgb,currentColor 25%,transparent);padding-top:${i?'.8cqmin':'0'}"><span style="font:600 1.8cqmin ${MONO};opacity:.55">${Math.round(z*6)}</span><span style="font-family:${ff()};font-weight:${w};font-size:min(${z}cqmin,calc((100cqw - 23cqmin) * ${(100/tw100(ph,w)).toFixed(4)}*${(z/S[0]).toFixed(3)}));line-height:1.12;white-space:nowrap;overflow:hidden;${i===0?'color:'+p[3]:''}">${esc(ph)}</span></div>`).join('')}</div>`}},
+weights(p){const cov=window.COVER;let ws=famWeights(F);if(ws.length>7){const k=ws.length;ws=[0,1,2,3,4,5,6].map(i=>ws[Math.round(i*(k-1)/6)]).filter((v,i,a)=>a.indexOf(v)===i)}if(typeof loadFont==='function')loadFont(F).catch(()=>{});
+ const n=ws.length,z=Math.min(12,(cov?64:80)/n/1.25);const ph=phrase();const WM=Math.max(...ws.map(x=>tw100(ph,x)));
+ return {html:`<div style="position:absolute;inset:0;background:${p[1]};color:${p[2]};padding:5cqmin 6.5cqmin ${cov?'17cqh':'5cqmin'};display:flex;flex-direction:column;justify-content:center;gap:${z*.28}cqmin;overflow:hidden">
+ ${ws.map(w=>`<div style="display:grid;grid-template-columns:16cqmin 1fr;align-items:baseline;gap:2cqmin"><span style="font:600 1.8cqmin ${MONO};opacity:.55;letter-spacing:.06em">${w} · ${esc(wName(w).toUpperCase())}</span><span style="font-family:${ff()};font-weight:${w};font-size:min(${z}cqmin,calc((100cqw - 31cqmin) * ${(100/WM).toFixed(4)}));line-height:1.1;white-space:nowrap;overflow:hidden">${esc(ph)}</span></div>`).join('')}</div>`}}
+});
+Object.assign(TPL_NAME,{spec:'Образец',scale2:'Иерархия',waterfall:'Каскад',weights:'Начертания'});
+TPL_BY_SLOT.r169.push('editorial','terminal','note','spec','waterfall','scale2');TPL_BY_SLOT.r45.push('spec','waterfall','scale2');TPL_BY_SLOT.r21.push('spec','waterfall');TPL_BY_SLOT.r45.push('editorial','terminal','note');TPL_BY_SLOT.r11.push('terminal','note');TPL_BY_SLOT.r21.push('editorial','terminal');
 const DIR={
- 'Гротеск':{fit:['swiss','use','plaque','index','marking','science','catalogcard','lockup','micro','layers','scale'],tw:['editorial','halftone','wave','note'],pal:[6,2,3,11,8,0],cover:['swiss','index','glyph','scale'],
-  how:'строгая сетка, навигация и интерфейсы — и две карточки-контраста: гротеск в журнальной полосе, в растре или от руки на записке.'},
- 'Антиква':{fit:['editorial','spread','anatomy','index','glyph','plaque','catalogcard','lockup'],tw:['halftone','wallpaper','bleed','rocketposter','terminal'],pal:[6,4,13,5,9,0],twpal:[3,1,12,2,14],cover:['editorial','spread','index','anatomy','glyph'],
-  how:'журнальная и книжная классика — и два дерзких контраста: антиква на кислотном постере, в растре, обоях или терминале.'},
- 'Акцидентный':{fit:['bleed','scale','rocketposter','wallpaper','glyph','halftone','layers','wave','lockup','orbit'],tw:['editorial','catalogcard','science','terminal'],pal:[3,1,12,2,14,10,9],cover:['bleed','scale','glyph'],
-  how:'крупно, ярко, на весь формат — и для контраста спокойная журнальная полоса, учётная карточка или терминал.'},
- 'Моно':{fit:['terminal','science','catalogcard','micro','index','marking','blueprint'],tw:['scale','wave','editorial','note'],pal:[0,8,11,3,7,6],cover:['terminal','index','science','glyph'],
+ 'Гротеск':{fit:['spec','waterfall','swiss','use','plaque','index','science','lockup','micro','layers','scale'],tw:['editorial','wave','note'],pal:[6,2,3,11,8,0],cover:['spec','scale2','waterfall','weights','editorial'],
+  how:'строгая сетка, навигация и интерфейсы — и две карточки-контраста: гротеск в журнальной полосе или от руки на записке.'},
+ 'Антиква':{fit:['spec','waterfall','editorial','spread','anatomy','index','plaque','lockup'],tw:['wallpaper','bleed','rocketposter','terminal'],pal:[6,4,13,5,9,0],twpal:[3,1,12,2,14],cover:['spec','scale2','editorial','spread','waterfall','weights'],
+  how:'журнальная и книжная классика — и два дерзких контраста: антиква на кислотном постере, в обоях или терминале.'},
+ 'Акцидентный':{fit:['spec','waterfall','bleed','scale','rocketposter','wallpaper','layers','wave','lockup'],tw:['editorial','science','terminal'],pal:[3,1,12,2,14,10,9],cover:['spec','waterfall','scale2','plaque'],
+  how:'крупно, ярко, на весь формат — и для контраста спокойная журнальная полоса, бортовой отчёт или терминал.'},
+ 'Моно':{fit:['spec','waterfall','terminal','science','micro','index','blueprint'],tw:['scale','wave','editorial','note'],pal:[0,8,11,3,7,6],cover:['spec','terminal','waterfall','weights','scale2'],
   how:'терминал, отчёты и маркировка — и для контраста моно как огромный плакатный шрифт или журнальная полоса.'},
- 'Рукописный':{fit:['note','use','plaque','lockup','glyph','wave'],tw:['science','catalogcard','terminal','swiss'],pal:[6,10,7,9,14,5],cover:['note','glyph'],
+ 'Рукописный':{fit:['spec','waterfall','note','use','plaque','lockup','wave'],tw:['science','terminal','swiss'],pal:[6,10,7,9,14,5],cover:['spec','note','waterfall','scale2'],
   how:'записки, открытки и вывески — и для контраста рукопись в строгой анкете, бортовом отчёте или терминале.'}};
 function dirOf(f){return DIR[f[1]]||DIR['Гротеск']}
 function dirPick(slot,tw,used,len){const d=dirOf(F);const sp=TPL_BY_SLOT[slot];const ok=x=>typeof ruleOk!=='function'||ruleOk(x,len||0);let pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x)&&!used.includes(x)&&ok(x));if(!pool.length)pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x)&&ok(x));if(!pool.length)pool=(tw?d.tw:d.fit).filter(x=>sp.includes(x));if(!pool.length)pool=sp.filter(x=>!used.includes(x));return R(pool.length?pool:sp)}
@@ -2005,12 +2056,12 @@ function heroHTML(df){const P=esc(PHRASE||DEF);
 function fitLine(el){const W=el.parentElement.clientWidth;const H=el.parentElement.clientHeight;el.style.fontSize='100px';const w=el.scrollWidth||1;el.style.fontSize=Math.min(100*W/w*0.98,H*0.9)+'px'}
 function heroInit(df){clearInterval(heroTimer);
  const hp=$('#hph');if(hp)hp.oninput=e=>{setPhrase(e.target.value);const ph=$('#ph');if(ph)ph.value=e.target.value;document.querySelectorAll('.card .pv:not(.scv):not(.av):not(.lv):not(.hv)').forEach(x=>x.textContent=nb3(PHRASE||DEF));heroPhrase()};
- if(HERO===1){const VT=['swiss','index','glyph','plaque','catalogcard','science','marking','halftone','orbit','letterfield','rhythm'];const used=new Set();
+ if(HERO===1){const VT=['spec','scale2','waterfall','editorial','plaque','letterfield'];const used=new Set();
   const step=(ci,force)=>{const card=document.querySelector(`.h4c[data-i="${ci}"]`);if(!card)return;if(card._busy&&!force)return;card._busy=true;const tok=card._tok=(card._tok||0)+1;let f;do{f=R(SHOW)}while(used.has(f[0])&&used.size<SHOW.length-3);used.add(f[0]);if(used.size>6)used.delete([...used][0]);
    const on=card.querySelector('.h4l.on')||card.querySelector('.h4l.b');const off=on.classList.contains('a')?card.querySelector('.h4l.b'):card.querySelector('.h4l.a');
    const done=()=>{if(card._tok===tok)card._busy=false};Promise.race([loadFont(f),new Promise((_,j)=>setTimeout(j,4000))]).then(()=>{if(card._tok!==tok)return;compose(off,f,R(VT),Math.floor(Math.random()*PAL.length));setTimeout(()=>{if(card._tok!==tok)return;done();off.classList.add('on');on.classList.remove('on');card.href='#/font/'+slug(f[0]);const n=document.querySelector(`.h4n[data-i="${ci}"]`);if(n)n.innerHTML=`<a href="#/font/${slug(f[0])}">${esc(f[0])} →</a> <small>${CAT[f[1]]}</small>`},350)}).catch(done)};
   [0,1,2].forEach(ci=>step(ci));let k=0;heroTimer=setInterval(()=>{step(k%3);k++},2600);$('#rnd').onclick=()=>[0,1,2].forEach(ci=>step(ci,true));window._heroRedraw=()=>[0,1,2].forEach(ci=>step(ci,true))}
- if(HERO===2){const draw=()=>{const used=[];document.querySelectorAll('.h2t').forEach((t,i)=>{let f;do{f=R(SHOW)}while(used.includes(f)&&used.length<SHOW.length);used.push(f);t.href='#/font/'+slug(f[0]);const tpl=R(['plaque','orbit','halftone','index','glyph','letterfield','marking','swiss','micro']);const pi=Math.floor(Math.random()*PAL.length);loadFont(f).then(()=>compose(t,f,tpl,pi)).catch(()=>{})})};draw();$('#rnd').onclick=draw;window._heroRedraw=draw}
+ if(HERO===2){const draw=()=>{const used=[];document.querySelectorAll('.h2t').forEach((t,i)=>{let f;do{f=R(SHOW)}while(used.includes(f)&&used.length<SHOW.length);used.push(f);t.href='#/font/'+slug(f[0]);const tpl=R(['spec','scale2','waterfall','plaque','letterfield','editorial']);const pi=Math.floor(Math.random()*PAL.length);loadFont(f).then(()=>compose(t,f,tpl,pi)).catch(()=>{})})};draw();$('#rnd').onclick=draw;window._heroRedraw=draw}
  if(HERO===3){const sky=$('#hsky');const pool=[...SHOW,...FONTS.filter(f=>!SHOW.includes(f)).sort(()=>Math.random()-.5).slice(0,14)];
   sky.innerHTML=pool.map((f,i)=>{const x=(i*37.3%92)+4,y=((i*61.7)%86)+6;if(x>30&&x<70&&y>28&&y<72)return '';return `<a class="star3" href="#/font/${slug(f[0])}" style="left:${x}%;top:${y}%" data-n="${esc(f[0])}"><i></i><span style="font-family:${fam(f)}">${esc(f[0])}</span><b style="font-family:${fam(f)}">${esc(PHRASE||DEF)}</b></a>`}).join('');
   pool.forEach(f=>loadFont(f).catch(()=>{}));$('#rnd').onclick=()=>{location.hash='#/font/'+slug(R(FONTS)[0])}}
@@ -2720,9 +2771,9 @@ function fontPage(f){
  <section class="sec" id="s07"><div class="sh"><h2><span>07</span>Шрифт в жизни</h2><div style="display:flex;gap:6px;align-items:center"><small style="margin-right:8px">как он выглядит на вещах</small><button class="pill soft" type="button" id="lp">◐ Цвета</button></div></div>
  <div class="life">${LIFE.map(([k,n],i)=>`<figure><div class="lifet tile" id="lf${i}" data-t="${k}"><div class="art"></div></div><figcaption>${n}</figcaption></figure>`).join('')}</div></section>
  <section class="sec ${VAR!=='c'?'stars':''}" id="s08"><div class="sh"><h2><span>08</span>Созвездия</h2><small>с чем сочетать · заголовок + текст</small></div><div class="pgrid pg3" id="fpairs">${pairsFor(f,3).map(([w,a,b,t])=>pairCard(w,a,b,'site',1,t)).join('')}</div><a class="pill soft" style="margin-top:12px;display:inline-flex" href="#/pairs?f=${slug(f[0])}">Больше пар и шаблоны: слайд, афиша, рилс →</a></section>
- <section class="sec" id="s09"><div class="sh"><h2><span>09</span>Кириллица</h2><small>нажми на букву · смотри на Ж, Д, Л, Ы</small></div>
- <div class="glyph"><div class="g" id="gbig" style="font-family:${fam(f)};font-weight:${baseW(f)}">Ж</div><div class="i" id="ginf">Ж<br>U+0416<br>${esc(f[0])}</div></div>
- <div class="cyr" style="font-family:${fam(f)}">${[...CYR].map(c=>`<button type="button" class="${'ЖДЛЫ'.includes(c)?'hl':''}">${c}</button>`).join('')}</div></section>
+ <section class="sec" id="s09"><div class="sh"><h2><span>09</span>Кириллица</h2><small>нажми на букву · точкой отмечены сложные: Ж, Д, Л, Ы</small></div>
+ <div class="cyr2"><div class="cyp"><div class="g" id="gbig" style="font-family:${fam(f)};font-weight:${baseW(f)}">Ж</div><div class="gi"><div><div class="mono" id="ginf">Ж · U+0416</div><p id="gnote">${NOTES['Ж']}</p></div><div class="pr" id="gpr" style="font-family:${fam(f)};font-weight:${baseW(f)}">Жж</div></div></div>
+ <div class="cyr" style="font-family:${fam(f)};font-weight:${baseW(f)}">${[['ПРОПИСНЫЕ',CYR.slice(0,33)],...(CAPS.has(f[0])?[]:[['СТРОЧНЫЕ',CYR.slice(33,66)]]),['ЦИФРЫ И ЗНАКИ',CYR.slice(66)]].map(([t,g])=>`<div class="grp"><span>${t} · ${[...g].length}</span><div class="row">${[...g].map(c=>`<button type="button" class="${'ЖДЛЫждлы'.includes(c)?'hl':''}${c==='Ж'?' on':''}" aria-label="${esc(c)}">${esc(c)}</button>`).join('')}</div></div>`).join('')}</div></div></section>
  <section class="sec" id="s10"><div class="sh"><h2><span>10</span>Лицензия и установка</h2></div><div class="lic2"><div class="a ${licInfo(f).ok?'':'lq'}"><div style="font-weight:500;font-size:13px">● ${licInfo(f).b}</div><p>${licInfo(f).t}</p>${licInfo(f).a}</div>
  <div class="b"><div style="font-weight:500;margin-bottom:8px">Как установить</div><div><b>Mac:</b> открой файл .ttf → «Установить».</div><div><b>Windows:</b> правый клик → «Установить для всех».</div><div><b>Figma:</b> после установки перезапусти приложение.</div><div style="margin-top:10px;color:var(--mut)">Нашёл ошибку в лицензии? <a href="https://t.me/perasperaschool" target="_blank" rel="noopener" style="text-decoration:underline">Напиши нам</a></div></div></div></section>
  <section class="sec" id="s11"><div class="sh"><h2><span>11</span>Похожие шрифты</h2></div><div class="sim">${similarFor(f).map(x=>`<a class="card" href="#/font/${slug(x[0])}"><div class="pv ld" data-n="${esc(x[0])}" style="font-family:${fam(x)};font-weight:${baseW(x)};--csz:34px">${esc(PHRASE||DEF)}</div><div class="ft"><span>${esc(x[0])} <small>· ${x[5]} ${plural(x[5])}</small></span><span style="font-size:12px;color:var(--mut)">● для клиента</span></div></a>`).join('')}</div></section>
@@ -2732,9 +2783,9 @@ function fontPage(f){
  <div class="mbar"><button class="pill soft" type="button" id="mfv">☆</button><a class="pill soft" href="#s05">Образцы</a><a class="pill dark" href="${gl}" target="_blank" rel="noopener" data-dl="1">Скачать</a></div>`;
  similarFor(f).forEach(x=>loadFont(x).catch(()=>{}));pairsFor(f,3).forEach(x=>loadFont(x[2]).catch(()=>{}));
  // обложка
- const kF=F;F=f;coverT={tpl:R(dirOf(f).cover),pal:dirPal(false,[])};F=kF;
+ const kF=F;F=f;coverT={tpl:'spec',pal:dirPal(false,[])};/* первая обложка — образец: Аа и весь алфавит */F=kF;
  const drawCover=()=>compose($('#cover'),f,coverT.tpl,coverT.pal);
- drawCover();const cvNext=()=>{const o=coverT.tpl;const cl=[...dirOf(f).cover,'rhythm'];do{coverT.tpl=R(cl)}while(coverT.tpl===o&&cl.length>1);coverT.pal=Math.floor(Math.random()*PAL.length);const cv=$('#cover');if(!cv)return;cv.classList.add('fade');setTimeout(()=>{drawCover();cv.classList.remove('fade');cvBar()},450)};
+ drawCover();const cvNext=()=>{const o=coverT.tpl;const cl=dirOf(f).cover.filter(t=>t!=='weights'||famWeights(f).length>=3);do{coverT.tpl=R(cl)}while(coverT.tpl===o&&cl.length>1);coverT.pal=Math.floor(Math.random()*PAL.length);const cv=$('#cover');if(!cv)return;cv.classList.add('fade');setTimeout(()=>{drawCover();cv.classList.remove('fade');cvBar()},450)};
  const cvBar=()=>{const b=$('#cover .cvp');if(!b)return;b.style.animation='none';void b.offsetWidth;b.style.animation=''};
  $('#cv').onclick=()=>{cvNext();cvT0=Date.now()};let cvT0=Date.now();clearInterval(window._cvT);
  window._cvT=setInterval(()=>{const cv=$('#cover');if(!cv||!location.hash.startsWith('#/font/')){clearInterval(window._cvT);return}if(document.hidden||matchMedia('(prefers-reduced-motion: reduce)').matches||cv.matches(':hover')||cv.querySelector('[contenteditable]:focus'))return;if(Date.now()-cvT0>=8000){cvT0=Date.now();cvNext()}},500);
@@ -2762,7 +2813,9 @@ function fontPage(f){
  $('#sw').onclick=e=>{const b=e.target.closest('button[data-p]');if(!b)return;const p=PAL[+b.dataset.p];to.style.background=p[1];to.style.color=p[2];document.querySelectorAll('#sw button').forEach(x=>x.classList.toggle('on',x===b))};
  document.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>to.style.textAlign=b.dataset.a);
  // кириллица
- document.querySelector('.cyr').onclick=e=>{const b=e.target.closest('button');if(!b)return;const c=b.textContent;$('#gbig').textContent=c;$('#ginf').innerHTML=`${esc(c)}<br>U+${c.charCodeAt(0).toString(16).toUpperCase().padStart(4,'0')}<br>${esc(f[0])}`};
+ {const cy=document.querySelector('.cyr');const show=b=>{const c=b.textContent;$('#gbig').textContent=c;$('#ginf').textContent=`${c} · U+${c.charCodeAt(0).toString(16).toUpperCase().padStart(4,'0')}`;const u=c.toUpperCase(),l=c.toLowerCase();$('#gpr').textContent=u!==l?u+l:c;$('#gnote').textContent=NOTES[c]||''};
+ cy.onclick=e=>{const b=e.target.closest('button');if(!b)return;cy.querySelectorAll('button.on').forEach(x=>x.classList.remove('on'));b.classList.add('on');show(b)};
+ cy.onmouseover=e=>{const b=e.target.closest('button');if(b)show(b)};cy.onmouseleave=()=>{const b=cy.querySelector('button.on');if(b)show(b)}}
  document.querySelectorAll('[data-tg]').forEach(b=>b.onclick=()=>tgSend(f));
  // своя фраза: пересобирает страницу
  const rw=$('#rw');const drawRW=()=>{rw.innerHTML=(PHRASE||DEF).split(/\s+/).map(w=>`<span>${esc(w)}</span>`).join(' ');revealTick()};drawRW();
@@ -2848,7 +2901,7 @@ function swPick(skip){const pool=FONTS.filter(f=>!(f[0] in SW.seen)&&f!==skip);i
  if(n<7){const order=['Акцидентный','Антиква','Гротеск','Рукописный','Акцидентный','Моно','Антиква'];const p=fresh.filter(f=>f[1]===order[n]);return R(p.length?p:fresh.length?fresh:pool)}
  if(Math.random()<.22)return R(fresh.length?fresh:pool);
  return pool.map(f=>[f,swScore(f)+(isStd(f)?-1.5:0)+Math.random()*1.2]).sort((a,b)=>b[1]-a[1])[0][0]}
-const SWT=['swiss','glyph','plaque','index','catalogcard','marking','halftone','letterfield','rhythm','science','orbit'];
+const SWT=['spec','scale2','waterfall','plaque','letterfield','editorial'];
 function swipe(){
  app.innerHTML=`<div class="wrap sw2"><div>
   <div class="mono" style="font-size:11px;color:var(--mut)">★ СВАЙП ШРИФТОВ · ${Object.keys(SW.seen).length} ОЦЕНЕНО</div>
