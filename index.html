@@ -244,6 +244,7 @@ body{background-color:var(--pap)}
 .vsw button{border:0;background:transparent;color:#F1EFEA;font:500 12px 'Golos Text';padding:7px 12px;border-radius:999px}
 .vsw button.on{background:#F1EFEA;color:#0C0B0D}
 .binfo{margin:16px 0 0;border-radius:calc(var(--rk,1)*22px);background:var(--bg);color:var(--fg);padding:22px 24px;display:grid;grid-template-columns:1.4fr 1fr;gap:10px 28px}.binfo .mono{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.06em;opacity:.75}.binfo .bi-h{grid-column:1/-1}.binfo .bi-t{font-size:19px;line-height:1.4;margin:0}.binfo .bi-c{display:grid;gap:12px}.binfo .bi-c p{margin:4px 0 0;font-size:15px;line-height:1.4}@media(max-width:900px){.binfo{grid-template-columns:1fr}}
+.grid>.card{content-visibility:auto;contain-intrinsic-size:auto 320px}
 .bays{margin:34px 0 6px}.bays .bh{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px}.bays .bh h2{font-size:clamp(30px,4vw,48px);font-weight:500;letter-spacing:-.02em;margin:0}.bays .bh .mono{font-size:11px;color:var(--mut)}
 .bgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .bay{position:relative;aspect-ratio:1/1.02;border-radius:calc(var(--rk,1)*22px);padding:16px 18px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;cursor:pointer;text-align:left;border:0;font:inherit;color:var(--fg);background:var(--bg);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
@@ -716,10 +717,11 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 const loaded={};
 function wq(f){return f[2]&&f[3]<f[4]?`:wght@${f[3]}..${f[4]}`:(f[3]>400?`:wght@${f[3]}`:'')}
 const REPO=location.hostname==='fonts.perasperadastra.ru'?location.origin+'/':location.hostname==='perasperadastranew.github.io'?location.origin+'/fonts/':'https://fonts.perasperadastra.ru/';
-function loadFont(f){
+/* only — вес одного нужного начертания (шапка, отсеки): грузим один файл вместо двух */
+function loadFont(f,only){
  if(loaded[f[0]])return loaded[f[0]];
- if(f[7]){const full=/^#\/(font|compare)/.test(location.hash)||f[8].length<=2;const hv=SET==='druk';const K=f[0]+(full?'':hv?'~h':'~');if(loaded[K])return loaded[K];if(!full&&loaded[f[0]])return loaded[f[0]];
- const up=f[8].filter(x=>!x[3]);const near=w=>up.slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-w)-Math.abs((b[1]+b[2])/2-w))[0];const pick=full?f[8]:[...new Set([near(400),near(hv?950:700)].filter(Boolean))];const faces=pick.length?pick:f[8].slice(0,1);
+ if(f[7]){const full=/^#\/(font|compare)/.test(location.hash);const hv=SET==='druk';const K=f[0]+(full?'':only?'@'+only:hv?'~h':'~');if(loaded[K])return loaded[K];if(!full&&(loaded[f[0]+'~']||loaded[f[0]+'~h']))return loaded[f[0]+'~']||loaded[f[0]+'~h'];
+ const up=f[8].filter(x=>!x[3]);const near=w=>(up.length?up:f[8]).slice().sort((a,b)=>Math.abs((a[1]+a[2])/2-w)-Math.abs((b[1]+b[2])/2-w))[0];/* вне страницы шрифта курсив не нужен — только прямые */const nearI=()=>f[8].filter(x=>x[3]).sort((a,b)=>Math.abs((a[1]+a[2])/2-400)-Math.abs((b[1]+b[2])/2-400))[0];const pick=full?f[8]:only==='i'?[near(400),nearI()].filter(Boolean):only?[near(only)]:[...new Set([near(400),near(hv?950:700)].filter(Boolean))];const faces=pick.length?pick:f[8].slice(0,1);
  loaded[K]=Promise.all(faces.map(x=>{const fc=new FontFace(f[0],(x[4]?`url("${REPO}web/${f[7]}/${encodeURIComponent(x[0].replace(/\.(ttf|otf)$/i,".woff2"))}") format("woff2")`:`url("${REPO}fonts/${f[7]}/${encodeURIComponent(x[0])}")`),{weight:x[1]===x[2]?String(x[1]):`${x[1]} ${x[2]}`,style:x[3]?'italic':'normal'});return fc.load().then(r=>{document.fonts.add(r);return r}).catch(()=>null)})).then(r=>r.some(Boolean)?true:Promise.reject());return loaded[K]}
  const l=document.createElement('link');l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family='+encodeURIComponent(f[0]).replace(/%20/g,'+')+wq(f)+'&display=block';
  loaded[f[0]]=new Promise((ok,no)=>{l.onload=()=>Promise.all([document.fonts.load(`${heavyW(f)} 40px "${f[0]}"`,'ЖжДдAa'),document.fonts.load(`${baseW(f)} 40px "${f[0]}"`,'ЖжДдAa')]).then(r=>r[1].length?ok():no()).catch(no);l.onerror=no});
@@ -2060,7 +2062,7 @@ function heroInit(df){clearInterval(heroTimer);
   const step=(ci,force)=>{const card=document.querySelector(`.h4c[data-i="${ci}"]`);if(!card)return;if(card._busy&&!force)return;card._busy=true;const tok=card._tok=(card._tok||0)+1;let f;do{f=R(SHOW)}while(used.has(f[0])&&used.size<SHOW.length-3);used.add(f[0]);if(used.size>6)used.delete([...used][0]);
    const on=card.querySelector('.h4l.on')||card.querySelector('.h4l.b');const off=on.classList.contains('a')?card.querySelector('.h4l.b'):card.querySelector('.h4l.a');
    const done=()=>{if(card._tok===tok)card._busy=false};Promise.race([loadFont(f),new Promise((_,j)=>setTimeout(j,4000))]).then(()=>{if(card._tok!==tok)return;compose(off,f,R(VT),Math.floor(Math.random()*PAL.length));setTimeout(()=>{if(card._tok!==tok)return;done();off.classList.add('on');on.classList.remove('on');card.href='#/font/'+slug(f[0]);const n=document.querySelector(`.h4n[data-i="${ci}"]`);if(n)n.innerHTML=`<a href="#/font/${slug(f[0])}">${esc(f[0])} →</a> <small>${CAT[f[1]]}</small>`},350)}).catch(done)};
-  [0,1,2].forEach(ci=>step(ci));let k=0;heroTimer=setInterval(()=>{step(k%3);k++},2600);$('#rnd').onclick=()=>[0,1,2].forEach(ci=>step(ci,true));window._heroRedraw=()=>[0,1,2].forEach(ci=>step(ci,true))}
+  [0,1,2].forEach(ci=>step(ci));let k=0;heroTimer=setInterval(()=>{if(document.hidden||scrollY>innerHeight*.8)return;/* не видно — не крутим и не грузим шрифты */step(k%3);k++},2600);$('#rnd').onclick=()=>[0,1,2].forEach(ci=>step(ci,true));window._heroRedraw=()=>[0,1,2].forEach(ci=>step(ci,true))}
  if(HERO===2){const draw=()=>{const used=[];document.querySelectorAll('.h2t').forEach((t,i)=>{let f;do{f=R(SHOW)}while(used.includes(f)&&used.length<SHOW.length);used.push(f);t.href='#/font/'+slug(f[0]);const tpl=R(['spec','scale2','waterfall','plaque','letterfield','editorial']);const pi=Math.floor(Math.random()*PAL.length);loadFont(f).then(()=>compose(t,f,tpl,pi)).catch(()=>{})})};draw();$('#rnd').onclick=draw;window._heroRedraw=draw}
  if(HERO===3){const sky=$('#hsky');const pool=[...SHOW,...FONTS.filter(f=>!SHOW.includes(f)).sort(()=>Math.random()-.5).slice(0,14)];
   sky.innerHTML=pool.map((f,i)=>{const x=(i*37.3%92)+4,y=((i*61.7)%86)+6;if(x>30&&x<70&&y>28&&y<72)return '';return `<a class="star3" href="#/font/${slug(f[0])}" style="left:${x}%;top:${y}%" data-n="${esc(f[0])}"><i></i><span style="font-family:${fam(f)}">${esc(f[0])}</span><b style="font-family:${fam(f)}">${esc(PHRASE||DEF)}</b></a>`}).join('');
@@ -2592,9 +2594,11 @@ function bayInfoHTML(){return '';const k=FLT.vf?'vf':FLT.it?'it':CATSEL;const x=
 function baysInit(){clearInterval(BAYT);const els=[...document.querySelectorAll('.bay')];if(!els.length)return;
  const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;const RCH='ЖДФЯЫЮЪЙЩ&?№Ё';
  const st=els.map((el,i)=>{const b=BAYS[+el.dataset.bay];const pool=bayPool(b);const s={el,b,pool,ready:[],i:0,hov:false,burst:0,hold:8+Math.floor(Math.random()*20),g:el.querySelector('.gl'),fn:el.querySelector('.fn')};
-  pool.forEach(f=>loadFont(f).then(()=>{s.ready.push(f);if(s.ready.length===1)frame(s,false)}).catch(()=>{}));return s});
+  /* шрифты отсека грузим не все сразу (раньше ~120 шрифтов, 7 МБ на старте), а по одному наперёд */
+  s.next=0;s.more=()=>{if(s.busy||s.next>=pool.length)return;s.busy=1;const f=pool[s.next++];const bw=b.k==='it'?'i':b.k==='vf'?700:f[1]==='Рукописный'?baseW(f):Math.min(f[4],Math.max(f[3],700));loadFont(f,bw).then(()=>{s.ready.push(f);if(s.ready.length===1)frame(s,false)}).catch(()=>{}).finally(()=>{s.busy=0;if(s.ready.length<2)s.more()})};
+  s.more();return s});
  // кадр: мгновенная смена, без плавности; во время «рывка» — сдвиг, масштаб и инверсия
- function frame(s,glitch){if(!s.ready.length)return;s.i=(s.i+1+Math.floor(Math.random()*2))%s.ready.length;const f=s.ready[s.i],g=s.g;
+ function frame(s,glitch){if(s.more)s.more();if(!s.ready.length)return;s.i=(s.i+1+Math.floor(Math.random()*2))%s.ready.length;const f=s.ready[s.i],g=s.g;
   g.style.fontFamily=fam(f);g.style.fontStyle='normal';
   if(s.b.k==='vf'){const lo=Math.ceil(f[3]/100)*100,hi=Math.floor(f[4]/100)*100;const wv=lo+100*Math.floor(Math.random()*((hi-lo)/100+1));g.style.fontWeight=wv;g.style.fontVariationSettings=`'wght' ${wv}`}
   else g.style.fontWeight=f[1]==='Рукописный'?baseW(f):Math.min(f[4],Math.max(f[3],700));
@@ -2726,7 +2730,7 @@ function logoInit(){const w=document.querySelector('.lgw');if(!w||w._on)return;w
    const ch=XH*K,cap=ch*.3,N=24;let sum=0,n=0,mn=1e9;
    for(let j=1;j<N;j++){const dy=Math.round(j/N*ch),r=p.R[p.by-dy],l=q.L[q.by-dy];if(r!=null&&l!=null)mn=Math.min(mn,r+l);if(r==null&&l==null)continue;sum+=Math.min(r==null?cap:r,cap)+Math.min(l==null?cap:l,cap);n++}
    if(!n)continue;let d=(GAP*K-sum/n);if(mn<1e9)d=Math.max(d,K*1.5-mn);L[i].style.marginRight=(d/K).toFixed(2)+'px'}};
- const set=(el)=>{let f;do{f=pool[Math.floor(Math.random()*pool.length)]}while(pool.length>L.length&&L.some(o=>o!==el&&o._f===f));el._f=f;const wt=heavyW(f);loadFont(f).then(()=>{el.style.fontFamily=fam(f);el.style.fontWeight=wt;const fs=size(f,wt);el.style.fontSize=fs.toFixed(1)+'px';respace();el.classList.remove('sw');void el.offsetWidth;el.classList.add('sw')}).catch(()=>{})};
+ const set=(el)=>{let f;do{f=pool[Math.floor(Math.random()*pool.length)]}while(pool.length>L.length&&L.some(o=>o!==el&&o._f===f));el._f=f;const wt=heavyW(f);loadFont(f,wt).then(()=>{el.style.fontFamily=fam(f);el.style.fontWeight=wt;const fs=size(f,wt);el.style.fontSize=fs.toFixed(1)+'px';respace();el.classList.remove('sw');void el.offsetWidth;el.classList.add('sw')}).catch(()=>{})};
  L.forEach(set);let k=0;const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;if(!RM)setInterval(()=>{if(document.hidden)return;set(L[k%L.length]);k++},1800);
  w.parentElement.addEventListener('mouseenter',()=>L.forEach((el,i)=>setTimeout(()=>set(el),i*70)))}
 function bsod(name){if(document.getElementById('bsod'))return;const code=name.toUpperCase().replace(/\s+/g,'_')+'_DETECTED';const o=document.createElement('div');o.id='bsod';o.setAttribute('role','alertdialog');o.setAttribute('aria-label','Шуточный синий экран');o.innerHTML=`<div class="bs"><div class="bsf">:(</div><p class="bsl">В вашем проекте возникла проблема: вы открыли ${name}. Мы собираем сведения о том, как вы до этого дошли, и затем перезапустим вашу насмотренность.</p><p class="bsp"><span id="bsn">0</span>% выполнено</p><div class="bsr"><div class="bsq" aria-hidden="true"></div><div><p>Чтобы узнать больше, найдите в интернете слова «шаблон из конструктора сайтов». Или просто возьмите Unbounded, Manrope или Onest.</p><p>Если вы позвоните в службу поддержки, назовите этот код:<br>Код остановки: ${code}</p><p class="bsk">Нажмите любую клавишу или кликните, чтобы всё равно посмотреть шрифт</p></div></div></div>`;document.body.appendChild(o);document.documentElement.style.overflow='hidden';let n=0;const t=setInterval(()=>{n=Math.min(100,n+Math.ceil(Math.random()*9));const e=document.getElementById('bsn');if(e)e.textContent=n;if(n>=100)clearInterval(t)},180);const close=()=>{clearInterval(t);o.remove();document.documentElement.style.overflow='';removeEventListener('keydown',close)};setTimeout(()=>{o.onclick=close;addEventListener('keydown',close)},700);setTimeout(close,10000)}
@@ -2968,4 +2972,5 @@ $('#nDay').href='#/font/'+slug(dayFont()[0]);
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="'+REPO+'#/font/"]');if(!a||!F||!F[7])return;e.preventDefault();dlRepo(F,a)},true);
 route();
 </script>
+<script>if('serviceWorker'in navigator&&location.protocol==='https:')addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}))</script>
 </body></html>
