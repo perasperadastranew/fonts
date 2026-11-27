@@ -11,13 +11,14 @@ JS=r"""()=>{const fe=n=>(typeof FEAT!=='undefined'&&FEAT[n])||null;
 return {sets:SETS.map(s=>({id:s[0],name:s[1],about:s[2]})),scen:SCEN.map(s=>({id:s[0],name:s[1],about:s[2]})),
 moods:FMOODS.map(m=>({id:m[0],name:m[1],about:m[2]})),
 fonts:FONTS.map(f=>{const e=fe(f[0]);return {n:f[0],c:f[1],vf:f[2],w:[f[3],f[4]],st:f[5],it:f[6],s:f[7],fa:f[8],lic:f[10],a:f[11],src:f[12],
- scen:scenOf(f).map(x=>x[0]),mood:e&&e.mood||[],rd:e?e.rd:null,sim:e&&e.sim||[],sets:SETS.filter(s=>s[3].includes(f[0])).map(s=>s[0])}})}}"""
+ scen:scenOf(f).map(x=>x[0]),mood:e&&e.mood||[],rd:e?e.rd:null,sim:(window.PAGE&&PAGE.sim[f[0]])||e&&e.sim||[],sets:SETS.filter(s=>s[3].includes(f[0])).map(s=>s[0])}})}}"""
 async def extract(port):
     from playwright.async_api import async_playwright
     async with async_playwright() as p:
         exe='/usr/bin/google-chrome' if os.path.exists('/usr/bin/google-chrome') else None
         b=await p.chromium.launch(executable_path=exe,args=['--no-sandbox'])
         pg=await b.new_page(); await pg.goto(f'http://127.0.0.1:{port}/'); await pg.wait_for_timeout(1500)
+        await pg.evaluate("async()=>{window.PAGE=await fetch('/page.json').then(r=>r.json())}")  # «похожие» и история живут в page.json
         d=await pg.evaluate(JS); await b.close(); return d
 def terms(slug):
     p=os.path.join(CACHE,slug+'.zip')

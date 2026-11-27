@@ -42,6 +42,11 @@ def load_site():
     s = open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
     fonts = js_value(s, 'FONTS')
     feat = js_value(s, 'FEAT') or {}
+    # «похожие» вынесены в page.json (tools/split_page_data.js) — подмешиваем обратно для проверки
+    _pj = os.path.join(ROOT, 'page.json')
+    if os.path.exists(_pj):
+        for _n, _sim in json.load(open(_pj, encoding='utf-8')).get('sim', {}).items():
+            feat.setdefault(_n, {})['sim'] = _sim
     met = js_value(s, 'MET') or {}
     i = s.find('const SETS=')
     j = s.find('\nlet SET=', i)
