@@ -2,6 +2,8 @@
 
 Сайт fonts.perasperadastra.ru — один файл `index.html` (GitHub Pages из ветки main).
 Данные шрифтов живут прямо в нём: `const FONTS`, `FEAT`, `MET`, `HIST`, `SETS`, `CAPS`, `STUB`.
+История (`HIST`) и «похожие» (`FEAT[...].sim`) вынесены в `page.json` — они нужны только странице шрифта. Если они снова появились в index.html (правили там), запустить `node tools/split_page_data.js`: вынесет их и обновит `PAGEV`.
+`sw.js` кэширует в браузере только `web/**/*.woff2`. Если файл шрифта заменили под тем же именем — поднять `CACHE` в sw.js (`pada-fonts-v2`).
 Веб-версии шрифтов — `web/<slug>/*.woff2` (урезанный набор знаков), оригиналы — архивы `<slug>.zip` в ветке `files`.
 
 ## Перед каждым пушем — автопроверка
